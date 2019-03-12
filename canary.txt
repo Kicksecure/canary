@@ -42,7 +42,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 12 Mar 2019 11:44:28 +0000
+Tue, 12 Mar 2019 11:46:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Migration Nightmare: Why Germany's Deportation System Is Failing Everyone
@@ -66,13 +66,13 @@ Title: Venezuela: US withdraws all staff from Caracas embassy
 Title: Hakeem al-Araibi, refugee footballer, gets Australian citizenship
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
+Title: Assault on Islamic State enclave is as good as over-SDF
+Title: Brexit hangs in balance as parliament to vote on May's tweaked deal
 Title: Thousands demand quick change in Algeria after Bouteflika concessions
 Title: Global Boeing fears grow, families await Ethiopia crash remains
 Title: Ethiopia crash bodies will take days to release
-Title: Frenchman convicted to life in Jewish museum attack, tells jury 'life goes on!'
-Title: Irish PM: Brexit backstop not undermined by additional assurances
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
 0000000000000000000c2e25aed17463621249eedaaf05c71fa57376b1e10ea9
