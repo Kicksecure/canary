@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 13 Mar 2019 12:43:41 +0000
+Thu, 21 Mar 2019 08:57:59 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Patronizing, Frustrating and Divisive: The Shortcomings of Merkel's European Policies
-Title: Risk of No Deal Brexit Grows 'Significantly': EU Politicians Believe Withdrawal Agreement Is Dead
-Title: A Migration Nightmare: Why Germany's Deportation System Is Failing Everyone
-Title: House of Hope: Battling the Devastation of America's Opioid Crisis
-Title: A German Prisoner's Account: Forced Labor and Torture in a Chinese Jail
+Title: Cursed and Sold: Voodoo Spells and Forced Prostitution in Germany
+Title: The Climate Activist vs. the Economics Minister: 'My Generation Has Been Fooled'
+Title: Brexit Delay: 'Why Would We Extend These Discussions?'
+Title: Theresa May's Brexit Disaster: The Prime Minister of Humiliation
+Title: Aerospace Turbulence: Boeing's Unsuccessful Attempt to Avert a Crisis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: New Brexit Defeat Plunges U.K.s Theresa May Into Crisis
-Title: Live Briefing: Ethiopian Airlines Crash Updates: Ethiopia to Send Black Boxes Abroad for Analysis
-Title: Cardinal George Pell of Australia Sentenced to Six Years in Prison
-Title: The Interpreter: Algeria Tests Path Toward Democracy in an Era of Authoritarianism
-Title: Activist Accused of Inciting Hatred Helped Kazakhs Flee Chinas Camps
+Title: Confusion, Then Prayer, in Cockpit of Doomed Lion Air Jet
+Title: New Zealand to Ban Military-Style Semiautomatic Guns, Jacinda Ardern Says
+Title: Rescuers Battle Flooding in Desperate Bid to Save Cyclone Victims
+Title: E.U. Officials Agree to Brexit Delay, but With Conditions
+Title: The New Zealand Shooting Victims Spanned Generations and Nationalities
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ethiopian Airlines: Ground all Boeing 737 Max 8 jets, says CEO
-Title: Saudi Arabia puts women's rights activists on trial
-Title: Nigeria school collapse: Pupils feared dead in Lagos
-Title: Jung Joon-young: K-pop star quits over secret sex videos
-Title: Luke Perry's daughter Sophie hits out at online 'grief-shamers'
+Title: Christchurch mosque shootings: New Zealand to ban military style weapons
+Title: Cyclone Idai: Rescuers race against time to reach survivors
+Title: Nicaragua agrees to free all opposition prisoners
+Title: Dutch populist vote surge costs PM Rutte senate majority
+Title: Trump: I didn't get a thank you for McCain funeral
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Ethiopia sends Boeing black boxes abroad, Norway airline wants compensation
-Title: Black boxes from Ethiopia crash to go to Europe for analysis
-Title: Brexit crisis deepens as British lawmakers to vote on no-deal exit
-Title: UK PM May says she will vote against a 'no-deal' Brexit
-Title: Many people, including schoolchildren, feared trapped in Nigerian building collapse
+Title: May has a 'good shot' of getting Brexit deal approved next week, UK junior minister
+Title: Britain says EU could hold emergency summit to offer conditional Brexit extension
+Title: Reliance sends fuel from India, Europe to Venezuela to sidestep U.S. sanctions
+Title: Mozambique death toll at 217 after cyclone: government minister
+Title: China lodges stern representations with U.S. over Taiwan president visit
 
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-000000000000000000183b41b3c1253dbd1139c3a02ba6db2d3ad38aec5be195
+0000000000000000001daa5737c6364d3b93c8b985a0ba54dfd52b4d8cadc81b
