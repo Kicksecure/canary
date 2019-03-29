@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 21 Mar 2019 08:57:59 +0000
+Fri, 29 Mar 2019 09:27:45 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Cursed and Sold: Voodoo Spells and Forced Prostitution in Germany
-Title: The Climate Activist vs. the Economics Minister: 'My Generation Has Been Fooled'
-Title: Brexit Delay: 'Why Would We Extend These Discussions?'
-Title: Theresa May's Brexit Disaster: The Prime Minister of Humiliation
-Title: Aerospace Turbulence: Boeing's Unsuccessful Attempt to Avert a Crisis
+Title: From the Web to Real Life: The Growing Threat of Online-Bred Right-Wing Extremism
+Title: The Caliphate's Kids: Sick Children Bear the Brunt of Post-IS Chaos
+Title: Women's Rights: Trial Casts Light on Hardline Approach in Saudi Arabia
+Title: Brexit Chaos: Theresa May's Days Are Numbered. Now What?
+Title: The Emergence of Homo Sapiens: 'Those Who Obeyed the Rules Were Favored by Evolution'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Confusion, Then Prayer, in Cockpit of Doomed Lion Air Jet
-Title: New Zealand to Ban Military-Style Semiautomatic Guns, Jacinda Ardern Says
-Title: Rescuers Battle Flooding in Desperate Bid to Save Cyclone Victims
-Title: E.U. Officials Agree to Brexit Delay, but With Conditions
-Title: The New Zealand Shooting Victims Spanned Generations and Nationalities
+Title: Saudi Womens Rights Activists Granted Release, but Their Trial Continues
+Title: As U.S. Tightens Iran Sanctions, Militant Groups and Political Allies Feel the Pain
+Title: Theresa May Put Her Head on the Block for Her Brexit Deal. It Might Not Be Enough.
+Title: Who Could Replace Theresa May as Britains Prime Minister?
+Title: Tanker, Hijacked by Migrants, Is Escorted to Malta
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Christchurch mosque shootings: New Zealand to ban military style weapons
-Title: Cyclone Idai: Rescuers race against time to reach survivors
-Title: Nicaragua agrees to free all opposition prisoners
-Title: Dutch populist vote surge costs PM Rutte senate majority
-Title: Trump: I didn't get a thank you for McCain funeral
+Title: Christchurch attacks: Victims honoured with national memorial service
+Title: Boeing Ethiopia crash probe 'finds anti-stall device activated'
+Title: Venezuela crisis: Guaidó banned from office for 15 years
+Title: Liverpool band Her's killed in US crash
+Title: Saravana Bhavan: India 'dosa king' life sentence upheld
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: May has a 'good shot' of getting Brexit deal approved next week, UK junior minister
-Title: Britain says EU could hold emergency summit to offer conditional Brexit extension
-Title: Reliance sends fuel from India, Europe to Venezuela to sidestep U.S. sanctions
-Title: Mozambique death toll at 217 after cyclone: government minister
-Title: China lodges stern representations with U.S. over Taiwan president visit
+Title: Turkish foreign minister says Turkey will honor deal to purchase S-400s
+Title: Protesters gather in Algiers as Bouteflika clings to power
+Title: Struggling May puts stripped-down Brexit deal to a vote in parliament
+Title: Centre-right tops EU election poll, gains seats versus February poll
+Title: Factbox: When is a Brexit vote not a Brexit vote? March 29
 
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001daa5737c6364d3b93c8b985a0ba54dfd52b4d8cadc81b
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+0000000000000000001bfbb69c066f6e015aad23b8bd33686bbc518dc855b6a2
