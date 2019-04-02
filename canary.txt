@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 29 Mar 2019 09:27:45 +0000
+Tue, 02 Apr 2019 12:05:43 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: From the Web to Real Life: The Growing Threat of Online-Bred Right-Wing Extremism
-Title: The Caliphate's Kids: Sick Children Bear the Brunt of Post-IS Chaos
-Title: Women's Rights: Trial Casts Light on Hardline Approach in Saudi Arabia
-Title: Brexit Chaos: Theresa May's Days Are Numbered. Now What?
-Title: The Emergence of Homo Sapiens: 'Those Who Obeyed the Rules Were Favored by Evolution'
+Title: Interview with NATO Secretary General Stoltenberg: The U.S. and President Trump 'Are 100 Percent Behind' Us
+Title: Interview with Sir David Attenborough: 'Collecting Memories Isn't the Same as Collecting Ammonites'
+Title: 'I'm Just Being Me': British House Speaker Bercow on His Brexit Role
+Title: France's Golden Boy Learns How to Fight: Macron Debates His Way Out of The Yellow-Vest Crisis
+Title: Corrupt Egyptair Deal: Suspicions of Bribery Cast Shadow Over Airbus
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Saudi Womens Rights Activists Granted Release, but Their Trial Continues
-Title: As U.S. Tightens Iran Sanctions, Militant Groups and Political Allies Feel the Pain
-Title: Theresa May Put Her Head on the Block for Her Brexit Deal. It Might Not Be Enough.
-Title: Who Could Replace Theresa May as Britains Prime Minister?
-Title: Tanker, Hijacked by Migrants, Is Escorted to Malta
+Title: Erdogans Party Plans to Challenge Election Losses in Istanbul and Ankara
+Title: Between Two Boeing Crashes, Days of Silence and Mistrust
+Title: In Israel Campaign, All Sides Claim Fabled Voice From the Grave: Menachem Begin
+Title: U.K. Parliament Votes Down Alternative Brexit Deals
+Title: Migration Surge From Central America Was Spurred, in Part, by Mexican Policies
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Christchurch attacks: Victims honoured with national memorial service
-Title: Boeing Ethiopia crash probe 'finds anti-stall device activated'
-Title: Venezuela crisis: Guaidó banned from office for 15 years
-Title: Liverpool band Her's killed in US crash
-Title: Saravana Bhavan: India 'dosa king' life sentence upheld
+Title: Joe Biden: Second woman accuses ex-VP of unwanted touching
+Title: Nasa: India's satellite destruction could endanger ISS
+Title: Nipsey Hussle murder suspect named as vigil stampede hurts 19
+Title: Iran orders evacuations in Khuzestan amid flood risk
+Title: Ryanair one of Europe's top polluters, EU data suggests
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Turkish foreign minister says Turkey will honor deal to purchase S-400s
-Title: Protesters gather in Algiers as Bouteflika clings to power
-Title: Struggling May puts stripped-down Brexit deal to a vote in parliament
-Title: Centre-right tops EU election poll, gains seats versus February poll
-Title: Factbox: When is a Brexit vote not a Brexit vote? March 29
+Title: Britain's May calls in ministers to find way out of Brexit maelstrom
+Title: UK lawmakers set out plans to force PM May to seek further delay to Brexit
+Title: Pope: Church should admit history of abuse of women, male domination
+Title: Rumors that UK government told it cannot hold new Brexit vote: BBC political editor
+Title: UK PM May would go for no-deal Brexit over revoking Article 50: FT reporter
 
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-0000000000000000001bfbb69c066f6e015aad23b8bd33686bbc518dc855b6a2
+000000000000000000060da071c540140a799ae8882011ab264275158e6863fc
