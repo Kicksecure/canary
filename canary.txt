@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 03 Apr 2019 10:28:23 +0000
+Fri, 05 Apr 2019 07:24:36 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Beaten but Not Defeated: Islamic State Plans Next Move After Loss of 'Caliphate'
 Title: A Precarious Alliance: Patience Wears Thin with Germany's NATO Spending
 Title: Interview with NATO Secretary General Stoltenberg: The U.S. and President Trump 'Are 100 Percent Behind' Us
 Title: Interview with Sir David Attenborough: 'Collecting Memories Isn't the Same as Collecting Ammonites'
 Title: 'I'm Just Being Me': British House Speaker Bercow on His Brexit Role
-Title: France's Golden Boy Learns How to Fight: Macron Debates His Way Out of The Yellow-Vest Crisis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Theresa May Will Reach Out to Corbyn in Bid to Avoid Disorderly Brexit
-Title: Najib Razak, Malaysian Leader Toppled in 1MDB Scandal, Faces First Graft Trial
-Title: Trudeau and Liberal Party Expel 2 Ex-Ministers at Center of Storm
-Title: Algerian Leader Bouteflika Resigns Under Pressure From Army
-Title: Japan Stumbles as Chinas Growth Engine Slows
+Title: Anti-Semitism Is Back, From the Left, Right and Islamist Extremes. Why?
+Title: Militia Advances on Libyan Capital, Raising Prospect of Renewed Civil War
+Title: Ethiopian Airlines Pilots Followed Boeings Safety Procedures Before Crash, Report Shows
+Title: U.S. Role in Yemen War Will End Unless Trump Issues Second Veto
+Title: Boycott Israels Election? A Palestinian Rapper Says No
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Brunei implements stoning to death under new anti-LGBT laws
-Title: SNC-Lavalin affair: Trudeau expels 'whistleblower' MPs
-Title: Nipsey Hussle death: Girlfriend Lauren London 'completely lost'
-Title: Chicago elects Lori Lightfoot as first female black mayor
-Title: 1MDB: Superyacht linked to financial scandal sold for $126m
+Title: Christchurch attacks: NZ suspect ordered to undergo mental health tests
+Title: US revokes visa of International Criminal Court prosecutor
+Title: South Korea wildfires: Deadly blaze declared a national emergency
+Title: Jeff Bezos: World's richest man agrees $35bn divorce
+Title: US and China edge closer to 'epic' trade deal, says Trump
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: UK's May to meet Labour leader to try to break Brexit stalemate
-Title: Australia's Senate condemns lawmaker over New Zealand massacre Muslim comments
-Title: Berenberg sees higher chance UK stays in customs union as PM May seeks compromise
-Title: Turkish election board rules in favor of partial Istanbul recount
-Title: Turkey's main opposition mayor candidate in Istanbul demands mandate
+Title: EU's Tusk considering 'flexible' Brexit extension up to one year: senior EU official
+Title: Report says U.S. count shows no Pakistan F-16s shot down in Indian battle
+Title: Britain's opposition Labour Party holds Welsh parliamentary seat
+Title: New Zealand massacre suspect charged with 49 more mosque murders
+Title: Taliban storms west Afghanistan district, kills dozens
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000109a5793ce862ab77abc50b7a6f30f5d5df6972a6c33a5
+00000000000000000020981b660f482bc210ec88051e533323ac6e42beab4129
