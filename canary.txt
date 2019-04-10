@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 05 Apr 2019 07:24:36 +0000
+Wed, 10 Apr 2019 21:11:13 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: EU's Chief Brexit Negotiator: The Political Ambitions of Michel Barnier
+Title: UK in Disarray : Amid Brexit Chaos, Theresa May's Conservative Party Implodes
+Title: Playing with Fire: Talk of Shifting Kosovo's Borders Sparks Concern
 Title: Beaten but Not Defeated: Islamic State Plans Next Move After Loss of 'Caliphate'
 Title: A Precarious Alliance: Patience Wears Thin with Germany's NATO Spending
-Title: Interview with NATO Secretary General Stoltenberg: The U.S. and President Trump 'Are 100 Percent Behind' Us
-Title: Interview with Sir David Attenborough: 'Collecting Memories Isn't the Same as Collecting Ammonites'
-Title: 'I'm Just Being Me': British House Speaker Bercow on His Brexit Role
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Anti-Semitism Is Back, From the Left, Right and Islamist Extremes. Why?
-Title: Militia Advances on Libyan Capital, Raising Prospect of Renewed Civil War
-Title: Ethiopian Airlines Pilots Followed Boeings Safety Procedures Before Crash, Report Shows
-Title: U.S. Role in Yemen War Will End Unless Trump Issues Second Veto
-Title: Boycott Israels Election? A Palestinian Rapper Says No
+Title: Israel Election Live Updates: As Gantz Concedes, Netanyahu Set for Victory
+Title: News Analysis: Its Netanyahus Israel Now
+Title: Restoration of Holy Stairs Lets Visitors to Rome Follow in Pilgrims Knees
+Title: New Zealand Passes Law Banning Most Semiautomatic Weapons, Weeks After Massacre
+Title: The E.U. Seems Ready to Put Brexit on Ice. But for How Long?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Christchurch attacks: NZ suspect ordered to undergo mental health tests
-Title: US revokes visa of International Criminal Court prosecutor
-Title: South Korea wildfires: Deadly blaze declared a national emergency
-Title: Jeff Bezos: World's richest man agrees $35bn divorce
-Title: US and China edge closer to 'epic' trade deal, says Trump
+Title: India election 2019: Voting to begin in world's largest election
+Title: Trump urges inquiry into 'attempted coup' against him
+Title: Israel election: Netanyahu set for record fifth term
+Title: Balakot air strike: Pakistan shows off disputed site on eve of India election
+Title: Algeria sets presidential election for 4 July after protests
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: EU's Tusk considering 'flexible' Brexit extension up to one year: senior EU official
-Title: Report says U.S. count shows no Pakistan F-16s shot down in Indian battle
-Title: Britain's opposition Labour Party holds Welsh parliamentary seat
-Title: New Zealand massacre suspect charged with 49 more mosque murders
-Title: Taliban storms west Afghanistan district, kills dozens
+Title: Australian PM visits governor-general amid election speculation
+Title: Mexico president blasted as 'authoritarian' by his former political party
+Title: EU wrangles over new Brexit delay sought by May
+Title: Snap! Jolly Merkel breaks Brexit summit ice with May
+Title: U.S. wants U.N. to revoke credentials of Maduro's government
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000020981b660f482bc210ec88051e533323ac6e42beab4129
+00000000000000000013210f028a863450cc21f43ef4d05cf81e0bdc6e640ebe
