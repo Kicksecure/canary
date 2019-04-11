@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 11 Apr 2019 10:11:19 +0000
+Thu, 11 Apr 2019 22:07:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: EU's Chief Brexit Negotiator: The Political Ambitions of Michel Barnier
@@ -47,27 +47,27 @@ Title: Beaten but Not Defeated: Islamic State Plans Next Move After Loss of 'Cal
 Title: A Precarious Alliance: Patience Wears Thin with Germany's NATO Spending
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: News Analysis: Its Netanyahus Israel Now
-Title: E.U. Extends Brexit Deadline to Oct. 31, Avoiding Cliff Edge (for Now)
-Title: In Netanyahus Win, Arabs See Another Nail in the Coffin of a Palestinian State
-Title: Benny Gantz Led Israels Army. Now He Eyes a Long Siege of Netanyahu.
-Title: In India, Voting Begins in Elections Unmatched in Size and Scope
+Title: Julian Assanges Seven Strange Years in Self-Imposed Isolation
+Title: Omar Hassan al-Bashir Is Removed as Sudans President
+Title: With Letter on Sexual Abuse, Pope Benedict Returns to Public Eye
+Title: Julian Assange Charged by U.S. With Conspiracy to Hack a Government Computer
+Title: The Fall of Omar Hassan al-Bashir, the Spider at the Heart of Sudans Web
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: South Korea must end abortion ban by 2020, says court
-Title: India election 2019: Voting begins in world's largest election
+Title: Sudan coup: Protesters defy curfew after military ousts Bashir
+Title: Israel's Beresheet spacecraft crashes on Moon
 Title: Julian Assange: Wikileaks co-founder arrested in London
-Title: Actor Geoffrey Rush wins defamation case
-Title: ‘Three-person’ baby boy born in Greece
+Title: Ex-Obama aide Greg Craig charged in Mueller-related investigation
+Title: Louisiana officer's son arrested over black church fires
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Julian Assange arrested by British police at Ecuadorean embassy
-Title: Libya fighting kills 56, European powers jostle over conflict
-Title: EU gives May till October for Brexit, seeking clarity
-Title: Kosovo starts work on museum to commemorate expulsions
-Title: UK government will listen to Labour's Brexit suggestions, including on second referendum: Cox
+Title: North Korea names new nominal head of state: KCNA
+Title: U.S. charges Assange after London arrest ends seven years in Ecuador embassy
+Title: After years of giving refuge, Ecuador suspends Assange's citizenship
+Title: Israeli spacecraft crashes onto moon after technical failures
+Title: Assange hacking charge limits free speech defense: legal experts
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000002cbea3ab1acf355014f14b6241b1c182190553e0cb96c
+0000000000000000001bd2bdd0e24c0d7b8f1eb2afa43f88c84d3dd956988b42
