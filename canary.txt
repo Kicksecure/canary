@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 10 Apr 2019 21:11:13 +0000
+Thu, 11 Apr 2019 10:11:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: EU's Chief Brexit Negotiator: The Political Ambitions of Michel Barnier
@@ -47,27 +47,27 @@ Title: Beaten but Not Defeated: Islamic State Plans Next Move After Loss of 'Cal
 Title: A Precarious Alliance: Patience Wears Thin with Germany's NATO Spending
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Israel Election Live Updates: As Gantz Concedes, Netanyahu Set for Victory
 Title: News Analysis: Its Netanyahus Israel Now
-Title: Restoration of Holy Stairs Lets Visitors to Rome Follow in Pilgrims Knees
-Title: New Zealand Passes Law Banning Most Semiautomatic Weapons, Weeks After Massacre
-Title: The E.U. Seems Ready to Put Brexit on Ice. But for How Long?
+Title: E.U. Extends Brexit Deadline to Oct. 31, Avoiding Cliff Edge (for Now)
+Title: In Netanyahus Win, Arabs See Another Nail in the Coffin of a Palestinian State
+Title: Benny Gantz Led Israels Army. Now He Eyes a Long Siege of Netanyahu.
+Title: In India, Voting Begins in Elections Unmatched in Size and Scope
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: India election 2019: Voting to begin in world's largest election
-Title: Trump urges inquiry into 'attempted coup' against him
-Title: Israel election: Netanyahu set for record fifth term
-Title: Balakot air strike: Pakistan shows off disputed site on eve of India election
-Title: Algeria sets presidential election for 4 July after protests
+Title: South Korea must end abortion ban by 2020, says court
+Title: India election 2019: Voting begins in world's largest election
+Title: Julian Assange: Wikileaks co-founder arrested in London
+Title: Actor Geoffrey Rush wins defamation case
+Title: ‘Three-person’ baby boy born in Greece
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Australian PM visits governor-general amid election speculation
-Title: Mexico president blasted as 'authoritarian' by his former political party
-Title: EU wrangles over new Brexit delay sought by May
-Title: Snap! Jolly Merkel breaks Brexit summit ice with May
-Title: U.S. wants U.N. to revoke credentials of Maduro's government
+Title: Julian Assange arrested by British police at Ecuadorean embassy
+Title: Libya fighting kills 56, European powers jostle over conflict
+Title: EU gives May till October for Brexit, seeking clarity
+Title: Kosovo starts work on museum to commemorate expulsions
+Title: UK government will listen to Labour's Brexit suggestions, including on second referendum: Cox
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000013210f028a863450cc21f43ef4d05cf81e0bdc6e640ebe
+00000000000000000002cbea3ab1acf355014f14b6241b1c182190553e0cb96c
