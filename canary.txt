@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 11 Apr 2019 22:07:17 +0000
+Mon, 22 Apr 2019 09:03:52 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: EU's Chief Brexit Negotiator: The Political Ambitions of Michel Barnier
-Title: UK in Disarray : Amid Brexit Chaos, Theresa May's Conservative Party Implodes
-Title: Playing with Fire: Talk of Shifting Kosovo's Borders Sparks Concern
-Title: Beaten but Not Defeated: Islamic State Plans Next Move After Loss of 'Caliphate'
-Title: A Precarious Alliance: Patience Wears Thin with Germany's NATO Spending
+Title: Avicii's Journey: The Untimely Death of a Superstar
+Title: Our Lady: The Profound Lesson of the Notre Dame Fire
+Title: Jordan Bardella's Rise: The Fresh Young Face of France's Populist Right
+Title: A Scarred Nation: Ukraine Turns to a Comedian for Comfort
+Title: Hell on Earth: The Horrors of Child Prostitution in Ghana
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Julian Assanges Seven Strange Years in Self-Imposed Isolation
-Title: Omar Hassan al-Bashir Is Removed as Sudans President
-Title: With Letter on Sexual Abuse, Pope Benedict Returns to Public Eye
-Title: Julian Assange Charged by U.S. With Conspiracy to Hack a Government Computer
-Title: The Fall of Omar Hassan al-Bashir, the Spider at the Heart of Sudans Web
+Title: Live Briefing: Sri Lanka Bombings Live Updates: Police Arrest 24 as Death Toll Nears 300
+Title: Sri Lanka Bomb Attacks Targeting Christians Kill Hundreds
+Title: The Interpreter: Sri Lanka Blocks Social Media, Fearing More Violence
+Title: Religious Minorities Across Asia Suffer Amid Surge in Sectarian Politics
+Title: Sri Lanka Photos: Grief and Questions After the Attacks
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Sudan coup: Protesters defy curfew after military ousts Bashir
-Title: Israel's Beresheet spacecraft crashes on Moon
-Title: Julian Assange: Wikileaks co-founder arrested in London
-Title: Ex-Obama aide Greg Craig charged in Mueller-related investigation
-Title: Louisiana officer's son arrested over black church fires
+Title: Sri Lanka attacks: Death toll soars to 290 after bombings hit churches and hotels
+Title: Ukraine election: Comedian Zelensky wins presidency by landslide
+Title: Gorillas pose for selfie with DR Congo anti-poaching unit
+Title: Tesla says investigating car explosion in Shanghai
+Title: Morocco protests: Thousands demand release of activists
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: North Korea names new nominal head of state: KCNA
-Title: U.S. charges Assange after London arrest ends seven years in Ecuador embassy
-Title: After years of giving refuge, Ecuador suspends Assange's citizenship
-Title: Israeli spacecraft crashes onto moon after technical failures
-Title: Assange hacking charge limits free speech defense: legal experts
+Title: Sri Lanka attacks carried out by suicide bombers: investigator
+Title: 'International network' involved in Sri Lanka bombings: cabinet spokesman
+Title: U.S. prepares to end Iran oil waivers; Asian buyers to be hardest hit
+Title: Sudan's military council warns against road blocks as protests continue
+Title: Iraq says any action to raise oil output won't be unilateral: ministry spokesman
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001bd2bdd0e24c0d7b8f1eb2afa43f88c84d3dd956988b42
+0000000000000000001a631af1d1627554efb36392c67c4a5ddf1b10fa267acc
