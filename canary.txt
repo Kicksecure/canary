@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 22 Apr 2019 09:03:52 +0000
+Thu, 25 Apr 2019 21:00:20 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Interview with Estonian President Kersti Kaljulaid: 'Our Government Is More Innovative'
+Title: 'This Is Our Jungle': Abysmal Conditions for Refugees in the Greek Islands
 Title: Avicii's Journey: The Untimely Death of a Superstar
 Title: Our Lady: The Profound Lesson of the Notre Dame Fire
 Title: Jordan Bardella's Rise: The Fresh Young Face of France's Populist Right
-Title: A Scarred Nation: Ukraine Turns to a Comedian for Comfort
-Title: Hell on Earth: The Horrors of Child Prostitution in Ghana
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Briefing: Sri Lanka Bombings Live Updates: Police Arrest 24 as Death Toll Nears 300
-Title: Sri Lanka Bomb Attacks Targeting Christians Kill Hundreds
-Title: The Interpreter: Sri Lanka Blocks Social Media, Fearing More Violence
-Title: Religious Minorities Across Asia Suffer Amid Surge in Sectarian Politics
-Title: Sri Lanka Photos: Grief and Questions After the Attacks
+Title: Sri Lanka Attack Signals an ISIS Shift Beyond the Middle East
+Title: After Meeting Kim, Putin Supports North Korea on Nuclear Disarmament
+Title: Sri Lanka Warns of More Suicide Bombers as Police Scour Capital
+Title: Outrage Grows as Russia Grants Passports in Ukraines Breakaway Regions
+Title: Ukraines Newly Elected President Is Jewish. So Is Its Prime Minister. Not All Jews There Are Pleased.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Sri Lanka attacks: Death toll soars to 290 after bombings hit churches and hotels
-Title: Ukraine election: Comedian Zelensky wins presidency by landslide
-Title: Gorillas pose for selfie with DR Congo anti-poaching unit
-Title: Tesla says investigating car explosion in Shanghai
-Title: Morocco protests: Thousands demand release of activists
+Title: Sri Lanka attacks: Death toll revised down by 'about 100'
+Title: US election 2020: Joe Biden launches presidential bid, joining crowded field
+Title: France's Macron responds to yellow vests with promise of reforms
+Title: Tenerife cave: Son leads police to bodies of mother and brother
+Title: IS conflict: Coalition strikes on Raqqa 'killed 1,600 civilians'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Sri Lanka attacks carried out by suicide bombers: investigator
-Title: 'International network' involved in Sri Lanka bombings: cabinet spokesman
-Title: U.S. prepares to end Iran oil waivers; Asian buyers to be hardest hit
-Title: Sudan's military council warns against road blocks as protests continue
-Title: Iraq says any action to raise oil output won't be unilateral: ministry spokesman
+Title: Cyclone Kenneth hits Mozambique after lashing Comoros
+Title: Putin says U.S. guarantees unlikely to prompt North Korea to de-nuclearize
+Title: Exclusive: In rare move, French warship passes through Taiwan Strait
+Title: France in contact with China over warship's Taiwan Strait passage
+Title: Cyprus police in serial murder probe find another body, more sought
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001a631af1d1627554efb36392c67c4a5ddf1b10fa267acc
+0000000000000000002592dd500c29cf1198cdd87c9620de5c2ade8273f7bb87
