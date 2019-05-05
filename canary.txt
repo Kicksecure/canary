@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 25 Apr 2019 21:00:20 +0000
+Sun, 05 May 2019 09:31:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Interview with Estonian President Kersti Kaljulaid: 'Our Government Is More Innovative'
-Title: 'This Is Our Jungle': Abysmal Conditions for Refugees in the Greek Islands
-Title: Avicii's Journey: The Untimely Death of a Superstar
-Title: Our Lady: The Profound Lesson of the Notre Dame Fire
-Title: Jordan Bardella's Rise: The Fresh Young Face of France's Populist Right
+Title: Interview with WikiLeaks Editor-in-Chief: 'Everything Was Done To Make Julian Assange's Life Miserable'
+Title: Giving Birth in India: 'The Women Here Are Afraid'
+Title: The China Question: Time to Find a New Approach to Beijing
+Title: Traumatized and Tormented: A Difficult Homecoming for Yazidis Kidnapped by IS
+Title: The Legacy of Rwandan Genocide: 'Everyone Lives in Fear'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Sri Lanka Attack Signals an ISIS Shift Beyond the Middle East
-Title: After Meeting Kim, Putin Supports North Korea on Nuclear Disarmament
-Title: Sri Lanka Warns of More Suicide Bombers as Police Scour Capital
-Title: Outrage Grows as Russia Grants Passports in Ukraines Breakaway Regions
-Title: Ukraines Newly Elected President Is Jewish. So Is Its Prime Minister. Not All Jews There Are Pleased.
+Title: A New Enemy but the Same Hate: Can Sri Lanka Heal Its Divisions?
+Title: Gaza Militants Fire 250 Rockets, and Israel Responds With Airstrikes
+Title: South Africa Voters in the Dark About Who is Financing Elections
+Title: New North Korea Weapons Test Threatens Trumps Diplomatic Achievement
+Title: The Worst Is Over: A Sigh of Relief in India, Mostly Spared by Cyclone
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Sri Lanka attacks: Death toll revised down by 'about 100'
-Title: US election 2020: Joe Biden launches presidential bid, joining crowded field
-Title: France's Macron responds to yellow vests with promise of reforms
-Title: Tenerife cave: Son leads police to bodies of mother and brother
-Title: IS conflict: Coalition strikes on Raqqa 'killed 1,600 civilians'
+Title: Gaza conflict: Rocket barrage and Israeli strikes intensify
+Title: North Korea: Kim Jong-un oversees 'strike drill' missile component test
+Title: Sri Lanka attacks: Public urged to surrender swords and knives
+Title: Libya crisis: The fight for Tripoli explained from the front line
+Title: Hostilities flare up as rockets hit Israel from Gaza
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Cyclone Kenneth hits Mozambique after lashing Comoros
-Title: Putin says U.S. guarantees unlikely to prompt North Korea to de-nuclearize
-Title: Exclusive: In rare move, French warship passes through Taiwan Strait
-Title: France in contact with China over warship's Taiwan Strait passage
-Title: Cyprus police in serial murder probe find another body, more sought
+Title: Taliban suicide bomber leads attack on police HQ Afghanistan
+Title: Deserted beaches, empty rooms: Sri Lanka tourism takes a hit after bombings
+Title: 'Save us from the Satans': Sri Lanka Christians pray after surviving attacks
+Title: Turkey says it will not bow to U.S. sanctions over S-400 deal
+Title: Turkey, Russia reviewing deployment in Syria's Tel Rifaat region: Turkish VP
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000002592dd500c29cf1198cdd87c9620de5c2ade8273f7bb87
+000000000000000000115cd1b362e5544ed9cc1adb4796fbc41683ba9297fbf2
