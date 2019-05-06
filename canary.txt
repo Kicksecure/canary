@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 05 May 2019 09:31:25 +0000
+Mon, 06 May 2019 12:31:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Anti-Environment Party: AfD Hopes to Win Votes by Opposing Climate Protection
 Title: Interview with WikiLeaks Editor-in-Chief: 'Everything Was Done To Make Julian Assange's Life Miserable'
 Title: Giving Birth in India: 'The Women Here Are Afraid'
 Title: The China Question: Time to Find a New Approach to Beijing
 Title: Traumatized and Tormented: A Difficult Homecoming for Yazidis Kidnapped by IS
-Title: The Legacy of Rwandan Genocide: 'Everyone Lives in Fear'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: A New Enemy but the Same Hate: Can Sri Lanka Heal Its Divisions?
-Title: Gaza Militants Fire 250 Rockets, and Israel Responds With Airstrikes
-Title: South Africa Voters in the Dark About Who is Financing Elections
-Title: New North Korea Weapons Test Threatens Trumps Diplomatic Achievement
-Title: The Worst Is Over: A Sigh of Relief in India, Mostly Spared by Cyclone
+Title: Fragile Cease-Fire Takes Hold Between Israel and Gaza After Weekend Attacks
+Title: Trump Threatens China With More Tariffs Ahead of Final Trade Talks
+Title: Aeroflot Plane Makes Fiery Emergency Landing in Russia, Killing 41
+Title: Brunei Says It Wont Execute Gays After Protests of Stoning Law
+Title: Pope Francis Urges Bulgaria to Open Its Heart to Refugees
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gaza conflict: Rocket barrage and Israeli strikes intensify
-Title: North Korea: Kim Jong-un oversees 'strike drill' missile component test
-Title: Sri Lanka attacks: Public urged to surrender swords and knives
-Title: Libya crisis: The fight for Tripoli explained from the front line
-Title: Hostilities flare up as rockets hit Israel from Gaza
+Title: Aeroflot plane crash: Russia jet 'struck by lightning'
+Title: Nature crisis: Humans 'threaten 1m species with extinction'
+Title: Gaza conflict: 'Ceasefire' after days of violence
+Title: Shares hit by Trump tariff threat to China
+Title: 'Men don't care about drought as women fetch the water'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Taliban suicide bomber leads attack on police HQ Afghanistan
-Title: Deserted beaches, empty rooms: Sri Lanka tourism takes a hit after bombings
-Title: 'Save us from the Satans': Sri Lanka Christians pray after surviving attacks
-Title: Turkey says it will not bow to U.S. sanctions over S-400 deal
-Title: Turkey, Russia reviewing deployment in Syria's Tel Rifaat region: Turkish VP
+Title: Berlusconi says ready for EU vote after "big fright" of emergency surgery
+Title: Gaza-Israel border falls quiet as ceasefire takes hold
+Title: Turkey's election board begins evaluating Istanbul re-run appeals: NTV
+Title: Bahrain court refuses to grant jailed activist Rajab a non-custodial sentence - lawyer
+Title: South Africa's Ramaphosa faces obstacles to reform
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000115cd1b362e5544ed9cc1adb4796fbc41683ba9297fbf2
+0000000000000000000418898a097fdbf0f70c75e4b09ba40a7589afc2f17cd0
