@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 06 May 2019 12:31:48 +0000
+Sun, 12 May 2019 11:14:30 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Anti-Environment Party: AfD Hopes to Win Votes by Opposing Climate Protection
-Title: Interview with WikiLeaks Editor-in-Chief: 'Everything Was Done To Make Julian Assange's Life Miserable'
-Title: Giving Birth in India: 'The Women Here Are Afraid'
-Title: The China Question: Time to Find a New Approach to Beijing
-Title: Traumatized and Tormented: A Difficult Homecoming for Yazidis Kidnapped by IS
+Title: Rising Tensions: Trump's Iran Escalation Poses a Threat for Germany
+Title: Terror Group Boko Haram: The Suicide Bomber Who Survived
+Title: The AfD Dilemma: Germany Struggles to Find Right Approach to Populists
+Title: Hell on Earth: Refugees Suffer as Libya's Civil War Rages On
+Title: A Nazi Critic and a Gestapo Spy: 'You Can't Report Your Own Father!'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Fragile Cease-Fire Takes Hold Between Israel and Gaza After Weekend Attacks
-Title: Trump Threatens China With More Tariffs Ahead of Final Trade Talks
-Title: Aeroflot Plane Makes Fiery Emergency Landing in Russia, Killing 41
-Title: Brunei Says It Wont Execute Gays After Protests of Stoning Law
-Title: Pope Francis Urges Bulgaria to Open Its Heart to Refugees
+Title: Inside Syrias Secret Torture Prisons: How Bashar al-Assad Crushed Dissent
+Title: Russia Is Targeting Europes Elections. So Are Far-Right Copycats.
+Title: Trump Tries to Bring Hungarys Orban in From the Cold
+Title: The Money Changer of Kabul, His Daughter and Her Kidnappers
+Title: With Sudans Revolution in the Balance, Darfur Moves Center Stage
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Aeroflot plane crash: Russia jet 'struck by lightning'
-Title: Nature crisis: Humans 'threaten 1m species with extinction'
-Title: Gaza conflict: 'Ceasefire' after days of violence
-Title: Shares hit by Trump tariff threat to China
-Title: 'Men don't care about drought as women fetch the water'
+Title: Iran facing 'unprecedented' pressure from international sanctions, Rouhani says
+Title: Pakistan attack: Gunmen storm five-star hotel in Balochistan
+Title: US states file lawsuit accusing drugs firms of inflating costs
+Title: Albania protests: Petrol bombs hurled at PM's office
+Title: Alyssa Milano urges sex strike in protest against Georgia abortion law
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Berlusconi says ready for EU vote after "big fright" of emergency surgery
-Title: Gaza-Israel border falls quiet as ceasefire takes hold
-Title: Turkey's election board begins evaluating Istanbul re-run appeals: NTV
-Title: Bahrain court refuses to grant jailed activist Rajab a non-custodial sentence - lawyer
-Title: South Africa's Ramaphosa faces obstacles to reform
+Title: Pope approves visits to contested Bosnian shrine
+Title: PM May has already set out timetable for her departure: UK minister
+Title: European polls will be 'difficult' for Conservative, says UK education minister
+Title: UK's Labour questions whether successor to PM May would honor Brexit deal
+Title: UK's Labour not 'getting very far' in government Brexit talks: Ashworth
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000418898a097fdbf0f70c75e4b09ba40a7589afc2f17cd0
+0000000000000000001a91d579f50332d276393ea58c3cdaaf52c2db3db4b3bb
