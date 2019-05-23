@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 12 May 2019 11:14:30 +0000
+Thu, 23 May 2019 22:43:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Rising Tensions: Trump's Iran Escalation Poses a Threat for Germany
-Title: Terror Group Boko Haram: The Suicide Bomber Who Survived
-Title: The AfD Dilemma: Germany Struggles to Find Right Approach to Populists
-Title: Hell on Earth: Refugees Suffer as Libya's Civil War Rages On
-Title: A Nazi Critic and a Gestapo Spy: 'You Can't Report Your Own Father!'
+Title: Kyriakos Mitsotakis: The Strong Favorite to Become Greece's Next Leader
+Title: Interview with Norwegian Crown Prince Haakon: 'I Would Like to Live Completely Sustainably'
+Title: Eternal Poison: Vietnam's Ongoing Fight Against Agent Orange
+Title: Strache's Defense: The Right-Wing Ideology Exposed
+Title: Austria: The Strache Recordings - The Whole Story
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Inside Syrias Secret Torture Prisons: How Bashar al-Assad Crushed Dissent
-Title: Russia Is Targeting Europes Elections. So Are Far-Right Copycats.
-Title: Trump Tries to Bring Hungarys Orban in From the Cold
-Title: The Money Changer of Kabul, His Daughter and Her Kidnappers
-Title: With Sudans Revolution in the Balance, Darfur Moves Center Stage
+Title: Narendra Modi, India’s ‘Watchman,’ Captures Historic Election Victory
+Title: In India’s City of Temples, Narendra Modi Is Both Hero and Villain
+Title: Julian Assange Indicted Under Espionage Act, Raising First Amendment Issues
+Title: Britons Pause to Vote in an Election Many Did Not Want
+Title: What Is Europe? Freedom, Slavery, Austerity or Nothing at All
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iran facing 'unprecedented' pressure from international sanctions, Rouhani says
-Title: Pakistan attack: Gunmen storm five-star hotel in Balochistan
-Title: US states file lawsuit accusing drugs firms of inflating costs
-Title: Albania protests: Petrol bombs hurled at PM's office
-Title: Alyssa Milano urges sex strike in protest against Georgia abortion law
+Title: Julian Assange, Wikileaks co-founder, faces 17 new charges in US
+Title: Trump and Nancy Pelosi trade barbs on mental stability
+Title: John Walker Lindh: Anger as 'American Taliban' freed
+Title: Not your average police chase
+Title: India election 2019: Narendra Modi thanks voters for 'historic mandate'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Pope approves visits to contested Bosnian shrine
-Title: PM May has already set out timetable for her departure: UK minister
-Title: European polls will be 'difficult' for Conservative, says UK education minister
-Title: UK's Labour questions whether successor to PM May would honor Brexit deal
-Title: UK's Labour not 'getting very far' in government Brexit talks: Ashworth
+Title: Exclusive: Canada's Conservative leader to drop pledge to balance budget in two years
+Title: U.S. charges WikiLeaks founder Julian Assange with espionage
+Title: U.N. creates new Ebola chief role to tackle security, political issues in Congo
+Title: Brazil lawmakers undo Bolsonaro move to weaken indigenous agency
+Title: Libya's NOC calls on eastern forces to free head of oil union
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001a91d579f50332d276393ea58c3cdaaf52c2db3db4b3bb
+0000000000000000002714d2c55498b9724c67ab6fe6799042f11628429bde08
