@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 01 Jun 2019 08:33:54 +0000
+Sat, 08 Jun 2019 03:47:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Commission President: Merkel and Macron at Odds over New EU Leader
-Title: Oxford Professor on Brexit's Colonial Roots: 'The Empire Was Celebrated as A Great Thing'
-Title: FC Bayern CEO: 'Why Do We Need to Change Anything at All?'
-Title: British Austerity: One Family's Struggle to Escape Poverty in the UK
-Title: A Dim View of the World: Will Merkel Be Followed by Darkness?
+Title: Right-Wing Extremism? The Puzzling Murder of a German Politician
+Title: Ex-Brazilian President Lula: 'Bolsonaro Is Setting the Whole Country on Fire'
+Title: Sustainable Cruise Ships? A New Way Forward for a Dirty Industry
+Title: 'Literature, Not Journalism': The Historian Who Invented 22 Holocaust Victims
+Title: The Battle to Save Elephants: A Former Military Operative Sets Sights on Poachers
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: The Doctor Who Stayed Behind to Save Babies in His Long-Suffering Homeland
-Title: A Latter-Day Lawrence of Arabia Shakes Up Britain’s Tories
-Title: ‘Balkan Spring’ Turns to Summer, and Hopes for Change Dim
-Title: Secretive Bilderberg Meeting Draws Pompeo and Kushner
-Title: What Confrontation? Mexico Seeks a Compromise With Trump
+Title: Fearing China’s Rule, Hong Kong Residents Resist Extradition Plan
+Title: Trump Calls Off Plan to Impose Tariffs on Mexico
+Title: London Bus Attack on Gay Women Leads Police to Arrest 4
+Title: Russian Reporter Who Exposed Moscow Graft Faces Drug Charges
+Title: Russian and U.S. Navy Ships Narrowly Avoid Collision in Philippine Sea
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Virginia Beach shooting: 12 killed after city worker opens fire at colleagues
-Title: Trump backs Johnson for UK prime minister
-Title: Deaths of indigenous women 'a Canadian genocide', leaked report says
-Title: Frank Lucas: Man who inspired American Gangster dies aged 88
-Title: Elton John 'rejects' Russia censorship of Rocketman gay scenes
+Title: US-Mexico talks: Agreement to avoid tariffs reached, says Trump
+Title: Justine Damond: US policeman jailed for Australian's murder
+Title: Russia and US warships almost collide in East China Sea
+Title: Turkey's Erdogan is best man at footballer Mesut Ozil's wedding
+Title: Publisher drops Central Park Five prosecutor Linda Fairstein
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Afghan Taliban leader pledges to keep fighting until goals met
-Title: U.S. won't 'tiptoe' around China with Asia stability at threat: defense chief
-Title: Ten years on, questions remain over response to Air France 447
-Title: U.S. tariff threat backs Mexican president into corner, facing Trump
-Title: Mexico eyes steps to cut immigrant flows to U.S. border, official says
+Title: Fog blankets Sydney, causes flight delays
+Title: Putin stands by China, criticizes U.S., in trade, Huawei disputes
+Title: Two women injured in UK homophobic attack 'for refusing to kiss'
+Title: Trump calls off tariffs on Mexico after deal on migration
+Title: U.S. says to expand program sending asylum seekers to Mexico
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000016639dc208c73ba1444d7051df70a4ff9dbd8d9d025376
+000000000000000000243a1184ad2b9bbbbc9b889dd5d8b77d23d9d1634ba02a
