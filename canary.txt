@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 08 Jun 2019 03:47:01 +0000
+Mon, 10 Jun 2019 18:02:27 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Right-Wing Extremism? The Puzzling Murder of a German Politician
@@ -47,27 +47,27 @@ Title: 'Literature, Not Journalism': The Historian Who Invented 22 Holocaust Vic
 Title: The Battle to Save Elephants: A Former Military Operative Sets Sights on Poachers
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Fearing China’s Rule, Hong Kong Residents Resist Extradition Plan
-Title: Trump Calls Off Plan to Impose Tariffs on Mexico
-Title: London Bus Attack on Gay Women Leads Police to Arrest 4
-Title: Russian Reporter Who Exposed Moscow Graft Faces Drug Charges
-Title: Russian and U.S. Navy Ships Narrowly Avoid Collision in Philippine Sea
+Title: An Overloaded Ferry Flipped and Drowned Hundreds of Schoolchildren. Could It Happen Again?
+Title: Vatican Rejects Notion That Gender Identity Can Be Chosen
+Title: Reporter’s Arrest Sets Off Widespread Protests in Russia
+Title: Kazakhstan Gets New Leader, but Old System’s Grip on Power Remains
+Title: Is Hong Kong Part of China? The Recent Protests Explained
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US-Mexico talks: Agreement to avoid tariffs reached, says Trump
-Title: Justine Damond: US policeman jailed for Australian's murder
-Title: Russia and US warships almost collide in East China Sea
-Title: Turkey's Erdogan is best man at footballer Mesut Ozil's wedding
-Title: Publisher drops Central Park Five prosecutor Linda Fairstein
+Title: Mali attack: '100 killed' in ethnic Dogon village
+Title: Vatican issues guidance questioning modern gender identity
+Title: Mexico given 45 days to curb migrant flow to US
+Title: Hong Kong extradition protests: Do China demonstrations ever work?
+Title: Asif Ali Zardari: Former Pakistan president Zardari arrested
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Fog blankets Sydney, causes flight delays
-Title: Putin stands by China, criticizes U.S., in trade, Huawei disputes
-Title: Two women injured in UK homophobic attack 'for refusing to kiss'
-Title: Trump calls off tariffs on Mexico after deal on migration
-Title: U.S. says to expand program sending asylum seekers to Mexico
+Title: Mexico says other Latam countries could share burden of fighting migration to U.S
+Title: Poland to announce deal on U.S. military boost: president
+Title: Sudan sit-in bloodshed cripples uprising
+Title: Vatican condemns gender theory as bid to destroy nature
+Title: British PM candidates take aim at favorite Johnson
 
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000243a1184ad2b9bbbbc9b889dd5d8b77d23d9d1634ba02a
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+00000000000000000010df1b174b6fbc9b84089065326391928e826929f543ba
