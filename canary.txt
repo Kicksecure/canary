@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 10 Jun 2019 18:02:27 +0000
+Tue, 11 Jun 2019 06:40:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Right-Wing Extremism? The Puzzling Murder of a German Politician
@@ -48,26 +48,26 @@ Title: The Battle to Save Elephants: A Former Military Operative Sets Sights on 
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 Title: An Overloaded Ferry Flipped and Drowned Hundreds of Schoolchildren. Could It Happen Again?
-Title: Vatican Rejects Notion That Gender Identity Can Be Chosen
-Title: Reporter’s Arrest Sets Off Widespread Protests in Russia
-Title: Kazakhstan Gets New Leader, but Old System’s Grip on Power Remains
-Title: Is Hong Kong Part of China? The Recent Protests Explained
+Title: Colombia’s Congress Debates Censuring Defense Minister Over Army Kill Orders
+Title: Iran Says It Will Release U.S. Resident Charged With Spying
+Title: Raptors Fever Takes Toronto, as a Diverse City Embraces a Team That Looks Like It
+Title: Moldova Has a New Government. The Old One Is Refusing to Leave.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Mali attack: '100 killed' in ethnic Dogon village
-Title: Vatican issues guidance questioning modern gender identity
-Title: Mexico given 45 days to curb migrant flow to US
-Title: Hong Kong extradition protests: Do China demonstrations ever work?
-Title: Asif Ali Zardari: Former Pakistan president Zardari arrested
+Title: Hungary tourist accident: Operation to raise capsized boat begins
+Title: US Africa envoy to visit Sudan amid crisis to encourage talks
+Title: Mexico wants 'regional solution' to curb migrant flow to US
+Title: Brazil justice minister Sergio Moro denies conspiring against Lula
+Title: North Korea: Hundreds of public execution sites identified, says report
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Mexico says other Latam countries could share burden of fighting migration to U.S
-Title: Poland to announce deal on U.S. military boost: president
-Title: Sudan sit-in bloodshed cripples uprising
-Title: Vatican condemns gender theory as bid to destroy nature
-Title: British PM candidates take aim at favorite Johnson
+Title: UK PM candidate Harper: I want a new Brexit deal
+Title: Seven drown after migrant boat overturns off Greek island of Lesbos
+Title: Salvage crews begin lifting Hungarian boat sunk in Danube
+Title: Japan PM Abe to meet Iran's Khamenei, Rouhani this week
+Title: Hundreds detained as Kazakhs protest 'rigged' election
 
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-00000000000000000010df1b174b6fbc9b84089065326391928e826929f543ba
+00000000000000000019c032d524fda0a7de9b2793af9d163c3690c5b45eaf78
