@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 11 Jun 2019 06:40:16 +0000
+Thu, 20 Jun 2019 06:08:02 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Right-Wing Extremism? The Puzzling Murder of a German Politician
-Title: Ex-Brazilian President Lula: 'Bolsonaro Is Setting the Whole Country on Fire'
-Title: Sustainable Cruise Ships? A New Way Forward for a Dirty Industry
-Title: 'Literature, Not Journalism': The Historian Who Invented 22 Holocaust Victims
-Title: The Battle to Save Elephants: A Former Military Operative Sets Sights on Poachers
+Title: Sudden Success: Germany's Green Party Faces Serious Growing Pains
+Title: Prince Bandar's World: The Man Behind the Scenes in Saudi Arabia
+Title: A Wall Worse than Trump's: European Policies Create New Dangers on Mediterranean
+Title: Brewing Conflict: Protests in Hong Kong Unlikely to Yield Results
+Title: The Voice of Beijing: China's Expanding Media Dominance in Africa
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: An Overloaded Ferry Flipped and Drowned Hundreds of Schoolchildren. Could It Happen Again?
-Title: Colombia’s Congress Debates Censuring Defense Minister Over Army Kill Orders
-Title: Iran Says It Will Release U.S. Resident Charged With Spying
-Title: Raptors Fever Takes Toronto, as a Diverse City Embraces a Team That Looks Like It
-Title: Moldova Has a New Government. The Old One Is Refusing to Leave.
+Title: Saudis Called Khashoggi ‘Sacrificial Animal’ as They Waited to Kill Him
+Title: Four to Face Murder Charges in Downing of Malaysia Airlines Flight 17
+Title: The MH17 Charges, Explained
+Title: Hong Kong Official Defends Police’s Use of Force Against Protesters
+Title: With Hymns and Prayers, Christians Help Drive Hong Kong’s Protests
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hungary tourist accident: Operation to raise capsized boat begins
-Title: US Africa envoy to visit Sudan amid crisis to encourage talks
-Title: Mexico wants 'regional solution' to curb migrant flow to US
-Title: Brazil justice minister Sergio Moro denies conspiring against Lula
-Title: North Korea: Hundreds of public execution sites identified, says report
+Title: Xi Jinping visits N Korea to boost China's ties with Kim
+Title: Iranian military claims to have shot down US spy drone
+Title: Cassius' Philippe Zdar dies in accidental fall
+Title: Nxivm: Sex cult leader Raniere found guilty in New York
+Title: Gulf crisis: Close up to stricken oil tanker with the US Navy
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: UK PM candidate Harper: I want a new Brexit deal
-Title: Seven drown after migrant boat overturns off Greek island of Lesbos
-Title: Salvage crews begin lifting Hungarian boat sunk in Danube
-Title: Japan PM Abe to meet Iran's Khamenei, Rouhani this week
-Title: Hundreds detained as Kazakhs protest 'rigged' election
+Title: Former Interpol chief admits guilt in China court hearing: state media
+Title: Yemen's Houthis say they hit Saudi power station with missile
+Title: Saudi crown prince linked to Khashoggi murder in U.N. report
+Title: Exclusive: U.S. tells India it is mulling caps on H-1B visas to deter data rules - sources
+Title: Iran's Guards shoot down U.S. 'spy' drone in Hormozgan province: Iran media
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000019c032d524fda0a7de9b2793af9d163c3690c5b45eaf78
+0000000000000000001943d5645e353b200bcfa935090d75e97b8858d245b421
