@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 20 Jun 2019 06:08:02 +0000
+Sun, 23 Jun 2019 21:09:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Nicola Sturgeon Interview: Boris Johnson Lacks 'Competence and Integrity'
+Title: Vanessa's Dream: The Long Road to Haute Couture in Africa
 Title: Sudden Success: Germany's Green Party Faces Serious Growing Pains
 Title: Prince Bandar's World: The Man Behind the Scenes in Saudi Arabia
 Title: A Wall Worse than Trump's: European Policies Create New Dangers on Mediterranean
-Title: Brewing Conflict: Protests in Hong Kong Unlikely to Yield Results
-Title: The Voice of Beijing: China's Expanding Media Dominance in Africa
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Saudis Called Khashoggi ‘Sacrificial Animal’ as They Waited to Kill Him
-Title: Four to Face Murder Charges in Downing of Malaysia Airlines Flight 17
-Title: The MH17 Charges, Explained
-Title: Hong Kong Official Defends Police’s Use of Force Against Protesters
-Title: With Hymns and Prayers, Christians Help Drive Hong Kong’s Protests
+Title: Turkey’s President Suffers Stinging Defeat in Istanbul Election Redo
+Title: Trump’s Iran Reversal Raises Allies’ Doubts Over His Tactics, and U.S. Power
+Title: ‘The Rooster Must Be Defended’: France’s Culture Clash Reaches a Coop
+Title: In the Largest Protests in Decades, Czechs Demand Resignation of Prime Minister
+Title: Iranian Force Exults in Downing of U.S. Drone With a Feast and a Prayer
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Xi Jinping visits N Korea to boost China's ties with Kim
-Title: Iranian military claims to have shot down US spy drone
-Title: Cassius' Philippe Zdar dies in accidental fall
-Title: Nxivm: Sex cult leader Raniere found guilty in New York
-Title: Gulf crisis: Close up to stricken oil tanker with the US Navy
+Title: Istanbul mayoral re-run: Erdogan's ruling AKP lose again
+Title: Ethiopia army chief shot dead in 'coup bid' attacks
+Title: Czech Republic protests: Andrej Babis urged to quit as PM
+Title: Why a group of US state senators are being hunted by police
+Title: US 'launched cyber-attack on Iran weapons systems'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Former Interpol chief admits guilt in China court hearing: state media
-Title: Yemen's Houthis say they hit Saudi power station with missile
-Title: Saudi crown prince linked to Khashoggi murder in U.N. report
-Title: Exclusive: U.S. tells India it is mulling caps on H-1B visas to deter data rules - sources
-Title: Iran's Guards shoot down U.S. 'spy' drone in Hormozgan province: Iran media
+Title: U.S. prods Iran for talks to ease Gulf tensions; Tehran dismisses sanctions threat
+Title: Narco safe houses, ranches and luxury apartments auctioned in Mexico
+Title: Yemen's Houthis hit Saudi airport, killing one expat, Saudi-led coalition says
+Title: Pompeo says hopes Trump letter to North Korean leader can restart talks
+Title: Kushner's economic plan for Mideast peace faces broad Arab rejection
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001943d5645e353b200bcfa935090d75e97b8858d245b421
+0000000000000000001eae592bc28fa90a349d58e8e73f27d2348beddc33146f
