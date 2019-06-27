@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 23 Jun 2019 21:09:11 +0000
+Thu, 27 Jun 2019 16:44:21 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Father, Neighbor, Killer: Germany's Chilling New Far-Right Terror
+Title: EU Commissioner on the U.S.-China Trade War: 'Our List of Countermeasures Is Ready'
+Title: The U.S. vs. China: In A Newly Bipolar World, Europe is Caught in the Middle
 Title: Nicola Sturgeon Interview: Boris Johnson Lacks 'Competence and Integrity'
 Title: Vanessa's Dream: The Long Road to Haute Couture in Africa
-Title: Sudden Success: Germany's Green Party Faces Serious Growing Pains
-Title: Prince Bandar's World: The Man Behind the Scenes in Saudi Arabia
-Title: A Wall Worse than Trump's: European Policies Create New Dangers on Mediterranean
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Turkey’s President Suffers Stinging Defeat in Istanbul Election Redo
-Title: Trump’s Iran Reversal Raises Allies’ Doubts Over His Tactics, and U.S. Power
-Title: ‘The Rooster Must Be Defended’: France’s Culture Clash Reaches a Coop
-Title: In the Largest Protests in Decades, Czechs Demand Resignation of Prime Minister
-Title: Iranian Force Exults in Downing of U.S. Drone With a Feast and a Prayer
+Title: At G-20, Trump Seeks Fresh Start With Putin After End of Mueller Inquiry
+Title: Angela Merkel Is Seen Shaking Again, but Spokesman Insists She’s Fine
+Title: A School With No Heat or Computers but Many College-Bound Students. Mostly Girls.
+Title: Europeans Race to Establish Trade With Iran
+Title: Dutch Railway Will Pay Millions to Holocaust Survivors
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Istanbul mayoral re-run: Erdogan's ruling AKP lose again
-Title: Ethiopia army chief shot dead in 'coup bid' attacks
-Title: Czech Republic protests: Andrej Babis urged to quit as PM
-Title: Why a group of US state senators are being hunted by police
-Title: US 'launched cyber-attack on Iran weapons systems'
+Title: European heatwave: Spain battles major Catalonia wildfire
+Title: Germany's Angela Merkel seen shaking again in Berlin
+Title: US Supreme Court blocks citizenship question on 2020 census
+Title: Police seize cocaine ahead of Bolsonaro flight
+Title: 'Hero' 17-year-old catches falling toddler
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: U.S. prods Iran for talks to ease Gulf tensions; Tehran dismisses sanctions threat
-Title: Narco safe houses, ranches and luxury apartments auctioned in Mexico
-Title: Yemen's Houthis hit Saudi airport, killing one expat, Saudi-led coalition says
-Title: Pompeo says hopes Trump letter to North Korean leader can restart talks
-Title: Kushner's economic plan for Mideast peace faces broad Arab rejection
+Title: Russia blames fatal 2018 plane crash on crew error: RIA
+Title: Accident at Glencore mine kills at least 39 in Congo
+Title: Paris prosecutor drops perjury probe into Macron officials
+Title: Mexico's president defiant in row with Canada over pipeline contracts
+Title: UK Labour politicians slam party for re-admitting lawmaker in anti-Semitism dispute
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001eae592bc28fa90a349d58e8e73f27d2348beddc33146f
+00000000000000000011b4c8d4c4f7a16ce794cee9272bab73783a501f68e258
