@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 27 Jun 2019 16:44:21 +0000
+Sat, 29 Jun 2019 10:37:05 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Turkey's Democratic Hope: Istanbul Mayor Poses Existential Threat to Erdogan
 Title: Father, Neighbor, Killer: Germany's Chilling New Far-Right Terror
 Title: EU Commissioner on the U.S.-China Trade War: 'Our List of Countermeasures Is Ready'
 Title: The U.S. vs. China: In A Newly Bipolar World, Europe is Caught in the Middle
 Title: Nicola Sturgeon Interview: Boris Johnson Lacks 'Competence and Integrity'
-Title: Vanessa's Dream: The Long Road to Haute Couture in Africa
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: At G-20, Trump Seeks Fresh Start With Putin After End of Mueller Inquiry
-Title: Angela Merkel Is Seen Shaking Again, but Spokesman Insists She’s Fine
-Title: A School With No Heat or Computers but Many College-Bound Students. Mostly Girls.
-Title: Europeans Race to Establish Trade With Iran
-Title: Dutch Railway Will Pay Millions to Holocaust Survivors
+Title: G20 Live Updates: U.S. and China Agree to Restart Trade Talks
+Title: Trump Invites Kim Jong-un to Meet Him at the DMZ on Sunday
+Title: One Casualty of the Palm Oil Industry: An Orangutan Mother, Shot 74 Times
+Title: Italy Arrests Captain of Ship That Rescued Dozens of Migrants at Sea
+Title: Boycott by Whites of South African Restaurant Reflects Growing Sense of Grievance
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: European heatwave: Spain battles major Catalonia wildfire
-Title: Germany's Angela Merkel seen shaking again in Berlin
-Title: US Supreme Court blocks citizenship question on 2020 census
-Title: Police seize cocaine ahead of Bolsonaro flight
-Title: 'Hero' 17-year-old catches falling toddler
+Title: G20 summit: Trump and Xi agree to restart US-China trade talks
+Title: Trump says he wants to 'shake hands' with North Korea's Kim at DMZ
+Title: Italy migrants: Rescue ship captain arrested at Lampedusa port
+Title: Charlottesville attacker apologises as he is jailed for life
+Title: Who's in the running for Juncker's post and other EU top jobs?
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Russia blames fatal 2018 plane crash on crew error: RIA
-Title: Accident at Glencore mine kills at least 39 in Congo
-Title: Paris prosecutor drops perjury probe into Macron officials
-Title: Mexico's president defiant in row with Canada over pipeline contracts
-Title: UK Labour politicians slam party for re-admitting lawmaker in anti-Semitism dispute
+Title: Putin says Russia will do all it can to improve ties with U.S.
+Title: 'Back on track': China and U.S. agree to restart trade talks
+Title: Putin says Trump stressed issue of detained Ukrainian sailors
+Title: Taliban kill 26 government militiamen as talks enter crucial stage
+Title: Putin says Britain's May tough on Skripal poisoning case
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000011b4c8d4c4f7a16ce794cee9272bab73783a501f68e258
+0000000000000000000541989b34cfd2e2acf776d6433ed797821734163031d9
