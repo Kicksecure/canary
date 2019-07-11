@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 30 Jun 2019 11:59:34 +0000
+Thu, 11 Jul 2019 18:36:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Turkey's Democratic Hope: Istanbul Mayor Poses Existential Threat to Erdogan
-Title: Father, Neighbor, Killer: Germany's Chilling New Far-Right Terror
-Title: EU Commissioner on the U.S.-China Trade War: 'Our List of Countermeasures Is Ready'
-Title: The U.S. vs. China: In A Newly Bipolar World, Europe is Caught in the Middle
-Title: Nicola Sturgeon Interview: Boris Johnson Lacks 'Competence and Integrity'
+Title: Feeding People With Science: Plant Researchers Brace for Population Explosion
+Title: A Heroine and a Figure of Hate: Carola Rackete and Europe's Troubling Refugee Policies 
+Title: Sea-Watch Captain Carola Rackete: 'We Were All in a State of Total Despair'
+Title: The Road to Brussels: Does Von der Leyen Have a Chance as Commission President?
+Title: More Inhumane than Trump: Europe's Treatment of Migrants Is Shameful
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Trump Steps Into North Korea and Agrees With Kim Jong-un to Resume Talks
-Title: Trump’s Offer to Say ‘Hello’ to Kim at DMZ Carries Risks and Rewards for Both
-Title: Venezuelan Navy Captain Accused of Rebellion Dies After Signs of Torture
-Title: Boycott by Whites of South African Restaurant Reflects Growing Sense of Grievance
-Title: One Casualty of the Palm Oil Industry: An Orangutan Mother, Shot 74 Times
+Title: Iranian Boats Tried to Block British Tanker in Persian Gulf, U.K. Says
+Title: Life in a City Without Water: Anxious, Exhausting and Sweaty
+Title: U.K. Parliament Workers Face ‘Unacceptable’ Abuse, Report Says
+Title: In Search for Missing Girl, Italy Finds Vatican Tombs Missing Their Occupants
+Title: U.N. Rights Council to Investigate Killings in Philippine Drug War
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US-North Korea: Trump and Kim agree to restart talks in historic meeting
-Title: Trump and Kim Jong-un meet at Korean demilitarised zone
-Title: Sudan security forces 'carry out raid' ahead of mass protest
-Title: Sudan: Dying for the revolution
-Title: Delay to rule allowing US medics to refuse procedures on moral grounds
+Title: Threat level raised to 'critical' for UK ships in Iranian waters
+Title: France passes tax on tech giants despite US threats
+Title: Artificial lionfish powered by ‘robotic blood’
+Title: 'Russian meeting with Italy populists' investigated
+Title: Greece storm: Seven killed in Halkidiki area popular with tourists
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: New jobs in Brussels: EU leaders narrow down their shortlist
-Title: EU's Tusk proposes Commission job for center-left: German parliamentary adviser
-Title: Second man arrested in pregnant woman's fatal stabbing in London
-Title: After surprise Trump-Kim meeting, U.S. and North Korea to reopen talks
-Title: Pope praises Trump-Kim meeting as significant gesture, raises hopes for peace
-
+Title: At Vatican, empty tombs add new twist to missing girl mystery
+Title: Air Canada flight diverted to Hawaii after turbulence, minor injuries reported
+Title: Death toll in migrant ship disaster off Tunisia coast rises to 58
+Title: Indian police raid prominent lawyers who took on ruling party leaders
+Title: India hands over 250 houses for Rohingya in Myanmar's Rakhine
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000005cba8e588bf4fa7b4ef084be9024c91cdd41a115c34f0
+0000000000000000000bddb699aceba59c0203186572ef8503aa749fc5aea266
