@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 11 Jul 2019 18:36:55 +0000
+Mon, 15 Jul 2019 20:57:20 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: 'Euro Orphans': The Romanian Children Growing up Without Their Parents
+Title: Far-Right AfD: Germany's Populist Party Embraces Its Extremist Wing
+Title: A Question of Trust: Ursula Von Der Leyen Recruits Team to Win Over Brussels
 Title: Feeding People With Science: Plant Researchers Brace for Population Explosion
 Title: A Heroine and a Figure of Hate: Carola Rackete and Europe's Troubling Refugee Policies 
-Title: Sea-Watch Captain Carola Rackete: 'We Were All in a State of Total Despair'
-Title: The Road to Brussels: Does Von der Leyen Have a Chance as Commission President?
-Title: More Inhumane than Trump: Europe's Treatment of Migrants Is Shameful
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Iranian Boats Tried to Block British Tanker in Persian Gulf, U.K. Says
-Title: Life in a City Without Water: Anxious, Exhausting and Sweaty
-Title: U.K. Parliament Workers Face ‘Unacceptable’ Abuse, Report Says
-Title: In Search for Missing Girl, Italy Finds Vatican Tombs Missing Their Occupants
-Title: U.N. Rights Council to Investigate Killings in Philippine Drug War
+Title: And Then There Was One: Three People Lived in This Village Until Two Were Murdered.
+Title: Flooding Kills Dozens in Nepal as Waters Rise Across Asia
+Title: After Delay of Chandrayaan-2 Launch, Indians Are Disappointed but Confident
+Title: E.U. Ministers, Scrambling to Save Iran Nuclear Deal, Say Breaches Are Still Not Major
+Title: Macedonians Restore an Ancient Church, With an Eye on the Future
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Threat level raised to 'critical' for UK ships in Iranian waters
-Title: France passes tax on tech giants despite US threats
-Title: Artificial lionfish powered by ‘robotic blood’
-Title: 'Russian meeting with Italy populists' investigated
-Title: Greece storm: Seven killed in Halkidiki area popular with tourists
+Title: Trump steps up attack on 'US-hating' congresswomen
+Title: Iran nuclear deal breaches not yet significant, EU says
+Title: Italy seizes 'combat-ready' missile in raids on far right
+Title: Boeing ditches 737 Max name on new Ryanair plane
+Title: Back in time inside Tehran's former US embassy
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: At Vatican, empty tombs add new twist to missing girl mystery
-Title: Air Canada flight diverted to Hawaii after turbulence, minor injuries reported
-Title: Death toll in migrant ship disaster off Tunisia coast rises to 58
-Title: Indian police raid prominent lawyers who took on ruling party leaders
-Title: India hands over 250 houses for Rohingya in Myanmar's Rakhine
+Title: France's Macron demands answers after dual national detained in Iran
+Title: U.S., Russia to discuss nuclear arms limits in Geneva on Wednesday: officials
+Title: UK PM candidates set high bar for Brexit talks: no Irish backstop
+Title: Turkey's Erdogan says Russian S-400s will be fully deployed by April 2020
+Title: Greek police question suspect over death of American scientist
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000bddb699aceba59c0203186572ef8503aa749fc5aea266
+00000000000000000002479464225e717f74872538675454d84905e32a1eb210
