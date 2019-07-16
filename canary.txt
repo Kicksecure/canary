@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 15 Jul 2019 20:57:20 +0000
+Tue, 16 Jul 2019 19:54:41 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: 'Euro Orphans': The Romanian Children Growing up Without Their Parents
@@ -47,27 +47,27 @@ Title: Feeding People With Science: Plant Researchers Brace for Population Explo
 Title: A Heroine and a Figure of Hate: Carola Rackete and Europe's Troubling Refugee Policies 
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: And Then There Was One: Three People Lived in This Village Until Two Were Murdered.
-Title: Flooding Kills Dozens in Nepal as Waters Rise Across Asia
-Title: After Delay of Chandrayaan-2 Launch, Indians Are Disappointed but Confident
-Title: E.U. Ministers, Scrambling to Save Iran Nuclear Deal, Say Breaches Are Still Not Major
-Title: Macedonians Restore an Ancient Church, With an Eye on the Future
+Title: 6 Years After This Train Exploded, Deadly Cargo Still Rolls Through Canada
+Title: Iran’s Top Leader Strikes Defiant Tone as Trump Says ‘We’re Not Looking for Regime Change’
+Title: Europe Billed Its Answer to GPS as More Robust. It’s Been Mostly Down for Days.
+Title: How North Korea’s Leader Gets His Luxury Cars
+Title: North Korea Warns U.S. to Quit Military Drills With South Korea
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump steps up attack on 'US-hating' congresswomen
-Title: Iran nuclear deal breaches not yet significant, EU says
-Title: Italy seizes 'combat-ready' missile in raids on far right
-Title: Boeing ditches 737 Max name on new Ryanair plane
-Title: Back in time inside Tehran's former US embassy
+Title: Von der Leyen elected EU Commission head after MEPs vote
+Title: Trump: I don't have a racist bone in my body
+Title: Former football star shot dead in South Africa
+Title: Facebook's Libra cryptocurrency attacked at Senate hearing
+Title: Inside the former US Embassy in Iran
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: France's Macron demands answers after dual national detained in Iran
-Title: U.S., Russia to discuss nuclear arms limits in Geneva on Wednesday: officials
-Title: UK PM candidates set high bar for Brexit talks: no Irish backstop
-Title: Turkey's Erdogan says Russian S-400s will be fully deployed by April 2020
-Title: Greek police question suspect over death of American scientist
+Title: Qatar says French missile found among arms seized in Italy was sold 25 years ago
+Title: Syrian air strike on village market kill at least 12: rescuers
+Title: Venezuela's opposition congress names ad-hoc central bank board
+Title: South African musician Johnny Clegg dead at 66
+Title: Iran denies its missile program is up for negotiation
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000002479464225e717f74872538675454d84905e32a1eb210
+0000000000000000000f287df232524aea5e58871c9e1c6c914c38fbd99d8d77
