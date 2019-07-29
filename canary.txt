@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 16 Jul 2019 19:54:41 +0000
+Mon, 29 Jul 2019 13:27:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: 'Euro Orphans': The Romanian Children Growing up Without Their Parents
-Title: Far-Right AfD: Germany's Populist Party Embraces Its Extremist Wing
-Title: A Question of Trust: Ursula Von Der Leyen Recruits Team to Win Over Brussels
-Title: Feeding People With Science: Plant Researchers Brace for Population Explosion
-Title: A Heroine and a Figure of Hate: Carola Rackete and Europe's Troubling Refugee Policies 
+Title: Challenges for New ECB Head: Will Christine Lagarde Pursue Tighter Monetary Policy?
+Title: Showdown With Brussels: Boris Johnson Steers Into Conflict Course
+Title: German Government Cybersecurity Chief: 'The Only Thing That Can Help Is Preventative Action'
+Title: The Huawei Dilemma: Resistance to Chinese Mobile Provider Grows Among Conservatives
+Title: The Green Google: Berlin Search Engine Uses Profits to Plant Trees
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: 6 Years After This Train Exploded, Deadly Cargo Still Rolls Through Canada
-Title: Iran’s Top Leader Strikes Defiant Tone as Trump Says ‘We’re Not Looking for Regime Change’
-Title: Europe Billed Its Answer to GPS as More Robust. It’s Been Mostly Down for Days.
-Title: How North Korea’s Leader Gets His Luxury Cars
-Title: North Korea Warns U.S. to Quit Military Drills With South Korea
+Title: Fears of Navalny Poisoning Are Rooted in Previous Attacks on Kremlin Foes
+Title: China Backs Hong Kong Officials, but Leaves Protests for Them to Solve
+Title: After 5 Months in the Street, Algeria’s Protesters See Success in a Standoff
+Title: Iran Links British Seizure of Oil Tanker to Ailing Nuclear Deal
+Title: Suspected Boko Haram Attack on Funeral in Nigeria Leaves at Least 65 Dead
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Von der Leyen elected EU Commission head after MEPs vote
-Title: Trump: I don't have a racist bone in my body
-Title: Former football star shot dead in South Africa
-Title: Facebook's Libra cryptocurrency attacked at Senate hearing
-Title: Inside the former US Embassy in Iran
+Title: Hong Kong protests: China condemns 'horrendous incidents'
+Title: Garlic festival shooting: Three dead in Gilroy California
+Title: Alexei Navalny discharged from hospital despite doctor's opposition
+Title: Trump denies new accusations of racism after Elijah Cummings attack
+Title: Work on production line of Boeing 737 Max ‘not adequately funded’
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Qatar says French missile found among arms seized in Italy was sold 25 years ago
-Title: Syrian air strike on village market kill at least 12: rescuers
-Title: Venezuela's opposition congress names ad-hoc central bank board
-Title: South African musician Johnny Clegg dead at 66
-Title: Iran denies its missile program is up for negotiation
+Title: Greece to overturn law that made universities no-go zone for police
+Title: Nigerian court adjourns bail hearing for leader of banned Shi'ite group
+Title: Mexican president says country is not in recession
+Title: Syrian government forces recover area in northwest
+Title: Italy mourns policeman, holds U.S. teenagers for suspected murder
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000f287df232524aea5e58871c9e1c6c914c38fbd99d8d77
+0000000000000000000bbf110f1d737b4e075457fea02f9b88b44eca5a05b2be
