@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 29 Jul 2019 13:27:01 +0000
+Wed, 31 Jul 2019 07:56:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: To Russia With Love: Relations with Moscow Emerge as German Election Issue
 Title: Challenges for New ECB Head: Will Christine Lagarde Pursue Tighter Monetary Policy?
 Title: Showdown With Brussels: Boris Johnson Steers Into Conflict Course
 Title: German Government Cybersecurity Chief: 'The Only Thing That Can Help Is Preventative Action'
 Title: The Huawei Dilemma: Resistance to Chinese Mobile Provider Grows Among Conservatives
-Title: The Green Google: Berlin Search Engine Uses Profits to Plant Trees
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Fears of Navalny Poisoning Are Rooted in Previous Attacks on Kremlin Foes
-Title: China Backs Hong Kong Officials, but Leaves Protests for Them to Solve
-Title: After 5 Months in the Street, Algeria’s Protesters See Success in a Standoff
-Title: Iran Links British Seizure of Oil Tanker to Ailing Nuclear Deal
-Title: Suspected Boko Haram Attack on Funeral in Nigeria Leaves at Least 65 Dead
+Title: Doubt Greets China’s Claim That Muslims Have Been Released From Camps
+Title: They Survived Colonization and War. But Venezuela’s Collapse Was Too Much.
+Title: She Thought He Would Kill Her. Then She Complimented His Orchids.
+Title: Princess Haya, Wife of Dubai’s Ruler, Seeks Protective Order
+Title: Killing of Student Protesters in Sudan Sets Off New Unrest, and Worry
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hong Kong protests: China condemns 'horrendous incidents'
-Title: Garlic festival shooting: Three dead in Gilroy California
-Title: Alexei Navalny discharged from hospital despite doctor's opposition
-Title: Trump denies new accusations of racism after Elijah Cummings attack
-Title: Work on production line of Boeing 737 Max ‘not adequately funded’
+Title: Democratic debates: Ten candidates clash over healthcare and immigration
+Title: North Korea fires two ballistic missiles in second missile launch in a week
+Title: VG Siddhartha: Cafe Coffee Day tycoon's body found
+Title: China toddler: Three-year-old falls six storeys and survives
+Title: Shin Ok-ju: S Korean doomsday cult leader jailed for six years
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Greece to overturn law that made universities no-go zone for police
-Title: Nigerian court adjourns bail hearing for leader of banned Shi'ite group
-Title: Mexican president says country is not in recession
-Title: Syrian government forces recover area in northwest
-Title: Italy mourns policeman, holds U.S. teenagers for suspected murder
+Title: Pompeo hopes to help patch up Japan-South Korea ties
+Title: Iran to reduce nuclear deal commitments more unless Europe protects it: Zarif
+Title: Israel approves new homes for settlers, Palestinians in West Bank
+Title: New protest erupts as Hong Kong charges 44 activists with rioting
+Title: Hong Kong protesters appear in court to face 'riot' charge
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000bbf110f1d737b4e075457fea02f9b88b44eca5a05b2be
+0000000000000000001bb43dd4e7379b4d52acebd7b9e6ea6b103b1d56a34661
