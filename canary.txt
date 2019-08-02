@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 31 Jul 2019 07:56:47 +0000
+Fri, 02 Aug 2019 03:04:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Reader Competition from SPIEGEL ONLINE and SPIEGEL WISSEN: How Would You Like to Live?
+Title: Growing Pains: Fridays for Future Is About to Turn One
 Title: To Russia With Love: Relations with Moscow Emerge as German Election Issue
 Title: Challenges for New ECB Head: Will Christine Lagarde Pursue Tighter Monetary Policy?
 Title: Showdown With Brussels: Boris Johnson Steers Into Conflict Course
-Title: German Government Cybersecurity Chief: 'The Only Thing That Can Help Is Preventative Action'
-Title: The Huawei Dilemma: Resistance to Chinese Mobile Provider Grows Among Conservatives
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Doubt Greets China’s Claim That Muslims Have Been Released From Camps
-Title: They Survived Colonization and War. But Venezuela’s Collapse Was Too Much.
-Title: She Thought He Would Kill Her. Then She Complimented His Orchids.
-Title: Princess Haya, Wife of Dubai’s Ruler, Seeks Protective Order
-Title: Killing of Student Protesters in Sudan Sets Off New Unrest, and Worry
+Title: Germany Trained and Hired Asylum Seekers, Then Started Deporting Them
+Title: Death of Hamza bin Laden Seen as Blow to Al Qaeda’s Future
+Title: North Korea Launches More Missiles, U.S. Says, Amid Stalled Diplomacy
+Title: Wary of Trump’s Hard Line on Iran, Europeans Decline to Join Escorts in Gulf
+Title: Saudi Arabia Frees Doctor With U.S. Citizenship After 21 Months
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Democratic debates: Ten candidates clash over healthcare and immigration
-Title: North Korea fires two ballistic missiles in second missile launch in a week
-Title: VG Siddhartha: Cafe Coffee Day tycoon's body found
-Title: China toddler: Three-year-old falls six storeys and survives
-Title: Shin Ok-ju: S Korean doomsday cult leader jailed for six years
+Title: North Korea launches third 'projectile' in eight days
+Title: Saudi Arabia allows women to travel independently
+Title: Trump escalates trade war with more China tariffs
+Title: Japan strikes South Korea off trusted export list as rift deepens
+Title: Plane lands on road and gets 'pulled over'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Pompeo hopes to help patch up Japan-South Korea ties
-Title: Iran to reduce nuclear deal commitments more unless Europe protects it: Zarif
-Title: Israel approves new homes for settlers, Palestinians in West Bank
-Title: New protest erupts as Hong Kong charges 44 activists with rioting
-Title: Hong Kong protesters appear in court to face 'riot' charge
+Title: Pompeo criticizes China after meeting top diplomat in Bangkok
+Title: Pompeo jabs at China's 'bad behavior', says U.S. will enforce Iran sanctions
+Title: Several small explosions in Bangkok: local media
+Title: Japan's cabinet approves removal of South Korea from favored trade list
+Title: Japan export move on South Korea not designed to hurt relationship, minister says
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001bb43dd4e7379b4d52acebd7b9e6ea6b103b1d56a34661
+000000000000000000038d3135e36c49290831330136fe24488e664d89dfce1c
