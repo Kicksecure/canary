@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 02 Aug 2019 03:04:35 +0000
+Tue, 06 Aug 2019 17:56:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Lure of the West: Bosnia Feels the Pinch of Brain Drain to EU
+Title: The Death of Marie Sophie Hingst: Why It Was Right to Report on Her Lies
+Title: Murder in Frankfurt: The Struggle to Find Answers to Random Crime
 Title: Reader Competition from SPIEGEL ONLINE and SPIEGEL WISSEN: How Would You Like to Live?
 Title: Growing Pains: Fridays for Future Is About to Turn One
-Title: To Russia With Love: Relations with Moscow Emerge as German Election Issue
-Title: Challenges for New ECB Head: Will Christine Lagarde Pursue Tighter Monetary Policy?
-Title: Showdown With Brussels: Boris Johnson Steers Into Conflict Course
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Germany Trained and Hired Asylum Seekers, Then Started Deporting Them
-Title: Death of Hamza bin Laden Seen as Blow to Al Qaeda’s Future
-Title: North Korea Launches More Missiles, U.S. Says, Amid Stalled Diplomacy
-Title: Wary of Trump’s Hard Line on Iran, Europeans Decline to Join Escorts in Gulf
-Title: Saudi Arabia Frees Doctor With U.S. Citizenship After 21 Months
+Title: World Reacts to El Paso Shooting and the Hate That Fueled It
+Title: White Terrorism Shows ‘Stunning’ Parallels to Islamic State’s Rise
+Title: The Bride, the Groom and the Greek Sunset: A Perfect Wedding Picture
+Title: Philippines Declares a National Dengue Epidemic
+Title: Trump Imposes New Sanctions on Venezuela
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: North Korea launches third 'projectile' in eight days
-Title: Saudi Arabia allows women to travel independently
-Title: Trump escalates trade war with more China tariffs
-Title: Japan strikes South Korea off trusted export list as rift deepens
-Title: Plane lands on road and gets 'pulled over'
+Title: Toni Morrison: Nobel Prize-winning author dies at 88
+Title: China warns Hong Kong protesters not to 'play with fire'
+Title: Brazil prisoner who dressed up as daughter to escape found dead
+Title: Texas police apologise for horseback officers leading black man by rope
+Title: US imposes sweeping sanctions on Venezuelan government
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Pompeo criticizes China after meeting top diplomat in Bangkok
-Title: Pompeo jabs at China's 'bad behavior', says U.S. will enforce Iran sanctions
-Title: Several small explosions in Bangkok: local media
-Title: Japan's cabinet approves removal of South Korea from favored trade list
-Title: Japan export move on South Korea not designed to hurt relationship, minister says
+Title: Italy's Salvini says budget deficit must not fall in 2020
+Title: World leaders must prove they've listened to climate activists: Thunberg
+Title: Iran's detention of UK-flagged tanker unacceptable: owner
+Title: Poland to hold parliamentary election on October 13
+Title: Pact is reached in Mozambique but prospects for peace still uncertain
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000038d3135e36c49290831330136fe24488e664d89dfce1c
+000000000000000000042d0497fa5455fa74f1b7aa4c4971d1ec6dd9356a655c
