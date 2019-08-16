@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 06 Aug 2019 17:56:09 +0000
+Fri, 16 Aug 2019 16:21:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Lure of the West: Bosnia Feels the Pinch of Brain Drain to EU
-Title: The Death of Marie Sophie Hingst: Why It Was Right to Report on Her Lies
-Title: Murder in Frankfurt: The Struggle to Find Answers to Random Crime
-Title: Reader Competition from SPIEGEL ONLINE and SPIEGEL WISSEN: How Would You Like to Live?
-Title: Growing Pains: Fridays for Future Is About to Turn One
+Title: Microfinance in Cambodia: When Microloans Do More Harm Than Good
+Title: A Hidden Legacy: Time for a New Look at Nazi Art
+Title: White Terror: Donald Trump and the Ideology of Racist Hate
+Title: Spat on the Nile: Ethiopia and Egypt at Odds Over Massive Dam Project
+Title: A Clique of 'Pseudo-Adults': Britain's Elite-School Problem
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: World Reacts to El Paso Shooting and the Hate That Fueled It
-Title: White Terrorism Shows ‘Stunning’ Parallels to Islamic State’s Rise
-Title: The Bride, the Groom and the Greek Sunset: A Perfect Wedding Picture
-Title: Philippines Declares a National Dengue Epidemic
-Title: Trump Imposes New Sanctions on Venezuela
+Title: Rashida Tlaib Says She Won’t Visit West Bank Under Israel’s Conditions
+Title: Myanmar Military Uses Threat of Prison to Stifle Criticism Ahead of Elections
+Title: Bad News for Germany’s Economy Might Be Good News for the Far Right
+Title: India Says It Will Ease Restrictions in Kashmir
+Title: ‘Greenland Is Not for Sale’: Trump’s Talk of a Purchase Draws Derision
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Toni Morrison: Nobel Prize-winning author dies at 88
-Title: China warns Hong Kong protesters not to 'play with fire'
-Title: Brazil prisoner who dressed up as daughter to escape found dead
-Title: Texas police apologise for horseback officers leading black man by rope
-Title: US imposes sweeping sanctions on Venezuelan government
+Title: North Korea snubs peace talks with South Korea over war drills
+Title: Zimbabwe protests: Opposition MDC backs down after police ban
+Title: Rashida Tlaib rejects Israel's offer of 'humanitarian' visit
+Title: Cathay Pacific boss Rupert Hogg quits after protest row
+Title: Russia bird strike: How cool heads glided jet down to safety
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Italy's Salvini says budget deficit must not fall in 2020
-Title: World leaders must prove they've listened to climate activists: Thunberg
-Title: Iran's detention of UK-flagged tanker unacceptable: owner
-Title: Poland to hold parliamentary election on October 13
-Title: Pact is reached in Mozambique but prospects for peace still uncertain
+Title: UK judge to allow firm to try to seize $9 billion in Nigerian assets in gas dispute
+Title: German finance minister Scholz to run for SPD leadership
+Title: Iran tanker shifts position but still at anchor off Gibraltar
+Title: Argentina central bank faces peso test ahead of fraught election
+Title: Schools, telephone lines to be opened in Kashmir after lockdown
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000042d0497fa5455fa74f1b7aa4c4971d1ec6dd9356a655c
+0000000000000000000a39ad1d1fa7ca3514828950446b0727da9c3f414ff0de
