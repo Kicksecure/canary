@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 16 Aug 2019 16:21:44 +0000
+Sat, 17 Aug 2019 09:06:02 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Lessons of Hong Kong: The West's Guiding Light Has Dimmed
+Title: Hostile Takeover: Fears Mount of Chinese Intervention in Hong Kong
 Title: Microfinance in Cambodia: When Microloans Do More Harm Than Good
 Title: A Hidden Legacy: Time for a New Look at Nazi Art
 Title: White Terror: Donald Trump and the Ideology of Racist Hate
-Title: Spat on the Nile: Ethiopia and Egypt at Odds Over Massive Dam Project
-Title: A Clique of 'Pseudo-Adults': Britain's Elite-School Problem
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Rashida Tlaib Says She Won’t Visit West Bank Under Israel’s Conditions
-Title: Myanmar Military Uses Threat of Prison to Stifle Criticism Ahead of Elections
+Title: Hong Kong Protests: Another Weekend of Demonstrations Begins
+Title: Scorched Portugal Turns to the Goat as a Low-Cost Firefighter
+Title: Critic of China’s Detention Camps Is Free, but Silence May Be the Price
 Title: Bad News for Germany’s Economy Might Be Good News for the Far Right
-Title: India Says It Will Ease Restrictions in Kashmir
-Title: ‘Greenland Is Not for Sale’: Trump’s Talk of a Purchase Draws Derision
+Title: In Tlaib’s Ancestral Village, Grandmother Weathers a Global Political Storm
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: North Korea snubs peace talks with South Korea over war drills
-Title: Zimbabwe protests: Opposition MDC backs down after police ban
-Title: Rashida Tlaib rejects Israel's offer of 'humanitarian' visit
-Title: Cathay Pacific boss Rupert Hogg quits after protest row
-Title: Russia bird strike: How cool heads glided jet down to safety
+Title: Sudan conflict: Senior commander Hemeti vows to stick with deal
+Title: Iran tanker: US issues warrant to seize Grace 1 supertanker
+Title: Peter Fonda, star of Easy Rider, dies aged 79
+Title: Jeffrey Epstein death ruled 'suicide by hanging'
+Title: How Hong Kong got trapped in a cycle of violence
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: UK judge to allow firm to try to seize $9 billion in Nigerian assets in gas dispute
-Title: German finance minister Scholz to run for SPD leadership
-Title: Iran tanker shifts position but still at anchor off Gibraltar
-Title: Argentina central bank faces peso test ahead of fraught election
-Title: Schools, telephone lines to be opened in Kashmir after lockdown
+Title: Court documents show U.S. seeks seizure of Iranian tanker violating sanctions
+Title: Yemen's Houthis say hit Saudi Arabia's Shayba oil field; no Saudi confirmation
+Title: Hong Kong teachers rally in thunderstorm at start of weekend of protests
+Title: Kazakh advocate of Muslim rights in China set free in plea bargain
+Title: U.S. issues warrant to seize Iranian tanker off Gibraltar
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000a39ad1d1fa7ca3514828950446b0727da9c3f414ff0de
+0000000000000000000153755678ab1674dd2974653d04c18019af2f8745ca70
