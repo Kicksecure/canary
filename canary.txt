@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 17 Aug 2019 09:06:02 +0000
+Tue, 27 Aug 2019 08:05:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Lessons of Hong Kong: The West's Guiding Light Has Dimmed
-Title: Hostile Takeover: Fears Mount of Chinese Intervention in Hong Kong
-Title: Microfinance in Cambodia: When Microloans Do More Harm Than Good
-Title: A Hidden Legacy: Time for a New Look at Nazi Art
-Title: White Terror: Donald Trump and the Ideology of Racist Hate
+Title: Merkel's Summer Reading: 'We're Fascinated By the Tyrant'
+Title: Pushing It to the Max: Boeing's Crashes Expose Systemic Failings
+Title: Tough Times for German Savers: Who's Responsible for Eurozone's Negative Interest Rates?
+Title: Nervous About Trump: EU Fearful of Including U.S. on Tax-Haven List
+Title: Extinction Rebellion: A New Kind of Climate Protest Movement
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong Protests: Another Weekend of Demonstrations Begins
-Title: Scorched Portugal Turns to the Goat as a Low-Cost Firefighter
-Title: Critic of China’s Detention Camps Is Free, but Silence May Be the Price
-Title: Bad News for Germany’s Economy Might Be Good News for the Far Right
-Title: In Tlaib’s Ancestral Village, Grandmother Weathers a Global Political Storm
+Title: At the End of a Chaotic G7 Meeting, Trump Changes His Tone on China and Iran. Again.
+Title: As Trump Swerves on Trade War, It’s Whiplash for the Rest of the World
+Title: Amid Outrage Over Rainforest Fires, Many in the Amazon Remain Defiant
+Title: In Hong Kong, Protest Photo Evokes Memories of Tiananmen Era
+Title: G7 Highlights on Final Day of Meetings: Iran, Climate Change and China Trade
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Sudan conflict: Senior commander Hemeti vows to stick with deal
-Title: Iran tanker: US issues warrant to seize Grace 1 supertanker
-Title: Peter Fonda, star of Easy Rider, dies aged 79
-Title: Jeffrey Epstein death ruled 'suicide by hanging'
-Title: How Hong Kong got trapped in a cycle of violence
+Title: Amazon fires: Brazil to reject G7 offer of $22m aid
+Title: Dutch doctor faces trial in landmark euthanasia case
+Title: Johnson & Johnson fined in landmark opioid ruling
+Title: Thai palace shares unusually candid images of king’s consort
+Title: Yang Hengjun: Australian writer faces spying charges in China
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Court documents show U.S. seeks seizure of Iranian tanker violating sanctions
-Title: Yemen's Houthis say hit Saudi Arabia's Shayba oil field; no Saudi confirmation
-Title: Hong Kong teachers rally in thunderstorm at start of weekend of protests
-Title: Kazakh advocate of Muslim rights in China set free in plea bargain
-Title: U.S. issues warrant to seize Iranian tanker off Gibraltar
-
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+Title: Macron delivers breakthrough on Iran at tense G7 summit, but little else
+Title: Trump, on climate, says he won't jeopardize U.S. wealth on 'dreams'
+Title: G7 summit statement issued on trade, Iran, Libya, Ukraine and Hong Kong
+Title: No consensus on inviting Russia to G7 next year: Macron
+Title: Iran has opportunity to come back into nuclear deal: UK's Johnson
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000153755678ab1674dd2974653d04c18019af2f8745ca70
+
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+0000000000000000000faffd50c2226ef91afaa33becc7b752caa12cb13525bc
