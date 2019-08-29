@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 27 Aug 2019 08:05:06 +0000
+Thu, 29 Aug 2019 07:02:21 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: 'Change Through Trade Has Failed': China Pressures Foreign Companies to Fall In Line on Protests
+Title: First Come the Drones, Then the Missiles: Assad Is Hunting Civilians in Idlib
+Title: Complacent No More: It's Time for Germany to Step Up
 Title: Merkel's Summer Reading: 'We're Fascinated By the Tyrant'
 Title: Pushing It to the Max: Boeing's Crashes Expose Systemic Failings
-Title: Tough Times for German Savers: Who's Responsible for Eurozone's Negative Interest Rates?
-Title: Nervous About Trump: EU Fearful of Including U.S. on Tax-Haven List
-Title: Extinction Rebellion: A New Kind of Climate Protest Movement
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: At the End of a Chaotic G7 Meeting, Trump Changes His Tone on China and Iran. Again.
-Title: As Trump Swerves on Trade War, It’s Whiplash for the Rest of the World
-Title: Amid Outrage Over Rainforest Fires, Many in the Amazon Remain Defiant
-Title: In Hong Kong, Protest Photo Evokes Memories of Tiananmen Era
-Title: G7 Highlights on Final Day of Meetings: Iran, Climate Change and China Trade
+Title: The Israel-Iran Shadow War Escalates and Breaks Into the Open
+Title: Boris Johnson’s ‘Explosive’ Move to Get His Way on Brexit: Suspend Parliament
+Title: New Government Takes Shape in Italy, Sidelining Salvini and the Hard Right
+Title: With Amazon on Fire, Environmental Officials in Open Revolt Against Bolsonaro
+Title: Bold Move or Coup? Social Media Reacts to Boris Johnson
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Amazon fires: Brazil to reject G7 offer of $22m aid
-Title: Dutch doctor faces trial in landmark euthanasia case
-Title: Johnson & Johnson fined in landmark opioid ruling
-Title: Thai palace shares unusually candid images of king’s consort
-Title: Yang Hengjun: Australian writer faces spying charges in China
+Title: Kirsten Gillibrand drops out of US 2020 race
+Title: Italy crisis: PD and Five Star agree coalition deal after talks
+Title: Greta Thunberg, climate change activist, sails into New York City
+Title: Franklin Expedition: New footage of wreck of HMS Terror
+Title: Hong Kong: Protesters join MeToo rally against police
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Macron delivers breakthrough on Iran at tense G7 summit, but little else
-Title: Trump, on climate, says he won't jeopardize U.S. wealth on 'dreams'
-Title: G7 summit statement issued on trade, Iran, Libya, Ukraine and Hong Kong
-Title: No consensus on inviting Russia to G7 next year: Macron
-Title: Iran has opportunity to come back into nuclear deal: UK's Johnson
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+Title: Exclusive: China denies Qingdao port visit for U.S. warship amid tensions
+Title: 'It happens every year', UK minister says of suspending parliament
+Title: UK government dares Brexit opponents: Change the law or change the government
+Title: Baghdad's crackdown on Iran-allied militias faces resistance
+Title: South Korea top court returns Samsung heir Lee's bribery case for review
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-0000000000000000000faffd50c2226ef91afaa33becc7b752caa12cb13525bc
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+0000000000000000000158e41386bd9756a304dab46559e90a31f171d1cd8180
