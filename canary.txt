@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 29 Aug 2019 07:02:21 +0000
+Fri, 06 Sep 2019 09:16:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: 'Change Through Trade Has Failed': China Pressures Foreign Companies to Fall In Line on Protests
-Title: First Come the Drones, Then the Missiles: Assad Is Hunting Civilians in Idlib
-Title: Complacent No More: It's Time for Germany to Step Up
-Title: Merkel's Summer Reading: 'We're Fascinated By the Tyrant'
-Title: Pushing It to the Max: Boeing's Crashes Expose Systemic Failings
+Title: Global Warming: How America Turned Me Into a Climate Killer
+Title: World War II Anniversary: Is Armed Conflict Possible in Today's Europe?
+Title: Ultra-Locally Grown: Urban Farming Takes Off in Germany
+Title: Ghost Town: A Venezuelan El Dorado Hits Rock Bottom
+Title: Saving Food Waste: A Crash Course in Dumpster Diving
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: The Israel-Iran Shadow War Escalates and Breaks Into the Open
-Title: Boris Johnson’s ‘Explosive’ Move to Get His Way on Brexit: Suspend Parliament
-Title: New Government Takes Shape in Italy, Sidelining Salvini and the Hard Right
-Title: With Amazon on Fire, Environmental Officials in Open Revolt Against Bolsonaro
-Title: Bold Move or Coup? Social Media Reacts to Boris Johnson
+Title: Shakespearean? Freudian? Jo Johnson, Prime Minister’s Brother, Quits Parliament
+Title: In Bahamas, a Blind Father Wades to Safety, His Disabled Son on His Shoulders
+Title: South African Riots Over ‘Xenophobia’ Prompt Backlash Across Africa
+Title: A Million Refugees May Soon Lose Their Line to the Outside World
+Title: Trump and Johnson’s Complex ‘Bromance’ Is Underscored by Pence Visit
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kirsten Gillibrand drops out of US 2020 race
-Title: Italy crisis: PD and Five Star agree coalition deal after talks
-Title: Greta Thunberg, climate change activist, sails into New York City
-Title: Franklin Expedition: New footage of wreck of HMS Terror
-Title: Hong Kong: Protesters join MeToo rally against police
+Title: Robert Mugabe, Zimbabwe ex-president, dies aged 95
+Title: From tanks to resignation: Mugabe's last days in power
+Title: Hurricane Dorian: Bahamas death toll expected to be 'staggering'
+Title: Hurricane Dorian devastation leaves 'surreal landscape' in Bahamas
+Title: US woman who hid baby in bag charged with human trafficking
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Exclusive: China denies Qingdao port visit for U.S. warship amid tensions
-Title: 'It happens every year', UK minister says of suspending parliament
-Title: UK government dares Brexit opponents: Change the law or change the government
-Title: Baghdad's crackdown on Iran-allied militias faces resistance
-Title: South Korea top court returns Samsung heir Lee's bribery case for review
+Title: Taiwan warns Solomon Islands of China 'debt trap' in diplomatic switch
+Title: British opposition parties discuss PM Johnson's Brexit election gamble
+Title: UK's Labour to hold talks with other parties on election timing
+Title: Finnish PM says no to reopening Brexit-deal
+Title: SNP says priority is avoiding no deal Brexit, then election date
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000158e41386bd9756a304dab46559e90a31f171d1cd8180
+00000000000000000009c5bbe42500903b4ad400d230f2fe7abbb42a4e3c27bd
