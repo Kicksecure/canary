@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 06 Sep 2019 09:16:48 +0000
+Sun, 15 Sep 2019 11:54:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Global Warming: How America Turned Me Into a Climate Killer
-Title: World War II Anniversary: Is Armed Conflict Possible in Today's Europe?
-Title: Ultra-Locally Grown: Urban Farming Takes Off in Germany
-Title: Ghost Town: A Venezuelan El Dorado Hits Rock Bottom
-Title: Saving Food Waste: A Crash Course in Dumpster Diving
+Title: 'Special Advisers': Investigators Target Illicit Trade in Diplomatic Passports
+Title: Interview with Edward Snowden: 'If I Happen to Fall out of a Window, You Can Be Sure I Was Pushed'
+Title: Return to Gadhafi Era in Libya: A Warlord Rebuilds Benghazi in His Own Image
+Title: Alternative for Democracy: The AfD's Ongoing Slide toward Right-Wing Extremism
+Title: Football Leaks: Why FC Chelsea Parked a Young Player in Cologne
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Shakespearean? Freudian? Jo Johnson, Prime Minister’s Brother, Quits Parliament
-Title: In Bahamas, a Blind Father Wades to Safety, His Disabled Son on His Shoulders
-Title: South African Riots Over ‘Xenophobia’ Prompt Backlash Across Africa
-Title: A Million Refugees May Soon Lose Their Line to the Outside World
-Title: Trump and Johnson’s Complex ‘Bromance’ Is Underscored by Pence Visit
+Title: Two Major Saudi Oil Installations Hit by Drone Strike, and U.S. Blames Iran
+Title: Iraq Faces a New Adversary: Crystal Meth
+Title: Top Canadian Intelligence Official Charged With Leaking Secrets
+Title: Netanyahu’s Fate May Depend on Israeli Arab Voters. Will They Turn Out?
+Title: Is Trump’s America Tougher on Asylum Than Other Western Countries?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Robert Mugabe, Zimbabwe ex-president, dies aged 95
-Title: From tanks to resignation: Mugabe's last days in power
-Title: Hurricane Dorian: Bahamas death toll expected to be 'staggering'
-Title: Hurricane Dorian devastation leaves 'surreal landscape' in Bahamas
-Title: US woman who hid baby in bag charged with human trafficking
+Title: Saudi oil attacks: Iran condemns US 'deceit' after accusation
+Title: Hong Kong protests: Petrol bombs and water cannon used in clashes
+Title: Tunisia holds second free presidential election
+Title: Mexico Jalisco: Forensics identify 44 bodies in well
+Title: Why thousands are flocking to corgi cafes
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Taiwan warns Solomon Islands of China 'debt trap' in diplomatic switch
-Title: British opposition parties discuss PM Johnson's Brexit election gamble
-Title: UK's Labour to hold talks with other parties on election timing
-Title: Finnish PM says no to reopening Brexit-deal
-Title: SNP says priority is avoiding no deal Brexit, then election date
+Title: Iran dismisses U.S. claim it was behind Saudi oil attacks, says ready for war
+Title: Thailand says no impact on oil imports following Saudi attacks
+Title: Saudi, Gulf stocks fall after attacks on Aramco oil plants
+Title: Attacks on Saudi oil facilities knock out half the kingdom's supply
+Title: Afghan, U.S. forces kill Taliban governors, fighters
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000009c5bbe42500903b4ad400d230f2fe7abbb42a4e3c27bd
+000000000000000000122b121567b6890dd627dd8fee516c01b158decbe64254
