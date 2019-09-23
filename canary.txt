@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 15 Sep 2019 11:54:01 +0000
+Mon, 23 Sep 2019 10:36:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: 'Special Advisers': Investigators Target Illicit Trade in Diplomatic Passports
-Title: Interview with Edward Snowden: 'If I Happen to Fall out of a Window, You Can Be Sure I Was Pushed'
-Title: Return to Gadhafi Era in Libya: A Warlord Rebuilds Benghazi in His Own Image
-Title: Alternative for Democracy: The AfD's Ongoing Slide toward Right-Wing Extremism
-Title: Football Leaks: Why FC Chelsea Parked a Young Player in Cologne
+Title: Great Melt: A New Effort to Understand the Warming Arctic
+Title: Alarming Message: Germany Seeks to Limit EU Budget Contribution
+Title: Finding a Balance: The Challenge of Climate Change in a Democracy
+Title: Arabic LGBT Magazine: Breaking Taboos in the Middle East
+Title: A Strawman in England: FC Barcelona, a Shell Company and Messi's Father
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Two Major Saudi Oil Installations Hit by Drone Strike, and U.S. Blames Iran
-Title: Iraq Faces a New Adversary: Crystal Meth
-Title: Top Canadian Intelligence Official Charged With Leaking Secrets
-Title: Netanyahu’s Fate May Depend on Israeli Arab Voters. Will They Turn Out?
-Title: Is Trump’s America Tougher on Asylum Than Other Western Countries?
+Title: Police Dressed as Protesters: How Undercover Police in Hong Kong Severely Injured People
+Title: Egypt Protests Came as a Total Shock. The Man Behind Them Is Just as Surprising.
+Title: No Longer Taboo, Tattoos Are Reclaimed by Hondurans to Express Love Not Hate
+Title: Israel’s Arab Parties Back Benny Gantz to End Netanyahu’s Grip
+Title: Trump’s Hold on Military Aid Blindsided Top Ukrainian Officials
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Saudi oil attacks: Iran condemns US 'deceit' after accusation
-Title: Hong Kong protests: Petrol bombs and water cannon used in clashes
-Title: Tunisia holds second free presidential election
-Title: Mexico Jalisco: Forensics identify 44 bodies in well
-Title: Why thousands are flocking to corgi cafes
+Title: Trump confirms he raised Bidens in Ukraine call
+Title: Israeli elections: Arab parties back Gantz to oust Netanyahu
+Title: Kenya school collapse: Seven dead and dozens injured in Nairobi
+Title: Leicester City crash victim's family sues owners for $10m
+Title: The Veronicas: Singers threaten legal action over flight removal
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Iran dismisses U.S. claim it was behind Saudi oil attacks, says ready for war
-Title: Thailand says no impact on oil imports following Saudi attacks
-Title: Saudi, Gulf stocks fall after attacks on Aramco oil plants
-Title: Attacks on Saudi oil facilities knock out half the kingdom's supply
-Title: Afghan, U.S. forces kill Taliban governors, fighters
+Title: Russia has formally declared alleged CIA mole missing, search underway: RIA
+Title: Spanish police arrest nine Catalan separatists for allegedly planning violence
+Title: Britain's Harry and Meghan head to South Africa on first tour since baby's birth
+Title: Iran says legal steps for British tanker release completed
+Title: Hong Kong mops up after fresh violence, braces for October 1 anniversary
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000122b121567b6890dd627dd8fee516c01b158decbe64254
+00000000000000000013ee3178f739cc43051a866e84d4f7f769408b70399038
