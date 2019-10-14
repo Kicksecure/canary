@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 04 Oct 2019 16:39:05 +0000
+Mon, 14 Oct 2019 11:18:27 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Maximum Impact: Extinction Rebellion Takes Aim at Berlin
-Title: Let's Make a Deal: Europe Can No Longer Afford the Brexit Insanity
-Title: The Price of Resistence: One Hundred Days of Protest in Hong Kong
-Title: Greta Thunberg in America: The Climate Activist vs. World Leaders
-Title: Murder in Berlin: Evidence Mounts of Russian State Involvement
+Title: Far-Right Terrorism: Deadly Attack Exposes Lapses in German Security Apparatus
+Title: Opinion: This Isn't a Drill, It's the Catastrophe
+Title: The PiS Dynasty: Kaczynski Party in Control Ahead of Polish Vote
+Title: Time To Act: Trump's Impeachment Inquiry Is Imperative for the World
+Title: Predictable Chaos: Europe Braces for the Effects of Brexit
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong Banned Masks at Protests. Masked Crowds Protested the Ban.
-Title: Ukraine to Review Criminal Case on Owner of Firm Linked to Biden’s Son
-Title: What Was Gordon Sondland’s Mission to Ukraine for Trump All About?
-Title: Did Vandals Steal Gandhi’s Ashes From an Indian Memorial?
-Title: Under Pressure, New Zealand Ends a Refugee Policy Branded Racist
+Title: Syria Live Updates: Assad’s Army Moves into Border Town
+Title: Abandoned by U.S. in Syria, Kurds Find New Ally in American Foe
+Title: Catalan Separatist Leaders Get Lengthy Prison Terms for Sedition
+Title: A Guide to the Queen’s Speech: Crown Jewels, Black Rod and a Mace
+Title: Rome University at Heart of Trump Inquiry Becomes a Vortex of Intrigue
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump-Ukraine: Text messages show diplomat's alarm over plans
-Title: Paris police attack: Investigation handed to anti-terror prosecutor
-Title: Hong Kong: Face mask ban prompts thousands to protest
-Title: Evacuating Australia's drought-affected fish
-Title: US unemployment rate falls to 50-year low of 3.5%
+Title: Catalonia leaders jailed for sedition by Spanish court
+Title: Turkey-Syria offensive: Kurds reach deal with Syrian army
+Title: Typhoon Hagibis: Japan deploys 110,000 rescuers after worst storm in decades
+Title: Newborn girl found alive in shallow grave in India
+Title: Trump 2020 campaign disavows parody media massacre video
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: French anti-terror prosecutor takes on investigation in Paris attack
-Title: Israeli forces kill Palestinian on Gaza border: Palestinian health ministry
-Title: Italy presents plan to accelerate expulsion of migrants
-Title: Ecuador arrests 350 people, protests halt transport for second day
-Title: Pompeo warns about Chinese influence in Balkans
+Title: Queen Elizabeth sets out PM Johnson's October 31 Brexit priority
+Title: Spain jails Catalan separatist leaders over failed independence bid
+Title: Convicted Catalan separatists must comply with sentences: acting PM
+Title: Russia-backed Syrian forces enter Kurdish-held region amid U.S. retreat
+Title: Brexit hangs in the balance as EU doubts a deal this week
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000b0510f2074dd3c4a1d5989755e8d8690d59e1601cc0f7
+0000000000000000000c47048d9dcfcd7c42b007ec83707ab345db923353df68
