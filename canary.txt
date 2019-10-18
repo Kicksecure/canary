@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 14 Oct 2019 11:18:27 +0000
+Fri, 18 Oct 2019 13:02:33 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Far-Right Terrorism: Deadly Attack Exposes Lapses in German Security Apparatus
-Title: Opinion: This Isn't a Drill, It's the Catastrophe
-Title: The PiS Dynasty: Kaczynski Party in Control Ahead of Polish Vote
-Title: Time To Act: Trump's Impeachment Inquiry Is Imperative for the World
-Title: Predictable Chaos: Europe Braces for the Effects of Brexit
+Title: Refugee Success Stories: Finding a New Life in Germany
+Title: Fridays for Horsepower: The German Motorists Who Oppose Greta Thunberg
+Title: Never Again? The Halle Attack and Everyday Anti-Semitism in Germany
+Title: Ukrainian Director Oleg Sentsov on Being a Political Prisoner in Russia  : 'They Try to Get Under Your Skin'
+Title: Climate Change Ground Zero: Melting Permafrost Imperils Arctic Residents
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Syria Live Updates: Assad’s Army Moves into Border Town
-Title: Abandoned by U.S. in Syria, Kurds Find New Ally in American Foe
-Title: Catalan Separatist Leaders Get Lengthy Prison Terms for Sedition
-Title: A Guide to the Queen’s Speech: Crown Jewels, Black Rod and a Mace
-Title: Rome University at Heart of Trump Inquiry Becomes a Vortex of Intrigue
+Title: European Union’s Message to U.K.: Just Leave Already
+Title: Kurds Accuse Turkey of Violating Truce as Shelling Continues in Syria
+Title: Hong Kong Court Rules Against Same-Sex Unions
+Title: Battles Break Out in Culiacán, Mexico, as El Chapo’s Son Is Arrested and Released
+Title: Amid Protests, Catalan Separatist Leader Turns Himself In to Belgian Officials
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Catalonia leaders jailed for sedition by Spanish court
-Title: Turkey-Syria offensive: Kurds reach deal with Syrian army
-Title: Typhoon Hagibis: Japan deploys 110,000 rescuers after worst storm in decades
-Title: Newborn girl found alive in shallow grave in India
-Title: Trump 2020 campaign disavows parody media massacre video
+Title: El Chapo: Mexican police free drug lord's son as Culiacán battle erupts
+Title: Turkey Syria offensive: Trump likens conflict to playground fight
+Title: Dutch farm mystery: Father held as police unpick secret farm 'sect'
+Title: Nasa astronauts Christina Koch and Jessica Meir in all-women spacewalk
+Title: Catalonia protests shut down Sagrada Familia church in Barcelona
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Queen Elizabeth sets out PM Johnson's October 31 Brexit priority
-Title: Spain jails Catalan separatist leaders over failed independence bid
-Title: Convicted Catalan separatists must comply with sentences: acting PM
-Title: Russia-backed Syrian forces enter Kurdish-held region amid U.S. retreat
-Title: Brexit hangs in the balance as EU doubts a deal this week
+Title: Brexit on a knife edge as PM Johnson stakes all on 'Super Saturday' vote
+Title: Brexit reversed: How could Britain end up with a second referendum?
+Title: Shells still fall in northeast Syria despite pause agreement
+Title: Erdogan says Syria offensive will continue if truce deal not fully implemented
+Title: U.N. rights office urges Egypt to free lawyers, activist
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000c47048d9dcfcd7c42b007ec83707ab345db923353df68
+0000000000000000000feeff790583ec784a78369cf70717582776d72e6295b6
