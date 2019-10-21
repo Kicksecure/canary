@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 18 Oct 2019 13:02:33 +0000
+Mon, 21 Oct 2019 10:00:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Triumph of the Autocrats: What the Syrian Debacle Means for the Middle East and Europe
 Title: Refugee Success Stories: Finding a New Life in Germany
 Title: Fridays for Horsepower: The German Motorists Who Oppose Greta Thunberg
 Title: Never Again? The Halle Attack and Everyday Anti-Semitism in Germany
 Title: Ukrainian Director Oleg Sentsov on Being a Political Prisoner in Russia  : 'They Try to Get Under Your Skin'
-Title: Climate Change Ground Zero: Melting Permafrost Imperils Arctic Residents
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: European Union’s Message to U.K.: Just Leave Already
-Title: Kurds Accuse Turkey of Violating Truce as Shelling Continues in Syria
-Title: Hong Kong Court Rules Against Same-Sex Unions
-Title: Battles Break Out in Culiacán, Mexico, as El Chapo’s Son Is Arrested and Released
-Title: Amid Protests, Catalan Separatist Leader Turns Himself In to Belgian Officials
+Title: As U.S. Leaves Allies in Syria, Kurdish Commander Struggles With Fallout
+Title: ‘There Is No Hope’: Crisis Pushes Haiti to Brink of Collapse
+Title: Despite Litany of Failures, Boris Johnson Is in Striking Distance of Brexit Success
+Title: Erdogan’s Ambitions Go Beyond Syria. He Says He Wants Nuclear Weapons.
+Title: Chile Unrest Spreads, With 8 Deaths Reported in Violence
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: El Chapo: Mexican police free drug lord's son as Culiacán battle erupts
-Title: Turkey Syria offensive: Trump likens conflict to playground fight
-Title: Dutch farm mystery: Father held as police unpick secret farm 'sect'
-Title: Nasa astronauts Christina Koch and Jessica Meir in all-women spacewalk
-Title: Catalonia protests shut down Sagrada Familia church in Barcelona
+Title: Chile protests: Five dead after looters torch garment factory
+Title: Sri Lanka bombings: Forgiving and fighting to recover
+Title: Lebanon protests: Mass revolt continues as PM 'agrees reforms'
+Title: Mitt Romney's secret Twitter account Pierre Delecto revealed
+Title: Five things to know about Canada's general election
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Brexit on a knife edge as PM Johnson stakes all on 'Super Saturday' vote
-Title: Brexit reversed: How could Britain end up with a second referendum?
-Title: Shells still fall in northeast Syria despite pause agreement
-Title: Erdogan says Syria offensive will continue if truce deal not fully implemented
-Title: U.N. rights office urges Egypt to free lawyers, activist
+Title: WikiLeaks founder Julian Assange, minus beard, appears in London court
+Title: British PM pushes for Brexit deal vote after being forced to seek delay
+Title: Spain will exhume dictator Francisco Franco's remains on Thursday
+Title: Putin steps up push for influence in Africa with broadside against West
+Title: Chile's Pinera extends state of emergency, says 'we are at war'
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000feeff790583ec784a78369cf70717582776d72e6295b6
+0000000000000000000441907499a4c28c09efbf2380a69feaaf792ab744c8f9
