@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 21 Oct 2019 10:00:42 +0000
+Wed, 23 Oct 2019 11:05:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Triumph of the Autocrats: What the Syrian Debacle Means for the Middle East and Europe
-Title: Refugee Success Stories: Finding a New Life in Germany
-Title: Fridays for Horsepower: The German Motorists Who Oppose Greta Thunberg
-Title: Never Again? The Halle Attack and Everyday Anti-Semitism in Germany
-Title: Ukrainian Director Oleg Sentsov on Being a Political Prisoner in Russia  : 'They Try to Get Under Your Skin'
+Title: 'We Are Doing What We Can': German Domestic Intellience Chief on the New Wave of Hate
+Title: A Nightmare Scenario Come True: Berlin Worried about IS Fighters Coming Home
+Title: Blind Spot: German Politicians Grapple with Tracking Extremists
+Title: London Mayoral Candidate Rory Stewart: 'What Boris Is Doing with Europe Is Extremely Dangerous'
+Title: A Look Back at a Millennium Village: Fighting Poverty in Rural Tanzania
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As U.S. Leaves Allies in Syria, Kurdish Commander Struggles With Fallout
-Title: ‘There Is No Hope’: Crisis Pushes Haiti to Brink of Collapse
-Title: Despite Litany of Failures, Boris Johnson Is in Striking Distance of Brexit Success
-Title: Erdogan’s Ambitions Go Beyond Syria. He Says He Wants Nuclear Weapons.
-Title: Chile Unrest Spreads, With 8 Deaths Reported in Violence
+Title: ‘What Is Going to Happen to Us?’ Inside ISIS Prison, Children Ask Their Fate
+Title: 39 Found Dead in Truck in U.K.
+Title: Turkey Halts Syrian Incursion, Hours After Deal with Russia
+Title: Hong Kong Frees Murder Suspect Whose Case Led to Protests
+Title: Israel Seems Paralyzed, but Is the System Broken?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Chile protests: Five dead after looters torch garment factory
-Title: Sri Lanka bombings: Forgiving and fighting to recover
-Title: Lebanon protests: Mass revolt continues as PM 'agrees reforms'
-Title: Mitt Romney's secret Twitter account Pierre Delecto revealed
-Title: Five things to know about Canada's general election
+Title: Trump impeachment: US envoy condemns 'irregular' pressure on Ukraine
+Title: Turkey Syria offensive: Erdogan and Putin strike deal over Kurds
+Title: Trapped in Tripoli: The refugees stuck in Libya’s civil war
+Title: Floods in Southern Europe: Dead and missing in Spain and Italy
+Title: Marieke Vervoort: Paralympian ends life through euthanasia at age of 40
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: WikiLeaks founder Julian Assange, minus beard, appears in London court
-Title: British PM pushes for Brexit deal vote after being forced to seek delay
-Title: Spain will exhume dictator Francisco Franco's remains on Thursday
-Title: Putin steps up push for influence in Africa with broadside against West
-Title: Chile's Pinera extends state of emergency, says 'we are at war'
+Title: Political outsider Saied sworn in as Tunisia's president
+Title: Under China's shadow, Taiwan, Hong Kong squabble over a murder suspect
+Title: Britain's Corbyn meets PM Johnson to discuss Brexit timetable: Labour source
+Title: Syrian Kurd sets himself on fire outside U.N. refugee agency: police
+Title: Cyprus to probe how Cambodian elite got EU passports
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000441907499a4c28c09efbf2380a69feaaf792ab744c8f9
+0000000000000000000ce0d86be354565755ae68ef40382d75b594752f7ce645
