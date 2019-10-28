@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 23 Oct 2019 11:05:35 +0000
+Mon, 28 Oct 2019 12:18:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: 'We Are Doing What We Can': German Domestic Intellience Chief on the New Wave of Hate
-Title: A Nightmare Scenario Come True: Berlin Worried about IS Fighters Coming Home
-Title: Blind Spot: German Politicians Grapple with Tracking Extremists
-Title: London Mayoral Candidate Rory Stewart: 'What Boris Is Doing with Europe Is Extremely Dangerous'
-Title: A Look Back at a Millennium Village: Fighting Poverty in Rural Tanzania
+Title:  'The Man Was a Twit': Historian Christopher Clark on the Hohenzollern Dispute
+Title: 'Counterfeits or Falsifications': German Investigators Say Argentine Nazi Finds Are Fakes
+Title: The Next Round in the Brexit Battle: Boris Johnson's Risky Election Gamble
+Title: Handfuls of Data: The Ethical Minefield of Microchipping
+Title: Interview with House of Commons Speaker John Bercow: 'Parliament Has Stood Up For Itself'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: ‘What Is Going to Happen to Us?’ Inside ISIS Prison, Children Ask Their Fate
-Title: 39 Found Dead in Truck in U.K.
-Title: Turkey Halts Syrian Incursion, Hours After Deal with Russia
-Title: Hong Kong Frees Murder Suspect Whose Case Led to Protests
-Title: Israel Seems Paralyzed, but Is the System Broken?
+Title: Abu Bakr al-Baghdadi, ISIS Leader Known for His Brutality, Is Dead at 48
+Title: E.U. Agrees to Brexit Extension, Pushing Deadline to Jan. 31
+Title: Survivors of ISIS Carnage Feel Little Relief at al-Baghdadi’s Death
+Title: A Daring Helicopter Rescue After Rebels Capture a Ferry in Myanmar
+Title: As China’s Troubles Simmer, Xi Reinforces His Political Firewall
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump impeachment: US envoy condemns 'irregular' pressure on Ukraine
-Title: Turkey Syria offensive: Erdogan and Putin strike deal over Kurds
-Title: Trapped in Tripoli: The refugees stuck in Libya’s civil war
-Title: Floods in Southern Europe: Dead and missing in Spain and Italy
-Title: Marieke Vervoort: Paralympian ends life through euthanasia at age of 40
+Title: Argentina election: Centre-left Alberto Fernández wins presidency
+Title: Where does Abu Bakr al-Baghdadi's death leave IS?
+Title: Katie Hill: US congresswoman resigns amid affair allegations
+Title: Brexit: European leaders agree extension to 31 January
+Title: Trump booed at Washington DC baseball match
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Political outsider Saied sworn in as Tunisia's president
-Title: Under China's shadow, Taiwan, Hong Kong squabble over a murder suspect
-Title: Britain's Corbyn meets PM Johnson to discuss Brexit timetable: Labour source
-Title: Syrian Kurd sets himself on fire outside U.N. refugee agency: police
-Title: Cyprus to probe how Cambodian elite got EU passports
+Title: Argentina's Peronists sweep back into power as Macri ousted
+Title: Driver of truck found with 39 bodies appears in British court
+Title: British PM Johnson says whole nation shocked by 39 deaths in truck
+Title: 'Great expectations', but EU's first fraud prosecutor undaunted by challenge
+Title: Syrian Kurdish forces say leaving Turkish border area, Damascus welcomes move
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000ce0d86be354565755ae68ef40382d75b594752f7ce645
+00000000000000000013c98073997397e7e3bbfc97917027fc27ec87e130aa37
