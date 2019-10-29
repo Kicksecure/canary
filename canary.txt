@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 28 Oct 2019 12:18:17 +0000
+Tue, 29 Oct 2019 13:14:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Wolfgang Ischinger on Northern Syria: German Defense Minister's Proposal 'Deserves Recognition'
+Title: War Games: German Syria Proposal a Risk for Merkel Ally
 Title:  'The Man Was a Twit': Historian Christopher Clark on the Hohenzollern Dispute
 Title: 'Counterfeits or Falsifications': German Investigators Say Argentine Nazi Finds Are Fakes
 Title: The Next Round in the Brexit Battle: Boris Johnson's Risky Election Gamble
-Title: Handfuls of Data: The Ethical Minefield of Microchipping
-Title: Interview with House of Commons Speaker John Bercow: 'Parliament Has Stood Up For Itself'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Abu Bakr al-Baghdadi, ISIS Leader Known for His Brutality, Is Dead at 48
-Title: E.U. Agrees to Brexit Extension, Pushing Deadline to Jan. 31
-Title: Survivors of ISIS Carnage Feel Little Relief at al-Baghdadi’s Death
-Title: A Daring Helicopter Rescue After Rebels Capture a Ferry in Myanmar
-Title: As China’s Troubles Simmer, Xi Reinforces His Political Firewall
+Title: ‘A New Message’: Russia Trains Its Propaganda Machine on Africa
+Title: As Kurds Tracked ISIS Leader, U.S. Withdrawal Threw Raid Into Turmoil
+Title: India Finally Lets Lawmakers Into Kashmir: Far-Right Europeans
+Title: Jeremy Corbyn Says Labour Will Back Early U.K. Election
+Title: Deadly Earthquake Strikes Southern Philippine Island
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Argentina election: Centre-left Alberto Fernández wins presidency
-Title: Where does Abu Bakr al-Baghdadi's death leave IS?
-Title: Katie Hill: US congresswoman resigns amid affair allegations
-Title: Brexit: European leaders agree extension to 31 January
-Title: Trump booed at Washington DC baseball match
+Title: Abu Bakr al-Baghdadi: IS leader's underwear 'stolen' for DNA test
+Title: California faces huge power cuts as wildfires rage
+Title: Aya Maasarwe: Australian jailed for student's high-profile murder
+Title: Ukraine conflict: Front-line troops begin pullout
+Title: Nirmal Purja: Ex-soldier climbs 14 highest mountains in seven months
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Argentina's Peronists sweep back into power as Macri ousted
-Title: Driver of truck found with 39 bodies appears in British court
-Title: British PM Johnson says whole nation shocked by 39 deaths in truck
-Title: 'Great expectations', but EU's first fraud prosecutor undaunted by challenge
-Title: Syrian Kurdish forces say leaving Turkish border area, Damascus welcomes move
+Title: Lebanese PM Hariri likely to resign amid protests: sources
+Title: Beirut protesters' camp attacked, tents set on fire: TV footage
+Title: Israel's Netanyahu plans to move funds from civilian to military spending
+Title: Brexit election nears as UK opposition backs early poll
+Title: UK's Johnson tells cabinet: we need election to end parliamentary paralysis
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000013c98073997397e7e3bbfc97917027fc27ec87e130aa37
+000000000000000000042025b02a898408229b361510a4731feb72a73a5f175e
