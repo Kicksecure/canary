@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 29 Oct 2019 13:14:55 +0000
+Sat, 09 Nov 2019 14:02:22 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Wolfgang Ischinger on Northern Syria: German Defense Minister's Proposal 'Deserves Recognition'
-Title: War Games: German Syria Proposal a Risk for Merkel Ally
-Title:  'The Man Was a Twit': Historian Christopher Clark on the Hohenzollern Dispute
-Title: 'Counterfeits or Falsifications': German Investigators Say Argentine Nazi Finds Are Fakes
-Title: The Next Round in the Brexit Battle: Boris Johnson's Risky Election Gamble
+Title: Interview with Mikhail Gorbachev: 'It Was Impossible To Go On Living Like Before'
+Title: Interview with Robert Kagan: Permanence of Liberal Democracy 'Is an Illusion'
+Title: Corruption and Cruise Ships: Montenegro's Scenic Coast Spoiled by Greed
+Title: Freedom of Speech: Germany Struggles To Define Limits of What Can Be Said
+Title: Battle over the Defense Budget: Germany Remains Tepid on NATO 2-Percent Goal
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: ‘A New Message’: Russia Trains Its Propaganda Machine on Africa
-Title: As Kurds Tracked ISIS Leader, U.S. Withdrawal Threw Raid Into Turmoil
-Title: India Finally Lets Lawmakers Into Kashmir: Far-Right Europeans
-Title: Jeremy Corbyn Says Labour Will Back Early U.K. Election
-Title: Deadly Earthquake Strikes Southern Philippine Island
+Title: Indian Court Favors Hindus in Dispute Over Ayodhya Religious Site
+Title: The Fall of the Berlin Wall in Photos: An Accident of History That Changed The World
+Title: Germany Has Been Unified for 30 Years. Its Identity Still Is Not.
+Title: Another Election in Spain Threatens to Deepen the Political Deadlock
+Title: Tunisia’s #MeToo Started Outside a High School. Will It End in Court?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Abu Bakr al-Baghdadi: IS leader's underwear 'stolen' for DNA test
-Title: California faces huge power cuts as wildfires rage
-Title: Aya Maasarwe: Australian jailed for student's high-profile murder
-Title: Ukraine conflict: Front-line troops begin pullout
-Title: Nirmal Purja: Ex-soldier climbs 14 highest mountains in seven months
+Title: Ayodhya verdict: Indian top court gives holy site to Hindus
+Title: Australia bushfires: Two dead in New South Wales blazes
+Title: North Korea 'facing poor harvest' amid food shortages
+Title: Trump wants whistleblower named despite 'physical danger'
+Title: Kartarpur corridor: India pilgrims in historic visit to Pakistan temple
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Lebanese PM Hariri likely to resign amid protests: sources
-Title: Beirut protesters' camp attacked, tents set on fire: TV footage
-Title: Israel's Netanyahu plans to move funds from civilian to military spending
-Title: Brexit election nears as UK opposition backs early poll
-Title: UK's Johnson tells cabinet: we need election to end parliamentary paralysis
+Title: Bolivia’s Morales denounces protests by 'violent groups'
+Title: Indian court gives disputed religious site to Hindus in landmark ruling
+Title: Ukraine, Russian-backed rebels begin Donbass village withdrawal
+Title: India, Pakistan contacts at 'zero' despite border cooperation
+Title: Iraqi PM concedes 'mistakes made' as protesters pushed back in Baghdad
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000042025b02a898408229b361510a4731feb72a73a5f175e
+0000000000000000000395c7b7b6e0e9d851948dbec3f5afecf9a528ffa793f7
