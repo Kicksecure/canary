@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 14 Nov 2019 07:18:57 +0000
+Mon, 18 Nov 2019 10:30:51 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Trans-Atlantic Hate: Neo-Nazi 'Atomwaffen Division' Spreads Fear in Germany
-Title: Scent of Musk: The Woman Who Can Smell Parkinson's
-Title: Interview with Mikhail Gorbachev: 'It Was Impossible To Go On Living Like Before'
-Title: Interview with Robert Kagan: Permanence of Liberal Democracy 'Is an Illusion'
-Title: Corruption and Cruise Ships: Montenegro's Scenic Coast Spoiled by Greed
+Title: Interview with India's External Affairs Minister: 'With More Weight Comes More Responsibility'
+Title: Elon Takes Berlin: Plans for Tesla Plant Jostle German Car Industry
+Title: Paris Soloist: Macron Plays Fox in the EU Hen House
+Title: Deathly Silence: An Inside Look at Kashmir
+Title: Nord Stream 2: The Cold War Returns to Germany
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As Islamic Jihad and Israel Battle, Hamas Has to Choose Sides
-Title: Hong Kong Colleges Become Besieged Citadels as Police Close In
-Title: Venice Battles Flooding Amid Highest Tide in 50 Years
-Title: Bolivia’s Interim Leader Pledges to ‘Reconstruct Democracy’
-Title: In Struggle Over Parthenon Marbles, Greece Gets Unexpected Ally: Xi Jinping
+Title: Hong Kong Protests: Campus Under Siege as Mask Ban Is Overturned
+Title: Turkey’s Deportations Force Europe to Face Its ISIS Militants
+Title: Dueling Matteos Battle for the Future of Italy
+Title: Prince Andrew Talks About His Ties to Jeffrey Epstein, and Britain Is Appalled
+Title: Jennifer Arcuri Says Boris Johnson Cast Her Aside Like a ‘One-Night Stand’
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump impeachment inquiry: New claims amid public hearing
-Title: Sabarimala temple: India court to review ruling on women's entry
-Title: Israel-Gaza 'ceasefire begins' after two days of fighting
-Title: Bolivia crisis: Clashes as Morales supporters oppose interim rule
-Title: Australia bushfires: Death toll rises as communities remain on alert
+Title: Hong Kong Polytechnic University: Protesters arrested as they run from campus
+Title: Panorama Investigation: War crimes scandal exposed
+Title: Children fish WW2 ammunition from pond with magnet in Germany
+Title: Bolivia crisis: Food and fuel shortages as death toll mounts
+Title: Israel Folau criticised for 'appalling' Australia bushfire remarks
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Protesters blockade universities, stockpile makeshift weapons as chaos grips Hong Kong
-Title: Cathay Pacific cuts profit guidance for second time amid Hong Kong protests
-Title: Schools close as protesters occupy Hong Kong roads and campuses
-Title: Chinese students flee Hong Kong as campuses burn
-Title: Highlights: Hong Kong disrupted as citywide protests spread
+Title: Hong Kong protesters pinned back on campus amid fears of crackdown
+Title: Asian airlines slash flights to Hong Kong as unrest escalates
+Title: North Korea's Kim Jong Un supervises air drills while U.S. and South Korea postpone drills: KCNA
+Title: Turkey's pro-Kurdish party mulls pulling MPs from parliament
+Title: Kuwait's emir reappoints premier, removes defence and interior ministers
 
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-00000000000000000008f921be4ff4ea3f8a8a69406edb73104cf09348678185
+0000000000000000000cd20904ed1f6ee4c58aae816b1bc140775b925efffb18
