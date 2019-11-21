@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 18 Nov 2019 10:30:51 +0000
+Thu, 21 Nov 2019 06:07:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Hong Kong on the 'Brink': City Edges Toward Precipice as Violence Escalates
+Title: Anti-Government Protests: Democracy's Crisis of Faith Reaches South America
 Title: Interview with India's External Affairs Minister: 'With More Weight Comes More Responsibility'
 Title: Elon Takes Berlin: Plans for Tesla Plant Jostle German Car Industry
 Title: Paris Soloist: Macron Plays Fox in the EU Hen House
-Title: Deathly Silence: An Inside Look at Kashmir
-Title: Nord Stream 2: The Cold War Returns to Germany
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong Protests: Campus Under Siege as Mask Ban Is Overturned
-Title: Turkey’s Deportations Force Europe to Face Its ISIS Militants
-Title: Dueling Matteos Battle for the Future of Italy
-Title: Prince Andrew Talks About His Ties to Jeffrey Epstein, and Britain Is Appalled
-Title: Jennifer Arcuri Says Boris Johnson Cast Her Aside Like a ‘One-Night Stand’
+Title: After 2 Elections and 3 Tries, Israel Is No Closer to Forming a New Government
+Title: After Disastrous Epstein Interview, Prince Andrew Steps Down From Public Duties
+Title: ‘Our Patience Is Over’: Why Iraqis Are Protesting
+Title: Arab Thinkers Call to Abandon Boycotts and Engage With Israel
+Title: Ex-Worker at U.K. Consulate in Hong Kong Says China Tortured Him
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hong Kong Polytechnic University: Protesters arrested as they run from campus
-Title: Panorama Investigation: War crimes scandal exposed
-Title: Children fish WW2 ammunition from pond with magnet in Germany
-Title: Bolivia crisis: Food and fuel shortages as death toll mounts
-Title: Israel Folau criticised for 'appalling' Australia bushfire remarks
+Title: Impeachment inquiry: Trump directed Ukraine pressure - Sondland
+Title: 'I made my film Fish to keep my son's dreams alive'
+Title: Sydney smoke: Australia fires send haze over Sydney and Adelaide
+Title: Benny Gantz unable to form Israel coalition government
+Title: Ryanair baggage fee policy ruled as 'excessive' in Spain
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Hong Kong protesters pinned back on campus amid fears of crackdown
-Title: Asian airlines slash flights to Hong Kong as unrest escalates
-Title: North Korea's Kim Jong Un supervises air drills while U.S. and South Korea postpone drills: KCNA
-Title: Turkey's pro-Kurdish party mulls pulling MPs from parliament
-Title: Kuwait's emir reappoints premier, removes defence and interior ministers
+Title: Protesters stay holed up on Hong Kong campus, surrounded by riot police
+Title: Highlights: Protesters stay holed up on Hong Kong campus, surrounded by riot police
+Title: Australians shelter from bushfires as political pressure rises
+Title: Factbox: Anti-nuclear Pope Francis to visit Hiroshima and Nagasaki on Japan trip
+Title: Pope Francis meeting Thai king, Buddhist patriarch in visit
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000cd20904ed1f6ee4c58aae816b1bc140775b925efffb18
+000000000000000000020ac416a5c3eebcbbf23b4757fac6cfa745b2c0b37fd0
