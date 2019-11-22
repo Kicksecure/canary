@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 21 Nov 2019 06:07:25 +0000
+Fri, 22 Nov 2019 10:32:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Tuk-Tuk Revolution: Protesters in Iraq Face Down State Violence
+Title: Life in China's 'Little Africa': Africans Find a Home in a Country with Few Foreigners
+Title: German Doomsday Preppers: Harmless Stockpilers or Neo-Nazi Survivalists?
 Title: Hong Kong on the 'Brink': City Edges Toward Precipice as Violence Escalates
 Title: Anti-Government Protests: Democracy's Crisis of Faith Reaches South America
-Title: Interview with India's External Affairs Minister: 'With More Weight Comes More Responsibility'
-Title: Elon Takes Berlin: Plans for Tesla Plant Jostle German Car Industry
-Title: Paris Soloist: Macron Plays Fox in the EU Hen House
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: After 2 Elections and 3 Tries, Israel Is No Closer to Forming a New Government
-Title: After Disastrous Epstein Interview, Prince Andrew Steps Down From Public Duties
-Title: ‘Our Patience Is Over’: Why Iraqis Are Protesting
-Title: Arab Thinkers Call to Abandon Boycotts and Engage With Israel
-Title: Ex-Worker at U.K. Consulate in Hong Kong Says China Tortured Him
+Title: The Jungle Prince of Delhi
+Title: Israel’s Netanyahu Indicted on Charges of Fraud, Bribery and Breach of Trust
+Title: At Odds With Labour, Britain’s Jews Are Feeling Politically Homeless
+Title: The World Burns All Year. Are There Enough Planes to Douse the Flames?
+Title: ‘My Loneliness Keeps Me Going’: Fighting for Equality in India
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Impeachment inquiry: Trump directed Ukraine pressure - Sondland
-Title: 'I made my film Fish to keep my son's dreams alive'
-Title: Sydney smoke: Australia fires send haze over Sydney and Adelaide
-Title: Benny Gantz unable to form Israel coalition government
-Title: Ryanair baggage fee policy ruled as 'excessive' in Spain
+Title: Impeachment inquiry: Trump 'promoted discredited Ukraine theory'
+Title: Putin vows to perfect mystery rocket after engine blast
+Title: Motorcycle taxi drivers storm Indonesia hospital to get baby's body
+Title: Russians under threat over gay Q&A video
+Title: 'Global epidemic' of childhood inactivity
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Protesters stay holed up on Hong Kong campus, surrounded by riot police
-Title: Highlights: Protesters stay holed up on Hong Kong campus, surrounded by riot police
-Title: Australians shelter from bushfires as political pressure rises
-Title: Factbox: Anti-nuclear Pope Francis to visit Hiroshima and Nagasaki on Japan trip
-Title: Pope Francis meeting Thai king, Buddhist patriarch in visit
-
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+Title: London Canary Wharf underground station closed due to dust and faulty fan
+Title: German ambassador says Turkey should explain charges against arrested lawyer
+Title: Iraq's Sistani says electoral reforms only way to resolve crisis: representative
+Title: Pope urges Thais not to see Christianity as 'foreign'
+Title: Defying U.S. pressure, South Korea to end intelligence pact with Japan
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000020ac416a5c3eebcbbf23b4757fac6cfa745b2c0b37fd0
+
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+000000000000000000155282c2f1ba9020fe911c5cf4bd1e01c1e4cde9ed3726
