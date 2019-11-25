@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 22 Nov 2019 10:32:09 +0000
+Mon, 25 Nov 2019 09:13:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Interview with Ex-President of Bolivia Evo Morales: 'The Murders Must Stop'
+Title: Extinction Rebellion Co-Founder Roger Hallam: 'We Are Engaged in the Murder of the World's Children'
+Title: Hunkering Down: Germany Is Shirking Its EU Responsibilities
+Title: Interview with Serbian President Aleksandar Vucic: 'I Would Probably Be Hanged in Brussels'
 Title: The Tuk-Tuk Revolution: Protesters in Iraq Face Down State Violence
-Title: Life in China's 'Little Africa': Africans Find a Home in a Country with Few Foreigners
-Title: German Doomsday Preppers: Harmless Stockpilers or Neo-Nazi Survivalists?
-Title: Hong Kong on the 'Brink': City Edges Toward Precipice as Violence Escalates
-Title: Anti-Government Protests: Democracy's Crisis of Faith Reaches South America
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+Title: Hong Kong Election Results Give Democracy Backers Big Win
+Title: China’s Internment Camps Ruled by Secrecy and Spying, New Leak Shows
+Title: With Boeing in Cross Hairs, Lion Air Gets a Pass on Poor Safety Record
+Title: How an Unknown Female Senator Came to Replace the Bolivian Strongman Evo Morales
 Title: The Jungle Prince of Delhi
-Title: Israel’s Netanyahu Indicted on Charges of Fraud, Bribery and Breach of Trust
-Title: At Odds With Labour, Britain’s Jews Are Feeling Politically Homeless
-Title: The World Burns All Year. Are There Enough Planes to Douse the Flames?
-Title: ‘My Loneliness Keeps Me Going’: Fighting for Equality in India
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Impeachment inquiry: Trump 'promoted discredited Ukraine theory'
-Title: Putin vows to perfect mystery rocket after engine blast
-Title: Motorcycle taxi drivers storm Indonesia hospital to get baby's body
-Title: Russians under threat over gay Q&A video
-Title: 'Global epidemic' of childhood inactivity
+Title: Hong Kong elections: Carrie Lam promises 'open mind' after election rout
+Title: US Navy Secretary Richard Spencer fired over Seal case
+Title: Australia investigates alleged Chinese plot to install spy MP
+Title: Data leak reveals how China 'brainwashes' Uighurs in prison camps
+Title: Rio de Janeiro football victory parade end in clashes with police
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: London Canary Wharf underground station closed due to dust and faulty fan
-Title: German ambassador says Turkey should explain charges against arrested lawyer
-Title: Iraq's Sistani says electoral reforms only way to resolve crisis: representative
-Title: Pope urges Thais not to see Christianity as 'foreign'
-Title: Defying U.S. pressure, South Korea to end intelligence pact with Japan
+Title: More secrets of China's Xinjiang camps leaked to foreign media
+Title: Champagne flows as landslide democratic win puts pressure on Hong Kong leader
+Title: U.S. Navy chief fired over handling of SEAL saga involving Trump
+Title: Taiwan ruling party says China 'enemy of democracy' after meddling allegations
+Title: Judge orders former Australia MP to pay damages to female senator for sexual remarks
 
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-000000000000000000155282c2f1ba9020fe911c5cf4bd1e01c1e4cde9ed3726
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+00000000000000000015578451768517b472e153c8363af01e13e7f0e5a1487b
