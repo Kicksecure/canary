@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 25 Nov 2019 09:13:31 +0000
+Thu, 28 Nov 2019 15:49:58 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Drug Taxis and Impotent Police: The Avalanche of Cocaine Hitting Europe
+Title: China's Oppression of the Uighurs: 'The Equivalent of Cultural Genocide'
+Title: 'Has the World Forgotten Us?': Eyewitnesses on the Unrest in Iran 
+Title: The Case of Sergei Magnitsky: Questions Cloud Story Behind U.S. Sanctions
 Title: Interview with Ex-President of Bolivia Evo Morales: 'The Murders Must Stop'
-Title: Extinction Rebellion Co-Founder Roger Hallam: 'We Are Engaged in the Murder of the World's Children'
-Title: Hunkering Down: Germany Is Shirking Its EU Responsibilities
-Title: Interview with Serbian President Aleksandar Vucic: 'I Would Probably Be Hanged in Brussels'
-Title: The Tuk-Tuk Revolution: Protesters in Iraq Face Down State Violence
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong Election Results Give Democracy Backers Big Win
-Title: China’s Internment Camps Ruled by Secrecy and Spying, New Leak Shows
-Title: With Boeing in Cross Hairs, Lion Air Gets a Pass on Poor Safety Record
-Title: How an Unknown Female Senator Came to Replace the Bolivian Strongman Evo Morales
-Title: The Jungle Prince of Delhi
+Title: Trump Signs Hong Kong Democracy Legislation, Angering China
+Title: Time Is Running Out for Trump’s North Korean Diplomacy, Analysts Say
+Title: Mexican Leader Draws Line on Trump Terrorist Plan: ‘Interventionism: No’
+Title: Apple, Bowing to Russian Pressure, Recognizes Crimea Annexation on Map
+Title: North Korea Launches 2 Rockets, South Says
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hong Kong elections: Carrie Lam promises 'open mind' after election rout
-Title: US Navy Secretary Richard Spencer fired over Seal case
-Title: Australia investigates alleged Chinese plot to install spy MP
-Title: Data leak reveals how China 'brainwashes' Uighurs in prison camps
-Title: Rio de Janeiro football victory parade end in clashes with police
+Title: Iraq unrest: 26 killed in fresh wave of protests
+Title: Hong Kong protests: China warns US over Human Rights and Democracy Act
+Title: Gordon Sondland: US ambassador to EU accused of sexual misconduct
+Title: The Black Sea: Can Europe's most polluted sea be saved?
+Title: Albania earthquake: Hopes of finding survivors fade
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: More secrets of China's Xinjiang camps leaked to foreign media
-Title: Champagne flows as landslide democratic win puts pressure on Hong Kong leader
-Title: U.S. Navy chief fired over handling of SEAL saga involving Trump
-Title: Taiwan ruling party says China 'enemy of democracy' after meddling allegations
-Title: Judge orders former Australia MP to pay damages to female senator for sexual remarks
-
+Title: Turkey dismisses Macron's Syria criticism, says he sponsors terrorism
+Title: Italy uncovers plot to create new Nazi party
+Title: French researcher says she was denied entry to Russia ahead of 'yellow vest' talk
+Title: UK Labour outperforms Johnson's Conservatives in electoral fundraising
+Title: Turkey signs maritime boundaries deal with Libya amid exploration row
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000015578451768517b472e153c8363af01e13e7f0e5a1487b
+00000000000000000014fffe63d08f3be0a25ec9b071d3d1dbabfea529be2127
