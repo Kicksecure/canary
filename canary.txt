@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 28 Nov 2019 15:49:58 +0000
+Fri, 29 Nov 2019 15:05:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Migrant Workers: The Chinese Builders Behind Africa's Construction Boom
 Title: Drug Taxis and Impotent Police: The Avalanche of Cocaine Hitting Europe
 Title: China's Oppression of the Uighurs: 'The Equivalent of Cultural Genocide'
 Title: 'Has the World Forgotten Us?': Eyewitnesses on the Unrest in Iran 
 Title: The Case of Sergei Magnitsky: Questions Cloud Story Behind U.S. Sanctions
-Title: Interview with Ex-President of Bolivia Evo Morales: 'The Murders Must Stop'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Trump Signs Hong Kong Democracy Legislation, Angering China
-Title: Time Is Running Out for Trump’s North Korean Diplomacy, Analysts Say
-Title: Mexican Leader Draws Line on Trump Terrorist Plan: ‘Interventionism: No’
-Title: Apple, Bowing to Russian Pressure, Recognizes Crimea Annexation on Map
-Title: North Korea Launches 2 Rockets, South Says
+Title: Trump Visits Afghanistan and Says He Reopened Talks With Taliban
+Title: Suddenly, the Chinese Threat to Australia Seems Very Real
+Title: Hong Kong Police End 2-Week Campus Siege
+Title: Beloved Berlin Currywurst Stand Delivers a Bite of History
+Title: German Catholic Church Debates Sexuality, Celibacy and Women’s Roles
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iraq unrest: 26 killed in fresh wave of protests
-Title: Hong Kong protests: China warns US over Human Rights and Democracy Act
-Title: Gordon Sondland: US ambassador to EU accused of sexual misconduct
-Title: The Black Sea: Can Europe's most polluted sea be saved?
-Title: Albania earthquake: Hopes of finding survivors fade
+Title: Sudan crisis: Women praise end of strict public order law
+Title: Daphne Caruana Galizia: Malta suspect will not get immunity
+Title: Brad Gobright: Free solo climber falls to his death
+Title: Japanese store 'rethinks' badges for staff on periods
+Title: Iraq unrest: PM Abdul Mahdi to resign after bloodiest day in protests
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Turkey dismisses Macron's Syria criticism, says he sponsors terrorism
-Title: Italy uncovers plot to create new Nazi party
-Title: French researcher says she was denied entry to Russia ahead of 'yellow vest' talk
-Title: UK Labour outperforms Johnson's Conservatives in electoral fundraising
-Title: Turkey signs maritime boundaries deal with Libya amid exploration row
+Title: British police shoot man at London Bridge after stabbing: source
+Title: Person believed to have been stabbed in London Bridge area, suspect shot: source
+Title: Fatal attacks on Congo clinics risk resurgence of Ebola epidemic
+Title: 'Are you brain dead?' Turkey's Erdogan asks Macron before NATO summit
+Title: France to summon Turkish envoy after Erdogan's 'insults': Elysee
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000014fffe63d08f3be0a25ec9b071d3d1dbabfea529be2127
+000000000000000000029daa3380f8f1a5699cbf3505a96fb1d7dda25b2a7944
