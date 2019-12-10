@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 29 Nov 2019 15:05:17 +0000
+Tue, 10 Dec 2019 16:52:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Migrant Workers: The Chinese Builders Behind Africa's Construction Boom
-Title: Drug Taxis and Impotent Police: The Avalanche of Cocaine Hitting Europe
-Title: China's Oppression of the Uighurs: 'The Equivalent of Cultural Genocide'
-Title: 'Has the World Forgotten Us?': Eyewitnesses on the Unrest in Iran 
-Title: The Case of Sergei Magnitsky: Questions Cloud Story Behind U.S. Sanctions
+Title: Women at Work: Syrian Refugees Find Meaningful Jobs in Jordan
+Title: Might Makes Right? Donald Trump Damages America By Defanging WTO
+Title: Political Economist Daran Acemoglu: 'Trump Poses a Great Risk to U.S. Democracy'
+Title: Putin's Killers in Europe: How Russian Agents Hunt Down Kremlin Opponents
+Title: Corruption, Clientelism and Murder: Malta Emerges as the EU's Next Problem Child
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Trump Visits Afghanistan and Says He Reopened Talks With Taliban
-Title: Suddenly, the Chinese Threat to Australia Seems Very Real
-Title: Hong Kong Police End 2-Week Campus Siege
-Title: Beloved Berlin Currywurst Stand Delivers a Bite of History
-Title: German Catholic Church Debates Sexuality, Celibacy and Women’s Roles
+Title: New Zealand Volcano Became a Deadly Tourist Draw. Now the Question Is Why.
+Title: In U.K. Vote, Online Disinformation Is the New Normal
+Title: Chile Plane Bound for Antarctica Goes Missing With 38 Aboard
+Title: With France in Uproar Over Pensions, Macron May Need One Early
+Title: Duterte Says Martial Law in Southern Philippines Will End This Month
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Sudan crisis: Women praise end of strict public order law
-Title: Daphne Caruana Galizia: Malta suspect will not get immunity
-Title: Brad Gobright: Free solo climber falls to his death
-Title: Japanese store 'rethinks' badges for staff on periods
-Title: Iraq unrest: PM Abdul Mahdi to resign after bloodiest day in protests
+Title: Trump impeachment: Democrats unveil formal charges
+Title: Climate change: Greenland ice melt 'is accelerating'
+Title: USMCA: Agreement reached on Nafta trade deal replacement
+Title: White Island volcano: Rescuer tells of 'Chernobyl'-like scene
+Title: New Zealand volcano: What we know about those affected
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: British police shoot man at London Bridge after stabbing: source
-Title: Person believed to have been stabbed in London Bridge area, suspect shot: source
-Title: Fatal attacks on Congo clinics risk resurgence of Ebola epidemic
-Title: 'Are you brain dead?' Turkey's Erdogan asks Macron before NATO summit
-Title: France to summon Turkish envoy after Erdogan's 'insults': Elysee
+Title: Japanese former defense minister shot near home: Sankei
+Title: Nobel peace laureate Abiy to say militants, global powers threaten Horn of Africa
+Title: France's unions bring pensions battle back onto the streets
+Title: As Suu Kyi looks on, Gambia details mass rapes, killings in Myanmar
+Title: Qatar sends premier to Gulf summit in prospective thaw in rift
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000029daa3380f8f1a5699cbf3505a96fb1d7dda25b2a7944
+00000000000000000015d2eb28db1184cd9fdfe265540bfccd7a4ccfc6ade19e
