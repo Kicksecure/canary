@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 10 Dec 2019 16:52:01 +0000
+Mon, 16 Dec 2019 12:01:52 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Bags of Cash: Ex-FPÖ Head Strache Hit by New Corruption Allegations
+Title: EU Border Scandal: Videos Show Apparent Illegal Pushback of Migrants
+Title: 'Planetary Emergency': The Time to Save the Climate Is Now
+Title: Four Decades Later: East German Art Heist Mystery Nears Resolution
 Title: Women at Work: Syrian Refugees Find Meaningful Jobs in Jordan
-Title: Might Makes Right? Donald Trump Damages America By Defanging WTO
-Title: Political Economist Daran Acemoglu: 'Trump Poses a Great Risk to U.S. Democracy'
-Title: Putin's Killers in Europe: How Russian Agents Hunt Down Kremlin Opponents
-Title: Corruption, Clientelism and Murder: Malta Emerges as the EU's Next Problem Child
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: New Zealand Volcano Became a Deadly Tourist Draw. Now the Question Is Why.
-Title: In U.K. Vote, Online Disinformation Is the New Normal
-Title: Chile Plane Bound for Antarctica Goes Missing With 38 Aboard
-Title: With France in Uproar Over Pensions, Macron May Need One Early
-Title: Duterte Says Martial Law in Southern Philippines Will End This Month
+Title: In France, Dying at Home Can Mean a Long Wait for a Doctor
+Title: Protests Spread Across India Over Divisive Citizenship Law
+Title: Beijing Backs Hong Kong Leader Despite Election Setback
+Title: Top U.S. Envoy Warns North Korea Against Weapons Tests
+Title: Soccer Broadcast Pulled After Arsenal Star Mesut Özil Criticized China
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump impeachment: Democrats unveil formal charges
-Title: Climate change: Greenland ice melt 'is accelerating'
-Title: USMCA: Agreement reached on Nafta trade deal replacement
-Title: White Island volcano: Rescuer tells of 'Chernobyl'-like scene
-Title: New Zealand volcano: What we know about those affected
+Title: Citizenship Amendment Act: India PM Modi appeals for calm as protests grow
+Title: Trump impeachment: Schumer calls for White House witnesses at trial
+Title: Imported for my body: The African women trafficked to India for sex
+Title: Australia bushfires: 'Mega blaze' destroys homes ahead of heatwave
+Title: Hiroshima buildings that survived atomic bomb to be demolished
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Japanese former defense minister shot near home: Sankei
-Title: Nobel peace laureate Abiy to say militants, global powers threaten Horn of Africa
-Title: France's unions bring pensions battle back onto the streets
-Title: As Suu Kyi looks on, Gambia details mass rapes, killings in Myanmar
-Title: Qatar sends premier to Gulf summit in prospective thaw in rift
+Title: Chinese Premier says Hong Kong not yet out of protest 'dilemma'
+Title: Chinese President Xi vows support for Hong Kong leader: media
+Title: Turkish drones land on Turkish Cyprus for energy exploration: official
+Title: Qatar FM says early talks with Saudi Arabia have broken stalemate: CNN
+Title: India citizenship law protests spread across campuses
+
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000015d2eb28db1184cd9fdfe265540bfccd7a4ccfc6ade19e
+000000000000000000025ae8248c657d68d8565250ad140601abd57f6f4e9567
