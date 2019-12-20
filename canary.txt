@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 16 Dec 2019 12:01:52 +0000
+Fri, 20 Dec 2019 12:44:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Breaking Taboos: A Rape Case Finally Has Japan Talking about Sexual Assault
+Title: Bangladeshi Textile Workers: Just 11 Days a Year with Her Daughter
+Title: Accusation from Investor Bill Browder: Why DER SPIEGEL Stands Behind Its Magnitsky Reporting
 Title: Bags of Cash: Ex-FPÖ Head Strache Hit by New Corruption Allegations
 Title: EU Border Scandal: Videos Show Apparent Illegal Pushback of Migrants
-Title: 'Planetary Emergency': The Time to Save the Climate Is Now
-Title: Four Decades Later: East German Art Heist Mystery Nears Resolution
-Title: Women at Work: Syrian Refugees Find Meaningful Jobs in Jordan
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: In France, Dying at Home Can Mean a Long Wait for a Doctor
-Title: Protests Spread Across India Over Divisive Citizenship Law
-Title: Beijing Backs Hong Kong Leader Despite Election Setback
-Title: Top U.S. Envoy Warns North Korea Against Weapons Tests
-Title: Soccer Broadcast Pulled After Arsenal Star Mesut Özil Criticized China
+Title: Fighting as Masked Vigilantes, Brazil’s Police Leave a Trail of Bodies and Fear
+Title: Where Doctors Are Criminals
+Title: In Japan, Iran’s President May Be Seeking a Line to the U.S.
+Title: 2 Firefighters Die in Australia Fires and Scott Morrison Ends Vacation
+Title: Malta Murder Investigation Closes In on ‘Mafia State’
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Citizenship Amendment Act: India PM Modi appeals for calm as protests grow
-Title: Trump impeachment: Schumer calls for White House witnesses at trial
-Title: Imported for my body: The African women trafficked to India for sex
-Title: Australia bushfires: 'Mega blaze' destroys homes ahead of heatwave
-Title: Hiroshima buildings that survived atomic bomb to be demolished
+Title: Australia fires: PM Morrison apologises for US holiday amid crisis
+Title: Trump impeachment: President demands immediate Senate trial
+Title: France Télécom suicides: Three former bosses jailed
+Title: Boeing successfully launches astronaut capsule for Nasa
+Title: Claudine Auger: French actress known for James Bond role dies aged 78
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Chinese Premier says Hong Kong not yet out of protest 'dilemma'
-Title: Chinese President Xi vows support for Hong Kong leader: media
-Title: Turkish drones land on Turkish Cyprus for energy exploration: official
-Title: Qatar FM says early talks with Saudi Arabia have broken stalemate: CNN
-Title: India citizenship law protests spread across campuses
-
+Title: Russia's security service searches suspect's home after deadly shooting: neighbors
+Title: Exclusive: U.S. probe of Saudi oil attack shows it came from north - report
+Title: Kazakhstan to liberalize rules on protests and political parties
+Title: Heathrow's new runway delayed until at least 2028
+Title: 'Before it is too late': Diplomats race to defuse tensions ahead of North Korea's deadline
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000025ae8248c657d68d8565250ad140601abd57f6f4e9567
+0000000000000000000ada47e9bb304e7e8a44942bfb4084e2db03b4455be3a5
