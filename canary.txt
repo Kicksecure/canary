@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 27 Dec 2019 10:31:35 +0000
+Mon, 30 Dec 2019 16:44:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Interview with Rui Pinto of Football Leaks: 'It Has Been the Same Shit for Years'
@@ -47,27 +47,27 @@ Title: Accusation from Investor Bill Browder: Why DER SPIEGEL Stands Behind Its 
 Title: Bags of Cash: Ex-FPÖ Head Strache Hit by New Corruption Allegations
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Netanyahu Rebuffs a Challenge From Within, Despite Graft Charges
-Title: An Old Menstruation Taboo Killed Her. This Time, a Man Went to Jail.
-Title: Japan to Deploy Destroyer to Middle East
-Title: Blocked in U.S., Huawei Touts ‘Shared Values’ to Compete in Europe
-Title: At Least a Dozen Killed in Plane Crash in Kazakhstan
+Title: Left Behind by Migrant Husbands, Women Break the Rules and Go to Work
+Title: Inside China’s Push to Turn Muslim Minorities Into an Army of Workers
+Title: A 7-Eleven in Japan Might Close for a Day. Yes, That’s a Big Deal.
+Title: Woman Who Accused 12 Men of Rape Is Guilty of ‘Public Mischief’ in Cyprus
+Title: Putin Thanks Trump for Helping Russia Thwart Terrorist Attack
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kazakhstan plane crash: Bek Air plane comes down near Almaty airport
-Title: Israel's Benjamin Netanyahu comfortably wins party leadership challenge
-Title: Australia fires: Crews brace for dangerous heatwave
-Title: Typhoon Phanfone: Philippine death toll rises to 28
-Title: Inside China's child pop star factory
+Title: Australia fires worsen as every state hits 40C
+Title: China jails 'gene-edited babies' scientist for three years
+Title: Sudan sentences 29 to death for teacher's killing in custody
+Title: Texas church shooting: Two fatally shot before gunman killed by churchgoer
+Title: Moscow brings in artificial snow for New Year in mild winter
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Plane crashes after takeoff in Kazakhstan, 12 dead, dozens injured
-Title: India tightens security for protests after Friday prayers
-Title: In tense north India, Muslim family says Hindu neighbors stood guard at a wedding
-Title: Norwegian, 71, told to leave India after joining citizenship law protest
-Title: Indonesia to revive 'truth and reconciliation' commission
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+Title: Somalia says unnamed country behind blast that killed 90 people
+Title: Trump, Putin discussed Russia attack, arms control, relations: White House
+Title: Bolivia expels Mexican ambassador over asylum dispute
+Title: Top Iraq militia chief warns of tough response to U.S. air strikes
+Title: Chinese court sentences 'gene-editing' scientist to three years in prison
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-0000000000000000001090eca0c6d445e0ac517983988304547d262f5e966cca
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+00000000000000000000728d7792a7542278ea83083f693a84bba4134eba991c
