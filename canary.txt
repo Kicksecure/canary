@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 30 Dec 2019 16:44:16 +0000
+Mon, 06 Jan 2020 18:58:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Interview with Rui Pinto of Football Leaks: 'It Has Been the Same Shit for Years'
-Title: Breaking Taboos: A Rape Case Finally Has Japan Talking about Sexual Assault
-Title: Bangladeshi Textile Workers: Just 11 Days a Year with Her Daughter
-Title: Accusation from Investor Bill Browder: Why DER SPIEGEL Stands Behind Its Magnitsky Reporting
-Title: Bags of Cash: Ex-FPÖ Head Strache Hit by New Corruption Allegations
+Title: Europe's Reluctant Leader: Germany Searches for Its Role in the World
+Title: Life After the Synagogue Attack: A German Jewish Congregation Searches for Normalcy
+Title: A New Wave of Refugees? Idlib Violence Puts Pressure on EU-Turkey Pact
+Title: Trump's Declaration of War: Conflict with Iran Could Be Inevitable after Killing of General
+Title: China's Uighur Crackdown: 'The Holocaust Did Not Take Place in One Day'
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Left Behind by Migrant Husbands, Women Break the Rules and Go to Work
-Title: Inside China’s Push to Turn Muslim Minorities Into an Army of Workers
-Title: A 7-Eleven in Japan Might Close for a Day. Yes, That’s a Big Deal.
-Title: Woman Who Accused 12 Men of Rape Is Guilty of ‘Public Mischief’ in Cyprus
-Title: Putin Thanks Trump for Helping Russia Thwart Terrorist Attack
+Title: Tears From Ayatollah as Iran Mourns Dead General: Live Updates
+Title: The Springs Ran Dry. Then This Australian Town Burned.
+Title: Masked Men Attack Students in Rampage at University in New Delhi
+Title: What Is Trump’s Iran Strategy? Few Seem to Know
+Title: China Grapples With Mystery Pneumonia-Like Illness
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Australia fires worsen as every state hits 40C
-Title: China jails 'gene-edited babies' scientist for three years
-Title: Sudan sentences 29 to death for teacher's killing in custody
-Title: Texas church shooting: Two fatally shot before gunman killed by churchgoer
-Title: Moscow brings in artificial snow for New Year in mild winter
+Title: Soleimani: Huge crowds pack Tehran for commander's funeral
+Title: Iranian-Americans 'harassed' by US border officials
+Title: John Bolton ready to testify in Trump impeachment trial
+Title: Harvey Weinstein appears in New York court for sex assault trial
+Title: Ghosn began Japan escape 'on bullet train'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Somalia says unnamed country behind blast that killed 90 people
-Title: Trump, Putin discussed Russia attack, arms control, relations: White House
-Title: Bolivia expels Mexican ambassador over asylum dispute
-Title: Top Iraq militia chief warns of tough response to U.S. air strikes
-Title: Chinese court sentences 'gene-editing' scientist to three years in prison
+Title: Ghosn took bullet train to Osaka en route to Lebanon: Kyodo
+Title: Ghosn did not use French documents to travel to Lebanon: French minister
+Title: Supreme leader in tears as huge crowd mourns slain commander in Tehran
+Title: China's U.N. ambassador urges U.S. not to use more force in Middle East
+Title: Top Trump administration officials to brief U.S. Senate on Iran-Iraq Wednesday
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000000728d7792a7542278ea83083f693a84bba4134eba991c
+0000000000000000001041054832510f3f5970588d15bf35c5fce284efdcfd02
