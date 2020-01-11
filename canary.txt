@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 06 Jan 2020 18:58:48 +0000
+Sat, 11 Jan 2020 10:52:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Europe's Reluctant Leader: Germany Searches for Its Role in the World
-Title: Life After the Synagogue Attack: A German Jewish Congregation Searches for Normalcy
-Title: A New Wave of Refugees? Idlib Violence Puts Pressure on EU-Turkey Pact
-Title: Trump's Declaration of War: Conflict with Iran Could Be Inevitable after Killing of General
-Title: China's Uighur Crackdown: 'The Holocaust Did Not Take Place in One Day'
+Title: A Dangerous New Era in the Middle East
+Title: Germany Plans to Repatriate Ebola Patients
+Title: Can Nuclear Power Offer a Way Out of the Climate Crisis?
+Title: Killing of Iran General Soleimani Akin to War Declaration
+Title: Dissendent Describes 'Cultural Genocide' Against Uighurs
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Tears From Ayatollah as Iran Mourns Dead General: Live Updates
-Title: The Springs Ran Dry. Then This Australian Town Burned.
-Title: Masked Men Attack Students in Rampage at University in New Delhi
-Title: What Is Trump’s Iran Strategy? Few Seem to Know
-Title: China Grapples With Mystery Pneumonia-Like Illness
+Title: Iran Says Downing of Plane Was a ‘Disastrous Mistake’: Live Updates
+Title: Iran Says It Unintentionally Shot Down Ukrainian Airliner
+Title: As U.S.-Iran Tensions Flare, Iraq Is Caught in the Middle
+Title: Iran, United by Loss of General, Is Divided Over Plane Crash
+Title: Plane Crash Leaves Iranian Diaspora in Canada Grief-Stricken
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Soleimani: Huge crowds pack Tehran for commander's funeral
-Title: Iranian-Americans 'harassed' by US border officials
-Title: John Bolton ready to testify in Trump impeachment trial
-Title: Harvey Weinstein appears in New York court for sex assault trial
-Title: Ghosn began Japan escape 'on bullet train'
+Title: Iran plane crash: Ukrainian jet was 'unintentionally' shot down
+Title: Sultan Qaboos of Oman, Arab world's longest-serving ruler, dies aged 79
+Title: Texas governor to reject new refugees under Trump order
+Title: Russian and US warships almost collide in Arabian Sea
+Title: Trump says he deserves Nobel Peace Prize not Abiy Ahmed
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Ghosn took bullet train to Osaka en route to Lebanon: Kyodo
-Title: Ghosn did not use French documents to travel to Lebanon: French minister
-Title: Supreme leader in tears as huge crowd mourns slain commander in Tehran
-Title: China's U.N. ambassador urges U.S. not to use more force in Middle East
-Title: Top Trump administration officials to brief U.S. Senate on Iran-Iraq Wednesday
+Title: Thousands of young Syrians opt to learn Russian at school
+Title: Iran says military shot down Ukrainian passenger plane in error
+Title: Iran's Guards accept responsibility for downing Ukrainian plane
+Title: Presidents of Ukraine, Iran to discuss downed plane -Ukrainian official
+Title: Australia gets relief, respite as bushfires spare remote villages
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000001041054832510f3f5970588d15bf35c5fce284efdcfd02
+0000000000000000000cc764c54fce7879922892110ead57612a5254376d73a0
