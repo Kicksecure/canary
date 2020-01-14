@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 11 Jan 2020 10:52:06 +0000
+Tue, 14 Jan 2020 14:37:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A Dangerous New Era in the Middle East
-Title: Germany Plans to Repatriate Ebola Patients
-Title: Can Nuclear Power Offer a Way Out of the Climate Crisis?
-Title: Killing of Iran General Soleimani Akin to War Declaration
-Title: Dissendent Describes 'Cultural Genocide' Against Uighurs
+Title: American Withdraws from Trial after Questions about His Background
+Title: The Concentration Camp Victim Who Never Was
+Title: The U.S. Versus Iran: A Dangerous New Era in the Middle East
+Title: 'The "Gypsy" Stereotype Affects Us All'
+Title: Are Venezuelan Refugees Still Welcome?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Iran Says Downing of Plane Was a ‘Disastrous Mistake’: Live Updates
-Title: Iran Says It Unintentionally Shot Down Ukrainian Airliner
-Title: As U.S.-Iran Tensions Flare, Iraq Is Caught in the Middle
-Title: Iran, United by Loss of General, Is Divided Over Plane Crash
-Title: Plane Crash Leaves Iranian Diaspora in Canada Grief-Stricken
+Title: Iran’s Grim Economy Limits Its Willingness to Confront the U.S.
+Title: Avalanches Sweep Through Villages in Kashmir, Killing at Least 55
+Title: France, Germany and U.K. Serve Notice on Iran Under Nuclear Deal
+Title: His Grandmother Is Canada’s Queen, but Harry Won’t Get Much Special Treatment
+Title: Iran’s President Calls for Special Court on Downed Plane
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iran plane crash: Ukrainian jet was 'unintentionally' shot down
-Title: Sultan Qaboos of Oman, Arab world's longest-serving ruler, dies aged 79
-Title: Texas governor to reject new refugees under Trump order
-Title: Russian and US warships almost collide in Arabian Sea
-Title: Trump says he deserves Nobel Peace Prize not Abiy Ahmed
+Title: Iran nuclear deal: European powers trigger dispute mechanism
+Title: Iran plane downing: 'Several people detained' for shooting down airliner
+Title: Australia fires: Smoke to make 'full circuit' around globe, Nasa says
+Title: 'Miracle baby' born after womb transplant
+Title: Wuhan pneumonia outbreak: First case reported outside China
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Thousands of young Syrians opt to learn Russian at school
-Title: Iran says military shot down Ukrainian passenger plane in error
-Title: Iran's Guards accept responsibility for downing Ukrainian plane
-Title: Presidents of Ukraine, Iran to discuss downed plane -Ukrainian official
-Title: Australia gets relief, respite as bushfires spare remote villages
+Title: Gunfire heard in Sudan capital: witnesses
+Title: Ex-pope Benedict wants name removed from new book: aide
+Title: UK's PM proposes crowdfunding to allow Big Ben to bong for Brexit
+Title: Irish PM seeks to put Brexit at center of Feb. 8 election
+Title: Europeans trigger dispute mechanism in Iran nuclear deal
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000cc764c54fce7879922892110ead57612a5254376d73a0
+00000000000000000006728b1630cdf1f0b23fb34d881e3c3d76b7e1820c3f57
