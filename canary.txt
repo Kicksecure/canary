@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 14 Jan 2020 14:37:39 +0000
+Fri, 17 Jan 2020 08:50:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Lake Chad: A War Fueled By Global Warming
+Title: Germany's Greens Hit Adulthood
+Title: Germany: Can New Organ Donor Law Save Lives?
 Title: American Withdraws from Trial after Questions about His Background
-Title: The Concentration Camp Victim Who Never Was
-Title: The U.S. Versus Iran: A Dangerous New Era in the Middle East
-Title: 'The "Gypsy" Stereotype Affects Us All'
-Title: Are Venezuelan Refugees Still Welcome?
+Title: Germany: The Concentration Camp Victim Who Never Was
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Iran’s Grim Economy Limits Its Willingness to Confront the U.S.
-Title: Avalanches Sweep Through Villages in Kashmir, Killing at Least 55
-Title: France, Germany and U.K. Serve Notice on Iran Under Nuclear Deal
-Title: His Grandmother Is Canada’s Queen, but Harry Won’t Get Much Special Treatment
-Title: Iran’s President Calls for Special Court on Downed Plane
+Title: In Huawei Battle, China Threatens Germany ‘Where It Hurts’: Automakers
+Title: Japan and Thailand Confirm New Cases of Chinese Coronavirus
+Title: Ukraine Investigates Reports of Surveillance of Marie Yovanovitch
+Title: 11 Americans Were Hurt in Iranian Strike, Military Says, Contradicting Trump
+Title: Births in China Fall to Lowest Level in Nearly Six Decades
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iran nuclear deal: European powers trigger dispute mechanism
-Title: Iran plane downing: 'Several people detained' for shooting down airliner
-Title: Australia fires: Smoke to make 'full circuit' around globe, Nasa says
-Title: 'Miracle baby' born after womb transplant
-Title: Wuhan pneumonia outbreak: First case reported outside China
+Title: Iran plane crash: Khamenei to lead Friday prayers for first time since 2012
+Title: Trump impeachment: Senators sworn in for historic trial
+Title: Panama: Seven people found dead after suspected exorcism
+Title: What it means to be mixed race in the US
+Title: China's economic growth hits 30-year low
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Gunfire heard in Sudan capital: witnesses
-Title: Ex-pope Benedict wants name removed from new book: aide
-Title: UK's PM proposes crowdfunding to allow Big Ben to bong for Brexit
-Title: Irish PM seeks to put Brexit at center of Feb. 8 election
-Title: Europeans trigger dispute mechanism in Iran nuclear deal
+Title: As China’s Xi visits Myanmar, ethnic groups rue 'disrespectful' investment
+Title: Ukraine PM says 'don't jump to conclusions' after submitting resignation letter
+Title: Ukrainian government in consultations after PM's offer to resign
+Title: Drink like a Mexican kingpin: 'El Chapo' beer launched by daughter
+Title: Don't turn plane crash into political issue: Iran foreign ministry spokesman
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000006728b1630cdf1f0b23fb34d881e3c3d76b7e1820c3f57
+00000000000000000009a8f06da4d7b7f9ca6f8b9c1fe43ddfe1900b2355551d
