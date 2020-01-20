@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 17 Jan 2020 08:50:18 +0000
+Mon, 20 Jan 2020 14:07:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Can Diplomacy Stop the War in Libya?
+Title: Italian Foreign Minister Luigi Di Maio: "Europe Stands To Lose the Most"
 Title: Lake Chad: A War Fueled By Global Warming
 Title: Germany's Greens Hit Adulthood
 Title: Germany: Can New Organ Donor Law Save Lives?
-Title: American Withdraws from Trial after Questions about His Background
-Title: Germany: The Concentration Camp Victim Who Never Was
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: In Huawei Battle, China Threatens Germany ‘Where It Hurts’: Automakers
-Title: Japan and Thailand Confirm New Cases of Chinese Coronavirus
-Title: Ukraine Investigates Reports of Surveillance of Marie Yovanovitch
-Title: 11 Americans Were Hurt in Iranian Strike, Military Says, Contradicting Trump
-Title: Births in China Fall to Lowest Level in Nearly Six Decades
+Title: Harry and Meghan’s Hard Exit
+Title: How U.S. Firms Helped Africa’s Richest Woman Exploit Her Country’s Wealth
+Title: What We Know About China’s New Coronavirus
+Title: Huawei Executive Goes to Court, Fighting Extradition to U.S.
+Title: ISIS Wife’s Return to Norway Divides Government
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iran plane crash: Khamenei to lead Friday prayers for first time since 2012
-Title: Trump impeachment: Senators sworn in for historic trial
-Title: Panama: Seven people found dead after suspected exorcism
-Title: What it means to be mixed race in the US
-Title: China's economic growth hits 30-year low
+Title: New China virus: Cases triple as infection spreads to Beijing and Shanghai
+Title: Meng Wanzhou: Extradition hearings to begin for Huawei executive
+Title: Virginia gun rally: Authorities gear up for unrest in Richmond
+Title: Venezuela crisis: Juan Guaidó defies travel ban for Colombia meeting
+Title: Trump impeachment: What's Ukraine got to do with it?
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: As China’s Xi visits Myanmar, ethnic groups rue 'disrespectful' investment
-Title: Ukraine PM says 'don't jump to conclusions' after submitting resignation letter
-Title: Ukrainian government in consultations after PM's offer to resign
-Title: Drink like a Mexican kingpin: 'El Chapo' beer launched by daughter
-Title: Don't turn plane crash into political issue: Iran foreign ministry spokesman
+Title: Iran says it will quit global nuclear treaty if case goes to U.N.
+Title: Virus spreads to more Chinese cities, President Xi says containment is priority
+Title: Risk to UK of new coronavirus is currently 'very low': infection service
+Title: Norway finance minister quits over IS woman's return from Syria
+Title: Norway PM Solberg says to stay in office with minority government
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000009a8f06da4d7b7f9ca6f8b9c1fe43ddfe1900b2355551d
+00000000000000000001d2e72c61d7e97aa4fd47b46ee8970d5235e8387567b8
