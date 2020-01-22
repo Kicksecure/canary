@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 22 Jan 2020 12:14:26 +0000
+Wed, 22 Jan 2020 14:18:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: French President Emmanuel Macron Risks It All
@@ -50,22 +50,22 @@ $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 Title: World Leaders Gather in Jerusalem 75 Years After Holocaust: Live Updates
 Title: Hiding in the Grass: Fear and Confusion as Fighters Overran a U.S. Airfield
 Title: Coronavirus Outbreak Forces Chinese to Rethink Travel Plans
-Title: As Australia Burns, a Climate-Change Denier Rallies the Troops
 Title: Analysis Ties Hacking of Bezos’ Phone to Saudi Leader’s Account
+Title: ​South Korea Discharges Soldier Who Underwent Sex-Change Surgery
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Coronavirus: Chinese officials advise against travel to Wuhan
-Title: China coronavirus: What we know so far
 Title: Trump impeachment: Senate adopts rules after long debate on trial's first day
+Title: Trump impeachment trial: Five possible twists ahead
 Title: Jeff Bezos hack: Saudi Arabia calls claim ‘absurd’
-Title: South Korea transgender soldier to sue after landmark dismissal
+Title: Storm Gloria floods major river delta in eastern Spain
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Italy's Di Maio quits as 5-Star leader: party source
-Title: Don't close ports to migrants, pope says after Salvini case
-Title: Pandemic fears grow as China virus toll rises to nine
-Title: China confirms 473 cases of new coronavirus: state media
+Title: Lam says government is forming independent committee to review Hong Kong situation
+Title: China virus deaths rise to nine, heightening global alarm
+Title: Mexico says possible case of coronavirus under investigation
 Title: Biggest swimming pool in Russia's Muslim south bans women, causing outcry
+Title: Putin to discuss release of U.S.-Israeli woman jailed in Russia
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
