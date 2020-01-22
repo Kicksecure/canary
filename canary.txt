@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Jan 2020 14:07:08 +0000
+Wed, 22 Jan 2020 12:14:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: French President Emmanuel Macron Risks It All
 Title: Can Diplomacy Stop the War in Libya?
 Title: Italian Foreign Minister Luigi Di Maio: "Europe Stands To Lose the Most"
 Title: Lake Chad: A War Fueled By Global Warming
 Title: Germany's Greens Hit Adulthood
-Title: Germany: Can New Organ Donor Law Save Lives?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Harry and Meghan’s Hard Exit
-Title: How U.S. Firms Helped Africa’s Richest Woman Exploit Her Country’s Wealth
-Title: What We Know About China’s New Coronavirus
-Title: Huawei Executive Goes to Court, Fighting Extradition to U.S.
-Title: ISIS Wife’s Return to Norway Divides Government
+Title: World Leaders Gather in Jerusalem 75 Years After Holocaust: Live Updates
+Title: Hiding in the Grass: Fear and Confusion as Fighters Overran a U.S. Airfield
+Title: Coronavirus Outbreak Forces Chinese to Rethink Travel Plans
+Title: As Australia Burns, a Climate-Change Denier Rallies the Troops
+Title: Analysis Ties Hacking of Bezos’ Phone to Saudi Leader’s Account
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: New China virus: Cases triple as infection spreads to Beijing and Shanghai
-Title: Meng Wanzhou: Extradition hearings to begin for Huawei executive
-Title: Virginia gun rally: Authorities gear up for unrest in Richmond
-Title: Venezuela crisis: Juan Guaidó defies travel ban for Colombia meeting
-Title: Trump impeachment: What's Ukraine got to do with it?
+Title: Coronavirus: Chinese officials advise against travel to Wuhan
+Title: China coronavirus: What we know so far
+Title: Trump impeachment: Senate adopts rules after long debate on trial's first day
+Title: Jeff Bezos hack: Saudi Arabia calls claim ‘absurd’
+Title: South Korea transgender soldier to sue after landmark dismissal
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Iran says it will quit global nuclear treaty if case goes to U.N.
-Title: Virus spreads to more Chinese cities, President Xi says containment is priority
-Title: Risk to UK of new coronavirus is currently 'very low': infection service
-Title: Norway finance minister quits over IS woman's return from Syria
-Title: Norway PM Solberg says to stay in office with minority government
+Title: Italy's Di Maio quits as 5-Star leader: party source
+Title: Don't close ports to migrants, pope says after Salvini case
+Title: Pandemic fears grow as China virus toll rises to nine
+Title: China confirms 473 cases of new coronavirus: state media
+Title: Biggest swimming pool in Russia's Muslim south bans women, causing outcry
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000001d2e72c61d7e97aa4fd47b46ee8970d5235e8387567b8
+00000000000000000008ae82d49809b9b9908e218e994d8d3f6e0858982d4272
