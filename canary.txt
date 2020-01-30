@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 30 Jan 2020 11:00:55 +0000
+Thu, 30 Jan 2020 13:09:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: James Lovelock: 'I Would Not Waste My Fortune on Colonizing Mars'
@@ -57,15 +57,15 @@ $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Coronavirus: Death toll rises as virus spreads to every Chinese region
 Title: White House pushes back as Bolton book threatens revelations
 Title: Australia fires: Footage shows speed fires can spread
-Title: Greta Thunberg trademarking 'Fridays for Future'
-Title: Kobe Bryant: Vanessa 'completely devastated' by husband's death
+Title: Greta Thunberg to trademark 'Fridays for Future'
+Title: How yoga helped an Indian rape survivor to love her body
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Hunger, fear and death: an Ethiopian migrant family's story
-Title: China virus toll rises to 170 as fear grows over global economic hit
-Title: Three Japanese evacuees from Wuhan test positive for virus, two had no symptoms
-Title: India reports its first case of coronavirus
-Title: Heatwave and high winds threaten to reignite Australian wildfires
+Title: Trump launches coronavirus task force as U.S. readies more Wuhan evacuations
+Title: French court overturns earlier guilty verdict on cardinal Barbarin
+Title: Russian plane makes emergency landing after passenger bomb threat
+Title: Malta court condemns minister for clearing journalist memorial
+Title: China virus deaths rise to 170 as hit to global economy looms
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
