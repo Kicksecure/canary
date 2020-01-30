@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 22 Jan 2020 14:18:31 +0000
+Thu, 30 Jan 2020 11:00:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: French President Emmanuel Macron Risks It All
-Title: Can Diplomacy Stop the War in Libya?
-Title: Italian Foreign Minister Luigi Di Maio: "Europe Stands To Lose the Most"
-Title: Lake Chad: A War Fueled By Global Warming
-Title: Germany's Greens Hit Adulthood
+Title: James Lovelock: 'I Would Not Waste My Fortune on Colonizing Mars'
+Title: Prostitution in Sicily: The Good Sister of Highway SS385
+Title: A Psychotherapy Program to Help Traumatized Children in Iraq
+Title: Two Soldiers Recall the Liberation of Dachau and Auschwitz
+Title: China: A Visit to the Coronavirus Epicenter in Wuhan
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: World Leaders Gather in Jerusalem 75 Years After Holocaust: Live Updates
-Title: Hiding in the Grass: Fear and Confusion as Fighters Overran a U.S. Airfield
-Title: Coronavirus Outbreak Forces Chinese to Rethink Travel Plans
-Title: Analysis Ties Hacking of Bezos’ Phone to Saudi Leader’s Account
-Title: ​South Korea Discharges Soldier Who Underwent Sex-Change Surgery
+Title: Foreigners Airlifted From Chinese City at Heart of Coronavirus Outbreak
+Title: In India, Protesters and Modi Tussle Over Who Can Claim Gandhi
+Title: Trump’s Mideast Plan Leaves Palestinians With Few Options
+Title: Brexit Is Here, and It’s a Texas-Size Defeat for the E.U.
+Title: Asylum Seekers Find a New Route to Europe, Flowing Into a Divided Cyprus
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Chinese officials advise against travel to Wuhan
-Title: Trump impeachment: Senate adopts rules after long debate on trial's first day
-Title: Trump impeachment trial: Five possible twists ahead
-Title: Jeff Bezos hack: Saudi Arabia calls claim ‘absurd’
-Title: Storm Gloria floods major river delta in eastern Spain
+Title: Coronavirus: Death toll rises as virus spreads to every Chinese region
+Title: White House pushes back as Bolton book threatens revelations
+Title: Australia fires: Footage shows speed fires can spread
+Title: Greta Thunberg trademarking 'Fridays for Future'
+Title: Kobe Bryant: Vanessa 'completely devastated' by husband's death
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Lam says government is forming independent committee to review Hong Kong situation
-Title: China virus deaths rise to nine, heightening global alarm
-Title: Mexico says possible case of coronavirus under investigation
-Title: Biggest swimming pool in Russia's Muslim south bans women, causing outcry
-Title: Putin to discuss release of U.S.-Israeli woman jailed in Russia
+Title: Hunger, fear and death: an Ethiopian migrant family's story
+Title: China virus toll rises to 170 as fear grows over global economic hit
+Title: Three Japanese evacuees from Wuhan test positive for virus, two had no symptoms
+Title: India reports its first case of coronavirus
+Title: Heatwave and high winds threaten to reignite Australian wildfires
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000008ae82d49809b9b9908e218e994d8d3f6e0858982d4272
+000000000000000000059863ee2c7a949899a5f82cedba89482867dfe36a6c2b
