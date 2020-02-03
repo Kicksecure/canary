@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 30 Jan 2020 13:09:39 +0000
+Mon, 03 Feb 2020 13:47:07 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Israeli-Palestinian Relations: Donald Trump's 'Peace Plan' Sows Confusion and Dismay
+Title: Geoffrey Van Orden: "We Felt Let Down by Angela Merkel"
 Title: James Lovelock: 'I Would Not Waste My Fortune on Colonizing Mars'
 Title: Prostitution in Sicily: The Good Sister of Highway SS385
 Title: A Psychotherapy Program to Help Traumatized Children in Iraq
-Title: Two Soldiers Recall the Liberation of Dachau and Auschwitz
-Title: China: A Visit to the Coronavirus Epicenter in Wuhan
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Foreigners Airlifted From Chinese City at Heart of Coronavirus Outbreak
-Title: In India, Protesters and Modi Tussle Over Who Can Claim Gandhi
-Title: Trump’s Mideast Plan Leaves Palestinians With Few Options
-Title: Brexit Is Here, and It’s a Texas-Size Defeat for the E.U.
-Title: Asylum Seekers Find a New Route to Europe, Flowing Into a Divided Cyprus
+Title: Quieter Response to Coronavirus in Countries Where China Holds Sway
+Title: Coronavirus Live Updates: China Death Toll Is Greater Than in SARS Outbreak
+Title: Like Its 2 Royal Guests, Canada’s Most English City Reinvents Itself
+Title: U.K. Police Kill Man in a ‘Terrorist Related’ Incident
+Title: Australia’s Volunteer Firefighters Are Heroes. But Are They Enough?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Death toll rises as virus spreads to every Chinese region
-Title: White House pushes back as Bolton book threatens revelations
-Title: Australia fires: Footage shows speed fires can spread
-Title: Greta Thunberg to trademark 'Fridays for Future'
-Title: How yoga helped an Indian rape survivor to love her body
+Title: Coronavirus: China accuses US of causing panic and 'spreading fear'
+Title: Coronavirus: China shares in biggest fall in four years
+Title: Coronavirus:10 days of hospital building in 60 seconds
+Title: Turkish soldiers killed in Syrian army shelling in Idlib
+Title: Iowa caucuses: Race to decide election candidates begins
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Trump launches coronavirus task force as U.S. readies more Wuhan evacuations
-Title: French court overturns earlier guilty verdict on cardinal Barbarin
-Title: Russian plane makes emergency landing after passenger bomb threat
-Title: Malta court condemns minister for clearing journalist memorial
-Title: China virus deaths rise to 170 as hit to global economy looms
+Title: Erdogan says Turkey hits back after Syrian shells kill Turkish troops
+Title: Huawei, Chinese chip makers keep factories humming despite virus outbreak
+Title: China accuses U.S. of whipping up panic over virus as stocks tumble
+Title: Pakistan resumes flights to and from China, screens passengers for virus
+Title: Brexit trade deal clash: UK and EU begin sparring over rules
 
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000059863ee2c7a949899a5f82cedba89482867dfe36a6c2b
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+000000000000000000033ab486a7f9c22292ba45c5590479f57d749e521e1b09
