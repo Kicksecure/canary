@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 03 Feb 2020 13:47:07 +0000
+Wed, 05 Feb 2020 15:46:05 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: How the Coronavirus Made Globalization a Deadly Threat
 Title: Israeli-Palestinian Relations: Donald Trump's 'Peace Plan' Sows Confusion and Dismay
 Title: Geoffrey Van Orden: "We Felt Let Down by Angela Merkel"
 Title: James Lovelock: 'I Would Not Waste My Fortune on Colonizing Mars'
 Title: Prostitution in Sicily: The Good Sister of Highway SS385
-Title: A Psychotherapy Program to Help Traumatized Children in Iraq
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Quieter Response to Coronavirus in Countries Where China Holds Sway
-Title: Coronavirus Live Updates: China Death Toll Is Greater Than in SARS Outbreak
-Title: Like Its 2 Royal Guests, Canada’s Most English City Reinvents Itself
-Title: U.K. Police Kill Man in a ‘Terrorist Related’ Incident
-Title: Australia’s Volunteer Firefighters Are Heroes. But Are They Enough?
+Title: Coronavirus Live Updates: Hong Kong Imposes Quarantines as China Death Toll Rises
+Title: In Coronavirus, China Weighs Benefits of Buffalo Horn and Other Remedies
+Title: Ireland’s Independence Centenaries Threaten to Reopen Old Wounds
+Title: Avalanche in Turkey Kills Dozens of Rescuers Responding to Earlier Slide
+Title: Married Women on the Island of Jersey Win Control of Their Taxes
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: China accuses US of causing panic and 'spreading fear'
-Title: Coronavirus: China shares in biggest fall in four years
-Title: Coronavirus:10 days of hospital building in 60 seconds
-Title: Turkish soldiers killed in Syrian army shelling in Idlib
-Title: Iowa caucuses: Race to decide election candidates begins
+Title: State of the Union: Trump hails 'American comeback'
+Title: Second Turkey avalanche buries dozens of rescuers
+Title: Coronavirus: Hong Kong to quarantine visitors from mainland China
+Title: Iowa caucuses: Pete Buttigieg and Bernie Sanders take lead
+Title: New Zealand flash floods leave tourists stranded
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Erdogan says Turkey hits back after Syrian shells kill Turkish troops
-Title: Huawei, Chinese chip makers keep factories humming despite virus outbreak
-Title: China accuses U.S. of whipping up panic over virus as stocks tumble
-Title: Pakistan resumes flights to and from China, screens passengers for virus
-Title: Brexit trade deal clash: UK and EU begin sparring over rules
+Title: Venezuela's Guaido to visit Trump at White House
+Title: Iran will back Palestinian armed groups as much as it can: leader
+Title: Draft U.N. resolution condemns Israeli annexation in Trump peace plan
+Title: Cold, disease threaten more than half a million Syrians fleeing Idlib fighting
+Title: Finland to grant Terrafame permit to mine uranium: source
 
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-000000000000000000033ab486a7f9c22292ba45c5590479f57d749e521e1b09
+0000000000000000000c8dd91051420aa8c01881f0c5a652926f5195bb05c599
