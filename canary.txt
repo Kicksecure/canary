@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 05 Feb 2020 15:48:43 +0000
+Wed, 05 Feb 2020 16:04:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: How the Coronavirus Made Globalization a Deadly Threat
@@ -47,7 +47,7 @@ Title: James Lovelock: 'I Would Not Waste My Fortune on Colonizing Mars'
 Title: Prostitution in Sicily: The Good Sister of Highway SS385
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: Hong Kong Imposes Quarantines as China Death Toll Rises
+Title: Coronavirus Live Updates: Americans Evacuated from Wuhan Arrive in California
 Title: In Coronavirus, China Weighs Benefits of Buffalo Horn and Other Remedies
 Title: Ireland’s Independence Centenaries Threaten to Reopen Old Wounds
 Title: Avalanche in Turkey Kills Dozens of Rescuers Responding to Earlier Slide
@@ -61,11 +61,11 @@ Title: Iowa caucuses: Pete Buttigieg and Bernie Sanders take lead
 Title: New Zealand flash floods leave tourists stranded
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: China virus hits cruise ships, carmakers, airlines and Airbus
-Title: What we know about the new coronavirus in China
-Title: International business meeting in Singapore linked to three coronavirus cases
-Title: Moi's Kenyan torture victims mourn a reckoning that never came
-Title: Second avalanche in eastern Turkey kills dozens of rescuers
+Title: Trump White House to welcome Venezuela opposition leader Wednesday
+Title: Plane overruns runway at Istanbul's Sabiha Gokcen airport: Hurriyet
+Title: Lesotho PM's wife in court charged with killing his previous wife
+Title: Russia says alarmed by U.S. deployment of low-yield nuclear missiles
+Title: Israeli troops kill Palestinian in West Bank protest: medics
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
