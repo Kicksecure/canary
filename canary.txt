@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 05 Feb 2020 16:04:31 +0000
+Fri, 14 Feb 2020 11:32:29 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: How the Coronavirus Made Globalization a Deadly Threat
-Title: Israeli-Palestinian Relations: Donald Trump's 'Peace Plan' Sows Confusion and Dismay
-Title: Geoffrey Van Orden: "We Felt Let Down by Angela Merkel"
-Title: James Lovelock: 'I Would Not Waste My Fortune on Colonizing Mars'
-Title: Prostitution in Sicily: The Good Sister of Highway SS385
+Title: Drug Mafias in Mexico: The Child Police of Guerrero
+Title: Syria: Are Vladimir Putin and Recep Tayyip Erdogan Allies or Enemies?
+Title: When Mourning Turns to Anger: Two Days and Two Nights in Tehran
+Title: The Turkish Woman Who Fled Her Country only To Get Sent Back
+Title: Thuringia: The German Conservatives' Faustian Pact With the Far-Right
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: Americans Evacuated from Wuhan Arrive in California
-Title: In Coronavirus, China Weighs Benefits of Buffalo Horn and Other Remedies
-Title: Ireland’s Independence Centenaries Threaten to Reopen Old Wounds
-Title: Avalanche in Turkey Kills Dozens of Rescuers Responding to Earlier Slide
-Title: Married Women on the Island of Jersey Win Control of Their Taxes
+Title: Coronavirus Live Updates: China Says 1,700 Medical Workers Have Been Infected
+Title: U.S. Supports Aid to North Korea for Fighting the Coronavirus
+Title: How Dresden Looked After a World War II Firestorm 75 Years Ago
+Title: Gunman Fires Shots in Bangkok, Rattling Thailand After a Massacre
+Title: Violin Lessons During the Coronavirus Outbreak. A Pupil’s Progress.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: State of the Union: Trump hails 'American comeback'
-Title: Second Turkey avalanche buries dozens of rescuers
-Title: Coronavirus: Hong Kong to quarantine visitors from mainland China
-Title: Iowa caucuses: Pete Buttigieg and Bernie Sanders take lead
-Title: New Zealand flash floods leave tourists stranded
+Title: Coronavirus: New China figures highlight toll on medical staff
+Title: Antarctic island hits record temperature of 20.75C
+Title: France's César Academy board quits en masse amid Polanski row
+Title: Facebook boss 'happy to pay more tax in Europe'
+Title: Israel-Palestinian conflict: The family with its own checkpoint
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Trump White House to welcome Venezuela opposition leader Wednesday
-Title: Plane overruns runway at Istanbul's Sabiha Gokcen airport: Hurriyet
-Title: Lesotho PM's wife in court charged with killing his previous wife
-Title: Russia says alarmed by U.S. deployment of low-yield nuclear missiles
-Title: Israeli troops kill Palestinian in West Bank protest: medics
+Title: Indian court questions interrogation of children in anti-government play
+Title: Zimbabwe court clears opposition official facing subversion charges
+Title: Macron's candidate for Paris mayor quits over sexting row
+Title: Coronavirus inflicts growing toll on China's health workers
+Title: Factbox: Airlines suspend China flights due to coronavirus outbreak
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000c8dd91051420aa8c01881f0c5a652926f5195bb05c599
+000000000000000000063b6dc619a8922df0f45d3da57c16c27acfbaa2abf4bf
