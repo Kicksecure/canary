@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 14 Feb 2020 11:32:29 +0000
+Wed, 19 Feb 2020 16:48:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: China's Public Health Crisis Becomes a Crisis of Faith
+Title: Country on the Brink: A Search for the Source of Italy's Malaise
+Title: New Coronavirus Has Likely Already Spread Globally
 Title: Drug Mafias in Mexico: The Child Police of Guerrero
 Title: Syria: Are Vladimir Putin and Recep Tayyip Erdogan Allies or Enemies?
-Title: When Mourning Turns to Anger: Two Days and Two Nights in Tehran
-Title: The Turkish Woman Who Fled Her Country only To Get Sent Back
-Title: Thuringia: The German Conservatives' Faustian Pact With the Far-Right
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: China Says 1,700 Medical Workers Have Been Infected
-Title: U.S. Supports Aid to North Korea for Fighting the Coronavirus
-Title: How Dresden Looked After a World War II Firestorm 75 Years Ago
-Title: Gunman Fires Shots in Bangkok, Rattling Thailand After a Massacre
-Title: Violin Lessons During the Coronavirus Outbreak. A Pupil’s Progress.
+Title: Coronavirus Live Updates: Hundreds Let Off Quarantined Ship in Japan
+Title: ‘It’s Like the End of the World’
+Title: China Expels 3 Wall Street Journal Reporters as Media Relations Sour
+Title: Australian Police Treating Car Fire That Killed 3 Children as Crime Scene
+Title: 14 Die and Hundreds Sickened in Pakistan, and the Cause Is a Mystery
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: New China figures highlight toll on medical staff
-Title: Antarctic island hits record temperature of 20.75C
-Title: France's César Academy board quits en masse amid Polanski row
-Title: Facebook boss 'happy to pay more tax in Europe'
-Title: Israel-Palestinian conflict: The family with its own checkpoint
+Title: Coronavirus: Passengers leave Diamond Princess amid criticism of Japan
+Title: 737 Max: Debris found in new planes' fuel tanks
+Title: China economy: Why it matters to you
+Title: Rowan Baxter: Ex-rugby player, wife and children die after 'horrific' car fire
+Title: Pop Smoke: Rapper reportedly killed in apparent robbery
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Indian court questions interrogation of children in anti-government play
-Title: Zimbabwe court clears opposition official facing subversion charges
-Title: Macron's candidate for Paris mayor quits over sexting row
-Title: Coronavirus inflicts growing toll on China's health workers
-Title: Factbox: Airlines suspend China flights due to coronavirus outbreak
+Title: All Ukrainians being evacuated from China in healthy condition: deputy health minister
+Title: Wikileaks' Assange in court ahead of U.S. extradition hearing next week
+Title: Canada protesters mount fresh rail blockade, PM Trudeau says disruptions unacceptable
+Title: Two Iranians die after testing positive for coronavirus: official
+Title: UK heralds end of 'cheap labor from Europe' with post-Brexit immigration system
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000063b6dc619a8922df0f45d3da57c16c27acfbaa2abf4bf
+0000000000000000000fa436ca7f07a443ea7b18acb18591f82bd601e8641cc4
