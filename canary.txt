@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 19 Feb 2020 16:48:09 +0000
+Thu, 27 Feb 2020 06:19:59 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: China's Public Health Crisis Becomes a Crisis of Faith
-Title: Country on the Brink: A Search for the Source of Italy's Malaise
-Title: New Coronavirus Has Likely Already Spread Globally
-Title: Drug Mafias in Mexico: The Child Police of Guerrero
-Title: Syria: Are Vladimir Putin and Recep Tayyip Erdogan Allies or Enemies?
+Title: Right-Wing Extremists Could Win Big in Slovak Election
+Title: Can the Virus Be Stopped?: The Global Effort to Contain Covid-19
+Title: Social Design Award: On the Lookout for Good Ideas
+Title: Brazil's Traveling Judges: A Floating Courtroom Brings Justice to the Jungle
+Title: German Mass Shooter's Manifesto: The Delusional World of the Suspected Killer
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: Hundreds Let Off Quarantined Ship in Japan
-Title: ‘It’s Like the End of the World’
-Title: China Expels 3 Wall Street Journal Reporters as Media Relations Sour
-Title: Australian Police Treating Car Fire That Killed 3 Children as Crime Scene
-Title: 14 Die and Hundreds Sickened in Pakistan, and the Cause Is a Mystery
+Title: In U.S. and Germany, Community Transmission Is Now Suspected
+Title: Syrian Children Freeze to Death. Bombs Rain Down. And ‘Nobody Cares.’
+Title: The Roots of the Delhi Riots: A Fiery Speech and an Ultimatum
+Title: Women in Mexico Are Urged to Disappear for a Day in Protest
+Title: Israel’s ‘Zombie’ Voters Stagger to a Third Election, but Figure on a Fourth
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Passengers leave Diamond Princess amid criticism of Japan
-Title: 737 Max: Debris found in new planes' fuel tanks
-Title: China economy: Why it matters to you
-Title: Rowan Baxter: Ex-rugby player, wife and children die after 'horrific' car fire
-Title: Pop Smoke: Rapper reportedly killed in apparent robbery
+Title: Trump names VP Pence man in charge of coronavirus response
+Title: Greek island protests move into second day
+Title: Five dead in Milwaukee shooting at Molson Coors beer company
+Title: Tasmania snow concludes Australia's summer of extremes
+Title: Docking gives Intelsat telecoms satellite new lease of life
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: All Ukrainians being evacuated from China in healthy condition: deputy health minister
-Title: Wikileaks' Assange in court ahead of U.S. extradition hearing next week
-Title: Canada protesters mount fresh rail blockade, PM Trudeau says disruptions unacceptable
-Title: Two Iranians die after testing positive for coronavirus: official
-Title: UK heralds end of 'cheap labor from Europe' with post-Brexit immigration system
+Title: U.S.-South Korea military drills postponed as coronavirus spreads faster outside China
+Title: China asks low-risk coronavirus areas to resume visa, passport services
+Title: Iraq reports sixth case of coronavirus in man who had been to Iran
+Title: World about to be gripped by coronavirus pandemic, Australia's Morrison says
+Title: Trump says coronavirus risk in U.S. is low; CDC confirms first case of unknown origin
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000fa436ca7f07a443ea7b18acb18591f82bd601e8641cc4
+0000000000000000000772813fa9dca6f0efd01cb9c7109e4ba53545122e84ef
