@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 03 Mar 2020 14:22:07 +0000
+Fri, 06 Mar 2020 12:28:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: 'We're Not Prepared at All'
-Title: Nouriel Roubini on Coronavirus: "This Crisis Will Spill Over and Result in a Disaster"
-Title: Right-Wing Extremists Could Win Big in Slovak Election
-Title: Can the Virus Be Stopped?: The Global Effort to Contain Covid-19
-Title: Social Design Award: On the Lookout for Good Ideas
+Title: Kenya: Changing Minds About Female Circumcision
+Title: When Larry Fink Met Greta: Investors Join In Calls for Corporate Sustainability
+Title: Germany: AfD Fails To Change Tune after Racist Killings
+Title: VW Turns to Electric to Regain Momentum in the U.S.
+Title: Hindu Nationalism: India’s Quest to Marginalize Its Muslims
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Updates: Governments Shift Focus to Containment, as Virus Spreads Globally
-Title: Israeli Election Gives Edge to Netanyahu, Initial Results Show
-Title: ‘No Way Out’: In China, Coronavirus Takes Toll on Other Patients
-Title: Child Dies at Sea as Greece Cracks Down on Migrants From Turkey
-Title: U.S. Limits Chinese Staff at News Agencies Controlled by Beijing
+Title: Coronavirus Live Updates: ‘Now Is the Time to Act,’ W.H.O. Chief Warns
+Title: As Bernie Sanders Pushed for Closer Ties, Soviet Union Spotted Opportunity
+Title: China Pushes Back as Coronavirus Crisis Damages Its Image
+Title: ‘Like Licking an Ashtray’: Fires’ Invisible Threat to Australia’s Wines
+Title: Excerpts from the Sanders Files in a Russian Archive
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: China orders travellers quarantined amid outbreak
-Title: Delhi riots: 'My brother died after police beating’
-Title: Spain plans 'only yes means yes' rape law
-Title: Russia's Putin wants traditional marriage and God in constitution
-Title: US election 2020: Joe Biden boosted on Super Tuesday
+Title: Coronavirus: Grand Princess cruise ship waits off California for virus tests
+Title: Young Ukraine chess couple 'killed by laughing gas'
+Title: Troy Collings: North Korea's 'first budget travel agent' dies aged 33
+Title: Nathaniel Woods executed in Alabama despite campaign to save him
+Title: Australian man gives police high five after tackling suspect
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Putin, Merkel discussed situation in Syria's Idlib: RIA cites Kremlin
-Title: Russia will not stop fighting terrorism to solve Europe's migration crisis: Lavrov
-Title: Turkey, Russia face off in Syria as fighting escalates, plane shot down
-Title: Russia says information about refugee crisis in Syria's Idlib is 'groundless': Ifax
-Title: U.S. sending $108 million in aid to Syria, supports additional border crossing: State Department
+Title: Attack in Kabul kills at least 27 people, wounds dozens
+Title: France's Macron urges tight limits on retirement home visits over virus worries
+Title: Egypt registers 12 new coronavirus cases on Nile cruise ship - state TV
+Title: Twelve coronavirus cases on Egypt cruise ship are all asymptomatic: WHO, health ministry
+Title: EU urges solidarity as coronavirus strains medical supplies
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000111426c165d8fe5e492917b789bd47f11653d58eec9d90
+000000000000000000003ab91f743dc362a81233214df0c7fc783e64229b1b13
