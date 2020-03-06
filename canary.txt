@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 06 Mar 2020 12:28:55 +0000
+Fri, 06 Mar 2020 12:31:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Kenya: Changing Minds About Female Circumcision
@@ -61,11 +61,11 @@ Title: Nathaniel Woods executed in Alabama despite campaign to save him
 Title: Australian man gives police high five after tackling suspect
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Attack in Kabul kills at least 27 people, wounds dozens
-Title: France's Macron urges tight limits on retirement home visits over virus worries
-Title: Egypt registers 12 new coronavirus cases on Nile cruise ship - state TV
-Title: Twelve coronavirus cases on Egypt cruise ship are all asymptomatic: WHO, health ministry
-Title: EU urges solidarity as coronavirus strains medical supplies
+Title: Migrants dodge tear gas as Greek-Turkish border crisis deepens
+Title: More money for migrants in Turkey if no more threats, EU says
+Title: Slovakia reports first case of coronavirus - prime minister
+Title: What you need to know about coronavirus right now
+Title: Rationing and robbery: Coronavirus outbreak sparks toilet roll panic
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
