@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 06 Mar 2020 12:31:42 +0000
+Sun, 08 Mar 2020 14:07:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Kenya: Changing Minds About Female Circumcision
@@ -47,27 +47,27 @@ Title: VW Turns to Electric to Regain Momentum in the U.S.
 Title: Hindu Nationalism: India’s Quest to Marginalize Its Muslims
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: ‘Now Is the Time to Act,’ W.H.O. Chief Warns
-Title: As Bernie Sanders Pushed for Closer Ties, Soviet Union Spotted Opportunity
-Title: China Pushes Back as Coronavirus Crisis Damages Its Image
-Title: ‘Like Licking an Ashtray’: Fires’ Invisible Threat to Australia’s Wines
-Title: Excerpts from the Sanders Files in a Russian Archive
+Title: Coronavirus Live Updates: Shunned Cruise Ship to Dock in California on Monday
+Title: Italy Locks Down Much of the Country’s North Over the Coronavirus
+Title: China May Be Beating the Coronavirus, at a Painful Cost
+Title: Vigilantes in Greece Say ‘No More’ to Migrants
+Title: Supporter of Gabriel Matzneff Says He Was Unaware of Pedophilia
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Grand Princess cruise ship waits off California for virus tests
-Title: Young Ukraine chess couple 'killed by laughing gas'
-Title: Troy Collings: North Korea's 'first budget travel agent' dies aged 33
-Title: Nathaniel Woods executed in Alabama despite campaign to save him
-Title: Australian man gives police high five after tackling suspect
+Title: Coronavirus: Northern Italy quarantines 16 million people
+Title: Coronavirus: Six dead in China quarantine hotel collapse
+Title: International Women's Day: Marchers around the world call for equality
+Title: Saudi Arabia detains three senior members of royal family
+Title: Greece migrant crisis: Refugee centre ablaze as tensions rise
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Migrants dodge tear gas as Greek-Turkish border crisis deepens
-Title: More money for migrants in Turkey if no more threats, EU says
-Title: Slovakia reports first case of coronavirus - prime minister
-Title: What you need to know about coronavirus right now
-Title: Rationing and robbery: Coronavirus outbreak sparks toilet roll panic
+Title: Alarmed Italy locks down north to prevent spread of coronavirus
+Title: Coronavirus deaths in Netherlands rises to three - health authorities
+Title: Italian stock exchange to open as usual on Monday
+Title: Turkey to discuss migrant issues with EU on Monday
+Title: Swiss death toll from new coronavirus rises to two
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000003ab91f743dc362a81233214df0c7fc783e64229b1b13
+0000000000000000000aa94c0f2c6bb80c79b6299cbad90af905c745ebbd9a77
