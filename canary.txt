@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 08 Mar 2020 14:07:06 +0000
+Wed, 11 Mar 2020 08:57:36 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Kenya: Changing Minds About Female Circumcision
-Title: When Larry Fink Met Greta: Investors Join In Calls for Corporate Sustainability
-Title: Germany: AfD Fails To Change Tune after Racist Killings
-Title: VW Turns to Electric to Regain Momentum in the U.S.
-Title: Hindu Nationalism: India’s Quest to Marginalize Its Muslims
+Title: What One Migrant's Death Means for His Family
+Title: Harvard Epidemiologist on the Coronavirus: “I Don’t Think the Virus Can Be Stopped Anymore”
+Title: The Closed Gates of Europe: Refugees Caught in the Middle of Turkey-EU Standoff
+Title: A District Is Paralyzed by Coronavirus
+Title: Coronavirus Attacks Core of the Economy
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: Shunned Cruise Ship to Dock in California on Monday
-Title: Italy Locks Down Much of the Country’s North Over the Coronavirus
-Title: China May Be Beating the Coronavirus, at a Painful Cost
-Title: Vigilantes in Greece Say ‘No More’ to Migrants
-Title: Supporter of Gabriel Matzneff Says He Was Unaware of Pedophilia
+Title: Coronavirus Live Updates: U.S. Reaches Grim Milestone; I.R.S. Considers Tax Deadline Move
+Title: Putin Endorses Brazen Remedy to Extend His Rule, Possibly for Life
+Title: ‘We Are Like Animals’: Inside Greece’s Secret Site for Migrants
+Title: Afghan President Orders Taliban Prisoner Release
+Title: Behind the Russia-Saudi Breakup, Calculations and Miscalculations
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Northern Italy quarantines 16 million people
-Title: Coronavirus: Six dead in China quarantine hotel collapse
-Title: International Women's Day: Marchers around the world call for equality
-Title: Saudi Arabia detains three senior members of royal family
-Title: Greece migrant crisis: Refugee centre ablaze as tensions rise
+Title: Joe Biden extends lead over rival Sanders in Democratic presidential race
+Title: Coronavirus: Troops sent to New York 'containment zone'
+Title: Coronavirus: Airlines cancel thousands of flights
+Title: Coronavirus: Coachella music festival postponed
+Title: Pakistan plane crash: Fighter jet crashes near Islamabad park
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Alarmed Italy locks down north to prevent spread of coronavirus
-Title: Coronavirus deaths in Netherlands rises to three - health authorities
-Title: Italian stock exchange to open as usual on Monday
-Title: Turkey to discuss migrant issues with EU on Monday
-Title: Swiss death toll from new coronavirus rises to two
+Title: Turkey says Syria talks with Russia positive, constructive - Anadolu
+Title: Turkey will not shy from military action in Syria's Idlib if words not kept
+Title: First coronavirus death in Belgium, Belga news agency says
+Title: Australian court hears final appeal by ex-Vatican treasurer Pell
+Title: Russian parliament backs changes allowing Putin to run again for president
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000aa94c0f2c6bb80c79b6299cbad90af905c745ebbd9a77
+0000000000000000000e1ad44016cc5a50b7d61f42e172911297a460e3d99947
