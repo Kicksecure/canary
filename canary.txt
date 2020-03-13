@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 11 Mar 2020 08:57:36 +0000
+Fri, 13 Mar 2020 16:16:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: What One Migrant's Death Means for His Family
-Title: Harvard Epidemiologist on the Coronavirus: “I Don’t Think the Virus Can Be Stopped Anymore”
-Title: The Closed Gates of Europe: Refugees Caught in the Middle of Turkey-EU Standoff
-Title: A District Is Paralyzed by Coronavirus
-Title: Coronavirus Attacks Core of the Economy
+Title: Germany’s Most Important Informant Tells His Story
+Title: Coronavirus: Why Are There So Many Cases in Italy?
+Title: Coronavirus FAQ: Essential Information for Residents and Visitors to Germany
+Title: Corona: Streets Go Quiet as Italy Clamps Down
+Title: Corona: What You Need to Do to Slow the Spread of COVID-19 and Why
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: U.S. Reaches Grim Milestone; I.R.S. Considers Tax Deadline Move
-Title: Putin Endorses Brazen Remedy to Extend His Rule, Possibly for Life
-Title: ‘We Are Like Animals’: Inside Greece’s Secret Site for Migrants
-Title: Afghan President Orders Taliban Prisoner Release
-Title: Behind the Russia-Saudi Breakup, Calculations and Miscalculations
+Title: Coronavirus Live Updates: U.S. Aims to Speed Test as Battle Against Virus Intensifies
+Title: The Women Who Defied Boko Haram, and Survived
+Title: China Spins Tale That the U.S. Army Started the Coronavirus Epidemic
+Title: Sophie Grégoire Trudeau, Wife of Canada’s Leader, Tests Positive for Coronavirus
+Title: Italy’s Health Care System Groans Under Coronavirus — a Warning to the World
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Joe Biden extends lead over rival Sanders in Democratic presidential race
-Title: Coronavirus: Troops sent to New York 'containment zone'
-Title: Coronavirus: Airlines cancel thousands of flights
-Title: Coronavirus: Coachella music festival postponed
-Title: Pakistan plane crash: Fighter jet crashes near Islamabad park
+Title: Coronavirus: Spain to declare emergency as deaths pass 100
+Title: Share markets rise as global sell-off eases
+Title: Iraq base attack: US in retaliatory strikes on Iran-backed fighters
+Title: South African King Dalindyebo arrested after 'axe rampage'
+Title: Emiliano Sala crash: Pilot Ibbotson 'not licensed for flight'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Turkey says Syria talks with Russia positive, constructive - Anadolu
-Title: Turkey will not shy from military action in Syria's Idlib if words not kept
-Title: First coronavirus death in Belgium, Belga news agency says
-Title: Australian court hears final appeal by ex-Vatican treasurer Pell
-Title: Russian parliament backs changes allowing Putin to run again for president
+Title: Coronavirus hits politicians, sports and showbiz stars as it spreads across globe
+Title: What you need to know about coronavirus today
+Title: Czech government bans most travel in and out of country to fight coronavirus
+Title: UK plan for coronavirus based on scientific advice: PM's spokesman
+Title: Poland's president calls off Russia trip due to coronavirus: official
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000e1ad44016cc5a50b7d61f42e172911297a460e3d99947
+000000000000000000025427e27c4220da0849f37f5f101f7461538cf2c8d38b
