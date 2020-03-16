@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 13 Mar 2020 16:16:17 +0000
+Mon, 16 Mar 2020 14:32:21 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Germany’s Most Important Informant Tells His Story
-Title: Coronavirus: Why Are There So Many Cases in Italy?
-Title: Coronavirus FAQ: Essential Information for Residents and Visitors to Germany
-Title: Corona: Streets Go Quiet as Italy Clamps Down
-Title: Corona: What You Need to Do to Slow the Spread of COVID-19 and Why
+Title: Coronavirus: Berlin Condemns U.S. Attempt to Buy Rights to Coronavirus Vaccine
+Title: Corona: The Shutdown Begins Across Germany
+Title: U.S. Chief Negotiator Zalmay Khalilzad on the Negotiations with the Taliban
+Title: COVID-19 Highlights Staff Shortages at German Hospitals
+Title: The Brutal Logic of Coronavirus
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: U.S. Aims to Speed Test as Battle Against Virus Intensifies
-Title: The Women Who Defied Boko Haram, and Survived
-Title: China Spins Tale That the U.S. Army Started the Coronavirus Epidemic
-Title: Sophie Grégoire Trudeau, Wife of Canada’s Leader, Tests Positive for Coronavirus
-Title: Italy’s Health Care System Groans Under Coronavirus — a Warning to the World
+Title: Coronavirus Live Updates: Public Life Curtailed as Nations Step Up Restrictions
+Title: In Afghanistan, Coronavirus Complicates War and Peace
+Title: U.S. Offered ‘Large Sum’ to German Company for Access to Coronavirus Vaccine Research, German Officials Say
+Title: To Track Coronavirus, Israel Moves to Tap Secret Trove of Cellphone Data
+Title: Japanese Man Who Murdered 19 Disabled People Is Sentenced to Death
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Spain to declare emergency as deaths pass 100
-Title: Share markets rise as global sell-off eases
-Title: Iraq base attack: US in retaliatory strikes on Iran-backed fighters
-Title: South African King Dalindyebo arrested after 'axe rampage'
-Title: Emiliano Sala crash: Pilot Ibbotson 'not licensed for flight'
+Title: Coronavirus: Germany latest country to close borders
+Title: Coronavirus: US man who stockpiled hand sanitiser probed for price gouging
+Title: Satoshi Uematsu: Japanese man who killed 19 disabled people sentenced to death
+Title: Church sexual abuse: French priest jailed for five years
+Title: Australian man charged over supermarket 'assault'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Coronavirus hits politicians, sports and showbiz stars as it spreads across globe
-Title: What you need to know about coronavirus today
-Title: Czech government bans most travel in and out of country to fight coronavirus
-Title: UK plan for coronavirus based on scientific advice: PM's spokesman
-Title: Poland's president calls off Russia trip due to coronavirus: official
+Title: Make us ventilators to fight coronavirus, UK asks Ford and Rolls Royce
+Title: Anger mounts over UK government's decision to keep schools open
+Title: Philippine leader says home quarantine to last to April 12
+Title: Pompeo to Iraq PM: U.S. will take action in self-defense if attacked
+Title: German state to stop air travel: spokesman
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000025427e27c4220da0849f37f5f101f7461538cf2c8d38b
+00000000000000000006a7f474e04236390a20acb6080545a183fa4a1aa02508
