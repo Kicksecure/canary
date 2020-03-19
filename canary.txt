@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 16 Mar 2020 14:32:21 +0000
+Thu, 19 Mar 2020 13:08:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Coronavirus: Berlin Condemns U.S. Attempt to Buy Rights to Coronavirus Vaccine
-Title: Corona: The Shutdown Begins Across Germany
-Title: U.S. Chief Negotiator Zalmay Khalilzad on the Negotiations with the Taliban
-Title: COVID-19 Highlights Staff Shortages at German Hospitals
-Title: The Brutal Logic of Coronavirus
+Title: The Spread of Coronavirus: Eastern Europe Prepares for the Inevitable
+Title: Corona: Germany Plans 40 Billion Euro in Aid for Freelancers and Small Companies
+Title: Deadly Fake News: Battling Virulent Coronavirus Rumors in Africa
+Title: Italian Mayor on the Coronavirus: “Make Good Use of the Time You Still Have Left”
+Title: Supermarkets and Hospitals Hire More Security Guards
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: Public Life Curtailed as Nations Step Up Restrictions
-Title: In Afghanistan, Coronavirus Complicates War and Peace
-Title: U.S. Offered ‘Large Sum’ to German Company for Access to Coronavirus Vaccine Research, German Officials Say
-Title: To Track Coronavirus, Israel Moves to Tap Secret Trove of Cellphone Data
-Title: Japanese Man Who Murdered 19 Disabled People Is Sentenced to Death
+Title: Coronavirus Live Updates: As Pandemic Spreads Swiftly, China Reports Zero New Infections
+Title: Its Coronavirus Cases Dwindling, China Turns Focus Outward
+Title: Fires Left These Wallabies Nothing to Eat. Help Arrived From Above.
+Title: China Defends Expulsion of American Journalists, Accusing U.S. of Prejudice
+Title: China Hits a Coronavirus Milestone: No New Local Infections
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Germany latest country to close borders
-Title: Coronavirus: US man who stockpiled hand sanitiser probed for price gouging
-Title: Satoshi Uematsu: Japanese man who killed 19 disabled people sentenced to death
-Title: Church sexual abuse: French priest jailed for five years
-Title: Australian man charged over supermarket 'assault'
+Title: Coronavirus: Europe looking to extend virus lockdowns
+Title: European Central Bank launches emergency €750bn plan
+Title: Coronavirus: Asian nations face second wave of imported cases
+Title: WHO head tells Africa to 'wake up' to coronavirus threat
+Title: Coronavirus and how it's changed our world
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Make us ventilators to fight coronavirus, UK asks Ford and Rolls Royce
-Title: Anger mounts over UK government's decision to keep schools open
-Title: Philippine leader says home quarantine to last to April 12
-Title: Pompeo to Iraq PM: U.S. will take action in self-defense if attacked
-Title: German state to stop air travel: spokesman
+Title: UK braces for coronavirus shut down as London stations close
+Title: UK government scientist: No way to turn back coronavirus epidemic
+Title: Rich world pumps aid to fight virus, Britain latest to face lockdown
+Title: China reports no new local coronavirus transmissions for first time
+Title: Croatia reports first death of person infected with coronavirus
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000006a7f474e04236390a20acb6080545a183fa4a1aa02508
+000000000000000000088efdd33d9b01e8b7c7845cc0ee4222bcee13b533369e
