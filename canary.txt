@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 19 Mar 2020 13:08:48 +0000
+Fri, 27 Mar 2020 11:46:04 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Spread of Coronavirus: Eastern Europe Prepares for the Inevitable
-Title: Corona: Germany Plans 40 Billion Euro in Aid for Freelancers and Small Companies
-Title: Deadly Fake News: Battling Virulent Coronavirus Rumors in Africa
-Title: Italian Mayor on the Coronavirus: “Make Good Use of the Time You Still Have Left”
-Title: Supermarkets and Hospitals Hire More Security Guards
+Title: Amazon Tribes at Acute Risk from the Coronavirus - "Extremely Vulnerable"
+Title: Dutch Exceptionalism: Will Holland's Looser Corona Policies Pay Off?
+Title: Madrid Hospitals Struggle to Handle Surge of Corona Patients
+Title: The Corona Crisis In Retirement Homes: A Threat for Seniors and Caregivers Alike
+Title: Dispute over “Wuhan Virus”: G-7 Drops Joint Statement Following Fight Over Language
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: As Pandemic Spreads Swiftly, China Reports Zero New Infections
-Title: Its Coronavirus Cases Dwindling, China Turns Focus Outward
-Title: Fires Left These Wallabies Nothing to Eat. Help Arrived From Above.
-Title: China Defends Expulsion of American Journalists, Accusing U.S. of Prejudice
-Title: China Hits a Coronavirus Milestone: No New Local Infections
+Title: Coronavirus Live Updates: Boris Johnson Tests Positive; U.S. House to Vote on $2 Trillion in Relief
+Title: For France, Coronavirus Tests a Vaunted Health Care System
+Title: The Virus Is Coming to Myanmar, but the Pain Has Already Begun
+Title: A Lucky Country Says Goodbye to the World’s Longest Boom
+Title: Migrant Farmworkers Whose Harvests Feed Europe Are Blocked at Borders
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Europe looking to extend virus lockdowns
-Title: European Central Bank launches emergency €750bn plan
-Title: Coronavirus: Asian nations face second wave of imported cases
-Title: WHO head tells Africa to 'wake up' to coronavirus threat
-Title: Coronavirus and how it's changed our world
+Title: Coronavirus: US overtakes China with most cases
+Title: Coronavirus travel: China bars foreign visitors as imported cases rise
+Title: Coronavirus: Fears of virus in Idlib refugee camps
+Title: Coronavirus: South Africa reports first deaths as lockdown begins
+Title: French Christian charity workers kidnapped in Iraq are freed
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: UK braces for coronavirus shut down as London stations close
-Title: UK government scientist: No way to turn back coronavirus epidemic
-Title: Rich world pumps aid to fight virus, Britain latest to face lockdown
-Title: China reports no new local coronavirus transmissions for first time
-Title: Croatia reports first death of person infected with coronavirus
+Title: China's Xi offers Trump help in fighting coronavirus as U.S. faces wave of new patients
+Title: In China's Hubei, uncertainty, pessimism and hope as life resumes
+Title: As virus cases soar, Indonesian province challenges lockdown ban
+Title: Algeria extends curfew to nine more provinces over coronavirus outbreak
+Title: Afghan government announces team for talks with Taliban
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000088efdd33d9b01e8b7c7845cc0ee4222bcee13b533369e
+00000000000000000010fafd99c4b19a5342bac18c17a66912943cb2c3d85fc9
