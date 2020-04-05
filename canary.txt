@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 30 Mar 2020 14:41:17 +0000
+Sun, 05 Apr 2020 16:44:12 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: What Next?: Attention Slowly Turns to the Mother of All Coronavirus Questions
-Title: German Ventilator Manufacturer: "Absolutely Mission Impossible"
-Title: Calls for Corona Bonds Met with Familiar "Nein"
-Title: Amazon Tribes at Acute Risk from the Coronavirus - "Extremely Vulnerable"
-Title: Dutch Exceptionalism: Will Holland's Looser Corona Policies Pay Off?
+Title: Euro Bonds or Bust? Europe Struggling to Find a Joint Approach to the Corona Catastrophe
+Title: Germany Must Abandon Its Rejection of Eurobonds
+Title: Luigi Di Maio: "Italy Is Expecting a Collective Response to This Pain"
+Title: Lufthansa CEO on How Coronavirus Has Radically Upended the Aviation Industry
+Title: Corona: How People Around the World Are Supporting Each Other
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Updates: U.S. Extends Social Curbs After Estimate of 200,000 Deaths
-Title: Crisis in the Sahel Becoming France’s Forever War
-Title: India’s Coronavirus Lockdown Leaves Vast Numbers Stranded and Hungry
-Title: Bogotá’s Cacophony Is Hushed by Virus as Congested Streets Empty Out
-Title: Coronavirus Crisis Awakens a Sleeping Giant: China’s Youth
+Title: The Rising Heroes of the Coronavirus Era? Nations’ Top Scientists
+Title: Hungary’s Leader Grabbed Powers to Fight the Virus. Some Fear Other Motives.
+Title: Finland, ‘Prepper Nation of the Nordics,’ Isn’t Worried About Masks
+Title: Coronavirus Strands China’s Students, in a Dilemma for Beijing
+Title: A German Exception? Why the Country’s Coronavirus Death Rate Is Low
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Trump extends US guidelines beyond Easter
-Title: Hungary government gets sweeping powers
-Title: Tokyo Olympics and Paralympics: New dates confirmed for 2021
-Title: Alan Merrill: I Love Rock 'N' Roll songwriter dies of coronavirus
-Title: North Korea hails 'super large' launcher test as virus timing condemned
+Title: Coronavirus: Trump predicts ‘a lot of death’ as cases pass 300,000
+Title: Coronavirus: Second Greek migrant facility quarantined
+Title: Wang Quanzhang: China releases jailed human rights lawyer
+Title: Pope Francis marks Holy Week in near-empty basilica
+Title: Five shot dead in Russia for 'talking loudly'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Hard times shape speedy Saudi and Kuwaiti coronavirus response
-Title: Ukraine parliament at odds over bills needed to secure $8 billion IMF package
-Title: Ukrainian MPs approve banking law needed for IMF loans at first reading
-Title: Glezos, Greek who tore swastika from Acropolis in WW2, dies aged 97
-Title: Some ultra-Orthodox Israelis chafe at coronavirus restrictions
+Title: India curbs diagnostic testing kit exports as virus spreads
+Title: UK coronavirus death toll rises by 621 to 4,934
+Title: Britain must not ease coronavirus restrictions too soon: Deputy CMO
+Title: UK's Hancock says tighter coronavirus rules 'not imminent'
+Title: Greece quarantines second migrant camp after COVID-19 case confirmed
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000010a075ed9e3996768ec0bb99323e1a468b78b687d99a2c
+0000000000000000000a524120b7febb3ec8db7e33f7a82353be54cc90d6ce4b
