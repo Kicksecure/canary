@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 11 Apr 2020 22:32:31 +0000
+Wed, 15 Apr 2020 12:48:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Wuhan Awakes: A Visit to Coronavirus Ground Zero
+Title: Scientific Experts Release Proposals for Loosening the Lockdown
 Title: The American Patient: How Trump Is Fueling a Corona Disaster
 Title: When Will Germany Begin Loosening Coronavirus Restrictions?
-Title: German Foreign Minister Heiko Maas: "It's Like in an Airplane: Everyone Must First Put Their Own Mask On"
-Title: The COVID-19 Battle: A Look at the Treatments Currently Being Used against the Coronavirus
-Title: Portugal: How Lisbon Has Managed the Corona Crisis
+Title: German Foreign Minister Heiko Maas: I Find It Appropriate that Every Member State First Acted Nationally
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As They Console Coronavirus’s Victims, Italy’s Priests Are Dying, Too
-Title: India Signals Plans to Extend Lockdown Against Coronavirus, While Spain Eases Work Rules: Live Coverage
-Title: 500 Years Ago, This Port Linked East to West. Its Fate Was to Fade Away.
-Title: How a Pandemic Rescued the Political Image of Ireland’s Leader
-Title: Congo Was Close to Defeating Ebola. Then One More Case Emerged.
+Title: Global Criticism for Trump’s W.H.O. Cuts Over Coronavirus Response: Live Updates
+Title: Coronavirus Restrictions Are Eased in Europe
+Title: The White House Blessed a War in Libya, but Russia Won It
+Title: Is Britain Undercounting the Human and Economic Toll of Coronavirus?
+Title: In Rural Japan, a 370-Year-Old Tradition Falls to One Child
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: US death toll overtakes Italy as world's highest
-Title: Coronavirus: India to extend nationwide lockdown, state minister says
-Title: Coronavirus: Brazil reports over 1,000 deaths
-Title: Rare Ravi Shankar footage released to mark centenary
-Title: Russia prison: Jail ablaze in Angarsk Siberia after inmates riot
+Title: Coronavirus: Trump's WHO de-funding 'as dangerous as it sounds'
+Title: Coronavirus: Denmark lets young children return to school
+Title: Coronavirus lockdown guidelines: What has India changed under new rules?
+Title: Coronavirus: Trump’s name to appear on US relief cheques
+Title: Coronavirus: Amazon boss Jeff Bezos adds $24bn to fortune
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Egyptian police disperse villagers who stopped burial of doctor killed by coronavirus
-Title: France's coronavirus death toll rises to 13,832
-Title: 'Be messengers of life in a time of death,' pope says on Easter eve
-Title: WHO is investigating reports of recovered COVID patients testing positive again
-Title: Dutch military police arrest two men with gun at Schiphol airport
+Title: China tightens Russia border checks, approves coronavirus vaccine trials
+Title: Norway PM tells children it will take time for life to return to normal
+Title: Poland debates curbs to abortion rights, coronavirus limits protests
+Title: Brazil health minister says Bolsonaro likely to fire him: sources
+Title: Kids aren't coronavirus 'guinea pigs': Danish mums rebel as schools reopen
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000009329fab74d0d5cb66e3623e9714ec939f3ff1cced3896
+0000000000000000000c74d736667a47a493b01e0d389d40858ce485c3d59f1c
