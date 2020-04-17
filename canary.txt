@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 15 Apr 2020 12:48:56 +0000
+Fri, 17 Apr 2020 18:35:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany: Carmakers Prepare To Restart Production
 Title: Wuhan Awakes: A Visit to Coronavirus Ground Zero
 Title: Scientific Experts Release Proposals for Loosening the Lockdown
 Title: The American Patient: How Trump Is Fueling a Corona Disaster
 Title: When Will Germany Begin Loosening Coronavirus Restrictions?
-Title: German Foreign Minister Heiko Maas: I Find It Appropriate that Every Member State First Acted Nationally
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Global Criticism for Trump’s W.H.O. Cuts Over Coronavirus Response: Live Updates
-Title: Coronavirus Restrictions Are Eased in Europe
-Title: The White House Blessed a War in Libya, but Russia Won It
-Title: Is Britain Undercounting the Human and Economic Toll of Coronavirus?
-Title: In Rural Japan, a 370-Year-Old Tradition Falls to One Child
+Title: Global Tracker: Denmark, India, France, Spain
+Title: France Weighs Its Love of Liberty in Fight Against Coronavirus
+Title: In Denmark, the Rarest of Sights: Classrooms Full of Students
+Title: China’s Aggressive Diplomacy Weakens Xi Jinping’s Global Standing
+Title: China Raises Coronavirus Death Toll by 50% in Wuhan
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Trump's WHO de-funding 'as dangerous as it sounds'
-Title: Coronavirus: Denmark lets young children return to school
-Title: Coronavirus lockdown guidelines: What has India changed under new rules?
-Title: Coronavirus: Trump’s name to appear on US relief cheques
-Title: Coronavirus: Amazon boss Jeff Bezos adds $24bn to fortune
+Title: Coronavirus: ‘Liberate’ states protesting against lockdown, says Trump
+Title: Coronavirus: Germany says its outbreak is 'under control'
+Title: Chernobyl wildfire blankets Kyiv in thick smog
+Title: Coronavirus: Ecuador sees massive surge in deaths in April
+Title: Rohingya crisis: UN reports surge of deadly fighting in Myanmar
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: China tightens Russia border checks, approves coronavirus vaccine trials
-Title: Norway PM tells children it will take time for life to return to normal
-Title: Poland debates curbs to abortion rights, coronavirus limits protests
-Title: Brazil health minister says Bolsonaro likely to fire him: sources
-Title: Kids aren't coronavirus 'guinea pigs': Danish mums rebel as schools reopen
+Title: Police levy fines, shut monastery as Ukraine begins Orthodox Easter under lockdown
+Title: Hairdressers, small shops prepare to reopen in Portugal, students summoned to the fields
+Title: Canada offers C$2.5 billion in aid for hard-hit energy sector, death toll hits 1,250
+Title: Factbox: Canada offers C$2.5 billion for hard-hit energy sector as part of COVID-19 stimulus
+Title: Mexico calls on older medical workers at home to return to work
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000c74d736667a47a493b01e0d389d40858ce485c3d59f1c
+000000000000000000007800ef42268eecc0a152c660bfc1aa330f4679ea35c8
