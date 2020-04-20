@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Apr 2020 18:17:13 +0000
+Mon, 20 Apr 2020 18:23:54 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Corona Crisis: We Should Be Adopting Stricter Measures, Not Loosening the Lockdown
@@ -61,11 +61,11 @@ Title: Coronavirus: Rush for haircuts in Denmark as lockdown eases
 Title: Coronavirus: Brazil's Bolsonaro joins anti-lockdown protests
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Turkey's coronavirus death toll rises by 123 to 2,140: minister
-Title: Wearing face masks, Syria's Assad and Iran's Zarif condemn West at Damascus meeting
-Title: Groups of Bosnians quarantined over coronavirus go on hunger strike
-Title: Package with petrol and bullet found in Italian bank branch
+Title: Deported from U.S., man infects 14 migrants with coronavirus in northern Mexico
+Title: Spain coronavirus cases top 200,000 but infection rate falling 'a lot'
+Title: In Spain, coronavirus death counts prompt anger, confusion
 Title: France becomes fourth country to pass the 20,000 coronavirus death toll
+Title: Death toll from Canada's worst mass shooting rises to 19
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
