@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Apr 2020 18:23:54 +0000
+Mon, 20 Apr 2020 19:08:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Corona Crisis: We Should Be Adopting Stricter Measures, Not Loosening the Lockdown
@@ -50,8 +50,8 @@ $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 Title: Coronavirus Live Cases Tracker: World Coverage
 Title: Deal Extends Netanyahu’s Rule as Rival Accepts Israeli Unity Government
 Title: Singapore Seemed to Have Coronavirus Under Control, Until Cases Doubled
+Title: Istanbul Death Toll Hints Turkey Is Hiding a Wider Coronavirus Calamity
 Title: The Deadly Losharik Submarine Fire and Russia's Secret Undersea Agenda
-Title: After Nova Scotia Shooting, Families Mourn as Police Seek a Motive
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Canada shooting: Gunman kills at least 18 in Nova Scotia
@@ -61,11 +61,11 @@ Title: Coronavirus: Rush for haircuts in Denmark as lockdown eases
 Title: Coronavirus: Brazil's Bolsonaro joins anti-lockdown protests
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Deported from U.S., man infects 14 migrants with coronavirus in northern Mexico
-Title: Spain coronavirus cases top 200,000 but infection rate falling 'a lot'
-Title: In Spain, coronavirus death counts prompt anger, confusion
-Title: France becomes fourth country to pass the 20,000 coronavirus death toll
 Title: Death toll from Canada's worst mass shooting rises to 19
+Title: France becomes fourth country with more than 20,000 coronavirus deaths
+Title: Turkey's Erdogan announces four-day lockdown from Thursday
+Title: Chilean seniors look to the sky for medicine and masks
+Title: Coronavirus cases in Ecuador top 10,000, doubling about once a week
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
