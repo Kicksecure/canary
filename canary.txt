@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Apr 2020 19:08:18 +0000
+Fri, 01 May 2020 17:27:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Corona Crisis: We Should Be Adopting Stricter Measures, Not Loosening the Lockdown
-Title: European Commissioner Paolo Gentiloni: "The EU Cannot Afford to Get Bogged Down in Past Discussions"
-Title: Corona: "You Need the Sledgehammer" To Bring Down Infections
-Title: Germany: Carmakers Prepare To Restart Production
-Title: Wuhan Awakes: A Visit to Coronavirus Ground Zero
+Title: Germans Split Over Lifting of Lockdown
+Title: COVID-19 Remedy?: High Hopes for Remdesivir in the Coronavirus Fight
+Title: The American Catastrophe: Coronavirus Strikes a Nation Unprepared
+Title: Trouble in Paradise: The Problem of Alcohol in São Tomé and Príncipe
+Title: Italy Enters Chapter Two of the Corona Crisis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Live Cases Tracker: World Coverage
-Title: Deal Extends Netanyahu’s Rule as Rival Accepts Israeli Unity Government
-Title: Singapore Seemed to Have Coronavirus Under Control, Until Cases Doubled
-Title: Istanbul Death Toll Hints Turkey Is Hiding a Wider Coronavirus Calamity
-Title: The Deadly Losharik Submarine Fire and Russia's Secret Undersea Agenda
+Title: World Coronavirus Tracker: Live Coverage
+Title: ‘Hospital Needs to Be Quarantined,’ but Works On in Country at War
+Title: Tanzanian Cartoonist Has a Stick for Every Powerful Eye
+Title: Hundreds of Rohingya Refugees Stuck at Sea With ‘Zero Hope’
+Title: Meghan Markle Loses Round in Suit Against Mail on Sunday
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Canada shooting: Gunman kills at least 18 in Nova Scotia
-Title: Coronavirus: Germany relaxes shop closures
-Title: Coronavirus: US faced with protests amid pressure to reopen
-Title: Coronavirus: Rush for haircuts in Denmark as lockdown eases
-Title: Coronavirus: Brazil's Bolsonaro joins anti-lockdown protests
+Title: In pictures: May Day protests around the world
+Title: Coronavirus: Trump stands by China lab origin theory for virus
+Title: Coronavirus: Lack of co-ordination let virus spread - UN's Guterres
+Title: Joe Biden denies sexually assaulting staff assistant Tara Reade
+Title: Eminem 'detained an intruder' in his living room
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Death toll from Canada's worst mass shooting rises to 19
-Title: France becomes fourth country with more than 20,000 coronavirus deaths
-Title: Turkey's Erdogan announces four-day lockdown from Thursday
-Title: Chilean seniors look to the sky for medicine and masks
-Title: Coronavirus cases in Ecuador top 10,000, doubling about once a week
+Title: WHO says COVID-19 emergency declaration gave world 'enough time'
+Title: Hard work lies ahead for Lebanon on road to IMF aid deal
+Title: Lebanon banking association rejects government rescue plan
+Title: Britain hits coronavirus testing target as death toll leaps again
+Title: UK did not change criteria to hit 100,000 tests-per-day goal, adviser says
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000082b0a432704909407baff9818fc5038deb6c0fe4c46fa
+00000000000000000000815edc68b574150a94e084a4886dfcfb47ba3a483745
