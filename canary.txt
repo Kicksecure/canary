@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 01 May 2020 17:27:24 +0000
+Wed, 06 May 2020 20:39:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Germans Split Over Lifting of Lockdown
-Title: COVID-19 Remedy?: High Hopes for Remdesivir in the Coronavirus Fight
-Title: The American Catastrophe: Coronavirus Strikes a Nation Unprepared
-Title: Trouble in Paradise: The Problem of Alcohol in São Tomé and Príncipe
-Title: Italy Enters Chapter Two of the Corona Crisis
+Title: The Summer of Liberation: Germans Reflect on the Allies’ Arrival in Europe in 1945
+Title: China Is Happy to Fill the Leadership Vacuum Left by the U.S.
+Title: Future of Our Global Economy: The Beginning of De-Globalization
+Title: Can the World Health Organization Meet the Challenge of the Pandemic?
+Title: Europe Launches Massive Campaign to Fund Coronavirus Vaccine
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: World Coronavirus Tracker: Live Coverage
-Title: ‘Hospital Needs to Be Quarantined,’ but Works On in Country at War
-Title: Tanzanian Cartoonist Has a Stick for Every Powerful Eye
-Title: Hundreds of Rohingya Refugees Stuck at Sea With ‘Zero Hope’
-Title: Meghan Markle Loses Round in Suit Against Mail on Sunday
+Title: Coronavirus Global Tracker: Britain, Germany, India
+Title: In Belgian-Dutch Border Town, Coronavirus Makes Life Complicated
+Title: As India Loosens Its Strict Lockdown, Coronavirus Deaths Jump Sharply
+Title: Erdogan Faces His Biggest Test of the Pandemic: The Economy
+Title: U.S. and Iran Are Negotiating a Prisoner Release Despite Rising Tensions
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: In pictures: May Day protests around the world
-Title: Coronavirus: Trump stands by China lab origin theory for virus
-Title: Coronavirus: Lack of co-ordination let virus spread - UN's Guterres
-Title: Joe Biden denies sexually assaulting staff assistant Tara Reade
-Title: Eminem 'detained an intruder' in his living room
+Title: Coronavirus: Germany reopens shops as lockdown is relaxed
+Title: Coronavirus: Trump says virus task force to focus on reopening economy
+Title: Ruth Bader Ginsburg: US Supreme Court Justice returns to work from hospital bed
+Title: Coronavirus: Dallas hair salon owner jailed for week for defying lockdown
+Title: Mexico receives ventilator shipment from US
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: WHO says COVID-19 emergency declaration gave world 'enough time'
-Title: Hard work lies ahead for Lebanon on road to IMF aid deal
-Title: Lebanon banking association rejects government rescue plan
-Title: Britain hits coronavirus testing target as death toll leaps again
-Title: UK did not change criteria to hit 100,000 tests-per-day goal, adviser says
+Title: U.S. announces $225 million in emergency aid to Yemen
+Title: Colombia readies new state of emergency to ease pain of virus lockdown
+Title: Factbox: Latest on the worldwide spread of the new coronavirus
+Title: Pentagon blasts FCC decision to approve Ligado spectrum plan
+Title: Baltic states to create 'travel bubble' as pandemic curbs eased
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000000815edc68b574150a94e084a4886dfcfb47ba3a483745
+0000000000000000000f13c53c203c0cbe081e68c3af3c087a74512872727a18
