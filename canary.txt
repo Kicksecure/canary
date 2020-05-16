@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 12 May 2020 08:42:22 +0000
+Sat, 16 May 2020 12:08:15 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Greek-Turkish Border: The Killing of Muhammad Gulzar
-Title: The Summer of Liberation: Germans Reflect on the Allies’ Arrival in Europe in 1945
-Title: China Is Happy to Fill the Leadership Vacuum Left by the U.S.
-Title: Future of Our Global Economy: The Beginning of De-Globalization
-Title: Can the World Health Organization Meet the Challenge of the Pandemic?
+Title: Jordan's King Abdullah II: “The Danger of People Starving to Death Is Greater than the Danger from the Virus”
+Title: Germany's Corona Divide: Berlin Fears Populists Will Exploit Protest Movement
+Title: What the Coronavirus Does Inside the Body: Anatomy of a Killer
+Title: The Corona Conspiracy Theorists: Protests in Germany See Fringe Mix with the Mainstream
+Title: The Coronavirus Could Cripple Public Finances
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+Title: Stuck at Home, Men in Japan Learn to Help. Will It Last?
 Title: Coronavirus World Updates
-Title: China Is Defensive. The U.S. Is Absent. Can the Rest of the World Fill the Void?
-Title: Victim or Executioner? Let the Computer Decide
-Title: China’s Coronavirus Back-to-Work Lessons: Masks and Vigilance
-Title: This Afghan General Fought the Taliban for Years. Now He Has Joined Them.
+Title: Afghan Power-Sharing Deal Would Promote General Facing Rape Accusation
+Title: A Mogul’s Wife Vanishes. Now Norway Has a National Obsession.
+Title: Germany Criminalizes Burning of E.U. and Other Foreign Flags
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Wuhan draws up plans to test all 11 million residents
-Title: Trump spars with Asian American reporter over 'nasty question'
-Title: Five Covid-19 patients die in Russia hospital fire
-Title: Scott Johnson death: Australian man arrested in gay hate killing cold case
-Title: India's carbon emissions fall for first time in four decades
+Title: Félicien Kabuga: Rwanda genocide suspect arrested in France
+Title: Coronavirus: Italy to lift travel restrictions as lockdown eases
+Title: Kobe Bryant helicopter crash post-mortem released
+Title: Steve Linick: Trump fires state department inspector general
+Title: Relaxed Swiss borders will reunite families and lovers
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Israeli soldier killed by rock thrown during West Bank raid
-Title: "Madness" to hold Uganda vote if virus persists: Museveni
-Title: South Korea investigators comb digital data to trace club coronavirus cluster
-Title: Philippines reports 25 coronavirus deaths, 264 more infections
-Title: Coronavirus epidemic could deal mortal blow to Spain's struggling bullfighting world
+Title: Greeks return to beaches in heatwave, but keep umbrellas apart
+Title: Rwanda genocide suspect Kabuga arrested in France after decades on the run
+Title: Qatar coronavirus infections top 30,000: Reuters tally
+Title: Spain reports 102 coronavirus deaths overnight, lowest in eight weeks
+Title: Iran sentences French academic to six years in prison: lawyer
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000000f4c7e6951a46084a26430af5274c09bba72543b84d0a
+000000000000000000063185122a0bc9bbcd1d9563a396e428ed6d525782fbba
