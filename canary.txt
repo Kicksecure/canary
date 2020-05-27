@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 16 May 2020 12:08:15 +0000
+Wed, 27 May 2020 18:48:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Jordan's King Abdullah II: “The Danger of People Starving to Death Is Greater than the Danger from the Virus”
-Title: Germany's Corona Divide: Berlin Fears Populists Will Exploit Protest Movement
-Title: What the Coronavirus Does Inside the Body: Anatomy of a Killer
-Title: The Corona Conspiracy Theorists: Protests in Germany See Fringe Mix with the Mainstream
-Title: The Coronavirus Could Cripple Public Finances
+Title: The Assads against the Makhloufs: A Bitter Feud over Power and Money Erupts in Syria
+Title: Bangladeshi Seamstresses Struggle for Survival amid Factory Closures
+Title: EU Pandemic Adviser Peter Piot: "We Will Have to Learn to Live with COVID-19"
+Title: Merkel and Macron Find the Strength for Europe
+Title: France and Germany Show the Way Forward in the COVID-19 Crisis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Stuck at Home, Men in Japan Learn to Help. Will It Last?
-Title: Coronavirus World Updates
-Title: Afghan Power-Sharing Deal Would Promote General Facing Rape Accusation
-Title: A Mogul’s Wife Vanishes. Now Norway Has a National Obsession.
-Title: Germany Criminalizes Burning of E.U. and Other Foreign Flags
+Title: Coronavirus Live: World Updates
+Title: Atget’s Paris, 100 Years Later
+Title: Italians Flock to Beaches, Hoping Tourists Will Follow
+Title: Protesters in Hong Kong Rally Against China’s Tightening Grip
+Title: Extradition of Huawei Executive Clears a Major Legal Hurdle in Canada
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Félicien Kabuga: Rwanda genocide suspect arrested in France
-Title: Coronavirus: Italy to lift travel restrictions as lockdown eases
-Title: Kobe Bryant helicopter crash post-mortem released
-Title: Steve Linick: Trump fires state department inspector general
-Title: Relaxed Swiss borders will reunite families and lovers
+Title: Hong Kong 'no longer autonomous from China' - Pompeo
+Title: Twitter tags Trump tweet with fact-checking warning
+Title: Minnesota violence: Clashes over death of black man in police custody
+Title: Larry Kramer: Playwright and Aids activist dies at 84
+Title: Romina Ashrafi: Outrage in Iran after girl murdered ‘for eloping’
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Greeks return to beaches in heatwave, but keep umbrellas apart
-Title: Rwanda genocide suspect Kabuga arrested in France after decades on the run
-Title: Qatar coronavirus infections top 30,000: Reuters tally
-Title: Spain reports 102 coronavirus deaths overnight, lowest in eight weeks
-Title: Iran sentences French academic to six years in prison: lawyer
+Title: Investigators scour Pakistan air crash site for clues and cockpit voice recorder
+Title: 'Move on' says British PM, as row over adviser Cummings persists
+Title: Time to move on, urges British PM Johnson over Cummings row
+Title: Huawei CFO Meng loses key court argument in fight against extradition to United States
+Title: Explainer: What happens next in Huawei CFO's U.S. extradition case
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000063185122a0bc9bbcd1d9563a396e428ed6d525782fbba
+00000000000000000008b276884cc4c2b597bcdabd198a190d7024703d482760
