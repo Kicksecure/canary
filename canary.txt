@@ -37,37 +37,37 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 30 May 2020 21:25:37 +0000
+Wed, 03 Jun 2020 14:30:03 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Red Light Blues: Amsterdam Prostitutes Fear Corona Lockdown Could Become Permanent
+Title: Biden Advisers on Nuclear Sharing: Striking at the Heart of the Trans-Atlantic Bargain
+Title: The Scapegoat: Science and Politics Collide in the Battle against COVID-19
+Title: Austrian Chancellor Sebastian Kurz: "The EU Consists of More than Just Two Member States"
 Title: Donald Trump's Voter Fraud Claims Are Dangerous
-Title: Virologist Christian Drosten: "We Managed to Stop a Pandemic Wave with Relatively Mild Measures"
-Title: Generation Coronavirus: Economic Scars for Decades to Come
-Title: The Empregadas and the Epidemic: COVID-19 Lays Bare Brazil’s Deep Societal Divide
-Title: The Assads against the Makhloufs: A Bitter Feud over Power and Money Erupts in Syria
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Coronavirus Pandemic Updates: Lake of the Ozarks, W.H.O., India, California
-Title: A Mile-Long Line for Free Food in Geneva, One of World’s Richest Cities
-Title: Hong Kong's Protest Movement, Faced with Beijing's Security Push, is In Crisis
-Title: In Hong Kong, Anxiety and Defiance Over Trump’s Move to Cut Ties
-Title: Rabbis to Return to German Military Amid Growing Anti-Semitism
+Title: Embattled at Home, Trump Finds Himself Isolated Abroad, Too
+Title: Coronavirus Live Updates: Germany Will Lift E.U. Travel Ban
+Title: Cyclone Nisarga Nears India, Mumbai in Its Path
+Title: Amsterdam’s Red Light Zone Stays Shut as Rest of City Edges Open
+Title: What Will It Take to Reopen the World to Travel?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Private rocket takes astronauts to space station
-Title: George Floyd death: Minnesota governor decries violent protests
-Title: George Floyd death: Rapper Killer Mike's plea to protesters in Atlanta
-Title: Coronavirus: Backlash after Trump signals US exit from WHO
-Title: Coronavirus: India to loosen lockdown despite record cases
+Title: George Floyd death: More large protests in US but violence falls
+Title: George Floyd death: The man who sheltered 80 US protesters
+Title: Coronavirus: Sweden's Tegnell admits too many died
+Title: Cyclone Nisarga lashes areas near Mumbai
+Title: Lea Michele: Glee star apologises 'for any pain caused'
 
 $ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Most vulnerable in England can spend time outdoors from Monday
-Title: Iran berates U.S. over police killing, slams racism
-Title: Russia plans coronavirus vaccine clinical trials in two weeks: report
-Title: Israeli police fatally shoot Palestinian in Jerusalem: spokesman
-Title: Google postpones Android 11 unveiling amid U.S. protests
+Title: Swiss gays hope for marriage equality ahead of parliamentary vote
+Title: Trump says inviting Russia to G7 is 'common sense': Fox News Radio
+Title: Exclusive: Trump administration to bar Chinese passenger carriers from flying to U.S., sources say
+Title: Kosovo picks new government promising deal with Serbia
+Title: Sweden should have done more against coronavirus but broad strategy right: chief epidemiologist
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-00000000000000000006a8135a3d90ae7af9d1a795e3245421d2c92bdd25902d
+00000000000000000001ba96b3b226b248f3cb36b42522c369e0acbd4e49b964
