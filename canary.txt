@@ -37,37 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 13 Jun 2020 15:42:20 +0000
+Thu, 02 Jul 2020 19:55:32 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Philipp Amthor's World: A Young Star in Angela Merkel's Party Is in Danger of Falling
-Title: Nouriel Roubini: "The Stock Market Is Deluding Itself"
-Title: Everyday Racism in Germany: Enough Is Enough!
-Title: How structural racism works in Germany
-Title: Spain: Basic Income to Mitigate Coronavirus Impact
+Title: Israeli Annexation Plans: The West Bank Faces a New Reckoning
+Title: Justice Cooperation: Lack of Deal Between EU and UK Imperils Security
+Title: Corona in the Slaughterhouse: The High Price of Cheap Meat
+Title: Coronavirus Heaven: Why Meatpacking Plants Are Superspreaders
+Title: The Curse of Black Gold: Vast Oil Find Puts Guyana on the Verge of Riches - or Failure
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Too Close for Comfort, and the Virus, in Russia’s Communal Apartments
-Title: In Every Corner of Bangkok, Spirits Need a Home and Maybe a Strawberry Fanta
-Title: Virus Exposes Weak Links in Peru’s Success Story
-Title: Two Years After Trump-Kim Meeting, Little to Show for Personal Diplomacy
-Title: Video of Arrest of Indigenous Chief Shocks Canada
+Title: Hong Kong Opens Door to China’s Hulking Security State
+Title: Turmoil at Funeral of Hachalu Hundessa Shows Ethiopia’s ‘Combustible’ Politics
+Title: Russia Bounty on Americans: Afghan Acted as Middleman
+Title: Myanmar Jade Mine Collapse Kills at Least 162
+Title: Australia Locks Down 300,000 in Melbourne Area After Coronavirus Surge
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Juneteenth: Trump changes Tulsa Oklahoma rally date 'out of respect'
-Title: Coronavirus: How pandemic turned political in Brazil
-Title: Australian sentenced to death in China for drug smuggling
-Title: Black Lives Matter: 'How can we win?' Monopoly analogy explained
-Title: Canada indigenous chief Allan Adam battered during arrest
-
-$ rsstail -1 -n5 -u http://feeds.reuters.com/reuters/worldnews
-Title: Astrazeneca wins coronavirus vaccine deal with Germany, France, Italy and the Netherlands
-Title: UK death toll from confirmed COVID-19 cases rises by 181 to 41,662
-Title: Russian ministers to visit Turkey for talks on Sunday
-Title: Several thousand rally in Paris anti-racism protest
-Title: Nepal parliament approves new map as land row with India escalates
+Title: Jeffrey Epstein ex-girlfriend Ghislaine Maxwell arrested by FBI
+Title: Why Texas is seeing a surge in coronavirus cases
+Title: Nathan Law: Prominent democracy activist flees Hong Kong
+Title: Hundreds arrested as crime chat network cracked
+Title: US firms create record 4.8 million jobs in June
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000113182d9e9643b01b33d09daa68c33eeef0b7b00a503ab
+000000000000000000114d95ae8638a7514d3f5040e09c8e6a8e1a1ced29bbd1
