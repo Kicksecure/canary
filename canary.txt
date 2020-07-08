@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 02 Jul 2020 19:55:32 +0000
+Wed, 08 Jul 2020 17:28:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: COVID-19: Many People Stay Sick After Recovering From Coronavirus
+Title: Humiliation and Abuse in Lebanon's Kafala System
+Title: The Ischgl Outbreak: Families of COVID-19 Victims Seek Justice
+Title: Evidence Casts New Doubts on Russian Doping Whistleblower
 Title: Israeli Annexation Plans: The West Bank Faces a New Reckoning
-Title: Justice Cooperation: Lack of Deal Between EU and UK Imperils Security
-Title: Corona in the Slaughterhouse: The High Price of Cheap Meat
-Title: Coronavirus Heaven: Why Meatpacking Plants Are Superspreaders
-Title: The Curse of Black Gold: Vast Oil Find Puts Guyana on the Verge of Riches - or Failure
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong Opens Door to China’s Hulking Security State
-Title: Turmoil at Funeral of Hachalu Hundessa Shows Ethiopia’s ‘Combustible’ Politics
-Title: Russia Bounty on Americans: Afghan Acted as Middleman
-Title: Myanmar Jade Mine Collapse Kills at Least 162
-Title: Australia Locks Down 300,000 in Melbourne Area After Coronavirus Surge
+Title: Erdogan Talks of Making Hagia Sophia a Mosque Again, to International Dismay
+Title: Mexico's President and His Lopsided Relationship With Trump
+Title: Japan Flooding Deaths Rise to 58, With More Rain on Horizon
+Title: Coronavirus Live News and Updates
+Title: Over 180 Bodies Found Dumped in Burkina Faso Town, Report Says
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jeffrey Epstein ex-girlfriend Ghislaine Maxwell arrested by FBI
-Title: Why Texas is seeing a surge in coronavirus cases
-Title: Nathan Law: Prominent democracy activist flees Hong Kong
-Title: Hundreds arrested as crime chat network cracked
-Title: US firms create record 4.8 million jobs in June
+Title: Coronavirus in Australia: Melbourne begins new shutdown
+Title: Hong Kong pupils banned from political activity
+Title: Alexander Vindman, witness 'bullied by Trump', quits US military
+Title: Scrabble community mulls banning racial and homophobic slurs
+Title: Coronavirus: Belgrade protesters storm Serb parliament over curfew
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000114d95ae8638a7514d3f5040e09c8e6a8e1a1ced29bbd1
+0000000000000000000663a777c01fb41285194b8549b9c175d5951df5ef6e04
