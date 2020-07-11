@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 08 Jul 2020 17:28:25 +0000
+Sat, 11 Jul 2020 17:05:13 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Leading German Economist: “The Virus Must Be Contained Before the Economy Can Recover”
+Title: Massive Income Loss: Left Behind By the Coronavirus
 Title: COVID-19: Many People Stay Sick After Recovering From Coronavirus
 Title: Humiliation and Abuse in Lebanon's Kafala System
 Title: The Ischgl Outbreak: Families of COVID-19 Victims Seek Justice
-Title: Evidence Casts New Doubts on Russian Doping Whistleblower
-Title: Israeli Annexation Plans: The West Bank Faces a New Reckoning
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Erdogan Talks of Making Hagia Sophia a Mosque Again, to International Dismay
-Title: Mexico's President and His Lopsided Relationship With Trump
-Title: Japan Flooding Deaths Rise to 58, With More Rain on Horizon
-Title: Coronavirus Live News and Updates
-Title: Over 180 Bodies Found Dumped in Burkina Faso Town, Report Says
+Title: ‘I’m Sorry to Everyone’: In Death, South Korean Mayor Is Tainted by Scandal
+Title: Turkey's Erdogan Signs Decree Declaring Hagia Sophia a Mosque
+Title: Hindu God in a K-Pop Video? Blackpink Runs Afoul of Fans
+Title: In Tackling Coronavirus, Scotland Asserts Its Separateness From England
+Title: Long-Planned and Bigger Than Thought: Strike on Iran’s Nuclear Program
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus in Australia: Melbourne begins new shutdown
-Title: Hong Kong pupils banned from political activity
-Title: Alexander Vindman, witness 'bullied by Trump', quits US military
-Title: Scrabble community mulls banning racial and homophobic slurs
-Title: Coronavirus: Belgrade protesters storm Serb parliament over curfew
+Title: Roger Stone: Critics blast Trump for commuting ex-adviser's jail term
+Title: Russia far east protest over Khabarovsk governor's arrest
+Title: Srebrenica: Bosnia marks 25 years since massacre
+Title: Jada Pinkett Smith tells Will Smith of her 'relationship'
+Title: South African church attack: Five dead after 'hostage situation'
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000663a777c01fb41285194b8549b9c175d5951df5ef6e04
+0000000000000000000a04fac617019b671d1a2f2ac23f20ce9007ffbb6035e8
