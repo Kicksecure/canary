@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 11 Jul 2020 17:05:13 +0000
+Tue, 14 Jul 2020 18:32:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Leading German Economist: “The Virus Must Be Contained Before the Economy Can Recover”
+Title: Living Room School in Afghanistan: A School for Girls that Even the Taliban Have Accepted
+Title: Corona Policies: “The Virus Must Be Contained Before the Economy Can Recover”
 Title: Massive Income Loss: Left Behind By the Coronavirus
 Title: COVID-19: Many People Stay Sick After Recovering From Coronavirus
 Title: Humiliation and Abuse in Lebanon's Kafala System
-Title: The Ischgl Outbreak: Families of COVID-19 Victims Seek Justice
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: ‘I’m Sorry to Everyone’: In Death, South Korean Mayor Is Tainted by Scandal
-Title: Turkey's Erdogan Signs Decree Declaring Hagia Sophia a Mosque
-Title: Hindu God in a K-Pop Video? Blackpink Runs Afoul of Fans
-Title: In Tackling Coronavirus, Scotland Asserts Its Separateness From England
-Title: Long-Planned and Bigger Than Thought: Strike on Iran’s Nuclear Program
+Title: U.S. and China, Caught in ‘Ideological Spiral,’ Drift Toward Cold War
+Title: A Racial Awakening in France, Where Race Is a Taboo Topic
+Title: Face Masks to Be Compulsory for Shoppers in England
+Title: He Changed His Country’s Name. Will North Macedonia Punish Him?
+Title: Seoul Mayor’s Secretary Speaks Out About Alleged Abuse
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Roger Stone: Critics blast Trump for commuting ex-adviser's jail term
-Title: Russia far east protest over Khabarovsk governor's arrest
-Title: Srebrenica: Bosnia marks 25 years since massacre
-Title: Jada Pinkett Smith tells Will Smith of her 'relationship'
-Title: South African church attack: Five dead after 'hostage situation'
+Title: Ghislaine Maxwell trial date set in Epstein sex trafficking case
+Title: Daniel Lewis Lee: US executes first federal prisoner in 17 years
+Title: Iran executes man convicted of selling missile information to CIA
+Title: Harvey Weinstein: Judge rejects $18.9m settlement
+Title: Azerbaijan general among troops killed in Armenia border clash
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000a04fac617019b671d1a2f2ac23f20ce9007ffbb6035e8
+0000000000000000000327f14c68d658b915182dd6120a2130b38a5a0bddb6ec
