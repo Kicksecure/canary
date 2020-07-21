@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 14 Jul 2020 18:32:11 +0000
+Tue, 21 Jul 2020 17:35:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Living Room School in Afghanistan: A School for Girls that Even the Taliban Have Accepted
-Title: Corona Policies: “The Virus Must Be Contained Before the Economy Can Recover”
-Title: Massive Income Loss: Left Behind By the Coronavirus
-Title: COVID-19: Many People Stay Sick After Recovering From Coronavirus
-Title: Humiliation and Abuse in Lebanon's Kafala System
+Title: Muslim Calls to Prayers Get a Mixed Reception in Germany
+Title: VW, BWM, Daimler: The Race to Beat Tesla at Its Own Game
+Title: Lebanon: End of the Illusion - The Inexorable Collapse of Lebanon
+Title: John Bolton: Donald "Trump Is Capable of Almost Anything"
+Title: Has Germany "Done This?": A Look at the Refugee Crisis Five Years Later
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: U.S. and China, Caught in ‘Ideological Spiral,’ Drift Toward Cold War
-Title: A Racial Awakening in France, Where Race Is a Taboo Topic
-Title: Face Masks to Be Compulsory for Shoppers in England
-Title: He Changed His Country’s Name. Will North Macedonia Punish Him?
-Title: Seoul Mayor’s Secretary Speaks Out About Alleged Abuse
+Title: E.U. Adopts Groundbreaking Stimulus to Fight Coronavirus Recession
+Title: U.K. Ignored Russia’s Interference in Democratic System, Report Finds
+Title: Omar Hassan al-Bashir Goes on Trial in Sudan Over 1989 Coup
+Title: China Uses W.H.O. Inquiry to Tout Coronavirus Response
+Title: Coronavirus Live Updates
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ghislaine Maxwell trial date set in Epstein sex trafficking case
-Title: Daniel Lewis Lee: US executes first federal prisoner in 17 years
-Title: Iran executes man convicted of selling missile information to CIA
-Title: Harvey Weinstein: Judge rejects $18.9m settlement
-Title: Azerbaijan general among troops killed in Armenia border clash
+Title: Ex-Trump lawyer Michael Cohen sues William Barr for 'gag order'
+Title: Coronavirus: EU leaders reach recovery deal after marathon summit
+Title: Ukraine: Gunman holds 20 hostages on bus in Lutsk
+Title: Netflix cancels Turkish show If Only in row over gay character
+Title: Greta Thunberg to donate one-million-euro humanitarian prize
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000327f14c68d658b915182dd6120a2130b38a5a0bddb6ec
+0000000000000000000d2b4e4e900b527f75b32d3e99447cb0adb7765f55f6f5
