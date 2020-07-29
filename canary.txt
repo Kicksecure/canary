@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 26 Jul 2020 10:54:49 +0000
+Wed, 29 Jul 2020 12:56:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Did European Leaders Cave to Hungary and Poland to Reach a Deal?
+Title: Can COVID-19 Lead to a Sea Change in Italy?
+Title: What Europe Can Learn from Scotland in Fighting the Pandemic
 Title: Trump’s Handling of the Coronavirus Could Cost Him Presidency
 Title: How Syrians Are Reshaping German Society
-Title: Cheap and Expendible: The Systematic Exploitation of Harvest Workers in Europe
-Title: Muslim Calls to Prayers Get a Mixed Reception in Germany
-Title: VW, BWM, Daimler: The Race to Beat Tesla at Its Own Game
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Officials Push U.S.-China Relations Toward Point of No Return
-Title: As the World Gets Tougher on China, Japan Tries to Thread a Needle
-Title: North Korea Declares Emergency After Suspected Covid-19 Case
-Title: Protests Swell in Russia’s Far East in a Stark New Challenge to Putin
-Title: Brazil’s Bolsonaro, Leading Virus Skeptic, Says He’s No Longer Infected
+Title: Latin America Is Facing a ‘Decline of Democracy’ Under the Pandemic
+Title: Turkey Passes Law Extending Sweeping Powers Over Social Media
+Title: The Vatican Is Said to Be Hacked From China Before Talks With Beijing
+Title: Live Coronavirus Updates
+Title: Hong Kong University to Fire Law Professor Who Inspired Protests
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Seattle protest: Police and anti-racism demonstrators clash at march
-Title: Hurricane Hanna batters southern Texas
-Title: North Korea on alert over 'first suspected coronavirus case'
-Title: Nantes cathedral fire: Church volunteer rearrested over arson
-Title: John Lewis: Mourners pay tributes to US civil rights icon
+Title: Coronavirus: Trump sticks by unproven hydroxychloroquine
+Title: Coronavirus: Seven Zimbabwe babies stillborn in one night at hospital
+Title: Coronavirus on campus: 'We already lost prom and graduation...'
+Title: Coronavirus: Scaled back Hajj pilgrimage begins in Saudi Arabia
+Title: Umbrella Man: Minneapolis suspect linked to white supremacists
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000bc41c07441b169e424f5e440b9a82e345d4290d33f32b
+000000000000000000013527f6202b9b6635d6b8412f46cb5dd7ff7c5d3d1b07
