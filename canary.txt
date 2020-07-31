@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 29 Jul 2020 12:56:17 +0000
+Fri, 31 Jul 2020 10:43:33 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Did European Leaders Cave to Hungary and Poland to Reach a Deal?
@@ -47,20 +47,20 @@ Title: Trump’s Handling of the Coronavirus Could Cost Him Presidency
 Title: How Syrians Are Reshaping German Society
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Latin America Is Facing a ‘Decline of Democracy’ Under the Pandemic
-Title: Turkey Passes Law Extending Sweeping Powers Over Social Media
-Title: The Vatican Is Said to Be Hacked From China Before Talks With Beijing
-Title: Live Coronavirus Updates
-Title: Hong Kong University to Fire Law Professor Who Inspired Protests
+Title: Omar Hassan al-Bashir Is Gone, but the Killing Goes On in Darfur
+Title: Justin Trudeau To Testify Before Parliament on WE Charity Scandal
+Title: U.K. Has Europe’s Worst Surge in Deaths During Pandemic, Study Says
+Title: China Uses Coronavirus as Cover to Detain Dissidents, Activists Say
+Title: Russia Sentences Trevor Reed, Former U.S. Marine, to 9 Years
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Trump sticks by unproven hydroxychloroquine
-Title: Coronavirus: Seven Zimbabwe babies stillborn in one night at hospital
-Title: Coronavirus on campus: 'We already lost prom and graduation...'
-Title: Coronavirus: Scaled back Hajj pilgrimage begins in Saudi Arabia
-Title: Umbrella Man: Minneapolis suspect linked to white supremacists
+Title: Hong Kong postpones elections for a year 'over virus concerns'
+Title: Republicans to Trump: You can't delay 2020 election
+Title: Ghislaine Maxwell-Jeffrey Epstein emails revealed in new court papers
+Title: Vietnam records first Covid-19 death
+Title: Eurozone suffers deepest contraction on record
+
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000013527f6202b9b6635d6b8412f46cb5dd7ff7c5d3d1b07
+000000000000000000094c26ee227432bff1e839fba334d9210b82b709e55e5c
