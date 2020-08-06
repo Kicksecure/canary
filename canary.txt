@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 03 Aug 2020 14:19:35 +0000
+Thu, 06 Aug 2020 11:54:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Fighting the Yaba Pill: The Death Toll Mounts in Bangladesh's Drug War
+Title: UN Official: The Nuclear Risk Is “Higher Than since the Darkest Days of the Cold War”
+Title: Summer Travels Bring Rising Coronavirus Numbers to Germany
+Title: The New Nuclear Dawn: Threat of Atomic Weapons Grows as U.S., Russia and China Renew Arms Race
 Title: Foreign Ministry State Minister Michael Roth: China as a Systemic Rival to the EU
-Title: The Great Coronavirus Experiment: Are German Schools Ready to Reopen?
-Title: Mary Trump: "People Are Dying Alone Because of Donald's Failure to Lead"
-Title: German Health Expert Karl Lauterbach: "The Authorities Should Focus Their Efforts on Super-Spreaders"
-Title: Did European Leaders Cave to Hungary and Poland to Reach a Deal?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: New Genoa Bridge Inauguration Is Bittersweet
-Title: Jailbreak Attack by ISIS Rages On in Eastern Afghanistan
-Title: Abductions, Censorship and Layoffs: Pakistani Critics Are Under Siege
-Title: Taking a Spear Into the Sea, and Washing Anxiety Away
-Title: Coronavirus Live Updates
+Title: Hiroshima 75th Anniversary: Preserving Survivors’ Message of Peace
+Title: After Hiroshima's Carnage, Setsuko Thurlow Devoted Her Life to Peace
+Title: As Smoke Clears in Beirut, Shock Turns to Anger
+Title: Blame for Beirut Explosion Begins With a Leaky, Troubled Ship
+Title: Ammonium Nitrate: What is Being Blamed in the Beirut Explosion
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Iran cover-up of deaths revealed by data leak
-Title: Islamic State group claims deadly attack on Afghanistan prison
-Title: Coronavirus: Melbourne lockdown to keep a million workers at home
-Title: Coronavirus: Dozens test positive for Covid-19 on Norwegian cruise ship
-Title: Kaepernick shirt used as a target at Navy Seal event
+Title: Beirut explosion: Angry residents demand answers after blast
+Title: The mother in labour during blast
+Title: Coronavirus: How does a Covid-19 pandemic come to an end?
+Title: Facebook and Twitter restrict Trump accounts over 'harmful' virus claim
+Title: Hiroshima bomb: Japan marks 75 years since nuclear attack
 
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-0000000000000000000016286f7a94bf5530dcd7e3d23a938364e309b6e0d122
+0000000000000000000b0d7f8931c51e21217efea1c5ea8a1e13932284b5cce7
