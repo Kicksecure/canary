@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 06 Aug 2020 11:54:06 +0000
+Mon, 10 Aug 2020 11:09:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Corona: Cutting Corners in the Race for a Vaccine
+Title: Corona: Scientists Weigh the Benefits of Air Purifiers in Fighting COVID-19
+Title: Corona Crisis: Can German City Centers Be Saved?
 Title: Fighting the Yaba Pill: The Death Toll Mounts in Bangladesh's Drug War
 Title: UN Official: The Nuclear Risk Is “Higher Than since the Darkest Days of the Cold War”
-Title: Summer Travels Bring Rising Coronavirus Numbers to Germany
-Title: The New Nuclear Dawn: Threat of Atomic Weapons Grows as U.S., Russia and China Renew Arms Race
-Title: Foreign Ministry State Minister Michael Roth: China as a Systemic Rival to the EU
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hiroshima 75th Anniversary: Preserving Survivors’ Message of Peace
-Title: After Hiroshima's Carnage, Setsuko Thurlow Devoted Her Life to Peace
-Title: As Smoke Clears in Beirut, Shock Turns to Anger
-Title: Blame for Beirut Explosion Begins With a Leaky, Troubled Ship
-Title: Ammonium Nitrate: What is Being Blamed in the Beirut Explosion
+Title: Hong Kong Arrests Jimmy Lai Under National Security Law
+Title: Belarus Says Lukashenko Is Re-elected as President in Election Critics Call Rigged
+Title: ‘I’d Rather Stay Home and Die’
+Title: U.S. Official, Alex Azar, Praises Taiwan During Highest-Level Visit in Decades
+Title: Afghanistan to Release Last Taliban Prisoners, Removing Final Hurdle to Talks
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Beirut explosion: Angry residents demand answers after blast
-Title: The mother in labour during blast
-Title: Coronavirus: How does a Covid-19 pandemic come to an end?
-Title: Facebook and Twitter restrict Trump accounts over 'harmful' virus claim
-Title: Hiroshima bomb: Japan marks 75 years since nuclear attack
+Title: Jimmy Lai: Hong Kong media tycoon arrested under security law
+Title: Belarus election: Opposition disputes Lukashenko landslide win
+Title: Whale migration: ‘Super rare’ whale encounter on the Great Barrier Reef
+Title: Kenyan military deployed to fight fire in Tsavo park
+Title: Mexico bear that sniffed woman's hair castrated
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000b0d7f8931c51e21217efea1c5ea8a1e13932284b5cce7
+0000000000000000000a0ef46650fe313664d3c02bebae64153d13be17126d29
