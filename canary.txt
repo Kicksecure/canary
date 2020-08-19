@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 10 Aug 2020 11:09:25 +0000
+Wed, 19 Aug 2020 07:08:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Corona: Cutting Corners in the Race for a Vaccine
-Title: Corona: Scientists Weigh the Benefits of Air Purifiers in Fighting COVID-19
-Title: Corona Crisis: Can German City Centers Be Saved?
-Title: Fighting the Yaba Pill: The Death Toll Mounts in Bangladesh's Drug War
-Title: UN Official: The Nuclear Risk Is “Higher Than since the Darkest Days of the Cold War”
+Title: Beirut After the Explosion: A Deeply Wounded City
+Title: Is Nuclear Power the Solution to Climate Change?
+Title: Bolsonaro’s Vendetta: Assault on the Rainforest Continues in the Shadow of COVID-19
+Title: Europe's Foreign Policy Disappearing Act
+Title: Exploring Right-Wing Extremism in Germany's Police and Military
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong Arrests Jimmy Lai Under National Security Law
-Title: Belarus Says Lukashenko Is Re-elected as President in Election Critics Call Rigged
-Title: ‘I’d Rather Stay Home and Die’
-Title: U.S. Official, Alex Azar, Praises Taiwan During Highest-Level Visit in Decades
-Title: Afghanistan to Release Last Taliban Prisoners, Removing Final Hurdle to Talks
+Title: Mali’s President Resigns After Being Arrested in Military Coup
+Title: Why the World Is Watching a Military Takeover in Mali
+Title: Cai Xia Was A Communist Party Insider in China. Then She Denounced Xi.
+Title: Hezbollah Member Convicted in Hariri Assassination
+Title: Former Deputy Mayor of Paris Under Investigation in Rape Case
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jimmy Lai: Hong Kong media tycoon arrested under security law
-Title: Belarus election: Opposition disputes Lukashenko landslide win
-Title: Whale migration: ‘Super rare’ whale encounter on the Great Barrier Reef
-Title: Kenyan military deployed to fight fire in Tsavo park
-Title: Mexico bear that sniffed woman's hair castrated
+Title: US Election 2020: Biden is crowned as Democratic nominee
+Title: US election 2020: What young Democrats think of Joe Biden
+Title: Mali's president resigns and dissolves parliament
+Title: South Korea tightens Covid-19 curbs amid warning of new 'crisis'
+Title: Trump gives nod to Oracle buyout of TikTok in US
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000a0ef46650fe313664d3c02bebae64153d13be17126d29
+0000000000000000000ac1a9fc0f50270af4637b0d0e67ad7c196718cf732f61
