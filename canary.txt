@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 25 Aug 2020 14:34:26 +0000
+Thu, 27 Aug 2020 12:03:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Social Design Award 2020: How You Can Participate
+Title: The 1,200-Euro Experiment: Longitudinal Study on Unconditional Basic Income Launches in Germany
+Title: Germany Faces Fresh Corona Challenges As Fall Approaches
+Title: Erdoğan Risks War with Greece in Border Conflict
 Title: Corona Plastic Boom: The Myth of German Recycling
-Title: Coronavirus in the Philippines: Hope in Short Supply Amid Pandemic and Economic Collapse
-Title: The End of Lukashenkism?: On the Knife's Edge in Belarus
-Title: Shipowner Linked to Hezbollah's Bank: Questions Swirl around the Cargo that Destroyed Beirut
-Title: Tanzanian Women Fight to Stop Genital Mutilation and Cycles of Suffering
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: German Town Fears Ruin by U.S. Effort to Stop Russian Pipeline
-Title: ‘GolfGate’ Dinner in Ireland Sparks Political Backlash
-Title: For Refusing a Drink With the Boss, He Was Slapped in the Face
-Title: Aleksei Navalny, Putin Critic in a Coma, Was Poisoned, German Doctors Say
-Title: Covid-19 Live Updates: Flu Season Could Worsen Virus Testing Delays
+Title: New Zealand Gives Christchurch Gunman a Life Sentence
+Title: Covid-19 News: Live Updates
+Title: Afghanistan Floods Leave Nearly 80 Dead
+Title: Desperate to Leave Beirut, Young Lebanese Are Also the Ones Fixing It
+Title: E.U. Trade Chief Quits After 'GolfGate'
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Alexei Navalny: Kremlin dismisses accusations against Putin
-Title: Jacob Blake: Father says man shot in Wisconsin is 'paralysed'
-Title: RNC 2020: Trump warns Republican convention of ‘rigged election’
-Title: Africa to be declared free of wild polio in 'milestone'
-Title: Saba Sahar: Afghan actress and film director shot in Kabul
-
+Title: Hurricane Laura causes flash flooding as it makes landfall in Louisiana
+Title: Jacob Blake: Police officer in Kenosha shooting named
+Title: US sports walkout over Blake shooting gathers pace
+Title: Christchurch mosque attack: Brenton Tarrant sentenced to life without parole
+Title: India coronavirus: Covid strikes remote Greater Andamanese tribe
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000976ccbe2ca16956fb403f9448bb8e53f6e5b9f56d255b
+0000000000000000000ce04a35351387af20acc722a88fbca6699b90931f3126
