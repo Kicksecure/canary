@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 27 Aug 2020 12:03:35 +0000
+Sat, 05 Sep 2020 11:53:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Social Design Award 2020: How You Can Participate
-Title: The 1,200-Euro Experiment: Longitudinal Study on Unconditional Basic Income Launches in Germany
-Title: Germany Faces Fresh Corona Challenges As Fall Approaches
-Title: Erdoğan Risks War with Greece in Border Conflict
-Title: Corona Plastic Boom: The Myth of German Recycling
+Title: Germany Debates Halting Contentious Russian Pipeline Project
+Title: Monetary Policy Expert David Marsh: "We Are Witnessing the End of Independent Central Banks"
+Title: How Feces and Other Bodily Fluids Can Help Track COVID Outbreaks
+Title: Russian Patient: The Kremlin, Belarus and the Attack on Alexei Navalny
+Title: Nord Stream 2 Troubles: An Uncertain Future for the German-Russian Pipeline
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: New Zealand Gives Christchurch Gunman a Life Sentence
-Title: Covid-19 News: Live Updates
-Title: Afghanistan Floods Leave Nearly 80 Dead
-Title: Desperate to Leave Beirut, Young Lebanese Are Also the Ones Fixing It
-Title: E.U. Trade Chief Quits After 'GolfGate'
+Title: A Coded Word From the Far Right Roils France’s Political Mainstream
+Title: ‘Agricultural Jihad’: A Hungry Lebanon Returns to Family Farms to Feed Itself
+Title: Bangladesh Mosque Blast, Likely Due to Gas Leak, Kills at Least 14
+Title: Brazil Pantanal Scorched by Fires
+Title: Search Squad Rescue Dog and Hopes of a Miracle Captivate Ravaged Beirut
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hurricane Laura causes flash flooding as it makes landfall in Louisiana
-Title: Jacob Blake: Police officer in Kenosha shooting named
-Title: US sports walkout over Blake shooting gathers pace
-Title: Christchurch mosque attack: Brenton Tarrant sentenced to life without parole
-Title: India coronavirus: Covid strikes remote Greater Andamanese tribe
+Title: Trump panned over reports he called US war dead 'losers'
+Title: Coronavirus: Arrests at Australia anti-lockdown protests
+Title: Coronavirus: Russian vaccine shows signs of immune response
+Title: Beirut explosion: Hopes fade in search for survivor
+Title: Jessica Krug will not teach this semester, George Washington University says
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000ce04a35351387af20acc722a88fbca6699b90931f3126
+0000000000000000000d46a0ac5f668241f4e2096bca9c4c3b785389bced4f31
