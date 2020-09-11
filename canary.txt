@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 07 Sep 2020 11:53:43 +0000
+Fri, 11 Sep 2020 09:31:05 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Cold Corona Comfort: Germany Braces for the Second COVID-19 Wave
+Title: "Rock Bottom": Navigating the Corona Crisis with Pianist Extraordinaire Igor Levit
+Title: Germany: Stimulus Measures Have Bucked the Corona Crisis
+Title: Czech Prime Minister Andrej Babiš: "We Should Be Talking about European Security"
 Title: Germany Debates Halting Contentious Russian Pipeline Project
-Title: Monetary Policy Expert David Marsh: "We Are Witnessing the End of Independent Central Banks"
-Title: How Feces and Other Bodily Fluids Can Help Track COVID Outbreaks
-Title: Russian Patient: The Kremlin, Belarus and the Attack on Alexei Navalny
-Title: Nord Stream 2 Troubles: An Uncertain Future for the German-Russian Pipeline
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Shatters India's Economy
-Title: Between the Pandemic and the President: Mexico City Mayor’s Balancing Act
-Title: Hong Kong Police Block Protests Over Delayed Election
-Title: When Learning Is Really Remote: Students Climb Trees and Travel Miles for a Cell Signal
-Title: Brazil Pantanal Scorched by Fires
+Title: From Asia to Africa, China Promotes Its Vaccines to Win Friends
+Title: Afghan Peace Talks Begin This Week. Here’s What to Know.
+Title: China and India Pledge to Ease Tensions After Border Clashes
+Title: After Death of Javier Ordoñez, Violence Erupts in Bogota
+Title: Killings Reignite Racial Tensions in Guyana
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: India overtakes Brazil in Covid-19 cases
-Title: Belarus protests: Maria Kolesnikova 'detained by masked men'
-Title: Hong Kong protests: Police tackle 12-year-old girl to the ground
-Title: Daniel Prude: Rochester mayor vows to reform police
-Title: California wildfires: Gender reveal party blamed for fire
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+Title: Oregon wildfires: Half a million people flee dozens of infernos
+Title: Amazon: Brazilian official killed by arrow near indigenous tribe
+Title: Rio Tinto chief Jean-Sébastien Jacques to quit over Aboriginal cave destruction
+Title: Coronavirus: Inside the Indian company betting big on vaccines
+Title: India and China to 'quickly disengage' from border standoff
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-00000000000000000007397b0bbeda3a80efd23b5278ea712ab29e0f8ca632bc
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+000000000000000000089541d539d8e8dc5d365685a0489df5191924826908a8
