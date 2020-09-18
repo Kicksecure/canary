@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 14 Sep 2020 10:11:36 +0000
+Fri, 18 Sep 2020 11:43:57 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Rise and Fall of Spain's Former King Juan Carlos
-Title: The Moria Catastrophe and the EU's Hypocritical Refugee Policy
-Title: Germany Must Set a Positive Example in Latest Refugee Crisis
-Title: Cold Corona Comfort: Germany Braces for the Second COVID-19 Wave
-Title: "Rock Bottom": Navigating the Corona Crisis with Pianist Extraordinaire Igor Levit
+Title: German Health Expert on Second Wave of COVID-19: More Deaths in 6 To 8 Weeks
+Title: Bill Gates on COVID-19: "It's Mind-Blowing That We're Not Further Along!"
+Title: German Zoo Fire in Krefeld: The Life and Death of Massa the Gorilla
+Title: Racism and Corona: An Uphill Battle for Italy's Beach Vendors
+Title: Germany Unable to Reach Agreement on Sanctions against Russia
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Yoshihide Suga Set to Become Japan's Next Prime Minister
-Title: In Arab States’ Embrace, Israelis See a Reshaped Mideast
-Title: Terry Branstad, Trump's Ambassador to China, is Stepping Down
-Title: After Fire Razes Squalid Greek Camp, Homeless Migrants Fear What’s Next
-Title: Party Insiders Put Yoshihide Suga on Brink of Being Japan’s Prime Minister
+Title: Iranian Hackers Can Now Beat Encrypted Apps, Researchers Say
+Title: Israelis Prepare to Celebrate the Year’s Holiest Days Under Lockdown
+Title: Covid-19 News: Live Updates
+Title: A Danish Children’s TV Show Has This Message: ‘Normal Bodies Look Like This’
+Title: China, Seeking a Friend in Europe, Finds Rising Anger and Frustration
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Climate change: Warmth shatters section of Greenland ice shelf
-Title: Yoshihide Suga picked by Japan's governing party to succeed Shinzo Abe
-Title: TikTok rejects Microsoft bid at eleventh hour
-Title: Humpback whales take wrong turn up crocodile river
-Title: Covid in Yemen: The city where all the doctors fled - except one
+Title: China holds military drill as US envoy visits Taiwan
+Title: Siberia landscape scarred by climate change
+Title: Donald Trump: President denies new assault allegation
+Title: Police launch homicide inquiry after German hospital hack
+Title: Canada Tesla driver charged over 'napping while speeding'
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000083b363a3862f478a70652c7ad232ed053006ce7911f73
+0000000000000000000772ee0a6048cad6134c7955b462b6359866fe77a75889
