@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 18 Sep 2020 11:43:57 +0000
+Sat, 19 Sep 2020 13:48:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Harvard Philosopher Michael Sandel on the Trump Phenomenon
+Title: Europe's Refugee Disaster: Merkel Losing Her Patience with Lack of EU Solidarity
 Title: German Health Expert on Second Wave of COVID-19: More Deaths in 6 To 8 Weeks
 Title: Bill Gates on COVID-19: "It's Mind-Blowing That We're Not Further Along!"
 Title: German Zoo Fire in Krefeld: The Life and Death of Massa the Gorilla
-Title: Racism and Corona: An Uphill Battle for Italy's Beach Vendors
-Title: Germany Unable to Reach Agreement on Sanctions against Russia
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Iranian Hackers Can Now Beat Encrypted Apps, Researchers Say
-Title: Israelis Prepare to Celebrate the Year’s Holiest Days Under Lockdown
-Title: Covid-19 News: Live Updates
+Title: How a Savior of Rwanda, Paul Rusesabagina, Became Its Captive
+Title: ‘The Time Has Come.’ Barbados Casts Off the Queen as Head of State, and Others May Follow
 Title: A Danish Children’s TV Show Has This Message: ‘Normal Bodies Look Like This’
-Title: China, Seeking a Friend in Europe, Finds Rising Anger and Frustration
+Title: The Nigerian-British Writer Putting Black Joy on Stage and Screen
+Title: After Fire at Refugee Camp, Europe Faces a Reckoning
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: China holds military drill as US envoy visits Taiwan
-Title: Siberia landscape scarred by climate change
-Title: Donald Trump: President denies new assault allegation
-Title: Police launch homicide inquiry after German hospital hack
-Title: Canada Tesla driver charged over 'napping while speeding'
+Title: Ruth Bader Ginsburg: Republicans vow to vote on Trump pick
+Title: Covid-19: Lockdown in parts of Madrid amid virus spike
+Title: Thailand protests: Thousands gather for mass anti-government rally
+Title: Rochester shooting: Two dead after mass shooting in New York
+Title: Syria war: US deploys reinforcements to Syria after Russia clashes
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000772ee0a6048cad6134c7955b462b6359866fe77a75889
+0000000000000000000eb247594ca8b8b88aedf3750f22b387dd32c1ae3c7c09
