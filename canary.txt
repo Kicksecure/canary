@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 19 Sep 2020 13:48:08 +0000
+Sun, 27 Sep 2020 15:10:58 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Harvard Philosopher Michael Sandel on the Trump Phenomenon
-Title: Europe's Refugee Disaster: Merkel Losing Her Patience with Lack of EU Solidarity
-Title: German Health Expert on Second Wave of COVID-19: More Deaths in 6 To 8 Weeks
-Title: Bill Gates on COVID-19: "It's Mind-Blowing That We're Not Further Along!"
-Title: German Zoo Fire in Krefeld: The Life and Death of Massa the Gorilla
+Title: Germans Disappointed By Coronavirus Tracking App: Lots of Work But Little Utility
+Title: QAnon's Inexorable Spread Beyond the U.S.: The Most Dangerous Cult of Our Times
+Title: Predicting Refugee Movements? There's an App for That - A New Approach to Humanitarian Aid
+Title: Mushroom Expert Merlin Sheldrake: "Fungi Can Teach Us a New Way of Looking at the World"
+Title: Spain’s COVID Resurgence: The Difficult Fight against the Second Wave
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: How a Savior of Rwanda, Paul Rusesabagina, Became Its Captive
-Title: ‘The Time Has Come.’ Barbados Casts Off the Queen as Head of State, and Others May Follow
-Title: A Danish Children’s TV Show Has This Message: ‘Normal Bodies Look Like This’
-Title: The Nigerian-British Writer Putting Black Joy on Stage and Screen
-Title: After Fire at Refugee Camp, Europe Faces a Reckoning
+Title: Sudan Is Focus of U.S. Efforts to Improve Ties With Israel
+Title: Pandemic Will ‘Take Our Women 10 Years Back’ in the Workplace
+Title: At Trial, Jewish Victims of 2015 Paris Attack Ask: Why the Hatred?
+Title: Fighting Flares Between Azerbaijan and Armenia
+Title: ‘Schitt’s Creek’ Star, and His Fans, Are Taking Indigenous Studies
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ruth Bader Ginsburg: Republicans vow to vote on Trump pick
-Title: Covid-19: Lockdown in parts of Madrid amid virus spike
-Title: Thailand protests: Thousands gather for mass anti-government rally
-Title: Rochester shooting: Two dead after mass shooting in New York
-Title: Syria war: US deploys reinforcements to Syria after Russia clashes
-
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+Title: Armenia and Azerbaijan erupt into fighting over disputed region of Nagorno-Karabakh
+Title: Switzerland referendum: Voters reject end to free movement with EU - projection
+Title: Amy Coney Barrett: Trump nominates conservative favourite for Supreme Court
+Title: California wildfires: The inmates training to be firefighters
+Title: Sri Lanka returns 'hazardous waste' to UK
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000eb247594ca8b8b88aedf3750f22b387dd32c1ae3c7c09
+
+$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+0000000000000000000a25928ca56b4c0454256a20ac6b2db4e7e9d04e92aa19
