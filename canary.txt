@@ -37,30 +37,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 27 Sep 2020 15:10:58 +0000
+Tue, 29 Sep 2020 12:44:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Minister of State Michael Roth on Brexit Negotiations: High Time for an Agreement!
+Title: Corona Crisis: Cruise Industry Battles for Survival in Pandemic
+Title: Tesla Joins the Race for the Next-Gen Battery
+Title: West Coast Wildfires: “California Is Built To Burn, To Burn Explosively”
 Title: Germans Disappointed By Coronavirus Tracking App: Lots of Work But Little Utility
-Title: QAnon's Inexorable Spread Beyond the U.S.: The Most Dangerous Cult of Our Times
-Title: Predicting Refugee Movements? There's an App for That - A New Approach to Humanitarian Aid
-Title: Mushroom Expert Merlin Sheldrake: "Fungi Can Teach Us a New Way of Looking at the World"
-Title: Spain’s COVID Resurgence: The Difficult Fight against the Second Wave
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Sudan Is Focus of U.S. Efforts to Improve Ties With Israel
-Title: Pandemic Will ‘Take Our Women 10 Years Back’ in the Workplace
-Title: At Trial, Jewish Victims of 2015 Paris Attack Ask: Why the Hatred?
-Title: Fighting Flares Between Azerbaijan and Armenia
-Title: ‘Schitt’s Creek’ Star, and His Fans, Are Taking Indigenous Studies
+Title: Coronavirus Deaths Pass One Million Worldwide
+Title: The Ship That Stopped 7,000 Migrants, and Smuggled 700,000 Cigarettes
+Title: No More ‘Ladies and Gentlemen’ on Japan Airlines
+Title: Philippine leader Duterte Lashes Out at Facebook After Fake Accounts Removed
+Title: Asif Ali Zardari, Ex-President of Pakistan, Indicted in Money Laundering Case
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Armenia and Azerbaijan erupt into fighting over disputed region of Nagorno-Karabakh
-Title: Switzerland referendum: Voters reject end to free movement with EU - projection
-Title: Amy Coney Barrett: Trump nominates conservative favourite for Supreme Court
-Title: California wildfires: The inmates training to be firefighters
-Title: Sri Lanka returns 'hazardous waste' to UK
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+Title: Coronavirus: Global Covid-19 death toll passes one million
+Title: Trump and Biden: What to watch for in first presidential debate
+Title: Estonia ferry disaster: TV crew uncovers new evidence
+Title: Armenia-Azerbaijan conflict: Casualties mount in Nagorno-Karabakh battle
+Title: Hathras gang rape: India victim's death sparks outrage
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-0000000000000000000a25928ca56b4c0454256a20ac6b2db4e7e9d04e92aa19
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+0000000000000000000c93ff95f773f5a8394237a5524c78179fc311016926b9
