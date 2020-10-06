@@ -37,30 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 29 Sep 2020 12:44:42 +0000
+Tue, 06 Oct 2020 12:22:50 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Minister of State Michael Roth on Brexit Negotiations: High Time for an Agreement!
-Title: Corona Crisis: Cruise Industry Battles for Survival in Pandemic
-Title: Tesla Joins the Race for the Next-Gen Battery
-Title: West Coast Wildfires: “California Is Built To Burn, To Burn Explosively”
-Title: Germans Disappointed By Coronavirus Tracking App: Lots of Work But Little Utility
+Title: What Germany's Coronavirus Response Has Taught Us
+Title: Yemen’s Houthi Rebel Leader: “The Americans Label Anyone Who Opposes Their Policy as Terrorists”
+Title: H.R. McMaster: “There Is a Strange Tendency in the U.S. to Hold Trump Responsible for All Evil”
+Title: India Staggers Under the Coronavirus Burden
+Title: Alexei Navalny on His Poisoning: "I Assert that Putin Was Behind the Crime"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Coronavirus Deaths Pass One Million Worldwide
-Title: The Ship That Stopped 7,000 Migrants, and Smuggled 700,000 Cigarettes
-Title: No More ‘Ladies and Gentlemen’ on Japan Airlines
-Title: Philippine leader Duterte Lashes Out at Facebook After Fake Accounts Removed
-Title: Asif Ali Zardari, Ex-President of Pakistan, Indicted in Money Laundering Case
-
-$ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: Global Covid-19 death toll passes one million
-Title: Trump and Biden: What to watch for in first presidential debate
-Title: Estonia ferry disaster: TV crew uncovers new evidence
-Title: Armenia-Azerbaijan conflict: Casualties mount in Nagorno-Karabakh battle
-Title: Hathras gang rape: India victim's death sparks outrage
+Title: China Ramps Up a War of Words, Warning the U.S. of Its Red Lines
+Title: Armenia-Azerbaijan Clash Takes Toll on Civilians
+Title: New Delhi Introduces Campaign to Curb Air Pollution Ahead of Winter
+Title: Israel’s Coronavirus Lockdown Fuels Protests, Violence and Confusion
+Title: At Afghan Peace Talks, Hoping to End Their Fathers’ War
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000c93ff95f773f5a8394237a5524c78179fc311016926b9
+000000000000000000017e350d46d0da75f7da1d47ac76a92ccee2c939c07e1f
