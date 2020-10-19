@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 08 Oct 2020 10:09:28 +0000
+Mon, 19 Oct 2020 14:26:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: What Germany's Coronavirus Response Has Taught Us
-Title: Yemen’s Houthi Rebel Leader: “The Americans Label Anyone Who Opposes Their Policy as Terrorists”
-Title: H.R. McMaster: “There Is a Strange Tendency in the U.S. to Hold Trump Responsible for All Evil”
-Title: India Staggers Under the Coronavirus Burden
-Title: Alexei Navalny on His Poisoning: "I Assert that Putin Was Behind the Crime"
+Title: Shaping a New Belarus from Abroad: Lukashenko’s Opponents Regroup in Lithuania
+Title: Coronavirus: Demo gegen Corona-Maßnahmen in Prag eskaliert
+Title: What If Donald Trump Won't Go? Europe Preparing for the Worst in Washington
+Title: Bank of France Governor: "We Now Need a Growth-Friendly Agenda"
+Title: Nobel Prize in Physics Winner: "It's Unbelievable All That's Going On at the Moment in Astronomy"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Venezuela, Once an Oil Giant, Reaches the End of an Era
-Title: Putin, Long the Sower of Instability, Is Now Surrounded by It
-Title: Greece's Golden Dawn Found Guilty of Running Criminal Organization
-Title: ISIS ‘Beatles’ Fighters Being Brought to U.S. to Face Charges
-Title: New Zealand Stamps Out the Coronavirus. For a Second Time.
+Title: At Front Lines of Armenia-Azerbaijan Fighting, Death and Fear Reign
+Title: A Storied Female Warlord Surrenders, Taliban Say, Exposing Afghan Weakness
+Title: ‘We Have to Speak Out’: Thai Students Defy Protest Ban
+Title: 2,000-Year-Old Cat Etching Found at Nazca Lines Site in Peru
+Title: With Covid-19 Under Control, China’s Economy Surges Ahead
+
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000dabac086e78c21db33a5d8a1cbd0dc1f2891703aed40b
+0000000000000000000b7530067f32cea2a2011c2212ff4687fbd138471b5bbb
