@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 19 Oct 2020 14:26:16 +0000
+Thu, 22 Oct 2020 11:24:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Beijing: What Life Looks Like in an (almost) COVID-Free Country
+Title: America's Trump-Supporting Militias: "There Will Be Unrest, Dead Civilians"
 Title: Shaping a New Belarus from Abroad: Lukashenko’s Opponents Regroup in Lithuania
 Title: Coronavirus: Demo gegen Corona-Maßnahmen in Prag eskaliert
 Title: What If Donald Trump Won't Go? Europe Preparing for the Worst in Washington
-Title: Bank of France Governor: "We Now Need a Growth-Friendly Agenda"
-Title: Nobel Prize in Physics Winner: "It's Unbelievable All That's Going On at the Moment in Astronomy"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: At Front Lines of Armenia-Azerbaijan Fighting, Death and Fear Reign
-Title: A Storied Female Warlord Surrenders, Taliban Say, Exposing Afghan Weakness
-Title: ‘We Have to Speak Out’: Thai Students Defy Protest Ban
-Title: 2,000-Year-Old Cat Etching Found at Nazca Lines Site in Peru
-Title: With Covid-19 Under Control, China’s Economy Surges Ahead
+Title: Europe Wonders if It Can Rely on U.S. Again, Whoever Wins
+Title: In Azerbaijan, Pain and Loss Drive Fever for War With Armenia
+Title: Hurricane Epsilon Makes a ‘Wobbly’ Northwest Turn in the Atlantic
+Title: A Dozen Protesters in Nigeria Reported Killed by Security Forces
+Title: Thailand’s Leader Offers End to Crackdown on Pro-Democracy Protests
 
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000b7530067f32cea2a2011c2212ff4687fbd138471b5bbb
+00000000000000000009104778bd375ade433df6e55c27c50386e8e3169d8b48
