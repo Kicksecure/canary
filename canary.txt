@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 22 Oct 2020 11:24:35 +0000
+Mon, 26 Oct 2020 12:42:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Bob Woodward on the 2020 Election: “How Can You Not Be Worried?”
+Title: Frontex Complicit in Greek Refugee Pushback Campaign
+Title: Germany - Coronavirus Is Killing Nightlife: If That's the Future, then Good Night!
 Title: Beijing: What Life Looks Like in an (almost) COVID-Free Country
 Title: America's Trump-Supporting Militias: "There Will Be Unrest, Dead Civilians"
-Title: Shaping a New Belarus from Abroad: Lukashenko’s Opponents Regroup in Lithuania
-Title: Coronavirus: Demo gegen Corona-Maßnahmen in Prag eskaliert
-Title: What If Donald Trump Won't Go? Europe Preparing for the Worst in Washington
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Europe Wonders if It Can Rely on U.S. Again, Whoever Wins
-Title: In Azerbaijan, Pain and Loss Drive Fever for War With Armenia
-Title: Hurricane Epsilon Makes a ‘Wobbly’ Northwest Turn in the Atlantic
-Title: A Dozen Protesters in Nigeria Reported Killed by Security Forces
-Title: Thailand’s Leader Offers End to Crackdown on Pro-Democracy Protests
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+Title: China Aims to End Extreme Poverty, but Covid-19 Exposes Gaps
+Title: Women on Qatar Airways  Flight Say They Were Strip-Searched
+Title: ‘An End to the Chapter of Dictatorship’: Chileans Vote to Draft a New Constitution
+Title: With Vacation Rentals Empty, European Cities See a Chance to Reclaim Housing
+Title: Treaty to Prohibit Nuclear Weapons Passes Important Threshold
 
 $ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
-00000000000000000009104778bd375ade433df6e55c27c50386e8e3169d8b48
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
+0000000000000000000bfc8978271cdbba499d25148e6861a6838cfe28a38dc1
