@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 26 Oct 2020 12:42:49 +0000
+Sun, 01 Nov 2020 16:13:34 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Bob Woodward on the 2020 Election: “How Can You Not Be Worried?”
-Title: Frontex Complicit in Greek Refugee Pushback Campaign
-Title: Germany - Coronavirus Is Killing Nightlife: If That's the Future, then Good Night!
-Title: Beijing: What Life Looks Like in an (almost) COVID-Free Country
-Title: America's Trump-Supporting Militias: "There Will Be Unrest, Dead Civilians"
+Title: Donald Trump: The Mess Created By Trump Will Be with Us for Years
+Title: Pakistani Prime Minister Imran Khan: "India Is a Fascist State, Inspired by the Nazis"
+Title: World Bank Chief Economist Reinhart: “Many Businesses Are In Sectors That Arent't Going To Recover”
+Title: The Challenges We Face Once a Coronavirus Vaccine Is Found
+Title: Elections in Tanzania: A Model African Country Slides Toward Dictatorship
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: China Aims to End Extreme Poverty, but Covid-19 Exposes Gaps
-Title: Women on Qatar Airways  Flight Say They Were Strip-Searched
-Title: ‘An End to the Chapter of Dictatorship’: Chileans Vote to Draft a New Constitution
-Title: With Vacation Rentals Empty, European Cities See a Chance to Reclaim Housing
-Title: Treaty to Prohibit Nuclear Weapons Passes Important Threshold
+Title: In Italy, Like Everywhere the Virus Goes, It’s the Discontent That’s Contagious
+Title: Typhoon Goni Leaves Philippines After Only Grazing Manila
+Title: England to Shut Pubs, Restaurants and Most Shops as Virus Surges
+Title: As the U.S. Election Nears, the World Holds Its Breath
+Title: 7 Pro-Democracy Politicians Arrested in Hong Kong Over Heated Meeting
 
-$ curl --silent --fail --proto =https --tlsv1.2 'https://blockchain.info/blocks/?format=json'
+$ curl --silent --fail --proto =https --tlsv1.3 'https://blockchain.info/blocks/?format=json'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-0000000000000000000bfc8978271cdbba499d25148e6861a6838cfe28a38dc1
+000000000000000000035c5080da87966c2f28417c60abf526d7c2dc5223d724
