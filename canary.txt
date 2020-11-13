@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 05 Nov 2020 07:28:30 +0000
+Fri, 13 Nov 2020 13:45:02 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Donald Trump’s Overly Hasty Declaration of Victory: The Antidemocrat
-Title: Boris Johnson's Failures Add Up to Eroding Trust: The Perfect Storm of Brexit and Corona
-Title: Donald Trump: The Mess Created By Trump Will Be with Us for Years
-Title: Pakistani Prime Minister Imran Khan: "India Is a Fascist State, Inspired by the Nazis"
-Title: World Bank Chief Economist Reinhart: “Many Businesses Are In Sectors That Arent't Going To Recover”
+Title: German ICUs Are Struggling to Keep Up with Corona - The Second Wave Hits the Hospitals
+Title: Three Doctors on the Front Lines: "It’s a Mistake To Think We Have this Disease Under Control"
+Title: Digital Violence: Olimpia Coral's Fight on Behalf of the Women of Mexico
+Title: The Cult Myth: Why Trumpism Won't Disappear with Trump
+Title: Economist Jeffrey Sachs on the U.S. After the Election
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: A Transfixed World Awaits What’s Next in America
-Title: A New Front Opens in the Russia-Ukraine Conflict: Borscht
-Title: Having Made Peace Abroad, Ethiopia’s Leader Goes to War at Home
-Title: Poland Delays a Near-Total Ban on Abortion
-Title: South Korea Detains North Korean Who Crossed Demilitarized Zone
+Title: China Congratulates Biden on Presidential Victory
+Title: From ‘Street Kid’ in India to Top Toronto Chef
+Title: A Solution to Pandemic Hunger, Eyeballs and All
+Title: Brexit Hard-Liners Lose Battle as Aide to U.K’s Johnson Quits
+Title: London Police to Recruit 40% of Officers From Minority Backgrounds
 
-$ curl --silent --fail --proto =https --tlsv1.3 'https://blockchain.info/blocks/?format=json'
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][10]['\''hash'\''])'
-000000000000000000050663f09b2df4c6ea4bcb92d88631fab64163ca7b4b60
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+656755
