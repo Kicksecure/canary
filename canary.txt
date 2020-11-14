@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 13 Nov 2020 13:45:02 +0000
+Sat, 14 Nov 2020 21:43:15 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: BioNTech: A Small German Biotech Company Hopes to Make the Leap to Global Player
+Title: BioNTech's Long-Term Dream: From Coronavirus to a Cancer Vaccine?
 Title: German ICUs Are Struggling to Keep Up with Corona - The Second Wave Hits the Hospitals
 Title: Three Doctors on the Front Lines: "It’s a Mistake To Think We Have this Disease Under Control"
 Title: Digital Violence: Olimpia Coral's Fight on Behalf of the Women of Mexico
-Title: The Cult Myth: Why Trumpism Won't Disappear with Trump
-Title: Economist Jeffrey Sachs on the U.S. After the Election
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: China Congratulates Biden on Presidential Victory
-Title: From ‘Street Kid’ in India to Top Toronto Chef
-Title: A Solution to Pandemic Hunger, Eyeballs and All
-Title: Brexit Hard-Liners Lose Battle as Aide to U.K’s Johnson Quits
-Title: London Police to Recruit 40% of Officers From Minority Backgrounds
+Title: Al Qaeda's Abu Muhammad al-Masri Secretly Killed in Iran
+Title: The Reign of Terror That Sustains Belarus’s Leader, Aleksandr Lukashenko
+Title: Vatican Report Cast Pope John Paul II in Harsh New Light
+Title: South Korea's Yogurt Ladies
+Title: It Took a Century to Open a Mosque in Athens. Then Came the Pandemic.
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-656755
+656948
