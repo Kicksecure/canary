@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 18 Nov 2020 07:47:57 +0000
+Sun, 22 Nov 2020 09:34:02 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: BioNTech: A Small German Biotech Company Hopes to Make the Leap to Global Player
-Title: BioNTech's Long-Term Dream: From Coronavirus to a Cancer Vaccine?
-Title: German ICUs Are Struggling to Keep Up with Corona - The Second Wave Hits the Hospitals
-Title: Three Doctors on the Front Lines: "It’s a Mistake To Think We Have this Disease Under Control"
-Title: Digital Violence: Olimpia Coral's Fight on Behalf of the Women of Mexico
+Title: Svetlana Alexievich on the protests against Alexander Lukashenko in Belarus
+Title: EU Budget Battle: Brussels Prepares for a Protracted Fight with Poland and Hungary
+Title: Lebanon: Anatomy of the Explosion that Rocked Beirut
+Title: Croatia: Video Documents Illegal Refugee Pushbacks
+Title: The Troublemaker: Austrian Chancellor Sebastian Kurz Keeps Europe on Its Toes
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: U.S. Troops Are Packing Up, Ready or Not
-Title: U.S. to Drop Case Against Mexican Ex-Official to Allow Inquiry in Mexico
-Title: Israel and Palestinians Resume Security Agreement
-Title: Biden Wants to Rejoin Iran Nuclear Deal, but It Won’t Be Easy
-Title: Corbyn Reinstated by U.K. Labour Party Three Weeks After Suspension
-
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+Title: At G-20, Saudi Arabia and Human Rights Activists Fight Over Kingdom’s Image
+Title: For Netanyahu and Israel, Trump’s Gifts Kept on Coming
+Title: How a Man With a Van Is Challenging U.K. Drug Policy
+Title: Kimchi Making at Home Was Going Out of Style. Rural Towns to the Rescue.
+Title: Rockets Strike Kabul as Mike Pompeo Plans to Meet with Taliban
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-657473
+
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+658142
