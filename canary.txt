@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 22 Nov 2020 09:34:02 +0000
+Tue, 24 Nov 2020 11:33:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Svetlana Alexievich on the protests against Alexander Lukashenko in Belarus
@@ -47,13 +47,13 @@ Title: Croatia: Video Documents Illegal Refugee Pushbacks
 Title: The Troublemaker: Austrian Chancellor Sebastian Kurz Keeps Europe on Its Toes
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: At G-20, Saudi Arabia and Human Rights Activists Fight Over Kingdom’s Image
-Title: For Netanyahu and Israel, Trump’s Gifts Kept on Coming
-Title: How a Man With a Van Is Challenging U.K. Drug Policy
-Title: Kimchi Making at Home Was Going Out of Style. Rural Towns to the Rescue.
-Title: Rockets Strike Kabul as Mike Pompeo Plans to Meet with Taliban
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+Title: China Says It Remains Open to the World, but Wants to Dictate Terms
+Title: After Trump, Biden Faces Pressure to Stand Up to China by Embracing Taiwan
+Title: Early Coronavirus Mutation Made Pandemic Harder to Stop, Evidence Suggests
+Title: ‘I Forget About the World:’ Afghan Youth Find Escape in a Video Game
+Title: Israeli Reports Say Netanyahu Met Saudi Crown Prince. Saudis Deny It.
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
-658142
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+658452
