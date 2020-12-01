@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 26 Nov 2020 22:12:34 +0000
+Tue, 01 Dec 2020 10:58:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Search for a Coronavirus Pill: Researchers Explore Promising New Therapies for COVID-19
+Title: Syria: German Prosecutors Are Collecting Evidence on Chemical Weapons Attacks
 Title: Fighting the Corona Crisis: "The World Could Have Learned from Africa"
 Title: Where Did America Go Wrong? - Opinion
 Title: Nagorno-Karabakh Settles in for Five Years of Uncertainty
-Title: Geopolitics of COVID: The Unprecedented Challenge of Coronavirus Vaccine Distribution
-Title: Svetlana Alexievich on the protests against Alexander Lukashenko in Belarus
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: ‘The Crown’ Stokes an Uproar Over Fact vs. Entertainment
-Title: E.U. Border Agency Accused of Covering Up Migrant Pushback in Greece
-Title: Turkey Jails Hundreds for Life Over 2016 Coup Attempt
-Title: Ethiopia’s Leader Escalates Assault on Tigray Region, Putting Civilians at Risk
-Title: Paolo Gabriele, Ex-Papal Butler in ‘Vatileaks’ Scandal, Dies at 54
+Title: ‘Trump Is Better’: In Asia, Pro-Democracy Forces Worry About Biden
+Title: Europe Keeps Schools Open, not Restaurants, Unlike U.S. cities
+Title: Angry Farmers Choke India’s Capital in Giant Demonstrations
+Title: France’s Major Literary Juries Award Prizes in a Year of Scandal
+Title: NATO Needs to Adapt Quickly to Stay Relevant for 2030, Report Urges
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-658820
+659481
