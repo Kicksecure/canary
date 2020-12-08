@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 01 Dec 2020 10:58:49 +0000
+Tue, 08 Dec 2020 20:19:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Search for a Coronavirus Pill: Researchers Explore Promising New Therapies for COVID-19
-Title: Syria: German Prosecutors Are Collecting Evidence on Chemical Weapons Attacks
-Title: Fighting the Corona Crisis: "The World Could Have Learned from Africa"
-Title: Where Did America Go Wrong? - Opinion
-Title: Nagorno-Karabakh Settles in for Five Years of Uncertainty
+Title: Dangerous Accusations: German Tennis Star Alexander Zverev Faces Career Turning Point
+Title: Skiing in the Pandemic: Alpine Rivalries Flare amid Resort Closures
+Title: Biden's Goal of Saving the Iran Deal Just Got Harder - A Murder and an Ultimatum
+Title: Heiko Maas: Germany's Foreign Minister on the Future of Trans-Atlantic Relations
+Title: Generation Corona: The Pandemic Is Changing Our Children's Lives for the Worse
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: ‘Trump Is Better’: In Asia, Pro-Democracy Forces Worry About Biden
-Title: Europe Keeps Schools Open, not Restaurants, Unlike U.S. cities
-Title: Angry Farmers Choke India’s Capital in Giant Demonstrations
-Title: France’s Major Literary Juries Award Prizes in a Year of Scandal
-Title: NATO Needs to Adapt Quickly to Stay Relevant for 2030, Report Urges
+Title: As U.K. Begins Vaccinations, a Glimpse of Life After Covid
+Title: Covid-19 Live Updates: As Britain Begins Vaccinations, Focus Turns to Questions on Distribution
+Title: U.K. Covid Vaccine: Side Effects, Safety, and Who Gets It First
+Title: U.S. Leaves Bases in Afghanistan — and a Legacy of Land Disputes
+Title: As Brexit Talks Stall, Boris Johnson Offers the E.U. an Olive Branch
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-659481
+660536
