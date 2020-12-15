@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 08 Dec 2020 20:19:18 +0000
+Tue, 15 Dec 2020 12:13:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Dangerous Accusations: German Tennis Star Alexander Zverev Faces Career Turning Point
-Title: Skiing in the Pandemic: Alpine Rivalries Flare amid Resort Closures
-Title: Biden's Goal of Saving the Iran Deal Just Got Harder - A Murder and an Ultimatum
-Title: Heiko Maas: Germany's Foreign Minister on the Future of Trans-Atlantic Relations
-Title: Generation Corona: The Pandemic Is Changing Our Children's Lives for the Worse
+Title: WHO Epidemiologist: “Only with Vaccination of Younger People Will Number of Cases Decrease”
+Title: New on the COVID-19 Front Lines: Reevaluating Children's Role in the Pandemic
+Title: Germany Is Faring Poorly in the Second Wave of the Coronavirus
+Title: A Look Ahead at German-American Relations after Trump
+Title: German Tennis Star Alexander Zverev Faces Career Turning Point
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As U.K. Begins Vaccinations, a Glimpse of Life After Covid
-Title: Covid-19 Live Updates: As Britain Begins Vaccinations, Focus Turns to Questions on Distribution
-Title: U.K. Covid Vaccine: Side Effects, Safety, and Who Gets It First
-Title: U.S. Leaves Bases in Afghanistan — and a Legacy of Land Disputes
-Title: As Brexit Talks Stall, Boris Johnson Offers the E.U. an Olive Branch
+Title: Delivery Workers in South Korea Say They’re Dying of ‘Overwork’
+Title: Turkey’s Coffeehouses, a Hub of Male Social Life, May Not Survive Virus
+Title: Putin Congratulates Biden After Electoral College Vote
+Title: Court Finds Evidence of Crimes Against Humanity in the Philippines
+Title: In Canada, the First Vaccines Leave Health Workers in Tears of Relief
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-660536
+661465
