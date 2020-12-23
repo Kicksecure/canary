@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 15 Dec 2020 12:13:26 +0000
+Wed, 23 Dec 2020 15:35:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Angela Merkel in the Corona Crisis: Germany's Chancellor Hits the Wall
+Title: Corona: Germany and Europe Could Fall Short on Vaccine Supplies
+Title: Ethiopia Sinks Deeper into Ethnic Conflict: A Country on the Brink
 Title: WHO Epidemiologist: “Only with Vaccination of Younger People Will Number of Cases Decrease”
 Title: New on the COVID-19 Front Lines: Reevaluating Children's Role in the Pandemic
-Title: Germany Is Faring Poorly in the Second Wave of the Coronavirus
-Title: A Look Ahead at German-American Relations after Trump
-Title: German Tennis Star Alexander Zverev Faces Career Turning Point
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Delivery Workers in South Korea Say They’re Dying of ‘Overwork’
-Title: Turkey’s Coffeehouses, a Hub of Male Social Life, May Not Survive Virus
-Title: Putin Congratulates Biden After Electoral College Vote
-Title: Court Finds Evidence of Crimes Against Humanity in the Philippines
-Title: In Canada, the First Vaccines Leave Health Workers in Tears of Relief
+Title: Police Took Their Son Away. Then the Merchants of Hope Showed Up.
+Title: The Virus That Stole Most of 2020 Now Steals Christmas, Too
+Title: China-E.U. Talks Hit Another Snag as Biden Camp Objects
+Title: France Shooting: 3 Police Officers Killed
+Title: Fraser Island Blaze Began With Campfire, Australian Officials Say
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-661465
+662656
