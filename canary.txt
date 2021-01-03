@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 23 Dec 2020 15:35:38 +0000
+Sun, 03 Jan 2021 07:43:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Angela Merkel in the Corona Crisis: Germany's Chancellor Hits the Wall
-Title: Corona: Germany and Europe Could Fall Short on Vaccine Supplies
-Title: Ethiopia Sinks Deeper into Ethnic Conflict: A Country on the Brink
-Title: WHO Epidemiologist: “Only with Vaccination of Younger People Will Number of Cases Decrease”
-Title: New on the COVID-19 Front Lines: Reevaluating Children's Role in the Pandemic
+Title: The Dawn of the Dragon: How Xi Jinping Has Transformed China
+Title: Heat Stroke
+Title: Thinning Crown
+Title: The Great Thaw
+Title: The World's Oceans in Distress
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Police Took Their Son Away. Then the Merchants of Hope Showed Up.
-Title: The Virus That Stole Most of 2020 Now Steals Christmas, Too
-Title: China-E.U. Talks Hit Another Snag as Biden Camp Objects
-Title: France Shooting: 3 Police Officers Killed
-Title: Fraser Island Blaze Began With Campfire, Australian Officials Say
+Title: Targeted Killings Are Terrorizing Afghans. And No One Is Claiming Them.
+Title: He Calmed Gaza, Aided Israel’s Arab Ties and Preserved Hopes for Peace
+Title: Conjuring Up the World Through the Sense of Taste
+Title: A Continent Where the Dead Are Not Counted
+Title: Taiwan Vows to Stick to Covid-19 Limits
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-662656
+664259
