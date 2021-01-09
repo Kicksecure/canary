@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 03 Jan 2021 07:43:31 +0000
+Sat, 09 Jan 2021 07:02:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Dawn of the Dragon: How Xi Jinping Has Transformed China
-Title: Heat Stroke
-Title: Thinning Crown
-Title: The Great Thaw
-Title: The World's Oceans in Distress
+Title: The Dimming Light of Democracy: Trump's Army and the Attack on America
+Title: Tourists and Refugees Cross Paths on Gran Canaria: "It Ruins the Vacation Feeling"
+Title: German-Russian Relations at a New Low
+Title: Mob in the U.S. Capitol: Trumpism Distilled to Its Purest Form - Opinion
+Title: DER SPIEGEL's Trump Covers - Photo Gallery
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Targeted Killings Are Terrorizing Afghans. And No One Is Claiming Them.
-Title: He Calmed Gaza, Aided Israel’s Arab Ties and Preserved Hopes for Peace
-Title: Conjuring Up the World Through the Sense of Taste
-Title: A Continent Where the Dead Are Not Counted
-Title: Taiwan Vows to Stick to Covid-19 Limits
+Title: Kim Jong-un Vows to Boost North Korea’s Nuclear Capability as Leverage With Biden
+Title: Why I Got the Russian Vaccine
+Title: Amid the Rampage at the U.S. Capitol, a Sweatshirt Stirs Troubling Memories
+Title: South Korean Court Orders Japan to Pay Compensation for Wartime Sexual Slavery
+Title: Ronnie Brunswijk: Suriname Guerrilla Leader, Drug Baron … and Social Reformer?
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-664259
+665236
