@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 14 Jan 2021 07:39:48 +0000
+Sun, 24 Jan 2021 05:41:54 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Bavaria's FFP2 Requirement: Critics Say Expensive Masks Burden the Poor
-Title: Donald Trump's Army and the Attack on America: The Dimming Light of Democracy
-Title: Tourists and Refugees Cross Paths on Gran Canaria: "It Ruins the Vacation Feeling"
-Title: German-Russian Relations at a New Low
-Title: Mob in the U.S. Capitol: Trumpism Distilled to Its Purest Form - Opinion
+Title: Virologist Christian Drosten: "I Am Quite Apprehensive about What Might Otherwise Happen in Spring and Summer"
+Title: Germany - Chancellery Chief of Staff: "Our Goal Is to Reduce the Number of Cases Very Quickly"
+Title: Migrants Stranded in Bosnia-Herzegovina: "Animals Have It Better Than Us"
+Title: Can We Stop a Super Coronavirus?
+Title: Economist Nouriel Roubini: "Twitter and the Other Platforms Are Bad, Facebook Is Worse"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: W.H.O. Team in Wuhan to Trace Coronavirus
-Title: China Places Over 22 Million on Lockdown Amid New Covid Wave
-Title: Disappointing Chinese Vaccine Results Pose Setback for Developing World
-Title: How Le Pen, Baudet and More in Europe Are Looking Away From Trump
-Title: Italy’s Government Enters a Crisis in Middle of Pandemic
+Title: Barred From U.S. Under Trump, Muslims Exult in Biden’s Open Door
+Title: A Decade On, Silence Fills Egypt’s Field of Broken Dreams
+Title: Pro-Navalny Protests Sweep Russia in Challenge to Putin
+Title: A Year Later, Wuhan, the First Post Coronavirus Pandemic City
+Title: Two Years After Legalizing Cannabis, Has Canada Kept Its Promises?
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-665998
+667420
