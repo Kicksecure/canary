@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 24 Jan 2021 05:41:54 +0000
+Sat, 30 Jan 2021 04:41:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Virologist Christian Drosten: "I Am Quite Apprehensive about What Might Otherwise Happen in Spring and Summer"
-Title: Germany - Chancellery Chief of Staff: "Our Goal Is to Reduce the Number of Cases Very Quickly"
-Title: Migrants Stranded in Bosnia-Herzegovina: "Animals Have It Better Than Us"
-Title: Can We Stop a Super Coronavirus?
-Title: Economist Nouriel Roubini: "Twitter and the Other Platforms Are Bad, Facebook Is Worse"
+Title: Europe's Vaccine Disaster: Commission President Ursula von der Leyen Seeking to Duck Responsibility
+Title: A Stalled Global Vaccine Drive: The West's Greed Could Come Back To Haunt It
+Title: Consequences of Corona: The Skyrocketing Homeless Population of São Paulo
+Title: The Creeping Return of Anti-Semitism to Munich: "We Can Never Again Be Silent"
+Title: Brazil’s Second Wave: A Country Is Made To Suffer as President Sabotages Immunization Campaign
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Barred From U.S. Under Trump, Muslims Exult in Biden’s Open Door
-Title: A Decade On, Silence Fills Egypt’s Field of Broken Dreams
-Title: Pro-Navalny Protests Sweep Russia in Challenge to Putin
-Title: A Year Later, Wuhan, the First Post Coronavirus Pandemic City
-Title: Two Years After Legalizing Cannabis, Has Canada Kept Its Promises?
+Title: Vaccine Rollout Gives U.K. a Rare Win in Battling Pandemic
+Title: As Biden Lifts Anti-Abortion Gag Rule, Health Providers Rejoice
+Title: U.S. Airstrike Kills Top ISIS Leader in Iraq
+Title: Kouchner Casts Harsh Light on French Elite With Incest Charge
+Title: He Is Israel’s ‘Prince of Torah.’ But to Some, He Is the King of Covid.
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-667420
+668299
