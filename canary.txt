@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 30 Jan 2021 04:41:40 +0000
+Wed, 03 Feb 2021 17:02:58 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Europe's Vaccine Disaster: Commission President Ursula von der Leyen Seeking to Duck Responsibility
-Title: A Stalled Global Vaccine Drive: The West's Greed Could Come Back To Haunt It
-Title: Consequences of Corona: The Skyrocketing Homeless Population of São Paulo
-Title: The Creeping Return of Anti-Semitism to Munich: "We Can Never Again Be Silent"
-Title: Brazil’s Second Wave: A Country Is Made To Suffer as President Sabotages Immunization Campaign
+Title: Covid-19: Can Vaccines from Russia and China Be a Game Changer?
+Title: Nord Stream 2: Russian Pipeline Is Germany's Greatest Foreign Policy Embarrassment
+Title: The EU Relationship with Russia: European Unity and Determination Offer a Path Forward
+Title: Europe's Vaccine Disaster: Ursula von der Leyen Seeking to Duck Responsibility
+Title: Corona Vaccine: The West's Greed Could Come Back To Haunt It
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Vaccine Rollout Gives U.K. a Rare Win in Battling Pandemic
-Title: As Biden Lifts Anti-Abortion Gag Rule, Health Providers Rejoice
-Title: U.S. Airstrike Kills Top ISIS Leader in Iraq
-Title: Kouchner Casts Harsh Light on French Elite With Incest Charge
-Title: He Is Israel’s ‘Prince of Torah.’ But to Some, He Is the King of Covid.
+Title: Myanmar Military Charges Aung San Suu Kyi With Obscure Infraction
+Title: Navalny Supporters Aim to Seize Momentum in Challenging Putin
+Title: How Hong Kong’s Neighborhood Leaders Became Champions of Freedom
+Title: Mario Draghi Is Asked to Form Government in Italy
+Title: Covid-19 Live Updates: Nearly Half of U.S. States Allow Teachers to Get Shots
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-668299
+668935
