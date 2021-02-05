@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 03 Feb 2021 17:02:58 +0000
+Fri, 05 Feb 2021 05:52:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Can Antony Blinken Help Restore America's Standing in the World?
+Title: From Brussels to the Rest of the World: How Europe Became a Model for the 21st Century
 Title: Covid-19: Can Vaccines from Russia and China Be a Game Changer?
 Title: Nord Stream 2: Russian Pipeline Is Germany's Greatest Foreign Policy Embarrassment
 Title: The EU Relationship with Russia: European Unity and Determination Offer a Path Forward
-Title: Europe's Vaccine Disaster: Ursula von der Leyen Seeking to Duck Responsibility
-Title: Corona Vaccine: The West's Greed Could Come Back To Haunt It
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Myanmar Military Charges Aung San Suu Kyi With Obscure Infraction
-Title: Navalny Supporters Aim to Seize Momentum in Challenging Putin
-Title: How Hong Kong’s Neighborhood Leaders Became Champions of Freedom
-Title: Mario Draghi Is Asked to Form Government in Italy
-Title: Covid-19 Live Updates: Nearly Half of U.S. States Allow Teachers to Get Shots
+Title: Its Borders Shut, New Zealand Prods Local Tourists to ‘Do Something New’
+Title: In Myanmar, a Cult of Personality Meets Its Downfall
+Title: U.K. Regulator Revokes License for China-Backed Broadcaster
+Title: Who Is Yulia Navalnaya, the Wife of Aleksei Navalny?
+Title: A ‘Masculinity Crisis’? China Says the Boys Are Not All Right
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-668935
+669179
