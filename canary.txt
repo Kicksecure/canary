@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 05 Feb 2021 05:52:14 +0000
+Sun, 07 Feb 2021 15:57:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Frontex: Scandals Plunge Europe's Border Agency into Turmoil
 Title: Can Antony Blinken Help Restore America's Standing in the World?
-Title: From Brussels to the Rest of the World: How Europe Became a Model for the 21st Century
+Title: How Europe Became a Model for the 21st Century
 Title: Covid-19: Can Vaccines from Russia and China Be a Game Changer?
 Title: Nord Stream 2: Russian Pipeline Is Germany's Greatest Foreign Policy Embarrassment
-Title: The EU Relationship with Russia: European Unity and Determination Offer a Path Forward
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Its Borders Shut, New Zealand Prods Local Tourists to ‘Do Something New’
-Title: In Myanmar, a Cult of Personality Meets Its Downfall
-Title: U.K. Regulator Revokes License for China-Backed Broadcaster
-Title: Who Is Yulia Navalnaya, the Wife of Aleksei Navalny?
-Title: A ‘Masculinity Crisis’? China Says the Boys Are Not All Right
+Title: Myanmar Erupts in Protests After Military Coup
+Title: In Afghanistan, a Booming Kidney Trade Preys on the Poor
+Title: In Hong Kong, Easing the Pain of Covid With the Kindness of Strangers
+Title: In Beleaguered Babylon, Doing Battle Against Time, Water and Modern Civilization
+Title: Chile Police Shooting of Street Juggler Leads to Protests
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-669179
+669555
