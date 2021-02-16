@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 10 Feb 2021 12:23:16 +0000
+Tue, 16 Feb 2021 08:57:59 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Ugandan President Museveni: "The Europeans Suffer from Arrogance"
+Title: Germany: Angela Merkel Loses Her Way, and Her Temper, in the Corona Crisis
+Title: EU: Brussels Pushes Firmer Stance after Embarrassment in Moscow
 Title: Washington Post Editor Martin Baron: "We Had To Be Much More Forthright about Trump"
 Title: Social Design Award 2021: For Strong Families!
-Title: For Strong Families!
-Title: BioNTech Executive on New Vaccine Plant: "It Will Take a Few Months before We Reach Full Capacity"
-Title: A Wartime Economy: Germany Needs to Give Vaccine Production a Shot in the Arm
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: France Stalls Between Stubbornly High Infection Rates and Slow Vaccine Rollout
-Title: Rawiri Waititi Wins Tie War in New Zealand Parliament
-Title: Covid-19 in Mexico: Oxygen Shortage Leaves Many to Die at Home
-Title: 'Woke' American Ideas Are a Threat, French Leaders Say
-Title: A Glimpse of a Bygone Life on the Shetland Islands, Plucked From the Trash
+Title: Myanmar’s Protesting Workers Are Unbowed
+Title: Climate Activist Jailed in India as Government Clamps Down on Dissent
+Title: Zuma Risks Arrest After Defying South Africa Corruption Inquiry
+Title: Deaths of Soldiers and Policemen Held by Kurdish Guerrillas Roils Turkish Politics
+Title: Brittany Higgins Rape Claim Roils Australia Government
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-669997
+670823
