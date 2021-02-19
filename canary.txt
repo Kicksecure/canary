@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 16 Feb 2021 08:57:59 +0000
+Fri, 19 Feb 2021 13:00:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Hanau Protocols: Aftermath of a Deadly Racist Attack
+Title: The Third Wave: Coronavirus Mutants Are Spreading Fast
 Title: Ugandan President Museveni: "The Europeans Suffer from Arrogance"
 Title: Germany: Angela Merkel Loses Her Way, and Her Temper, in the Corona Crisis
 Title: EU: Brussels Pushes Firmer Stance after Embarrassment in Moscow
-Title: Washington Post Editor Martin Baron: "We Had To Be Much More Forthright about Trump"
-Title: Social Design Award 2021: For Strong Families!
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Myanmar’s Protesting Workers Are Unbowed
-Title: Climate Activist Jailed in India as Government Clamps Down on Dissent
-Title: Zuma Risks Arrest After Defying South Africa Corruption Inquiry
-Title: Deaths of Soldiers and Policemen Held by Kurdish Guerrillas Roils Turkish Politics
-Title: Brittany Higgins Rape Claim Roils Australia Government
+Title: Biden Administration Formally Offers to Restart Nuclear Talks With Iran
+Title: China Acknowledges 4 Deaths in Last Year’s Border Clash With India
+Title: Japanese Student Forced to Dye Her Hair Black Wins, and Loses, in Court
+Title: 5 Reader Comments Just Cost a News Website $124,000
+Title: Hong Kong's Move to Overhaul RTHK Fans Fears of Media Crackdown
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-670823
+671271
