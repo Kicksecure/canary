@@ -37,23 +37,23 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 19 Feb 2021 13:00:56 +0000
+Mon, 22 Feb 2021 18:23:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: AstraZeneca: The Coronavirus Vaccine that Nobody Wants
+Title: A New Prime Minister in Rome: Can Mario Draghi Turn Italy Around?
 Title: The Hanau Protocols: Aftermath of a Deadly Racist Attack
 Title: The Third Wave: Coronavirus Mutants Are Spreading Fast
 Title: Ugandan President Museveni: "The Europeans Suffer from Arrogance"
-Title: Germany: Angela Merkel Loses Her Way, and Her Temper, in the Corona Crisis
-Title: EU: Brussels Pushes Firmer Stance after Embarrassment in Moscow
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Biden Administration Formally Offers to Restart Nuclear Talks With Iran
-Title: China Acknowledges 4 Deaths in Last Year’s Border Clash With India
-Title: Japanese Student Forced to Dye Her Hair Black Wins, and Loses, in Court
-Title: 5 Reader Comments Just Cost a News Website $124,000
-Title: Hong Kong's Move to Overhaul RTHK Fans Fears of Media Crackdown
+Title: Myanmar Coup Protests Are Growing, Defying Threats and Snipers
+Title: Lucky Luke, the Comic Book Cowboy, Discovers Race, Belatedly
+Title: Boris Johnson Says England Will Reopen Schools in Two Weeks, Pubs and Restaurants Will Stay Closed
+Title: Italian Ambassador Among Three Killed in Attack on U.N. Convoy in Congo
+Title: 4 Aid Workers Are Shot Dead in Pakistan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-671271
+671731
