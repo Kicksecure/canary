@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETivD0IRxcgVX7DYI81ha4dP6ujO8+C5Yy70Ip7j1X9+n3gBvsLgf8Z4aW4QNvB6hKe30gn5sMr85xiKslr/nbQg=
+RWQ6KRormNEETmLgA1koKa8V99Wh/UDK6O/qQuVaFH0CbA7QnU88PlOTdnyNTJ2mYKYkfFL7pCo8Z+Alj8vBHAwvsGRjqXaGMgg=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 28 Feb 2021 07:57:01 +0000
+Tue, 02 Mar 2021 09:43:04 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Boom in Somaliland: A Miracle on the Horn of Africa
 Title: Pass the Buck to Moscow: A Possible Solution to the Nord Stream 2 Conundrum
 Title: Erdoğans Bad Bank on Trial: Shedding Light on an Alleged Plot to Evade Iran Sanctions
 Title: Slovakian President Zuzana Čaputová On the Errors Made in the Pandemic: "We Underestimated the Danger"
 Title: EU Diplomat Josep Borrell: "I Should Have Indulged My Desire To Argue a Little More"
-Title: Illegal Pushbacks: Children Caught in "The Game" on the Croatian Border
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Rapper’s Arrest Awakens Rage in Spanish Youth Chafing in Pandemic
-Title: ‘I Wake Up and Scream’: Secret Taliban Prisons Terrorize Thousands
-Title: How to Unite a Deeply Divided Kosovo? Name a Lake After Trump
-Title: China Tried to Slow Divorces by Making Couples Wait. Instead, They Rushed.
-Title: Rwanda Official Admits Legal Violations in ‘Hotel Rwanda’ Case
+Title: Criminal Inquiries Loom Over al-Assad’s Use of Chemical Arms in Syria
+Title: Myanmar’s Military Deploys Digital Arsenal of Repression in Crackdown
+Title: Nigeria’s Boarding Schools Have Become a Hunting Ground for Kidnappers
+Title: Photos From Myanmar: A Street-Level View of Coup Protests
+Title: After El Salvador Election, Bukele Is on Verge of Near-Total Control
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Johnson & Johnson Covid vaccine: FDA approves single-shot jab
-Title: Pompeii: Archaeologists unveil ceremonial chariot discovery
-Title: Dominican Republic announces plans for Haiti border fence
-Title: New York Governor Cuomo faces fresh claims of sexual harassment
-Title: Covid vaccine: Germany urged to back AstraZeneca jab for over-65s
+Title: Covid: France approves AstraZeneca vaccine for over-65s
+Title: Nigeria school abduction: Hundreds of girls released by gunmen
+Title: Carlos Ghosn: US father and son extradited to Japan
+Title: Covid-19 variants pose 'real threat' to vaccine progress, CDC warns
+Title: Migrating flamingos turn Mumbai lakes into 'sea of pink'
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-672535
+672814
 
 $ date -u +%s
-1614499026
+1614678190
