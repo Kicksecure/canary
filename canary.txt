@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 02 Mar 2021 09:43:04 +0000
+Thu, 04 Mar 2021 12:56:34 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: John Bolton on Halkbank: “Trump Wanted To Make an Impression on Erdoğan”
+Title: RT Germany: Berlin Fears Growing Influence of Russian Propaganda Platform
+Title: Generation Lockdown: Schoolchildren Around the World Face a Steep Uphill Battle
 Title: Boom in Somaliland: A Miracle on the Horn of Africa
 Title: Pass the Buck to Moscow: A Possible Solution to the Nord Stream 2 Conundrum
-Title: Erdoğans Bad Bank on Trial: Shedding Light on an Alleged Plot to Evade Iran Sanctions
-Title: Slovakian President Zuzana Čaputová On the Errors Made in the Pandemic: "We Underestimated the Danger"
-Title: EU Diplomat Josep Borrell: "I Should Have Indulged My Desire To Argue a Little More"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Criminal Inquiries Loom Over al-Assad’s Use of Chemical Arms in Syria
-Title: Myanmar’s Military Deploys Digital Arsenal of Repression in Crackdown
-Title: Nigeria’s Boarding Schools Have Become a Hunting Ground for Kidnappers
-Title: Photos From Myanmar: A Street-Level View of Coup Protests
-Title: After El Salvador Election, Bukele Is on Verge of Near-Total Control
+Title: Pope’s Planned Visit to Iraq, Amid Pandemic, Raises Questions of Timing
+Title: In Myanmar Protests, Women Are on the Front Lines
+Title: Protests  Follow Hit Man’s Hunger Strike in Greece
+Title: India's Covaxin Covid-19 Vaccine, Already in Use, Shows Promise in Trials
+Title: Xi Maps Out China’s Post-Covid Ascent
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Covid: France approves AstraZeneca vaccine for over-65s
-Title: Nigeria school abduction: Hundreds of girls released by gunmen
-Title: Carlos Ghosn: US father and son extradited to Japan
-Title: Covid-19 variants pose 'real threat' to vaccine progress, CDC warns
-Title: Migrating flamingos turn Mumbai lakes into 'sea of pink'
+Title: Myanmar coup: 'Everything will be OK' teenage protester mourned
+Title: US Capitol police warn of possible militia plot to breach Congress
+Title: Nigeria kidnapped girls: Shots fired at Zamfara reunion ceremony
+Title: Brexit: EU negotiating 'with partner it can't trust', says Coveney
+Title: Mariah Carey's brother sues over emotional distress caused by her memoir
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-672814
+673126
 
 $ date -u +%s
-1614678190
+1614862600
