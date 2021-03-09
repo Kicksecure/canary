@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 04 Mar 2021 12:56:34 +0000
+Tue, 09 Mar 2021 19:34:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Monitoring the Right Wing: German Officials Seek to Turn up the Heat on the AfD
 Title: John Bolton on Halkbank: “Trump Wanted To Make an Impression on Erdoğan”
 Title: RT Germany: Berlin Fears Growing Influence of Russian Propaganda Platform
 Title: Generation Lockdown: Schoolchildren Around the World Face a Steep Uphill Battle
 Title: Boom in Somaliland: A Miracle on the Horn of Africa
-Title: Pass the Buck to Moscow: A Possible Solution to the Nord Stream 2 Conundrum
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Pope’s Planned Visit to Iraq, Amid Pandemic, Raises Questions of Timing
-Title: In Myanmar Protests, Women Are on the Front Lines
-Title: Protests  Follow Hit Man’s Hunger Strike in Greece
-Title: India's Covaxin Covid-19 Vaccine, Already in Use, Shows Promise in Trials
-Title: Xi Maps Out China’s Post-Covid Ascent
+Title: Victims of Myanmar’s Army Speak
+Title: In Canada’s Long-Term Care Homes, Vaccinated and Still Locked Inside
+Title: Royal Palace Silent as Meghan and Harry’s Interview Dominates UK News
+Title: Meghan Markle's Interview Rekindles Princess Diana Memories
+Title: A Women’s March in Mexico City Turns Violent, With at Least 81 Injured [Video]
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Myanmar coup: 'Everything will be OK' teenage protester mourned
-Title: US Capitol police warn of possible militia plot to breach Congress
-Title: Nigeria kidnapped girls: Shots fired at Zamfara reunion ceremony
-Title: Brexit: EU negotiating 'with partner it can't trust', says Coveney
-Title: Mariah Carey's brother sues over emotional distress caused by her memoir
+Title: Breonna Taylor's boyfriend Kenneth Walker cleared of shooting police officer
+Title: France coronavirus: Paris cuts non-Covid treatment amid intensive care surge
+Title: Kylie Moore-Gilbert: Iran tried to recruit freed British-Australian academic as spy
+Title: Puigdemont: EU parliament lifts ex-Catalan leader's immunity
+Title: Ohio student dies after college fraternity's initiation ceremony
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-673126
+673895
 
 $ date -u +%s
-1614862600
+1615318446
