@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuIrzagiurdEccHuUrYVaIIIYuaWbgw0chIOgQH38ag+TL5Bze4BQdNN3BS/eiHvpSp/8+VR/XxLZPfxuKARpAw=
+RWQ6KRormNEETjEZKeYIMvNvcJ3eqjABBVYEwz6oBAXVmAwTWL6sEJDGzxI3eeZP1ZWf+VrTG35o0ha/3C37l9glOfSAaFo5tw0=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 09 Mar 2021 19:34:00 +0000
+Sat, 13 Mar 2021 21:48:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Monitoring the Right Wing: German Officials Seek to Turn up the Heat on the AfD
+Title: WhatsApp CEO on the Controversy Surrounding Proposed German Communications Laws
+Title: Airbus CEO Guillaume Faury: "Planes Are Safe Places, Even in Corona Times"
+Title: Hatred Against Women: The Dark World of Extremist Misogyny
+Title: Germany: Officials Seek to Turn up the Heat on the AfD
 Title: John Bolton on Halkbank: “Trump Wanted To Make an Impression on Erdoğan”
-Title: RT Germany: Berlin Fears Growing Influence of Russian Propaganda Platform
-Title: Generation Lockdown: Schoolchildren Around the World Face a Steep Uphill Battle
-Title: Boom in Somaliland: A Miracle on the Horn of Africa
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Victims of Myanmar’s Army Speak
-Title: In Canada’s Long-Term Care Homes, Vaccinated and Still Locked Inside
-Title: Royal Palace Silent as Meghan and Harry’s Interview Dominates UK News
-Title: Meghan Markle's Interview Rekindles Princess Diana Memories
-Title: A Women’s March in Mexico City Turns Violent, With at Least 81 Injured [Video]
+Title: Can France’s Far Right Win Over the ‘Beavers’? One Mayor Shows How.
+Title: Covid? What Covid? Taiwan Thrives as a Bubble of Normality
+Title: Sarah Everard Vigil Becomes Large Rally
+Title: Can the World Learn From South Africa’s Vaccine Trials?
+Title: How a Longstanding Rivalry Spiraled Into 5 Deaths Between 2 Families
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Breonna Taylor's boyfriend Kenneth Walker cleared of shooting police officer
-Title: France coronavirus: Paris cuts non-Covid treatment amid intensive care surge
-Title: Kylie Moore-Gilbert: Iran tried to recruit freed British-Australian academic as spy
-Title: Puigdemont: EU parliament lifts ex-Catalan leader's immunity
-Title: Ohio student dies after college fraternity's initiation ceremony
+Title: Russia opposition: Moscow police raid election forum
+Title: Covid-19 pandemic: Italy to shut shops and schools amid infection spike
+Title: Breonna Taylor: Protest to mark anniversary of police killing
+Title: Sri Lanka to ban burka and other face coverings
+Title: Security forces fire at protesters in Myanmar
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-673895
+674480
 
 $ date -u +%s
-1615318446
+1615672088
