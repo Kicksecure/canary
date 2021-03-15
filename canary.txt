@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 13 Mar 2021 21:48:01 +0000
+Mon, 15 Mar 2021 11:27:32 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: WhatsApp CEO on the Controversy Surrounding Proposed German Communications Laws
@@ -47,23 +47,23 @@ Title: Germany: Officials Seek to Turn up the Heat on the AfD
 Title: John Bolton on Halkbank: “Trump Wanted To Make an Impression on Erdoğan”
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Can France’s Far Right Win Over the ‘Beavers’? One Mayor Shows How.
-Title: Covid? What Covid? Taiwan Thrives as a Bubble of Normality
-Title: Sarah Everard Vigil Becomes Large Rally
-Title: Can the World Learn From South Africa’s Vaccine Trials?
-Title: How a Longstanding Rivalry Spiraled Into 5 Deaths Between 2 Families
+Title: 'March 4 Justice': Thousands Turn Out in Australia
+Title: A Sandstorm in China Revives Memories of ‘Airpocalypses’ Past
+Title: For Russians in a Pandemic, Lake Baikal Is the Place to See and Be Seen
+Title: Biden Goals Converge in Asia: Rebuilding Alliances and Countering China
+Title: In Rage Over Sarah Everard Killing, ‘Women’s Bargain’ Is Put on Notice
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Russia opposition: Moscow police raid election forum
-Title: Covid-19 pandemic: Italy to shut shops and schools amid infection spike
-Title: Breonna Taylor: Protest to mark anniversary of police killing
-Title: Sri Lanka to ban burka and other face coverings
-Title: Security forces fire at protesters in Myanmar
+Title: Myanmar military extends martial law after bloodiest day since coup
+Title: Australia March 4 Justice: Thousands march against sexual assault
+Title: Covid-19: Netherlands suspends use of AstraZeneca vaccine
+Title: Tigray crisis: Why Sudan is a ‘second home’ to Ethiopian refugees
+Title: Apocalyptic skies as Beijing hit by worst sandstorm in a decade
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-674480
+674722
 
 $ date -u +%s
-1615672088
+1615807659
