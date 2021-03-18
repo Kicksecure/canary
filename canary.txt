@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 17 Mar 2021 10:52:48 +0000
+Thu, 18 Mar 2021 13:19:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Khat in Djibouti: Drug Trade Is Firmly in Women's Hands in this African Country
+Title: Syria - Ten Years of War: Looking Back at a Decade of Violence
 Title: Chronicler of Horrors: An Ethiopian Doctor Records the Destruction of His Homeland
 Title: Fall from Grace: Merkel's Conservatives Mired in Scandal and Incompetence
 Title: WhatsApp CEO on the Controversy Surrounding Proposed German Communications Laws
-Title: Airbus CEO Guillaume Faury: "Planes Are Safe Places, Even in Corona Times"
-Title: Hatred Against Women: The Dark World of Extremist Misogyny
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Sarah Everard Death Set Off a Movement, but for Friends the Grief Is Personal
-Title: As Vaccinations Speed Along in Serbia, the Country Basks in the Glow of a Successful Campaign
-Title: Why Europe Suspending AstraZeneca Vaccines May Be Political
-Title: Japan Court Backs Same-Sex Marriage. Laws Still Block It.
-Title: Tashnuva Anan Shishir, Transgender News Presenter, Makes History in Bangladesh
+Title: Russia Erupts in Fury Over Biden’s Calling Putin a Killer
+Title: Trust in AstraZeneca Vaccine Is Shaken in Europe
+Title: Tokyo Olympics Official Resigns After Calling Plus-Size Celebrity ‘Olympig’
+Title: France Is Ready to Save the Planet. But Not at the Expense of Meat.
+Title: Latest Claim in the Effort Against Aung San Suu Kyi: A Bag of Cash
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Atlanta shootings: Asian women among eight killed at three spas
-Title: Russia's Putin authorised pro-Trump 'influence' campaign, US intelligence says
-Title: Covid-19 disruptions killed 228,000 children in South Asia, says UN report
-Title: Trump tells Republican supporters to get vaccinated
-Title: Syria: The scars left by a school bombing
+Title: John Magufuli: Tanzania's president dies aged 61 after Covid rumours
+Title: Atlanta shootings: Suspect charged with murder as victims identified
+Title: Atlanta shootings: 'It's scary just to be an Asian American woman.'
+Title: Dutch election: PM Mark Rutte claims victory and fourth term
+Title: Donald Trump's wealth takes tumble during presidency
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-675016
+675168
 
 $ date -u +%s
-1615978373
+1616073598
