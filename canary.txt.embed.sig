@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETl14v9gPx8M/GVB9OMVoK4YRD4I/FZ1mj6hesr9SOBF73I6zDP0AIS+p2ULfstdmsQuWmFEIyCSpa7Ftw5xZ1QQ=
+RWQ6KRormNEETkk6WWcjMCPR1qIdooAGpbNqHaS9AscA5NPzSY2etmIRPOPEr/xcvvzjnZwJUe2ZMYDPyEo9ndkXKxW7FOPxQQ4=
 Whonix Canary
 ----
 Statements
@@ -39,7 +39,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 18 Mar 2021 13:19:53 +0000
+Fri, 19 Mar 2021 16:48:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Khat in Djibouti: Drug Trade Is Firmly in Women's Hands in this African Country
@@ -49,23 +49,23 @@ Title: Fall from Grace: Merkel's Conservatives Mired in Scandal and Incompetence
 Title: WhatsApp CEO on the Controversy Surrounding Proposed German Communications Laws
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia Erupts in Fury Over Biden’s Calling Putin a Killer
-Title: Trust in AstraZeneca Vaccine Is Shaken in Europe
-Title: Tokyo Olympics Official Resigns After Calling Plus-Size Celebrity ‘Olympig’
-Title: France Is Ready to Save the Planet. But Not at the Expense of Meat.
-Title: Latest Claim in the Effort Against Aung San Suu Kyi: A Bag of Cash
+Title: Europe Lifts AstraZeneca Vaccine Suspension Amid New Lockdowns
+Title: An 89-Year-Old Sharpshooter Takes Aim at India’s Patriarchy
+Title: Myanmar Protesters Answer Military’s Bullets With an Economic Shutdown
+Title: Fear and Hostility Simmer as Ethiopia’s Military Keeps Hold on Tigray
+Title: Michael Spavor, Canadian Accused of Spying, Is Tried in China
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: John Magufuli: Tanzania's president dies aged 61 after Covid rumours
-Title: Atlanta shootings: Suspect charged with murder as victims identified
-Title: Atlanta shootings: 'It's scary just to be an Asian American woman.'
-Title: Dutch election: PM Mark Rutte claims victory and fourth term
-Title: Donald Trump's wealth takes tumble during presidency
+Title: US and China trade angry words at high-level Alaska talks
+Title: Covid: Paris lockdown as France fears third wave
+Title: China sending children of exiled Uighur parents to orphanages, says Amnesty
+Title: Myanmar protests: BBC journalist Aung Thura detained
+Title: Why Australian women are saying 'enough is enough'
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-675168
+675340
 
 $ date -u +%s
-1616073598
+1616172539
