@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 19 Mar 2021 16:48:35 +0000
+Fri, 26 Mar 2021 11:43:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: China Tightens Its Grip on Hong Kong
+Title: PIMS Syndrome: Doctors Warn of Illness in Children Triggered By COVID-19
+Title: Digital Education: Why Uruguay's Schoolchildren Are Doing So Well in the Pandemic
+Title: Paul Rusesabagina: Did the “Hotel Rwanda” Hero Become a Terrorist?
 Title: Khat in Djibouti: Drug Trade Is Firmly in Women's Hands in this African Country
-Title: Syria - Ten Years of War: Looking Back at a Decade of Violence
-Title: Chronicler of Horrors: An Ethiopian Doctor Records the Destruction of His Homeland
-Title: Fall from Grace: Merkel's Conservatives Mired in Scandal and Incompetence
-Title: WhatsApp CEO on the Controversy Surrounding Proposed German Communications Laws
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Europe Lifts AstraZeneca Vaccine Suspension Amid New Lockdowns
-Title: An 89-Year-Old Sharpshooter Takes Aim at India’s Patriarchy
-Title: Myanmar Protesters Answer Military’s Bullets With an Economic Shutdown
-Title: Fear and Hostility Simmer as Ethiopia’s Military Keeps Hold on Tigray
-Title: Michael Spavor, Canadian Accused of Spying, Is Tried in China
+Title: Israel’s Shadow War With Iran Moves Out to Sea
+Title: India Cuts Back on Vaccine Exports as Infections Surge
+Title: In Suez Canal, Stuck Ship Is a Warning About Excessive Globalization
+Title: North Korea’s Arsenal Has Grown Rapidly. Here’s What’s in It.
+Title: What to Know About the Suez Canal, and How a Cargo Ship Got Stuck
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US and China trade angry words at high-level Alaska talks
-Title: Covid: Paris lockdown as France fears third wave
-Title: China sending children of exiled Uighur parents to orphanages, says Amnesty
-Title: Myanmar protests: BBC journalist Aung Thura detained
-Title: Why Australian women are saying 'enough is enough'
-
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+Title: Coronavirus: EU stops short of vaccine export ban
+Title: Abiy Ahmed: Eritrea 'will withdraw' troops from Ethiopia in Tigray conflict
+Title: Uighurs: China bans UK MPs after abuse sanctions
+Title: Xinjiang cotton: Chinese brands championed as backlash against West grows
+Title: Suez blockage is holding up $9.6bn of goods a day
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-675340
+
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+676374
 
 $ date -u +%s
-1616172539
+1616759002
