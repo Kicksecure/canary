@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnZDUvU3LxG7+zLJJ+5qRRA+Q9oDQfhFsrTVApkmTYi0jJfPYIm80OtALSAcnMRzGaf5Rp5qWMkppxFAgFhdzAs=
+RWQ6KRormNEETrlKAEPnB18WO2LwYuJy5fbGUSbguDx2En5eNpMOunwW7Vl5oKtJJmTHXI0jfJMzeH7x+IWdWkx7s7Etx57EEQ4=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 26 Mar 2021 11:43:14 +0000
+Sun, 28 Mar 2021 16:57:33 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Three Teenage Refugees Await Trial in Malta: "How Are We Supposed to Be Terrorists?"
 Title: China Tightens Its Grip on Hong Kong
 Title: PIMS Syndrome: Doctors Warn of Illness in Children Triggered By COVID-19
 Title: Digital Education: Why Uruguay's Schoolchildren Are Doing So Well in the Pandemic
 Title: Paul Rusesabagina: Did the “Hotel Rwanda” Hero Become a Terrorist?
-Title: Khat in Djibouti: Drug Trade Is Firmly in Women's Hands in this African Country
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Israel’s Shadow War With Iran Moves Out to Sea
-Title: India Cuts Back on Vaccine Exports as Infections Surge
-Title: In Suez Canal, Stuck Ship Is a Warning About Excessive Globalization
-Title: North Korea’s Arsenal Has Grown Rapidly. Here’s What’s in It.
-Title: What to Know About the Suez Canal, and How a Cargo Ship Got Stuck
+Title: Inside Myanmar’s Army: ‘They See Protesters as Criminals’
+Title: His Plane Crashed in the Amazon. Then Came the Hard Part.
+Title: Insurgents Seize Mozambique Town, Killing Several People; Fate of Hundreds Unknown
+Title: Russia Trumpets Coronavirus Vaccine Exports, While Quietly Importing Doses
+Title: A Collapse Foretold: How Brazil’s Covid-19 Outbreak Overwhelmed Hospitals
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Coronavirus: EU stops short of vaccine export ban
-Title: Abiy Ahmed: Eritrea 'will withdraw' troops from Ethiopia in Tigray conflict
-Title: Uighurs: China bans UK MPs after abuse sanctions
-Title: Xinjiang cotton: Chinese brands championed as backlash against West grows
-Title: Suez blockage is holding up $9.6bn of goods a day
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+Title: Myanmar coup: Generals celebrated amid global fury over massacre
+Title: Suez Canal: Effort to refloat wedged container ship continues
+Title: Indonesia bombing: Worshippers wounded in Makassar church attack
+Title: Mozambique insurgency: Islamist militants 'ambush workers fleeing hotel'
+Title: Kenyan DJs sacked after blaming woman for being pushed off building
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
-676374
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+676723
 
 $ date -u +%s
-1616759002
+1616950658
