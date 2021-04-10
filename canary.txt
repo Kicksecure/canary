@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 04 Apr 2021 11:26:32 +0000
+Sat, 10 Apr 2021 21:25:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Underage Refugees: The Desperate Children of Moria
-Title: Vaccine Diplomacy: The Surprising Success of Sputnik V
-Title: Ex-President Lula on Brazil's Corona Disaster: "It's the Biggest Genocide in Our History"
-Title: Three Teenage Refugees Await Trial in Malta: "How Are We Supposed to Be Terrorists?"
-Title: China Tightens Its Grip on Hong Kong
+Title: AstraZeneca Debacle Threatens Global Fight Against Pandemic
+Title: Inside COVAX’s Mission to Save the World: Two Billion Vaccine Doses for 190 Countries
+Title: AstraZeneca: Getting Vaccinated Should Have Made Me Happy. Then Came the Headlines
+Title: Campaign Kicks Into High Gear:
+Title: A Third Wave Washes over Germany as Vaccination Campaign Mounts
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Myanmar's Military Has Killed Over 40 Children Since the Coup. Here's One Child's Story.
-Title: Jordan Arrests High-Profile Figures, and Ex-Crown Prince Cries Foul
-Title: ‘Like a Miracle’: Israel’s Vaccine Success Allows Easter Crowds in Jerusalem
-Title: They Survived Taiwan’s Train Crash. Their Loved Ones Did Not.
-Title: 22 Mummies Are Moved in a Glittering Display in Cairo
+Title: Harry Will Attend Philip’s Funeral, Raising Hope Royal Rift Will Heal
+Title: After Going ‘Free of L.G.B.T.,’ a Polish Town Pays a Price
+Title: Royal Rivalry Bares Social Tensions Behind Jordan’s Stable Veneer
+Title: ‘You Can’t Trust Anyone’: Russia’s Hidden Covid Toll Is an Open Secret
+Title: Sliding in the Polls, Erdogan Kicks Up a New Storm Over the Bosporus
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jordan's Prince Hamzah bin Hussein 'under house arrest'
-Title: Covid-19: France enters third national lockdown amid ICU surge
-Title: Florida declares state of emergency over toxic wastewater leak
-Title: Amazon apologises for wrongly denying drivers need to urinate in bottles
-Title: Taiwan train crash: Site boss bailed amid grief 51 deaths
+Title: Prince Philip: World leaders and royals send heartfelt sympathy
+Title: Saint Vincent volcano: Island awakes to ash and sulphur smell
+Title: Alibaba: Chinese regulator slaps huge fine on tech giant
+Title: Covid: Over 100 Paris restaurant diners fined for violating rules
+Title: Giorgos Karaivaz: Veteran crime journalist shot dead in Greece
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-677714
+678669
 
 $ date -u +%s
-1617535598
+1618089955
