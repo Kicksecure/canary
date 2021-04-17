@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvR0bvuyJx/Jf65okihqLbKt9ETtaV/5PDKjpJhXcDVkiUTMGxzD8GHKNGYYVVxYQdZrwXxcbNH9F+aS2lvvuwI=
+RWQ6KRormNEETjA3gqxuKizb00Mq+yRE/XuXF1RMr+d+sfFaJdQ3GkONgiHFtQGaPuiCd0nyrZOKjUQOtERyf3nHjhUnxGrdrAE=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 10 Apr 2021 21:25:49 +0000
+Sat, 17 Apr 2021 12:14:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: AstraZeneca Debacle Threatens Global Fight Against Pandemic
-Title: Inside COVAX’s Mission to Save the World: Two Billion Vaccine Doses for 190 Countries
-Title: AstraZeneca: Getting Vaccinated Should Have Made Me Happy. Then Came the Headlines
-Title: Campaign Kicks Into High Gear:
-Title: A Third Wave Washes over Germany as Vaccination Campaign Mounts
+Title: The Failure of Germany's Coronavirus Strategy: Disagreement and Dithering
+Title: The Illusion of Rapid Antigen Tests: Insensitive and Inefficient
+Title: Joe Bidens Dream Start: U.S. President Chalks Up Impressive First 100 Days
+Title: The Makhanda Miracle: A South African Partnership Across Racial Lines
+Title: Joining the Wolves: Erdogan's Pact with the Ultra-Nationalists
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Harry Will Attend Philip’s Funeral, Raising Hope Royal Rift Will Heal
-Title: After Going ‘Free of L.G.B.T.,’ a Polish Town Pays a Price
-Title: Royal Rivalry Bares Social Tensions Behind Jordan’s Stable Veneer
-Title: ‘You Can’t Trust Anyone’: Russia’s Hidden Covid Toll Is an Open Secret
-Title: Sliding in the Polls, Erdogan Kicks Up a New Storm Over the Bosporus
+Title: In Russia, a Military Buildup That Can’t Be Missed
+Title: Prince Philip’s Funeral: Latest Updates
+Title: Prince Philip’s Funeral Marks the End of an Era for U.K. Royal Family
+Title: Myanmar’s Protesters Face Down the Military With Slingshots and Rocks
+Title: These Countries Did Well With Covid. So Why Are They Slow on Vaccines?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Prince Philip: World leaders and royals send heartfelt sympathy
-Title: Saint Vincent volcano: Island awakes to ash and sulphur smell
-Title: Alibaba: Chinese regulator slaps huge fine on tech giant
-Title: Covid: Over 100 Paris restaurant diners fined for violating rules
-Title: Giorgos Karaivaz: Veteran crime journalist shot dead in Greece
+Title: Covid-19 deaths pass three million worldwide
+Title: Biden backtracks on keeping Trump cap on refugees
+Title: Philippines: Giant clam shells worth $25m seized in raid
+Title: Covid: Canada sounds the alarm as cases overtake US
+Title: On the front line in eastern Ukraine
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-678669
+679585
 
 $ date -u +%s
-1618089955
+1618661710
