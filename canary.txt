@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 17 Apr 2021 12:14:55 +0000
+Sun, 18 Apr 2021 09:41:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The Failure of Germany's Coronavirus Strategy: Disagreement and Dithering
@@ -47,23 +47,23 @@ Title: The Makhanda Miracle: A South African Partnership Across Racial Lines
 Title: Joining the Wolves: Erdogan's Pact with the Ultra-Nationalists
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: In Russia, a Military Buildup That Can’t Be Missed
-Title: Prince Philip’s Funeral: Latest Updates
-Title: Prince Philip’s Funeral Marks the End of an Era for U.K. Royal Family
+Title: Prince Philip Is Laid to Rest in a Somber 50-Minute Ceremony
+Title: Big Moments From Prince Philip’s Funeral
+Title: Coronavirus Deaths Reach 3 Million Worldwide
 Title: Myanmar’s Protesters Face Down the Military With Slingshots and Rocks
 Title: These Countries Did Well With Covid. So Why Are They Slow on Vaccines?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: China and US pledge climate change commitment
+Title: Putin critic Navalny could 'die within days', say doctors
+Title: Indianapolis FedEx shooting: Who were the eight victims?
 Title: Covid-19 deaths pass three million worldwide
-Title: Biden backtracks on keeping Trump cap on refugees
-Title: Philippines: Giant clam shells worth $25m seized in raid
-Title: Covid: Canada sounds the alarm as cases overtake US
-Title: On the front line in eastern Ukraine
+Title: The Zurich students living cheaply in a luxury hotel
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-679585
+679676
 
 $ date -u +%s
-1618661710
+1618738884
