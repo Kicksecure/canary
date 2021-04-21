@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 18 Apr 2021 09:41:09 +0000
+Wed, 21 Apr 2021 12:11:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Joe Biden Declares War on Tax Havens – in Europe, Too
 Title: The Failure of Germany's Coronavirus Strategy: Disagreement and Dithering
 Title: The Illusion of Rapid Antigen Tests: Insensitive and Inefficient
 Title: Joe Bidens Dream Start: U.S. President Chalks Up Impressive First 100 Days
 Title: The Makhanda Miracle: A South African Partnership Across Racial Lines
-Title: Joining the Wolves: Erdogan's Pact with the Ultra-Nationalists
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Prince Philip Is Laid to Rest in a Somber 50-Minute Ceremony
-Title: Big Moments From Prince Philip’s Funeral
-Title: Coronavirus Deaths Reach 3 Million Worldwide
-Title: Myanmar’s Protesters Face Down the Military With Slingshots and Rocks
-Title: These Countries Did Well With Covid. So Why Are They Slow on Vaccines?
+Title: Putin, Addressing Russia, Warns West Not to Cross Red Line: Live Updates
+Title: War, Peace and Taliban Spreadsheets
+Title: Iran Rattled as Israel Repeatedly Strikes Key Targets
+Title: 90-Year-Old Hong Kong Woman Robbed of $33 Million in Phone Scam
+Title: South Korean Court Sides With Japan in Wartime Sexual Slavery Case
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: China and US pledge climate change commitment
-Title: Putin critic Navalny could 'die within days', say doctors
-Title: Indianapolis FedEx shooting: Who were the eight victims?
-Title: Covid-19 deaths pass three million worldwide
-Title: The Zurich students living cheaply in a luxury hotel
+Title: George Floyd: Chauvin conviction a giant step forward, says Biden
+Title: The beauty ideal fuelling an illicit drugs trade
+Title: Nashik: Oxygen leak leaves 22 Covid-19 patients dead in India
+Title: Football Super League cannot proceed - Agnelli 
+Title: Indonesian submarine goes missing north of Bali
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-679676
+680009
 
 $ date -u +%s
-1618738884
+1619007082
