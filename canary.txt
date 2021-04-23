@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 21 Apr 2021 12:11:06 +0000
+Fri, 23 Apr 2021 15:53:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Adam Nergal Darski: The Rock Star on the Front Lines of Poland's Culture War
+Title: Ukraine: Tensions Rise in Crimea and Donbass as Russia Deploys Troops
 Title: Joe Biden Declares War on Tax Havens – in Europe, Too
 Title: The Failure of Germany's Coronavirus Strategy: Disagreement and Dithering
 Title: The Illusion of Rapid Antigen Tests: Insensitive and Inefficient
-Title: Joe Bidens Dream Start: U.S. President Chalks Up Impressive First 100 Days
-Title: The Makhanda Miracle: A South African Partnership Across Racial Lines
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Putin, Addressing Russia, Warns West Not to Cross Red Line: Live Updates
-Title: War, Peace and Taliban Spreadsheets
-Title: Iran Rattled as Israel Repeatedly Strikes Key Targets
-Title: 90-Year-Old Hong Kong Woman Robbed of $33 Million in Phone Scam
-Title: South Korean Court Sides With Japan in Wartime Sexual Slavery Case
+Title: India Scrambles to Supply Oxygen as Covid-19 Patients Gasp for Breath
+Title: Tommy Robinson, the Far-Right Agitator, Lifted by Trump, Turns to Russia
+Title: Ravaged by Covid, Brazil Faces a Hunger Epidemic
+Title: Aleksei Navalny, Putin's Nemesis,  Ends Hunger Strike
+Title: Chad Holds Funeral for President Idriss Déby
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: George Floyd: Chauvin conviction a giant step forward, says Biden
-Title: The beauty ideal fuelling an illicit drugs trade
-Title: Nashik: Oxygen leak leaves 22 Covid-19 patients dead in India
-Title: Football Super League cannot proceed - Agnelli 
-Title: Indonesian submarine goes missing north of Bali
+Title: India Covid crisis: Hospitals buckle under record surge
+Title: French police station stabbing: Woman killed in Rambouillet knife attack
+Title: Caitlyn Jenner announces bid for California governor
+Title: Coronavirus: Japan declares virus emergency in Tokyo as Olympics near
+Title: US joins race to find stricken Indonesia submarine
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-680009
+680296
 
 $ date -u +%s
-1619007082
+1619193204
