@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 23 Apr 2021 15:53:08 +0000
+Tue, 27 Apr 2021 17:07:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Investors Wanted to Make €6.1 Billion with Super League
+Title: Annalena Baerbock Holds the Keys to Germany's Next Election: The Green Kingmaker
 Title: Adam Nergal Darski: The Rock Star on the Front Lines of Poland's Culture War
 Title: Ukraine: Tensions Rise in Crimea and Donbass as Russia Deploys Troops
 Title: Joe Biden Declares War on Tax Havens – in Europe, Too
-Title: The Failure of Germany's Coronavirus Strategy: Disagreement and Dithering
-Title: The Illusion of Rapid Antigen Tests: Insensitive and Inefficient
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: India Scrambles to Supply Oxygen as Covid-19 Patients Gasp for Breath
-Title: Tommy Robinson, the Far-Right Agitator, Lifted by Trump, Turns to Russia
-Title: Ravaged by Covid, Brazil Faces a Hunger Epidemic
-Title: Aleksei Navalny, Putin's Nemesis,  Ends Hunger Strike
-Title: Chad Holds Funeral for President Idriss Déby
+Title: ‘This Is a Catastrophe.’ In India, Illness Is Everywhere.
+Title: The World Responds to India's Distress Call
+Title: A Graying China May Have to Put Off Retirement. Workers Aren’t Happy.
+Title: Ursula von der Leyen Says Chair Incident Was Sign of Enduring Sexism
+Title: Two Spanish Journalists Are Killed in Burkina Faso
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: India Covid crisis: Hospitals buckle under record surge
-Title: French police station stabbing: Woman killed in Rambouillet knife attack
-Title: Caitlyn Jenner announces bid for California governor
-Title: Coronavirus: Japan declares virus emergency in Tokyo as Olympics near
-Title: US joins race to find stricken Indonesia submarine
+Title: India Covid: Delhi builds makeshift funeral pyres as deaths climb
+Title: Brexit: Tensions overshadow EU vote on UK trade deal
+Title: Pink Supermoon seen around the world
+Title: Miami school bars vaccinated teachers from seeing students
+Title: Nigeria: The community that trades by barter instead of money
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-680296
+680852
 
 $ date -u +%s
-1619193204
+1619543283
