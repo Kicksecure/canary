@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnULRAsqD6BSNK7tnVnJboYPoZsrKw265UhGQsKi+6guCeaX8MjELhySXT+4goWLfkTZQUIMnYvP3AC/8ImpNwM=
+RWQ6KRormNEETjz1wIVi/fqEZx6disbI3rs7vcY62VCNG7qDrz7Xd66PbjJ7x7QSBaVS6kKgk42M2dYwK3a1DXJXLha0SD4gWw8=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 06 May 2021 15:16:44 +0000
+Thu, 13 May 2021 17:00:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A Fateful Election in Scotland: After Brexit Could Come Scexit
-Title: A Country in Flames: Complacency and Government Failures Fueled India’s COVID Disaster
-Title: BioNTech CEO Confirms “Encouraging” Study: COVID Vaccine Could Be Approved for Older Children By Summer
-Title: Libya: How Frontex Helps Haul Migrants Back To Libyan Torture Camps
-Title: India and Brazil: Countries That Let the Virus Run Rampant Are A Threat to the World
+Title: BioNTech, Curevac and Co.: Patent Suspensions Threaten Germany's Booming Biotech Industry
+Title: Interview with U.S. Special Envoy to Afghanistan: "We Will Not Abandon Afghanistan"
+Title: Terror in Mozambique: The Curse of Natural Gas
+Title: A Dangerous Divide: The Growing Debate over the Suspension of Vaccine Patents
+Title: Corona-Truthers: Herd Immunity Unlikely in U.S. as Vaccine Skepticism Slows Campaign
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Patent Waiver for Covid Vaccines Will Be Considered, E.U. Says
-Title: Protests Explode in Colombia, Leaving At Least 24 Dead
-Title: Scenes of Scotland, as It Weighs Independence From the U.K.
-Title: Afghans Fleeing Home Are Filling the Lowliest Jobs in Istanbul
-Title: Blinken, in Ukraine, Warns of Dual Threats: Russia and Corruption
+Title: Live Updates: Jews and Arabs Clash in Israel’s Streets
+Title: Conflict Between Israel and Palestinians Continues to Escalate
+Title: For Israel and Hamas, Hard Choices Before Any Talks Could Begin
+Title: What the War in Afghanistan Looks Like on the Front Line
+Title: As India’s Covid Crisis Rages, Nearby Countries Brace for the Worst
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Covid: US backs waiver on vaccine patents to boost supply
-Title: India Covid aid: Is emergency relief reaching those in need?
-Title: Antony Blinken: US will respond to reckless Russian acts
-Title: Dominic Ongwen: Former Ugandan child soldier jailed for war crimes
-Title: IBM 2nm chip breakthrough claims more power with less energy
+Title: Israel-Gaza: Deaths mount as Israel-Gaza violence worsens
+Title: Israel: Jewish and Arab mobs spread violence
+Title: Why is this French doctor throwing away vaccines?
+Title: Tesla will no longer accept Bitcoin over climate concerns, says Musk
+Title: Colombia protests: Shortages in Cali as demonstrations rumble on
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-682233
+683467
 
 $ date -u +%s
-1620314217
+1620925224
