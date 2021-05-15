@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 13 May 2021 17:00:11 +0000
+Sat, 15 May 2021 11:31:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Escalation in the Middle East: "It’s the First Time I Have Been Afraid of my Neighbors"
+Title: Voices from Gaza: "No Place Here Offers Protection"
+Title: Interview with Afghanistan President Ashraf Ghani: "I Know I Am Only One Bullet Away from Death"
+Title: Former FARC Guerillas Find New Calling in Life as Farmers in Colombia
 Title: BioNTech, Curevac and Co.: Patent Suspensions Threaten Germany's Booming Biotech Industry
-Title: Interview with U.S. Special Envoy to Afghanistan: "We Will Not Abandon Afghanistan"
-Title: Terror in Mozambique: The Curse of Natural Gas
-Title: A Dangerous Divide: The Growing Debate over the Suspension of Vaccine Patents
-Title: Corona-Truthers: Herd Immunity Unlikely in U.S. as Vaccine Skepticism Slows Campaign
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Jews and Arabs Clash in Israel’s Streets
-Title: Conflict Between Israel and Palestinians Continues to Escalate
-Title: For Israel and Hamas, Hard Choices Before Any Talks Could Begin
-Title: What the War in Afghanistan Looks Like on the Front Line
-Title: As India’s Covid Crisis Rages, Nearby Countries Brace for the Worst
+Title: Israeli-Palestinian Strife Widens as Frantic Calls for Calm Go Unheeded
+Title: A Press Corps Deceived, and the Gaza Invasion That Wasn’t
+Title: Gaza Rocket Finds a Rare Gap in Israeli Armor, and a 5-Year-Old Boy Is Killed
+Title: Arab World Condemns Israeli Violence but Takes Little Action
+Title: In Israel’s Rising Violence, Ripples From 1948
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel-Gaza: Deaths mount as Israel-Gaza violence worsens
-Title: Israel: Jewish and Arab mobs spread violence
-Title: Why is this French doctor throwing away vaccines?
-Title: Tesla will no longer accept Bitcoin over climate concerns, says Musk
-Title: Colombia protests: Shortages in Cali as demonstrations rumble on
+Title: Israel-Gaza violence: US envoy arrives for de-escalation talks
+Title: China lands its Zhurong rover on Mars
+Title: White House vows probe into migrant children kept on buses
+Title: Biden revokes Trump order to punish statue vandals
+Title: Covid: Delay child vaccinations and share jabs with Covax, says WHO
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-683467
+683712
 
 $ date -u +%s
-1620925224
+1621078301
