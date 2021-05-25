@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETidyXLsBg8IqDiYDH6qiP7enc7dRGXsbZ+zGYY8CJ2+oeu5DIPDKgyAq0kaurgszlFKX6c/DguZKg7XOmhhNrwU=
+RWQ6KRormNEETu0BMD3DchO3KBcs5TLLA3tWeWU0J7EX8oG/80pwTqutn4q9oIuiMiOU6DrWjV5NAVWuWeLCq/9aUwn50/70pQY=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 22 May 2021 07:39:47 +0000
+Tue, 25 May 2021 15:37:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Former Afghanistan President Hamid Karzai: "We Afghans Are Just Being Used Against Each Other”
 Title: Middle East Crisis Ratchets Up Anti-Semitism in Germany
 Title: Germany's Stricter New Emissions Goals Present Huge Challenge For Energy Revolution
 Title: Socialist Utopia: A City in Brazil Experiments with the Unconditional Basic Income
 Title: Stories of Children Trapped at the U.S. Border: "I Want To Be with My Mom"
-Title: Social Consequences of the Pandemic: "The Super-Rich in the West Are Evading Their Responsibility"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As Israel-Hamas Cease-Fire Holds, Gazans Survey Wreckage
-Title: Israel’s Military Inflicted a Heavy Toll. But Did It Achieve Its Aim?
-Title: After the Cease-Fire, Gaza Wakes to a Sea of Rubble
-Title: Cease-Fire Prompts Israelis' Disappointment
-Title: Palestinian Anger With Israel Is Undimmed, Even With Battle Paused
+Title: Belarus Is Isolated as Other Countries Move to Ban Flights
+Title: Poets in Myanmar Are Killed After the Coup
+Title: With Tokyo Olympics Weeks Away, U.S. Warns Americans Not to Travel to Japan
+Title: What It's Like to Be in India's Covid-19 Crisis
+Title: Military in Mali Detains Country’s Top Officials
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel-Palestinian conflict: Aid arrives in Gaza as ceasefire holds
-Title: Water so toxic 'it could burn your eyes'
-Title: From beer to Tinder boosts: The bribes for people to get jabbed
-Title: Nigerian army chief Ibrahim Attahiru killed in air crash
-Title: El Salvador: Bodies found in ex-policeman's garden
-
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+Title: Belarus flights redirected after Roman Protasevich's arrest
+Title: John Cena: Fast and Furious star sorry over Taiwan remark backlash
+Title: Mali's coup leader Assimi Goïta seizes power again
+Title: Elliot Page: Actor wins praise for sharing swimming shorts image after top surgery
+Title: Global heating: Study shows impact of 'climate racism' in US
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-684504
+
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+684922
 
 $ date -u +%s
-1621669279
+1621957087
