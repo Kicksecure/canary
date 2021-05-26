@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 25 May 2021 15:37:55 +0000
+Wed, 26 May 2021 18:38:43 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Former Afghanistan President Hamid Karzai: "We Afghans Are Just Being Used Against Each Other”
@@ -47,23 +47,23 @@ Title: Socialist Utopia: A City in Brazil Experiments with the Unconditional Bas
 Title: Stories of Children Trapped at the U.S. Border: "I Want To Be with My Mom"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Belarus Is Isolated as Other Countries Move to Ban Flights
-Title: Poets in Myanmar Are Killed After the Coup
-Title: With Tokyo Olympics Weeks Away, U.S. Warns Americans Not to Travel to Japan
-Title: What It's Like to Be in India's Covid-19 Crisis
-Title: Military in Mali Detains Country’s Top Officials
+Title: Belarus Plane Crisis Tightens Lukashenko’s Awkward Embrace of Putin
+Title: Brazil’s Bid to Outsource Amazon Conservation Finds Few Takers
+Title: Boris Johnson's Former Top Aide Tells of Inept, Chaotic Covid Policy
+Title: Famine Looms in Ethiopia’s War-Ravaged Tigray Region, U.N. Says
+Title: Louvre Gets Its First Female Leader in 228 Years
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Belarus flights redirected after Roman Protasevich's arrest
-Title: John Cena: Fast and Furious star sorry over Taiwan remark backlash
-Title: Mali's coup leader Assimi Goïta seizes power again
-Title: Elliot Page: Actor wins praise for sharing swimming shorts image after top surgery
-Title: Global heating: Study shows impact of 'climate racism' in US
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+Title: Belarus journalist Roman Protasevich's colleagues fear for their lives
+Title: San Jose shooting: Eight killed in California rail yard shooting
+Title: Italy cable car fall: Three arrested over fatal accident
+Title: Shell: Netherlands court orders oil giant to cut emissions
+Title: 'Doomsday' couple Lori Vallow and Chad Daybell charged with murder
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
-684922
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+685057
 
 $ date -u +%s
-1621957087
+1622054336
