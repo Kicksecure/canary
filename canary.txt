@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 30 May 2021 20:36:34 +0000
+Tue, 01 Jun 2021 11:42:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: How the EU Wants To Sanction Belarus
@@ -47,23 +47,23 @@ Title: Criminalizing the Sick: Argentina's Authoritarian Corona Regime
 Title: In the Sinister Disneyland of Xinjiang: China's Ongoing Oppression of the Uighurs
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Bouncy Castles and Grenades: Gangs Erode Maduro’s Grip on Caracas
-Title: ‘Good for the Soul’: Giant Murals Turn São Paulo Into Open Air Gallery
-Title: Nepal Covid Crisis Worsens as Workers Pay the Price
-Title: A 6-Year-Old Was Chained and Hungry in a Syrian Camp. Then She Died.
-Title: Boris Johnson Married in Stealth Ceremony
+Title: China's Three-Child Policy Sparks Indignation and Concern
+Title: Sri Lanka, Facing ‘Worst’ Marine Disaster, Investigates Cargo Ship Fire
+Title: A Siege, a Supply Run and a Descent Into a Decade-Old Battle
+Title: Glum to Gleeful, Israeli Media React to Possible End of Netanyahu Era
+Title: China Wants More Babies. Some Men Choose Vasectomies.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel's right-wing leader Bennett backs deal to oust PM Netanyahu
-Title: Barcelona: Homophobic attacks spark outcry
-Title: Osaka faces French Open expulsion
-Title: Colombia protests: UN calls for investigation into Cali deaths
-Title: Nashville hat shop faces backlash for selling anti-vaccine Nazi Jewish star
+Title: Covid: Peru more than doubles death toll after review
+Title: Katumba Wamala: Uganda minister shot in assassination attempt
+Title: Copa America: Tournament to be hosted by Brazil after Argentina removed
+Title: Belarus: A climate of fear for opposition activists
+Title: Canada-wide search urged as children's remains found
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-685561
+685785
 
 $ date -u +%s
-1622407009
+1622547785
