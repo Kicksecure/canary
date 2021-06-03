@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETpF6LVSPixMdZLYiv+Mwyp0l53ggP8lm8aNU7MB7kBcGfkOaqES7Wb498dOadnGsK1i0LUSSYW7qtcBnacMsAAw=
+RWQ6KRormNEETmUekO7OxfGMXBHq6Wh5JcK/qujyN7m0AzXvHFrY0QK1s3ndx2fFPj5kWrpH9QJpD6PDHjY8INevKsUBbn5eCAI=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 01 Jun 2021 11:42:53 +0000
+Thu, 03 Jun 2021 15:44:58 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The BBC Is Under Pressure as Boris Johnson Tightens the Screws
+Title: Coronavirus in India: "There Is Hardly a Family that Has Been Spared"
+Title: COVID-19: How Much Sense Does It Make to Vaccinate Children and Adolescents?
 Title: How the EU Wants To Sanction Belarus
 Title: Alexander Lukashenko's Revenge: How Far Will Belarus Dictator Go in Hunt for Opposition?
-Title: Angela Merkel's Lame Duck Government: Stasis in Berlin as Campaign Season Approaches
-Title: Criminalizing the Sick: Argentina's Authoritarian Corona Regime
-Title: In the Sinister Disneyland of Xinjiang: China's Ongoing Oppression of the Uighurs
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: China's Three-Child Policy Sparks Indignation and Concern
-Title: Sri Lanka, Facing ‘Worst’ Marine Disaster, Investigates Cargo Ship Fire
-Title: A Siege, a Supply Run and a Descent Into a Decade-Old Battle
-Title: Glum to Gleeful, Israeli Media React to Possible End of Netanyahu Era
-Title: China Wants More Babies. Some Men Choose Vasectomies.
+Title: Netanyahu Rivals Agree on Israeli Coalition to Oust Him
+Title: Tasked to Fight Climate Change, a Secretive U.N. Agency Does the Opposite
+Title: China Suspends Ultramarathons After Death of 21 Runners
+Title: India and Israel Inflame Facebook’s Fights With Its Own Employees
+Title: How Naftali Bennett, Head of a Small Right-Wing Party in Israel, Rose to the Top
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Covid: Peru more than doubles death toll after review
-Title: Katumba Wamala: Uganda minister shot in assassination attempt
-Title: Copa America: Tournament to be hosted by Brazil after Argentina removed
-Title: Belarus: A climate of fear for opposition activists
-Title: Canada-wide search urged as children's remains found
+Title: Benjamin Netanyahu calls to block Israel's newly formed coalition
+Title: JBS: FBI says Russia-linked group hacked meat supplier
+Title: NFL agrees to drop race bias in concussion claims
+Title: France emergency service number disrupted after network outage
+Title: China suspends ultramarathons after death of 21 runners
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-685785
+686119
 
 $ date -u +%s
-1622547785
+1622735112
