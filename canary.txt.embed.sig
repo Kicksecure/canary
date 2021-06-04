@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmUekO7OxfGMXBHq6Wh5JcK/qujyN7m0AzXvHFrY0QK1s3ndx2fFPj5kWrpH9QJpD6PDHjY8INevKsUBbn5eCAI=
+RWQ6KRormNEETjkoPYvUuaQDP6WvFHPlfh2px6sOwGTg9OAr2a+p8maWnNwQs9xRLsrB/11QkIjBzDmSxK5hramM0xn/TBAdIwo=
 Whonix Canary
 ----
 Statements
@@ -39,7 +39,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 03 Jun 2021 15:44:58 +0000
+Fri, 04 Jun 2021 10:15:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The BBC Is Under Pressure as Boris Johnson Tightens the Screws
@@ -49,23 +49,23 @@ Title: How the EU Wants To Sanction Belarus
 Title: Alexander Lukashenko's Revenge: How Far Will Belarus Dictator Go in Hunt for Opposition?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Netanyahu Rivals Agree on Israeli Coalition to Oust Him
+Title: Hong Kong, Newly Constrained, Tries to Remember Tiananmen Massacre
+Title: A Historic Moment for Israeli Arabs, but With a Question Mark
 Title: Tasked to Fight Climate Change, a Secretive U.N. Agency Does the Opposite
+Title: ‘Find Him and Kill Him’: An Afghan Pilot’s Desperate Escape
 Title: China Suspends Ultramarathons After Death of 21 Runners
-Title: India and Israel Inflame Facebook’s Fights With Its Own Employees
-Title: How Naftali Bennett, Head of a Small Right-Wing Party in Israel, Rose to the Top
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Benjamin Netanyahu calls to block Israel's newly formed coalition
-Title: JBS: FBI says Russia-linked group hacked meat supplier
-Title: NFL agrees to drop race bias in concussion claims
-Title: France emergency service number disrupted after network outage
-Title: China suspends ultramarathons after death of 21 runners
+Title: Roman Protasevich: Belarus journalist's confession was forced - family says
+Title: Tiananmen: Hong Kong vigil organiser arrested on 32nd anniversary
+Title: Lighting a candle for Tiananmen and Hong Kong freedoms
+Title: UN: Cost of food rises at fastest pace in over a decade
+Title: Cardinal George Pell: Australian media fined A$1.1m over trial reports
 
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-686119
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+686224
 
 $ date -u +%s
-1622735112
+1622801804
