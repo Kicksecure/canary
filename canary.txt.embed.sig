@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETjkoPYvUuaQDP6WvFHPlfh2px6sOwGTg9OAr2a+p8maWnNwQs9xRLsrB/11QkIjBzDmSxK5hramM0xn/TBAdIwo=
+RWQ6KRormNEETvz6UGV8V8cGsX1ViaY8rkkHiq2h3rafFx6Vu6BP1pozC1PXZk0cboiYqWJYryvTKOUqzRyJgGS5FKpUxsutyAE=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 04 Jun 2021 10:15:42 +0000
+Sun, 06 Jun 2021 06:08:58 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Attention Deficit Disorders: Lessons from the Pandemic on ADHD
+Title: Hank Azaria on Being the Voice of “Apu” on “The Simpsons”: "I Was a Clueless White Dude"
 Title: The BBC Is Under Pressure as Boris Johnson Tightens the Screws
 Title: Coronavirus in India: "There Is Hardly a Family that Has Been Spared"
 Title: COVID-19: How Much Sense Does It Make to Vaccinate Children and Adolescents?
-Title: How the EU Wants To Sanction Belarus
-Title: Alexander Lukashenko's Revenge: How Far Will Belarus Dictator Go in Hunt for Opposition?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong, Newly Constrained, Tries to Remember Tiananmen Massacre
-Title: A Historic Moment for Israeli Arabs, but With a Question Mark
-Title: Tasked to Fight Climate Change, a Secretive U.N. Agency Does the Opposite
-Title: ‘Find Him and Kill Him’: An Afghan Pilot’s Desperate Escape
-Title: China Suspends Ultramarathons After Death of 21 Runners
+Title: As Vaccines Turn Pandemic’s Tide, U.S. and Europe Diverge on Path Forward
+Title: After Lavish Nights of Clubbing in Bangkok, a Covid Outbreak
+Title: ‘Hotel Rwanda’ Dissident Denied Food and Medicine in Prison, Family Says
+Title: Olympics Gave Hope to Japan’s L.G.B.T.Q. Activists. But Old Prejudices Die Hard.
+Title: Election in East Germany Will Test the Far Right’s Power
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Roman Protasevich: Belarus journalist's confession was forced - family says
-Title: Tiananmen: Hong Kong vigil organiser arrested on 32nd anniversary
-Title: Lighting a candle for Tiananmen and Hong Kong freedoms
-Title: UN: Cost of food rises at fastest pace in over a decade
-Title: Cardinal George Pell: Australian media fined A$1.1m over trial reports
+Title: G7 tax deal doesn't go far enough, campaigners say
+Title: Bitcoin: El Salvador plans to make crypto-currency legal tender
+Title: Burkina Faso attack: More than 130 killed in village raid
+Title: Nigeria's Twitter ban: Government orders prosecution of violators
+Title: Venice residents in environmental protest against first post-Covid cruise ship
 
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
-686224
+686474
 
 $ date -u +%s
-1622801804
+1622959750
