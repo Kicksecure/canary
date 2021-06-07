@@ -37,7 +37,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 07 Jun 2021 14:22:57 +0000
+Mon, 07 Jun 2021 15:41:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Boost for the CDU: German Conservatives Back on Track as General Election Approaches
@@ -51,19 +51,19 @@ Title: From Doomsday Preppers to Doomsday Plotters
 Title: Rome Gets Its First Pizza Vending Machine. Will Romans Bite?
 Title: In Mexico Election, López Obrador’s Grip on Congress Slips
 Title: Train Crash in Pakistan Kills Dozens
-Title: Biden Is Embracing Europe, but Then What? NATO and the E.U. Have Concerns.
+Title: Northern Ireland, Strained by Brexit, Braces for Marching Season
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: US approves first new Alzheimer's drug in 20 years
 Title: Pakistan train accident: Dozens killed in Sindh collision
 Title: Unlocking: India states start reopening amid dip in Covid cases
 Title: Norway police say body on shore is Kurdish-Iranian boy who died in Channel
 Title: Chinese birth-control policy could cut millions of Uyghur births, report finds
-Title: Jeff Bezos and brother to fly to space in Blue Origin flight
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-686663
+686673
 
 $ date -u +%s
-1623075808
+1623080518
