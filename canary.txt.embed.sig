@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThIjgC4Fweun6HFlJsR3jYggHCu+3BY13URIdLpGeOvJaQqF27T/8S3nifY4oeqzKXRodkQUxKnnqh/FPf9W1Ac=
+RWQ6KRormNEETuKVAQ6bA9r2/RKTXZkBJcH4t8YhuGmoD9R3yg+ggZwzeDIumHIgzBmZCGc8R4zHCN4JgqgW3bvjfnSTYPx8+A0=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 07 Jun 2021 15:41:46 +0000
+Wed, 09 Jun 2021 15:08:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: France’s War in West Africa: “People Collected Severed Arms, Legs and Heads”
+Title: An Interview with Håvard Grip, Chief Pilot of Ingenuity, Nasa's Mars Helicopter
 Title: A Boost for the CDU: German Conservatives Back on Track as General Election Approaches
 Title: Attention Deficit Disorders: Lessons from the Pandemic on ADHD
 Title: Hank Azaria on Being the Voice of “Apu” on “The Simpsons”: "I Was a Clueless White Dude"
-Title: The BBC Is Under Pressure as Boris Johnson Tightens the Screws
-Title: Coronavirus in India: "There Is Hardly a Family that Has Been Spared"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: From Doomsday Preppers to Doomsday Plotters
-Title: Rome Gets Its First Pizza Vending Machine. Will Romans Bite?
-Title: In Mexico Election, López Obrador’s Grip on Congress Slips
-Title: Train Crash in Pakistan Kills Dozens
-Title: Northern Ireland, Strained by Brexit, Braces for Marching Season
+Title: Biden Aims to Bolster U.S. Alliances in Europe, but Challenges Loom
+Title: Attack in Afghanistan Kills 10 Workers From Mine-Clearing Charity
+Title: Germany Makes Rapid Virus Tests a Key to Everyday Freedoms
+Title: China Returns to Its Strict Covid Restrictions to Fight a New Outbreak
+Title: Hundreds Arrested in Global Sting Using App Run by F.B.I.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US approves first new Alzheimer's drug in 20 years
-Title: Pakistan train accident: Dozens killed in Sindh collision
-Title: Unlocking: India states start reopening amid dip in Covid cases
-Title: Norway police say body on shore is Kurdish-Iranian boy who died in Channel
-Title: Chinese birth-control policy could cut millions of Uyghur births, report finds
+Title: US super-rich 'pay almost no income tax'
+Title: Biden ready to 'rally world's democracies' on first foreign trip
+Title: Halo Trust: Afghanistan mine clearance workers shot dead 'in cold blood'
+Title: Belarus plane: Sofia Sapega 'not giving in' after arrest
+Title: Nigeria's Twitter ban: Donald Trump hails Buhari
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-686673
+686956
 
 $ date -u +%s
-1623080518
+1623251309
