@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmbNo9vf8vV2Yl27TBaBn4cq4bcc8jYN+eS0JKdtC5z7c0XPilFEyFZE4LxeRsB71rl3nhwbhsk2mbRgreViuAI=
+RWQ6KRormNEETh8u1wOhvf2GJA965ogm078Z4tR8CArj4MEBgRIQXbvWjKF63VEpoaqcSB0CACRtxJDj+BEgarro525sNQosJwo=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 11 Jun 2021 07:08:52 +0000
+Tue, 15 Jun 2021 17:48:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Former Chief Prosecutor Carla Del Ponte: "I Keep Telling Myself that Justice Will Prevail"
+Title: A Visit to the Belarus Opposition: The Courageous Women of Minsk
+Title: Messenger Founder Pavel Durov: The Telegram Billionaire and His Dark Empire
 Title: Biometric Data: How I Lost Control Over My Own Face
 Title: France’s War in West Africa: “People Collected Severed Arms, Legs and Heads”
-Title: An Interview with Håvard Grip, Chief Pilot of Ingenuity, Nasa's Mars Helicopter
-Title: A Boost for the CDU: German Conservatives Back on Track as General Election Approaches
-Title: Attention Deficit Disorders: Lessons from the Pandemic on ADHD
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: America May Be ‘Back’ in Europe, but How Much Has Really Changed?
-Title: Eighty Years Later, Biden and Johnson Revise the Atlantic Charter for a New Era
-Title: As U.S. Withdraws, Afghan Interpreters Fear Being Left Behind
-Title: Kim Jong-un Calls K-Pop a ‘Vicious Cancer’
-Title: Oxford University Scholars Refuse to Teach Under Cecil Rhodes Statue
+Title: Why Asia, the Pandemic Champion, Remains Miles Away From the Finish Line
+Title: Fake Coronavirus Tests May Have Helped Fuel India Outbreaks
+Title: Shifting Focus, NATO Views China as a Global Security Challenge
+Title: Far-Right March Tests New Israeli Coalition, Amid Hamas Threats
+Title: Shi Zhengli, A Virologist in Wuhan, Speaks Out Against 'Lab Leak' Theory
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ethiopia's Tigray crisis: UN aid chief says there is famine
-Title: G7: UK and US have an 'indestructible relationship', PM says
-Title: China has created a dystopian hellscape in Xinjiang, Amnesty report says
-Title: Ilhan Omar: US congresswoman defends 'offensive' Israel remark
-Title: Lake Mead: Largest US reservoir dips to record low
+Title: Belarus plane: Ryanair boss says pilot had no choice but to land in Minsk
+Title: Covid: US death toll passes 600,000 as vaccination rate slows
+Title: Israeli nationalists march through Jerusalem's Old City
+Title: Gone Girl actress Lisa Banes dies aged 65 following accident
+Title: Hungary LGBT: New law is 'shameful, hateful' - Katalin Cseh
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-687142
+687721
 
 $ date -u +%s
-1623395341
+1623779306
