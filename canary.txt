@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 15 Jun 2021 17:48:10 +0000
+Sun, 20 Jun 2021 13:51:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Merkel Adviser on the Future Course of the Pandemic: “I Am Especially Worried About the Unvaccinated Children at School”
+Title: A Family’s Journey from Cologne to the Islamic State
 Title: Former Chief Prosecutor Carla Del Ponte: "I Keep Telling Myself that Justice Will Prevail"
 Title: A Visit to the Belarus Opposition: The Courageous Women of Minsk
 Title: Messenger Founder Pavel Durov: The Telegram Billionaire and His Dark Empire
-Title: Biometric Data: How I Lost Control Over My Own Face
-Title: France’s War in West Africa: “People Collected Severed Arms, Legs and Heads”
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Why Asia, the Pandemic Champion, Remains Miles Away From the Finish Line
-Title: Fake Coronavirus Tests May Have Helped Fuel India Outbreaks
-Title: Shifting Focus, NATO Views China as a Global Security Challenge
-Title: Far-Right March Tests New Israeli Coalition, Amid Hamas Threats
-Title: Shi Zhengli, A Virologist in Wuhan, Speaks Out Against 'Lab Leak' Theory
+Title: Iran’s System Keeps Its Grip, Despite the Chaos (or Because of It)
+Title: Pope Francis' Silence Speaks Volumes on Controversial Communion Vote by US Bishops
+Title: Regional Elections in France Will Test the Far Right’s Appeal
+Title: Why India Is Dealing With a Deadly 'Black Fungus' Epidemic
+Title: In the New Hong Kong, Booksellers Walk a Fine Line
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Belarus plane: Ryanair boss says pilot had no choice but to land in Minsk
-Title: Covid: US death toll passes 600,000 as vaccination rate slows
-Title: Israeli nationalists march through Jerusalem's Old City
-Title: Gone Girl actress Lisa Banes dies aged 65 following accident
-Title: Hungary LGBT: New law is 'shameful, hateful' - Katalin Cseh
+Title: Covid: Brazil hits 500,000 deaths amid 'critical' situation
+Title: Iran election: Israel PM warns world of Ebrahim Raisi
+Title: Tokyo Olympics: Ugandan tests positive for Covid in Japan
+Title: 'World's oldest' alligator Muja celebrates 85th birthday at Belgrade Zoo
+Title: Belgium: Body of fugitive far-right soldier found
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-687721
+688288
 
 $ date -u +%s
-1623779306
+1624197106
