@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETutaA+ad4h1t1jJ3BGN99C14pYeKDfRL+gvMkDVrgLnDz4+vMigd+fMOIHyIsgDlffvIX0DiFTElGkcwbGHK1As=
+RWQ6KRormNEETmtdNNFM8lRf7lVYidzbzEZNVTYTbUIX3YDV6G96gWqaY/ixXYQoc9t15cJOczXvwLsqqx6fWd2o8z1JiYC87gE=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 24 Jun 2021 20:15:54 +0000
+Fri, 02 Jul 2021 07:48:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Hopes Are High for the mRNA Technology that Is Leading Us Out of the Pandemic
-Title: BioNTech CEO Uğur Şahin on mRNA-Technology: "We Have Opened the Door To a New World of Pharmaceuticals"
-Title: Italy: The Women of Venice Discover Boating
-Title: Merkel Adviser on the Future Course of the Pandemic: “I Am Especially Worried About the Unvaccinated Children at School”
-Title: A Family’s Journey from Cologne to the Islamic State
+Title: Afghanistan: The Afghans Who Helped Germany Only To Be Left Behind
+Title: Violence in Ethiopia: Using Famine and Rape as a Weapon of War
+Title: Abuse in the Pandemic: Deploying Codewords and Fake Online Shops against Domestic Violence
+Title: Israeli Corruption Fighter on the German Submarine Affair
+Title: Croatia: Illegal Pushbacks of Vulnerable Migrants
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hundreds More Unmarked Graves Found at Former Residential School in Canada
-Title: Gaza’s Deadly Night: How Israeli Airstrikes Killed 44 People
-Title: Brazil Passes 500,000 Covid Deaths, a Tragedy With No Sign of Letup
-Title: Hong Kong Readers Scramble to Preserve Apple Daily's Legacy
-Title: Unauthorized Settlement Creates Stress Test for Israel’s New Government
+Title: As China’s Communist Party Turns 100, Xi Warns It Will Not Be Bullied
+Title: Pictures From a Revolution: China’s Communists Mark a Centennial
+Title: Unveiling of Diana Statue Reunites William and Harry, Briefly
+Title: Israel’s New Leaders Tilt Right With Settler Deal, Hinting at Approach
+Title: China’s Communist Party Turns 100. Cue the (State-Approved) Music.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Canada: 751 unmarked graves found at residential school
-Title: Miami building collapse leaves 99 people unaccounted for
-Title: Covid-19: Europe braces for surge in Delta variant
-Title: Rudy Giuliani has New York law licence suspended
-Title: Mariam Thompson, love-struck US army linguist, jailed for 23 years
+Title: Bagram: Last US and Nato forces leave key Afghanistan base
+Title: Covid: Australia to halve arrivals and trial home quarantine
+Title: Canada Lytton: Heatwave record village overwhelmingly burned in wildfire
+Title: Strolling crocodile sparks panic in India village
+Title: Britney Spears: Financial firm asks to withdraw from conservatorship
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-688716
+689387
 
 $ date -u +%s
-1624565763
+1625212105
