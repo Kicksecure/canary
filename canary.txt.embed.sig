@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmtdNNFM8lRf7lVYidzbzEZNVTYTbUIX3YDV6G96gWqaY/ixXYQoc9t15cJOczXvwLsqqx6fWd2o8z1JiYC87gE=
+RWQ6KRormNEETnXBxYMuwHtJulUkbkNwNgwXY3K1i3cG2l2YHwhW6iQAcrHoqbUviCEPINcsh4kv5pObArBqj1yky2SOwLiwgQk=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 02 Jul 2021 07:48:14 +0000
+Wed, 07 Jul 2021 08:49:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Delta Dilemma: Coronavirus Variant Has Some Worried about a New Autumn Wave
+Title: Germany's Vaccination Campaign: The Race for Herd Immunity
 Title: Afghanistan: The Afghans Who Helped Germany Only To Be Left Behind
 Title: Violence in Ethiopia: Using Famine and Rape as a Weapon of War
 Title: Abuse in the Pandemic: Deploying Codewords and Fake Online Shops against Domestic Violence
-Title: Israeli Corruption Fighter on the German Submarine Affair
-Title: Croatia: Illegal Pushbacks of Vulnerable Migrants
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As China’s Communist Party Turns 100, Xi Warns It Will Not Be Bullied
-Title: Pictures From a Revolution: China’s Communists Mark a Centennial
-Title: Unveiling of Diana Statue Reunites William and Harry, Briefly
-Title: Israel’s New Leaders Tilt Right With Settler Deal, Hinting at Approach
-Title: China’s Communist Party Turns 100. Cue the (State-Approved) Music.
+Title: Taliban Try to Polish Their Image as They Push for Victory
+Title: Dilip Kumar, Indian Film Star Who Brought Realism to Bollywood, Dies at 98
+Title: India Reopens But Fear Pervades: ‘Don’t Sacrifice Your Life to Visit the Taj Mahal’
+Title: U.K. Proposes Moving Asylum Seekers Abroad While Their Cases Are Decided
+Title: Vatican History of Obfuscation Clouds News on Pope Francis’ Health
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Bagram: Last US and Nato forces leave key Afghanistan base
-Title: Covid: Australia to halve arrivals and trial home quarantine
-Title: Canada Lytton: Heatwave record village overwhelmingly burned in wildfire
-Title: Strolling crocodile sparks panic in India village
-Title: Britney Spears: Financial firm asks to withdraw from conservatorship
+Title: Peter R de Vries: Dutch crime journalist wounded in Amsterdam shooting
+Title: Covid: Sydney lockdown extended as Delta outbreak spreads
+Title: Record June temperatures point to more 'extraordinary' extremes
+Title: Dilip Kumar: Legendary Indian actor dies at 98
+Title: Tropical Storm Elsa poised to make landfall in Florida
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-689387
+690005
 
 $ date -u +%s
-1625212105
+1625647789
