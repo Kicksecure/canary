@@ -37,33 +37,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 07 Jul 2021 08:49:37 +0000
+Mon, 12 Jul 2021 07:34:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Netherlands - Attack on Journalist Peter R. de Vries: “No Story Is Worth as Much as My Life”
+Title: Germany Shifts Focus of Vaccine Drive to the Undecided and Skeptics
+Title: A Journey Through the Troubled Former Yugoslavia: “They Will Never Stop Hating Us”
+Title: Delta Variant: "There Will Always Be Infections, Despite Complete Vaccination"
 Title: The Delta Dilemma: Coronavirus Variant Has Some Worried about a New Autumn Wave
-Title: Germany's Vaccination Campaign: The Race for Herd Immunity
-Title: Afghanistan: The Afghans Who Helped Germany Only To Be Left Behind
-Title: Violence in Ethiopia: Using Famine and Rape as a Weapon of War
-Title: Abuse in the Pandemic: Deploying Codewords and Fake Online Shops against Domestic Violence
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Taliban Try to Polish Their Image as They Push for Victory
-Title: Dilip Kumar, Indian Film Star Who Brought Realism to Bollywood, Dies at 98
-Title: India Reopens But Fear Pervades: ‘Don’t Sacrifice Your Life to Visit the Taj Mahal’
-Title: U.K. Proposes Moving Asylum Seekers Abroad While Their Cases Are Decided
-Title: Vatican History of Obfuscation Clouds News on Pope Francis’ Health
+Title: How Local Guerrilla Fighters Routed Ethiopia’s Powerful Army
+Title: Pope Francis Leads Sunday Prayer a Week After Surgery
+Title: Soccer Success Is Making England ‘Whole Again’
+Title: In Sri Lanka, the Government Looks Increasingly Like a Family Firm
+Title: Third Man With U.S. Ties Has Been Arrested in Haiti Assassination
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Peter R de Vries: Dutch crime journalist wounded in Amsterdam shooting
-Title: Covid: Sydney lockdown extended as Delta outbreak spreads
-Title: Record June temperatures point to more 'extraordinary' extremes
-Title: Dilip Kumar: Legendary Indian actor dies at 98
-Title: Tropical Storm Elsa poised to make landfall in Florida
+Title: Euro 2020 final: England beaten by Italy on penalties
+Title: Euro 2020: Italy fans ecstatic after England defeated in Wembley final
+Title: Cuba protests: Thousands rally against government
+Title: Haiti: 'Key suspect' arrested after President Jovenel Moïse's assassination
+Title: Virgin Galactic: Sir Richard Branson rockets to the edge of space
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-690005
+690674
 
 $ date -u +%s
-1625647789
+1626075287
