@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETs8eB1mturwU+x93uIyJvDG1cRDqr8DhHmXoo4HejGiWHPVNzZneB/egn8jh838Mee1KSnWRty02ApHfiJVRSQI=
+RWQ6KRormNEETsB7kZMgHYJ5YR+j3ouBUeqYucACcO0t/iQ0qf6q9EnB9rczwFPZ5tYRRG5zRcHZowYMirhS5NWP/CMiEi6GKgE=
 Whonix Canary
 ----
 Statements
@@ -39,33 +39,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 12 Jul 2021 07:34:37 +0000
+Thu, 15 Jul 2021 17:43:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: With Departure of NATO Troops, the Taliban Gains Ground in Afghanistan
+Title: The High Political Costs of Russia's New Pipeline to Germany
+Title: Michael Wolff on his Trump Exposés: “There Was No Plan. He Is Deranged”
+Title: Dealing with Europe’s Autocrats: It’s Time to Cut Funding for Orbán
 Title: Netherlands - Attack on Journalist Peter R. de Vries: “No Story Is Worth as Much as My Life”
-Title: Germany Shifts Focus of Vaccine Drive to the Undecided and Skeptics
-Title: A Journey Through the Troubled Former Yugoslavia: “They Will Never Stop Hating Us”
-Title: Delta Variant: "There Will Always Be Infections, Despite Complete Vaccination"
-Title: The Delta Dilemma: Coronavirus Variant Has Some Worried about a New Autumn Wave
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: How Local Guerrilla Fighters Routed Ethiopia’s Powerful Army
-Title: Pope Francis Leads Sunday Prayer a Week After Surgery
-Title: Soccer Success Is Making England ‘Whole Again’
-Title: In Sri Lanka, the Government Looks Increasingly Like a Family Firm
-Title: Third Man With U.S. Ties Has Been Arrested in Haiti Assassination
+Title: Suspects in Haitian President’s Killing Met to Plan a Future Without Him
+Title: China Criticized the Afghan War. Now It Worries About the Withdrawal.
+Title: As Covid Rages in Myanmar, Army Hoards Oxygen, Doctors Say
+Title: Peter de Vries, Dutch Crime Reporter, Dies After Being Shot
+Title: Floods in Germany and Other Parts of Western Europe Leave at Least 40 Dead
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Euro 2020 final: England beaten by Italy on penalties
-Title: Euro 2020: Italy fans ecstatic after England defeated in Wembley final
-Title: Cuba protests: Thousands rally against government
-Title: Haiti: 'Key suspect' arrested after President Jovenel Moïse's assassination
-Title: Virgin Galactic: Sir Richard Branson rockets to the edge of space
+Title: At least 42 killed and dozens missing after record rain in Western Europe
+Title: Peter R de Vries: Dutch crime reporter dies after shooting
+Title: Blue Origin: Teenager to fly into space with Jeff Bezos
+Title: South Africa looting: Government to deploy 25,000 troops after unrest
+Title: China tunnel flood: Desperate search to find trapped workers
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-690674
+691166
 
 $ date -u +%s
-1626075287
+1626370997
