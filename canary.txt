@@ -7,7 +7,14 @@ The Whonix lead developer who digitally signed this file states the following:
 
 1. Canary issue date: see the gpg signature time.
 
-2. No warrants have ever been served on the Whonix Project; for example, to hand out the private signing keys or to introduce backdoors.
+2.
+
+Definition “artifact”: Whonix software, Whonix downloads, Whonix source code
+
+* The Whonix Project has never added any backdoor to any artifact.
+* The Whonix Project has never turned over any signing key.
+* The Whonix Project has never knowingly signed any artifact containing any backdoor.
+* The Whonix Project has never weakened, compromised, or subverted any of its cryptography.
 
 3. We plan to publish the next canary statement within 4 weeks.
 
@@ -37,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 15 Jul 2021 17:43:06 +0000
+Fri, 16 Jul 2021 21:49:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany: Flood Disaster Could Become a Major Issue in Election
 Title: With Departure of NATO Troops, the Taliban Gains Ground in Afghanistan
 Title: The High Political Costs of Russia's New Pipeline to Germany
 Title: Michael Wolff on his Trump Exposés: “There Was No Plan. He Is Deranged”
 Title: Dealing with Europe’s Autocrats: It’s Time to Cut Funding for Orbán
-Title: Netherlands - Attack on Journalist Peter R. de Vries: “No Story Is Worth as Much as My Life”
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Suspects in Haitian President’s Killing Met to Plan a Future Without Him
-Title: China Criticized the Afghan War. Now It Worries About the Withdrawal.
-Title: As Covid Rages in Myanmar, Army Hoards Oxygen, Doctors Say
-Title: Peter de Vries, Dutch Crime Reporter, Dies After Being Shot
-Title: Floods in Germany and Other Parts of Western Europe Leave at Least 40 Dead
+Title: Live Updates: Europe Flooding Death Toll Passes 125, and Scientists See the Fingerprints of Climate Change
+Title: German Floods Raise the Bar on Extreme Weather Events
+Title: Flooding in Europe, in Pictures
+Title: Haitian Ex-Intelligence Officer Gave Order to Kill President, Colombia Says
+Title: Pope Francis Restricts Use of Old Latin Mass, in a Blow to Conservatives
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: At least 42 killed and dozens missing after record rain in Western Europe
-Title: Peter R de Vries: Dutch crime reporter dies after shooting
-Title: Blue Origin: Teenager to fly into space with Jeff Bezos
-Title: South Africa looting: Government to deploy 25,000 troops after unrest
-Title: China tunnel flood: Desperate search to find trapped workers
+Title: Europe floods: At least 120 dead and hundreds unaccounted for
+Title: South African says riots over Zuma jailing pre-planned - Cyril Ramaphosa
+Title: US Navy: First woman passes elite training scheme
+Title: Bianca Devins: Family sue NY officials over video footage of murdered teen
+Title: WhatsApp blocks two million Indian accounts
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-691166
+691332
 
 $ date -u +%s
-1626370997
+1626472159
