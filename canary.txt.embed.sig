@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvhs1OjPxxCg0dr7v8fNMHxRLbRms/Pbq3ezLG4/V4n4Nv/mdC81cSefdC/XIKGn5G7HAAlFud3+M7/MqwJwyQI=
+RWQ6KRormNEETqADxloFPBqBa2++cjVjcLHzDUBbMke+UoWN1iXRz5ZweD9Ij/IWJe+LOb/LVuvB4RUgMNrLq9hdiSIVg83wBgI=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 16 Jul 2021 21:49:09 +0000
+Fri, 23 Jul 2021 11:11:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Growing Anxiety as the Taliban Approaches in Eastern Afghanistan
+Title: Germany: Herd Immunity is Impossible. Now What?
+Title: Former Turkish Prime Minister Ahmet Davutoğlu: “Parts of the Government Are Mafia-Like”
+Title: Financial Times Editor Roula Khalaf: “I Think We Went Too Far”
 Title: Germany: Flood Disaster Could Become a Major Issue in Election
-Title: With Departure of NATO Troops, the Taliban Gains Ground in Afghanistan
-Title: The High Political Costs of Russia's New Pipeline to Germany
-Title: Michael Wolff on his Trump Exposés: “There Was No Plan. He Is Deranged”
-Title: Dealing with Europe’s Autocrats: It’s Time to Cut Funding for Orbán
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Europe Flooding Death Toll Passes 125, and Scientists See the Fingerprints of Climate Change
-Title: German Floods Raise the Bar on Extreme Weather Events
-Title: Flooding in Europe, in Pictures
-Title: Haitian Ex-Intelligence Officer Gave Order to Kill President, Colombia Says
-Title: Pope Francis Restricts Use of Old Latin Mass, in a Blow to Conservatives
+Title: Floods in China Leave Many Searching for Loved Ones Amid Outages
+Title: 'Pingdemic' Leaves Shelves Empty as U.K. Tries to Return to Normal
+Title: While England Gambles on ‘Freedom Day,’ Scotland Opts for Caution
+Title: Pulling Levers in Exile, Belarus Opposition Leader Works to Keep Her Influence Alive
+Title: Hong Kong Police Arrest 5 Over Children's Books Deemed 'Seditious'
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Europe floods: At least 120 dead and hundreds unaccounted for
-Title: South African says riots over Zuma jailing pre-planned - Cyril Ramaphosa
-Title: US Navy: First woman passes elite training scheme
-Title: Bianca Devins: Family sue NY officials over video footage of murdered teen
-Title: WhatsApp blocks two million Indian accounts
-
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+Title: How this will be an Olympics like no other
+Title: Covid vaccine: Eight-week gap seen as sweet spot for Pfizer jab antibodies
+Title: China floods: Henan mother dies after saving baby from mudslide
+Title: Tibet: China's President Xi Jinping makes visit to troubled region
+Title: Man rescued in Alaska after week-long bear attack ordeal
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-691332
+
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+692273
 
 $ date -u +%s
-1626472159
+1627038724
