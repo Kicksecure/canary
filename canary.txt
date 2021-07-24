@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 23 Jul 2021 11:11:53 +0000
+Sat, 24 Jul 2021 23:07:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Catastrophic Flooding Spotlights Germany’s Poor Disaster Preparedness
 Title: Growing Anxiety as the Taliban Approaches in Eastern Afghanistan
 Title: Germany: Herd Immunity is Impossible. Now What?
 Title: Former Turkish Prime Minister Ahmet Davutoğlu: “Parts of the Government Are Mafia-Like”
 Title: Financial Times Editor Roula Khalaf: “I Think We Went Too Far”
-Title: Germany: Flood Disaster Could Become a Major Issue in Election
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Floods in China Leave Many Searching for Loved Ones Amid Outages
-Title: 'Pingdemic' Leaves Shelves Empty as U.K. Tries to Return to Normal
-Title: While England Gambles on ‘Freedom Day,’ Scotland Opts for Caution
-Title: Pulling Levers in Exile, Belarus Opposition Leader Works to Keep Her Influence Alive
-Title: Hong Kong Police Arrest 5 Over Children's Books Deemed 'Seditious'
+Title: Flood Deaths in China Show Road Risks From Climate Change
+Title: Spain Pledged Citizenship to Sephardic Jews. Now They Feel Betrayed.
+Title: U.S. to Announce Troop Drawdown From Iraq
+Title: They Were Once Luxury Venues. Now They Are Grim Covid Camps.
+Title: A Rebellion Is Stirring in Boris Johnson’s Backyard
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: How this will be an Olympics like no other
-Title: Covid vaccine: Eight-week gap seen as sweet spot for Pfizer jab antibodies
-Title: China floods: Henan mother dies after saving baby from mudslide
-Title: Tibet: China's President Xi Jinping makes visit to troubled region
-Title: Man rescued in Alaska after week-long bear attack ordeal
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+Title: India monsoon: Rescuers search for survivors after heavy rains
+Title: Afghanistan curfew imposed as Taliban militants advance
+Title: Budapest Pride stands up for LGBT rights in Hungary
+Title: Typhoon In-Fa sweeps towards China after flooding chaos
+Title: Clashes in Paris over Covid measures
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
-692273
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+692502
 
 $ date -u +%s
-1627038724
+1627168046
