@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 30 Jul 2021 20:57:51 +0000
+Sun, 01 Aug 2021 17:37:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: AstraZeneca and Pfizer/BioNTech: Germany Faces Dilemma of What to do with Excess Vaccine
@@ -54,23 +54,23 @@ Title: “There Is No Other Way Out of the Pandemic”: British Public Health Ex
 Title: Catastrophic Flooding Spotlights Germany’s Poor Disaster Preparedness
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Martine Moïse, Haitian President’s Widow, Recounts Assassination
-Title: Hong Kong Protester Is Sentenced to 9 Years in First Security Law Case
-Title: The Indigenous Archaeologist Looking for Residential School Graves in Canada
-Title: Spanish Court Targets Chilean Bank Tied to Pinochet
-Title: Israeli Officials Say Iran Is Behind Deadly Attack on Oil Tanker
+Title: Riots Shatter Veneer of Coexistence in Israel’s Mixed Towns
+Title: Tunisia’s President Holds Forth on Freedoms After Seizing Power
+Title: Russia Scoffs at Olympic Ban: ‘Let Them Listen to Classical Music’
+Title: Top Myanmar General Says Military Rule Will Continue Into 2023
+Title: With Undersea Robots, an Air Force Navigator Lost Since 1967 Is Found
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel accuses Iran over deadly oil tanker attack
-Title: Covid-19 pandemic: Japan widens emergency over 'frightening' spike
-Title: Woman charged for disturbing Yellowstone mother grizzly
-Title: Nanjing: New virus outbreak worst since Wuhan, say Chinese state media
-Title: Amanda Knox claims Matt Damon film Stillwater profits from her life
+Title: Tanker attack: Tensions rise as Iran and Israel trade accusations
+Title: Belarus Olympics: Krystsina Tsimanouskaya refuses 'forced' flight home
+Title: Italy's Lamont Jacobs wins shock 100m gold 
+Title: Raven Saunders: What the Olympian's X protest means to her
+Title: Tokyo Olympics: 'Can we have two golds?' - high jumpers share win
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-693451
+693741
 
 $ date -u +%s
-1627678683
+1627839454
