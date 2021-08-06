@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 06 Aug 2021 18:21:01 +0000
+Fri, 06 Aug 2021 18:21:59 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Pfizer-BioNTech and the Delta Variant: How Useful Is a Third Dose of Vaccine?
@@ -73,4 +73,4 @@ $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
 694512
 
 $ date -u +%s
-1628274070
+1628274128
