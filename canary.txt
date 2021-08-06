@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 01 Aug 2021 17:37:24 +0000
+Fri, 06 Aug 2021 18:21:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Pfizer-BioNTech and the Delta Variant: How Useful Is a Third Dose of Vaccine?
+Title: Climate Change Creates New Challenges for Russian Firefighters
+Title: Rising Malnourishment: Global Food Prices Spike in Response to the Pandemic
+Title: Proposed Northern Ireland Amnesty Law Faces Massive Critique
 Title: AstraZeneca and Pfizer/BioNTech: Germany Faces Dilemma of What to do with Excess Vaccine
-Title: Delta and Other Baggage: New COVID-19 Rules for Travelers in Germany Arrive Late and Fall Short
-Title: Germany’s New Climate Reality: A Country Races to Prepare for the Unavoidable
-Title: “There Is No Other Way Out of the Pandemic”: British Public Health Expert on the Need to Get Vaccinated
-Title: Catastrophic Flooding Spotlights Germany’s Poor Disaster Preparedness
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Riots Shatter Veneer of Coexistence in Israel’s Mixed Towns
-Title: Tunisia’s President Holds Forth on Freedoms After Seizing Power
-Title: Russia Scoffs at Olympic Ban: ‘Let Them Listen to Classical Music’
-Title: Top Myanmar General Says Military Rule Will Continue Into 2023
-Title: With Undersea Robots, an Air Force Navigator Lost Since 1967 Is Found
+Title: No Work, No Food: Pandemic Deepens Global Hunger
+Title: After Deadly Floods, a German Village Rethinks Its Relationship to Nature
+Title: Charged With Treason, a Genocide Survivor Opts to Fight, Not Flee
+Title: Taliban Capture Zaranj, an Afghanistan Provincial Capital, in a Symbolic Victory
+Title: Hezbollah Fires Rockets at Israel as Risk of Escalation Looms
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Tanker attack: Tensions rise as Iran and Israel trade accusations
-Title: Belarus Olympics: Krystsina Tsimanouskaya refuses 'forced' flight home
-Title: Italy's Lamont Jacobs wins shock 100m gold 
-Title: Raven Saunders: What the Olympian's X protest means to her
-Title: Tokyo Olympics: 'Can we have two golds?' - high jumpers share win
+Title: Afghanistan war: Taliban capture regional capital Zaranj
+Title: Olympics expels Belarus coaches over athlete removal
+Title: Greece battles deadly wildfires near Athens and on Evia island
+Title: CNN fires unvaccinated employees for going to office
+Title: Allyson Felix sets record with 10th medal
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-693741
+694512
 
 $ date -u +%s
-1627839454
+1628274070
