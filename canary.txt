@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 06 Aug 2021 18:21:59 +0000
+Tue, 10 Aug 2021 17:11:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Lukashenko's Reign of Fear Hits the Olympics and Beyond
 Title: Pfizer-BioNTech and the Delta Variant: How Useful Is a Third Dose of Vaccine?
 Title: Climate Change Creates New Challenges for Russian Firefighters
 Title: Rising Malnourishment: Global Food Prices Spike in Response to the Pandemic
 Title: Proposed Northern Ireland Amnesty Law Faces Massive Critique
-Title: AstraZeneca and Pfizer/BioNTech: Germany Faces Dilemma of What to do with Excess Vaccine
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: No Work, No Food: Pandemic Deepens Global Hunger
-Title: After Deadly Floods, a German Village Rethinks Its Relationship to Nature
-Title: Charged With Treason, a Genocide Survivor Opts to Fight, Not Flee
-Title: Taliban Capture Zaranj, an Afghanistan Provincial Capital, in a Symbolic Victory
-Title: Hezbollah Fires Rockets at Israel as Risk of Escalation Looms
+Title: A Yearlong Cry for Help, Then Death After an Assault
+Title: As U.S. Leaves Afghanistan, History Suggests It May Struggle to Stay Out
+Title: Why Most Europeans Still Can't Travel to the U.S.
+Title: Her Death Shook Japan. It May Not Shift Refugee Rules.
+Title: China Upholds Death Sentence for Canadian Robert Lloyd Schellenberg
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghanistan war: Taliban capture regional capital Zaranj
-Title: Olympics expels Belarus coaches over athlete removal
-Title: Greece battles deadly wildfires near Athens and on Evia island
-Title: CNN fires unvaccinated employees for going to office
-Title: Allyson Felix sets record with 10th medal
+Title: New York Governor Andrew Cuomo resigns in wake of harassment report
+Title: Ethiopia PM Abiy Ahmed calls on civilians to join Tigray war
+Title: Princess Latifa: Campaign to free Dubai ruler's daughter disbanded
+Title: Greece fires: Foreign teams join battle on Evia island
+Title: Lithuania blames Belarus for migrant crisis
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-694512
+695145
 
 $ date -u +%s
-1628274128
+1628615477
