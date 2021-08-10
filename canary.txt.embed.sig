@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlcuM2zdVzWumPCjDmytNU2ZGiGhk7TRNuzkDSf+/0BYWee3f+ormB1vK/f1uTv5g9mUqptQtRZq1UlWzsEdXAM=
+RWQ6KRormNEETijXTTPxiIfTL8XVftyyHhLXRYH6yaQvteCLL7xn0iZ/iTxJ/ypunHSDWydWhQ5YNfmLBbn/rd0nKUPoYrEx9Qw=
 Whonix Canary
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 10 Aug 2021 17:11:06 +0000
+Tue, 10 Aug 2021 17:11:58 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Lukashenko's Reign of Fear Hits the Olympics and Beyond
@@ -72,7 +72,7 @@ Title: Lithuania blames Belarus for migrant crisis
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-695145
+695146
 
 $ date -u +%s
-1628615477
+1628615528
