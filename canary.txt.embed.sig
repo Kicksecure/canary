@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETijXTTPxiIfTL8XVftyyHhLXRYH6yaQvteCLL7xn0iZ/iTxJ/ypunHSDWydWhQ5YNfmLBbn/rd0nKUPoYrEx9Qw=
+RWQ6KRormNEETvjH6B/sSYD9f/c+MvvBa24qKm00BdQitY1204c9p6xZgfXqEzqChGS+W+Nx0ziz29IG2j3KYzqwlClEfT1rtgk=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 10 Aug 2021 17:11:58 +0000
+Thu, 12 Aug 2021 22:23:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Summer of Anxiety: Have We Finally Broken the Climate?
+Title: The Great Green Wall: Warding Off Desertification in Africa
+Title: Weather Disaster in Austria: Finger Pointing After Severe Flooding in Small Town
 Title: Lukashenko's Reign of Fear Hits the Olympics and Beyond
 Title: Pfizer-BioNTech and the Delta Variant: How Useful Is a Third Dose of Vaccine?
-Title: Climate Change Creates New Challenges for Russian Firefighters
-Title: Rising Malnourishment: Global Food Prices Spike in Response to the Pandemic
-Title: Proposed Northern Ireland Amnesty Law Faces Massive Critique
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: A Yearlong Cry for Help, Then Death After an Assault
-Title: As U.S. Leaves Afghanistan, History Suggests It May Struggle to Stay Out
-Title: Why Most Europeans Still Can't Travel to the U.S.
-Title: Her Death Shook Japan. It May Not Shift Refugee Rules.
-Title: China Upholds Death Sentence for Canadian Robert Lloyd Schellenberg
+Title: Afghanistan Collapse Accelerates as 2 Vital Cities Near Fall to Taliban
+Title: Marines to Begin Evacuating Americans in Afghanistan
+Title: For Toronto Care Home Residents, Freedom After Nearly a Year in Lockdown
+Title: Mirror, a Hong Kong Boy Band, Cheers the Gloomy Chinese City
+Title: Sudan May Hand Omar al-Bashir to I.C.C. Over Darfur Atrocities
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: New York Governor Andrew Cuomo resigns in wake of harassment report
-Title: Ethiopia PM Abiy Ahmed calls on civilians to join Tigray war
-Title: Princess Latifa: Campaign to free Dubai ruler's daughter disbanded
-Title: Greece fires: Foreign teams join battle on Evia island
-Title: Lithuania blames Belarus for migrant crisis
+Title: Afghanistan: Major cities fall to Taliban amid heavy fighting
+Title: Life in a town taken by the Taliban in Afghanistan
+Title: Covid: Germany fears thousands got saline, not vaccine from nurse
+Title: Russia holds hypersonic flight expert in spy probe
+Title: Wagner: Gaddafi's son faces arrest over Russian mercenaries
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-695146
+695471
 
 $ date -u +%s
-1628615528
+1628807049
