@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvjH6B/sSYD9f/c+MvvBa24qKm00BdQitY1204c9p6xZgfXqEzqChGS+W+Nx0ziz29IG2j3KYzqwlClEfT1rtgk=
+RWQ6KRormNEEToRbROn6ENYgKL9G2yw4INhhKubA9+wSUOIzO8hK9p+jE/0NVfGyDP4vsWw29/XKHYsG7lB21GM9QXqrc0RKPQw=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 12 Aug 2021 22:23:39 +0000
+Sat, 14 Aug 2021 20:08:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany's Afghanistan Dilemma: What To Do With Local Hires?
+Title: Poland's Judges Are Fighting To Save Rule of Law and Their Own Jobs
+Title: Bianca Jagger on State-Sponsored Violence in Nicaragua
 Title: Summer of Anxiety: Have We Finally Broken the Climate?
 Title: The Great Green Wall: Warding Off Desertification in Africa
-Title: Weather Disaster in Austria: Finger Pointing After Severe Flooding in Small Town
-Title: Lukashenko's Reign of Fear Hits the Olympics and Beyond
-Title: Pfizer-BioNTech and the Delta Variant: How Useful Is a Third Dose of Vaccine?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Afghanistan Collapse Accelerates as 2 Vital Cities Near Fall to Taliban
-Title: Marines to Begin Evacuating Americans in Afghanistan
-Title: For Toronto Care Home Residents, Freedom After Nearly a Year in Lockdown
-Title: Mirror, a Hong Kong Boy Band, Cheers the Gloomy Chinese City
-Title: Sudan May Hand Omar al-Bashir to I.C.C. Over Darfur Atrocities
+Title: A Pricey Drive Down Montenegro’s Highway ‘From Nowhere to Nowhere’
+Title: Why the Afghan Military Collapsed So Quickly
+Title: A powerful earthquake violently shakes Haiti, killing dozens.
+Title: Mysterious Hacker Group Suspected in July Cyberattack on Iranian Trains
+Title: Poverty, Disease, Customs: Why So Many Indonesian Children Die of Covid
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghanistan: Major cities fall to Taliban amid heavy fighting
-Title: Life in a town taken by the Taliban in Afghanistan
-Title: Covid: Germany fears thousands got saline, not vaccine from nurse
-Title: Russia holds hypersonic flight expert in spy probe
-Title: Wagner: Gaddafi's son faces arrest over Russian mercenaries
+Title: Haiti struck by deadly 7.2-magnitude earthquake
+Title: Afghan conflict: Taliban take Mazar-e-Sharif, government's last northern stronghold
+Title: Afghan war: Kabul's young women plead for help as Taliban advance
+Title: Sarah Rainsford on Russia: 'I've been told I can't come back - ever'
+Title: Japan rain: Nearly two million residents told to seek shelter
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-695471
+695771
 
 $ date -u +%s
-1628807049
+1628971690
