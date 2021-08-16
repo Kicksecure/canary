@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEToRbROn6ENYgKL9G2yw4INhhKubA9+wSUOIzO8hK9p+jE/0NVfGyDP4vsWw29/XKHYsG7lB21GM9QXqrc0RKPQw=
+RWQ6KRormNEETlKTDgJXWbQPbPGnIIilT8/V8pDnGNWm6u0huoN21bzR4EDAbw3utM8UgV3VfrjLe+Z78mdDmex71t8ZE+miSA0=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 14 Aug 2021 20:08:01 +0000
+Mon, 16 Aug 2021 16:15:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Wolf in Sheep's Clothing: Fears Justified as Taliban Secures Power in Afghanistan
 Title: Germany's Afghanistan Dilemma: What To Do With Local Hires?
 Title: Poland's Judges Are Fighting To Save Rule of Law and Their Own Jobs
 Title: Bianca Jagger on State-Sponsored Violence in Nicaragua
 Title: Summer of Anxiety: Have We Finally Broken the Climate?
-Title: The Great Green Wall: Warding Off Desertification in Africa
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: A Pricey Drive Down Montenegro’s Highway ‘From Nowhere to Nowhere’
-Title: Why the Afghan Military Collapsed So Quickly
-Title: A powerful earthquake violently shakes Haiti, killing dozens.
-Title: Mysterious Hacker Group Suspected in July Cyberattack on Iranian Trains
-Title: Poverty, Disease, Customs: Why So Many Indonesian Children Die of Covid
+Title: Afghanistan Live Updates: Fear Spreads in Kabul as Taliban Take Charge
+Title: ‘I’m the Only Surgeon’: After Haiti Earthquake, Thousands Seek Scarce Care
+Title: Guarding the Last Likeness of a Loathed Dictator? It’s a Thankless Job.
+Title: An Iconic Bridge Sees U.S. Allies Flee Afghanistan as the Soviets Did
+Title: Kabul’s Sudden Fall to Taliban Ends U.S. Era in Afghanistan
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Haiti struck by deadly 7.2-magnitude earthquake
-Title: Afghan conflict: Taliban take Mazar-e-Sharif, government's last northern stronghold
-Title: Afghan war: Kabul's young women plead for help as Taliban advance
-Title: Sarah Rainsford on Russia: 'I've been told I can't come back - ever'
-Title: Japan rain: Nearly two million residents told to seek shelter
+Title: Afghanistan: Life in Kabul after the Taliban victory
+Title: Haiti earthquake: Death toll climbs to 1,297 as storm nears
+Title: Lebanon deadly petrol tank blast sparks protest at PM-designate's home
+Title: Tesla Autopilot: US opens official investigation into self-driving tech
+Title: Venezuela opposition politician Guevara freed after talks
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-695771
+696079
 
 $ date -u +%s
-1628971690
+1629130527
