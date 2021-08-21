@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnNEW4A7LGu4Zx/iLqfap6N7Oqkjdbqlus33NZjslZ0jDol/hoFVPAEwSTgeWiEPYyUMVWPydGimxnqvjnFX/w8=
+RWQ6KRormNEETr8sm2hTCLkOJjlmQNynvZ21UiUTHn/OiKH+zAQalepZXumylYAj3iovWxjoML8O+Je9Y8qD4rnhXqZFB2vt7wc=
 Whonix Canary
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 21 Aug 2021 20:58:04 +0000
+Sat, 21 Aug 2021 23:57:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The Entirely Predictable Failure of the West's Mission in Afghanistan
@@ -64,15 +64,15 @@ Title: The Struggle to Save a House of Music, and Its Legacy
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Afghanistan: US tells citizens to avoid Kabul airport
-Title: Afghanistan: The desperate scramble to escape
-Title: Greece erects fence at Turkey border amid warnings of Afghan migrant surge
+Title: Hurricane Grace kills eight as it rips through eastern Mexico
 Title: Hurricane Henri: US East Coast warned of significant damage
-Title: Covid: Australian police clash with anti-lockdown protesters
+Title: Greece erects fence at Turkey border amid warnings of Afghan migrant surge
+Title: Kenya holds biggest ever animal census
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-696909
+696928
 
 $ date -u +%s
-1629579493
+1629590229
