@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 16 Aug 2021 16:15:08 +0000
+Sat, 21 Aug 2021 20:58:04 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A Wolf in Sheep's Clothing: Fears Justified as Taliban Secures Power in Afghanistan
-Title: Germany's Afghanistan Dilemma: What To Do With Local Hires?
-Title: Poland's Judges Are Fighting To Save Rule of Law and Their Own Jobs
-Title: Bianca Jagger on State-Sponsored Violence in Nicaragua
-Title: Summer of Anxiety: Have We Finally Broken the Climate?
+Title: The Entirely Predictable Failure of the West's Mission in Afghanistan
+Title: A Chronicle of German Failures in Afghanistan: "Takeover of Kabul Unlikely Before 9/11"
+Title: A Refugee Returns to Northern Cyprus After 47 Years
+Title: Local Hires Stranded in Afghanistan: "They Don't Care About My Life!"
+Title: Stewing Conflict Between German High Court and the EU Could Boil Over
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Afghanistan Live Updates: Fear Spreads in Kabul as Taliban Take Charge
-Title: ‘I’m the Only Surgeon’: After Haiti Earthquake, Thousands Seek Scarce Care
-Title: Guarding the Last Likeness of a Loathed Dictator? It’s a Thankless Job.
-Title: An Iconic Bridge Sees U.S. Allies Flee Afghanistan as the Soviets Did
-Title: Kabul’s Sudden Fall to Taliban Ends U.S. Era in Afghanistan
+Title: He Guarded Haiti’s Slain President. And He Was a Suspect in a Drug Inquiry.
+Title: Athens Is Only Getting Hotter. Its New ‘Chief Heat Officer’ Hopes to Cool It Down.
+Title: Fears Rise About Safety of Afghan Airport as U.S. Warns Americans to Stay Away
+Title: America’s Afghan War: A Defeat Foretold?
+Title: The Struggle to Save a House of Music, and Its Legacy
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghanistan: Life in Kabul after the Taliban victory
-Title: Haiti earthquake: Death toll climbs to 1,297 as storm nears
-Title: Lebanon deadly petrol tank blast sparks protest at PM-designate's home
-Title: Tesla Autopilot: US opens official investigation into self-driving tech
-Title: Venezuela opposition politician Guevara freed after talks
+Title: Afghanistan: US tells citizens to avoid Kabul airport
+Title: Afghanistan: The desperate scramble to escape
+Title: Greece erects fence at Turkey border amid warnings of Afghan migrant surge
+Title: Hurricane Henri: US East Coast warned of significant damage
+Title: Covid: Australian police clash with anti-lockdown protesters
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-696079
+696909
 
 $ date -u +%s
-1629130527
+1629579493
