@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 21 Aug 2021 23:57:00 +0000
+Mon, 23 Aug 2021 20:15:03 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The Entirely Predictable Failure of the West's Mission in Afghanistan
@@ -54,23 +54,23 @@ Title: Local Hires Stranded in Afghanistan: "They Don't Care About My Life!"
 Title: Stewing Conflict Between German High Court and the EU Could Boil Over
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: He Guarded Haiti’s Slain President. And He Was a Suspect in a Drug Inquiry.
-Title: Athens Is Only Getting Hotter. Its New ‘Chief Heat Officer’ Hopes to Cool It Down.
-Title: Fears Rise About Safety of Afghan Airport as U.S. Warns Americans to Stay Away
-Title: America’s Afghan War: A Defeat Foretold?
-Title: The Struggle to Save a House of Music, and Its Legacy
+Title: Live Updates: U.S. Forces Go Into Kabul to Extract Stranded Americans and Allies
+Title: Afghan Refugees Find a Harsh and Unfriendly Border in Turkey
+Title: Afghan Fiasco Raises Hard Questions for Europe
+Title: Chaos Persists at Kabul Airport as Taliban Discuss New Government
+Title: Did the War in Afghanistan Have to Happen?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghanistan: US tells citizens to avoid Kabul airport
-Title: Hurricane Grace kills eight as it rips through eastern Mexico
-Title: Hurricane Henri: US East Coast warned of significant damage
-Title: Greece erects fence at Turkey border amid warnings of Afghan migrant surge
-Title: Kenya holds biggest ever animal census
+Title: Afghanistan: US aims to complete evacuations by deadline
+Title: Pfizer becomes first Covid vaccine to gain full FDA approval
+Title: Poland to build Belarus border fence after migrant influx
+Title: Tennessee flash floods kill 22 with dozens missing
+Title: Storm Henri: Lightning strikes One World Trade Center
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-696928
+697252
 
 $ date -u +%s
-1629590229
+1629749712
