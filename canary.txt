@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 23 Aug 2021 20:15:03 +0000
+Sat, 28 Aug 2021 18:03:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Entirely Predictable Failure of the West's Mission in Afghanistan
-Title: A Chronicle of German Failures in Afghanistan: "Takeover of Kabul Unlikely Before 9/11"
-Title: A Refugee Returns to Northern Cyprus After 47 Years
-Title: Local Hires Stranded in Afghanistan: "They Don't Care About My Life!"
-Title: Stewing Conflict Between German High Court and the EU Could Boil Over
+Title: Afghanistan Disaster: Debacle in Kabul Could Overshadow Biden's Presidency
+Title: The End of the German Airlift: What Will Become of the Afghans Left Behind?
+Title: Terror Expert on Afghanistan: "The Real Threat Is Islamic State, not Al-Qaida"
+Title: Redistributing Mafia Assets: The Palaces and Ruins of the Drug Bosses
+Title: Social Design Award 2021: This Is the Last Chance To Take Part in Our Reader Competition!
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: U.S. Forces Go Into Kabul to Extract Stranded Americans and Allies
-Title: Afghan Refugees Find a Harsh and Unfriendly Border in Turkey
-Title: Afghan Fiasco Raises Hard Questions for Europe
-Title: Chaos Persists at Kabul Airport as Taliban Discuss New Government
-Title: Did the War in Afghanistan Have to Happen?
+Title: A Journey Through Kabul on the Day of the Fall
+Title: Hurricane Ida Updates: After Hitting Cuba, Storm Heads Toward U.S.
+Title: Myanmar’s Monks, Leaders of Past Protests, Are Divided Over the Coup
+Title: A Doctor’s Tour de France, One ‘Medical Desert’ at a Time
+Title: After Airport Bombing, an Afghan Family Buries a Father, and Hope
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghanistan: US aims to complete evacuations by deadline
-Title: Pfizer becomes first Covid vaccine to gain full FDA approval
-Title: Poland to build Belarus border fence after migrant influx
-Title: Tennessee flash floods kill 22 with dozens missing
-Title: Storm Henri: Lightning strikes One World Trade Center
+Title: Afghan evacuations wind down at Kabul airport
+Title: Victims' relatives still desperately search for news of loved ones
+Title: Robert F Kennedy assassin Sirhan Sirhan recommended for parole
+Title: French woman arrested over jewellery thefts from coffins
+Title: Canada election: Justin Trudeau rally cancelled after angry protests
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-697252
+698003
 
 $ date -u +%s
-1629749712
+1630173816
