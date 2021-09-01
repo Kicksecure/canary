@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvwJyWewVux1eHLerNRcUmaRzt1gsTnUaR7Ci4VqNeiASmjG3jee1DVFKLjCD9Qvh4+D9dxHtHWMzpF/stF5Xwg=
+RWQ6KRormNEETpolRQlRz0FOegtwhKWQkbRvstUbqhO7y4yIy+nrlSkgjBU3DsllysKcKajefXayvp1lKMIzYLERPngikcQ7fgc=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 28 Aug 2021 18:03:26 +0000
+Wed, 01 Sep 2021 17:14:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Artificial Intelligence: How High-Tech Tools Are Helping Combat Climate Change
+Title: Former Deutsche Bank Executive on Green Investments: "The Sustainability Propaganda Got Completely Out of Control"
+Title: Yanis Varoufakis: A Former Leftist Icon Turns to Science Fiction
+Title: Afghan Vice President in Letter to DER SPIEGEL: "A Deal for Surrender Won't Happen"
 Title: Afghanistan Disaster: Debacle in Kabul Could Overshadow Biden's Presidency
-Title: The End of the German Airlift: What Will Become of the Afghans Left Behind?
-Title: Terror Expert on Afghanistan: "The Real Threat Is Islamic State, not Al-Qaida"
-Title: Redistributing Mafia Assets: The Palaces and Ruins of the Drug Bosses
-Title: Social Design Award 2021: This Is the Last Chance To Take Part in Our Reader Competition!
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: A Journey Through Kabul on the Day of the Fall
-Title: Hurricane Ida Updates: After Hitting Cuba, Storm Heads Toward U.S.
-Title: Myanmar’s Monks, Leaders of Past Protests, Are Divided Over the Coup
-Title: A Doctor’s Tour de France, One ‘Medical Desert’ at a Time
-Title: After Airport Bombing, an Afghan Family Buries a Father, and Hope
+Title: Live Updates: Taliban Set to Name Supreme Leader of Afghanistan
+Title: It’s Election Season in Germany. No Charisma, Please!
+Title: Afghanistan Before the Fall
+Title: Will the World Formally Recognize the Taliban?
+Title: How the C.I.A. Exited Its Base in Kabul
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghan evacuations wind down at Kabul airport
-Title: Victims' relatives still desperately search for news of loved ones
-Title: Robert F Kennedy assassin Sirhan Sirhan recommended for parole
-Title: French woman arrested over jewellery thefts from coffins
-Title: Canada election: Justin Trudeau rally cancelled after angry protests
+Title: Female journalist who interviewed Taliban flees
+Title: Texas passes law banning abortion after six weeks
+Title: Long Covid in children 'nowhere near scale feared'
+Title: Hurricane Ida: Before and after images reveal devastation
+Title: Climate change: Big increase in weather disasters over the past five decades
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-698003
+698561
 
 $ date -u +%s
-1630173816
+1630516489
