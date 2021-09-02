@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 01 Sep 2021 17:14:40 +0000
+Thu, 02 Sep 2021 18:44:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Artificial Intelligence: How High-Tech Tools Are Helping Combat Climate Change
@@ -54,23 +54,23 @@ Title: Afghan Vice President in Letter to DER SPIEGEL: "A Deal for Surrender Won
 Title: Afghanistan Disaster: Debacle in Kabul Could Overshadow Biden's Presidency
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Taliban Set to Name Supreme Leader of Afghanistan
-Title: It’s Election Season in Germany. No Charisma, Please!
-Title: Afghanistan Before the Fall
-Title: Will the World Formally Recognize the Taliban?
-Title: How the C.I.A. Exited Its Base in Kabul
+Title: Afghanistan Live Updates: Pentagon Says Working With Taliban Against ISIS-K Is ‘Possible’
+Title: After Quick Victory, Taliban Find Governing Is Harder
+Title: Kolkata’s ‘Fairy Tale’ Trams, Once Essential, Are Now a Neglected Relic
+Title: China Tells Kerry Strained Ties Could Sink Climate Cooperation
+Title: Why the Taliban Desperately Need Cash to Run Afghanistan
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Female journalist who interviewed Taliban flees
-Title: Texas passes law banning abortion after six weeks
-Title: Long Covid in children 'nowhere near scale feared'
-Title: Hurricane Ida: Before and after images reveal devastation
-Title: Climate change: Big increase in weather disasters over the past five decades
+Title: Afghan evacuee boy who ate poisonous mushrooms dies in Poland
+Title: China's media cracks down on 'effeminate' styles
+Title: Tokyo 2020: Anger after Paralympian is stripped of gold medal for being late
+Title: Abba delight fans with new 10-song album and virtual concert
+Title: Ethiopia's Tigray crisis: Millions at risk under aid blockade - UN
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-698561
+698731
 
 $ date -u +%s
-1630516489
+1630608301
