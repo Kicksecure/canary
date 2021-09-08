@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 02 Sep 2021 18:44:53 +0000
+Wed, 08 Sep 2021 21:40:22 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A First Look at Angela Merkel's Legacy: The Era of Missed Opportunities
+Title: Former FBI Agent Ali Soufan: “We Lost the War in Afghanistan in the Fall of 2002”
+Title: Germany's SPD on the Rise: Olaf Scholz Aims to Succeed Merkel By Emulating Her
 Title: Artificial Intelligence: How High-Tech Tools Are Helping Combat Climate Change
 Title: Former Deutsche Bank Executive on Green Investments: "The Sustainability Propaganda Got Completely Out of Control"
-Title: Yanis Varoufakis: A Former Leftist Icon Turns to Science Fiction
-Title: Afghan Vice President in Letter to DER SPIEGEL: "A Deal for Surrender Won't Happen"
-Title: Afghanistan Disaster: Debacle in Kabul Could Overshadow Biden's Presidency
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Afghanistan Live Updates: Pentagon Says Working With Taliban Against ISIS-K Is ‘Possible’
-Title: After Quick Victory, Taliban Find Governing Is Harder
-Title: Kolkata’s ‘Fairy Tale’ Trams, Once Essential, Are Now a Neglected Relic
-Title: China Tells Kerry Strained Ties Could Sink Climate Cooperation
-Title: Why the Taliban Desperately Need Cash to Run Afghanistan
+Title: Afghans Flee to Pakistan. An Uncertain Future Awaits.
+Title: Trial Begins Over November 2015 Paris Terrorist Attacks
+Title: Afghanistan Aid Workers Tread a Tricky Path Under Taliban Rule
+Title: Abortion Is No Longer a Crime in Mexico. But Most Women Still Can’t Get One.
+Title: Hong Kong Police Arrest Organizers of Tiananmen Square Vigil
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghan evacuee boy who ate poisonous mushrooms dies in Poland
-Title: China's media cracks down on 'effeminate' styles
-Title: Tokyo 2020: Anger after Paralympian is stripped of gold medal for being late
-Title: Abba delight fans with new 10-song album and virtual concert
-Title: Ethiopia's Tigray crisis: Millions at risk under aid blockade - UN
+Title: Paris attacks 2015: Accused complains of conditions
+Title: Afghanistan: Women protest against all-male Taliban government
+Title: Russian emergencies minister Zinichev dies on Arctic drill
+Title: Robert E Lee statue: Virginia removes contentious memorial as crowds cheer
+Title: Philippines President Rodrigo Duterte to stand as vice-president
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-698731
+699681
 
 $ date -u +%s
-1630608301
+1631137232
