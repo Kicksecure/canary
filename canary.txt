@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 08 Sep 2021 21:40:22 +0000
+Tue, 14 Sep 2021 19:59:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A First Look at Angela Merkel's Legacy: The Era of Missed Opportunities
-Title: Former FBI Agent Ali Soufan: “We Lost the War in Afghanistan in the Fall of 2002”
-Title: Germany's SPD on the Rise: Olaf Scholz Aims to Succeed Merkel By Emulating Her
-Title: Artificial Intelligence: How High-Tech Tools Are Helping Combat Climate Change
-Title: Former Deutsche Bank Executive on Green Investments: "The Sustainability Propaganda Got Completely Out of Control"
+Title: Operation White Milk: How Austrian Intelligence Hid a Suspected Syrian War Criminal from the Law
+Title: Egypt Picks Europe Over China: High-Speed Rail To Connect Red Sea and Mediterranean
+Title: BioNTech Founders on Vaccine for Children: "Things Are Looking Good and Going According to Plan"
+Title: "Vaccine Apartheid": Unfair Distribution Hampers Global Vaccination Drive
+Title: A Biology Student Versus Beijing: The Triumph of an Environmental Activist in China
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Afghans Flee to Pakistan. An Uncertain Future Awaits.
-Title: Trial Begins Over November 2015 Paris Terrorist Attacks
-Title: Afghanistan Aid Workers Tread a Tricky Path Under Taliban Rule
-Title: Abortion Is No Longer a Crime in Mexico. But Most Women Still Can’t Get One.
-Title: Hong Kong Police Arrest Organizers of Tiananmen Square Vigil
+Title: How Science in India Became a 'Political Weapon' Under Modi
+Title: CNews, a Fox-Style News Network in France, Rides a Wave of Discontent
+Title: China Evergrande Warns of Financial Pressure, Hires Advisers
+Title: Putin in Self-Isolation After Possible Exposure to Coronavirus
+Title: As Virus Surges, Filipino Students Begin Second Year Online
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Paris attacks 2015: Accused complains of conditions
-Title: Afghanistan: Women protest against all-male Taliban government
-Title: Russian emergencies minister Zinichev dies on Arctic drill
-Title: Robert E Lee statue: Virginia removes contentious memorial as crowds cheer
-Title: Philippines President Rodrigo Duterte to stand as vice-president
+Title: Afghanistan: Taliban leaders in bust-up at presidential palace, sources say
+Title: Haiti PM Ariel Henry banned from leaving country amid murder inquiry
+Title: Faroe Islands: Anger over killing of 1,400 dolphins in one day
+Title: California ski resort changes offensive Native American name
+Title: Spain targets energy firms as European bills surge
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-699681
+700562
 
 $ date -u +%s
-1631137232
+1631649573
