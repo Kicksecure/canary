@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 14 Sep 2021 19:59:23 +0000
+Sat, 18 Sep 2021 08:59:28 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Operation White Milk: How Austrian Intelligence Hid a Suspected Syrian War Criminal from the Law
-Title: Egypt Picks Europe Over China: High-Speed Rail To Connect Red Sea and Mediterranean
-Title: BioNTech Founders on Vaccine for Children: "Things Are Looking Good and Going According to Plan"
-Title: "Vaccine Apartheid": Unfair Distribution Hampers Global Vaccination Drive
-Title: A Biology Student Versus Beijing: The Triumph of an Environmental Activist in China
+Title: A Third Betrayal: Many of Germany's Local Hires Are Still Waiting To Be Rescued from Afghanistan
+Title: Controversial Eurozone Accession: Concerns Rise as Bulgaria Prepares to Join the Euro
+Title: Should the Woolly Mammoth Be Brought Back To Life?
+Title: The Laschet Disaster: The Slow-Motion Collapse of Merkel's CDU
+Title: Winter Worries: The Changing Virus
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: How Science in India Became a 'Political Weapon' Under Modi
-Title: CNews, a Fox-Style News Network in France, Rides a Wave of Discontent
-Title: China Evergrande Warns of Financial Pressure, Hires Advisers
-Title: Putin in Self-Isolation After Possible Exposure to Coronavirus
-Title: As Virus Surges, Filipino Students Begin Second Year Online
+Title: In Panjshir, Few Signs of an Active Resistance, or Any Fight at All
+Title: As Populists Decline, the Center-Left Sees Hints of a Comeback
+Title: The Sharp U.S. Pivot to Asia Is Throwing Europe Off Balance
+Title: Taliban Seize Women’s Ministry Building for Use by Religious Police
+Title: Apple and Google Remove ‘Navalny’ Voting App in Russia
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghanistan: Taliban leaders in bust-up at presidential palace, sources say
-Title: Haiti PM Ariel Henry banned from leaving country amid murder inquiry
-Title: Faroe Islands: Anger over killing of 1,400 dolphins in one day
-Title: California ski resort changes offensive Native American name
-Title: Spain targets energy firms as European bills surge
+Title: Aukus: France recalls envoys amid security pact row
+Title: Afghanistan: US admits Kabul drone strike killed civilians
+Title: Gabby Petito: Fiance Brian Laundrie goes missing too
+Title: Abdelaziz Bouteflika: Former Algerian president dies aged 84
+Title: Robert Durst convicted: US millionaire found guilty of first-degree murder
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-700562
+701067
 
 $ date -u +%s
-1631649573
+1631955577
