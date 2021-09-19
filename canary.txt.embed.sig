@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtYYKiJB9rpE/eAL6EI1YHrcbbVU4hEctxG9/xqkbEmAv3HEwvimjcXxNQrlfAUvt+HzkEcWD98/8IbWUJeLAAw=
+RWQ6KRormNEETkZ6mtfucp3KhjSUEaN/oMXyWiJbyoVxMoC0XMrhyDzjHHfKtzD5MxuZZanz39ZWCKDaOZ+tO+kw5lALwPNjoQg=
 Whonix Canary
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 18 Sep 2021 08:59:28 +0000
+Sun, 19 Sep 2021 17:39:27 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Third Betrayal: Many of Germany's Local Hires Are Still Waiting To Be Rescued from Afghanistan
@@ -56,23 +56,23 @@ Title: The Laschet Disaster: The Slow-Motion Collapse of Merkel's CDU
 Title: Winter Worries: The Changing Virus
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: In Panjshir, Few Signs of an Active Resistance, or Any Fight at All
-Title: As Populists Decline, the Center-Left Sees Hints of a Comeback
-Title: The Sharp U.S. Pivot to Asia Is Throwing Europe Off Balance
-Title: Taliban Seize Women’s Ministry Building for Use by Religious Police
-Title: Apple and Google Remove ‘Navalny’ Voting App in Russia
+Title: Israel Captures Last 2 Palestinian Inmates Still Free After Prison Break
+Title: The Scientist and the A.I.-Assisted, Remote-Control Killing Machine
+Title: U.S. Calls Drone Strike a 'Tragic Mistake'
+Title: Submarine Deal Gives Post-Brexit Britain
+Title: Justin Trudeau Wanted an Election. Do Voters See a Power Grab?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Aukus: France recalls envoys amid security pact row
-Title: Afghanistan: US admits Kabul drone strike killed civilians
-Title: Gabby Petito: Fiance Brian Laundrie goes missing too
-Title: Abdelaziz Bouteflika: Former Algerian president dies aged 84
-Title: Robert Durst convicted: US millionaire found guilty of first-degree murder
+Title: Aukus: Australia defends role in security pact amid French condemnation
+Title: Afghanistan: Stay home, female Kabul government workers told
+Title: Afghanistan: The 'shattered dreams' of the Ariana cabin crew
+Title: Israel recaptures final Palestinian escapees
+Title: Manny Pacquiao: Boxing star to run for Philippines president
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-701067
+701296
 
 $ date -u +%s
-1631955577
+1632073176
