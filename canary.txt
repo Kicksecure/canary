@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 19 Sep 2021 17:39:27 +0000
+Tue, 21 Sep 2021 09:16:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A Third Betrayal: Many of Germany's Local Hires Are Still Waiting To Be Rescued from Afghanistan
+Title: Blueberries for Europe: Portugal Mortgages Its Future for Present-Day Agricultural Profits
+Title: Afghanistan: Many of Germany's Local Hires Are Still Waiting To Be Rescued
 Title: Controversial Eurozone Accession: Concerns Rise as Bulgaria Prepares to Join the Euro
 Title: Should the Woolly Mammoth Be Brought Back To Life?
 Title: The Laschet Disaster: The Slow-Motion Collapse of Merkel's CDU
-Title: Winter Worries: The Changing Virus
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Israel Captures Last 2 Palestinian Inmates Still Free After Prison Break
-Title: The Scientist and the A.I.-Assisted, Remote-Control Killing Machine
-Title: U.S. Calls Drone Strike a 'Tragic Mistake'
-Title: Submarine Deal Gives Post-Brexit Britain
-Title: Justin Trudeau Wanted an Election. Do Voters See a Power Grab?
+Title: Canada Election 2021: Trudeau's Liberals Headed to Minority Government
+Title: In Spain, Abortions Are Legal, but Many Doctors Refuse to Perform Them
+Title: Women in Afghanistan and Girls: Taliban Restrict Their Education
+Title: From Hero of ‘Hotel Rwanda,’ to Dissident, to 25-Year Prison Sentence
+Title: France’s Macron Takes on U.S., a Big Gamble Even for a Risk-Taker
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Aukus: Australia defends role in security pact amid French condemnation
-Title: Afghanistan: Stay home, female Kabul government workers told
-Title: Afghanistan: The 'shattered dreams' of the Ariana cabin crew
-Title: Israel recaptures final Palestinian escapees
-Title: Manny Pacquiao: Boxing star to run for Philippines president
+Title: Russia responsible for Litvinenko killing - European court
+Title: Canada election: Trudeau stays in power but Liberals fall short of majority
+Title: Coup attempt fails in Sudan - state media
+Title: Afghan interpreters' details in UK data breach
+Title: Mundra Port: Nearly three tonnes of heroin seized at Gujarat port
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-701296
+701541
 
 $ date -u +%s
-1632073176
+1632215794
