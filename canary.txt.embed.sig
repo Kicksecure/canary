@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETppMiXgO3Xfk1aJ6t3XRd3D3exYf/GKwgSwci9QgJK0OBSGvP9rmv6uCgqAAhA921HCV2ETxXrPQxBI8WHzRLQI=
+RWQ6KRormNEETuubU/n8y83J54gGghRXCASPqwrLXoERQBGj5faxQc7wEjWgT+AXi2coOynaRCH3ZCNo+JwHoU1obNWww2ONyAQ=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 24 Sep 2021 14:05:37 +0000
+Fri, 01 Oct 2021 10:54:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: An Opportunity Lost: How Germany's Green Party Went from Top to Flop
-Title: Interview with Merkel’s Former Foreign Policy Adviser: “I Have Eliminated the ‘West’ from My Vocabulary”
-Title: Blueberries for Europe: Portugal Mortgages Its Future for Present-Day Agricultural Profits
-Title: Afghanistan: Many of Germany's Local Hires Are Still Waiting To Be Rescued
-Title: Controversial Eurozone Accession: Concerns Rise as Bulgaria Prepares to Join the Euro
+Title: Lagos in Nigeria: A Week in the World’s Most Chaotic City
+Title: Social Design Award 2021: Grandparent Exchange, Bike Park or Yoga for Children? Vote for Your Favorite!
+Title: Germany's Kingmakers: Difficult Talks Ahead for Greens and Free Democrats
+Title: Germany's AfD Bickers over Future Direction: The Radical Right Loses Ground
+Title: What Election Disaster?: The Odd Parallel Universe of Armin Laschet
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hong Kong Pushes Opposition to Run in Preordained Elections
-Title: Suspect Arrested in Sabina Nessa Murder Investigation
-Title: Catalan Separatist Leader, Carles Puigdemont, Arrested in Italy
-Title: Europe Tightens Purse Strings to Try to Pressure Poland and Hungary
-Title: Thousands of Boko Haram Members Surrendered. They Moved In Next Door.
+Title: North Korea Missile Tests Are Part of a Familiar Strategy
+Title: A Princess Is Set to Be Wed. But It’s No Fairy Tale.
+Title: How Asia, Once a Vaccination Laggard, Is Revving Up Inoculations
+Title: Lithuania vs. China: A Baltic Minnow Defies a Rising Superpower
+Title: ‘Shrinking the Conflict’: What Does Israel’s New Mantra Really Mean?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Afghanistan: Executions will return, says senior Taliban official
-Title: Kim Yo-jong says North Korea open to ending war if conditions met
-Title: Migrants freezing to death on Belarus-Poland border
-Title: Jitender Maan Gogi: India gangster shot dead in Delhi court
-Title: Syria war: UN calculates new death toll
+Title: Australian border to reopen for first time in pandemic
+Title: Biden suffers blow as trillion-dollar vote delayed
+Title: Ecuador jail riot: Anxiety, fear and little information
+Title: North Korea says it test-fired new anti-aircraft missile
+Title: The impact of the strictest anti-abortion law in the US
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-701995
+703016
 
 $ date -u +%s
-1632492348
+1633085673
