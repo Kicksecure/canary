@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuubU/n8y83J54gGghRXCASPqwrLXoERQBGj5faxQc7wEjWgT+AXi2coOynaRCH3ZCNo+JwHoU1obNWww2ONyAQ=
+RWQ6KRormNEETgDNYC5NCEdJLd5k0ehCvPJgElzOBuBpGYbhT7m3/4S3ngvYbsGQRgfiFUthJBehYD647SrMUrvFY0toeCENGwk=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 01 Oct 2021 10:54:23 +0000
+Tue, 12 Oct 2021 11:22:12 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Lagos in Nigeria: A Week in the World’s Most Chaotic City
-Title: Social Design Award 2021: Grandparent Exchange, Bike Park or Yoga for Children? Vote for Your Favorite!
-Title: Germany's Kingmakers: Difficult Talks Ahead for Greens and Free Democrats
-Title: Germany's AfD Bickers over Future Direction: The Radical Right Loses Ground
-Title: What Election Disaster?: The Odd Parallel Universe of Armin Laschet
+Title: Fall of an Austrian Chancellor: The Stench of Corruption Leads to Kurz's Sudden Resignation
+Title: EU: Europe's Violent Shadow Army Unmasked
+Title: The New Rulers of Afghanistan: The Taliban’s Campaign to Rob Villagers of Their Land
+Title: Interview with Chief Erdoğan Adviser: “Our Friends in the West Are Acting as if We Are an Occupying Power"
+Title: Stranded on the EU External Border: Poland Turns to Questionable Methods to Turn Back Migrants
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: North Korea Missile Tests Are Part of a Familiar Strategy
-Title: A Princess Is Set to Be Wed. But It’s No Fairy Tale.
-Title: How Asia, Once a Vaccination Laggard, Is Revving Up Inoculations
-Title: Lithuania vs. China: A Baltic Minnow Defies a Rising Superpower
-Title: ‘Shrinking the Conflict’: What Does Israel’s New Mantra Really Mean?
+Title: The Body Collector of Spain: When Migrants Die at Sea, He Gets Them Home
+Title: North Korea Displays Large Missile Arsenal Amid Stalled Talks
+Title: Home Buyers Who Went All In on Evergrande Now Want Out
+Title: In Iraq Election, Shiite Cleric Who Fought U.S. Strengthens Power
+Title: Syria Is Still Shattered, But Its Neighbors Are Restoring Ties
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Australian border to reopen for first time in pandemic
-Title: Biden suffers blow as trillion-dollar vote delayed
-Title: Ecuador jail riot: Anxiety, fear and little information
-Title: North Korea says it test-fired new anti-aircraft missile
-Title: The impact of the strictest anti-abortion law in the US
+Title: North Korea: Kim Jong-un vows to build 'invincible military'
+Title: Interpreter who helped rescue Biden in 2008 leaves Afghanistan
+Title: California to enforce 'gender neutral' toy aisles in large stores
+Title: Nepal bus crash kills at least 25 in Mugu district
+Title: France: Train kills three migrants lying on tracks
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-703016
+704665
 
 $ date -u +%s
-1633085673
+1634037743
