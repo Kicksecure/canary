@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmvFsSHpFGRCKgX1ecu1pZGxjbQNI2q7L7hbNIRKwQUtCr09oRdd46rf7Mihhc93v3VMztmtEcu7GYiqUGfDiQk=
+RWQ6KRormNEETppxzhz8T4Rma9CJZn7ICh5IvUSDpTSZNeWtav5DjkFcZ73DiwWfxLR8cb0c7GhiCXbF/d6HIA3GRCVgq6RGKwo=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 14 Oct 2021 12:25:54 +0000
+Fri, 22 Oct 2021 20:37:59 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Guns from the 3D Printer: The Shadowy, Homemade Weapons Community Just Keeps on Growing
-Title: Fall of an Austrian Chancellor: The Stench of Corruption Leads to Kurz's Sudden Resignation
-Title: EU: Europe's Violent Shadow Army Unmasked
-Title: The New Rulers of Afghanistan: The Taliban’s Campaign to Rob Villagers of Their Land
-Title: Interview with Chief Erdoğan Adviser: “Our Friends in the West Are Acting as if We Are an Occupying Power"
+Title: Crossing the Darién Gap: A Deadly Jungle on the Trek to America
+Title: Axel Springer: Sexual Misconduct of Bild Editor Julian Reichelt Has a Long History
+Title: Narco-State Netherlands: The Slippery Dutch Slope from Drug Tolerance to Drug Terror
+Title: Golden Visas for Refugees: “We Are Trading the Borders Away"
+Title: Indo-Pacific Arms Race: The U.S. and China Face Off in the Far East
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Deadly Clashes Erupt in Beirut
-Title: ‘It Was a Sea of Flames’: At Least 46 Killed in Taiwan Apartment Fire
-Title: Exuberant Art and Cable Car Can Lift a Poor, Violent Place Only So High
-Title: Man Is Charged in Bow-and-Arrow Attack in Norway That Killed 5
-Title: North Korean Soldiers Lie Shirtless on Broken Glass
+Title: How Russia Is Cashing In on Climate Change
+Title: Gangs in Haiti, Breaking a Taboo, Target the Church
+Title: ‘Needle Spiking’ of Women in Britain Stirs Alarm Over New Kind of Assault
+Title: India's Farmer Protesters Are Confronting Modi Head-On
+Title: Renato Casaro’s Posters Capture Films’ Essential Moments
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kongsberg: Bow and arrow suspect known to Norway police
-Title: Kaohsiung: Fire at Taiwan tower block kills at least 46
-Title: Beirut port blast: Gunfire erupts at protest against judge leading probe
-Title: Lamu murder: Death sentence for popular Chinese vlogger's killer
-Title: Masten Wanjala: Kenyan child killer escapes from police custody
+Title: Alec Baldwin 'heartbroken' over fatal film set shooting
+Title: Alec Baldwin: What are prop guns and why are they dangerous?
+Title: Eswatini protests: Nurses refuse to treat police after colleagues shot
+Title: How Belarus is helping ‘tourists’ break into the EU
+Title: Students sue Texas school district for banning long hair on boys
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-704972
+706208
 
 $ date -u +%s
-1634214363
+1634935087
