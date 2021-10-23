@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETppxzhz8T4Rma9CJZn7ICh5IvUSDpTSZNeWtav5DjkFcZ73DiwWfxLR8cb0c7GhiCXbF/d6HIA3GRCVgq6RGKwo=
+RWQ6KRormNEEThVaeRS//bTaEzjCH83pkOjmnIK5ZUrnY7M2h/ospFk0SpoWcT4WNQyQfcSpDStr+nf+TfAVNFpmGT21ABFaNAA=
 Whonix Canary
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 22 Oct 2021 20:37:59 +0000
+Sat, 23 Oct 2021 13:40:36 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Crossing the Darién Gap: A Deadly Jungle on the Trek to America
@@ -56,23 +56,23 @@ Title: Golden Visas for Refugees: “We Are Trading the Borders Away"
 Title: Indo-Pacific Arms Race: The U.S. and China Face Off in the Far East
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: How Russia Is Cashing In on Climate Change
-Title: Gangs in Haiti, Breaking a Taboo, Target the Church
+Title: She Is Breaking Glass Ceilings in Space, but Facing Sexism on Earth
+Title: Pakistan and India Face Off in Cricket's T20 World Cup
+Title: Turkish Opposition Begins Joining Ranks Against Erdogan
 Title: ‘Needle Spiking’ of Women in Britain Stirs Alarm Over New Kind of Assault
-Title: India's Farmer Protesters Are Confronting Modi Head-On
-Title: Renato Casaro’s Posters Capture Films’ Essential Moments
+Title: How Russia Is Cashing In on Climate Change
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Alec Baldwin 'heartbroken' over fatal film set shooting
-Title: Alec Baldwin: What are prop guns and why are they dangerous?
+Title: Alec Baldwin told gun was safe before fatal shooting - court records
+Title: Saudi Arabia commits to net zero emissions by 2060
+Title: China seeks to lift homework pressures on schoolchildren
+Title: Record high migrant detentions at US-Mexico border
 Title: Eswatini protests: Nurses refuse to treat police after colleagues shot
-Title: How Belarus is helping ‘tourists’ break into the EU
-Title: Students sue Texas school district for banning long hair on boys
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-706208
+706320
 
 $ date -u +%s
-1634935087
+1634996444
