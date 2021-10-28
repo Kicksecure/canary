@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 23 Oct 2021 13:40:36 +0000
+Thu, 28 Oct 2021 16:11:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Ethiopia's Chosen One: A Brutal War Waged By a Nobel Peace Prize Laureate
+Title: The Fragile State of Bosnia and Herzegovina: Bosnian Serbs Are Playing with Fire
+Title: Afghanistan Teetering on the Brink of Economic Collapse - Tall Task for the Taliban
+Title: Green Party Co-Leader Annalena Baerbock on Coalition Talks: "The Government Currently Being Formed Is Finally Going to Act"
 Title: Crossing the Darién Gap: A Deadly Jungle on the Trek to America
-Title: Axel Springer: Sexual Misconduct of Bild Editor Julian Reichelt Has a Long History
-Title: Narco-State Netherlands: The Slippery Dutch Slope from Drug Tolerance to Drug Terror
-Title: Golden Visas for Refugees: “We Are Trading the Borders Away"
-Title: Indo-Pacific Arms Race: The U.S. and China Face Off in the Far East
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: She Is Breaking Glass Ceilings in Space, but Facing Sexism on Earth
-Title: Pakistan and India Face Off in Cricket's T20 World Cup
-Title: Turkish Opposition Begins Joining Ranks Against Erdogan
-Title: ‘Needle Spiking’ of Women in Britain Stirs Alarm Over New Kind of Assault
-Title: How Russia Is Cashing In on Climate Change
+Title: Why China Is the World’s Last ‘Zero Covid’ Holdout
+Title: Gangs Rule Much of Haiti. For Many, It Means No Fuel, No Power, No Food.
+Title: Hellishly Hot Tiny Town Offers ‘Free’ Land. Hundreds of Calls Came In.
+Title: Taliban Allow Girls to Return to Some High Schools, but With Big Caveats
+Title: Pope Expresses ‘Willingness’ to Visit Canada for Indigenous Reconciliation
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Alec Baldwin told gun was safe before fatal shooting - court records
-Title: Saudi Arabia commits to net zero emissions by 2060
-Title: China seeks to lift homework pressures on schoolchildren
-Title: Record high migrant detentions at US-Mexico border
-Title: Eswatini protests: Nurses refuse to treat police after colleagues shot
+Title: Biden to announce revamped $1.75 trillion social spending plan
+Title: Covid: Moscow shops and restaurants shut in partial lockdown
+Title: Film-maker who exposed East Timor massacre dies
+Title: Ali al-Nimr: Saudi child protester who faced death penalty released
+Title: Sitting Bull: DNA confirms great-grandson's identity
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-706320
+707121
 
 $ date -u +%s
-1634996444
+1635437486
