@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 28 Oct 2021 16:11:18 +0000
+Sun, 31 Oct 2021 19:48:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Key Issues at Climate Conference: How the Worst Can (Maybe) Still Be Averted
+Title: Facebook in the Crosshairs: Berlin Hoping to Tighten the Reins on Social Media Giants
 Title: Ethiopia's Chosen One: A Brutal War Waged By a Nobel Peace Prize Laureate
 Title: The Fragile State of Bosnia and Herzegovina: Bosnian Serbs Are Playing with Fire
 Title: Afghanistan Teetering on the Brink of Economic Collapse - Tall Task for the Taliban
-Title: Green Party Co-Leader Annalena Baerbock on Coalition Talks: "The Government Currently Being Formed Is Finally Going to Act"
-Title: Crossing the Darién Gap: A Deadly Jungle on the Trek to America
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Why China Is the World’s Last ‘Zero Covid’ Holdout
-Title: Gangs Rule Much of Haiti. For Many, It Means No Fuel, No Power, No Food.
-Title: Hellishly Hot Tiny Town Offers ‘Free’ Land. Hundreds of Calls Came In.
-Title: Taliban Allow Girls to Return to Some High Schools, but With Big Caveats
-Title: Pope Expresses ‘Willingness’ to Visit Canada for Indigenous Reconciliation
+Title: Rivals on World Stage, Russia and U.S. Quietly Seek Areas of Accord
+Title: Japan Election: Kishida Struggles to Connect With Voters
+Title: U.K. Police Struggle to Curb Abuse of Women by Their Own Officers
+Title: Biden Finds Raising Corporate Tax Rates Easier Abroad Than at Home
+Title: Protesters Killed in Sudan on Day Seen as a Test for the Military
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Biden to announce revamped $1.75 trillion social spending plan
-Title: Covid: Moscow shops and restaurants shut in partial lockdown
-Title: Film-maker who exposed East Timor massacre dies
-Title: Ali al-Nimr: Saudi child protester who faced death penalty released
-Title: Sitting Bull: DNA confirms great-grandson's identity
+Title: G20 pledge climate action but make few commitments
+Title: Yemen: Nine killed in Aden airport car bomb
+Title: At least 17 injured in Tokyo subway knife and arson attack
+Title: Sudan coup: Khartoum barricaded by pro-democracy activists
+Title: 'Father of tiramisu' Ado Campeol dies aged 93
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-707121
+707613
 
 $ date -u +%s
-1635437486
+1635709706
