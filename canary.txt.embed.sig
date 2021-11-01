@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEToKt1j28yvq0qcfm7eN19va8Uvbf8opr0YI6hNzIRadeXpBCGXHS1xu07N9MwEmRKAuqwb29Tc5Wd4s++cw6IAY=
+RWQ6KRormNEETsN6QzQqqgRU22mCQsNPeK6AjRgoj4KzsL7CWsN8SXoAH/Mg+IABPmG4ltbtSg/IXfqknuYQ+O3JdlzoB+J+7Ac=
 Whonix Canary
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 31 Oct 2021 19:48:17 +0000
+Mon, 01 Nov 2021 14:02:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Key Issues at Climate Conference: How the Worst Can (Maybe) Still Be Averted
@@ -56,23 +56,23 @@ Title: The Fragile State of Bosnia and Herzegovina: Bosnian Serbs Are Playing wi
 Title: Afghanistan Teetering on the Brink of Economic Collapse - Tall Task for the Taliban
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+Title: Once a Leading Polluter, the U.K. Is Now Trying to Lead on Climate Change
 Title: Rivals on World Stage, Russia and U.S. Quietly Seek Areas of Accord
-Title: Japan Election: Kishida Struggles to Connect With Voters
+Title: He Brokered Apartheid’s End. Can He Save South Africa’s Liberation Party?
+Title: COP26 Live Updates: ‘We Are Digging Our Own Graves,’ U.N. Leader Warns at Climate Summit
 Title: U.K. Police Struggle to Curb Abuse of Women by Their Own Officers
-Title: Biden Finds Raising Corporate Tax Rates Easier Abroad Than at Home
-Title: Protesters Killed in Sudan on Day Seen as a Test for the Military
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: G20 pledge climate action but make few commitments
-Title: Yemen: Nine killed in Aden airport car bomb
-Title: At least 17 injured in Tokyo subway knife and arson attack
-Title: Sudan coup: Khartoum barricaded by pro-democracy activists
-Title: 'Father of tiramisu' Ado Campeol dies aged 93
+Title: Covid-19 deaths pass five million worldwide
+Title: Barclays boss Jes Staley in shock exit angry at Epstein probe
+Title: Libya: Thousands of migrants and refugees camp on UN's doorstep
+Title: Covid-19: Single case shuts down Shanghai Disneyland
+Title: New Zealand bat flies away with bird of the year award
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-707613
+707723
 
 $ date -u +%s
-1635709706
+1635775382
