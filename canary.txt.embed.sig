@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETsN6QzQqqgRU22mCQsNPeK6AjRgoj4KzsL7CWsN8SXoAH/Mg+IABPmG4ltbtSg/IXfqknuYQ+O3JdlzoB+J+7Ac=
+RWQ6KRormNEETkbQlyy4JkelRV5kByPtjHZ1zc7clsXXA/1kOJw/2fRULD3B70CzNXVG6I0xbdGddPwGc7CKHQlegxZXkoXWIwA=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 01 Nov 2021 14:02:53 +0000
+Tue, 09 Nov 2021 19:43:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Key Issues at Climate Conference: How the Worst Can (Maybe) Still Be Averted
-Title: Facebook in the Crosshairs: Berlin Hoping to Tighten the Reins on Social Media Giants
-Title: Ethiopia's Chosen One: A Brutal War Waged By a Nobel Peace Prize Laureate
-Title: The Fragile State of Bosnia and Herzegovina: Bosnian Serbs Are Playing with Fire
-Title: Afghanistan Teetering on the Brink of Economic Collapse - Tall Task for the Taliban
+Title: Algerian President Abdelmadjid Tebboune: "You Can’t Question a People’s History and You Can’t Insult the Algerians"
+Title: Belarus: How Refugees Are Getting Trapped by Alexander Lukashenko
+Title: Troubling Addiction: The World Is Failing To Phase Out Coal
+Title: NATO, China and Nord Stream 2: Germany's Likely Future Coalition Partners Bicker over Foreign Policy
+Title: Mining the Planet to Death: The Dirty Truth About Clean Technologies
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Once a Leading Polluter, the U.K. Is Now Trying to Lead on Climate Change
-Title: Rivals on World Stage, Russia and U.S. Quietly Seek Areas of Accord
-Title: He Brokered Apartheid’s End. Can He Save South Africa’s Liberation Party?
-Title: COP26 Live Updates: ‘We Are Digging Our Own Graves,’ U.N. Leader Warns at Climate Summit
-Title: U.K. Police Struggle to Curb Abuse of Women by Their Own Officers
+Title: India Risks Covid-19 Complacency After Its Vaccine Campaign
+Title: Africa's Leaders Say Rich Countries Need to Quit Oil and Gas First
+Title: Brexit Brain Drain  Delivers Financial Boon to Estonia
+Title: Paytm's Parent Company, One97 Communications, Goes Public
+Title: U.S. Travel Ban Ends, and Europeans Head Overseas Again
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Covid-19 deaths pass five million worldwide
-Title: Barclays boss Jes Staley in shock exit angry at Epstein probe
-Title: Libya: Thousands of migrants and refugees camp on UN's doorstep
-Title: Covid-19: Single case shuts down Shanghai Disneyland
-Title: New Zealand bat flies away with bird of the year award
+Title: Belarus migrants: EU accuses Lukashenko of gangster-style abuse
+Title: Desperate Afghans turn to people smugglers for help fleeing the country
+Title: Ghislaine Maxwell to challenge accusers' memories
+Title: Nagaenthran: Family prays for miracle to halt execution of man with low IQ
+Title: COP26: World headed for 2.4C warming despite climate summit - report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-707723
+708968
 
 $ date -u +%s
-1635775382
+1636487015
