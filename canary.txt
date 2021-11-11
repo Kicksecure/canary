@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 09 Nov 2021 19:43:25 +0000
+Thu, 11 Nov 2021 08:47:30 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Photographic Journey through South Sudan's Burgeoning Music Scene
 Title: Algerian President Abdelmadjid Tebboune: "You Can’t Question a People’s History and You Can’t Insult the Algerians"
 Title: Belarus: How Refugees Are Getting Trapped by Alexander Lukashenko
 Title: Troubling Addiction: The World Is Failing To Phase Out Coal
 Title: NATO, China and Nord Stream 2: Germany's Likely Future Coalition Partners Bicker over Foreign Policy
-Title: Mining the Planet to Death: The Dirty Truth About Clean Technologies
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: India Risks Covid-19 Complacency After Its Vaccine Campaign
-Title: Africa's Leaders Say Rich Countries Need to Quit Oil and Gas First
-Title: Brexit Brain Drain  Delivers Financial Boon to Estonia
-Title: Paytm's Parent Company, One97 Communications, Goes Public
-Title: U.S. Travel Ban Ends, and Europeans Head Overseas Again
+Title: Poland Gets Support From Europe on Tough Borders
+Title: E.U. Blames Belarus for Migrant Crisis at Poland Border
+Title: Europe, Taiwan Inch Closer as Distrust of Beijing Grows
+Title: Boris Johnson Handles Scandal Amid Climate Conference
+Title: E.U. Sides With Poland Over Migrants at Belarus Border
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Belarus migrants: EU accuses Lukashenko of gangster-style abuse
-Title: Desperate Afghans turn to people smugglers for help fleeing the country
-Title: Ghislaine Maxwell to challenge accusers' memories
-Title: Nagaenthran: Family prays for miracle to halt execution of man with low IQ
-Title: COP26: World headed for 2.4C warming despite climate summit - report
+Title: Kyle Rittenhouse: US teen gunman's lawyers seek mistrial
+Title: Mireille Knoll: Killer of French Holocaust survivor jailed for life
+Title: Alec Baldwin film tragedy: Crew member sues for negligence
+Title: Climate change: Iran says lift sanctions and we'll ratify Paris agreement
+Title: Watch as hot air balloonist breaks world record
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-708968
+709201
 
 $ date -u +%s
-1636487015
+1636620460
