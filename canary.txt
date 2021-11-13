@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 11 Nov 2021 08:47:30 +0000
+Sat, 13 Nov 2021 22:12:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Anti-Vaxxers and Politicians Push Germany to the Brink
+Title: The EU’s Decades of Tax Trick Tolerance
+Title: A New Controversy Erupts Around Ursula von der Leyen's Text Messages
+Title: COVID-19 in Romania: From Vaccine Champion to the World's Highest Death Rate
 Title: A Photographic Journey through South Sudan's Burgeoning Music Scene
-Title: Algerian President Abdelmadjid Tebboune: "You Can’t Question a People’s History and You Can’t Insult the Algerians"
-Title: Belarus: How Refugees Are Getting Trapped by Alexander Lukashenko
-Title: Troubling Addiction: The World Is Failing To Phase Out Coal
-Title: NATO, China and Nord Stream 2: Germany's Likely Future Coalition Partners Bicker over Foreign Policy
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Poland Gets Support From Europe on Tough Borders
-Title: E.U. Blames Belarus for Migrant Crisis at Poland Border
-Title: Europe, Taiwan Inch Closer as Distrust of Beijing Grows
-Title: Boris Johnson Handles Scandal Amid Climate Conference
-Title: E.U. Sides With Poland Over Migrants at Belarus Border
+Title: Urbanites in Canada Flock to Atlantic Region Amid Remote Work Shift
+Title: Migrants Say Belarusians Took Them to E.U. Border and Supplied Wire Cutters
+Title: Meghan's Image, Battered in Britain's Tabloids, Thrives in U.S.
+Title: Survivors of 2015 Paris Terrorist Attacks 'Dead Among the Living'
+Title: India Wants to Send Wheat to Ease Afghan Hunger Crisis. Pakistan Has Yet to OK Transit.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kyle Rittenhouse: US teen gunman's lawyers seek mistrial
-Title: Mireille Knoll: Killer of French Holocaust survivor jailed for life
-Title: Alec Baldwin film tragedy: Crew member sues for negligence
-Title: Climate change: Iran says lift sanctions and we'll ratify Paris agreement
-Title: Watch as hot air balloonist breaks world record
-
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+Title: COP26: New global climate deal struck in Glasgow
+Title: Belarus-Poland border: Putin warns Belarus over gas threat to EU
+Title: Ecuador prison riot: New fighting at Guayaquil jail kills 68
+Title: Sudan: Medical group says five killed in anti-coup protests
+Title: Covid: Dutch accept life within 'lockdown-lite'
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-709201
+
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+709585
 
 $ date -u +%s
-1636620460
+1636841540
