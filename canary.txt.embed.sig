@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETsf1gVcAq7fRmBTkY+K8fOnqJ8p0udOxOQmV/7AEQTod1PeNfOqqGWSoxejlQV5QU5smJyo90DLugtC68eS4nAo=
+RWQ6KRormNEETlRB9Kqy3ylQ5Qm128vFAs8l/b75401kQeWISCCEK+dlRW+nfeQQAaM17sEm1VbvtVMc3tNBjbLrOsxSlFqIaAI=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 13 Nov 2021 22:12:10 +0000
+Thu, 18 Nov 2021 17:03:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: New Details Shed Light on Lukashenko's Human Trafficking Network
+Title: Feeding the World in Times of Climate Change: "We Can Learn a Lot from Indigenous Peoples"
+Title: Tax Havens in Europa: "Finance Ministers Often Couldn't See Through Them"
+Title: Rainforest Rebellion: Mass Clear-Cutting in Congo
 Title: Anti-Vaxxers and Politicians Push Germany to the Brink
-Title: The EU’s Decades of Tax Trick Tolerance
-Title: A New Controversy Erupts Around Ursula von der Leyen's Text Messages
-Title: COVID-19 in Romania: From Vaccine Champion to the World's Highest Death Rate
-Title: A Photographic Journey through South Sudan's Burgeoning Music Scene
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Urbanites in Canada Flock to Atlantic Region Amid Remote Work Shift
-Title: Migrants Say Belarusians Took Them to E.U. Border and Supplied Wire Cutters
-Title: Meghan's Image, Battered in Britain's Tabloids, Thrives in U.S.
-Title: Survivors of 2015 Paris Terrorist Attacks 'Dead Among the Living'
-Title: India Wants to Send Wheat to Ease Afghan Hunger Crisis. Pakistan Has Yet to OK Transit.
+Title: Live Updates: Belarus Clears Main Border Crossing With Poland
+Title: Furor Over Peng Shuai's #Metoo Accusation Challenges China
+Title: India's Toxic Air Pollution Prompts Supreme Court to Act
+Title: The Women Bringing Sex Ed to the Arab World
+Title: Fury in Kashmir After Deadly Police Raid at Shopping Complex
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: COP26: New global climate deal struck in Glasgow
-Title: Belarus-Poland border: Putin warns Belarus over gas threat to EU
-Title: Ecuador prison riot: New fighting at Guayaquil jail kills 68
-Title: Sudan: Medical group says five killed in anti-coup protests
-Title: Covid: Dutch accept life within 'lockdown-lite'
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+Title: Peng Shuai: Doubt cast on email from Chinese tennis star
+Title: Afghan girl footballers reach UK on Kim Kardashian West-funded flight
+Title: Greece suspends espionage trial of 24 aid workers
+Title: Julius Jones: School walk-outs and protests as execution looms
+Title: Alec Baldwin: Rust script didn't call for gun to be fired, lawsuit alleges
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
-709585
+
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
+710299
 
 $ date -u +%s
-1636841540
+1637255001
