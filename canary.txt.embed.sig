@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlRB9Kqy3ylQ5Qm128vFAs8l/b75401kQeWISCCEK+dlRW+nfeQQAaM17sEm1VbvtVMc3tNBjbLrOsxSlFqIaAI=
+RWQ6KRormNEETuyyt2Sequ5UG6rqHfvUbs6/xlnn/6cycinDUP6ibVlYl9DnUqdx0khxAmah/QHuKeaocfG0pzvFC4LzxWPM2gU=
 Whonix Canary
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 18 Nov 2021 17:03:11 +0000
+Tue, 23 Nov 2021 15:32:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Trying to Do the Right Thing: Refugees in Exclusion Zone Deeply Divide Poles
+Title: The Violence of the Fourth Wave: "One Thing We Have Learned Is that COVID Is an Asshole"
+Title: COVID in Germany: Study Finds Link Between Far Right and High Corona Rates
 Title: New Details Shed Light on Lukashenko's Human Trafficking Network
 Title: Feeding the World in Times of Climate Change: "We Can Learn a Lot from Indigenous Peoples"
-Title: Tax Havens in Europa: "Finance Ministers Often Couldn't See Through Them"
-Title: Rainforest Rebellion: Mass Clear-Cutting in Congo
-Title: Anti-Vaxxers and Politicians Push Germany to the Brink
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Belarus Clears Main Border Crossing With Poland
-Title: Furor Over Peng Shuai's #Metoo Accusation Challenges China
-Title: India's Toxic Air Pollution Prompts Supreme Court to Act
-Title: The Women Bringing Sex Ed to the Arab World
-Title: Fury in Kashmir After Deadly Police Raid at Shopping Complex
+Title: Austria Imposes Lockdown Amid Europe’s Covid Surge
+Title: Trying to Blur Memories of the Gulag, Russia Targets a Rights Group
+Title: Bulgaria Bus Crash Kills Dozens
+Title: Hong Kong’s National Security Law Explained
+Title: As Virus Cases Rise in Europe, an Economic Toll Returns
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Peng Shuai: Doubt cast on email from Chinese tennis star
-Title: Afghan girl footballers reach UK on Kim Kardashian West-funded flight
-Title: Greece suspends espionage trial of 24 aid workers
-Title: Julius Jones: School walk-outs and protests as execution looms
-Title: Alec Baldwin: Rust script didn't call for gun to be fired, lawsuit alleges
+Title: Bulgaria bus crash: Children among at least 46 killed
+Title: Peng Shuai: China says tennis star case maliciously hyped up
+Title: Meredith Kercher: Student's killer Rudy Guede ends sentence
+Title: Ethiopia's Tigray conflict: PM Abiy Ahmed vows to lead from the war front
+Title: Wisconsin: Parade incident driver to be charged with homicide
 
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-710299
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+710993
 
 $ date -u +%s
-1637255001
+1637681560
