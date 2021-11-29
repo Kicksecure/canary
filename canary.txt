@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 23 Nov 2021 15:32:24 +0000
+Mon, 29 Nov 2021 13:39:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: How Stable Is Germany's New Coalition?: The First Fractures Become Apparent in Berlin
+Title: The Bataclan Trial: Salah Abdeslam and the Banality of Terror
+Title: Imagining Life after Erdoğan: Turkish Economic Woes Fuel Speculation of Early Elections
 Title: Trying to Do the Right Thing: Refugees in Exclusion Zone Deeply Divide Poles
 Title: The Violence of the Fourth Wave: "One Thing We Have Learned Is that COVID Is an Asshole"
-Title: COVID in Germany: Study Finds Link Between Far Right and High Corona Rates
-Title: New Details Shed Light on Lukashenko's Human Trafficking Network
-Title: Feeding the World in Times of Climate Change: "We Can Learn a Lot from Indigenous Peoples"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Austria Imposes Lockdown Amid Europe’s Covid Surge
-Title: Trying to Blur Memories of the Gulag, Russia Targets a Rights Group
-Title: Bulgaria Bus Crash Kills Dozens
-Title: Hong Kong’s National Security Law Explained
-Title: As Virus Cases Rise in Europe, an Economic Toll Returns
+Title: As World Shuts Borders to Stop Omicron, Japan Offers a Cautionary Tale
+Title: She Fled North Korea for Freedom. Then She Was Arrested.
+Title: As U.S. Hunts for Chinese Spies, University Scientists Warn of Backlash
+Title: Honduras Election: Opposition Candidate Takes Big Early Lead
+Title: ‘You’re Not Helpless’: For London Women, Learning to Fight Builds Confidence
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Bulgaria bus crash: Children among at least 46 killed
-Title: Peng Shuai: China says tennis star case maliciously hyped up
-Title: Meredith Kercher: Student's killer Rudy Guede ends sentence
-Title: Ethiopia's Tigray conflict: PM Abiy Ahmed vows to lead from the war front
-Title: Wisconsin: Parade incident driver to be charged with homicide
+Title: Covid: South Africa's president calls for lifting of Omicron travel bans
+Title: Magdalena Andersson: Sweden's first female PM returns after resignation
+Title: Covid: Dutch police arrest quarantine hotel escapees
+Title: China: North Korea fugitive captured after 40-day manhunt
+Title: Oscar Pistorius set to meet victim Reeva Steenkamp's parents
 
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
-710993
+711812
 
 $ date -u +%s
-1637681560
+1638193193
