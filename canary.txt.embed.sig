@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETso1N960re7jM3qplDu5FqhsQBqq8l70uYg1l3LVtoXKxDGYlSAZREBPjReSYhn9Y0EQUkqPS4FBU4cgM93pOg4=
+RWQ6KRormNEETkg4Wcnj+SFnjNWOCBupp1I9jo4COnctE/bD9fyAqiRkboe4LcKZWnqgr+Moywfoy6q2E4n+d3/bzdCKizrTvQo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 03 Dec 2021 14:27:06 +0000
+Sat, 04 Dec 2021 19:08:41 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Omicron: "In the Coming Weeks, We’ll Know More about How Well Vaccines Protect Against Omicron"
+Title: Researchers on the Omicron Variant: "We Are Playing with Fire"
 Title: The Corona Debate in Africa: With Omicron Spreading, Many Countries Consider Vaccine Mandates
 Title: German Foreign Minister-Designate Annalena Baerbock: "I Don’t Believe in Applying Old Labels To New Geopolitical Developments"
 Title: FDP Head Christian Lindner on Germany's New Coalition: "People Don't Want to Be Dragged Down Any Longer by Quarreling"
-Title: How Stable Is Germany's New Coalition?: The First Fractures Become Apparent in Berlin
-Title: The Bataclan Trial: Salah Abdeslam and the Banality of Terror
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: A Slow-Motion Climate Disaster: The Spread of Barren Land
-Title: Covid Live Updates: Omicron Variant Found in Several U.S. States
+Title: In Afghanistan, ‘Who Has the Guns Gets the Land’
+Title: Samba, Cachaça and Pickled Eggs: ‘Dirty Feet’ Bars Are ‘Essence of Rio’
 Title: Stabbed 20 Times by Her Husband, She Now Fights Laws Favoring Abusers
-Title: Omicron Variant Reinfects People Who Have Had the Coronavirus
-Title: Philippine Court Allows Maria Ressa to Attend Nobel Peace Prize Ceremony
+Title: Eitan Biran Returns to Italy From Israel in Custody Dispute
+Title: Covid Updates: F.D.A. Authorizes Eli Lilly Antibody Treatment for Youngest Covid Patients
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US tightens travel rules amid new Omicron cases
-Title: Omicron coronavirus variant: Your questions answered
-Title: The drought ravaging East African wildlife and livestock
-Title: Ghislaine Maxwell: Employee told 'not to look Jeffrey Epstein in the eye'
-Title: US government shutdown averted hours before deadline
+Title: Indonesia volcano: Dozens injured as residents flee huge ash cloud from Mt Semeru
+Title: Afghanistan: Macron reveals plans for joint European mission
+Title: Michigan school shooting: Suspect's parents deny involuntary manslaughter
+Title: Ghislaine Maxwell trial: Key moments from the first week
+Title: Belgian zoo hippos test positive for Covid
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-712400
+712599
 
 $ date -u +%s
-1638541634
+1638644930
