@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkg4Wcnj+SFnjNWOCBupp1I9jo4COnctE/bD9fyAqiRkboe4LcKZWnqgr+Moywfoy6q2E4n+d3/bzdCKizrTvQo=
+RWQ6KRormNEETqMjiTl8OGn6KQiU0xFf6yNo9Brii7amfojeVn6qRvR79twdLXrLiIoMcRxO5JNd+TvLH4G9WMUklRb8nR5ywgs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 04 Dec 2021 19:08:41 +0000
+Thu, 09 Dec 2021 10:20:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Sexual Violence against Children: Why Aren't Thousands of Gigabytes of Abusive Images Removed from the Web?
+Title: Bulgarian Election Winner Kiril Petkov: "We Will Be Merciless in Applying the Law"
 Title: Omicron: "In the Coming Weeks, We’ll Know More about How Well Vaccines Protect Against Omicron"
 Title: Researchers on the Omicron Variant: "We Are Playing with Fire"
 Title: The Corona Debate in Africa: With Omicron Spreading, Many Countries Consider Vaccine Mandates
-Title: German Foreign Minister-Designate Annalena Baerbock: "I Don’t Believe in Applying Old Labels To New Geopolitical Developments"
-Title: FDP Head Christian Lindner on Germany's New Coalition: "People Don't Want to Be Dragged Down Any Longer by Quarreling"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: In Afghanistan, ‘Who Has the Guns Gets the Land’
-Title: Samba, Cachaça and Pickled Eggs: ‘Dirty Feet’ Bars Are ‘Essence of Rio’
-Title: Stabbed 20 Times by Her Husband, She Now Fights Laws Favoring Abusers
-Title: Eitan Biran Returns to Italy From Israel in Custody Dispute
-Title: Covid Updates: F.D.A. Authorizes Eli Lilly Antibody Treatment for Youngest Covid Patients
+Title: Ally, Member or Partner? NATO’s Long Dilemma Over Ukraine.
+Title: With Olaf Scholz at the Helm in Germany, a  New, Uncertain Chapter
+Title: Upik Lawanga, Indonesian Militant, Is Sentenced to Life in Prison
+Title: India’s Top Military General, Bipin Rawat, Dies in Helicopter Crash
+Title: Jailed Journalists Reach Record High for Sixth Year in 2021
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Indonesia volcano: Dozens injured as residents flee huge ash cloud from Mt Semeru
-Title: Afghanistan: Macron reveals plans for joint European mission
-Title: Michigan school shooting: Suspect's parents deny involuntary manslaughter
-Title: Ghislaine Maxwell trial: Key moments from the first week
-Title: Belgian zoo hippos test positive for Covid
+Title: Ethiopia war: UN halts food aid in two towns after warehouses looted
+Title: Epstein and Maxwell pictured at Queen's residence at Balmoral
+Title: Hong Kong: Jimmy Lai convicted for taking part in Tiananmen vigil
+Title: Africa needs China and the US to work together
+Title: British waste dumped in Romania
 
-$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/latestblock
+$ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-712599
+713350
 
 $ date -u +%s
-1638644930
+1639045248
