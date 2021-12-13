@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqMjiTl8OGn6KQiU0xFf6yNo9Brii7amfojeVn6qRvR79twdLXrLiIoMcRxO5JNd+TvLH4G9WMUklRb8nR5ywgs=
+RWQ6KRormNEETl7KPEsqcWrbTh0BKuBPVfr9ciHLWdVnF6mckybT3GRfu3NmqFCjXWCOlqjdiU8QwbAaLFJU6Zs5FRWKZs2LRgg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 09 Dec 2021 10:20:40 +0000
+Mon, 13 Dec 2021 22:32:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Sexual Violence against Children: Why Aren't Thousands of Gigabytes of Abusive Images Removed from the Web?
-Title: Bulgarian Election Winner Kiril Petkov: "We Will Be Merciless in Applying the Law"
-Title: Omicron: "In the Coming Weeks, We’ll Know More about How Well Vaccines Protect Against Omicron"
-Title: Researchers on the Omicron Variant: "We Are Playing with Fire"
-Title: The Corona Debate in Africa: With Omicron Spreading, Many Countries Consider Vaccine Mandates
+Title: German Health Minister on Vaccine Mandate: "No One Is Going to Be Sent to Jail"
+Title: Resurrection of the SP: The Unexpected Rise of Germany's New Chancellor, Olaf Scholz
+Title: BioNTech Founder Şahin on the Omicron Variant: “It Will Make Scientific Sense To Offer Booster after Three Months”
+Title: City of Warriors: Resistance Across the Border to the Myanmar Military Junta
+Title: Deadly Intrigue: The Story of the Destruction of an Aid Organization
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ally, Member or Partner? NATO’s Long Dilemma Over Ukraine.
-Title: With Olaf Scholz at the Helm in Germany, a  New, Uncertain Chapter
-Title: Upik Lawanga, Indonesian Militant, Is Sentenced to Life in Prison
-Title: India’s Top Military General, Bipin Rawat, Dies in Helicopter Crash
-Title: Jailed Journalists Reach Record High for Sixth Year in 2021
+Title: Israeli Prime Minister Holds Historic Meeting With U.A.E Crown Prince
+Title: Across the World, Covid Anxiety and Depression Take Hold
+Title: Boris Johnson Is in Trouble. The Question Is, How Much?
+Title: India Cities Ban Eggs, Drawing a Backlash
+Title: South Korea Has Long Wanted Nuclear Subs. A New Reactor Could Open a Door.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ethiopia war: UN halts food aid in two towns after warehouses looted
-Title: Epstein and Maxwell pictured at Queen's residence at Balmoral
-Title: Hong Kong: Jimmy Lai convicted for taking part in Tiananmen vigil
-Title: Africa needs China and the US to work together
-Title: British waste dumped in Romania
+Title: Kentucky tornadoes: Race to find missing in flattened US towns
+Title: 'It's the definition of hell on Earth'
+Title: Two detained after UK boat's fatal collision off Sweden
+Title: Larry Nassar abuse survivors to receive $380m settlement
+Title: Italy: Seven dead as rescuers find bodies in Sicily blast
+
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
-
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-713350
+714026
 
 $ date -u +%s
-1639045248
+1639434767
