@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETl7KPEsqcWrbTh0BKuBPVfr9ciHLWdVnF6mckybT3GRfu3NmqFCjXWCOlqjdiU8QwbAaLFJU6Zs5FRWKZs2LRgg=
+RWQ6KRormNEETrzr/H3kXDp15SHBXLi30mYtV7A/LiPUXTtG9TbPXGDlv++IuBO1AOEyA3a6sP3Hcmu3qaLUDOjnRpkvAMRmagU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 13 Dec 2021 22:32:38 +0000
+Tue, 21 Dec 2021 08:01:27 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: German Health Minister on Vaccine Mandate: "No One Is Going to Be Sent to Jail"
-Title: Resurrection of the SP: The Unexpected Rise of Germany's New Chancellor, Olaf Scholz
-Title: BioNTech Founder Şahin on the Omicron Variant: “It Will Make Scientific Sense To Offer Booster after Three Months”
-Title: City of Warriors: Resistance Across the Border to the Myanmar Military Junta
-Title: Deadly Intrigue: The Story of the Destruction of an Aid Organization
+Title: How a Prestigious Scientific Organization Came Under Suspicion of Treating Women Unequally
+Title: New Insights into the New Variant: The Omicron Wave Hits Europe
+Title: Russian Military Buildup: Putin's Move to Destabilize Ukraine
+Title: Daria Navalnaya, Daughter of Alexei Navalny: "I Started Seeing Agents Everywhere"
+Title: Germany - Health Minister on Vaccine Mandate: "No One Is Going to Be Sent to Jail"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Israeli Prime Minister Holds Historic Meeting With U.A.E Crown Prince
-Title: Across the World, Covid Anxiety and Depression Take Hold
-Title: Boris Johnson Is in Trouble. The Question Is, How Much?
-Title: India Cities Ban Eggs, Drawing a Backlash
-Title: South Korea Has Long Wanted Nuclear Subs. A New Reactor Could Open a Door.
+Title: Foreign Drones Tip the Balance in Ethiopia’s Civil War
+Title: Haiti Missionaries Describe Dramatic Escape From Kidnappers
+Title: A Plan Forms in Mexico: Help Americans Get Abortions
+Title: Egypt Sentences 3 Human Rights Activists to Prison
+Title: Peng Shuai, Chinese Tennis Player, Denies Sexual Assault Claim
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kentucky tornadoes: Race to find missing in flattened US towns
-Title: 'It's the definition of hell on Earth'
-Title: Two detained after UK boat's fatal collision off Sweden
-Title: Larry Nassar abuse survivors to receive $380m settlement
-Title: Italy: Seven dead as rescuers find bodies in Sicily blast
-
+Title: WHO urges cancelling some holiday events over Omicron fears
+Title: Ghislaine Maxwell trial jurors begin deliberations
+Title: Abducted Haiti missionaries describe daring escape
+Title: Malaysia: Death toll rises after massive floods
+Title: Hong Kong election: China rejects democracy concerns from West
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
+
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-714026
+715069
 
 $ date -u +%s
-1639434767
+1640073696
