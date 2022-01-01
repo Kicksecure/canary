@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 21 Dec 2021 08:01:27 +0000
+Sat, 01 Jan 2022 12:46:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: European Commission Vice President Maroš Šefčovič: "London Has Breached a Great Deal of Trust"
+Title: A Chronicle of Refugee Deaths along the Border Between Poland and Belarus
 Title: How a Prestigious Scientific Organization Came Under Suspicion of Treating Women Unequally
 Title: New Insights into the New Variant: The Omicron Wave Hits Europe
 Title: Russian Military Buildup: Putin's Move to Destabilize Ukraine
-Title: Daria Navalnaya, Daughter of Alexei Navalny: "I Started Seeing Agents Everywhere"
-Title: Germany - Health Minister on Vaccine Mandate: "No One Is Going to Be Sent to Jail"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Foreign Drones Tip the Balance in Ethiopia’s Civil War
-Title: Haiti Missionaries Describe Dramatic Escape From Kidnappers
-Title: A Plan Forms in Mexico: Help Americans Get Abortions
-Title: Egypt Sentences 3 Human Rights Activists to Prison
-Title: Peng Shuai, Chinese Tennis Player, Denies Sexual Assault Claim
+Title: The New Political Cry in South Korea: ‘Out With Man Haters’
+Title: In Turkey, an Exhibit Meant to Highlight Kurdish Suffering Provoked a Furor
+Title: Kim Jong-un’s New Year Resolution: More Food for North Korea
+Title: Subdued Celebrations Welcome 2022 as Omicron Casts a Pall Over New Year’s Eve
+Title: Is That a Burning Bush? Is This Mt. Sinai? Solstice Bolsters a Claim
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: WHO urges cancelling some holiday events over Omicron fears
-Title: Ghislaine Maxwell trial jurors begin deliberations
-Title: Abducted Haiti missionaries describe daring escape
-Title: Malaysia: Death toll rises after massive floods
-Title: Hong Kong election: China rejects democracy concerns from West
+Title: South Africa holds state funeral for Archbishop Desmond Tutu
+Title: Covid-19: WHO chief optimistic disease will be beaten in 2022
+Title: Colorado: Residents return following devastating fire
+Title: Betty White: Biden leads tributes for Golden Girls actress
+Title: New Year's Eve: Firework displays welcome 2022
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-715069
+716694
 
 $ date -u +%s
-1640073696
+1641041174
