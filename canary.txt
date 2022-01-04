@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 01 Jan 2022 12:46:00 +0000
+Tue, 04 Jan 2022 08:12:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: European Commission Vice President Maroš Šefčovič: "London Has Breached a Great Deal of Trust"
@@ -54,23 +54,23 @@ Title: New Insights into the New Variant: The Omicron Wave Hits Europe
 Title: Russian Military Buildup: Putin's Move to Destabilize Ukraine
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: The New Political Cry in South Korea: ‘Out With Man Haters’
-Title: In Turkey, an Exhibit Meant to Highlight Kurdish Suffering Provoked a Furor
-Title: Kim Jong-un’s New Year Resolution: More Food for North Korea
-Title: Subdued Celebrations Welcome 2022 as Omicron Casts a Pall Over New Year’s Eve
-Title: Is That a Burning Bush? Is This Mt. Sinai? Solstice Bolsters a Claim
+Title: How Beijing Has Muted Hong Kong’s Independent Media
+Title: Online ‘Auction’ Is Latest Attack on Muslim Women in India
+Title: Victim of Berkeley Balcony Collapse Dies in Ireland
+Title: How the European Union Allowed Hungary to Become an Illiberal Model
+Title: Brazil's President, Jair Bolsonaro, Is Hospitalized
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: South Africa holds state funeral for Archbishop Desmond Tutu
-Title: Covid-19: WHO chief optimistic disease will be beaten in 2022
-Title: Colorado: Residents return following devastating fire
-Title: Betty White: Biden leads tributes for Golden Girls actress
-Title: New Year's Eve: Firework displays welcome 2022
+Title: Elizabeth Holmes: Theranos founder convicted of fraud
+Title: The rise and fall of Elizabeth Holmes
+Title: Prince Andrew accuser’s deal with Epstein released
+Title: Canadian families win compensation over jet downed by Iran
+Title: Elon Musk: Tesla criticised after opening Xinjiang showroom
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-716694
+717122
 
 $ date -u +%s
-1641041174
+1641283968
