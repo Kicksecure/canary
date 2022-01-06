@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 04 Jan 2022 08:12:39 +0000
+Thu, 06 Jan 2022 20:17:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Escaping Corona: A Community of German Anti-Vaxxers on the Black Sea Coast
+Title: Omicron Has the Potential to Stop the Pandemic, but That's not the End of the Story
 Title: European Commission Vice President Maroš Šefčovič: "London Has Breached a Great Deal of Trust"
 Title: A Chronicle of Refugee Deaths along the Border Between Poland and Belarus
 Title: How a Prestigious Scientific Organization Came Under Suspicion of Treating Women Unequally
-Title: New Insights into the New Variant: The Omicron Wave Hits Europe
-Title: Russian Military Buildup: Putin's Move to Destabilize Ukraine
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: How Beijing Has Muted Hong Kong’s Independent Media
-Title: Online ‘Auction’ Is Latest Attack on Muslim Women in India
-Title: Victim of Berkeley Balcony Collapse Dies in Ireland
-Title: How the European Union Allowed Hungary to Become an Illiberal Model
-Title: Brazil's President, Jair Bolsonaro, Is Hospitalized
+Title: Live Updates: Russia Sends Troops to Kazakhstan to Help Quell Uprising
+Title: Xi'an Is China's Biggest Covid Challenge Since Wuhan
+Title: Novak Djokovic Collides With Australia’s Covid Fight
+Title: Ethics Adviser Rebukes Boris Johnson Over Downing Street Decorations
+Title: Why Novak Djokovic Was Blocked From Entering Australia
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Elizabeth Holmes: Theranos founder convicted of fraud
-Title: The rise and fall of Elizabeth Holmes
-Title: Prince Andrew accuser’s deal with Epstein released
-Title: Canadian families win compensation over jet downed by Iran
-Title: Elon Musk: Tesla criticised after opening Xinjiang showroom
+Title: US Capitol attack: Rioters held dagger to the throat of America - Biden
+Title: Kazakhstan unrest: Machine gun fire heard as street battles rage
+Title: Novak Djokovic will be deported if he hasn't told truth, deputy PM says
+Title: Guatemala soldiers face rape trial after 40 years
+Title: North Korea successfully tested hypersonic missile, says report
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-717122
+717482
 
 $ date -u +%s
-1641283968
+1641500277
