@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkrCwSMtypG/6naFwukgMW2FLlfFzxxpxRnZMUj4b1s2nSzCtEoJgeKMJABeT8JPwbwCSsJcvj7CLI0o5gUBqQs=
+RWQ6KRormNEEThOtfxk7xG7IR6BH8U6NsCK472zfvdKDSv0AIfmZ4qkUdRkvx5A4SkvaTH6fJdTFPz92g3xIlATxQPIgPZZIWgs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 06 Jan 2022 20:17:47 +0000
+Fri, 07 Jan 2022 08:19:52 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Escaping Corona: A Community of German Anti-Vaxxers on the Black Sea Coast
@@ -56,23 +56,23 @@ Title: A Chronicle of Refugee Deaths along the Border Between Poland and Belarus
 Title: How a Prestigious Scientific Organization Came Under Suspicion of Treating Women Unequally
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Russia Sends Troops to Kazakhstan to Help Quell Uprising
+Title: In Kazakhstan, Putin Again Seizes on Unrest to Try to Expand Influence
 Title: Xi'an Is China's Biggest Covid Challenge Since Wuhan
 Title: Novak Djokovic Collides With Australia’s Covid Fight
-Title: Ethics Adviser Rebukes Boris Johnson Over Downing Street Decorations
-Title: Why Novak Djokovic Was Blocked From Entering Australia
+Title: North Korea Says It Will Skip Beijing Olympics Because of the Pandemic
+Title: Pakistan Paves Way for Ayesha Malik to Be First Woman Supreme Court Justice
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US Capitol attack: Rioters held dagger to the throat of America - Biden
-Title: Kazakhstan unrest: Machine gun fire heard as street battles rage
-Title: Novak Djokovic will be deported if he hasn't told truth, deputy PM says
-Title: Guatemala soldiers face rape trial after 40 years
-Title: North Korea successfully tested hypersonic missile, says report
+Title: Kazakhstan unrest: Fresh gunfire as president says order largely restored
+Title: Myanmar coup: The doctors and nurses defying the military
+Title: Ros Atkins on... Djokovic in immigration detention
+Title: Novak Djokovic saga: Australia investigates visas of other tennis players
+Title: Omicron should not be called mild, warns WHO
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-717482
+717559
 
 $ date -u +%s
-1641500277
+1641543602
