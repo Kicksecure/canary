@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 14 Jan 2022 22:55:04 +0000
+Sat, 15 Jan 2022 16:37:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Anthony Fauci about Omicron: "The Virus Did What Viruses Tend To Do: It Surprised Us"
 Title: The Ukraine Crisis: NATO Insiders Fear Attack on Multiple Fronts
 Title: Novak Djoković's Fall from Grace: From Tennis Hero to Anti-Vaxxer Idol
 Title: Wastewater Monitoring Offers Effective Surveillance of Coronavirus Outbreaks
 Title: Witness, Defendant, Deserter: Case in Germany Raises Questions about How to Try Assad's Atrocities
-Title: Brazil's Favela Tech Boom: Young People from Poor Neighborhoods Set Out To Conquer Digital World
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Hackers Bring Down Government Sites in Ukraine
-Title: Fear of Russia Brings New Purpose and Unity to NATO, Once Again
-Title: Mass Trials in Cuba Deepen Its Harshest Crackdown in Decades
-Title: Novak Djokovic’s Visa Is Canceled Again by Australia
+Title: 32 Years After Civil War, Mundane Moments Trigger Awful Memories
+Title: A Tsunami Hits Tonga's Capital After an Underwater Volcano Eruption
+Title: Towers Rise Over London’s Brick Lane, Clouding Its Future
+Title: Marine Le Pen, Kicking Off Her Campaign, Tries to Embody Credibility
 Title: The Omicron Shift in Europe: Pandemic or Endemic?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: Tsunami hits Tonga after giant volcano eruption
+Title: Novak Djokovic: Tennis star detained ahead of deportation appeal
 Title: Russia-Ukraine: US warns of 'false-flag' operation
-Title: Novak Djokovic: Australia to detain tennis star after visa cancelled
-Title: US fugitive who faked death found alive in Glasgow
-Title: Jailed 'Pharma Bro' Martin Shkreli ordered to repay $64m
-Title: Danish spy scandal: Ex-minister accused of state secrets leak
+Title: Rust shooting: Alec Baldwin turns phone over to investigators
+Title: Who sparked deadly violence in Kazakhstan?
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-718702
+718834
 
 $ date -u +%s
-1642200914
+1642264645
