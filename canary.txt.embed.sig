@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThfvcnEgYoKT/XI0YvrxIbgX7gfGya7RrWwu9+YjrLE1J++guU0F3hcxqQ/rYBX/0k8Wn67rMnRpI0C15fo5+AE=
+RWQ6KRormNEETl4Cz1++DOhF4bygipcMlGKYgMoKihurK2dCxo9I+c4xO1aBb4a0qIdlql0VqpzQ/aNZRL7cM9hKNuEDzoyABw8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 15 Jan 2022 16:37:14 +0000
+Thu, 27 Jan 2022 11:41:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Anthony Fauci about Omicron: "The Virus Did What Viruses Tend To Do: It Surprised Us"
-Title: The Ukraine Crisis: NATO Insiders Fear Attack on Multiple Fronts
-Title: Novak Djoković's Fall from Grace: From Tennis Hero to Anti-Vaxxer Idol
-Title: Wastewater Monitoring Offers Effective Surveillance of Coronavirus Outbreaks
-Title: Witness, Defendant, Deserter: Case in Germany Raises Questions about How to Try Assad's Atrocities
+Title: Changed Lives: Rebuilding after the Lava of La Palma
+Title: Dealing with the Changing Climate: The Lessons of the Madagascar Drought
+Title: Opposition Figure Describes Detention of Ugandan Writer Kakwenza Rukirabashaija
+Title: Robert Habeck: "Russia Knows that Crossing Red Lines Would Immediately Trigger Painful Sanctions"
+Title: The Cracks in Ukrainian Society Run through Kharkiv: A City on Edge
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: 32 Years After Civil War, Mundane Moments Trigger Awful Memories
-Title: A Tsunami Hits Tonga's Capital After an Underwater Volcano Eruption
-Title: Towers Rise Over London’s Brick Lane, Clouding Its Future
-Title: Marine Le Pen, Kicking Off Her Campaign, Tries to Embody Credibility
-Title: The Omicron Shift in Europe: Pandemic or Endemic?
+Title: Live Updates: Moscow Pessimistic U.S. Will Meet Demands; Shooting at Ukraine Rocket Factory Raises Tensions
+Title: Russia’s Military, Once Creaky, Is Modern and Lethal
+Title: Kurdish-Led Forces End Syria Prison Siege, Defeating ISIS Fighters
+Title: U.K.’s Other Health Crisis: A Huge Backlog of Delayed Non-Covid Care
+Title: Can Biden Avert a Crisis With North Korea?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Tsunami hits Tonga after giant volcano eruption
-Title: Novak Djokovic: Tennis star detained ahead of deportation appeal
-Title: Russia-Ukraine: US warns of 'false-flag' operation
-Title: Rust shooting: Alec Baldwin turns phone over to investigators
-Title: Who sparked deadly violence in Kazakhstan?
+Title: Ukraine crisis: US rejects Russian demand to bar Ukraine from Nato
+Title: Biden expected to nominate first black woman to Supreme Court
+Title: Fukushima youth sue after developing cancer
+Title: Australia scientists find 'spooky' spinning object in Milky Way
+Title: Jordanian army says it killed 27 drug smugglers from Syria
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-718834
+720592
 
 $ date -u +%s
-1642264645
+1643283684
