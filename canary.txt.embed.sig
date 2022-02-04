@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETl4Cz1++DOhF4bygipcMlGKYgMoKihurK2dCxo9I+c4xO1aBb4a0qIdlql0VqpzQ/aNZRL7cM9hKNuEDzoyABw8=
+RWQ6KRormNEETu3XL+oi3JiNT0Xw9rErQvrtf51pJ7ICAL0LzaNO6QPHQyltSHrNPnRi5RpK8oeLpA2/0q2DHpqf3xavc8DDYgk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,33 +46,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 27 Jan 2022 11:41:11 +0000
+Fri, 04 Feb 2022 13:54:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Changed Lives: Rebuilding after the Lava of La Palma
-Title: Dealing with the Changing Climate: The Lessons of the Madagascar Drought
-Title: Opposition Figure Describes Detention of Ugandan Writer Kakwenza Rukirabashaija
-Title: Robert Habeck: "Russia Knows that Crossing Red Lines Would Immediately Trigger Painful Sanctions"
-Title: The Cracks in Ukrainian Society Run through Kharkiv: A City on Edge
+Title: Greece: Torture Allegations Against Greek Border Guards
+Title: COVID: A Chief Physician on the Perils of Germany’s Omicron Strategy
+Title: The Bitcoin Nation: El Salvador Has Ambitious Plans for Cryptocurrency
+Title: Olympic Games in China: Will Beijing Become a High-Risk Outing for the German Delegation?
+Title: The Eye of the Storm: Why Does Kyiv Seem So Strangely Calm?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Moscow Pessimistic U.S. Will Meet Demands; Shooting at Ukraine Rocket Factory Raises Tensions
-Title: Russia’s Military, Once Creaky, Is Modern and Lethal
-Title: Kurdish-Led Forces End Syria Prison Siege, Defeating ISIS Fighters
-Title: U.K.’s Other Health Crisis: A Huge Backlog of Delayed Non-Covid Care
-Title: Can Biden Avert a Crisis With North Korea?
+Title: Ukraine Live Updates: Putin and Xi Pledge ‘No Limits’ to Russia-China Ties
+Title: On Ukraine, Many Russians Have No Doubt: It’s the Fault of the U.S.
+Title: How Randa Abd Al-Aziz, a Black Iraqi, Got a Sudden Career in TV News
+Title: Neighbors Recall Night of Fear in Syria Raid That Killed ISIS Leader
+Title: Opening Ceremony Live Updates: Beijing Winter Games Begin With Designer Gear, Putin in Attendance
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine crisis: US rejects Russian demand to bar Ukraine from Nato
-Title: Biden expected to nominate first black woman to Supreme Court
-Title: Fukushima youth sue after developing cancer
-Title: Australia scientists find 'spooky' spinning object in Milky Way
-Title: Jordanian army says it killed 27 drug smugglers from Syria
+Title: China joins Russia in opposing Nato expansion
+Title: Rayan: Morocco well rescue for five-year-old grips nation
+Title: Covid: South Africa makes its own version of Moderna vaccine
+Title: Beijing Olympics: Winter Games start amid Covid and boycotts
+Title: Saudi-backed Iran spies found guilty in Denmark
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-720592
+721796
 
 $ date -u +%s
-1643283684
+1643982859
