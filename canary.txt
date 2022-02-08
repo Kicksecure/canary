@@ -44,33 +44,33 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 04 Feb 2022 13:54:11 +0000
+Tue, 08 Feb 2022 20:11:41 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Athens' Parliament of Exiled Afghan Women: Making Their Voices Be Heard
+Title: Germany Rethinks Position on Beijing: Government in Berlin Classifies China as a “Systemic Rival”
+Title: Russia: What Do Russians Near the Border Think of a Possible Ukraine Invasion?
 Title: Greece: Torture Allegations Against Greek Border Guards
 Title: COVID: A Chief Physician on the Perils of Germany’s Omicron Strategy
-Title: The Bitcoin Nation: El Salvador Has Ambitious Plans for Cryptocurrency
-Title: Olympic Games in China: Will Beijing Become a High-Risk Outing for the German Delegation?
-Title: The Eye of the Storm: Why Does Kyiv Seem So Strangely Calm?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Live Updates: Putin and Xi Pledge ‘No Limits’ to Russia-China Ties
-Title: On Ukraine, Many Russians Have No Doubt: It’s the Fault of the U.S.
-Title: How Randa Abd Al-Aziz, a Black Iraqi, Got a Sudden Career in TV News
-Title: Neighbors Recall Night of Fear in Syria Raid That Killed ISIS Leader
-Title: Opening Ceremony Live Updates: Beijing Winter Games Begin With Designer Gear, Putin in Attendance
+Title: As Officials Look Away, Hate Speech in India Nears Dangerous Levels
+Title: Canada Protests Live Updates: Truck Blockade at U.S.-Canada Border Threatens Busiest Link Between the Countries
+Title: Putin Is Operating on His Own Timetable, and It May Be a Long One
+Title: Ukraine Live Updates: Macron, in Kyiv, Is Undercut by Russia
+Title: ‘A Sense of Crisis’ for Wasabi, a Pungent Staple of Japanese Cuisine
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: China joins Russia in opposing Nato expansion
-Title: Rayan: Morocco well rescue for five-year-old grips nation
-Title: Covid: South Africa makes its own version of Moderna vaccine
-Title: Beijing Olympics: Winter Games start amid Covid and boycotts
-Title: Saudi-backed Iran spies found guilty in Denmark
+Title: Ukraine crisis: Macron says Putin pledges no new Ukraine escalation
+Title: Canada truckers protest: Ambassador Bridge reopened
+Title: Oscars 2022: The Power of the Dog leads nominations
+Title: Beijing 2022: Winter Olympics hit by deluge of complaints from athletes
+Title: Ex-Pope admits errors in handling of abuse cases
 
 $ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
 
 $ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-721796
+722390
 
 $ date -u +%s
-1643982859
+1644351112
