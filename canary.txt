@@ -44,33 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 08 Feb 2022 20:11:41 +0000
+Thu, 10 Feb 2022 19:28:07 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Marine Le Pen Still Wants To Be France’s Next President: Her Last Battle?
+Title: Nobel Laureates Müller and Alexievich: "German Politicians Are Disgracing Us Before the Entire World"
 Title: Athens' Parliament of Exiled Afghan Women: Making Their Voices Be Heard
 Title: Germany Rethinks Position on Beijing: Government in Berlin Classifies China as a “Systemic Rival”
 Title: Russia: What Do Russians Near the Border Think of a Possible Ukraine Invasion?
-Title: Greece: Torture Allegations Against Greek Border Guards
-Title: COVID: A Chief Physician on the Perils of Germany’s Omicron Strategy
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As Officials Look Away, Hate Speech in India Nears Dangerous Levels
-Title: Canada Protests Live Updates: Truck Blockade at U.S.-Canada Border Threatens Busiest Link Between the Countries
-Title: Putin Is Operating on His Own Timetable, and It May Be a Long One
-Title: Ukraine Live Updates: Macron, in Kyiv, Is Undercut by Russia
-Title: ‘A Sense of Crisis’ for Wasabi, a Pungent Staple of Japanese Cuisine
+Title: Canada Live Updates: Multiple Blockades at U.S.-Canada Border Disrupt Auto Industry
+Title: In India, a Bellwether for Narendra Modi as Voters Head to Polls
+Title: Ukraine Live Updates: Little Progress Seen in Talks, as Russia Starts Major Military Exercise
+Title: Ottawa Protesters Turn a Quiet Capital Upside Down
+Title: Prince Charles Again Tests Positive, Raising Concern About Risk to Queen
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine crisis: Macron says Putin pledges no new Ukraine escalation
-Title: Canada truckers protest: Ambassador Bridge reopened
-Title: Oscars 2022: The Power of the Dog leads nominations
-Title: Beijing 2022: Winter Olympics hit by deluge of complaints from athletes
-Title: Ex-Pope admits errors in handling of abuse cases
+Title: Ukraine tensions: Russia accused of sea blockade
+Title: US consumer prices rise at fastest rate since 1982
+Title: Covid: Trucker protests may hit Super Bowl, US security agency says
+Title: Trump says he is in touch with North Korea's leader Kim - book
+Title: Luc Montagnier, co-discoverer of HIV, dies aged 89
 
-$ curl --silent --fail --proto =https --tlsv1.3 --cert-status https://blockchain.info/latestblock
-
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''height'\''])'
-722390
-
+$ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
+722661
 $ date -u +%s
-1644351112
+1644521295
