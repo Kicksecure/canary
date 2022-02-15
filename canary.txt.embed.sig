@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkvqjHgOsGoQFKn9JGVXQPgt9s5O8z3m3/oRDe1qKNPrJoI+S+OG4ZfbHx/CCmhwnVuh1t6cHKRrTstsHKDZ6AI=
+RWQ6KRormNEETsCVJZmUmCSdky8/7zgj7ihfJfQL6+1QtO5f83yC0NEXD2okSyNNFZFQmqKfcpezfNgBY90ffOdV73zInU467gM=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 15 Feb 2022 14:42:54 +0000
+Tue, 15 Feb 2022 18:02:15 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: NATO's Eastward Expansion: Is Vladimir Putin Right?
@@ -56,20 +56,20 @@ Title: The Mayor of Istanbul Could Prove a Dangerous Challenger to Erdoğan
 Title: Marine Le Pen Still Wants To Be France’s Next President: Her Last Battle?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Russia Says It Has Begun Pulling Back Some Troops From Around Ukraine
+Title: Live Updates: Putin Says Russia Is Partially Pulling Back Troops From Around Ukraine
 Title: A World Away From Ukraine, Russia Is Courting Latin America
 Title: For the Games, Xi Ordered Up a Snow Sports Fever. Will it Last?
-Title: Canada Live Updates: Trudeau Declares National Emergency to End Trucker Protests
+Title: Canada Live Updates: Ottawa Police Chief Resigns After Trudeau Declares National Emergency to End Protests
 Title: U.S. Requests Extradition of Former Honduran President
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine-Russia tensions: Russia pulls some troops back from border
+Title: Ukraine crisis: Putin says he does not want war in Europe
 Title: Valieva competes despite failed drugs test
-Title: Juan Orlando Hernández: Police surround Honduran ex-leader's home
-Title: Qandeel Baloch: Court acquits brother of Pakistan star's murder
-Title: Putin critic Navalny put on trial again in Russia
+Title: Report: Ottawa police chief resigns amid anti-mandate protests
+Title: Prince Andrew settles US civil sex assault case with Virginia Giuffre
+Title: Families of Sandy Hook victims settle with Remington
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-723451
+723476
 $ date -u +%s
-1644936185
+1644948145
