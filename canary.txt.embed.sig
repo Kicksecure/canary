@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuywl0/c5EErk7RdazQ8G0Mnbkh0nQC0PQOGCkzRf8NyiymhnXV38JF4KxnhoMyOLiXvInFRefGdlNd/RUintAg=
+RWQ6KRormNEETkvqjHgOsGoQFKn9JGVXQPgt9s5O8z3m3/oRDe1qKNPrJoI+S+OG4ZfbHx/CCmhwnVuh1t6cHKRrTstsHKDZ6AI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 11 Feb 2022 18:24:00 +0000
+Tue, 15 Feb 2022 14:42:54 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Mayor of Istanbul Could Prove a Dangerous Challenger to Erdoğan
+Title: NATO's Eastward Expansion: Is Vladimir Putin Right?
+Title: Finnish President Sauli Niinistö on Putin and the Ukraine Conflict
 Title: Gerhard Schröder Casts a Dark Shadow over Berlin's Foreign Policy
+Title: The Mayor of Istanbul Could Prove a Dangerous Challenger to Erdoğan
 Title: Marine Le Pen Still Wants To Be France’s Next President: Her Last Battle?
-Title: Nobel Laureates Müller and Alexievich: "German Politicians Are Disgracing Us Before the Entire World"
-Title: Athens' Parliament of Exiled Afghan Women: Making Their Voices Be Heard
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Canada Live Updates: Ontario Premier Declares a State of Emergency as Authorities Brace for More Protests
-Title: Live Updates: Ukraine Warns of New Military Activity in the East
-Title: No Hijabs for Now, Indian Court Tells Muslim Students
-Title: Taliban Are Holding 2 Westerners Working for U.N., Agency Says
-Title: How a Chechen Abduction Exposes Putin’s Problems at Home
+Title: Live Updates: Russia Says It Has Begun Pulling Back Some Troops From Around Ukraine
+Title: A World Away From Ukraine, Russia Is Courting Latin America
+Title: For the Games, Xi Ordered Up a Snow Sports Fever. Will it Last?
+Title: Canada Live Updates: Trudeau Declares National Emergency to End Trucker Protests
+Title: U.S. Requests Extradition of Former Honduran President
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine tensions: Joe Biden says US citizens should leave Ukraine now
-Title: Macron refused to take Russian Covid test
-Title: Trucker protests: Ontario calls state of emergency
-Title: Afghanistan conflict: US plans to use frozen funds for 9/11 victims and relief
-Title: 3,000 NYC staff face lost jobs over vaccine rules
+Title: Ukraine-Russia tensions: Russia pulls some troops back from border
+Title: Valieva competes despite failed drugs test
+Title: Juan Orlando Hernández: Police surround Honduran ex-leader's home
+Title: Qandeel Baloch: Court acquits brother of Pakistan star's murder
+Title: Putin critic Navalny put on trial again in Russia
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-722798
+723451
 $ date -u +%s
-1644603850
+1644936185
