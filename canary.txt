@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 15 Feb 2022 18:02:15 +0000
+Fri, 18 Feb 2022 15:07:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: EU Border Officials Accused of Throwing Refugees into the Sea
 Title: NATO's Eastward Expansion: Is Vladimir Putin Right?
 Title: Finnish President Sauli Niinistö on Putin and the Ukraine Conflict
 Title: Gerhard Schröder Casts a Dark Shadow over Berlin's Foreign Policy
 Title: The Mayor of Istanbul Could Prove a Dangerous Challenger to Erdoğan
-Title: Marine Le Pen Still Wants To Be France’s Next President: Her Last Battle?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Putin Says Russia Is Partially Pulling Back Troops From Around Ukraine
-Title: A World Away From Ukraine, Russia Is Courting Latin America
-Title: For the Games, Xi Ordered Up a Snow Sports Fever. Will it Last?
-Title: Canada Live Updates: Ottawa Police Chief Resigns After Trudeau Declares National Emergency to End Protests
-Title: U.S. Requests Extradition of Former Honduran President
+Title: Vladimir Putin: Crafty Strategist or Aggrieved and Reckless Leader?
+Title: Ukraine Live Updates: Biden Will Confer With Allies as Russia Plans Military Drills
+Title: How China Uses Bots and Fake Twitter Accounts to Shape the Olympics
+Title: China's Fast Train, an Olympic Highlight
+Title: Why China Doesn’t Have an mRNA Vaccine for Covid
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine crisis: Putin says he does not want war in Europe
-Title: Valieva competes despite failed drugs test
-Title: Report: Ottawa police chief resigns amid anti-mandate protests
-Title: Prince Andrew settles US civil sex assault case with Virginia Giuffre
-Title: Families of Sandy Hook victims settle with Remington
+Title: Greece ferry: Two trapped as hundreds rescued off Corfu
+Title: Ahmedabad 2008 blasts: India court sentences 38 to death
+Title: Brad Pitt sues Angelina Jolie over vineyard where they got married
+Title: Malawi finds Africa’s first wild polio case in five years
+Title: Winter Olympics: Kamila Valieva treatment by entourage 'chilling' - IOC
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-723476
+723898
 $ date -u +%s
-1644948145
+1645196849
