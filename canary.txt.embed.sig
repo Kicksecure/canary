@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqzIY31M46zyOcK2EcaYvHiyIt/U7KJX6pzuGwTamas+dZP1TzAAT9xZ3f2Xmqwt4cgYBaOOnlPRlUnrVRkroQQ=
+RWQ6KRormNEETrkBay1t6V2WAmgjX+3LV3cm3hcpNQHjqK4r1iqSBYJIAD63h55WvxqpMpJo/s0h9JIYutqUmi3b+v7tO8ziAQE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 25 Feb 2022 17:34:06 +0000
+Wed, 09 Mar 2022 17:27:07 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Russia's Invasion: Putin's Attack Is Aimed at Europe
-Title: The Russian Invasion: Putin Settles Accounts with the West
-Title: German and EU Leaders Sharply Condemn Putin's Attack on Ukraine: "A Dark Day for Europe"
-Title: Voices from Russia: Applause for Putin and Fears of War
-Title: Invasion of Ukraine: European Unity Tested by Russian Aggression
+Title: Standing Up to Putin: Inside Germany's Foreign and Security Policy Revolution
+Title: LNG Imports and Nuclear Power: A Look at Germany's Alternatives To Putin's Gas
+Title: Latvian Defense Minister Demands Weapons from Germany
+Title: Yuval Noah Harari on the Ukraine War: "Human Stupidity Should Never Be Underestimated"
+Title: Josep Borrell on Russia's war in Ukraine and what Europe needs to do about it
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Russian Troops Enter Kyiv as Moscow Pushes to Topple Ukraine’s Government
-Title: Beyond Ukraine, Putin Eyes What He Calls America's 'Empire of Lies'
-Title: Russians Now See a New Side to Putin: Dragging Them Into War
-Title: European Leaders Agree to a Second Wave of Russia Sanctions
-Title: Russia's Invasion of Ukraine Tests China's 'Sovereignty' Rhetoric
+Title: Live Updates: Costs of War Mount for Russia, and for Civilians in Ukraine
+Title: Live Updates: South Korea Presidential Election Too Close to Call
+Title: Russia’s Other Contest With the West: Economic Endurance
+Title: Assassinated in His Prime, an Iconic African Leader Haunts a Trial and His Country
+Title: Australia Flooding Declared a National Emergency
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine's Zelensky asks citizens to resist and Europe to do more
-Title: Ukraine conflict: Fleeing family's car breaks down between two armies
-Title: Ukraine conflict: Refugees rush to borders to flee Russia's war
-Title: Chernobyl: Radiation spike at nuclear plant seized by Russian forces
-Title: Ukraine: 13 soldiers killed defending tiny island from Russia
+Title: Ukraine war: Maternity hospital hit by Russian shelling
+Title: Ukraine war: Chernobyl power supply cut off, says energy operator
+Title: War in Ukraine: Russia soon unable to pay its debts, warns agency
+Title: Ukraine: First Lady Olena Zelenska condemns Russian 'mass murder'
+Title: Man given genetically modified pig heart dies
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-724903
+726583
 $ date -u +%s
-1645810456
+1646846837
