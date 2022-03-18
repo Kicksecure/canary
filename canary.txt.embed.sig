@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrkBay1t6V2WAmgjX+3LV3cm3hcpNQHjqK4r1iqSBYJIAD63h55WvxqpMpJo/s0h9JIYutqUmi3b+v7tO8ziAQE=
+RWQ6KRormNEETvVP/I0te/aD3avEMPu+BUw2L4T1DtL0ypPO8n8BzLR8ivuMBELrkxadqI0GV/mco2hMrMMkvm32fwfg+qiw/QA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 09 Mar 2022 17:27:07 +0000
+Fri, 18 Mar 2022 13:30:57 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Standing Up to Putin: Inside Germany's Foreign and Security Policy Revolution
-Title: LNG Imports and Nuclear Power: A Look at Germany's Alternatives To Putin's Gas
-Title: Latvian Defense Minister Demands Weapons from Germany
-Title: Yuval Noah Harari on the Ukraine War: "Human Stupidity Should Never Be Underestimated"
-Title: Josep Borrell on Russia's war in Ukraine and what Europe needs to do about it
+Title: Ivan Krastev on Russia's Invasion of Ukraine: "Putin Lives in Historic Analogies and Metaphors"
+Title: Interview with Russian TV Protester Marina Ovsyannikova: “I’m Enemy No. 1 Here Now”
+Title: The Putin Generation: He Is Sent to the Front, She Takes to the Streets
+Title: The Opposition Flee from Russia: They Leave Knowing They Are Cursed Everywhere
+Title: Impressions from an Embattled Kyiv: Courage, Desperation and Defiance Fuels the Defense of Ukraine
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Costs of War Mount for Russia, and for Civilians in Ukraine
-Title: Live Updates: South Korea Presidential Election Too Close to Call
-Title: Russia’s Other Contest With the West: Economic Endurance
-Title: Assassinated in His Prime, an Iconic African Leader Haunts a Trial and His Country
-Title: Australia Flooding Declared a National Emergency
+Title: What Happened on Day 22 of Russia’s Invasion of Ukraine
+Title: Who Killed Three Aid Workers for Doctors Without Borders in Ethiopia?
+Title: In Some Parts of the World, the War in Ukraine Seems Justified
+Title: Peru’s Top Court Reinstates Pardon for Former President Alberto Fujimori
+Title: War Strands Ukrainian and Russian Tourists Together in Egyptian Resorts
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Maternity hospital hit by Russian shelling
-Title: Ukraine war: Chernobyl power supply cut off, says energy operator
-Title: War in Ukraine: Russia soon unable to pay its debts, warns agency
-Title: Ukraine: First Lady Olena Zelenska condemns Russian 'mass murder'
-Title: Man given genetically modified pig heart dies
+Title: Ukraine war: Russia destroys aircraft repair plant near western city of Lviv
+Title: Arnold Schwarzenegger's anti-Ukraine war video trends on Russian social media
+Title: Ukraine conflict: Putin lays out his demands in Turkish phone call
+Title: Shells rain down on Kharkiv as Ukraine's army stands firm
+Title: Mariupol theatre: 'We knew something terrible would happen'
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-726583
+727903
 $ date -u +%s
-1646846837
+1647610271
