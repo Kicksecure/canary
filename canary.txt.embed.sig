@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvVP/I0te/aD3avEMPu+BUw2L4T1DtL0ypPO8n8BzLR8ivuMBELrkxadqI0GV/mco2hMrMMkvm32fwfg+qiw/QA=
+RWQ6KRormNEETq+JGkie2JX9vY/9A+5JEu9Pv9sItLjFubVEuSyxW0VpX0w6P3CBqU9Ui+EeLKVv1obDRvPtnaK+CGS+s5UJTQs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 18 Mar 2022 13:30:57 +0000
+Tue, 19 Apr 2022 11:03:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Ivan Krastev on Russia's Invasion of Ukraine: "Putin Lives in Historic Analogies and Metaphors"
-Title: Interview with Russian TV Protester Marina Ovsyannikova: “I’m Enemy No. 1 Here Now”
-Title: The Putin Generation: He Is Sent to the Front, She Takes to the Streets
-Title: The Opposition Flee from Russia: They Leave Knowing They Are Cursed Everywhere
-Title: Impressions from an Embattled Kyiv: Courage, Desperation and Defiance Fuels the Defense of Ukraine
+Title: British Historian Antony Beevor: "Putin Wants to Be Feared – Like Stalin and Hitler"
+Title: A Memorial Run for My Israeli Host Brother
+Title: Approaching Famine?: The Global Food Shortages Caused by Putin's War
+Title: A European Bomb: Debate over Nuclear Deterrence Heats Up in the EU
+Title: Germany's New Leading Woman: Foreign Minister Baerbock Takes Advantage of Her Second Chance
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: What Happened on Day 22 of Russia’s Invasion of Ukraine
-Title: Who Killed Three Aid Workers for Doctors Without Borders in Ethiopia?
-Title: In Some Parts of the World, the War in Ukraine Seems Justified
-Title: Peru’s Top Court Reinstates Pardon for Former President Alberto Fujimori
-Title: War Strands Ukrainian and Russian Tourists Together in Egyptian Resorts
+Title: Live Updates: Russia and Ukraine Clash Across Sprawling Front in East
+Title: Myanmar’s Health System Is in Collapse, ‘Obliterated’ by the Regime
+Title: New Rocket Fire From Gaza Follows Rising Tensions in Israel
+Title: Ukraine War Divides Orthodox Faithful
+Title: To Push Back Russians, Ukrainians Hit a Village With Cluster Munitions
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Russia destroys aircraft repair plant near western city of Lviv
-Title: Arnold Schwarzenegger's anti-Ukraine war video trends on Russian social media
-Title: Ukraine conflict: Putin lays out his demands in Turkish phone call
-Title: Shells rain down on Kharkiv as Ukraine's army stands firm
-Title: Mariupol theatre: 'We knew something terrible would happen'
+Title: Ukraine war: Russia bombards cities as eastern offensive begins
+Title: Ukraine war: Dramatic images appear to show sinking Russian warship Moskva
+Title: The elderly who can't flee their Ukrainian homes
+Title: Kabul blasts kill six and wound 11 at boys' school
+Title: US judge throws out Biden mask mandate for planes and trains
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-727903
+732542
 $ date -u +%s
-1647610271
+1650366235
