@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqSY8xYCt5BXx/o9wnWpRTS26YX2Tm84uCFQmfFQSZc3nKf7WewWg/e+5FMwOIbCVGoRBACjoFacB8jqfzKrHwk=
+RWQ6KRormNEETokWM2bsvnfIvbOcQKnnC9x75f0aJ4HmB6fn9GaekL0FIAwjx683q1YFYwCzqeCt/bXCmVr8cL8gWqcvLwigsQk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 18 Jun 2022 08:59:22 +0000
+Sat, 18 Jun 2022 09:40:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Accelerated Candidacy?: Ukraine's Possible EU Accession Not Universally Welcome
@@ -56,11 +56,11 @@ Title: The Artillery War in the Donbas: Ukraine Relying Heavily on Heavy Weapons
 Title: Ongoing Dependence on Russian Energy: The Natural Gas Continues to Flow
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+Title: Death in Ukraine: A Special Report
+Title: Declaring Curry and Samosas Enemy No. 1 to Whip the Police Into Shape
 Title: Ukraine’s Death Workers: ‘If You Take It All Close to Heart, You Go Mad’
-Title: Ukraine News: Putin Stokes Anti-American Sentiment as Kyiv Steps Closer to E.U.
 Title: Russians Breached This City, Not With Troops, but Propaganda
 Title: Colombia Will Soon Have Its First Black Female Vice President. Will It Be Her?
-Title: Extradition Order for Julian Assange Approved by Britain
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Remains of UK journalist Phillips identified in Brazil
@@ -70,6 +70,6 @@ Title: Fires burn through Shanghai chemical plant
 Title: Marcelo Pecci: Killers who shot Paraguayan prosecutor on honeymoon convicted
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-741268
+741269
 $ date -u +%s
-1655542773
+1655545230
