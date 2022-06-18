@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlLo3neoF3w+8Qv9jH89ZXUf/n5xzVJ6KIJFHq98TxQOsMUG52XAvaOztdr5m5pGHESrgUzFcumjMPHUD3yzEgo=
+RWQ6KRormNEETqSY8xYCt5BXx/o9wnWpRTS26YX2Tm84uCFQmfFQSZc3nKf7WewWg/e+5FMwOIbCVGoRBACjoFacB8jqfzKrHwk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -11,7 +11,7 @@ The Kicksecure / Whonix lead developer who digitally signed this file states the
 
 2.
 
-Definition “artifact”: Kicksecure / Whonix software, Kicksecure / Whonix downloads, Kicksecure / Whonix source code
+Definition "artifact": Kicksecure / Whonix software, Kicksecure / Whonix downloads, Kicksecure / Whonix source code
 
 * The Kicksecure / Whonix Project has never added any backdoor to any artifact.
 * The Kicksecure / Whonix Project has never turned over any signing key.
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 25 May 2022 11:56:20 +0000
+Sat, 18 Jun 2022 08:59:22 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Uganda: DER SPIEGEL Reporting Leads Unilever to Stop Sexist Marketing Campaign
-Title: Meeting with Family Members: "He Is Accused of Preparing a Terrorist Act"
-Title: A European Defeat in Mali: How Russia Is Slaughtering Civilians on the African Front
-Title: "Window Into a Police State": Data Leak Provides a Look into China's Brutal Camp System
-Title: COVID-19: A Look at the Worst Mistakes Made in the Coronavirus Pandemic
+Title: Accelerated Candidacy?: Ukraine's Possible EU Accession Not Universally Welcome
+Title: Ukraine By Rail: The Trains Keep Running Despite the War
+Title: High Casualties: Russia Pulls Out All the Stops to Find Fresh Troops
+Title: The Artillery War in the Donbas: Ukraine Relying Heavily on Heavy Weapons from the West
+Title: Ongoing Dependence on Russian Energy: The Natural Gas Continues to Flow
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Narrower Focus Helps Russia Make Gains in Ukraine’s East
-Title: Live Updates: U.K. Lockdown Report Is Critical of Senior Leaders
-Title: North Korea Launches Suspected ICBM and Two Other Ballistic Missiles
-Title: How (and Why) We Calculated the Value of Haiti’s Payments to France
-Title: In This Small Thai Village, American History Runs Deep
+Title: Ukraine’s Death Workers: ‘If You Take It All Close to Heart, You Go Mad’
+Title: Ukraine News: Putin Stokes Anti-American Sentiment as Kyiv Steps Closer to E.U.
+Title: Russians Breached This City, Not With Troops, but Propaganda
+Title: Colombia Will Soon Have Its First Black Female Vice President. Will It Be Her?
+Title: Extradition Order for Julian Assange Approved by Britain
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Texas shooting: 19 children among dead in primary school attack
-Title: NBA Warriors coach on Texas school shooting: 'When are we going to do something?'
-Title: North Korea fires missiles hours after Biden leaves Asia
-Title: Ukraine war: Bodies of dead Russian soldiers abandoned near Kyiv
-Title: Goldman Prize: The activists who battled mining with drones
+Title: Remains of UK journalist Phillips identified in Brazil
+Title: Russia's Putin condemns 'mad and thoughtless' Western sanctions
+Title: Afghanistan: Deadly explosion rocks Sikh temple in Kabul
+Title: Fires burn through Shanghai chemical plant
+Title: Marcelo Pecci: Killers who shot Paraguayan prosecutor on honeymoon convicted
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-737836
+741268
 $ date -u +%s
-1653479790
+1655542773
