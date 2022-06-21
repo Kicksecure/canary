@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETokWM2bsvnfIvbOcQKnnC9x75f0aJ4HmB6fn9GaekL0FIAwjx683q1YFYwCzqeCt/bXCmVr8cL8gWqcvLwigsQk=
+RWQ6KRormNEETktQq97MAsLls8ugMnUPLHbKBU/lPXMxH6328jgr08ekidJngCkCmfcNypTlB/fs4MY5E6YMjkQUmRpqAs8ufg8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 18 Jun 2022 09:40:19 +0000
+Tue, 21 Jun 2022 14:43:50 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Syrian Drug Smuggling: "The Assad Regime Would Not Survive Loss of Captagon Revenues"
+Title: Searching for the Final Suspects of the Rwandan Genocide
+Title: Senior U.S. Diplomat on the War in Ukraine: Kyiv Is "Rightly Demanding More"
 Title: Accelerated Candidacy?: Ukraine's Possible EU Accession Not Universally Welcome
 Title: Ukraine By Rail: The Trains Keep Running Despite the War
-Title: High Casualties: Russia Pulls Out All the Stops to Find Fresh Troops
-Title: The Artillery War in the Donbas: Ukraine Relying Heavily on Heavy Weapons from the West
-Title: Ongoing Dependence on Russian Energy: The Natural Gas Continues to Flow
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Death in Ukraine: A Special Report
-Title: Declaring Curry and Samosas Enemy No. 1 to Whip the Police Into Shape
-Title: Ukraine’s Death Workers: ‘If You Take It All Close to Heart, You Go Mad’
-Title: Russians Breached This City, Not With Troops, but Propaganda
-Title: Colombia Will Soon Have Its First Black Female Vice President. Will It Be Her?
+Title: Ukraine Live Updates: Demand for Russian Oil Surges in Asia, Blunting Effect of Sanctions
+Title: China’s Surveillance State Is Growing. These Documents Reveal How.
+Title: Israel’s Government Collapses, Setting Up 5th Election in 3 Years
+Title: Gustavo Petro Promised to Transform Colombia as President. Can He Do It?
+Title: China’s Expanding Surveillance State: Takeaways From a NYT Investigation
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Remains of UK journalist Phillips identified in Brazil
-Title: Russia's Putin condemns 'mad and thoughtless' Western sanctions
-Title: Afghanistan: Deadly explosion rocks Sikh temple in Kabul
-Title: Fires burn through Shanghai chemical plant
-Title: Marcelo Pecci: Killers who shot Paraguayan prosecutor on honeymoon convicted
+Title: Kaliningrad: Russia warns Lithuania of consequences over rail transit blockade
+Title: Uvalde shooting: Photos show armed police waiting in school hallway
+Title: France elections: Macron rejects prime minister's offer to resign
+Title: Assam: India floods destroy millions of homes and dreams
+Title: Tangshan: Chinese police deputy dismissed over attack on female diners
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-741269
+741733
 $ date -u +%s
-1655545230
+1655822641
