@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 21 Jun 2022 14:43:50 +0000
+Wed, 29 Jun 2022 11:15:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Syrian Drug Smuggling: "The Assad Regime Would Not Survive Loss of Captagon Revenues"
-Title: Searching for the Final Suspects of the Rwandan Genocide
-Title: Senior U.S. Diplomat on the War in Ukraine: Kyiv Is "Rightly Demanding More"
-Title: Accelerated Candidacy?: Ukraine's Possible EU Accession Not Universally Welcome
-Title: Ukraine By Rail: The Trains Keep Running Despite the War
+Title: Anatomy of Germany's Reliance on Russian Natural Gas: Decades of Addiction
+Title: New York Times Editor Joe Kahn on Donald Trump and Fox News
+Title: German Virologist Christian Drosten on the Battle Against COVID: "In the Worst Case, It Could Take a Few More Winters"
+Title: German Economy Minister on the Gas Shortage: "There Is a Black Hat, and Putin Is Wearing It"
+Title: Spotlight on Germany's Colonial Past: When Can Ngonnso Return Home?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Live Updates: Demand for Russian Oil Surges in Asia, Blunting Effect of Sanctions
-Title: China’s Surveillance State Is Growing. These Documents Reveal How.
-Title: Israel’s Government Collapses, Setting Up 5th Election in 3 Years
-Title: Gustavo Petro Promised to Transform Colombia as President. Can He Do It?
-Title: China’s Expanding Surveillance State: Takeaways From a NYT Investigation
+Title: Ukraine Updates: Turkey Agrees to Allow Sweden and Finland to Join NATO
+Title: Colombia Panel’s Report Is a Step Toward Mending a Civil War’s Scars
+Title: On Front Lines, Communication Breakdowns Prove Costly for Ukraine
+Title: In Russia Crisis, India Tries to Balance Geopolitics and Economics
+Title: ‘I Was Flying Headfirst’: A Shopping Trip Shattered by a Missile
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kaliningrad: Russia warns Lithuania of consequences over rail transit blockade
-Title: Uvalde shooting: Photos show armed police waiting in school hallway
-Title: France elections: Macron rejects prime minister's offer to resign
-Title: Assam: India floods destroy millions of homes and dreams
-Title: Tangshan: Chinese police deputy dismissed over attack on female diners
+Title: Jan 6 hearings: Ex-aide paints devastating picture of Trump
+Title: Ghislaine Maxwell sentenced to 20 years over sex trafficking
+Title: R. Kelly: US singer faces decades in jail at sex trafficking sentencing
+Title: Fossils: Cave woman one million years older than thought
+Title: Japan swelters in worst heatwave since 1875
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-741733
+742841
 $ date -u +%s
-1655822641
+1656501357
