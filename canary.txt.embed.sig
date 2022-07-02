@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETg6dU2qPo5xLyLwoVjHxwCkdw6Xeo2ACyx80bIqwoWCsr9Dci/zm/d68DCuGMqQxBSWIHx3xmSUEY0Ph3+E60Ao=
+RWQ6KRormNEETuj9HKPs4XgDLAP2T6mec3ieSM4E86jH1CrDq/dJTEGQ/GhKYNOOIZHqktEC7ar4sJDGq1h2j+POlhlDwXrwjwE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 29 Jun 2022 11:15:49 +0000
+Sat, 02 Jul 2022 21:40:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: How Well Are European Sanctions Against Russia Working?
+Title: EU Sanctions: Commission to Allow Russia to Resume Transports to Kaliningrad
+Title: Systematic Abuses at EU External Border: Greek Police Coerce Refugees to Commit Illegal Pushbacks
 Title: Anatomy of Germany's Reliance on Russian Natural Gas: Decades of Addiction
 Title: New York Times Editor Joe Kahn on Donald Trump and Fox News
-Title: German Virologist Christian Drosten on the Battle Against COVID: "In the Worst Case, It Could Take a Few More Winters"
-Title: German Economy Minister on the Gas Shortage: "There Is a Black Hat, and Putin Is Wearing It"
-Title: Spotlight on Germany's Colonial Past: When Can Ngonnso Return Home?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Updates: Turkey Agrees to Allow Sweden and Finland to Join NATO
-Title: Colombia Panel’s Report Is a Step Toward Mending a Civil War’s Scars
-Title: On Front Lines, Communication Breakdowns Prove Costly for Ukraine
-Title: In Russia Crisis, India Tries to Balance Geopolitics and Economics
-Title: ‘I Was Flying Headfirst’: A Shopping Trip Shattered by a Missile
+Title: Ukraine War Volunteers Die in Battles Far From Home
+Title: In Pakistan, a Leader in Trans Rights, Reality Is Slower to Change Than Law
+Title: From the Early Morning Sky, Shards of Hot Metal
+Title: His Union Went on Strike. His Interviews Went Viral.
+Title: Ukraine Live Updates: Civilian Death Toll Rises as Russians Rely on Older Weapons
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jan 6 hearings: Ex-aide paints devastating picture of Trump
-Title: Ghislaine Maxwell sentenced to 20 years over sex trafficking
-Title: R. Kelly: US singer faces decades in jail at sex trafficking sentencing
-Title: Fossils: Cave woman one million years older than thought
-Title: Japan swelters in worst heatwave since 1875
+Title: Lysychansk: Heavy fighting rages in Ukraine-held eastern city
+Title: Russia dredges up landing ship hit by Ukraine missile fire
+Title: Hormozgan: Quake near southern Iran coast kills five
+Title: Crew member of sinking ship airlifted to safety
+Title: Israel shoots down Hezbollah drones heading for gas rig
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-742841
+743344
 $ date -u +%s
-1656501357
+1656798032
