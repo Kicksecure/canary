@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuj9HKPs4XgDLAP2T6mec3ieSM4E86jH1CrDq/dJTEGQ/GhKYNOOIZHqktEC7ar4sJDGq1h2j+POlhlDwXrwjwE=
+RWQ6KRormNEETjptuRXOS/whj1UBm0SVNz1yHxC074Bg4jMhjYRc7E1JWDFKQ+KLXMoSvsbKK7IkG+AIYsSLpNMBEUv+3LrHFgg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 02 Jul 2022 21:40:24 +0000
+Sat, 09 Jul 2022 17:18:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: How Well Are European Sanctions Against Russia Working?
-Title: EU Sanctions: Commission to Allow Russia to Resume Transports to Kaliningrad
-Title: Systematic Abuses at EU External Border: Greek Police Coerce Refugees to Commit Illegal Pushbacks
-Title: Anatomy of Germany's Reliance on Russian Natural Gas: Decades of Addiction
-Title: New York Times Editor Joe Kahn on Donald Trump and Fox News
+Title: Johnson's Resignation and the Consequences for Europe: We Can't Do Without Britain
+Title: DER SPIEGEL Interview with Taliban Leader Anas Haqqani: "You Ask Questions Like an Investigator"
+Title: A Visit to Volodymyr Zelenskyy's Hometown Kryvyi Rih: City of Steel
+Title: From Inflation to Recession: Is Germany's Prosperity at Risk?
+Title: NASA Administrator Bill Nelson: "You Need Both Russians and Americans to Operate the Space Station"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine War Volunteers Die in Battles Far From Home
-Title: In Pakistan, a Leader in Trans Rights, Reality Is Slower to Change Than Law
-Title: From the Early Morning Sky, Shards of Hot Metal
-Title: His Union Went on Strike. His Interviews Went Viral.
-Title: Ukraine Live Updates: Civilian Death Toll Rises as Russians Rely on Older Weapons
+Title: Sri Lanka Live Updates: Political Leaders Say They Ask President to Step Down
+Title: Boris Johnson May Be Fading Out, but Not the Divisions He Stoked
+Title: Latest Japan Updates: As Nation Mourns, Questions Swirl Over Abe’s Security
+Title: ‘It’s Like Parallel Realities’: Rituals of Life and Death Blur in a Vibrant Ukrainian City
+Title: Shinzo Abe, Japan’s Longest-Serving Prime Minister, Dies at 67
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Lysychansk: Heavy fighting rages in Ukraine-held eastern city
-Title: Russia dredges up landing ship hit by Ukraine missile fire
-Title: Hormozgan: Quake near southern Iran coast kills five
-Title: Crew member of sinking ship airlifted to safety
-Title: Israel shoots down Hezbollah drones heading for gas rig
+Title: Elon Musk pulls out of $44bn deal to buy Twitter
+Title: Shinzo Abe killing: Security was flawed, Japan police say
+Title: Ukraine reports heavy Russian missile strikes in east and south
+Title: Canada hit by massive mobile and internet outage
+Title: Russia's McDonald's replacement runs low on fries
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-743344
+744293
 $ date -u +%s
-1656798032
+1657387128
