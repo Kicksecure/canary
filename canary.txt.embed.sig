@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETk4iWYjUMi+RvRniINUozhgOJSztEZnOzRvBrUJMswXxM9Nd7JCth2HmoXyzTRIsE/7FL+cAB5jhVnA0TmAvzAE=
+RWQ6KRormNEETstICVdXuiVDbWbE4ZLSpBcBRSaIHM04G4jA4sGyskcWlXv4g80FzwjljOhyLazorcPIB2GqOY/S06ng1KxbAg8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 22 Jul 2022 17:11:39 +0000
+Tue, 26 Jul 2022 13:05:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Dystopia of São Paulo Holds the Key To Brazil's Transformation
 Title: Panama Papers Whistleblower: "The Russian Government Wants To See Me Dead"
 Title: Battle for the Donbas: Why Putin Should Fear the Ukrainian Resistance
 Title: Using Famine as a Lever: Putin Weaponizes the Global Food Supply
 Title: A Stress Test for Solidarity: Looming Natural Gas Shortages Has the EU Scrambling for Solutions
-Title: Interview with Henry Kissinger: For War in Ukraine, "There Is No Good Historical Example"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Russia and Ukraine Reach Deal to Get Grain Out of Blocked Ports
-Title: ​South Korea’s New President Calls for Criminal Investigation of Past Government
-Title: Sri Lankan Forces Raid Protest Camp
-Title: Mossad Sheds New Light on Argentina Terrorist Attacks in 1990s
-Title: Attack on Base in Mali Brings Conflict to Doorstep of Capital
+Title: Kyiv Nightlife Comes Back Amid Urge for Contact. ‘This Is the Cure.’
+Title: Francis Begs Forgiveness for ‘Evil’ Christians Inflicted on Indigenous People
+Title: U.S. Officials Grow More Concerned About Potential Action by China on Taiwan
+Title: Where China Is Changing Its Diplomatic Ways (at Least a Little)
+Title: David Trimble, Peace Prize Winner in Ulster Strife, Dies at 77
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Deal signed to allow grain exports to resume by sea
-Title: Ukraine's frontline farmers toil on amid explosions
-Title: Biden's doctor: President's Covid symptoms 'have improved'
-Title: Dom Phillips and Bruno Pereira: Three charged with Brazil murder
-Title: Twitter spent $33m in three months on Elon Musk deal
+Title: EU agrees to cut gas use over Russia supply fears
+Title: Tomohiro Kato: Japan executes Akihabara mass murderer, say reports
+Title: Myanmar executions: US urges China to condemn Myanmar
+Title: Czech forest fire smoke drifts across country
+Title: Freya the 600kg walrus causes a stir in Norway
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-746050
+746623
 $ date -u +%s
-1658509908
+1658840754
