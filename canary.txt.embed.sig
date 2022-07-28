@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETstICVdXuiVDbWbE4ZLSpBcBRSaIHM04G4jA4sGyskcWlXv4g80FzwjljOhyLazorcPIB2GqOY/S06ng1KxbAg8=
+RWQ6KRormNEETlooZJzpi1kQSwgbnYuBVKh68pa/YUZwu4Ey6fJRUAF7cOfNKQIpiW1ldrInm8XFQxwzLguPWZ5x+EyrcG65ZQM=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 26 Jul 2022 13:05:44 +0000
+Thu, 28 Jul 2022 00:26:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany and the End of Globalization: Prosperity Under Pressure
+Title: Energy Crisis Tracker: Real-Time Statistics on Europe's Gas Supplies
 Title: The Dystopia of São Paulo Holds the Key To Brazil's Transformation
 Title: Panama Papers Whistleblower: "The Russian Government Wants To See Me Dead"
 Title: Battle for the Donbas: Why Putin Should Fear the Ukrainian Resistance
-Title: Using Famine as a Lever: Putin Weaponizes the Global Food Supply
-Title: A Stress Test for Solidarity: Looming Natural Gas Shortages Has the EU Scrambling for Solutions
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Kyiv Nightlife Comes Back Amid Urge for Contact. ‘This Is the Cure.’
-Title: Francis Begs Forgiveness for ‘Evil’ Christians Inflicted on Indigenous People
-Title: U.S. Officials Grow More Concerned About Potential Action by China on Taiwan
-Title: Where China Is Changing Its Diplomatic Ways (at Least a Little)
-Title: David Trimble, Peace Prize Winner in Ulster Strife, Dies at 77
+Title: Looming Question for Putin Opponents: Can You Change Russia From Jail?
+Title: Ukraine Live Updates: U.S. Offers Prisoner Swap to Secure Griner’s Release, Official Says
+Title: Anti-U.N. Protests in Congo Leave 15 Dead, Including 3 Peacekeepers
+Title: For Hong Kong’s Beijing-Backed Officials, Xi’s All That
+Title: Bangladesh Seeks I.M.F. Loan as Inflation Rocks South Asia
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: EU agrees to cut gas use over Russia supply fears
-Title: Tomohiro Kato: Japan executes Akihabara mass murderer, say reports
-Title: Myanmar executions: US urges China to condemn Myanmar
-Title: Czech forest fire smoke drifts across country
-Title: Freya the 600kg walrus causes a stir in Norway
+Title: Gas prices jump as Russia cuts German supply
+Title: Covid in China: Million in lockdown in Wuhan after four cases
+Title: Brittney Griner: US makes 'substantial' offer to bring basketball star home
+Title: Iraq: Muqtada al-Sadr supporters storm parliament building in Baghdad
+Title: Nigeria’s Chibok girls: Two victims found eight years on
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-746623
+746861
 $ date -u +%s
-1658840754
+1658968009
