@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 28 Jul 2022 00:26:40 +0000
+Tue, 02 Aug 2022 10:32:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Why Some Ukrainian Women Are Leaving Germany: Going Home To a Country at War
+Title: The Energy Shock: Germany Plans for a Winter without Gas from Russia
+Title: Frontex Scandal: Classified Report Reveals Full Extent of Cover-Up
 Title: Germany and the End of Globalization: Prosperity Under Pressure
 Title: Energy Crisis Tracker: Real-Time Statistics on Europe's Gas Supplies
-Title: The Dystopia of São Paulo Holds the Key To Brazil's Transformation
-Title: Panama Papers Whistleblower: "The Russian Government Wants To See Me Dead"
-Title: Battle for the Donbas: Why Putin Should Fear the Ukrainian Resistance
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Looming Question for Putin Opponents: Can You Change Russia From Jail?
-Title: Ukraine Live Updates: U.S. Offers Prisoner Swap to Secure Griner’s Release, Official Says
-Title: Anti-U.N. Protests in Congo Leave 15 Dead, Including 3 Peacekeepers
-Title: For Hong Kong’s Beijing-Backed Officials, Xi’s All That
-Title: Bangladesh Seeks I.M.F. Loan as Inflation Rocks South Asia
+Title: Ukraine Grain Ship Passes Russia’s Black Sea Blockade
+Title: To Slow World Hunger, It Will Take More Than Ukrainian Grain Exports
+Title: A Pelosi Trip to Taiwan Would Test China’s Appetite for Confrontation
+Title: Ayman al-Zawahri, Killed at 71, Led a Life of Secrecy and Violence
+Title: Using Nuclear Reactors for Cover, Russians Lob Rockets at Ukrainians
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gas prices jump as Russia cuts German supply
-Title: Covid in China: Million in lockdown in Wuhan after four cases
-Title: Brittney Griner: US makes 'substantial' offer to bring basketball star home
-Title: Iraq: Muqtada al-Sadr supporters storm parliament building in Baghdad
-Title: Nigeria’s Chibok girls: Two victims found eight years on
+Title: Ayman al-Zawahiri: Al-Qaeda leader killed in US drone strike
+Title: China-Taiwan: Tensions spike ahead of Pelosi's expected visit
+Title: Nuclear annihilation just one miscalculation away, UN chief warns
+Title: Guy Reffitt: Capitol rioter turned in by son gets 87 months in prison
+Title: Kentucky floods: Death toll rises to 37, hundreds still missing
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-746861
+747640
 $ date -u +%s
-1658968009
+1659436347
