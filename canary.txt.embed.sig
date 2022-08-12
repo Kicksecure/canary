@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETt3s/nqihqt802q1bqcuATkvRVv84bJXRctUDTNbjEf/linDPA2vZUw80PNMkFEVfi20S/88x6x7WNMVguMfLAM=
+RWQ6KRormNEETrlGgLvYAngpsY1JIbGdmNKIVNBRmEqqgOEBmOvE5EhLsEB+yrvk9JJ1qUmvBdQ+3KoMecuEum/wx+gw5I4CIQI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 02 Aug 2022 10:32:16 +0000
+Fri, 12 Aug 2022 13:56:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Why Some Ukrainian Women Are Leaving Germany: Going Home To a Country at War
-Title: The Energy Shock: Germany Plans for a Winter without Gas from Russia
-Title: Frontex Scandal: Classified Report Reveals Full Extent of Cover-Up
-Title: Germany and the End of Globalization: Prosperity Under Pressure
-Title: Energy Crisis Tracker: Real-Time Statistics on Europe's Gas Supplies
+Title: Interview with Afghanistan's Former President: Mr. Karzai, Should the West Work Together with the Taliban?
+Title: A Journey through Contested Eastern Ukraine: Many in the Donbas Feel Betrayed – By Kyiv
+Title: How the Ukraine War Hit Home for Me: When War Knocks on Your Door
+Title: A Global Shopping Tour: Where Will Germany Get Its Energy in the Future?
+Title: An Expedition into Afghanistan's Forbidden Mountains in the Nuristan Province
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Grain Ship Passes Russia’s Black Sea Blockade
-Title: To Slow World Hunger, It Will Take More Than Ukrainian Grain Exports
-Title: A Pelosi Trip to Taiwan Would Test China’s Appetite for Confrontation
-Title: Ayman al-Zawahri, Killed at 71, Led a Life of Secrecy and Violence
-Title: Using Nuclear Reactors for Cover, Russians Lob Rockets at Ukrainians
+Title: Live Updates: Ukraine Estimates Sharply Higher Russian Casualty Toll in Crimea Blasts
+Title: In the Amazon, a U.N. Agency Partners With Oil Companies
+Title: Erdogan and Putin: Complicated Relations With Mutual Benefits
+Title: Palestinian Prisoners in Israel Use Hunger Strikes to Seek Freedom
+Title: Greece’s Mitsotakis Fends Off Accusations His Government Spied on Rivals
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ayman al-Zawahiri: Al-Qaeda leader killed in US drone strike
-Title: China-Taiwan: Tensions spike ahead of Pelosi's expected visit
-Title: Nuclear annihilation just one miscalculation away, UN chief warns
-Title: Guy Reffitt: Capitol rioter turned in by son gets 87 months in prison
-Title: Kentucky floods: Death toll rises to 37, hundreds still missing
+Title: Drought hits Germany's Rhine River: 'We have 30cm of water left'
+Title: Donald Trump does not oppose US bid to unseal Mar-a-Lago search warrant
+Title: Ukraine war: Crimea blasts significantly hit Russian navy - UK
+Title: Zaporizhzhia nuclear workers: We're kept at gunpoint by Russians
+Title: Bear cub high on hallucinogenic 'mad honey' rescued by park rangers
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-747640
+749130
 $ date -u +%s
-1659436347
+1660312605
