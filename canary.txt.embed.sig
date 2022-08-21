@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrlGgLvYAngpsY1JIbGdmNKIVNBRmEqqgOEBmOvE5EhLsEB+yrvk9JJ1qUmvBdQ+3KoMecuEum/wx+gw5I4CIQI=
+RWQ6KRormNEEToK7thHZX5jYoxIWL9ndJGAFKKtjyXlD2qVngK55pRVXqojpNGbPRzY+wX4gCKll/RTWCc5dftKn88yHrLrJgwM=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 12 Aug 2022 13:56:35 +0000
+Sun, 21 Aug 2022 16:55:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Interview with Afghanistan's Former President: Mr. Karzai, Should the West Work Together with the Taliban?
-Title: A Journey through Contested Eastern Ukraine: Many in the Donbas Feel Betrayed – By Kyiv
-Title: How the Ukraine War Hit Home for Me: When War Knocks on Your Door
-Title: A Global Shopping Tour: Where Will Germany Get Its Energy in the Future?
-Title: An Expedition into Afghanistan's Forbidden Mountains in the Nuristan Province
+Title: Ukrainians Speak about Being Taken to Russia: "Anything Seemed Better than Lying Dead in Mariupol"
+Title: Brazil Has High Hopes for a New Strain of Wheat
+Title: How Putin's War Changed My Moscow
+Title: The Taliban Catastrophe: Afghanistan One Year After the Takeover
+Title: Flirting with a Meltdown: Fighting Near Ukrainian Power Plant Raises Risk of Nuclear Accident
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Ukraine Estimates Sharply Higher Russian Casualty Toll in Crimea Blasts
-Title: In the Amazon, a U.N. Agency Partners With Oil Companies
-Title: Erdogan and Putin: Complicated Relations With Mutual Benefits
-Title: Palestinian Prisoners in Israel Use Hunger Strikes to Seek Freedom
-Title: Greece’s Mitsotakis Fends Off Accusations His Government Spied on Rivals
+Title: Odesa Is Defiant. It’s Also Putin’s Ultimate Target in Ukraine.
+Title: ‘Artistic Awakening’ in Benin as Return of Royal Artifacts Attracts Huge Crowds
+Title: The Face of China: A Globetrotting Diplomat Armed With U.S. Admonitions
+Title: Economic Neglect and Political Instability Unraveled Tunisia’s Democracy
+Title: Singapore to Repeal Ban on Sex Between Consenting Men
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Drought hits Germany's Rhine River: 'We have 30cm of water left'
-Title: Donald Trump does not oppose US bid to unseal Mar-a-Lago search warrant
-Title: Ukraine war: Crimea blasts significantly hit Russian navy - UK
-Title: Zaporizhzhia nuclear workers: We're kept at gunpoint by Russians
-Title: Bear cub high on hallucinogenic 'mad honey' rescued by park rangers
+Title: Darya Dugina: Daughter of Putin ally killed in Moscow blast
+Title: 377A: Singapore to end ban on gay sex
+Title: Somalia hotel siege: More than 20 die in al-Shabab attack
+Title: In pictures: Drought in Europe exposes sunken ships, lost villages and ominous 'hunger stones'
+Title: Portugal wildfires: State of alert begins amid third heatwave
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-749130
+750459
 $ date -u +%s
-1660312605
+1661100916
