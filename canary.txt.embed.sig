@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEToK7thHZX5jYoxIWL9ndJGAFKKtjyXlD2qVngK55pRVXqojpNGbPRzY+wX4gCKll/RTWCc5dftKn88yHrLrJgwM=
+RWQ6KRormNEEThZ5WV1U3huzBbVPZhO20qWiKJAoWCqKQnhmeaNgjK/PQwjClB5dDIywbEDz1QSy45TIy6LThkcj0V/oeQqqkAc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 21 Aug 2022 16:55:08 +0000
+Thu, 25 Aug 2022 10:24:15 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Road to Nowhere: Debts Mount with China's Prestigious Silk Road Project
+Title: The Russian Patient: How Much Blame Does Society Bear for Putin's War Crimes?
 Title: Ukrainians Speak about Being Taken to Russia: "Anything Seemed Better than Lying Dead in Mariupol"
 Title: Brazil Has High Hopes for a New Strain of Wheat
 Title: How Putin's War Changed My Moscow
-Title: The Taliban Catastrophe: Afghanistan One Year After the Takeover
-Title: Flirting with a Meltdown: Fighting Near Ukrainian Power Plant Raises Risk of Nuclear Accident
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Odesa Is Defiant. It’s Also Putin’s Ultimate Target in Ukraine.
-Title: ‘Artistic Awakening’ in Benin as Return of Royal Artifacts Attracts Huge Crowds
-Title: The Face of China: A Globetrotting Diplomat Armed With U.S. Admonitions
-Title: Economic Neglect and Political Instability Unraveled Tunisia’s Democracy
-Title: Singapore to Repeal Ban on Sex Between Consenting Men
+Title: Russian Missile Strike Kills at Least 22 on Independence Day
+Title: 6 Months Into War, Ukraine and Russia Are Both Reshaped
+Title: Calculating the Costs of the Russia-Ukraine War After 6 Months
+Title: South Korea’s Fertility Rate Is World’s Lowest, Again
+Title: Fighting Near Tigray Region of Ethiopia Shatters Cease-Fire
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Darya Dugina: Daughter of Putin ally killed in Moscow blast
-Title: 377A: Singapore to end ban on gay sex
-Title: Somalia hotel siege: More than 20 die in al-Shabab attack
-Title: In pictures: Drought in Europe exposes sunken ships, lost villages and ominous 'hunger stones'
-Title: Portugal wildfires: State of alert begins amid third heatwave
+Title: Ukraine war: Russia railway station strike kills 25, injures dozens
+Title: Uvalde school shooting: Embattled police chief Pete Arredondo fired
+Title: Sewage in sea: French appeal to EU over UK discharges of waste
+Title: Kobe Bryant's widow awarded $16m leaked crash photos payout
+Title: South Korea records world's lowest fertility rate again
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-750459
+751043
 $ date -u +%s
-1661100916
+1661423064
