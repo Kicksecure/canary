@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThZ5WV1U3huzBbVPZhO20qWiKJAoWCqKQnhmeaNgjK/PQwjClB5dDIywbEDz1QSy45TIy6LThkcj0V/oeQqqkAc=
+RWQ6KRormNEETinvBKxFzAZsOGd551ZqBZxBhGOwKO15XUJ/KQdyPLFwqt+C/qXmwoIUHSe8GBEVbLnihilxC8usAkldnzx33Qs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 25 Aug 2022 10:24:15 +0000
+Sat, 27 Aug 2022 10:43:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: BioNTech Founder Uğur Şahin: "The Virus Continues To Mutate at a High Speed"
+Title: Pleasure Trips from Moscow: How Putin's Daughter Traveled Unnoticed to Germany
 Title: Road to Nowhere: Debts Mount with China's Prestigious Silk Road Project
 Title: The Russian Patient: How Much Blame Does Society Bear for Putin's War Crimes?
 Title: Ukrainians Speak about Being Taken to Russia: "Anything Seemed Better than Lying Dead in Mariupol"
-Title: Brazil Has High Hopes for a New Strain of Wheat
-Title: How Putin's War Changed My Moscow
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russian Missile Strike Kills at Least 22 on Independence Day
-Title: 6 Months Into War, Ukraine and Russia Are Both Reshaped
-Title: Calculating the Costs of the Russia-Ukraine War After 6 Months
-Title: South Korea’s Fertility Rate Is World’s Lowest, Again
-Title: Fighting Near Tigray Region of Ethiopia Shatters Cease-Fire
+Title: Ukraine Weighs a Risky Offensive to Break Out of a Stalemate
+Title: War Brings Ukraine’s Women New Roles and New Dangers
+Title: Sanna Marin’s Party Scandal Highlights Finland’s Generational Divides
+Title: U.K. Energy Price Cap to Rise 80%, Regulator Says
+Title: Inspectors Set to Visit Besieged Ukrainian Nuclear Plant
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Russia railway station strike kills 25, injures dozens
-Title: Uvalde school shooting: Embattled police chief Pete Arredondo fired
-Title: Sewage in sea: French appeal to EU over UK discharges of waste
-Title: Kobe Bryant's widow awarded $16m leaked crash photos payout
-Title: South Korea records world's lowest fertility rate again
+Title: Russia blocks nuclear treaty agreement over Ukraine reference
+Title: FBI cites 'evidence of obstruction' in Trump Florida home search
+Title: Jerome Powell: US stock markets down after interest rate warning
+Title: Hong Kong's Peak Tram reopens after 14 months
+Title: Efforts to pass global ocean protection treaty fail
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-751043
+751364
 $ date -u +%s
-1661423064
+1661597011
