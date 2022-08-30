@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETinvBKxFzAZsOGd551ZqBZxBhGOwKO15XUJ/KQdyPLFwqt+C/qXmwoIUHSe8GBEVbLnihilxC8usAkldnzx33Qs=
+RWQ6KRormNEETqhKQjtMGwaswx9LDU5pFdumGSJLqxaQxRGBFjUy1WWib6W+WGqdQZxe9wiqjxr2TtM6jCuS9iVXMcx33M2YNAs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 27 Aug 2022 10:43:23 +0000
+Tue, 30 Aug 2022 13:06:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: BioNTech Founder Uğur Şahin: "The Virus Continues To Mutate at a High Speed"
@@ -56,20 +56,20 @@ Title: The Russian Patient: How Much Blame Does Society Bear for Putin's War Cri
 Title: Ukrainians Speak about Being Taken to Russia: "Anything Seemed Better than Lying Dead in Mariupol"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Weighs a Risky Offensive to Break Out of a Stalemate
-Title: War Brings Ukraine’s Women New Roles and New Dangers
-Title: Sanna Marin’s Party Scandal Highlights Finland’s Generational Divides
-Title: U.K. Energy Price Cap to Rise 80%, Regulator Says
-Title: Inspectors Set to Visit Besieged Ukrainian Nuclear Plant
+Title: Ukraine Announces Offensive in Kherson, as Inspectors Head to Nuclear Plant
+Title: More Vital Than Ever, Ukraine’s Trains Bind a Land Fractured by War
+Title: Iraq Cleric Muqtada al-Sadr Tries To Defuse Baghdad Clashes
+Title: As Rome Burns (or at Least Its Garbage), a Mayor Dares to Dream
+Title: Ukraine Announces Push in South; U.N. Inspectors Head to Nuclear Site
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Russia blocks nuclear treaty agreement over Ukraine reference
-Title: FBI cites 'evidence of obstruction' in Trump Florida home search
-Title: Jerome Powell: US stock markets down after interest rate warning
-Title: Hong Kong's Peak Tram reopens after 14 months
-Title: Efforts to pass global ocean protection treaty fail
+Title: Pakistan floods are ‘a monsoon on steroids’, warns UN chief
+Title: Iraq: At least 23 dead amid fighting after Moqtada al-Sadr quits
+Title: Chris Dawson: Husband in podcast-famous case guilty of murder
+Title: Mukesh Ambani: India tycoon launches $25bn 5G rollout plan
+Title: Ecuador fears Galapagos tortoises were hunted and eaten
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-751364
+751858
 $ date -u +%s
-1661597011
+1661864776
