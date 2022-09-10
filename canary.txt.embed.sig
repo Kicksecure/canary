@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtaz8yEqsIPPpMvX3LaRmptoSokt60u1l/kVa9Uy7dPLJXkJDeYCM9ouIrZLeaePWkRjguRVVZNnHCS6GsP7kQ4=
+RWQ6KRormNEETjE/EfIrYfW2r351C1xu01iIBvt+TJC8eI9zsm8DcvTcTDmQRt5/4oPOoipnv+5Pcxy8lT48nIC+SkJzpG1jsQ0=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 03 Sep 2022 20:50:49 +0000
+Sat, 10 Sep 2022 11:08:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Accusations of Child Exploitation Haunt Austrian Filmmaker Ulrich Seidl
-Title: The Germans' Dramatic Escape from Afghanistan in 2021
-Title: Escape from Afghanistan, Part II: The Dramatic Rescue of German Staff and Local Hires in Kabul
-Title: Germany's Escape from Afghanistan: "We're Destroying the IT. Have a Nice Sunday"
-Title: Border Lawlessness: Greece's Slide Toward Authoritarianism
+Title: Poland's Prime Minister on Ukraine War and Energy Crisis
+Title: Habeck's Meltdown: Nuclear Energy Standby Proposal Has Germany's Greens Seeing Red
+Title: European Commissioner Gentiloni: "The Coming Winter Could Be One of the Worst in History"
+Title: Russian Meddling in the Balkans: "Over and Over, Putin Says Kosovo, Kosovo, Kosovo!"
+Title: Laos and the New Silk Road: The Train to Dependence on China
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: How Shady Ships Use GPS to Evade International Law
-Title: At Mikhail Gorbachev’s Funeral, Russians Mourn in Silent Protest
-Title: Chile Votes on Constitution That Would Enshrine Record Number of Rights
-Title: Ukraine Struggles to Identify Bucha Massacre Victims, Five Months On
-Title: As Britain Prepares for a New Leader, Tensions With Allies Loom
+Title: Live Updates: Charles Is Officially Proclaimed King
+Title: Queen Elizabeth II: The One Constant in an Inconstant World
+Title: For Ukraine, the Fight Is Often a Game of Bridges
+Title: With Tears and Steel, Kenya’s ‘Hustler’ President Vanquishes His Foes
+Title: Ukrainian Forces Approach Key City as Offensive Gains Steam
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Zelenska: As Europe counts pennies we count casualties
-Title: Nasa: Artemis Moon rocket second launch attempt called off
-Title: 'Happy tears' - Serena Williams bows out of US Open
-Title: Ukraine war: Russia to keep key gas pipeline to EU closed
-Title: Mikhail Gorbachev: Thousands pay respects to last Soviet leader
+Title: Charles formally confirmed as king in ceremony televised for first time
+Title: Kharkiv offensive: Russia surprised as Ukraine takes several towns - UK
+Title: New Zealand: Whale may have caused boat flip that killed five
+Title: Sweden election: Gang shootings cast shadow over vote
+Title: New York declares state of emergency over polio
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-752464
+753453
 $ date -u +%s
-1662238258
+1662808135
