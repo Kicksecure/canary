@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 10 Sep 2022 11:08:46 +0000
+Mon, 19 Sep 2022 18:26:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Poland's Prime Minister on Ukraine War and Energy Crisis
-Title: Habeck's Meltdown: Nuclear Energy Standby Proposal Has Germany's Greens Seeing Red
-Title: European Commissioner Gentiloni: "The Coming Winter Could Be One of the Worst in History"
-Title: Russian Meddling in the Balkans: "Over and Over, Putin Says Kosovo, Kosovo, Kosovo!"
-Title: Laos and the New Silk Road: The Train to Dependence on China
+Title: The Philippines: The Consequences of Reproductive Ignorance in Happyland
+Title: The Great Bluff: How the Ukrainians Outwitted Putin's Army
+Title: The Ukraine War: "Russia Is Becoming Poorer and More Backward"
+Title: Why Right-Wing Mayor Robert Ménard Is So Popular in France
+Title: Energy Crisis Fallout: How Bad Will the German Recession Be?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Charles Is Officially Proclaimed King
-Title: Queen Elizabeth II: The One Constant in an Inconstant World
-Title: For Ukraine, the Fight Is Often a Game of Bridges
-Title: With Tears and Steel, Kenya’s ‘Hustler’ President Vanquishes His Foes
-Title: Ukrainian Forces Approach Key City as Offensive Gains Steam
+Title: Updates: Queen Elizabeth II’s Coffin Is Lowered Into Royal Vault in Windsor, Her Final Resting Place
+Title: Russian Missile Strikes 2nd Nuclear Site, Increasing Safety Concerns
+Title: U.S. Hostage Exchanged for Afghan Drug Lord in Prisoner Swap
+Title: United Nations: What to Expect at the General Assembly This Week
+Title: From Coronation to Funeral: Bookends to the Life of a Queen, and a Generation
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Charles formally confirmed as king in ceremony televised for first time
-Title: Kharkiv offensive: Russia surprised as Ukraine takes several towns - UK
-Title: New Zealand: Whale may have caused boat flip that killed five
-Title: Sweden election: Gang shootings cast shadow over vote
-Title: New York declares state of emergency over polio
+Title: Deadly Donetsk blasts hit separatist-run city in Ukraine
+Title: Biden again says US would defend Taiwan if China attacks
+Title: Chinese official warns against touching foreigners after monkeypox case
+Title: Covid-19 pandemic 'is over' in the US - Joe Biden
+Title: Mahsa Amini: Iran police say woman's death was 'unfortunate'
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-753453
+754834
 $ date -u +%s
-1662808135
+1663612001
