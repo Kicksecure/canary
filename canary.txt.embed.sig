@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETpyUsfAa7gMEPXMuZmh+j655tt5sYnaakX5feKiApT73UvWG/wl0N3sLvZRUEEeZXIayj3WytvfNoW766BWT+w0=
+RWQ6KRormNEETrWlHe0jlIHXXqz1K6E2e0CcMkIeEsGpMinCDyNCg4RlT+bdQKrWkVVGDfPweeFNqhDAWv2kQicbUbXDZZjw7gA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 19 Sep 2022 18:26:31 +0000
+Mon, 26 Sep 2022 20:36:28 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Philippines: The Consequences of Reproductive Ignorance in Happyland
-Title: The Great Bluff: How the Ukrainians Outwitted Putin's Army
-Title: The Ukraine War: "Russia Is Becoming Poorer and More Backward"
-Title: Why Right-Wing Mayor Robert Ménard Is So Popular in France
-Title: Energy Crisis Fallout: How Bad Will the German Recession Be?
+Title: Giorgia Meloni's Election Victory: What the Rightward Shift Means for Italy
+Title: No More Illusions: Putin Bets It All in Ukraine
+Title: "Under Putin, There Will Be No Peace": Russia Expert Liana Fix on the Escalation in the Ukraine War
+Title: Inflation, Bankruptcies and Fears of Decline: Is This The Return of the Sick Man of Europe?
+Title: Growing Energy Crisis: A Grave Threat to Industry in Germany
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Updates: Queen Elizabeth II’s Coffin Is Lowered Into Royal Vault in Windsor, Her Final Resting Place
-Title: Russian Missile Strikes 2nd Nuclear Site, Increasing Safety Concerns
-Title: U.S. Hostage Exchanged for Afghan Drug Lord in Prisoner Swap
-Title: United Nations: What to Expect at the General Assembly This Week
-Title: From Coronation to Funeral: Bookends to the Life of a Queen, and a Generation
+Title: Europe Looks at Italy’s Giorgia Meloni With Caution and Trepidation
+Title: Russia’s Draft Sweeps Up Vulnerable Groups, Activists Say
+Title: Two Cities, Two Armies: Pivot Points in the Fight in Ukraine’s East
+Title: Iran Strikes Kurdish Separatist Groups in Northern Iraq
+Title: 4 Years After Thrilling Cave Rescue, Sleepy Park Readies for Onslaught
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Deadly Donetsk blasts hit separatist-run city in Ukraine
-Title: Biden again says US would defend Taiwan if China attacks
-Title: Chinese official warns against touching foreigners after monkeypox case
-Title: Covid-19 pandemic 'is over' in the US - Joe Biden
-Title: Mahsa Amini: Iran police say woman's death was 'unfortunate'
+Title: Ukraine war: Russia admits mobilisation errors, amid growing public opposition
+Title: Deadly gun attack at Russian school
+Title: Giorgia Meloni: Italy's far right wins election and vows to govern for all
+Title: Uganda's Ebola outbreak: Trainee doctors go on strike over safety fears
+Title: People smuggler: I get clients to sign a waiver
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-754834
+755831
 $ date -u +%s
-1663612001
+1664224598
