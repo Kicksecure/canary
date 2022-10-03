@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 26 Sep 2022 20:36:28 +0000
+Mon, 03 Oct 2022 11:50:20 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Giorgia Meloni's Election Victory: What the Rightward Shift Means for Italy
-Title: No More Illusions: Putin Bets It All in Ukraine
-Title: "Under Putin, There Will Be No Peace": Russia Expert Liana Fix on the Escalation in the Ukraine War
-Title: Inflation, Bankruptcies and Fears of Decline: Is This The Return of the Sick Man of Europe?
-Title: Growing Energy Crisis: A Grave Threat to Industry in Germany
+Title: Editorial: Is Putin Bluffing the West or the other Way Around?
+Title: Nord Stream Attacks Expose Vulnerability of European Infrastructure
+Title: Social Design Contest 2022: Vote on Your Favorite from the Shortlist
+Title: Bolsonaro's Gun-Club Friends: Brazil Bracing for Possible Election Unrest
+Title: Serbia's President Targets LGBTQI Community as a Distraction
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Europe Looks at Italy’s Giorgia Meloni With Caution and Trepidation
-Title: Russia’s Draft Sweeps Up Vulnerable Groups, Activists Say
-Title: Two Cities, Two Armies: Pivot Points in the Fight in Ukraine’s East
-Title: Iran Strikes Kurdish Separatist Groups in Northern Iraq
-Title: 4 Years After Thrilling Cave Rescue, Sleepy Park Readies for Onslaught
+Title: Bolsonaro Outperforms Polls and Forces Runoff Against Lula in Brazil’s Presidential Election
+Title: Authorities Will Work to Identify Suspects in Stampede Within Days
+Title: Ukrainian Troops Hunt Demoralized Russian Stragglers in Lyman
+Title: In Quebec, the Independence Movement Gives Way to a New Nationalism
+Title: Indonesian Soccer Stadium Deaths Prompt Focus on Police
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Russia admits mobilisation errors, amid growing public opposition
-Title: Deadly gun attack at Russian school
-Title: Giorgia Meloni: Italy's far right wins election and vows to govern for all
-Title: Uganda's Ebola outbreak: Trainee doctors go on strike over safety fears
-Title: People smuggler: I get clients to sign a waiver
+Title: Brazil's Lula and Bolsonaro face run-off after surprisingly tight result
+Title: Indonesia: Fans 'died in the arms' of players in stadium crush
+Title: Iran protests: Students clash with security forces at Tehran university
+Title: Nobel Prize goes to Svante Paabo for Neanderthal work
+Title: Ukraine war: Questions over France's weapons supply to Kyiv
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-755831
+756854
 $ date -u +%s
-1664224598
+1664797830
