@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 03 Oct 2022 11:50:20 +0000
+Sat, 15 Oct 2022 15:00:29 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Editorial: Is Putin Bluffing the West or the other Way Around?
-Title: Nord Stream Attacks Expose Vulnerability of European Infrastructure
-Title: Social Design Contest 2022: Vote on Your Favorite from the Shortlist
-Title: Bolsonaro's Gun-Club Friends: Brazil Bracing for Possible Election Unrest
-Title: Serbia's President Targets LGBTQI Community as a Distraction
+Title: The Courageous Women of Iran: A Lesson for the World
+Title: Unrest in Iran Sends Waves of Uncertainty Across the Region
+Title: Björn Höcke: The True Leader of Germany's Right Wing AfD
+Title: Hans Niemann Mentor Maxim Dlugy: "What Magnus Carlsen Did Is Absolutely Ridiculous"
+Title: Why DER SPIEGEL Is Publishing the EU Investigative Report on Pushbacks
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Bolsonaro Outperforms Polls and Forces Runoff Against Lula in Brazil’s Presidential Election
-Title: Authorities Will Work to Identify Suspects in Stampede Within Days
-Title: Ukrainian Troops Hunt Demoralized Russian Stragglers in Lyman
-Title: In Quebec, the Independence Movement Gives Way to a New Nationalism
-Title: Indonesian Soccer Stadium Deaths Prompt Focus on Police
+Title: Three Women of Bucha: Their Deaths and Lives
+Title: When Cemeteries Are Flooded, Where Do You Bury the Dead?
+Title: As Russia Asserts Control, Zaporizhzhia Workers Face New Pressure, U.N. Agency Says
+Title: For Truss, a ‘Fairy Tale’ Unravels After Ousting of Kwasi Kwarteng
+Title: Belarus Wavers as Putin Presses It to Join Ukraine War
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Brazil's Lula and Bolsonaro face run-off after surprisingly tight result
-Title: Indonesia: Fans 'died in the arms' of players in stadium crush
-Title: Iran protests: Students clash with security forces at Tehran university
-Title: Nobel Prize goes to Svante Paabo for Neanderthal work
-Title: Ukraine war: Questions over France's weapons supply to Kyiv
+Title: Turkey coal mine explosion kills 41, injures 11
+Title: Kyiv told to save electricity after Russian missile strike
+Title: Musk says SpaceX cannot keep funding Ukraine Starlink
+Title: Ukraine war: Putin says no more massive strikes - for now
+Title: Iran protests: Fury over police sex assault video
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-756854
+758790
 $ date -u +%s
-1664797830
+1665846039
