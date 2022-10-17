@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 15 Oct 2022 15:00:29 +0000
+Mon, 17 Oct 2022 11:46:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The Courageous Women of Iran: A Lesson for the World
@@ -54,20 +54,20 @@ Title: Hans Niemann Mentor Maxim Dlugy: "What Magnus Carlsen Did Is Absolutely R
 Title: Why DER SPIEGEL Is Publishing the EU Investigative Report on Pushbacks
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Three Women of Bucha: Their Deaths and Lives
-Title: When Cemeteries Are Flooded, Where Do You Bury the Dead?
-Title: As Russia Asserts Control, Zaporizhzhia Workers Face New Pressure, U.N. Agency Says
-Title: For Truss, a ‘Fairy Tale’ Unravels After Ousting of Kwasi Kwarteng
-Title: Belarus Wavers as Putin Presses It to Join Ukraine War
+Title: Ukraine Live Updates: Kyiv Rocked by Explosions From ‘Kamikaze’ Drones
+Title: New U.K. Finance Minister Drops Almost All of Tax-Cut Plan
+Title: Iran’s Loyal Security Forces Protect Ruling System That Protesters Want to Topple
+Title: In Xi’s China, the Business of Business Is State-Controlled
+Title: Russia’s Draft Sends Barely Trained Men to War in Ukraine
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Turkey coal mine explosion kills 41, injures 11
-Title: Kyiv told to save electricity after Russian missile strike
-Title: Musk says SpaceX cannot keep funding Ukraine Starlink
-Title: Ukraine war: Putin says no more massive strikes - for now
-Title: Iran protests: Fury over police sex assault video
+Title: Ukraine war: Kyiv attacked by 'kamikaze drones', say officials
+Title: Iran Evin prison death toll jumps, state says
+Title: Hong Kong protester dragged into Manchester Chinese consulate grounds and beaten up
+Title: Unification Church: Japan to investigate religious group after Abe killing
+Title: Al Jazeera staff allege harassment and bullying went unchecked
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-758790
+759068
 $ date -u +%s
-1665846039
+1666007188
