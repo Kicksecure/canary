@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 17 Oct 2022 11:46:19 +0000
+Thu, 03 Nov 2022 18:06:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Courageous Women of Iran: A Lesson for the World
-Title: Unrest in Iran Sends Waves of Uncertainty Across the Region
-Title: Björn Höcke: The True Leader of Germany's Right Wing AfD
-Title: Hans Niemann Mentor Maxim Dlugy: "What Magnus Carlsen Did Is Absolutely Ridiculous"
-Title: Why DER SPIEGEL Is Publishing the EU Investigative Report on Pushbacks
+Title: "We Are Moving Backwards": A New "Underground Railroad" in U.S. Amid Draconian Abortion Laws
+Title: Business As Usual: German Companies Ignore Major Risks in China
+Title: Irreversible Contraception: Why Female Sterilization Is Both Widespread and Under Fire
+Title: "Arrogant": German Chancellor Alienates European Partners
+Title: Star Economist Roubini on the Global Crises: "World War III Has Already Effectively Begun"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Live Updates: Kyiv Rocked by Explosions From ‘Kamikaze’ Drones
-Title: New U.K. Finance Minister Drops Almost All of Tax-Cut Plan
-Title: Iran’s Loyal Security Forces Protect Ruling System That Protesters Want to Topple
-Title: In Xi’s China, the Business of Business Is State-Controlled
-Title: Russia’s Draft Sends Barely Trained Men to War in Ukraine
+Title: Russian Attacks Raise Fears That More Ukrainians Will Be Forced to Flee
+Title: Netanyahu Set to Win Israel’s Election and Return to Power Within Weeks
+Title: In Europe, New Refugee Crisis Stirs Uncomfortable Questions
+Title: Imran Khan, Ex-Prime Minister of Pakistan, Is Shot at Rally
+Title: Details in Ethiopia’s Peace Deal Reveal Clear Winners and Losers
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Kyiv attacked by 'kamikaze drones', say officials
-Title: Iran Evin prison death toll jumps, state says
-Title: Hong Kong protester dragged into Manchester Chinese consulate grounds and beaten up
-Title: Unification Church: Japan to investigate religious group after Abe killing
-Title: Al Jazeera staff allege harassment and bullying went unchecked
+Title: Imran Khan: Pakistan ex-prime minister wounded at protest march
+Title: Glencore ordered to pay millions over Africa oil bribes
+Title: Trump sues NY Attorney General Letitia James for 'intimidation'
+Title: Paintballs to be shot at Dutch wolves in bid to make them less tame
+Title: Hadis Najafi: Iran police fire on mourners for female protester - witnesses
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-759068
+761578
 $ date -u +%s
-1666007188
+1667498768
