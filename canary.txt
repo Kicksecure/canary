@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 03 Nov 2022 18:06:00 +0000
+Fri, 18 Nov 2022 16:50:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: "We Are Moving Backwards": A New "Underground Railroad" in U.S. Amid Draconian Abortion Laws
-Title: Business As Usual: German Companies Ignore Major Risks in China
-Title: Irreversible Contraception: Why Female Sterilization Is Both Widespread and Under Fire
-Title: "Arrogant": German Chancellor Alienates European Partners
-Title: Star Economist Roubini on the Global Crises: "World War III Has Already Effectively Begun"
+Title: Anthony Fauci's Life as a Right Wing Target: "The Evil in the World"
+Title: South Sudan and the Consequences of Climate Change: Islands of Suffering
+Title: All Eyes on the Gulf: The Present and Future of Europe's Energy Supply
+Title: Natural Gas from Senegal: European Casts Covetous Eyes toward West Africa
+Title: Namibia Continues Seeking Justice for Germany's Colonial-Era Genocide: "It's As If We Never Existed"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russian Attacks Raise Fears That More Ukrainians Will Be Forced to Flee
-Title: Netanyahu Set to Win Israel’s Election and Return to Power Within Weeks
-Title: In Europe, New Refugee Crisis Stirs Uncomfortable Questions
-Title: Imran Khan, Ex-Prime Minister of Pakistan, Is Shot at Rally
-Title: Details in Ethiopia’s Peace Deal Reveal Clear Winners and Losers
+Title: Debris From Ruptured Nord Stream Pipelines Shows Traces of Explosives, Sweden Says
+Title: Anton Filatov, Ukrainian Film Critic, Drafted Into Real-Life War
+Title: How Was Russia Able to Launch Its Biggest Aerial Attack on Ukraine?
+Title: US Backs Immunity for Saudi Leader in Lawsuit Over Khashoggi Murder
+Title: In France, Victims’ Fund Struggles to Heal Terrorism’s Traumas
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Imran Khan: Pakistan ex-prime minister wounded at protest march
-Title: Glencore ordered to pay millions over Africa oil bribes
-Title: Trump sues NY Attorney General Letitia James for 'intimidation'
-Title: Paintballs to be shot at Dutch wolves in bid to make them less tame
-Title: Hadis Najafi: Iran police fire on mourners for female protester - witnesses
+Title: Mohammed bin Salman: Saudi leader given US immunity over Khashoggi killing
+Title: World Cup 2022: Alcohol sales banned at World Cup stadiums in Qatar
+Title: MH17: Australia asks Russia to hand over three who downed airliner
+Title: Iranian protesters set fire to Ayatollah Khomeini's house
+Title: Theranos: Silicon Valley holds breath for Elizabeth Holmes sentencing
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-761578
+763733
 $ date -u +%s
-1667498768
+1668790231
