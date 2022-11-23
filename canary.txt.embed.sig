@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkPuwNrIEnoyZA59LX7+Z+LAueqkixr2pLtm3JkbMKzAX3fKTmbu542NeKAnJ0qP4+WkSKr81MCC/lKJG0Tfuw0=
+RWQ6KRormNEETkUxXygTnKRppi8BBevrpdL+G+A4wym0BwBN/E/FA/IcA1Q2o/3YYaoDqVh+HRNbeAAWVbsKJsKHMq0An4rIeQk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 18 Nov 2022 16:50:23 +0000
+Wed, 23 Nov 2022 05:01:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Anthony Fauci's Life as a Right Wing Target: "The Evil in the World"
-Title: South Sudan and the Consequences of Climate Change: Islands of Suffering
-Title: All Eyes on the Gulf: The Present and Future of Europe's Energy Supply
-Title: Natural Gas from Senegal: European Casts Covetous Eyes toward West Africa
-Title: Namibia Continues Seeking Justice for Germany's Colonial-Era Genocide: "It's As If We Never Existed"
+Title: Lebanon's Economic Crisis: Armed Cash Withdrawals Spread amid Growing Desperation
+Title: High Society: High Hurdles Face Germany's Cannabis Legalization Plans
+Title: Infantino's Disaster: Opening Day Highlights the Qatar World Cup's Shortcomings
+Title: A Visit to Kherson: City Has Been Liberated, But a Few Are Not Happy
+Title: The Winter World Cup: Qatar Has Spent Years Preparing, But Is the World Ready?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Debris From Ruptured Nord Stream Pipelines Shows Traces of Explosives, Sweden Says
-Title: Anton Filatov, Ukrainian Film Critic, Drafted Into Real-Life War
-Title: How Was Russia Able to Launch Its Biggest Aerial Attack on Ukraine?
-Title: US Backs Immunity for Saudi Leader in Lawsuit Over Khashoggi Murder
-Title: In France, Victims’ Fund Struggles to Heal Terrorism’s Traumas
+Title: Ukraine Defies Odds in War With Russia, But Still Has Far to Go
+Title: Ukraine Battles for Control of Key Black Sea Peninsula
+Title: UK Starts to Look at Brexit With ‘Bregret’
+Title: Outbreaks Test China’s Efforts to Limit the Cost of ‘Zero Covid’
+Title: Beijing Is Tackling Air Pollution. Why Can’t New Delhi?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Mohammed bin Salman: Saudi leader given US immunity over Khashoggi killing
-Title: World Cup 2022: Alcohol sales banned at World Cup stadiums in Qatar
-Title: MH17: Australia asks Russia to hand over three who downed airliner
-Title: Iranian protesters set fire to Ayatollah Khomeini's house
-Title: Theranos: Silicon Valley holds breath for Elizabeth Holmes sentencing
+Title: Trump taxes: Supreme Court clears Democrats to see returns
+Title: Indonesia earthquake: Rescuers battle aftershocks as survivor search continues
+Title: Ukraine monastery raid as SBU targets Russian agents
+Title: Viktor Orban 'Greater Hungary' scarf angers Romania and Ukraine
+Title: Bolsonaro party challenges Brazil election result
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-763733
+764361
 $ date -u +%s
-1668790231
+1669179684
