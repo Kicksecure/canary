@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkUxXygTnKRppi8BBevrpdL+G+A4wym0BwBN/E/FA/IcA1Q2o/3YYaoDqVh+HRNbeAAWVbsKJsKHMq0An4rIeQk=
+RWQ6KRormNEETgqnCD1tO/mqQTtHC854lR+HswiYld+Dr6Tfo9NKpxa0IsLpACiCOSJdC4llP0Vaen4q3kGk1IGFk7paRxGo4AQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 23 Nov 2022 05:01:16 +0000
+Mon, 28 Nov 2022 14:09:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "The Regime's Legitimacy Is Eroding": Iran Protests Continue Despite Brutal Repression
+Title: Russia's Second Front: Putin Seeks to Destabilize Ukraine's Neighbor
 Title: Lebanon's Economic Crisis: Armed Cash Withdrawals Spread amid Growing Desperation
 Title: High Society: High Hurdles Face Germany's Cannabis Legalization Plans
 Title: Infantino's Disaster: Opening Day Highlights the Qatar World Cup's Shortcomings
-Title: A Visit to Kherson: City Has Been Liberated, But a Few Are Not Happy
-Title: The Winter World Cup: Qatar Has Spent Years Preparing, But Is the World Ready?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Defies Odds in War With Russia, But Still Has Far to Go
-Title: Ukraine Battles for Control of Key Black Sea Peninsula
-Title: UK Starts to Look at Brexit With ‘Bregret’
-Title: Outbreaks Test China’s Efforts to Limit the Cost of ‘Zero Covid’
-Title: Beijing Is Tackling Air Pollution. Why Can’t New Delhi?
+Title: Deadly Fire in China Fuels Protests Over Xi’s Covid Policies
+Title: Why Protesters in China Are Using Blank Sheets of White Paper
+Title: In Ukraine, Bakhmut Becomes a Bloody Vortex for 2 Militaries
+Title: Russia Denies Reports That It Will Withdraw from Embattled Nuclear Plant
+Title: The Covid Protests in China, Explained
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump taxes: Supreme Court clears Democrats to see returns
-Title: Indonesia earthquake: Rescuers battle aftershocks as survivor search continues
-Title: Ukraine monastery raid as SBU targets Russian agents
-Title: Viktor Orban 'Greater Hungary' scarf angers Romania and Ukraine
-Title: Bolsonaro party challenges Brazil election result
+Title: China Covid: BBC journalist detained by police during protests
+Title: China's protests: Blank paper becomes the symbol of rare demonstrations
+Title: Monkeypox given new name by global health experts
+Title: Toomaj Salehi: Iranian rapper could face death penalty
+Title: Ecuador gangs: Gunmen storm hospital in attempt to kill teen
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-764361
+765046
 $ date -u +%s
-1669179684
+1669644572
