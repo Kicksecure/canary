@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgqnCD1tO/mqQTtHC854lR+HswiYld+Dr6Tfo9NKpxa0IsLpACiCOSJdC4llP0Vaen4q3kGk1IGFk7paRxGo4AQ=
+RWQ6KRormNEETq5fffd4CsB2DlggIU5lsP4Omr48uJxdESibkZXNL3sDPLhhS8g0/ne0dT9eVZ/1Vj7vyfP5BLzSvmqpbBxdmgU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 28 Nov 2022 14:09:19 +0000
+Sat, 03 Dec 2022 16:35:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: "The Regime's Legitimacy Is Eroding": Iran Protests Continue Despite Brutal Repression
-Title: Russia's Second Front: Putin Seeks to Destabilize Ukraine's Neighbor
-Title: Lebanon's Economic Crisis: Armed Cash Withdrawals Spread amid Growing Desperation
-Title: High Society: High Hurdles Face Germany's Cannabis Legalization Plans
-Title: Infantino's Disaster: Opening Day Highlights the Qatar World Cup's Shortcomings
+Title: Friends or Frenemies?: Significant Trans-Atlantic Divides Emerge in Global Chip War
+Title: The Russian Mobilization: One Soldier's Effort to Avoid the War
+Title: Tragedy in Mariupol: The Boy Who Lost His Family But Not His Hope
+Title: A Year with Angela Merkel: "You're Done with Power Politics"
+Title: Fears of Chinese Aggression Grow in Taiwan: "Where Are We Supposed to Go?"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Deadly Fire in China Fuels Protests Over Xi’s Covid Policies
-Title: Why Protesters in China Are Using Blank Sheets of White Paper
-Title: In Ukraine, Bakhmut Becomes a Bloody Vortex for 2 Militaries
-Title: Russia Denies Reports That It Will Withdraw from Embattled Nuclear Plant
-Title: The Covid Protests in China, Explained
+Title: He Returned a Dazed Soldier to the Russians. Ukraine Calls It Treason.
+Title: Landslide Tragedy Turns Italy’s Focus to Illegal Construction
+Title: Why Is Rahul Gandhi Walking 2,000 Miles Across India?
+Title: How China’s Police Used Phones and Faces to Track Protesters
+Title: Ukraine Calls for Evacuations From a Russian-Controlled Area
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: China Covid: BBC journalist detained by police during protests
-Title: China's protests: Blank paper becomes the symbol of rare demonstrations
-Title: Monkeypox given new name by global health experts
-Title: Toomaj Salehi: Iranian rapper could face death penalty
-Title: Ecuador gangs: Gunmen storm hospital in attempt to kill teen
+Title: Ukraine war: Price cap on Russian oil will hit Putin immediately - US
+Title: Ukraine war: New images show Russian army base built in occupied Mariupol
+Title: West Bank footage throws spotlight on Israel's use of lethal force
+Title: US Air Force unveils new B-21 Raider nuclear stealth bomber
+Title: Elnaz Rekabi: Family home of Iranian climber demolished
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-765046
+765744
 $ date -u +%s
-1669644572
+1670085382
