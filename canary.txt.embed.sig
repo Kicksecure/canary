@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqlYZ7MjnPjkJdlhDYxXJwWzo9qKVDlQyZV68wdSBMjW/iwlLPo1OEPVEkry630hAh3/lxbguAz35w0bOdWdBQg=
+RWQ6KRormNEETl+S7liaI68Z1eFcnJCvO6zy3LA4cTYSt49tKT82xYw20LtUFKWufztZ3sltaYi6aidqGl5A7UF55pkOSaA1eQc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 20 Dec 2022 15:52:19 +0000
+Mon, 26 Dec 2022 15:59:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: COVID Chaos Unfolds in China: From One Extreme to the Other
@@ -56,20 +56,20 @@ Title: DER SPIEGEL Survey: Musk Destroys Tesla Image in Germany
 Title: Spying on Chinese Living Abroad: A Visit To the City Responsible for China's Police Stations in Europe
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: One Day With an Ambulance in Britain: Long Waits, Rising Frustration
-Title: German Court Sentences Ex-Concentration Camp Secretary to Probation
-Title: As Putin Admits Difficulties in Occupied Ukrainian Areas, Zelensky Visits Frontline City
-Title: Ukraine Urges Russian Soldiers to Surrender to Drones
-Title: China’s Abrupt Covid Pivot Leaves Many Without Medicines
+Title: Investigating the Nord Stream Pipeline Sabotage
+Title: With ‘Zero Covid,’ China Proved It’s Good at Control. Governance Is Harder.
+Title: Nets, Buoys, Salt, Ice. For West African Fishermen, ‘Everything’ Is Going Up.
+Title: With Record Military Incursions, China Warns Taiwan and the U.S.
+Title: North Korean Drones Breach Border, Triggering Alarms in South
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Irmgard Furchner: Nazi typist guilty of complicity in 10,500 murders
-Title: Ukraine war: Volodymyr Zelensky visits front-line city of Bakhmut
-Title: Harvey Weinstein found guilty in second sex crimes trial
-Title: Pakistan hostages: 33 militants killed at police station
-Title: Elon Musk: Only blue tick users to vote in Twitter polls on policy
+Title: Buffalo blizzard: Storm turns city into 'war zone'
+Title: Ukraine war: Drone attack on Russian bomber base leaves three dead
+Title: China stages big military incursion, Taiwan says
+Title: North Korean drone reaches north of Seoul
+Title: Brazilian held over alleged bomb plot to stop inauguration
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-768234
+769004
 $ date -u +%s
-1671551549
+1672070375
