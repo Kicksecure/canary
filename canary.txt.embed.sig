@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETl+S7liaI68Z1eFcnJCvO6zy3LA4cTYSt49tKT82xYw20LtUFKWufztZ3sltaYi6aidqGl5A7UF55pkOSaA1eQc=
+RWQ6KRormNEETlkOJcAsRlKglA4C7WRm3qZ+kN0/cn/MdzcLelmG2DPtl2VMQyFNet3/Vn483hLaaOBOH32PZxb0k4Cqta68gQg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 26 Dec 2022 15:59:26 +0000
+Mon, 02 Jan 2023 14:39:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: COVID Chaos Unfolds in China: From One Extreme to the Other
@@ -56,20 +56,20 @@ Title: DER SPIEGEL Survey: Musk Destroys Tesla Image in Germany
 Title: Spying on Chinese Living Abroad: A Visit To the City Responsible for China's Police Stations in Europe
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Investigating the Nord Stream Pipeline Sabotage
-Title: With ‘Zero Covid,’ China Proved It’s Good at Control. Governance Is Harder.
-Title: Nets, Buoys, Salt, Ice. For West African Fishermen, ‘Everything’ Is Going Up.
-Title: With Record Military Incursions, China Warns Taiwan and the U.S.
-Title: North Korean Drones Breach Border, Triggering Alarms in South
+Title: Ukrainian Attack Kills 63 Russian Soldiers in East, Moscow Says
+Title: India Emerges as Key Global Player Amid Russia’s War in Ukraine
+Title: Chance to Say Goodbye to Pope Benedict XVI Draws Thousands
+Title: U.K. Rail Strike May Scuttle Post-Holiday Plans to Return to Work
+Title: Climate Activists Find a Way to Get Germany’s Attention: Stop Traffic
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Buffalo blizzard: Storm turns city into 'war zone'
-Title: Ukraine war: Drone attack on Russian bomber base leaves three dead
-Title: China stages big military incursion, Taiwan says
-Title: North Korean drone reaches north of Seoul
-Title: Brazilian held over alleged bomb plot to stop inauguration
+Title: Ukraine claims hundreds of Russians killed by missile attack
+Title: Australia helicopter collision: Four dead in mid-air incident over Gold Coast
+Title: Third of world in recession this year, IMF head warns
+Title: Dubai scraps 30% alcohol tax and licence fee in apparent bid to boost tourism
+Title: Dozens escape Mexican jail in deadly attack
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-769004
+770040
 $ date -u +%s
-1672070375
+1672670404
