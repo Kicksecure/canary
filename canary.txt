@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 02 Jan 2023 14:39:53 +0000
+Wed, 11 Jan 2023 11:32:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: COVID Chaos Unfolds in China: From One Extreme to the Other
-Title: Corruption Scandal in the European Parliament: Who Got the Bags of Money?
-Title: The Death of a Forced Friendship: Russian Invasion of Ukraine Ends an Era in Finland
-Title: DER SPIEGEL Survey: Musk Destroys Tesla Image in Germany
-Title: Spying on Chinese Living Abroad: A Visit To the City Responsible for China's Police Stations in Europe
+Title: Bolsonaro's Mob: The Predictable Attack on Brazil's Democracy
+Title: China's Battle against COVID: The Omicron Wave Hits the Countryside
+Title: Stem Cell Meat from Singapore: A Taste of the Future
+Title: Catholic Church in Crisis: Benedict XVI's Dark Legacy
+Title: Forty Marders for Kyiv: Germany Moves Forward with Tank Deliveries to Ukraine
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukrainian Attack Kills 63 Russian Soldiers in East, Moscow Says
-Title: India Emerges as Key Global Player Amid Russia’s War in Ukraine
-Title: Chance to Say Goodbye to Pope Benedict XVI Draws Thousands
-Title: U.K. Rail Strike May Scuttle Post-Holiday Plans to Return to Work
-Title: Climate Activists Find a Way to Get Germany’s Attention: Stop Traffic
+Title: Death Toll in Peru Rises to 47 Amid Extraordinary Violence
+Title: This Is What Shanghai’s Covid Outbreak Looks Like
+Title: Ukraine Battles for Eastern Town as Russia Advances
+Title: Iran Protests: People Executed or Sentenced to Death in Crackdown
+Title: ‘A Wild Card’: Son of Uganda’s President Jostles to Succeed His Father
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine claims hundreds of Russians killed by missile attack
-Title: Australia helicopter collision: Four dead in mid-air incident over Gold Coast
-Title: Third of world in recession this year, IMF head warns
-Title: Dubai scraps 30% alcohol tax and licence fee in apparent bid to boost tourism
-Title: Dozens escape Mexican jail in deadly attack
+Title: Controversial Catholic cleric Pell dies aged 81
+Title: Brazil riots: Arrests ordered for top officials after capital stormed
+Title: Gare du Nord: Six people injured in stabbing attack
+Title: Ukraine war: Conflicting claims over embattled town of Soledar
+Title: Iran protests: Jailed activist Sepideh Qolian describes brutality in letter
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-770040
+771436
 $ date -u +%s
-1672670404
+1673436747
