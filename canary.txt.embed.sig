@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtg8kYB1EsIAj01q/TY0tGvYMEU9OFYh/DYzDmOE/plbp0y+mg7G6B+UhcBYlVULrhoKL7ckaXIlLW7AWAX91gA=
+RWQ6KRormNEETpoyaSmYyCHX8j6ft18ESlJtsn6yBnQEoHiSRyg3r8g2BpFIBJ5x5TNDtCnvdHiGamCFaRatHL1pApM7ukPgcw0=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 11 Jan 2023 11:32:16 +0000
+Sun, 15 Jan 2023 09:06:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Friends and Strangers: The Franco-German Relationship Is Cooling at a Critical Time
+Title: German Economy Minister Robert Habeck: "We Have Gained Control Over the Crisis"
+Title: Protesting for Women's Rights: The Faces of Death Row in Iran
 Title: Bolsonaro's Mob: The Predictable Attack on Brazil's Democracy
 Title: China's Battle against COVID: The Omicron Wave Hits the Countryside
-Title: Stem Cell Meat from Singapore: A Taste of the Future
-Title: Catholic Church in Crisis: Benedict XVI's Dark Legacy
-Title: Forty Marders for Kyiv: Germany Moves Forward with Tank Deliveries to Ukraine
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Death Toll in Peru Rises to 47 Amid Extraordinary Violence
-Title: This Is What Shanghai’s Covid Outbreak Looks Like
-Title: Ukraine Battles for Eastern Town as Russia Advances
-Title: Iran Protests: People Executed or Sentenced to Death in Crackdown
-Title: ‘A Wild Card’: Son of Uganda’s President Jostles to Succeed His Father
+Title: As Russians Steal Ukraine’s Art, They Attack Its Identity, Too
+Title: Hunting for Truffles Is a Perilous Pursuit, Especially for the Dogs Who Dig
+Title: China Reports Nearly 60,000 Covid-Linked Deaths Since Lifting Restrictions
+Title: German Village at Center of a Fight Over Coal and Climate Is Cleared Out
+Title: How Western Goods Reach Russia: A Long Line of Trucks Through Georgia
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Controversial Catholic cleric Pell dies aged 81
-Title: Brazil riots: Arrests ordered for top officials after capital stormed
-Title: Gare du Nord: Six people injured in stabbing attack
-Title: Ukraine war: Conflicting claims over embattled town of Soledar
-Title: Iran protests: Jailed activist Sepideh Qolian describes brutality in letter
+Title: Pokhara airport: At least 40 killed in plane crash in central Nepal
+Title: California battles deadly storms with millions under flood watch
+Title: Russia fires new waves of missiles at Ukraine and hits energy infrastructure
+Title: Over 80,000 Israelis protest against Supreme Court reform
+Title: More classified material found at Joe Biden's Delaware home
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-771436
+772043
 $ date -u +%s
-1673436747
+1673773595
