@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 15 Jan 2023 09:06:24 +0000
+Fri, 20 Jan 2023 17:26:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Gita Gopinath: "The Fight against Inflation May Take Somewhat Longer"
+Title: Blockade in the Southern Caucasus: "There Is Every Reason to Expect More Violence This Year"
+Title: Femicide in South Africa: Women Are Waging War on Gender-Based Violence in Cape Town
+Title: The Bad News Bundeswehr: An Examination of the Truly Dire State of Germany's Military
 Title: Friends and Strangers: The Franco-German Relationship Is Cooling at a Critical Time
-Title: German Economy Minister Robert Habeck: "We Have Gained Control Over the Crisis"
-Title: Protesting for Women's Rights: The Faces of Death Row in Iran
-Title: Bolsonaro's Mob: The Predictable Attack on Brazil's Democracy
-Title: China's Battle against COVID: The Omicron Wave Hits the Countryside
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: As Russians Steal Ukraine’s Art, They Attack Its Identity, Too
-Title: Hunting for Truffles Is a Perilous Pursuit, Especially for the Dogs Who Dig
-Title: China Reports Nearly 60,000 Covid-Linked Deaths Since Lifting Restrictions
-Title: German Village at Center of a Fight Over Coal and Climate Is Cleared Out
-Title: How Western Goods Reach Russia: A Long Line of Trucks Through Georgia
+Title: Allies Fail to Reach Agreement on Providing German-made Tanks to Ukraine
+Title: A Mother in Haiti Watches Her Child’s Gang Killing
+Title: Jacinda Ardern Will Be Gone Soon but New Zealand’s Economic Troubles Are Here to Stay
+Title: For Reporter, Trauma Comes With Exposing Ugly Truths of a Brutal Conflict
+Title: Israel’s Judicial Standoff Deepens as Netanyahu Delays Firing Minister
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Pokhara airport: At least 40 killed in plane crash in central Nepal
-Title: California battles deadly storms with millions under flood watch
-Title: Russia fires new waves of missiles at Ukraine and hits energy infrastructure
-Title: Over 80,000 Israelis protest against Supreme Court reform
-Title: More classified material found at Joe Biden's Delaware home
+Title: Tanzanian killed in Ukraine: We told him not to go
+Title: Google parent Alphabet to cut 12,000 jobs
+Title: Trump drops lawsuit against New York Attorney General Letitia James
+Title: Andrew Tate: Romania court extends police detention for influencer and brother
+Title: Lebanon MPs sit in as 11th vote for president fails
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-772043
+772833
 $ date -u +%s
-1673773595
+1674235613
