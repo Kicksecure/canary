@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEToNWwHUadJry0tBL7F4F3iKnUPCfld2H6DCrCBhj0jh3Caow0LFDLO/ntRZ9VYkmU+2DPVXNmFki2HWm28l69As=
+RWQ6KRormNEEToO79Jz4yKSaYKRdS39fwH0GOx2PhTc01+vToEhCrffNbZydJtjM3SriwG+6m+e/ERmscFGma/mcp4kOGLec5QQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 20 Jan 2023 17:26:44 +0000
+Mon, 30 Jan 2023 11:09:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Gita Gopinath: "The Fight against Inflation May Take Somewhat Longer"
-Title: Blockade in the Southern Caucasus: "There Is Every Reason to Expect More Violence This Year"
-Title: Femicide in South Africa: Women Are Waging War on Gender-Based Violence in Cape Town
-Title: The Bad News Bundeswehr: An Examination of the Truly Dire State of Germany's Military
-Title: Friends and Strangers: The Franco-German Relationship Is Cooling at a Critical Time
+Title: The Last Taboo: Germany's Leopard Tanks Are a Game Changer with Significant Risks
+Title: The Spectacular Case of Lørenskog: Norway's Ongoing Search for a Murderer
+Title: Nordic NATO Membership: Sweden-Turkey Spat Means Finland Might Take Unilateral Route
+Title: Germany's Tank Debate: Why Is the Chancellor Taking So Long?
+Title: A Victim of Repression in Xinjiang Awaits Next Chapter in Life: "I Want To Live"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Allies Fail to Reach Agreement on Providing German-made Tanks to Ukraine
-Title: A Mother in Haiti Watches Her Child’s Gang Killing
-Title: Jacinda Ardern Will Be Gone Soon but New Zealand’s Economic Troubles Are Here to Stay
-Title: For Reporter, Trauma Comes With Exposing Ugly Truths of a Brutal Conflict
-Title: Israel’s Judicial Standoff Deepens as Netanyahu Delays Firing Minister
+Title: The Hunt for Nazi-Buried Treasure in a Dutch Village
+Title: Russia and Ukraine Battle for Control of Villages Near the Key City of Bakhmut
+Title: Prime Minister Rishi Sunak Fires Nadhim Zahawi, U.K. Conservative Party Chairman
+Title: Palestinian Man Fatally Shot as Violence Continues in Israel
+Title: Iran Says It Thwarted a Drone Attack on a Munitions Facility
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Tanzanian killed in Ukraine: We told him not to go
-Title: Google parent Alphabet to cut 12,000 jobs
-Title: Trump drops lawsuit against New York Attorney General Letitia James
-Title: Andrew Tate: Romania court extends police detention for influencer and brother
-Title: Lebanon MPs sit in as 11th vote for president fails
+Title: Pakistan mosque blast: At least 28 killed after explosion in Peshawar
+Title: Ukraine: Boris Johnson says Putin threatened him with missile strike
+Title: Tyre Nichols' lawyer urges lawmakers to pass urgent police reforms
+Title: South Africa birthday party shooting: Eight killed in Gqeberha, Eastern Cape
+Title: Auckland floods: More heavy rain ahead for New Zealand's largest city
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-772833
+774323
 $ date -u +%s
-1674235613
+1675077001
