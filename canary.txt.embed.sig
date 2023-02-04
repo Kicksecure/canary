@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETidYu0WnY7scVRfS3N//aCf/7vbDD8ctb6BpYBSo34bX15VVK48iV6adiBvEPFKKlr/OhvfEmdxSrJhHzksFxgc=
+RWQ6KRormNEETv/ogI6VJTPjKGX45+YnHLt08PgWPNr5bmZLF5WccrA+h+FRG0C//d8W5uAfJ/rPByW8nDWe40QLW2Q8o4sMYAc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 04 Feb 2023 10:06:14 +0000
+Sat, 04 Feb 2023 10:09:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: EU Wants To Seal Itself Off from Refugees: Pressure and Fences
@@ -72,4 +72,4 @@ Title: Pope Francis in South Sudan: The Catholic pilgrims who walked nine days t
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 774983
 $ date -u +%s
-1675505184
+1675505397
