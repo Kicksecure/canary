@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETv/ogI6VJTPjKGX45+YnHLt08PgWPNr5bmZLF5WccrA+h+FRG0C//d8W5uAfJ/rPByW8nDWe40QLW2Q8o4sMYAc=
+RWQ6KRormNEETiY+1BFEzTOMSH6V5Lvl1zjRQt8L6sUr69QeXbc2fF4aB6dQpUYgUmQ2/nBeMkRP4x8+GOctBTsS+jgMk0xcGgc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 04 Feb 2023 10:09:47 +0000
+Mon, 06 Feb 2023 17:14:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: »Time Out of Mind«-Remix: The new reinvention of Bob Dylan
 Title: EU Wants To Seal Itself Off from Refugees: Pressure and Fences
 Title: Accusations of Colonialist Thinking: Ukrainians Angered By Messages from Russian Opposition Leader Navalny
 Title: Russia Expert Angela Stent: "As Long as Russia Has 6,000 Nuclear Warheads, It Will Remain a Threat"
 Title: Ukraine: Tank Deliveries Could Mark Turning Point in War
-Title: What Western Tanks Mean for Ukraine: It's Time To Turn the Tables on Moscow - Opinion
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: What’s the Correct Color of Bees? In Austria, It’s a Toxic Topic.
-Title: When It Comes to Building Its Own Defense, Europe Has Blinked
-Title: Balloon Incident Highlights Fragile State of U.S.-China Relationship
-Title: E.U. Vows More Help for Ukraine but Tamps Down Membership Talk
-Title: In London’s Poor‌ ‌Areas, Budget Cuts‌ and Youth Violence Collide
+Title: Live Updates: Earthquake Kills at Least 2,100 in Turkey and Syria
+Title: After the Quake: Photos From Turkey and Syria
+Title: Eastern Ukraine Braces for New Russian Offensive
+Title: Russian Attacks Intensify in East, Ukraine Says
+Title: Israeli Raid Kills at Least 5 Palestinians in West Bank
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: China urges calm over 'spy' balloon in US airspace
-Title: The US-China spy balloon row in under a minute
-Title: Elon Musk found not guilty of fraud over Tesla tweet
-Title: Ukraine war: US to provide long-range missiles in latest aid package
-Title: Pope Francis in South Sudan: The Catholic pilgrims who walked nine days to Juba
+Title: Turkey earthquake is country's worst disaster in 84 years - Erdogan
+Title: Turkey earthquake: Screaming, shaking... how it felt when the quake hit
+Title: Second balloon over Latin America is ours - China
+Title: Ukraine braced for renewed Russian offensive later in February
+Title: Palestinian gunmen killed in Israeli raid in Jericho
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-774983
+775319
 $ date -u +%s
-1675505397
+1675703705
