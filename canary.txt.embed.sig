@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETiY+1BFEzTOMSH6V5Lvl1zjRQt8L6sUr69QeXbc2fF4aB6dQpUYgUmQ2/nBeMkRP4x8+GOctBTsS+jgMk0xcGgc=
+RWQ6KRormNEETgWRhRQsVvqnU8rUTRup6VKD8OxNlblXxmxrChdo3yRJ+HT+32HecZ6JxmSS+pF+E/O81E6kq3TA/OYIkVMPcwE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 06 Feb 2023 17:14:53 +0000
+Thu, 23 Feb 2023 12:58:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: »Time Out of Mind«-Remix: The new reinvention of Bob Dylan
-Title: EU Wants To Seal Itself Off from Refugees: Pressure and Fences
-Title: Accusations of Colonialist Thinking: Ukrainians Angered By Messages from Russian Opposition Leader Navalny
-Title: Russia Expert Angela Stent: "As Long as Russia Has 6,000 Nuclear Warheads, It Will Remain a Threat"
-Title: Ukraine: Tank Deliveries Could Mark Turning Point in War
+Title: Volodymyr Zelenskyy's Heroes: Ukraine's Best Respond to the Earthquake in Turkey
+Title: "Russia Is Good at Cheating"
+Title: "This Here Is Hell": A Visit to the Front in Bakhmut
+Title: The Day That Never Ended for Ukraine: "We Are Not Going To Give Up"
+Title: How a Covert Firm Spreads Lies and Chaos Around the World
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Earthquake Kills at Least 2,100 in Turkey and Syria
-Title: After the Quake: Photos From Turkey and Syria
-Title: Eastern Ukraine Braces for New Russian Offensive
-Title: Russian Attacks Intensify in East, Ukraine Says
-Title: Israeli Raid Kills at Least 5 Palestinians in West Bank
+Title: Live Updates: Ukraine Anticipates Surge in Russian Attacks on Eve of War’s Anniversary
+Title: Bulgarian Factories and Secret Task Forces: How the West Hunts for Soviet Arms
+Title: Turkish Builders Come Under Intense Scrutiny Over Shoddy Construction
+Title: Want That Coffee With Olive Oil? Starbucks Thinks Italians Will.
+Title: Northern Ireland Brexit Deal Is Gamble for British Prime Minister
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Turkey earthquake is country's worst disaster in 84 years - Erdogan
-Title: Turkey earthquake: Screaming, shaking... how it felt when the quake hit
-Title: Second balloon over Latin America is ours - China
-Title: Ukraine braced for renewed Russian offensive later in February
-Title: Palestinian gunmen killed in Israeli raid in Jericho
+Title: Florida TV journalist and child shot dead at scene of earlier murder
+Title: Toyota and Honda announce biggest pay rises in decades
+Title: Gaza-Israel exchange of fire follows deadly West Bank raid
+Title: Selfie image shows US pilot flying over Chinese 'spy balloon'
+Title: Canada's military tracked Chinese surveillance in the Arctic
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-775319
+777954
 $ date -u +%s
-1675703705
+1677157127
