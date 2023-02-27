@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgWRhRQsVvqnU8rUTRup6VKD8OxNlblXxmxrChdo3yRJ+HT+32HecZ6JxmSS+pF+E/O81E6kq3TA/OYIkVMPcwE=
+RWQ6KRormNEETvDR/AIUSJkypZQaXD7y5L2O+VbRKsqlAmFzOP1c5NUV2XlR/RF2q/q1Mma3Ffs7OXgfHVpaOC9R92sIkV6CHAk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 23 Feb 2023 12:58:37 +0000
+Mon, 27 Feb 2023 16:53:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Kaja Kallas: Estonia's High-Profile Prime Minister - a Star in the Making
+Title: The Special Tribunal Debate: "An Arrest Warrant Against Putin Would Be Immense"
+Title: The War in Ukraine: China Is Reportedly Negotiating with Russia To Supply Kamikaze Drones
 Title: Volodymyr Zelenskyy's Heroes: Ukraine's Best Respond to the Earthquake in Turkey
 Title: "Russia Is Good at Cheating"
-Title: "This Here Is Hell": A Visit to the Front in Bakhmut
-Title: The Day That Never Ended for Ukraine: "We Are Not Going To Give Up"
-Title: How a Covert Firm Spreads Lies and Chaos Around the World
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Ukraine Anticipates Surge in Russian Attacks on Eve of War’s Anniversary
-Title: Bulgarian Factories and Secret Task Forces: How the West Hunts for Soviet Arms
-Title: Turkish Builders Come Under Intense Scrutiny Over Shoddy Construction
-Title: Want That Coffee With Olive Oil? Starbucks Thinks Italians Will.
-Title: Northern Ireland Brexit Deal Is Gamble for British Prime Minister
+Title: Live Updates: Yellen Visits Kyiv, Reaffirming U.S. Support for Ukraine
+Title: Russia’s New Offensive Sends Conscripts Into the Teeth of Ukraine’s Lines
+Title: Dying Children and Frozen Flocks in Afghanistan’s Bitter Winter of Crisis
+Title: Live Updates: Britain and E.U. Agree on Northern Ireland Trade Deal
+Title: What Is the Northern Ireland Protocol? The Brexit Deal Changes, Explained
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Florida TV journalist and child shot dead at scene of earlier murder
-Title: Toyota and Honda announce biggest pay rises in decades
-Title: Gaza-Israel exchange of fire follows deadly West Bank raid
-Title: Selfie image shows US pilot flying over Chinese 'spy balloon'
-Title: Canada's military tracked Chinese surveillance in the Arctic
+Title: Italy migrant boat shipwreck: More than 100 people feared dead
+Title: Settlers rampage in West Bank villages after Israelis killed
+Title: Turkey earthquake: Erdogan seeks forgiveness over quake rescue delays
+Title: Nigeria election results 2023: Peter Obi wins Lagos against Bola Tinubu - provisional
+Title: Winter storm brings snow to California and tornadoes to central US
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-777954
+778533
 $ date -u +%s
-1677157127
+1677516814
