@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 27 Feb 2023 16:53:23 +0000
+Wed, 15 Mar 2023 18:11:13 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Kaja Kallas: Estonia's High-Profile Prime Minister - a Star in the Making
-Title: The Special Tribunal Debate: "An Arrest Warrant Against Putin Would Be Immense"
-Title: The War in Ukraine: China Is Reportedly Negotiating with Russia To Supply Kamikaze Drones
-Title: Volodymyr Zelenskyy's Heroes: Ukraine's Best Respond to the Earthquake in Turkey
-Title: "Russia Is Good at Cheating"
+Title: The Black Sea Region Is Suddenly Cast in Geopolitical Spotlight
+Title: Support for Russia's War Economy?: A German Auto Parts Supplier Raises Eyebrows
+Title: Moscow Mole: The Story Behind Germany's Embarrassing Intelligence Leak
+Title: Timothy Snyder on the Ukraine War: "In Russia, Will Is Placed over Reason"
+Title: Superpower Posturing: Fears Grow of New Cold War Between U.S. and China
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Yellen Visits Kyiv, Reaffirming U.S. Support for Ukraine
-Title: Russia’s New Offensive Sends Conscripts Into the Teeth of Ukraine’s Lines
-Title: Dying Children and Frozen Flocks in Afghanistan’s Bitter Winter of Crisis
-Title: Live Updates: Britain and E.U. Agree on Northern Ireland Trade Deal
-Title: What Is the Northern Ireland Protocol? The Brexit Deal Changes, Explained
+Title: Drone Flights Will Go On, U.S. Says, as Tensions Flare With Russia
+Title: Israel Says It Killed a Bomber Who Probably Entered From Lebanon
+Title: Teachers Join Wave of Public Service Strikes as U.K. Unveils Budget
+Title: A Hungarian Town Seethes Over a Giant Chinese Battery Plant
+Title: Garbage Piles Up in Protest Against France’s Pension Change
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Italy migrant boat shipwreck: More than 100 people feared dead
-Title: Settlers rampage in West Bank villages after Israelis killed
-Title: Turkey earthquake: Erdogan seeks forgiveness over quake rescue delays
-Title: Nigeria election results 2023: Peter Obi wins Lagos against Bola Tinubu - provisional
-Title: Winter storm brings snow to California and tornadoes to central US
+Title: US drone downing: Russia will try to retrieve remnants of drone
+Title: Imran Khan greets supporters after police withdraw from around ex-PM's home
+Title: San Francisco reparations plan proposes $5m for black residents
+Title: UAE arbitrarily detaining 2,400 Afghan asylum seekers - report
+Title: Australian boy, 13, spent six weeks in solitary confinement
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-778533
+780950
 $ date -u +%s
-1677516814
+1678903884
