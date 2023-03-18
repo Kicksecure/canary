@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEToBJGn2wje81HtotYxz8WgrIWcFVbl5mh6+8S8pczUdkPEGrit97q7x60MwFpNt6toQCT79505Yuoy25cxpc4gw=
+RWQ6KRormNEETksmoCTZHK3ZXc4gVRZTLrCMzuXW6KztsqskPe/15KBvQRdXdc0ZXG4GK8CXFW7wUTllgQcugCCZRsT90R0sYg4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 15 Mar 2023 18:11:13 +0000
+Sat, 18 Mar 2023 10:57:41 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: SVB's European Shockwaves: Silicon Valley Brings Disruption to Global Finance
+Title: Germany's Migration About-Face: Berlin Seeking to Recruit Skilled Labor from Africa
+Title: Interview with Yulia Navalnaya: "It Is Putin Personally Who Is Keeping Alexei in Prison"
 Title: The Black Sea Region Is Suddenly Cast in Geopolitical Spotlight
 Title: Support for Russia's War Economy?: A German Auto Parts Supplier Raises Eyebrows
-Title: Moscow Mole: The Story Behind Germany's Embarrassing Intelligence Leak
-Title: Timothy Snyder on the Ukraine War: "In Russia, Will Is Placed over Reason"
-Title: Superpower Posturing: Fears Grow of New Cold War Between U.S. and China
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Drone Flights Will Go On, U.S. Says, as Tensions Flare With Russia
-Title: Israel Says It Killed a Bomber Who Probably Entered From Lebanon
-Title: Teachers Join Wave of Public Service Strikes as U.K. Unveils Budget
-Title: A Hungarian Town Seethes Over a Giant Chinese Battery Plant
-Title: Garbage Piles Up in Protest Against France’s Pension Change
+Title: 20 Years After U.S. Invasion, Iraq Is a Freer Place, but Not a Hopeful One
+Title: Macron Faces an Angry France Alone
+Title: China’s Xi to Visit Putin Under Shadow of War-Crimes Warrant
+Title: Japan-Korea Relations Improve, but Ties Are Still Fragile
+Title: In Stoic Ukraine, Stony Faces Are Starting to Crack and to Cry
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US drone downing: Russia will try to retrieve remnants of drone
-Title: Imran Khan greets supporters after police withdraw from around ex-PM's home
-Title: San Francisco reparations plan proposes $5m for black residents
-Title: UAE arbitrarily detaining 2,400 Afghan asylum seekers - report
-Title: Australian boy, 13, spent six weeks in solitary confinement
+Title: Putin arrest warrant: Biden welcomes ICC's war crimes charges
+Title: Can Vladimir Putin actually be arrested?
+Title: France pension protests: Crowd clashes with police over government reform by decree
+Title: Italy leaves children of same-sex parents in limbo
+Title: Thousands may have lost out to crypto trading app
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-780950
+781344
 $ date -u +%s
-1678903884
+1679137070
