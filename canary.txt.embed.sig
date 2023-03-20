@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtFStu22TGaYDGcXg3lGNCHjn/iUQl+6Le8t0zSr56kp0c2O/SQZqcBs+rozFx36goLSD5FKZ/B+sHZ2XSV/Ggs=
+RWQ6KRormNEETg8yWGA7pT6cOSkc3IByLhFuo9WJv1izG8EgsC2ivn8fF7956SSXPPqGjNy/zjgv4VgX/gtBdBIgSL711Z7UOwQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Mar 2023 00:04:11 +0000
+Mon, 20 Mar 2023 08:21:02 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: SVB's European Shockwaves: Silicon Valley Brings Disruption to Global Finance
@@ -63,13 +63,13 @@ Title: In U.S.-Led Iraq War, Iran Was the Big Winner
 Title: China as Peacemaker in the Ukraine War? The U.S. and Europe Are Skeptical.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: UBS agrees 'emergency rescue' of Credit Suisse
+Title: Central banks to boost flow of US dollars amid market unease
 Title: Putin in Mariupol: What the Russian president saw on his visit
-Title: Cloete Murray: South African corruption investigator shot dead
-Title: Prosecuting Donald Trump would be politically motivated, say Republicans
-Title: Taliban officials must sack sons given government jobs
+Title: Two decades on, how the UK/US-led invasion turbo-charged Iraq into chaos
+Title: Xi Putin meeting: What to expect from China-Russia talks
+Title: Australian former SAS soldier Oliver Schulz held over alleged war crime in Afghanistan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-781578
+781632
 $ date -u +%s
-1679270662
+1679300472
