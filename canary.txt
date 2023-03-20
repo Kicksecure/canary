@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 18 Mar 2023 10:57:41 +0000
+Mon, 20 Mar 2023 00:04:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: SVB's European Shockwaves: Silicon Valley Brings Disruption to Global Finance
@@ -54,20 +54,20 @@ Title: The Black Sea Region Is Suddenly Cast in Geopolitical Spotlight
 Title: Support for Russia's War Economy?: A German Auto Parts Supplier Raises Eyebrows
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: 20 Years After U.S. Invasion, Iraq Is a Freer Place, but Not a Hopeful One
-Title: Macron Faces an Angry France Alone
-Title: China’s Xi to Visit Putin Under Shadow of War-Crimes Warrant
-Title: Japan-Korea Relations Improve, but Ties Are Still Fragile
-Title: In Stoic Ukraine, Stony Faces Are Starting to Crack and to Cry
+Title: Defiant Putin Visits Mariupol, a City Razed by Russian Forces
+Title: Russia Is Closing In on Bakhmut, but Casualties Are High
+Title: Rishi Sunak Charts Post-Brexit Role With Pivot From ‘Global Britain’
+Title: In U.S.-Led Iraq War, Iran Was the Big Winner
+Title: China as Peacemaker in the Ukraine War? The U.S. and Europe Are Skeptical.
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Putin arrest warrant: Biden welcomes ICC's war crimes charges
-Title: Can Vladimir Putin actually be arrested?
-Title: France pension protests: Crowd clashes with police over government reform by decree
-Title: Italy leaves children of same-sex parents in limbo
-Title: Thousands may have lost out to crypto trading app
+Title: UBS agrees 'emergency rescue' of Credit Suisse
+Title: Putin in Mariupol: What the Russian president saw on his visit
+Title: Cloete Murray: South African corruption investigator shot dead
+Title: Prosecuting Donald Trump would be politically motivated, say Republicans
+Title: Taliban officials must sack sons given government jobs
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-781344
+781578
 $ date -u +%s
-1679137070
+1679270662
