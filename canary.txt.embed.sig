@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETq920b02FP69xClV9D0wB5QEltx8jde8fpVH6VncOhR5OGusxhVPh4pqmMCx9fZAS6M56+HiRqouRU/s37bJIgI=
+RWQ6KRormNEETkwNFt5/EmicRWsQ6iezuaF4orrNWdmjWeOcLKRc+LmaeRkoifsAbPcZz20BpC3zJ3R2H6X6+qyNga3sR8bWbAc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 12 Apr 2023 03:19:15 +0000
+Wed, 12 Apr 2023 11:43:05 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Putin's Willing Helper: Austrian Entrepreneur Seeks to Save Russia's Stalled Car Industry
@@ -56,20 +56,20 @@ Title: Ethiopia After the Civil War: A Fragile Peace in the Wake of Unspeakable 
 Title: "Mafia Methods": Viktor Orbán Ups the Pressure on German Companies to Leave Hungary
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia Moves to Tighten Rules on Avoiding a Military Draft
+Title: After 25 Years of Peace in Northern Ireland, Some Still Wait for Prosperity
 Title: Macron Returns From China to Allied Dismay
 Title: During Ramadan, Palestinians Picnic in Aqsa Compound to Break Fast
 Title: How Ukraine’s Power Grid Survived So Many Russian Bombings
-Title: French Police Face Scrutiny for Heavy Hand During Pension Protests
+Title: Russia Moves to Make Draft Evasion More Difficult
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Ukraine war: Leak shows Western special forces on the ground
-Title: Pentagon leak: Spring offensive downplayed and other key takeaways
-Title: Interest rates likely to fall to pre-Covid levels, IMF predicts
-Title: British-Israeli shooting victim Lucy Dee's organs save five
-Title: Michael Jordan's trainers sell for record $2.2m
+Title: Louisville police release footage of shooting response
+Title: Ukraine war: Russian parliament approves online call-up
+Title: Climate change: Fossil fuel emissions from electricity set to fall - report
+Title: Europe migrant crisis: 400 people still stranded on boat
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-784983
+785035
 $ date -u +%s
-1681269569
+1681299797
