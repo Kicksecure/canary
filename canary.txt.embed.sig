@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETg8yWGA7pT6cOSkc3IByLhFuo9WJv1izG8EgsC2ivn8fF7956SSXPPqGjNy/zjgv4VgX/gtBdBIgSL711Z7UOwQ=
+RWQ6KRormNEETq920b02FP69xClV9D0wB5QEltx8jde8fpVH6VncOhR5OGusxhVPh4pqmMCx9fZAS6M56+HiRqouRU/s37bJIgI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Mar 2023 08:21:02 +0000
+Wed, 12 Apr 2023 03:19:15 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: SVB's European Shockwaves: Silicon Valley Brings Disruption to Global Finance
-Title: Germany's Migration About-Face: Berlin Seeking to Recruit Skilled Labor from Africa
-Title: Interview with Yulia Navalnaya: "It Is Putin Personally Who Is Keeping Alexei in Prison"
-Title: The Black Sea Region Is Suddenly Cast in Geopolitical Spotlight
-Title: Support for Russia's War Economy?: A German Auto Parts Supplier Raises Eyebrows
+Title: Putin's Willing Helper: Austrian Entrepreneur Seeks to Save Russia's Stalled Car Industry
+Title: More Affordable and Sustainable: How Towns in Belgium Are Producing Their Own Green Power
+Title: Analyst on Tehran's Nuclear Game: What Iran Wants for a New Deal
+Title: Ethiopia After the Civil War: A Fragile Peace in the Wake of Unspeakable Horrors
+Title: "Mafia Methods": Viktor Orbán Ups the Pressure on German Companies to Leave Hungary
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Defiant Putin Visits Mariupol, a City Razed by Russian Forces
-Title: Russia Is Closing In on Bakhmut, but Casualties Are High
-Title: Rishi Sunak Charts Post-Brexit Role With Pivot From ‘Global Britain’
-Title: In U.S.-Led Iraq War, Iran Was the Big Winner
-Title: China as Peacemaker in the Ukraine War? The U.S. and Europe Are Skeptical.
+Title: Russia Moves to Tighten Rules on Avoiding a Military Draft
+Title: Macron Returns From China to Allied Dismay
+Title: During Ramadan, Palestinians Picnic in Aqsa Compound to Break Fast
+Title: How Ukraine’s Power Grid Survived So Many Russian Bombings
+Title: French Police Face Scrutiny for Heavy Hand During Pension Protests
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Central banks to boost flow of US dollars amid market unease
-Title: Putin in Mariupol: What the Russian president saw on his visit
-Title: Two decades on, how the UK/US-led invasion turbo-charged Iraq into chaos
-Title: Xi Putin meeting: What to expect from China-Russia talks
-Title: Australian former SAS soldier Oliver Schulz held over alleged war crime in Afghanistan
+Title: Ukraine war: Leak shows Western special forces on the ground
+Title: Pentagon leak: Spring offensive downplayed and other key takeaways
+Title: Interest rates likely to fall to pre-Covid levels, IMF predicts
+Title: British-Israeli shooting victim Lucy Dee's organs save five
+Title: Michael Jordan's trainers sell for record $2.2m
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-781632
+784983
 $ date -u +%s
-1679300472
+1681269569
