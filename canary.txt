@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 16 Apr 2023 15:00:29 +0000
+Sat, 29 Apr 2023 19:17:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: "De-Risking": How Europe Can Best Stand Up To China
-Title: Former Pakistani Prime Minister Imran Khan: “My Opponents Will Try To Assassinate Me Again”
-Title: Nipped in the Bud: Germany To Push Ahead With Limited Legalization of Cannabis
-Title: Putin's Willing Helper: Austrian Entrepreneur Seeks to Save Russia's Stalled Car Industry
-Title: More Affordable and Sustainable: How Towns in Belgium Are Producing Their Own Green Power
+Title: Horror Scenario: Germans Prepare for Possible Re-Election of Donald Trump
+Title: Germany's Flat-Rate Train Ticket
+Title: Health Care in Africa: Hospitals Experience Fringe Benefits of COVID Pandemic
+Title: Oxford's Malaria Breakthrough: New Vaccine Could Save Hundreds of Thousands of Children
+Title: Waiting in the Wings: Drone Maker Bayraktar Seen as Possible Erdoğan Successor
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Live Updates: Clashes Spread Across Sudan on Second Day of Fighting
-Title: Ukrainian Soldiers Freeze Sperm as a Way to Defy Russia
-Title: Ahead of Elections, Turkish Opposition Leader Takes on Erdogan’s Legacy
-Title: What Leaked Pentagon Documents Say About the Russia-Ukraine War
-Title: Ishay Ribo, Religious Pop Star, Is Winning Over Secular Israel
+Title: Life in Ukraine’s Trenches: Gearing Up for a Spring Offensive
+Title: After Warmth From Biden, South Korea’s Yoon Faces a Different Tune at Home
+Title: Large Fire Burns at Crimea Fuel Depot After Suspected Drone Attack
+Title: U.S. Begins Overland Evacuation of American Civilians From Sudan
+Title: London’s Other Royals, the ‘Pearlies,’ Keep Alive Cockney Customs
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Dozens of civilians dead as power struggle rocks Sudan
-Title: Sudan fighting: The military rivalry behind the clashes in Khartoum
-Title: Atiq Ahmed: Former Indian MP and brother shot dead live on TV
-Title: Christians celebrate Holy Fire amid Jerusalem police limits
-Title: Dubai fire: Sixteen killed in blaze at Al-Ras apartment building
+Title: Sudan fighting: No talks until bombing stops, Hemedti tells BBC
+Title: Ukraine war: Crimea oil tank set ablaze by reported drone
+Title: Barack Obama and friends surprise Barcelona restaurant
+Title: US Army grounds its aircraft after recent mid-air collisions
+Title: North Korea warns of serious danger over US-South Korea deterrence deal
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-785645
+787500
 $ date -u +%s
-1681657241
+1682795835
