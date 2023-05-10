@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 05 May 2023 13:18:44 +0000
+Wed, 10 May 2023 23:21:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Turkey at a Crossroads: Erdoğan Faces a Real Risk of Losing Election
 Title: Deserting Putin: A Visit to the Soldiers Who Have Fled Russia's War
 Title: Tunisia's President Turns Back the Clock to Authoritarianism: A Wave of Repression
 Title: Horror Scenario: Germans Prepare for Possible Re-Election of Donald Trump
 Title: Germany's Flat-Rate Train Ticket
-Title: Health Care in Africa: Hospitals Experience Fringe Benefits of COVID Pandemic
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: The Dnipro River, Axis of Life and Death in Ukraine
-Title: Russian Mercenary Leader Threatens to Pull Forces From Bakhmut Next Week
-Title: Serbian Shooting Claims 8 Lives, Day After School Massacre Killed 9
-Title: Iran Targets Businesses to Stop Women From Ignoring Hijab Law
-Title: Early Results Show Tory Losses in England’s Local Elections
+Title: Ukraine Claims Gains Near Bakhmut as Deadly Fighting Continues
+Title: Aboard ‘the Beast’ Train on a Journey From Mexico to America
+Title: ‘We Don’t Want This War’: Trapped in Khartoum as Combat Rages
+Title: In Karnataka Election, More Modi, Less Hindu Nationalism
+Title: ‘Death Is Everywhere’ in a Once-Jubilant Kherson
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Yevgeny Prigozhin: Wagner Group boss says he will pull troops out of Bakhmut
-Title: Suspect arrested after second mass shooting in Serbia
-Title: What it's like inside Russia 14 months after Ukraine invasion
-Title: Ukraine shoots down own drone over central Kyiv
-Title: Who was behind the Kremlin drone attack?
+Title: Texas braces for worst as migrant rule change looms
+Title: Israel and Gaza militants in heaviest fighting for months
+Title: Imran Khan: Violence and mass arrests as former Pakistan PM charged with corruption
+Title: House Republicans release probe into Biden family finances
+Title: Italian mafia: Police arrest 61 suspected 'Ndrangheta in widespread raids
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-788371
+789163
 $ date -u +%s
-1683292734
+1683760907
