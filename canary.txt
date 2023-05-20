@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 13 May 2023 14:56:45 +0000
+Sat, 20 May 2023 08:40:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Interview with NATO Secretary General Stoltenberg: "Two Percent Is the Minimum of What We Need"
+Title: Interview with Jordanian Foreign Minister Safadi: "Russia in Syria Is a Stabilizing Factor Compared To the Alternative"
+Title: Yevgeny Prigozhin's Meat Grinder: A Moment of Truth for Russia's Wagner Group in Bakhmut
+Title: The Three Worlds of Xinjiang: A Trip Through China's Uyghur Region
 Title: Operation Counterstrike: What Might the Approaching Ukrainian Offensive Achieve?
-Title: Whistleblower Desiree Fixler on the DWS and Deutsche Bank Controversy: "I Haven’t Seen Such a Cultural Overhaul"
-Title: A Chicken and Egg Problem: How Germany's Hydrogen Boom Stalled
-Title: Turkey at a Crossroads: Erdoğan Faces a Real Risk of Losing Election
-Title: Deserting Putin: A Visit to the Soldiers Who Have Fled Russia's War
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: An Erdogan Loss in Turkey Would Stir Relief in the West and Anxiety in Moscow
-Title: India Struggles to Eradicate an Old Scourge: Witch Hunting
-Title: Zelensky Arrives in Italy for Meeting With Pope
-Title: It’s May in Rome: A Time to Revere, and Fear, Fava Beans
-Title: Thousands of Guns Turned in After 2 Mass Shootings in Serbia
+Title: Video Shows Greece Abandoning Migrants at Sea
+Title: With Prospect of F-16s Closer, Zelensky Heads to the G7 Summit Strengthened
+Title: The People Executed In Iran in Monthslong Protest Crackdown
+Title: U.S. Diplomats in Sudan Shredded Passports, Stranding Sudanese
+Title: Canada Wildfires Rage in Alberta and British Columbia
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Turkey election: Opposition dares to dream of Erdogan defeat
-Title: Ukraine's Zelensky meeting Pope Francis in Rome
-Title: Cyclone Mocha: People pack shelters as storm menaces refugee camp
-Title: Gaza cancer patients face life-threatening treatment delays
-Title: Papua New Guinea minister quits over luxury Coronation trip controversy
+Title: F-16 fighter jets: Biden to let allies supply warplanes in major boost for Kyiv
+Title: Syria: Dismay and fear as Bashar al-Assad returns to Arab fold
+Title: Greek elections: Rail tragedy hangs over vote dominated by dynasties
+Title: US debt ceiling talks hampered by 'serious differences'
+Title: Dom Phillips and Bruno Pereira: Brazilian former official indicted over murders
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-789547
+790568
 $ date -u +%s
-1683989826
+1684572055
