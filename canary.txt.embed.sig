@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThuCQIGzzT9bR1tBy+hFBLRnZwMLDCDYnnNuruAiVfp8fXGf4SHG8eGI43/YX6ZOOOGJeP8bQ+RDi3jYGj7suQM=
+RWQ6KRormNEETmkhRRIoVTKPMxJ1nc3KvtPKjOpiIW4P+eVFXpcRW1lvS+XzzxvIhTalg+owofS2Q9t/DK2MPQQhFtwJqqsvtgw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 22 May 2023 10:23:04 +0000
+Thu, 25 May 2023 04:52:45 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Normalization on the Extreme Right: Alternative for Germany Party Again Gaining Ground
 Title: Interview with NATO Secretary General Stoltenberg: "Two Percent Is the Minimum of What We Need"
 Title: Interview with Jordanian Foreign Minister Safadi: "Russia in Syria Is a Stabilizing Factor Compared To the Alternative"
 Title: Yevgeny Prigozhin's Meat Grinder: A Moment of Truth for Russia's Wagner Group in Bakhmut
 Title: The Three Worlds of Xinjiang: A Trip Through China's Uyghur Region
-Title: Operation Counterstrike: What Might the Approaching Ukrainian Offensive Achieve?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Greece Elections: New Democracy on Track to Win Most Votes
-Title: As Russia Claims Victory in Bakhmut, Ukraine Sees Opportunity Amid Ruins
-Title: Biden Announces More Aid for Ukraine as G7 Powers Meet in Japan
-Title: Sudan’s Warring Sides Agree to Weeklong Ceasefire
-Title: Inside the Barbecue City That Is China’s Hottest Tourist Destination
+Title: Pro-Ukraine Fighters Behind Cross-Border Attack Pledge More to Come
+Title: The Battle for Bakhmut Is Over. What’s Next for Russia?
+Title: As Protesters Die, Peru’s Security Forces Face Little Scrutiny
+Title: Netanyahu Budget May Risk His Economic Legacy in Israel
+Title: China Ramps Up Culture Crackdown, Canceling Music and Comedy Shows
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Bakhmut 'not occupied' by Russia, says defiant Zelensky
-Title: Greek election: Centre-right Mitsotakis hails big win but wants majority
-Title: Facebook fined €1.2bn for mishandling users' data
-Title: US debt ceiling: Joe Biden urges Republicans to compromise as talks resume
-Title: Watch: Green flash as meteor blazes across sky in Australia
+Title: Ron DeSantis Elon Musk interview: Campaign launch hits technical issues
+Title: Will these Trump voters back DeSantis this time?
+Title: Tina Turner: Tributes paid to late Queen of Rock 'n' Roll
+Title: Container ship grounded in Suez Canal
+Title: Dead fraudster mystery grips Australia
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-790869
+791277
 $ date -u +%s
-1684750997
+1684990376
