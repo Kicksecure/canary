@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmkhRRIoVTKPMxJ1nc3KvtPKjOpiIW4P+eVFXpcRW1lvS+XzzxvIhTalg+owofS2Q9t/DK2MPQQhFtwJqqsvtgw=
+RWQ6KRormNEETrKL8Ofj7O9Z++jk663ztnyqiN+B5xpVu8LTNI/31cvpecGXslmNfU52ap60DIrs/a2LNdTVPqPX49NRN+iRLwg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 25 May 2023 04:52:45 +0000
+Fri, 26 May 2023 20:35:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Shadows of World War II: A New Look at the Great Quedlinburg Art Robbery
+Title: Isabel Díaz Ayuso: Meet The Woman Spain Can't Stop Listening To
 Title: Normalization on the Extreme Right: Alternative for Germany Party Again Gaining Ground
 Title: Interview with NATO Secretary General Stoltenberg: "Two Percent Is the Minimum of What We Need"
 Title: Interview with Jordanian Foreign Minister Safadi: "Russia in Syria Is a Stabilizing Factor Compared To the Alternative"
-Title: Yevgeny Prigozhin's Meat Grinder: A Moment of Truth for Russia's Wagner Group in Bakhmut
-Title: The Three Worlds of Xinjiang: A Trip Through China's Uyghur Region
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Pro-Ukraine Fighters Behind Cross-Border Attack Pledge More to Come
-Title: The Battle for Bakhmut Is Over. What’s Next for Russia?
-Title: As Protesters Die, Peru’s Security Forces Face Little Scrutiny
-Title: Netanyahu Budget May Risk His Economic Legacy in Israel
-Title: China Ramps Up Culture Crackdown, Canceling Music and Comedy Shows
+Title: Anti-Kremlin Group Involved in Border Raid Is Led by a Neo-Nazi
+Title: Turkey’s Erdogan Woos Voters in Re-Election Campaign
+Title: Alberta Election Tests Conservatives’ Far-Right Shift
+Title: Colombia’s Peace-Whisperer Makes Plenty of Enemies
+Title: Belgium Sentences Students Over Hazing Death of Sanda Dia
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ron DeSantis Elon Musk interview: Campaign launch hits technical issues
-Title: Will these Trump voters back DeSantis this time?
-Title: Tina Turner: Tributes paid to late Queen of Rock 'n' Roll
-Title: Container ship grounded in Suez Canal
-Title: Dead fraudster mystery grips Australia
+Title: Ukraine war: Russia destroys hospital in latest missile attack
+Title: Sudan conflict: Hospital attacks potential war crimes, BBC told
+Title: Wagner: US sanctions boss of mercenary group in Mali
+Title: Celine Dion cancels all remaining shows over poor health
+Title: Gruelling Navy Seals course is dangerous - report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-791277
+791532
 $ date -u +%s
-1684990376
+1685133330
