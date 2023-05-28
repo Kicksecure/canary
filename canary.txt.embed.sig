@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrKL8Ofj7O9Z++jk663ztnyqiN+B5xpVu8LTNI/31cvpecGXslmNfU52ap60DIrs/a2LNdTVPqPX49NRN+iRLwg=
+RWQ6KRormNEETiN0vAP1Hbb1TXDfS6FqDvTE5iXci5K4uyHITWoMWGusEFzdfrVQl2+vW8+YSwaziq0QkCOUO3iXbTsTvy3FdQ8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 26 May 2023 20:35:17 +0000
+Sun, 28 May 2023 11:15:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Shadows of World War II: A New Look at the Great Quedlinburg Art Robbery
@@ -56,20 +56,20 @@ Title: Interview with NATO Secretary General Stoltenberg: "Two Percent Is the Mi
 Title: Interview with Jordanian Foreign Minister Safadi: "Russia in Syria Is a Stabilizing Factor Compared To the Alternative"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Anti-Kremlin Group Involved in Border Raid Is Led by a Neo-Nazi
-Title: Turkey’s Erdogan Woos Voters in Re-Election Campaign
-Title: Alberta Election Tests Conservatives’ Far-Right Shift
-Title: Colombia’s Peace-Whisperer Makes Plenty of Enemies
-Title: Belgium Sentences Students Over Hazing Death of Sanda Dia
+Title: A Wagner Fighter’s Escape to Norway Creates a Problem for His Host
+Title: Meet the New Mayor: How a Refugee Won Over a Conservative German Town
+Title: Turkey’s Presidential Runoff Election on Sunday: What to Know
+Title: Sudan War Strikes a Blow to the Country’s Emerging Art Scene
+Title: Russian Attack Leaves at Least 1 Dead in Kyiv
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Russia destroys hospital in latest missile attack
-Title: Sudan conflict: Hospital attacks potential war crimes, BBC told
-Title: Wagner: US sanctions boss of mercenary group in Mali
-Title: Celine Dion cancels all remaining shows over poor health
-Title: Gruelling Navy Seals course is dangerous - report
+Title: Ukraine war: Kyiv hit by new massive Russian drone attack
+Title: Turkey presidential election decides if Erdogan should have five more years
+Title: US debt ceiling: Democrats and Republicans agree deal in principle, Joe Biden says
+Title: Ken Paxton: Texas House votes to impeach Trump ally
+Title: Shounter Pass avalanche kills 11 people from nomadic tribe in Pakistan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-791532
+791775
 $ date -u +%s
-1685133330
+1685272520
