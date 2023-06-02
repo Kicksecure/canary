@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 28 May 2023 11:15:10 +0000
+Fri, 02 Jun 2023 13:55:29 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Suspicious Activity: What Are German Fighter Pilots Doing in China?
+Title: The Pain of War: The Families of Dead Wagner Fighters Speak Out
 Title: Shadows of World War II: A New Look at the Great Quedlinburg Art Robbery
 Title: Isabel Díaz Ayuso: Meet The Woman Spain Can't Stop Listening To
 Title: Normalization on the Extreme Right: Alternative for Germany Party Again Gaining Ground
-Title: Interview with NATO Secretary General Stoltenberg: "Two Percent Is the Minimum of What We Need"
-Title: Interview with Jordanian Foreign Minister Safadi: "Russia in Syria Is a Stabilizing Factor Compared To the Alternative"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: A Wagner Fighter’s Escape to Norway Creates a Problem for His Host
-Title: Meet the New Mayor: How a Refugee Won Over a Conservative German Town
-Title: Turkey’s Presidential Runoff Election on Sunday: What to Know
-Title: Sudan War Strikes a Blow to the Country’s Emerging Art Scene
-Title: Russian Attack Leaves at Least 1 Dead in Kyiv
+Title: In Finland, Blinken Calls Russia’s War ‘Strategic Failure’
+Title: As War Persists in Ukraine, Doctors Warn of Rise in Premature Births
+Title: Even in Prison, She’s ‘an Indomitable Voice’ for Freedom in Iran
+Title: After Mass Shootings in Serbia, Few Want to Give Up Their Guns
+Title: Senegal Blocks Some Social Media After Ousmane Sonko Is Sentenced
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Kyiv hit by new massive Russian drone attack
-Title: Turkey presidential election decides if Erdogan should have five more years
-Title: US debt ceiling: Democrats and Republicans agree deal in principle, Joe Biden says
-Title: Ken Paxton: Texas House votes to impeach Trump ally
-Title: Shounter Pass avalanche kills 11 people from nomadic tribe in Pakistan
+Title: Belgorod: Shelling in Russian border region kills two, governor says
+Title: Senate passes US debt ceiling deal, averting a US default
+Title: Joe Biden 'fine' after fall on stage in Colorado
+Title: Huge sandstorm sweeps across Suez Canal in Egypt
+Title: Florida teenager Dev Shah wins US Spelling Bee with 'psammophile'
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-791775
+792551
 $ date -u +%s
-1685272520
+1685714174
