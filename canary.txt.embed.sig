@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETjXvqm/ZD7fIW8WhtssrczRwOVK4PPifRybbiUPLLBKPMP6XLo7P0Iu5hJQA8wrU6m4QutsCfIMY+kis2ekMcwM=
+RWQ6KRormNEETtX3iJ1Wkp0I1G6iht5y9fDNgv5RNliE830ecy3XF607gSx2JbldM/ttveh6KcSGOV4/vx/GKpVF7OTuKKS1tAM=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 02 Jun 2023 13:55:29 +0000
+Tue, 06 Jun 2023 14:05:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: What the Future Might Hold for Asia: "Every Time China Has Been United, It Has Dominated"
 Title: Suspicious Activity: What Are German Fighter Pilots Doing in China?
 Title: The Pain of War: The Families of Dead Wagner Fighters Speak Out
 Title: Shadows of World War II: A New Look at the Great Quedlinburg Art Robbery
 Title: Isabel Díaz Ayuso: Meet The Woman Spain Can't Stop Listening To
-Title: Normalization on the Extreme Right: Alternative for Germany Party Again Gaining Ground
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: In Finland, Blinken Calls Russia’s War ‘Strategic Failure’
-Title: As War Persists in Ukraine, Doctors Warn of Rise in Premature Births
-Title: Even in Prison, She’s ‘an Indomitable Voice’ for Freedom in Iran
-Title: After Mass Shootings in Serbia, Few Want to Give Up Their Guns
-Title: Senegal Blocks Some Social Media After Ousmane Sonko Is Sentenced
+Title: Critical Dam Destroyed on Front Line in Southern Ukraine
+Title: Prince Harry Testifies in Court
+Title: Nazi Symbols on Ukraine’s Front Lines Highlight Thorny Issues of History
+Title: D-Day’s Historic Beaches Face a New Onslaught: Rising Seas
+Title: Prince Harry Wages War Against Tabloids Forced to Change, if Not Retreat
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Belgorod: Shelling in Russian border region kills two, governor says
-Title: Senate passes US debt ceiling deal, averting a US default
-Title: Joe Biden 'fine' after fall on stage in Colorado
-Title: Huge sandstorm sweeps across Suez Canal in Egypt
-Title: Florida teenager Dev Shah wins US Spelling Bee with 'psammophile'
+Title: Inside the Taliban's war on drugs - opium poppy crops slashed
+Title: Astrud Gilberto: The Girl from Ipanema singer dies at 83
+Title: Odisha train accident: More than 80 bodies unidentified after India train crash
+Title: Robert Hanssen: The fake job that snared FBI agent who spied for Moscow
+Title: Pilot of plane that crashed in Virginia was slumped over in cockpit - reports
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-792551
+793126
 $ date -u +%s
-1685714174
+1686060324
