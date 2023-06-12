@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtX3iJ1Wkp0I1G6iht5y9fDNgv5RNliE830ecy3XF607gSx2JbldM/ttveh6KcSGOV4/vx/GKpVF7OTuKKS1tAM=
+RWQ6KRormNEETnzYn/4i1C5e2+Jff8lxnRNTIcKGghzQFszmlubuaM0Nka0FEIvp/GZat9qSi8briArgDRCqZ3iOieIiEmHeVww=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 06 Jun 2023 14:05:14 +0000
+Mon, 12 Jun 2023 10:57:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: What the Future Might Hold for Asia: "Every Time China Has Been United, It Has Dominated"
-Title: Suspicious Activity: What Are German Fighter Pilots Doing in China?
-Title: The Pain of War: The Families of Dead Wagner Fighters Speak Out
-Title: Shadows of World War II: A New Look at the Great Quedlinburg Art Robbery
-Title: Isabel Díaz Ayuso: Meet The Woman Spain Can't Stop Listening To
+Title: The Kakhovka Catastrophe: War-Weary Ukrainians Reel under Massive Flooding
+Title: Moscow's Fever Dreams: There Is Only One Possible Answer to the Kakhovka Dam Breach
+Title: Were Vladimir Putin's Years in Germany Less Thrilling than the Stories?
+Title: The Global Competition for Raw Materials: Europe at Risk of Losing the Lithium Race
+Title: Norway and Russia Face Off in the Far North: The Shadow War
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Critical Dam Destroyed on Front Line in Southern Ukraine
-Title: Prince Harry Testifies in Court
-Title: Nazi Symbols on Ukraine’s Front Lines Highlight Thorny Issues of History
-Title: D-Day’s Historic Beaches Face a New Onslaught: Rising Seas
-Title: Prince Harry Wages War Against Tabloids Forced to Change, if Not Retreat
+Title: Ukraine Claims Further Small Gains in Early Stages of Counteroffensive
+Title: Fear and Mayhem as Russia’s War Comes Home
+Title: Silvio Berlusconi of Italy Dies at 86
+Title: China’s Coast Guard and the Fight to Control Asia
+Title: ‘The State Killed My Brother’: Senegal in Uproar After Deadly Protests
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Inside the Taliban's war on drugs - opium poppy crops slashed
-Title: Astrud Gilberto: The Girl from Ipanema singer dies at 83
-Title: Odisha train accident: More than 80 bodies unidentified after India train crash
-Title: Robert Hanssen: The fake job that snared FBI agent who spied for Moscow
-Title: Pilot of plane that crashed in Virginia was slumped over in cockpit - reports
+Title: Silvio Berlusconi's death leaves 'huge void', allies say
+Title: Hunter Valley: Ten people killed in wedding bus crash in Australia
+Title: Colombia plane crash: Mum told children to leave her and get help
+Title: Brittany: Girl from British family shot dead in France named
+Title: Mayon: Thousands evacuated as Philippine volcano oozes lava
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-793126
+794021
 $ date -u +%s
-1686060324
+1686567476
