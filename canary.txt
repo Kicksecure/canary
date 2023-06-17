@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 12 Jun 2023 10:57:46 +0000
+Sat, 17 Jun 2023 14:46:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Kakhovka Catastrophe: War-Weary Ukrainians Reel under Massive Flooding
-Title: Moscow's Fever Dreams: There Is Only One Possible Answer to the Kakhovka Dam Breach
-Title: Were Vladimir Putin's Years in Germany Less Thrilling than the Stories?
-Title: The Global Competition for Raw Materials: Europe at Risk of Losing the Lithium Race
-Title: Norway and Russia Face Off in the Far North: The Shadow War
+Title: On the Front in Ukraine: Going Into Battle in a Leopard 2 Tank
+Title: The Forgotten: Families Fight for the Return of Americans Held Captive Abroad
+Title: Hensoldt's Headache: Documents Hint at Shady Dealings By Prominent German Defense Company
+Title: Life in Assad's Syria: "We Only Exist If People Remember Us"
+Title: Elephant in the Room: Thailand's National Animal Is Pushing Back against Habitat Loss
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Claims Further Small Gains in Early Stages of Counteroffensive
-Title: Fear and Mayhem as Russia’s War Comes Home
-Title: Silvio Berlusconi of Italy Dies at 86
-Title: China’s Coast Guard and the Fight to Control Asia
-Title: ‘The State Killed My Brother’: Senegal in Uproar After Deadly Protests
+Title: Attack on Uganda School Kills Dozens
+Title: Russia Shifts Battle Tactics After Mistakes
+Title: Canadian Wildfires, Bigger Than Ever, Test Foreign Firefighters
+Title: Uruguay Will Turn a Bronze Nazi Eagle Into a Dove
+Title: Taliban Rely on WhatsApp, but Keep Getting Kicked Off
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Silvio Berlusconi's death leaves 'huge void', allies say
-Title: Hunter Valley: Ten people killed in wedding bus crash in Australia
-Title: Colombia plane crash: Mum told children to leave her and get help
-Title: Brittany: Girl from British family shot dead in France named
-Title: Mayon: Thousands evacuated as Philippine volcano oozes lava
+Title: Uganda school attack: Pupils among 40 killed by militants linked to Islamic State group
+Title: Greece boat disaster: People smugglers 'brainwashed' my son
+Title: Sudan crisis: Five children among 17 killed in air strikes
+Title: South Korea: Police remove Daegu city officials trying to stop LGBT festival
+Title: Binance exits Netherlands and faces France probe
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-794021
+794760
 $ date -u +%s
-1686567476
+1687013192
