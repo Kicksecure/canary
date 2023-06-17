@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlCzj9ga31HqMFRqJh3b7HGK4QoKbtdiFx8nP7fp/rarNvhR/WLP9Qt11298UgTj9TnL+8NgBrEQNYauWCY9rwM=
+RWQ6KRormNEETmGf/v2xxZBl6ckglDrAiCWVTkcA1Nz99dR/g6gdXtKZxEjIGgViHo++mgJOJ26B7x40SmS4brnLXPZzddSjyws=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 17 Jun 2023 14:46:17 +0000
+Sat, 17 Jun 2023 14:48:05 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: On the Front in Ukraine: Going Into Battle in a Leopard 2 Tank
@@ -70,6 +70,6 @@ Title: South Korea: Police remove Daegu city officials trying to stop LGBT festi
 Title: Binance exits Netherlands and faces France probe
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-794760
+794762
 $ date -u +%s
-1687013192
+1687013298
