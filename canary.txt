@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 17 Jun 2023 14:48:05 +0000
+Fri, 23 Jun 2023 09:29:12 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "The Final Battle": A Trip through Trump's America
+Title: The Camembert Crisis: Market Goes Soft for French Cheese
 Title: On the Front in Ukraine: Going Into Battle in a Leopard 2 Tank
 Title: The Forgotten: Families Fight for the Return of Americans Held Captive Abroad
 Title: Hensoldt's Headache: Documents Hint at Shady Dealings By Prominent German Defense Company
-Title: Life in Assad's Syria: "We Only Exist If People Remember Us"
-Title: Elephant in the Room: Thailand's National Animal Is Pushing Back against Habitat Loss
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Attack on Uganda School Kills Dozens
-Title: Russia Shifts Battle Tactics After Mistakes
-Title: Canadian Wildfires, Bigger Than Ever, Test Foreign Firefighters
-Title: Uruguay Will Turn a Bronze Nazi Eagle Into a Dove
-Title: Taliban Rely on WhatsApp, but Keep Getting Kicked Off
+Title: Bridge to Russian-Occupied Crimea Is Damaged
+Title: ‘Catastrophic Implosion’ Likely Killed 5 Aboard Submersible
+Title: Modi Promotes India to Congress After Meeting With Biden
+Title: Why Modi and Other Indian Leaders Stay Single
+Title: Explosion at Barbecue Restaurant in China Kills 31
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Uganda school attack: Pupils among 40 killed by militants linked to Islamic State group
-Title: Greece boat disaster: People smugglers 'brainwashed' my son
-Title: Sudan crisis: Five children among 17 killed in air strikes
-Title: South Korea: Police remove Daegu city officials trying to stop LGBT festival
-Title: Binance exits Netherlands and faces France probe
+Title: Titanic sub search: US Navy detected implosion sounds after sub lost contact
+Title: Titanic director James Cameron: 'OceanGate were warned'
+Title: Sub victim Stockton Rush in his own words
+Title: Hundreds of migrants rescued off Canary Islands
+Title: Taiwan MeToo: Exiled human rights activist Teng Biao apologises
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-794762
+795562
 $ date -u +%s
-1687013298
+1687512564
