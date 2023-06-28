@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 23 Jun 2023 09:29:12 +0000
+Wed, 28 Jun 2023 13:02:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: "The Final Battle": A Trip through Trump's America
-Title: The Camembert Crisis: Market Goes Soft for French Cheese
-Title: On the Front in Ukraine: Going Into Battle in a Leopard 2 Tank
-Title: The Forgotten: Families Fight for the Return of Americans Held Captive Abroad
-Title: Hensoldt's Headache: Documents Hint at Shady Dealings By Prominent German Defense Company
+Title: Prigozhin's Insurgency: The War Putin Wanted Now Threatens His Rule
+Title: Yevgeny Prigozhin: Wagner Uprising Likely to Have Far-Reaching Consequences
+Title: German Reactions to Chaos in Russia: 'We Have To Look Each Other Deep in the Eyes in NATO'
+Title: The Sinking of a Refugee Ship: Serious Accusations Leveled at the Greek Coast Guard
+Title: Europe's New Asylum Policy: "The First Thing They Do Is Imprison You"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Bridge to Russian-Occupied Crimea Is Damaged
-Title: ‘Catastrophic Implosion’ Likely Killed 5 Aboard Submersible
-Title: Modi Promotes India to Congress After Meeting With Biden
-Title: Why Modi and Other Indian Leaders Stay Single
-Title: Explosion at Barbecue Restaurant in China Kills 31
+Title: Putin, Projecting Control, Tries to Contain Fallout From Mutiny
+Title: Too Many Workers, or Too Few: India’s Colossal Employment Challenge
+Title: Police in France Shoot and Kill 17-Year-Old Driver, Stoking Anger
+Title: Canada Wildfires and U.S. Air Quality: What to Know and How Long the Smoke Will Last
+Title: In Russia, Wagner Rebellion Echoes Another Coup Attempt in 1917
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Titanic sub search: US Navy detected implosion sounds after sub lost contact
-Title: Titanic director James Cameron: 'OceanGate were warned'
-Title: Sub victim Stockton Rush in his own words
-Title: Hundreds of migrants rescued off Canary Islands
-Title: Taiwan MeToo: Exiled human rights activist Teng Biao apologises
+Title: Paris: Macron calls police killing of teen 'unforgivable'
+Title: Ukraine war: Countdown has begun to end of Putin, say Kyiv officials
+Title: Donald Trump countersues writer E Jean Carroll for defamation
+Title: South Koreans become younger under new age-counting law
+Title: Climate change protesters disrupt Ashes cricket match
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-795562
+796281
 $ date -u +%s
-1687512564
+1687957369
