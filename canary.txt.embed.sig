@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThnwSTHqvZ2khUJHiRJIe6JVuuMJP1v1QZcqnLouan5TMotzpeYSre5tWi24yEqlvYbkKxPClt+JqHeLpijBeQI=
+RWQ6KRormNEETiYTfnOIXaNtgzja9+Fzakg23k7Aw7yQ3XUCZTUTkuE1EbOvOo/KkiUG03KK0sXTdAA2y+OgTxIMOc7XlFYLbgU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 28 Jun 2023 13:02:37 +0000
+Tue, 04 Jul 2023 14:31:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Putin's Vassal: Belarus in the Inner-Russian Power Struggle
+Title: Another Stumble: German Intelligence Criticized for Slow Handling of Russian Coup Attempt
+Title: New Accusations against the Greek Coast Guard: "We Thought They Knew What They Were Doing"
 Title: Prigozhin's Insurgency: The War Putin Wanted Now Threatens His Rule
 Title: Yevgeny Prigozhin: Wagner Uprising Likely to Have Far-Reaching Consequences
-Title: German Reactions to Chaos in Russia: 'We Have To Look Each Other Deep in the Eyes in NATO'
-Title: The Sinking of a Refugee Ship: Serious Accusations Leveled at the Greek Coast Guard
-Title: Europe's New Asylum Policy: "The First Thing They Do Is Imprison You"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Putin, Projecting Control, Tries to Contain Fallout From Mutiny
-Title: Too Many Workers, or Too Few: India’s Colossal Employment Challenge
-Title: Police in France Shoot and Kill 17-Year-Old Driver, Stoking Anger
-Title: Canada Wildfires and U.S. Air Quality: What to Know and How Long the Smoke Will Last
-Title: In Russia, Wagner Rebellion Echoes Another Coup Attempt in 1917
+Title: Putin Uses Summit to Show Solidarity With China and India
+Title: Putin Scrambles to Reinforce His Defenses After Wagner Mutiny
+Title: Attack in Tel Aviv Wounds 8 as Israel’s Deadly Raid in West Bank Continues
+Title: Amsterdam Tries to Make Red-Light District Less Touristy
+Title: Israel’s Raid on Jenin, in Pictures
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Paris: Macron calls police killing of teen 'unforgivable'
-Title: Ukraine war: Countdown has begun to end of Putin, say Kyiv officials
-Title: Donald Trump countersues writer E Jean Carroll for defamation
-Title: South Koreans become younger under new age-counting law
-Title: Climate change protesters disrupt Ashes cricket match
+Title: France shooting: Peak of rioting has passed, says Macron
+Title: Chechnya Milashina attack: Armed thugs beat up Russian journalist and lawyer
+Title: SCO summit: Putin says sanctions making Russia stronger
+Title: Ukraine war: Major Moscow airport flights disrupted by drone attack
+Title: Taliban order Afghanistan's hair and beauty salons to shut
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-796281
+797148
 $ date -u +%s
-1687957369
+1688481092
