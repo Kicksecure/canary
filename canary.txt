@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 04 Jul 2023 14:31:18 +0000
+Fri, 07 Jul 2023 21:18:52 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: France: A Nation Takes Stock After Teen's Death
+Title: Western Support for Kyiv: It's Now or Never For Ukraine - Opinion
+Title: What Happens If Russia Attacks Finland's Åland Islands?
+Title: A New Right Test Laboratory: The Onerous Abortion Laws of Paraguay
 Title: Putin's Vassal: Belarus in the Inner-Russian Power Struggle
-Title: Another Stumble: German Intelligence Criticized for Slow Handling of Russian Coup Attempt
-Title: New Accusations against the Greek Coast Guard: "We Thought They Knew What They Were Doing"
-Title: Prigozhin's Insurgency: The War Putin Wanted Now Threatens His Rule
-Title: Yevgeny Prigozhin: Wagner Uprising Likely to Have Far-Reaching Consequences
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Putin Uses Summit to Show Solidarity With China and India
-Title: Putin Scrambles to Reinforce His Defenses After Wagner Mutiny
-Title: Attack in Tel Aviv Wounds 8 as Israel’s Deadly Raid in West Bank Continues
-Title: Amsterdam Tries to Make Red-Light District Less Touristy
-Title: Israel’s Raid on Jenin, in Pictures
+Title: Russia-Ukraine War: U.S. to Send Cluster Munitions to Ukraine
+Title: No Wagner Group Here: Riddles Grow as Belarus Displays an Empty Base
+Title: US Raises Pressure on China to Combat Fentanyl Crisis
+Title: Ukrainian Soldiers Get Creative as Donors Become War-Weary
+Title: Author Delia Owens and Her Husband Tried to Save Elephants in Zambia. What Happened?
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: France shooting: Peak of rioting has passed, says Macron
-Title: Chechnya Milashina attack: Armed thugs beat up Russian journalist and lawyer
-Title: SCO summit: Putin says sanctions making Russia stronger
-Title: Ukraine war: Major Moscow airport flights disrupted by drone attack
-Title: Taliban order Afghanistan's hair and beauty salons to shut
+Title: Ukraine war: What are cluster bombs and why is US sending them to Ukraine?
+Title: US plans to send controversial cluster munitions to Ukraine
+Title: Mark Rutte: Netherlands coalition government collapses in migration row
+Title: Britney Spears: No charges for Victor Wembanyama's security guard
+Title: The Wire creator seeks leniency for drug dealer in Michael K Williams' death
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-797148
+797668
 $ date -u +%s
-1688481092
+1688764742
