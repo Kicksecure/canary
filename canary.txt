@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 07 Jul 2023 21:18:52 +0000
+Thu, 13 Jul 2023 16:15:29 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Abu Dhabi Secrets: How Qatar Seeks to Leverage Its Influence in Europe
+Title: Competing Views of the ChatGPT Revolution: "Artificial Intelligence Will Destroy Truth"
 Title: France: A Nation Takes Stock After Teen's Death
 Title: Western Support for Kyiv: It's Now or Never For Ukraine - Opinion
 Title: What Happens If Russia Attacks Finland's Åland Islands?
-Title: A New Right Test Laboratory: The Onerous Abortion Laws of Paraguay
-Title: Putin's Vassal: Belarus in the Inner-Russian Power Struggle
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: U.S. to Send Cluster Munitions to Ukraine
-Title: No Wagner Group Here: Riddles Grow as Belarus Displays an Empty Base
-Title: US Raises Pressure on China to Combat Fentanyl Crisis
-Title: Ukrainian Soldiers Get Creative as Donors Become War-Weary
-Title: Author Delia Owens and Her Husband Tried to Save Elephants in Zambia. What Happened?
+Title: Russia-Ukraine War: Leadership Troubles Roil Russian Military
+Title: Red Fort Floods in Delhi as Evacuations Are Ordered
+Title: Thailand Parliament Vote: Pita Limjaroenrat Faces Setbacks
+Title: Guatemala’s Top Party Is Suspended, Putting Election Into Turmoil
+Title: Biden Pledges Long-Term Backing for Ukraine, but a U.S. Election Looms
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: What are cluster bombs and why is US sending them to Ukraine?
-Title: US plans to send controversial cluster munitions to Ukraine
-Title: Mark Rutte: Netherlands coalition government collapses in migration row
-Title: Britney Spears: No charges for Victor Wembanyama's security guard
-Title: The Wire creator seeks leniency for drug dealer in Michael K Williams' death
+Title: Greek coastguard 'pressured' disaster survivors to blame Egyptian men
+Title: Ukraine war: Russian general fired after criticising army leaders
+Title: Cerberus heatwave: Hot weather sweeps across southern Europe
+Title: In pictures: Cerberus heatwave hits parts of Europe
+Title: Pita Limjaroenrat: Thailand's reformist leader fails to become PM
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-797668
+798546
 $ date -u +%s
-1688764742
+1689264944
