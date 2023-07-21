@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvpR55zeu3tVV6SfCkq6xjgoPf+USWD9Eazq2G6yU1J1SDoa16svcPtbBTpgs92BM+j1gf3sA2e9X/owJZJMLAw=
+RWQ6KRormNEEToebvkIPa2msXoK1AR1lQ+pTqtpxsMoyX7HKkOzlrC2f56TzGjHl4/jJr12ZU9XsEY0CqohX/SlFb9OHh/FBog8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 13 Jul 2023 16:15:29 +0000
+Fri, 21 Jul 2023 10:08:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "An Irreparably Damaged Life": CIA Kidnapping Victim Khaled el-Masri 20 Years On
+Title: Outrage over Pro-Russian AfD Worker: Moscow's Man in the Bundestag
+Title: Green Aviation: Could Norwegian Electric Planes Be a Model for the Rest of the World?
+Title: Interview with Mikhail Khodorkovsky: "There Is No Other Option But To Take Up Arms"
 Title: Abu Dhabi Secrets: How Qatar Seeks to Leverage Its Influence in Europe
-Title: Competing Views of the ChatGPT Revolution: "Artificial Intelligence Will Destroy Truth"
-Title: France: A Nation Takes Stock After Teen's Death
-Title: Western Support for Kyiv: It's Now or Never For Ukraine - Opinion
-Title: What Happens If Russia Attacks Finland's Åland Islands?
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Leadership Troubles Roil Russian Military
-Title: Red Fort Floods in Delhi as Evacuations Are Ordered
-Title: Thailand Parliament Vote: Pita Limjaroenrat Faces Setbacks
-Title: Guatemala’s Top Party Is Suspended, Putting Election Into Turmoil
-Title: Biden Pledges Long-Term Backing for Ukraine, but a U.S. Election Looms
+Title: Russia Steps Up Strikes on Ukraine Grain Ports as U.S. Warns of Ship Attacks
+Title: UK By-Election Results: 1 Win and 2 Defeats for the Tories
+Title: For Europe’s Older Population, Heat Is the New Covid
+Title: Europe Embraces the Siesta to Deal With the Intense Heat Wave
+Title: Antigovernment Protests in Kenya Leave Several Dead and Streets in Chaos
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Greek coastguard 'pressured' disaster survivors to blame Egyptian men
-Title: Ukraine war: Russian general fired after criticising army leaders
-Title: Cerberus heatwave: Hot weather sweeps across southern Europe
-Title: In pictures: Cerberus heatwave hits parts of Europe
-Title: Pita Limjaroenrat: Thailand's reformist leader fails to become PM
+Title: Putin may still seek revenge on Wagner boss – CIA chief
+Title: Ukraine's Zelensky sacks ambassador to UK Prystaiko after criticism
+Title: Amsterdam bans cruise ships to limit visitors and curb pollution
+Title: TSMC: Chip giant delays Arizona production in blow to Biden
+Title: Manipur: India police face scrutiny after women paraded naked
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-798546
+799633
 $ date -u +%s
-1689264944
+1689934112
