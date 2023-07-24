@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEToebvkIPa2msXoK1AR1lQ+pTqtpxsMoyX7HKkOzlrC2f56TzGjHl4/jJr12ZU9XsEY0CqohX/SlFb9OHh/FBog8=
+RWQ6KRormNEETgm+zp3KnA5NzPLhEgw7eZdZuJuu4IsetkrUiJSOL2qpXUzWLSOAVpv9mZbbcuYOaRLJ7oPZTK0Bw+LM6vEqJQI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 21 Jul 2023 10:08:19 +0000
+Mon, 24 Jul 2023 21:17:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Warlord and His Smugglers: Khalifa Haftar and His Role in The Deadly Shipwreck Off Greece
 Title: "An Irreparably Damaged Life": CIA Kidnapping Victim Khaled el-Masri 20 Years On
 Title: Outrage over Pro-Russian AfD Worker: Moscow's Man in the Bundestag
 Title: Green Aviation: Could Norwegian Electric Planes Be a Model for the Rest of the World?
 Title: Interview with Mikhail Khodorkovsky: "There Is No Other Option But To Take Up Arms"
-Title: Abu Dhabi Secrets: How Qatar Seeks to Leverage Its Influence in Europe
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia Steps Up Strikes on Ukraine Grain Ports as U.S. Warns of Ship Attacks
-Title: UK By-Election Results: 1 Win and 2 Defeats for the Tories
-Title: For Europe’s Older Population, Heat Is the New Covid
-Title: Europe Embraces the Siesta to Deal With the Intense Heat Wave
-Title: Antigovernment Protests in Kenya Leave Several Dead and Streets in Chaos
+Title: Israel Protests: Protests Intensify Across Israel Despite Netanyahu’s Offer to Delay Broader Judicial Overhaul
+Title: Russia-Ukraine War: Russia Strikes Danube River Port, Escalating Attacks on Ukrainian Agriculture
+Title: China Gym Roof Collapse Claims at Least 11 Lives
+Title: What the Collapse of Spain’s Far Right Means Going Forward
+Title: Fires Strike Corfu and Evia in Greece as Rhodes Continues to Burn
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Putin may still seek revenge on Wagner boss – CIA chief
-Title: Ukraine's Zelensky sacks ambassador to UK Prystaiko after criticism
-Title: Amsterdam bans cruise ships to limit visitors and curb pollution
-Title: TSMC: Chip giant delays Arizona production in blow to Biden
-Title: Manipur: India police face scrutiny after women paraded naked
+Title: Rhodes wildfires are 'like a biblical catastrophe'
+Title: Israel judicial reform: Key bill becomes law amid mass protests
+Title: Ukraine war: Russia attacks grain stores at River Danube ports
+Title: Spain election: No big winner as far-right Vox party fades
+Title: Elon Musk: Twitter rebranded as X as blue bird logo killed off
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-799633
+800118
 $ date -u +%s
-1689934112
+1690233456
