@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 24 Jul 2023 21:17:24 +0000
+Tue, 25 Jul 2023 19:23:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Giant Cesspool: Can the Baltic Sea Still Be Saved?
 Title: A Warlord and His Smugglers: Khalifa Haftar and His Role in The Deadly Shipwreck Off Greece
 Title: "An Irreparably Damaged Life": CIA Kidnapping Victim Khaled el-Masri 20 Years On
 Title: Outrage over Pro-Russian AfD Worker: Moscow's Man in the Bundestag
 Title: Green Aviation: Could Norwegian Electric Planes Be a Model for the Rest of the World?
-Title: Interview with Mikhail Khodorkovsky: "There Is No Other Option But To Take Up Arms"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Israel Protests: Protests Intensify Across Israel Despite Netanyahu’s Offer to Delay Broader Judicial Overhaul
-Title: Russia-Ukraine War: Russia Strikes Danube River Port, Escalating Attacks on Ukrainian Agriculture
-Title: China Gym Roof Collapse Claims at Least 11 Lives
-Title: What the Collapse of Spain’s Far Right Means Going Forward
-Title: Fires Strike Corfu and Evia in Greece as Rhodes Continues to Burn
+Title: Russia-Ukraine War: Russia Moves to Expand Conscription, Bolstering Its Army
+Title: Somber Mood Settles Over Israel’s Antigovernment Protesters
+Title: Qin Gang, China’s Foreign Minister, Is Replaced
+Title: Amid War, Ukrainian Couples Are Divorcing
+Title: International Investigation into Mexico’s 43 Missing Students Ends
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Rhodes wildfires are 'like a biblical catastrophe'
-Title: Israel judicial reform: Key bill becomes law amid mass protests
-Title: Ukraine war: Russia attacks grain stores at River Danube ports
-Title: Spain election: No big winner as far-right Vox party fades
-Title: Elon Musk: Twitter rebranded as X as blue bird logo killed off
+Title: Brussels bombers found guilty after long murder trial
+Title: Qin Gang: China removes foreign minister after unexplained absence
+Title: Greece fires: Two pilots die after firefighting plane crashes
+Title: Italy storms: North hit by hail and rain as Sicily burns
+Title: Ukraine war: Russia expands pool of men eligible for call-up
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-800118
+800245
 $ date -u +%s
-1690233456
+1690313027
