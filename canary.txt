@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 25 Jul 2023 19:23:38 +0000
+Fri, 04 Aug 2023 18:08:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A Giant Cesspool: Can the Baltic Sea Still Be Saved?
-Title: A Warlord and His Smugglers: Khalifa Haftar and His Role in The Deadly Shipwreck Off Greece
-Title: "An Irreparably Damaged Life": CIA Kidnapping Victim Khaled el-Masri 20 Years On
-Title: Outrage over Pro-Russian AfD Worker: Moscow's Man in the Bundestag
-Title: Green Aviation: Could Norwegian Electric Planes Be a Model for the Rest of the World?
+Title: Germany: Secret Messages Document Moscow Contacts with Staffer of Far-Right AfD
+Title: UN Envoy on the Civil War in Sudan: "Both Warring Parties Are Still Convinced They Can Win"
+Title: A Race Between the World Powers: Can the West Regain Its Lost Footing in Africa?
+Title: Mounir al-Motassadeq: Hamburg 9/11 Conspirator Fights Entry on Terror List
+Title: Dangerous Liaisons: The True Proximity of Germany's AfD To Neo-Nazis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Russia Moves to Expand Conscription, Bolstering Its Army
-Title: Somber Mood Settles Over Israel’s Antigovernment Protesters
-Title: Qin Gang, China’s Foreign Minister, Is Replaced
-Title: Amid War, Ukrainian Couples Are Divorcing
-Title: International Investigation into Mexico’s 43 Missing Students Ends
+Title: Russia-Ukraine War: Russian Warship Damaged in Ukrainian Drone Attack
+Title: After Ukraine’s Kakhovka Dam Disaster, a Hunt for Ancient Treasures
+Title: Niger’s Detained President, Mohamed Bazoum, Pleads for U.S. Help
+Title: ‘Too Patriarchal’ Father in India Now Champions Women’s Rights
+Title: Andrew Tate Is Released From House Arrest in Romania
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Brussels bombers found guilty after long murder trial
-Title: Qin Gang: China removes foreign minister after unexplained absence
-Title: Greece fires: Two pilots die after firefighting plane crashes
-Title: Italy storms: North hit by hail and rain as Sicily burns
-Title: Ukraine war: Russia expands pool of men eligible for call-up
+Title: Alexei Navalny: Russian opposition leader's jail term extended to 19 years
+Title: Russian ship hit in Novorossiysk, Black Sea drone attack, Ukraine sources say
+Title: Donald Trump pleads not guilty to election charges in latest arraignment
+Title: Ocean heat record broken, with grim implications for the planet
+Title: Chance discovery helps fight against malaria
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-800245
+801675
 $ date -u +%s
-1690313027
+1691172489
