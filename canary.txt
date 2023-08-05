@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 04 Aug 2023 18:08:00 +0000
+Sat, 05 Aug 2023 14:50:43 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany: The AfD's Constant Drift Toward Extremism
 Title: Germany: Secret Messages Document Moscow Contacts with Staffer of Far-Right AfD
 Title: UN Envoy on the Civil War in Sudan: "Both Warring Parties Are Still Convinced They Can Win"
 Title: A Race Between the World Powers: Can the West Regain Its Lost Footing in Africa?
 Title: Mounir al-Motassadeq: Hamburg 9/11 Conspirator Fights Entry on Terror List
-Title: Dangerous Liaisons: The True Proximity of Germany's AfD To Neo-Nazis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Russian Warship Damaged in Ukrainian Drone Attack
-Title: After Ukraine’s Kakhovka Dam Disaster, a Hunt for Ancient Treasures
-Title: Niger’s Detained President, Mohamed Bazoum, Pleads for U.S. Help
-Title: ‘Too Patriarchal’ Father in India Now Champions Women’s Rights
-Title: Andrew Tate Is Released From House Arrest in Romania
+Title: Pope Francis Declines to Chide Russia at Fatima Shrine in Portugal
+Title: How a U.S. Tech Mogul Used Nonprofits to Sow Chinese Propaganda
+Title: Man of the People? Jolted by a Mutiny, Putin Works the Crowds.
+Title: Imran Khan Sentenced to Prison in Pakistan
+Title: Niger is Latest African Country Where France’s Fortunes are Fading
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Alexei Navalny: Russian opposition leader's jail term extended to 19 years
-Title: Russian ship hit in Novorossiysk, Black Sea drone attack, Ukraine sources say
-Title: Donald Trump pleads not guilty to election charges in latest arraignment
-Title: Ocean heat record broken, with grim implications for the planet
-Title: Chance discovery helps fight against malaria
+Title: Imran Khan: Pakistan ex-PM given three-year jail sentence
+Title: Russia says tanker hit in Ukrainian attack near Crimea
+Title: What next after Niger coup? Three scenarios
+Title: Kai Cenat: Police plan to charge Twitch streamer after PS5 giveaway mayhem
+Title: Chandrayaan-3: Historic India mission enters Moon orbit, aiming for south pole
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-801675
+801798
 $ date -u +%s
-1691172489
+1691247054
