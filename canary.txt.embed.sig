@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETpvAy47RpmtUZXmPwRW0agQkChRDHFAvvVtgNqbJKlMfjIk5ZxzJ43xMlHw4MMVNRLjZs0sGXwqEzCJDDEZ1WQ0=
+RWQ6KRormNEETsjrHuwkaq2kuoTwP+HQxS53R3Wn6lAMKSXj9hxRsLyTvL5Z5Wq872Rf7y4Ydr+Pb2twf5VtoDeILsxMH2xuCAI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,30 +46,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 05 Aug 2023 14:50:43 +0000
+Sat, 12 Aug 2023 15:10:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Italy's Largest Waterway in Danger: How Climate Change Threatens the Po River
+Title: Serbian President Aleksandar Vučić: Playing With Fire in Belgrade
+Title: Fallout from the Putsch in Niger: Anger Against France Grows in Africa's "Coup Belt"
 Title: Germany: The AfD's Constant Drift Toward Extremism
 Title: Germany: Secret Messages Document Moscow Contacts with Staffer of Far-Right AfD
-Title: UN Envoy on the Civil War in Sudan: "Both Warring Parties Are Still Convinced They Can Win"
-Title: A Race Between the World Powers: Can the West Regain Its Lost Footing in Africa?
-Title: Mounir al-Motassadeq: Hamburg 9/11 Conspirator Fights Entry on Terror List
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Pope Francis Declines to Chide Russia at Fatima Shrine in Portugal
-Title: How a U.S. Tech Mogul Used Nonprofits to Sow Chinese Propaganda
-Title: Man of the People? Jolted by a Mutiny, Putin Works the Crowds.
-Title: Imran Khan Sentenced to Prison in Pakistan
-Title: Niger is Latest African Country Where France’s Fortunes are Fading
+Title: Ukraine Makes Progress Along 2 Lines of Attack
+Title: Zelensky Called Him a Criminal. Now Ukraine Calls Him for Guns and Ammo.
+Title: In Istanbul, Tombs of Religious Figures Still Draw Pilgrims
+Title: Sex Segregation in Israel Grows, Raising Fears for Women’s Rights
+Title: Lai Ching-te of Taiwan’s Visit to U.S. Will Be Closely Watched
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Imran Khan: Pakistan ex-PM given three-year jail sentence
-Title: Russia says tanker hit in Ukrainian attack near Crimea
-Title: What next after Niger coup? Three scenarios
-Title: Kai Cenat: Police plan to charge Twitch streamer after PS5 giveaway mayhem
-Title: Chandrayaan-3: Historic India mission enters Moon orbit, aiming for south pole
+Title: Hawaii fires: Maui death toll climbs to 80
+Title: Maui fire: Relatives of residents struggle to help from afar
+Title: Ukraine war: Crimea bridge targeted by missiles, Russia says
+Title: Judge Chutkan warns Trump against 'inflammatory' remarks before trial
+Title: Ukraine war: Sex lives in focus for Ukraine's injured veterans
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-801798
+802838
 $ date -u +%s
-1691247054
+1691853062
