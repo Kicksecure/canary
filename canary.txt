@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 12 Aug 2023 15:10:46 +0000
+Wed, 16 Aug 2023 10:28:57 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Floating City Can't Sink: Battling Climate Change in the Maldives
+Title: Young Women in Afghanistan on the Taliban: "Your Arrival Transformed My Dreams into Nightmares"
 Title: Italy's Largest Waterway in Danger: How Climate Change Threatens the Po River
 Title: Serbian President Aleksandar Vučić: Playing With Fire in Belgrade
 Title: Fallout from the Putsch in Niger: Anger Against France Grows in Africa's "Coup Belt"
-Title: Germany: The AfD's Constant Drift Toward Extremism
-Title: Germany: Secret Messages Document Moscow Contacts with Staffer of Far-Right AfD
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukraine Makes Progress Along 2 Lines of Attack
-Title: Zelensky Called Him a Criminal. Now Ukraine Calls Him for Guns and Ammo.
-Title: In Istanbul, Tombs of Religious Figures Still Draw Pilgrims
-Title: Sex Segregation in Israel Grows, Raising Fears for Women’s Rights
-Title: Lai Ching-te of Taiwan’s Visit to U.S. Will Be Closely Watched
+Title: Russia-Ukraine War: Russia Sharply Raises Interest Rates as Wartime Financial Problems Pile Up
+Title: The Hidden Trauma of Ukraine’s Soldiers
+Title: Xuxa Was Brazil’s Barbie. Now She’s Saying Sorry.
+Title: In Greece, a ‘Beach Towel Movement’ Fights for a Spot on the Sand
+Title: Typhoon Lan Brings Heavy Rain and Winds to Western Japan
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hawaii fires: Maui death toll climbs to 80
-Title: Maui fire: Relatives of residents struggle to help from afar
-Title: Ukraine war: Crimea bridge targeted by missiles, Russia says
-Title: Judge Chutkan warns Trump against 'inflammatory' remarks before trial
-Title: Ukraine war: Sex lives in focus for Ukraine's injured veterans
+Title: Ukrainian prisoners of war say they were tortured at Russian prison
+Title: Hawaii fires: First victims named as death toll reaches 106
+Title: Hawaii wildfires: 'This acrid smoke really sticks in your throat'
+Title: Travis King: North Korea says US soldier fled because of racism in army
+Title: The Killers apologise for offending fans in Georgia with Russian 'brother' remark
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-802838
+803434
 $ date -u +%s
-1691853062
+1692181748
