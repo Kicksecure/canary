@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 16 Aug 2023 10:28:57 +0000
+Tue, 22 Aug 2023 22:16:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A Floating City Can't Sink: Battling Climate Change in the Maldives
-Title: Young Women in Afghanistan on the Taliban: "Your Arrival Transformed My Dreams into Nightmares"
-Title: Italy's Largest Waterway in Danger: How Climate Change Threatens the Po River
-Title: Serbian President Aleksandar Vučić: Playing With Fire in Belgrade
-Title: Fallout from the Putsch in Niger: Anger Against France Grows in Africa's "Coup Belt"
+Title: Travel during the Climate Crisis: "Nobody Wants to Hike Through a Dead Forest"
+Title: Creeping Counteroffensive: The Never-Ending Battle for Bakhmut
+Title: "A Massive Opportunity": Namibia's Green Hydrogen Future
+Title: Social Design Award 2023: You Can Still Participate
+Title: Smoking Weed By the Book: Germany's Awkward Path To Legalizing Cannabis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Russia Sharply Raises Interest Rates as Wartime Financial Problems Pile Up
-Title: The Hidden Trauma of Ukraine’s Soldiers
-Title: Xuxa Was Brazil’s Barbie. Now She’s Saying Sorry.
-Title: In Greece, a ‘Beach Towel Movement’ Fights for a Spot on the Sand
-Title: Typhoon Lan Brings Heavy Rain and Winds to Western Japan
+Title: Pakistan Cable Car Passengers Rescued After Being Stranded for Hours
+Title: A Saudi Rolex Sold in a U.S. Mall Could Get Bolsonaro Arrested
+Title: At BRICS Summit, Putin Tries to Rally Support
+Title: At Risk of Invasion or Lovely to Visit: Two Views of a Polish Border Area
+Title: Russia-Ukraine War: Russia Says It Destroyed Ukrainian Vessels in the Black Sea
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukrainian prisoners of war say they were tortured at Russian prison
-Title: Hawaii fires: First victims named as death toll reaches 106
-Title: Hawaii wildfires: 'This acrid smoke really sticks in your throat'
-Title: Travis King: North Korea says US soldier fled because of racism in army
-Title: The Killers apologise for offending fans in Georgia with Russian 'brother' remark
+Title: Pakistan cable car: Relief as all passengers brought to safety
+Title: Greece wildfires: Eighteen bodies found in Greek forest
+Title: Tropical Storm Harold makes landfall in Texas
+Title: Fukushima nuclear disaster: Japan to release treated water in 48 hours
+Title: Trump Georgia co-defendant John Eastman turns himself in
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-803434
+804422
 $ date -u +%s
-1692181748
+1692742610
