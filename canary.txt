@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 22 Aug 2023 22:16:42 +0000
+Thu, 24 Aug 2023 12:33:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Ötzi Shows His True Colors: New Analysis Indicates that Austrian Iceman Was Anatolian
+Title: Erasing the Existence of 1,500 People: Britain's Ongoing Colonial Crime in the Indian Ocean
 Title: Travel during the Climate Crisis: "Nobody Wants to Hike Through a Dead Forest"
 Title: Creeping Counteroffensive: The Never-Ending Battle for Bakhmut
 Title: "A Massive Opportunity": Namibia's Green Hydrogen Future
-Title: Social Design Award 2023: You Can Still Participate
-Title: Smoking Weed By the Book: Germany's Awkward Path To Legalizing Cannabis
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Pakistan Cable Car Passengers Rescued After Being Stranded for Hours
-Title: A Saudi Rolex Sold in a U.S. Mall Could Get Bolsonaro Arrested
-Title: At BRICS Summit, Putin Tries to Rally Support
-Title: At Risk of Invasion or Lovely to Visit: Two Views of a Polish Border Area
-Title: Russia-Ukraine War: Russia Says It Destroyed Ukrainian Vessels in the Black Sea
+Title: Russia-Ukraine War: Putin Remains Silent on Crash of Plane Linked to Mercenary Leader
+Title: ‘Aren’t You a Man?’: How Russia Goads Citizens Into the Army
+Title: The BRICS Group Announces New Members, Expanding Its Reach
+Title: Thailand’s Old Guard Keeps Its Grip After Voters Seek Change
+Title: Japan Starts Releasing Radioactive Fukushima Water
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Pakistan cable car: Relief as all passengers brought to safety
-Title: Greece wildfires: Eighteen bodies found in Greek forest
-Title: Tropical Storm Harold makes landfall in Texas
-Title: Fukushima nuclear disaster: Japan to release treated water in 48 hours
-Title: Trump Georgia co-defendant John Eastman turns himself in
+Title: Wagner defied Putin and now its leader Prigozhin may be dead
+Title: Ramaswamy, DeSantis, Pence: Who came out on top at the Republican debate?
+Title: Chandrayaan-3: India lunar rover Pragyaan takes a walk on the Moon
+Title: Ros Atkins on... Wagner leader Yevgeny Prigozhin
+Title: Was Wagner chief Yevgeny Prigozhin a dead man walking?
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-804422
+804659
 $ date -u +%s
-1692742610
+1692880397
