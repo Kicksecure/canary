@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETubo6lY7wsh6HS8lhAXyRFv3pbYywH5gO/TbR++7VE9GlDdIMrsEtrcQzlgbd1IPDPawXGrOnXoc9ld+TuJoYwQ=
+RWQ6KRormNEETth2FcJCDTfFgCzD3Ytc9eITCyX1xOxRnIXUNr5xb5WXufsJhilum8NPnugVPpA6wblseD4/VoeNbPGZlLHeLg0=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 24 Aug 2023 12:33:10 +0000
+Sun, 27 Aug 2023 11:31:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Ötzi Shows His True Colors: New Analysis Indicates that Austrian Iceman Was Anatolian
@@ -56,20 +56,20 @@ Title: Creeping Counteroffensive: The Never-Ending Battle for Bakhmut
 Title: "A Massive Opportunity": Namibia's Green Hydrogen Future
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Putin Remains Silent on Crash of Plane Linked to Mercenary Leader
-Title: ‘Aren’t You a Man?’: How Russia Goads Citizens Into the Army
-Title: The BRICS Group Announces New Members, Expanding Its Reach
-Title: Thailand’s Old Guard Keeps Its Grip After Voters Seek Change
-Title: Japan Starts Releasing Radioactive Fukushima Water
+Title: Ukrainian Commander Urges More Defenses in the Northeast
+Title: U.S. Knew Saudis Were Killing African Migrants but Kept Silent
+Title: President Emmerson Mnangagwa Re-elected in Zimbabwe
+Title: At This Movie, Their Phones Won’t Bother You. Their Barking Might.
+Title: FIFA Suspends Spanish Soccer Federation Chief Involved in Post-Game Kiss
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Wagner defied Putin and now its leader Prigozhin may be dead
-Title: Ramaswamy, DeSantis, Pence: Who came out on top at the Republican debate?
-Title: Chandrayaan-3: India lunar rover Pragyaan takes a walk on the Moon
-Title: Ros Atkins on... Wagner leader Yevgeny Prigozhin
-Title: Was Wagner chief Yevgeny Prigozhin a dead man walking?
+Title: Wagner boss Prigozhin confirmed dead in plane crash - Moscow
+Title: Jacksonville shooting: Racist gunman kills three black people in Florida store
+Title: Ukraine war: Fighter ace and two other pilots killed in mid-air crash
+Title: Three US marines killed in Australia helicopter crash
+Title: Trump campaign raises $7.1m following historic Georgia mugshot
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-804659
+805038
 $ date -u +%s
-1692880397
+1693135927
