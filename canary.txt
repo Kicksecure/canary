@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 27 Aug 2023 11:31:56 +0000
+Mon, 28 Aug 2023 15:13:03 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: MIT Economist Daron Acemoglu Takes on Big Tech: "Our Future Will Be Very Dystopian"
+Title: BRICS and the emerging new world order: "Hypocrisy is fairly evenly distributed in the North and the South"
 Title: Ötzi Shows His True Colors: New Analysis Indicates that Austrian Iceman Was Anatolian
 Title: Erasing the Existence of 1,500 People: Britain's Ongoing Colonial Crime in the Indian Ocean
 Title: Travel during the Climate Crisis: "Nobody Wants to Hike Through a Dead Forest"
-Title: Creeping Counteroffensive: The Never-Ending Battle for Bakhmut
-Title: "A Massive Opportunity": Namibia's Green Hydrogen Future
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Ukrainian Commander Urges More Defenses in the Northeast
-Title: U.S. Knew Saudis Were Killing African Migrants but Kept Silent
-Title: President Emmerson Mnangagwa Re-elected in Zimbabwe
-Title: At This Movie, Their Phones Won’t Bother You. Their Barking Might.
-Title: FIFA Suspends Spanish Soccer Federation Chief Involved in Post-Game Kiss
+Title: Russia-Ukraine War: Ukraine Claims to Retake a Small Southern Village
+Title: After Prigozhin’s Death, Mourners Gather at Wagner Memorial in Moscow
+Title: To Escape the Heat in Dubai, Head to the Beach at Midnight
+Title: Foreign Minister Flees Libya Amid Uproar Over Israeli Meeting
+Title: Spanish Prosecutors Open Inquiry Into Luis Rubiales Over World Cup Kiss
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Wagner boss Prigozhin confirmed dead in plane crash - Moscow
-Title: Jacksonville shooting: Racist gunman kills three black people in Florida store
-Title: Ukraine war: Fighter ace and two other pilots killed in mid-air crash
-Title: Three US marines killed in Australia helicopter crash
-Title: Trump campaign raises $7.1m following historic Georgia mugshot
+Title: Taliban stops girls leaving Afghanistan to study abroad
+Title: Protests erupt in Libya over contact with Israel
+Title: Simone Biles wins record eighth US all-around title as comeback continues
+Title: Luis Rubiales: Spanish FA president's mother on hunger strike over kiss row
+Title: Imaan Mazari-Hazir: Lawyer who called Pakistan army 'terrorists' re-arrested
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-805038
+805174
 $ date -u +%s
-1693135927
+1693235595
