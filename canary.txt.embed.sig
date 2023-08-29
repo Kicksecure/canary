@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkf2gIoMh3EFEhlldbyltIOZ+ytXD6nKcSQ0V5hyoiISVU2eo6ZfGM8wjMqRhTUrdCMpTbaHj5i17kogeCYtrQw=
+RWQ6KRormNEETi+Y3M6AdNUb7HF6/Iq0BwZZKX2YDZ2SxiLwPxii5KONLRmScD3a21ibvmR4Fqh/tDZhMdNzJEqYGEqQMjApGwo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 28 Aug 2023 15:13:03 +0000
+Tue, 29 Aug 2023 22:32:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: MIT Economist Daron Acemoglu Takes on Big Tech: "Our Future Will Be Very Dystopian"
@@ -56,20 +56,20 @@ Title: Erasing the Existence of 1,500 People: Britain's Ongoing Colonial Crime i
 Title: Travel during the Climate Crisis: "Nobody Wants to Hike Through a Dead Forest"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Ukraine Claims to Retake a Small Southern Village
-Title: After Prigozhin’s Death, Mourners Gather at Wagner Memorial in Moscow
-Title: To Escape the Heat in Dubai, Head to the Beach at Midnight
-Title: Foreign Minister Flees Libya Amid Uproar Over Israeli Meeting
-Title: Spanish Prosecutors Open Inquiry Into Luis Rubiales Over World Cup Kiss
+Title: Russia-Ukraine War: Ukraine Steps Up Evacuation Calls as Russia Attacks in Northeast
+Title: Under Uganda Anti-LGBTQ Law, Man Is Arrested on Charge Punishable by Death
+Title: Pressure Mounts on Rubiales Over Unwanted Kiss at World Cup
+Title: In Israel’s Arab Communities, Gun Violence Surges
+Title: China’s Economic Outlook: Pep Talks Up Top, Gloom on the Ground
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Taliban stops girls leaving Afghanistan to study abroad
-Title: Protests erupt in Libya over contact with Israel
-Title: Simone Biles wins record eighth US all-around title as comeback continues
-Title: Luis Rubiales: Spanish FA president's mother on hunger strike over kiss row
-Title: Imaan Mazari-Hazir: Lawyer who called Pakistan army 'terrorists' re-arrested
+Title: Prigozhin buried in private funeral - Wagner chief's press service
+Title: Paul Whelan: US ex-marine seen in Russian labour camp video
+Title: UN office supports Spain's Hermoso over Rubiales kiss
+Title: Chess rivals settle long-running cheating dispute
+Title: Police seek help identifying child's body found in German river
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-805174
+805375
 $ date -u +%s
-1693235595
+1693348368
