@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 29 Aug 2023 22:32:39 +0000
+Fri, 01 Sep 2023 09:25:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: MIT Economist Daron Acemoglu Takes on Big Tech: "Our Future Will Be Very Dystopian"
+Title: MIT Economist Daron Acemoğlu Takes on Big Tech: "Our Future Will Be Very Dystopian"
 Title: BRICS and the emerging new world order: "Hypocrisy is fairly evenly distributed in the North and the South"
 Title: Ötzi Shows His True Colors: New Analysis Indicates that Austrian Iceman Was Anatolian
 Title: Erasing the Existence of 1,500 People: Britain's Ongoing Colonial Crime in the Indian Ocean
 Title: Travel during the Climate Crisis: "Nobody Wants to Hike Through a Dead Forest"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Ukraine Steps Up Evacuation Calls as Russia Attacks in Northeast
-Title: Under Uganda Anti-LGBTQ Law, Man Is Arrested on Charge Punishable by Death
-Title: Pressure Mounts on Rubiales Over Unwanted Kiss at World Cup
-Title: In Israel’s Arab Communities, Gun Violence Surges
-Title: China’s Economic Outlook: Pep Talks Up Top, Gloom on the Ground
+Title: Russia-Ukraine War: Ukraine Takes the Next Step in Its Hard-Fought Counteroffensive
+Title: South Africa Fire: Fire in Johannesburg Kills at Least 74 People, Including a Dozen Children
+Title: Why the Johannesburg Apartment Building Was a Firetrap
+Title: An Obsolete German Tank Seeks a Second Life on Ukraine’s Front Lines
+Title: China’s Disinformation Fuels Anger Over Fukushima Water Release
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Prigozhin buried in private funeral - Wagner chief's press service
-Title: Paul Whelan: US ex-marine seen in Russian labour camp video
-Title: UN office supports Spain's Hermoso over Rubiales kiss
-Title: Chess rivals settle long-running cheating dispute
-Title: Police seek help identifying child's body found in German river
+Title: Proud Boys leader Joe Biggs sentenced to 17 years for Capitol riot
+Title: Donald Trump's election fraud trial in Georgia will be livestreamed
+Title: Ukraine war: Russia and Iran invited back to Nobel Prize banquet
+Title: Jet ski tourists shot dead off coast of Algeria
+Title: Hawaii wildfires: Oprah and The Rock pledge direct payments to victims in Maui
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-805375
+805709
 $ date -u +%s
-1693348368
+1693560317
