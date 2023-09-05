@@ -44,30 +44,30 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 01 Sep 2023 09:25:08 +0000
+Tue, 05 Sep 2023 14:45:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Anti-Western Sentiment Growing in Senegal: "We Must Free Ourselves from France’s Stranglehold!"
+Title: An Oasis in the Middle of the Ukraine War: The Pike - and the Drones - Come at Night
+Title: Spying and Sabotage at the OSCE: How Russia Is Paralyzing Europe's Peace Organization
 Title: MIT Economist Daron Acemoğlu Takes on Big Tech: "Our Future Will Be Very Dystopian"
 Title: BRICS and the emerging new world order: "Hypocrisy is fairly evenly distributed in the North and the South"
-Title: Ötzi Shows His True Colors: New Analysis Indicates that Austrian Iceman Was Anatolian
-Title: Erasing the Existence of 1,500 People: Britain's Ongoing Colonial Crime in the Indian Ocean
-Title: Travel during the Climate Crisis: "Nobody Wants to Hike Through a Dead Forest"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Ukraine Takes the Next Step in Its Hard-Fought Counteroffensive
-Title: South Africa Fire: Fire in Johannesburg Kills at Least 74 People, Including a Dozen Children
-Title: Why the Johannesburg Apartment Building Was a Firetrap
-Title: An Obsolete German Tank Seeks a Second Life on Ukraine’s Front Lines
-Title: China’s Disinformation Fuels Anger Over Fukushima Water Release
+Title: Russia-Ukraine War: Black Sea Oil and Gas Rigs Become Targets in the War
+Title: Kamianka, Ukraine, Bears Legacy and Detritus of WWII and Putin’s War
+Title: Making Sure 1.4 Billion People Are Very Aware India Is Hosting the G20
+Title: Can Kenya Bring Order to Haiti?
+Title: North Korea Finds New Leverage in the Ukraine War
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Proud Boys leader Joe Biggs sentenced to 17 years for Capitol riot
-Title: Donald Trump's election fraud trial in Georgia will be livestreamed
-Title: Ukraine war: Russia and Iran invited back to Nobel Prize banquet
-Title: Jet ski tourists shot dead off coast of Algeria
-Title: Hawaii wildfires: Oprah and The Rock pledge direct payments to victims in Maui
+Title: French state schools turn away dozens of girls wearing Muslim abaya dress
+Title: Ukraine war: Kim Jong Un 'to visit Putin for weapons talks'
+Title: Cuba uncovers Russia-Ukraine war trafficking ring
+Title: China's Great Wall damaged as workers look for shortcut
+Title: Rédoine Faïd trial: Top security for French 'jailbreak king'
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-805709
+806337
 $ date -u +%s
-1693560317
+1693925108
