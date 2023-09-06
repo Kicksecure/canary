@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqPwVm75fstZmVAui8q/o4OqiGX7iHPVUBV/fl7GA5O0ro6LA7eWR6F+2vkIfgphzK2NlJoZO6rQoAHLy5yIxQQ=
+RWQ6KRormNEETuLkDzyX4NLmV2abscw/HDcPTxSSy1KY3Uc3Wss1gTtJ40PZixP+VxIWbT18OaUTjZecpmFYD2jeXiJbhU2EHgQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 05 Sep 2023 14:45:01 +0000
+Wed, 06 Sep 2023 10:50:29 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Anti-Western Sentiment Growing in Senegal: "We Must Free Ourselves from France’s Stranglehold!"
@@ -56,20 +56,20 @@ Title: MIT Economist Daron Acemoğlu Takes on Big Tech: "Our Future Will Be Very
 Title: BRICS and the emerging new world order: "Hypocrisy is fairly evenly distributed in the North and the South"
 
 $ rsstail -1 -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-Title: Russia-Ukraine War: Black Sea Oil and Gas Rigs Become Targets in the War
-Title: Kamianka, Ukraine, Bears Legacy and Detritus of WWII and Putin’s War
-Title: Making Sure 1.4 Billion People Are Very Aware India Is Hosting the G20
-Title: Can Kenya Bring Order to Haiti?
-Title: North Korea Finds New Leverage in the Ukraine War
+Title: Russia-Ukraine War : Blinken, in Kyiv, Is Expected to Announce $1 Billion in New U.S. Aid to Ukraine
+Title: Slovakia Election Could Shift Sentiment in a Fierce Ukraine Ally
+Title: China’s Economic Pain Is a Test of Xi’s Fixation With Control
+Title: At Least 22 Dead After Flooding From Cyclone in Brazil
+Title: G20 Summit in India: Why It Still Matters and What to Expect
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: French state schools turn away dozens of girls wearing Muslim abaya dress
-Title: Ukraine war: Kim Jong Un 'to visit Putin for weapons talks'
-Title: Cuba uncovers Russia-Ukraine war trafficking ring
-Title: China's Great Wall damaged as workers look for shortcut
-Title: Rédoine Faïd trial: Top security for French 'jailbreak king'
+Title: Ex-Proud Boys leader Enrique Tarrio jailed for 22 years for Capitol riot
+Title: Bulgaria and Turkey streets turn to rivers in deadly floods
+Title: Ukraine war: Deadly new Russian attack reported on Izmail port area
+Title: Brazilian state reels after its worst cyclone disaster
+Title: Aung San Suu Kyi ill but denied urgent care, says son
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-806337
+806455
 $ date -u +%s
-1693925108
+1693997439
