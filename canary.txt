@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 06 Sep 2023 18:02:25 +0000
+Fri, 15 Sep 2023 08:22:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Anti-Western Sentiment Growing in Senegal: "We Must Free Ourselves from France’s Stranglehold!"
-Title: An Oasis in the Middle of the Ukraine War: The Pike - and the Drones - Come at Night
-Title: Spying and Sabotage at the OSCE: How Russia Is Paralyzing Europe's Peace Organization
-Title: MIT Economist Daron Acemoğlu Takes on Big Tech: "Our Future Will Be Very Dystopian"
-Title: BRICS and the emerging new world order: "Hypocrisy is fairly evenly distributed in the North and the South"
+Title: Copenhagen's Far-Reaching Transformation into a "Sponge City"
+Title: Why Armenia Can't Free Itself from Moscow
+Title: Russia's Scorched Earth Policy in Ukraine: A Trip to the Dried-Up Kakhovka Reservoir
+Title: Assad's Criminal Conglomerate: Syrian Economy Continues to Spiral Toward Collapse
+Title: The Specter of Stagflation: Woes Grow for ECB in Battle Against Inflation
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: 17 killed during attack on market in 'peaceful city'
-Title: Ukraine war: Romania reveals Russian drone parts hit its territory
-Title: Scientists grow whole model of human embryo, without sperm or egg
-Title: Kenyan baby stealer convicted after BBC expose
-Title: Luis Rubiales: Jenni Hermoso files legal complaint over Women's World Cup final kiss
+Title: US envoy questions China defence minister’s absence
+Title: Taiwan tells Elon Musk it is 'not for sale'
+Title: What Hunter Biden charges mean for the president
+Title: US car workers strike as contract talks hit deadline
+Title: Watch: US CCTV shows airport staff allegedly stealing from bags
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: African leaders call for debt relief to help tackle climate crisis
-Title: Humanitarian crisis as 5m displaced by civil war in Sudan
-Title: Clashes with militants kill 53 Burkina Faso soldiers and volunteers, army says
-Title: Germany matches DNA from skulls stolen from African colony to living relatives
-Title: Sudan war crime trial of former oil firm executives starts in Sweden
+Title: ‘An alarm bell’: Libyan poet warned of flood risk in Derna before dying in storms
+Title: Quarter of schools closed in Burkina Faso as fighting escalates after coup
+Title: MEPs refused entry to Tunisia two months after signing of migration deal
+Title: Five-month-old boy drowns in rescue mission off Lampedusa
+Title: Morocco earthquake: Macron tries to soothe tensions after frosty response to offer of aid
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-806495
+807772
 $ date -u +%s
-1694023358
+1694766171
