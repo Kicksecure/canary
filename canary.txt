@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 15 Sep 2023 08:22:39 +0000
+Mon, 18 Sep 2023 11:32:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Ukraine: Visiting with Sappers - A Sea of Explosives 1,000 Kilometers Long
+Title: Ukraine: U.S. Military Analyst - "Russia Doesn't Have a Good Strategy for Winning the War"
 Title: Copenhagen's Far-Reaching Transformation into a "Sponge City"
 Title: Why Armenia Can't Free Itself from Moscow
 Title: Russia's Scorched Earth Policy in Ukraine: A Trip to the Dried-Up Kakhovka Reservoir
-Title: Assad's Criminal Conglomerate: Syrian Economy Continues to Spiral Toward Collapse
-Title: The Specter of Stagflation: Woes Grow for ECB in Battle Against Inflation
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US envoy questions China defence minister’s absence
-Title: Taiwan tells Elon Musk it is 'not for sale'
-Title: What Hunter Biden charges mean for the president
-Title: US car workers strike as contract talks hit deadline
-Title: Watch: US CCTV shows airport staff allegedly stealing from bags
+Title: Libya floods: The bodies left unrecognisable by disaster
+Title: US military asks for public's help to find F-35 fighter jet
+Title: Sudan conflict: Landmark skyscraper in Khartoum engulfed in flames
+Title: War in Ukraine: Is the counter-offensive making progress?
+Title: Australian man fined for taking pet snake surfing
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘An alarm bell’: Libyan poet warned of flood risk in Derna before dying in storms
-Title: Quarter of schools closed in Burkina Faso as fighting escalates after coup
-Title: MEPs refused entry to Tunisia two months after signing of migration deal
-Title: Five-month-old boy drowns in rescue mission off Lampedusa
-Title: Morocco earthquake: Macron tries to soothe tensions after frosty response to offer of aid
+Title: Sudan conflict: Khartoum landmarks in flames as battles rage across country
+Title: Libya floods: warlord using disaster response to exert control, say observers
+Title: Libya flood: international aid arrives as authorities open investigation
+Title: South Africa holds state funeral for divisive Zulu politician Mangosuthu Buthelezi
+Title: ‘Towns were erased’: Libyan reporters on the ‘horrifying, harrowing’ aftermath of floods
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-807772
+808286
 $ date -u +%s
-1694766171
+1695036747
