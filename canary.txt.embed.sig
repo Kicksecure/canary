@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgIrOIfFnf9niggyJcxAYKFJD41Nuk3oDkDBsVF50eWwhs8kgbaLMml1wU+KBy/RKt4kRr8u+pwK6mSzTGfLEwk=
+RWQ6KRormNEETmccCX+LgJx1pmeI0l2wGOEn4i3EN9FiVMvv5/wmAPMBIWdRfSCtLJpgFw/WQdjFCW8wgUgStUqj+YEfW3bgSAg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 24 Sep 2023 15:34:48 +0000
+Tue, 26 Sep 2023 16:27:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Ukraine: How Merkel Prevented Ukraine's NATO Membership (A DER SPIEGEL Reconstruction)
 Title: Social Design Award - Reader Prize: Vote for Your Favorite Project!
 Title: The Iran Protests One Year Later: "Like They Had Buried Me With Her"
 Title: Birkenstock CEO Oliver Reichert: The Man Behind the Luxury Sandals
 Title: Ukraine: Visiting with Sappers - A Sea of Explosives 1,000 Kilometers Long
-Title: Ukraine: U.S. Military Analyst - "Russia Doesn't Have a Good Strategy for Winning the War"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kosovo police surround 30 gunmen in monastery after officer shot
-Title: Nagorno-Karabakh: Ethnic Armenians leave amid cleansing fear
-Title: South China Sea: Philippines says Beijing installed floating barrier in contested area
-Title: Ukraine war: How Zelensky is grappling with Western war fatigue
-Title: Olympic winner slams black Irish girl's medal snub
+Title: Russia shows video to prove top commander is alive
+Title: Nagorno-Karabakh: Fuel depot blast kills 20 as refugee count rises
+Title: Shakira accused of tax crimes for the second time
+Title: US actors' union members vote to authorise video game strike
+Title: 'France takes us for idiots' - Inside coup-hit Niger
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Dozens killed and injured by truck bomb explosion in Somalian city
-Title: Eliminate malaria once and for all or it will come back stronger, UN warned
-Title: South Africa launches ‘unprecedented’ investigation of Johnson & Johnson over TB drug prices
-Title: ‘The least we can do is care for their children’: Libyans rally to protect Derna’s orphans
-Title: Rhino numbers rebound as global figures reveal  a win for conservation
+Title: Zimbabwe opposition figures detained in crackdown after disputed election
+Title: South African anti-migrant ‘vigilantes’ register as party for next year’s polls
+Title: Allies of Niger’s deposed president see hope in French retreat
+Title: Zambia police accuse ex-president of 'political' jogging
+Title: Officials detained as Libya awaits inquiry into deadly floods
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-809170
+809449
 $ date -u +%s
-1695569697
+1695745657
