@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmccCX+LgJx1pmeI0l2wGOEn4i3EN9FiVMvv5/wmAPMBIWdRfSCtLJpgFw/WQdjFCW8wgUgStUqj+YEfW3bgSAg=
+RWQ6KRormNEETsY7yiETHyvmnHDGuGYz2a2Fyu7WCHSUMJwWAo0XfXrUNZHzu0PVBtpjNmh98aQlHhvy/ZEdJcxXKpuxRd2DwgQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 26 Sep 2023 16:27:23 +0000
+Wed, 27 Sep 2023 00:34:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Ukraine: How Merkel Prevented Ukraine's NATO Membership (A DER SPIEGEL Reconstruction)
@@ -63,11 +63,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: Iraq fire: At least 100 killed in blaze at wedding party in Nineveh
+Title: Nagorno-Karabakh: Almost 30,000 refugees have fled to Armenia
 Title: Russia shows video to prove top commander is alive
-Title: Nagorno-Karabakh: Fuel depot blast kills 20 as refugee count rises
-Title: Shakira accused of tax crimes for the second time
-Title: US actors' union members vote to authorise video game strike
-Title: 'France takes us for idiots' - Inside coup-hit Niger
+Title: Trump liable for fraud, judge finds in New York civil case
+Title: Canada's Speaker Anthony Rota resigns after Nazi in parliament row
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Zimbabwe opposition figures detained in crackdown after disputed election
@@ -77,6 +77,6 @@ Title: Zambia police accuse ex-president of 'political' jogging
 Title: Officials detained as Libya awaits inquiry into deadly floods
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-809449
+809491
 $ date -u +%s
-1695745657
+1695774886
