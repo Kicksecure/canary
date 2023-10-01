@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 27 Sep 2023 00:34:35 +0000
+Sun, 01 Oct 2023 12:53:59 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: One Year of Meloni: Has Italy's Right-Wing Leader Left Fascism Behind?
+Title: Exodus from Nagorno-Karabakh: The Day Anna, 36, Lost Her Home
+Title: August Hanning: Legal and Critical Scrutiny for Ex German Intelligence Chief's Advisory Gigs
+Title: A Ukrainian Couple Scarred by War: "I Could Sense that Alina Was There"
 Title: Ukraine: How Merkel Prevented Ukraine's NATO Membership (A DER SPIEGEL Reconstruction)
-Title: Social Design Award - Reader Prize: Vote for Your Favorite Project!
-Title: The Iran Protests One Year Later: "Like They Had Buried Me With Her"
-Title: Birkenstock CEO Oliver Reichert: The Man Behind the Luxury Sandals
-Title: Ukraine: Visiting with Sappers - A Sea of Explosives 1,000 Kilometers Long
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iraq fire: At least 100 killed in blaze at wedding party in Nineveh
-Title: Nagorno-Karabakh: Almost 30,000 refugees have fled to Armenia
-Title: Russia shows video to prove top commander is alive
-Title: Trump liable for fraud, judge finds in New York civil case
-Title: Canada's Speaker Anthony Rota resigns after Nazi in parliament row
+Title: Spain: Nightclub fire kills 11 in Murcia
+Title: Turkey: Two officers injured in blast outside interior ministry
+Title: US Congress avoids government shutdown in last-minute deal
+Title: Jamaal Bowman: Democrat denies setting off fire alarm to stall spending vote
+Title: Slovakia elections: Populist party wins vote but needs allies for coalition
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Weather tracker: South Africa floods kill at least 11 people
+Title: Investigation launched into killings and evictions on World Bank tourism project
+Title: ‘I had to drink my own urine to survive’: Africans tell of being forced into the desert at Tunisia border
+Title: ‘It’s a torment’: refugee tells how his family died in desert on quest for a future in Europe
 Title: Zimbabwe opposition figures detained in crackdown after disputed election
-Title: South African anti-migrant ‘vigilantes’ register as party for next year’s polls
-Title: Allies of Niger’s deposed president see hope in French retreat
-Title: Zambia police accuse ex-president of 'political' jogging
-Title: Officials detained as Libya awaits inquiry into deadly floods
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-809491
+810157
 $ date -u +%s
-1695774886
+1696164850
