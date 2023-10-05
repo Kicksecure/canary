@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 01 Oct 2023 12:53:59 +0000
+Thu, 05 Oct 2023 04:31:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: One Year of Meloni: Has Italy's Right-Wing Leader Left Fascism Behind?
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Spain: Nightclub fire kills 11 in Murcia
-Title: Turkey: Two officers injured in blast outside interior ministry
-Title: US Congress avoids government shutdown in last-minute deal
-Title: Jamaal Bowman: Democrat denies setting off fire alarm to stall spending vote
-Title: Slovakia elections: Populist party wins vote but needs allies for coalition
+Title: Ukraine war: US gives 1.1 million rounds of ammunition seized from Iran to Kyiv
+Title: Migrant crisis: Sunak to urge 'Europe-wide solutions' at summit in Granada
+Title: Police hunt suspect in murder of New York City activist
+Title: Venice bus crash: The heroes who pulled survivors from burning wreck
+Title: Interim House Speaker 'evicts' two senior Democrats from Capitol
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Weather tracker: South Africa floods kill at least 11 people
-Title: Investigation launched into killings and evictions on World Bank tourism project
-Title: ‘I had to drink my own urine to survive’: Africans tell of being forced into the desert at Tunisia border
-Title: ‘It’s a torment’: refugee tells how his family died in desert on quest for a future in Europe
-Title: Zimbabwe opposition figures detained in crackdown after disputed election
+Title: UN investigation into Tigray abuses to end despite reports of more atrocities
+Title: Boat carrying record 280 people from west Africa reaches Canaries
+Title: Nigerian police detain Afrobeats star Naira Marley over death of MohBad
+Title: World needs 44m more teachers in order to educate every child, report finds
+Title: The new malaria vaccine will prevent many deaths – but it’s by no means the end of the disease
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-810157
+810697
 $ date -u +%s
-1696164850
+1696480317
