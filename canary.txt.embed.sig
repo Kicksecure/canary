@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETraocnHXVwNNa5LrcdkA7BnXQdu+5/d/2QPLNu5t98vz3njt9GQQu8i/A98HnW7Zqt8Q/yOFTdj9aQUfJPnuxw0=
+RWQ6KRormNEETgUTdbV7Njxzcjuxc8xaMMkUepF/lmv7Mu53rsMvScljbt4r+eM209XtaH+0wigUPLp5BmpZcRRtex19UpBvTgI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 05 Oct 2023 04:31:44 +0000
+Fri, 06 Oct 2023 06:00:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Interview with Amnesty International Security Lab Detective: "The Victims Are Completely Transparent To the Attacker"
+Title: The Predator Files: European Spyware Consortium Supplied Despots and Dictators
 Title: One Year of Meloni: Has Italy's Right-Wing Leader Left Fascism Behind?
 Title: Exodus from Nagorno-Karabakh: The Day Anna, 36, Lost Her Home
 Title: August Hanning: Legal and Critical Scrutiny for Ex German Intelligence Chief's Advisory Gigs
-Title: A Ukrainian Couple Scarred by War: "I Could Sense that Alina Was There"
-Title: Ukraine: How Merkel Prevented Ukraine's NATO Membership (A DER SPIEGEL Reconstruction)
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: US gives 1.1 million rounds of ammunition seized from Iran to Kyiv
-Title: Migrant crisis: Sunak to urge 'Europe-wide solutions' at summit in Granada
-Title: Police hunt suspect in murder of New York City activist
-Title: Venice bus crash: The heroes who pulled survivors from burning wreck
-Title: Interim House Speaker 'evicts' two senior Democrats from Capitol
+Title: Ukraine war: ‘Every family’ in Hroza village affected by missile attack
+Title: Biden faces bipartisan attacks over new border wall
+Title: Putin makes nuclear-powered Burevestnik missile test claim
+Title: Syria war: At least 100 dead in drone attack on cadet graduation ceremony
+Title: Trump seeks to dismiss election interference charges
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: France’s departure from Niger reflects years of failure in its former colonies
+Title: France to begin pulling out troops from Niger this week
 Title: UN investigation into Tigray abuses to end despite reports of more atrocities
 Title: Boat carrying record 280 people from west Africa reaches Canaries
 Title: Nigerian police detain Afrobeats star Naira Marley over death of MohBad
-Title: World needs 44m more teachers in order to educate every child, report finds
-Title: The new malaria vaccine will prevent many deaths – but it’s by no means the end of the disease
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-810697
+810853
 $ date -u +%s
-1696480317
+1696572047
