@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgUTdbV7Njxzcjuxc8xaMMkUepF/lmv7Mu53rsMvScljbt4r+eM209XtaH+0wigUPLp5BmpZcRRtex19UpBvTgI=
+RWQ6KRormNEETsCDcmJKGw8r+veLhLNTabZtW2GEGeH/zxjXvB+ofzrrPyGl/kjGaRNICuAish2Ym1mkY0gHLJxrbHWTMQw6oQk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 06 Oct 2023 06:00:35 +0000
+Tue, 10 Oct 2023 08:25:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Interview with Amnesty International Security Lab Detective: "The Victims Are Completely Transparent To the Attacker"
-Title: The Predator Files: European Spyware Consortium Supplied Despots and Dictators
-Title: One Year of Meloni: Has Italy's Right-Wing Leader Left Fascism Behind?
-Title: Exodus from Nagorno-Karabakh: The Day Anna, 36, Lost Her Home
-Title: August Hanning: Legal and Critical Scrutiny for Ex German Intelligence Chief's Advisory Gigs
+Title: Rising Radicalism: Germany's Right-Wing AfD Party Makes Strides in the West
+Title: Sophie in’t Veld on the "Predator Files": "It's a Deal from Hell"
+Title: Balkans: Why the Serbian Minority in Kosovo Feels Threatened
+Title: European Council President Charles Michel: Ukraine Could Join EU By 2030
+Title: Amnesty International Security Lab Detective: "The Victims Are Completely Transparent To the Attacker"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: ‘Every family’ in Hroza village affected by missile attack
-Title: Biden faces bipartisan attacks over new border wall
-Title: Putin makes nuclear-powered Burevestnik missile test claim
-Title: Syria war: At least 100 dead in drone attack on cadet graduation ceremony
-Title: Trump seeks to dismiss election interference charges
+Title: Supernova festival: How massacre unfolded from verified video and social media
+Title: No electricity, food, water or gas for Gaza, says Israel
+Title: Afghanistan earthquake: More than 1,000 dead as villagers dig for survivors
+Title: Pakistan cricket reporter quits India after backlash
+Title: Dozens die in strike on Myanmar refugee camp
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: France’s departure from Niger reflects years of failure in its former colonies
-Title: France to begin pulling out troops from Niger this week
-Title: UN investigation into Tigray abuses to end despite reports of more atrocities
-Title: Boat carrying record 280 people from west Africa reaches Canaries
-Title: Nigerian police detain Afrobeats star Naira Marley over death of MohBad
+Title: Tuesday briefing: The global impact of UK supreme court’s ruling on Rwanda deportation plan
+Title: Rwanda accused of broad campaign of repression against dissidents
+Title: Climate crisis is ‘not gender neutral’: UN calls for more policy focus on women
+Title: Court blocks Kenya from deploying  police officers to Haiti to fight gangs
+Title: Egypt: police officer shoots dead two Israeli tourists and Egyptian guide
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-810853
+811500
 $ date -u +%s
-1696572047
+1696926326
