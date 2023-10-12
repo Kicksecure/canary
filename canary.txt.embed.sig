@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETsCDcmJKGw8r+veLhLNTabZtW2GEGeH/zxjXvB+ofzrrPyGl/kjGaRNICuAish2Ym1mkY0gHLJxrbHWTMQw6oQk=
+RWQ6KRormNEEThmcYurMiPHf3Ky/bnj8AIwiq9vofSAE84rWkGsWW5zfte3TOFUP+rTXw2pK6v25pAtYzkW60P0dSc5C2yyKaQ4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 10 Oct 2023 08:25:14 +0000
+Thu, 12 Oct 2023 15:18:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "Putin Can't End this War without Victory"
+Title: Muslim Anti-Semitism in Berlin: "Wide Swaths of Arab-Speaking Population Harbor Sympathies for Terrorists"
+Title: Hamas Attack on Israel: "The Hostages Are Likely Facing an Extended Period of Suffering"
+Title: Aston Martin Goes for Glory: A Canadian Billionaire Takes on Formula One Royalty
 Title: Rising Radicalism: Germany's Right-Wing AfD Party Makes Strides in the West
-Title: Sophie in’t Veld on the "Predator Files": "It's a Deal from Hell"
-Title: Balkans: Why the Serbian Minority in Kosovo Feels Threatened
-Title: European Council President Charles Michel: Ukraine Could Join EU By 2030
-Title: Amnesty International Security Lab Detective: "The Victims Are Completely Transparent To the Attacker"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Supernova festival: How massacre unfolded from verified video and social media
-Title: No electricity, food, water or gas for Gaza, says Israel
-Title: Afghanistan earthquake: More than 1,000 dead as villagers dig for survivors
-Title: Pakistan cricket reporter quits India after backlash
-Title: Dozens die in strike on Myanmar refugee camp
+Title: Gaza hospitals risk turning into morgues, Red Cross says
+Title: CCTV shows moment women escape Israeli kibbutz attack
+Title: US House in limbo as Steve Scalise scrambles for votes
+Title: International Olympic Committee suspends Russian Olympic Committee 'with immediate effect'
+Title: French politicians put under police protection as antisemitism increases
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Zimbabwe bans large gatherings as threat of cholera outbreak grows
+Title: King Charles to acknowledge ‘painful’ colonial past on state visit to Kenya
+Title: FGM ban in the Gambia under threat as calls grow to repeal law
 Title: Tuesday briefing: The global impact of UK supreme court’s ruling on Rwanda deportation plan
 Title: Rwanda accused of broad campaign of repression against dissidents
-Title: Climate crisis is ‘not gender neutral’: UN calls for more policy focus on women
-Title: Court blocks Kenya from deploying  police officers to Haiti to fight gangs
-Title: Egypt: police officer shoots dead two Israeli tourists and Egyptian guide
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-811500
+811869
 $ date -u +%s
-1696926326
+1697123904
