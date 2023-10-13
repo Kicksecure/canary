@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThmcYurMiPHf3Ky/bnj8AIwiq9vofSAE84rWkGsWW5zfte3TOFUP+rTXw2pK6v25pAtYzkW60P0dSc5C2yyKaQ4=
+RWQ6KRormNEETjMt0AM7F9rvaYuLYfuvaHBZDZSew1+X9JgUfMpvA2ka1xRjefBV3DMMxyEwB19F30/OYTFGz3GLLR44JWmTQgA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 12 Oct 2023 15:18:10 +0000
+Fri, 13 Oct 2023 17:38:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Mood on the Berlin Streets: "I Actually Don't Like Hamas, But..."
+Title: Berlin Will Have to Follow Words of Support for Israel with Action
+Title: Hamas Terror: Germany Must Stand Unequivocally with Israel
+Title: Europe's Broken Asylum System: Conditions for Migrants in Tunisia Continues to Worsen
 Title: "Putin Can't End this War without Victory"
-Title: Muslim Anti-Semitism in Berlin: "Wide Swaths of Arab-Speaking Population Harbor Sympathies for Terrorists"
-Title: Hamas Attack on Israel: "The Hostages Are Likely Facing an Extended Period of Suffering"
-Title: Aston Martin Goes for Glory: A Canadian Billionaire Takes on Formula One Royalty
-Title: Rising Radicalism: Germany's Right-Wing AfD Party Makes Strides in the West
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gaza hospitals risk turning into morgues, Red Cross says
-Title: CCTV shows moment women escape Israeli kibbutz attack
-Title: US House in limbo as Steve Scalise scrambles for votes
-Title: International Olympic Committee suspends Russian Olympic Committee 'with immediate effect'
-Title: French politicians put under police protection as antisemitism increases
+Title: Hamas attack on Israel kibbutz Be’eri captured by mothers’ WhatsApp group
+Title: Teacher killed in France school stabbing
+Title: French police break up pro-Palestinian demo after ban
+Title: Germany migrants: Seven dead after vehicle crashes in Bavaria
+Title: Microsoft completes $69bn takeover of Call of Duty-maker Activision Blizzard
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Africa’s ‘optimist-in-chief’ on the continent’s renaissance: ‘Don’t just believe me, believe the data’
+Title: Zimbabwe FA investigating women’s team coach over sexual misconduct allegations
 Title: Zimbabwe bans large gatherings as threat of cholera outbreak grows
 Title: King Charles to acknowledge ‘painful’ colonial past on state visit to Kenya
 Title: FGM ban in the Gambia under threat as calls grow to repeal law
-Title: Tuesday briefing: The global impact of UK supreme court’s ruling on Rwanda deportation plan
-Title: Rwanda accused of broad campaign of repression against dissidents
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-811869
+812030
 $ date -u +%s
-1697123904
+1697218708
