@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 13 Oct 2023 17:38:11 +0000
+Thu, 19 Oct 2023 17:14:03 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Interview with Israel's EU Ambassador Haim Regev: "We Can and We Will Wipe Out Hamas"
+Title: Xi and Putin in Beijing: The Burgeoning Alliance between Russia and China
+Title: When the Music Stopped: An Inside Look at the Hamas Assault on the Trance Festival
+Title: The Return of Liberal Poland?: Opposition Parties Secure Votes for New Government
 Title: The Mood on the Berlin Streets: "I Actually Don't Like Hamas, But..."
-Title: Berlin Will Have to Follow Words of Support for Israel with Action
-Title: Hamas Terror: Germany Must Stand Unequivocally with Israel
-Title: Europe's Broken Asylum System: Conditions for Migrants in Tunisia Continues to Worsen
-Title: "Putin Can't End this War without Victory"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hamas attack on Israel kibbutz Be’eri captured by mothers’ WhatsApp group
-Title: Teacher killed in France school stabbing
-Title: French police break up pro-Palestinian demo after ban
-Title: Germany migrants: Seven dead after vehicle crashes in Bavaria
-Title: Microsoft completes $69bn takeover of Call of Duty-maker Activision Blizzard
+Title: Ukraine war: Kyiv troop build-up reported across Dnipro river
+Title: Sidney Powell: Trump ex-lawyer pleads guilty in Georgia election case
+Title: Berlusconi's 'worthless' art proving a headache to heirs
+Title: EU bids to tighten migration rules after attacks in Arras and Brussels
+Title: Aid delivery waits to enter Gaza from Egypt at Rafah crossing
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Africa’s ‘optimist-in-chief’ on the continent’s renaissance: ‘Don’t just believe me, believe the data’
-Title: Zimbabwe FA investigating women’s team coach over sexual misconduct allegations
-Title: Zimbabwe bans large gatherings as threat of cholera outbreak grows
-Title: King Charles to acknowledge ‘painful’ colonial past on state visit to Kenya
-Title: FGM ban in the Gambia under threat as calls grow to repeal law
+Title: MSF suspends surgery at Khartoum hospital after Sudanese military blocks supplies
+Title: Guinea-Bissau’s capital has power cut off after government fails to pay electricity bill
+Title: Tributes paid to Berkshire newlyweds killed in Uganda terrorist attack
+Title: Israel faces blame from regional allies over Gaza hospital deaths
+Title: Two tourists, from UK and South Africa, and guide killed in attack in Uganda
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-812030
+812939
 $ date -u +%s
-1697218708
+1697735655
