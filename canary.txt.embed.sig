@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnJf7jJE1oUkdfLzp/me4iMBbCc7oNLnmH3zGuGb4BEzIKEacNWeyVqEdS28MBTqOSjM7nZa5dQpHoF8YZgT8Ao=
+RWQ6KRormNEETi/FNWeT/6Q+w5QMp+hRLV4v+Zg9YxnW/brCkYhyp4pbqadNoXGG0jgpE4G4dc+HTW082WxHrkfvXV4Q1fatcQE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 19 Oct 2023 17:14:03 +0000
+Sat, 21 Oct 2023 15:12:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Interview with German Chancellor Olaf Scholz: "We Have to Deport People More Often and Faster"
+Title: The Crisis in the Middle East: Diplomacy on the Precipice
+Title: Former Israeli Prime Minister Ehud Barak Criticizes Benjamin Netanyahu Sharply
 Title: Interview with Israel's EU Ambassador Haim Regev: "We Can and We Will Wipe Out Hamas"
 Title: Xi and Putin in Beijing: The Burgeoning Alliance between Russia and China
-Title: When the Music Stopped: An Inside Look at the Hamas Assault on the Trance Festival
-Title: The Return of Liberal Poland?: Opposition Parties Secure Votes for New Government
-Title: The Mood on the Berlin Streets: "I Actually Don't Like Hamas, But..."
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Kyiv troop build-up reported across Dnipro river
-Title: Sidney Powell: Trump ex-lawyer pleads guilty in Georgia election case
-Title: Berlusconi's 'worthless' art proving a headache to heirs
-Title: EU bids to tighten migration rules after attacks in Arras and Brussels
-Title: Aid delivery waits to enter Gaza from Egypt at Rafah crossing
+Title: Judith and Natalie Raanan: Hamas frees two US hostages
+Title: Ukraine war: Why Kyiv's Dnipro east bank gain could be significant
+Title: Israeli Arabs arrested over Gaza social media posts
+Title: Poland election: Women and youth force PiS from power
+Title: Republicans back to square one as Speaker crisis deepens
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: MSF suspends surgery at Khartoum hospital after Sudanese military blocks supplies
-Title: Guinea-Bissau’s capital has power cut off after government fails to pay electricity bill
-Title: Tributes paid to Berkshire newlyweds killed in Uganda terrorist attack
-Title: Israel faces blame from regional allies over Gaza hospital deaths
-Title: Two tourists, from UK and South Africa, and guide killed in attack in Uganda
+Title: Aid trucks enter Gaza but UN chief says people need ‘much, much more’
+Title: UK politicians and campaigners call for reparative justice for African slave trade
+Title: Actor reporting on asylum seekers finds brother among arrivals in Canary Islands
+Title: Sunak reiterates support for two-state solution in meeting with Abbas
+Title: Niger’s military rulers say ousted president tried to escape custody
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-812939
+813195
 $ date -u +%s
-1697735655
+1697901179
