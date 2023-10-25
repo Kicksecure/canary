@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 21 Oct 2023 15:12:46 +0000
+Wed, 25 Oct 2023 23:24:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Uyghurs in China: Filmmaker's Detention Shows That Arrests of Minority Continue
 Title: Interview with German Chancellor Olaf Scholz: "We Have to Deport People More Often and Faster"
 Title: The Crisis in the Middle East: Diplomacy on the Precipice
 Title: Former Israeli Prime Minister Ehud Barak Criticizes Benjamin Netanyahu Sharply
 Title: Interview with Israel's EU Ambassador Haim Regev: "We Can and We Will Wipe Out Hamas"
-Title: Xi and Putin in Beijing: The Burgeoning Alliance between Russia and China
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Judith and Natalie Raanan: Hamas frees two US hostages
-Title: Ukraine war: Why Kyiv's Dnipro east bank gain could be significant
-Title: Israeli Arabs arrested over Gaza social media posts
-Title: Poland election: Women and youth force PiS from power
-Title: Republicans back to square one as Speaker crisis deepens
+Title: Humanity blasted and broken: Gaza through a medic's eyes
+Title: Russia says it rehearsed 'massive' nuclear strike
+Title: Fireworks in court as Trump team calls ex-lawyer Michael Cohen a liar
+Title: Conservative Mike Johnson elected new House Speaker
+Title: Ukraine war: Forced evacuations as Russian attacks intensify
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Girls in Africa quitting school over cost of living crisis, says charity
+Title: Scientists discover why dozens of endangered elephants dropped dead
+Title: Sudanese evacuees in the UK fear limbo as six-month visas begin to expire
+Title: Access to remains of Bambuti baby withdrawn by London museum
 Title: Aid trucks enter Gaza but UN chief says people need ‘much, much more’
-Title: UK politicians and campaigners call for reparative justice for African slave trade
-Title: Actor reporting on asylum seekers finds brother among arrivals in Canary Islands
-Title: Sunak reiterates support for two-state solution in meeting with Abbas
-Title: Niger’s military rulers say ousted president tried to escape custody
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-813195
+813833
 $ date -u +%s
-1697901179
+1698276290
