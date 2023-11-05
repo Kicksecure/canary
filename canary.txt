@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 25 Oct 2023 23:24:40 +0000
+Sun, 05 Nov 2023 22:34:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Uyghurs in China: Filmmaker's Detention Shows That Arrests of Minority Continue
-Title: Interview with German Chancellor Olaf Scholz: "We Have to Deport People More Often and Faster"
-Title: The Crisis in the Middle East: Diplomacy on the Precipice
-Title: Former Israeli Prime Minister Ehud Barak Criticizes Benjamin Netanyahu Sharply
-Title: Interview with Israel's EU Ambassador Haim Regev: "We Can and We Will Wipe Out Hamas"
+Title: Between Bombs and Hope: Families of Israeli Hostages Agonize over Fate of Loved Ones
+Title: The Unwinnable War: Israel Faces International Headwinds as the Ground Offensive Commences
+Title: NATO Partner and Hamas Host
+Title: Escalating Violence: Radical Settlers on the West Bank See an Opportunity
+Title: Middle East Conflict Tests the Postwar World Order: Deepening Fault Lines
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Humanity blasted and broken: Gaza through a medic's eyes
-Title: Russia says it rehearsed 'massive' nuclear strike
-Title: Fireworks in court as Trump team calls ex-lawyer Michael Cohen a liar
-Title: Conservative Mike Johnson elected new House Speaker
-Title: Ukraine war: Forced evacuations as Russian attacks intensify
+Title: Ukraine war: Military chiefs in Kyiv under pressure over deadly Russian strike
+Title: Hamburg Airport hostage drama ends after 18 hours
+Title: Footballer Díaz begs father's ELN kidnappers to free him
+Title: DJ shot dead during live broadcast in Philippines
+Title: Musk says his new AI chatbot has 'a little humour'
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Girls in Africa quitting school over cost of living crisis, says charity
-Title: Scientists discover why dozens of endangered elephants dropped dead
-Title: Sudanese evacuees in the UK fear limbo as six-month visas begin to expire
-Title: Access to remains of Bambuti baby withdrawn by London museum
-Title: Aid trucks enter Gaza but UN chief says people need ‘much, much more’
+Title: Former Guinea dictator Moussa Dadis Camara recaptured after armed prison escape
+Title: First of 100-strong group of Britons cross Gaza border into Egypt
+Title: Climate crisis talks resume on ‘loss and damage’ funding for poorest countries
+Title: Austria to work with UK on Rwanda-style plan for asylum seekers
+Title: King Charles’s ‘deep regret’ for colonial atrocities was a ‘miss’, Kenyans say
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-813833
+815504
 $ date -u +%s
-1698276290
+1699223679
