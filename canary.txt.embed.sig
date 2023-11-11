@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETg/XzPEYZKGlNFCf9auj/9v4BPGtL2cUwcfZvjRWi09SQ+OqJDh9zSCgBu2o2mesUnXuh41iA8nxtyZFgEncowI=
+RWQ6KRormNEETg9ONwMluYdF7gW3KXM1zqfsPuZiY5cr/BYBR6UOoUQNtNROYC0rGIadfuzgHxMvwACR9+7rM7E8KUAOC5XSqQY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 05 Nov 2023 22:34:31 +0000
+Sat, 11 Nov 2023 22:17:32 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Between Bombs and Hope: Families of Israeli Hostages Agonize over Fate of Loved Ones
-Title: The Unwinnable War: Israel Faces International Headwinds as the Ground Offensive Commences
-Title: NATO Partner and Hamas Host
-Title: Escalating Violence: Radical Settlers on the West Bank See an Opportunity
-Title: Middle East Conflict Tests the Postwar World Order: Deepening Fault Lines
+Title: Ukrainian Special Forces Officer Allegedly Involved in Nord Stream Attack
+Title: Forgotten in Kyiv: Support Slides for Ukraine Following Attack on Israel
+Title: War in the Middle East: The Strategic Calculations of Israel's Enemies
+Title: Former Israeli Foreign Minister Tzipi Livni: "Netanyahu Will Not Stay"
+Title: The Middle East Conflict: Interview with a Palestinian and an Israeli
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine war: Military chiefs in Kyiv under pressure over deadly Russian strike
-Title: Hamburg Airport hostage drama ends after 18 hours
-Title: Footballer Díaz begs father's ELN kidnappers to free him
-Title: DJ shot dead during live broadcast in Philippines
-Title: Musk says his new AI chatbot has 'a little humour'
+Title: Macron calls on Israel to stop killing Gaza's women and babies
+Title: Pope Francis fires Texan bishop after criticism of reforms
+Title: Iceland volcano: Emergency declared over volcano Fagradalsfjall eruption concerns
+Title: Luis Díaz's father speaks for first time since kidnap
+Title: Ukraine war: Kyiv hit by first air attack in 52 days, say authorities
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Former Guinea dictator Moussa Dadis Camara recaptured after armed prison escape
-Title: First of 100-strong group of Britons cross Gaza border into Egypt
-Title: Climate crisis talks resume on ‘loss and damage’ funding for poorest countries
-Title: Austria to work with UK on Rwanda-style plan for asylum seekers
-Title: King Charles’s ‘deep regret’ for colonial atrocities was a ‘miss’, Kenyans say
+Title: UN warns violence against civilians in Sudan ‘verging on pure evil’
+Title: UK couple on holiday in Egypt died of carbon monoxide poisoning, coroner rules
+Title: South Africa to introduce shared parental leave after landmark judgment
+Title: ‘We are living in absolute fear’: call to stop Indigenous evictions in Rift Valley
+Title: Plastic waste ‘spiralling out of control’ across Africa, analysis shows
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-815504
+816365
 $ date -u +%s
-1699223679
+1699741061
