@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 11 Nov 2023 22:17:32 +0000
+Wed, 15 Nov 2023 11:50:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Ukrainian Special Forces Officer Allegedly Involved in Nord Stream Attack
+Title: A Century of Hate: The Middle East Cycle of Violence Continues to Breed Intolerance
+Title: The Food of the Future: "Grasshoppers Are More Valuable than Caviar"
+Title: Ukraine: Special Forces Officer Allegedly Involved in Nord Stream Attack
 Title: Forgotten in Kyiv: Support Slides for Ukraine Following Attack on Israel
 Title: War in the Middle East: The Strategic Calculations of Israel's Enemies
-Title: Former Israeli Foreign Minister Tzipi Livni: "Netanyahu Will Not Stay"
-Title: The Middle East Conflict: Interview with a Palestinian and an Israeli
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Macron calls on Israel to stop killing Gaza's women and babies
-Title: Pope Francis fires Texan bishop after criticism of reforms
-Title: Iceland volcano: Emergency declared over volcano Fagradalsfjall eruption concerns
-Title: Luis Díaz's father speaks for first time since kidnap
-Title: Ukraine war: Kyiv hit by first air attack in 52 days, say authorities
+Title: Hostages' fates haunt Israel as war intensifies
+Title: Xi Jinping arrives in US as his Chinese Dream sputters
+Title: Brazil: Health warnings as country gripped by 'unbearable' heatwave
+Title: Jammu: At least 36 die after bus falls into India gorge
+Title: SA rugby office burglars touch but leave World Cup trophy
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Abducted Zimbabwe opposition activist Tapfumaneyi Masaya found dead
+Title: Countries meet in Kenya to thrash out global plastic pollution treaty
+Title: Win or lose, supreme court decision on Rwanda policy will be pivotal for Tories
+Title: Irish woman inspired to return African and Aboriginal antiquities by Guardian article
 Title: UN warns violence against civilians in Sudan ‘verging on pure evil’
-Title: UK couple on holiday in Egypt died of carbon monoxide poisoning, coroner rules
-Title: South Africa to introduce shared parental leave after landmark judgment
-Title: ‘We are living in absolute fear’: call to stop Indigenous evictions in Rift Valley
-Title: Plastic waste ‘spiralling out of control’ across Africa, analysis shows
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-816365
+816871
 $ date -u +%s
-1699741061
+1700049058
