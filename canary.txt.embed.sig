@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqEyFgI+2oqHfo/4syhYMChlj8oXFycd06iGDYY2GYN/uSp+wd+5bxTlcK77fX1kAAi/RrVKCMtfm0ltzxPCUwQ=
+RWQ6KRormNEETmtx2IWOuEpQDf5fuHadqZCP8wOXtSxCKj1F7L2eH7oDZkj24zX85KGOj/+jS6zM3dH3przv5XPoW72Tv/6NFgk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Nov 2023 13:27:59 +0000
+Fri, 24 Nov 2023 14:43:43 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Cake and Casualties: Uzhhorod Is Ukraine's Most Peaceful City
+Title: A Taste of an Approaching Dystopia: The Death of the Amazon River Dolphin
+Title: Anti-Semitism in France: French Jews Concerned about the Future
+Title: Dubious CO2 Certificates: What Will Become of the Liberian Rainforests?
 Title: A Potential Rift in the Climate Movement: What's Next for Greta Thunberg?
-Title: Jewish Life in Germany: A Sudden, Ominous Sense of Insecurity
-Title: Ukraine Prepares Electricity Grid for Another Winter of War
-Title: A Century of Hate: The Middle East Cycle of Violence Continues to Breed Intolerance
-Title: The Food of the Future: "Grasshoppers Are More Valuable than Caviar"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Sacked OpenAI boss Sam Altman to join Microsoft
-Title: Javier Milei: Argentina's far-right outsider wins presidential election
-Title: Suki Waterhouse and Robert Pattinson expecting first child
-Title: A billion hearts break as India lose World Cup final
-Title: Uttarakhand tunnel collapse: Rescuers to drill new tunnels for trapped India workers
+Title: Oscar Pistorius to be freed on parole in South Africa after killing girlfriend Reeva Steenkamp
+Title: Machine repairs prolong ordeal for trapped Indian tunnel workers
+Title: Wilders Dutch vote: Centre-right VVD rules out role in cabinet
+Title: Korean true crime fan murdered stranger 'out of curiosity'
+Title: North Korea: Kim Jong Un celebrates 'space power' after spy satellite launch
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: African and Caribbean nations agree move to seek reparations for slavery
-Title: South Africa ‘can’t afford’ to pay for new anti-HIV drug, despite cut-price offer
-Title: Solar energy could power all health facilities in poorer countries and save lives, experts say
-Title: Peers and MPs pledge to block Sunak’s Rwanda plan as Braverman labels it ‘magical thinking’
-Title: UK government to present full law to set aside supreme court Rwanda decision
+Title: Who is Oscar Pistorius and why is he being released from jail?
+Title: Oscar Pistorius granted parole and will be released from prison in January
+Title: Weather tracker: Ethiopia hit by severe drought amid east Africa floods
+Title: Cheap over-the-counter nail drug found to work on crippling flesh-eating disease
+Title: Madagascan heatwave ‘virtually impossible’ without human-caused global heating
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-817656
+818264
 $ date -u +%s
-1700486895
+1700837033
