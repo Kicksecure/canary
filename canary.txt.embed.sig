@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmtx2IWOuEpQDf5fuHadqZCP8wOXtSxCKj1F7L2eH7oDZkj24zX85KGOj/+jS6zM3dH3przv5XPoW72Tv/6NFgk=
+RWQ6KRormNEETvw8E6ApLcSs8T6LUxNIau2DpoT+3HfgGPwDaZkWAofr5xTo7StC39J0guxWji5hiB3BmhbTdr2Vs5zYrGDdjQI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 24 Nov 2023 14:43:43 +0000
+Sat, 25 Nov 2023 06:08:51 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Tour of Hell: In Gaza with the Israeli Army
 Title: Cake and Casualties: Uzhhorod Is Ukraine's Most Peaceful City
 Title: A Taste of an Approaching Dystopia: The Death of the Amazon River Dolphin
 Title: Anti-Semitism in France: French Jews Concerned about the Future
 Title: Dubious CO2 Certificates: What Will Become of the Liberian Rainforests?
-Title: A Potential Rift in the Climate Movement: What's Next for Greta Thunberg?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: Israel-Gaza: Families' relief as hostages released
+Title: Israel hostages: Freed women and child helped out of ambulance
+Title: Israel releases 39 Palestinian prisoners from Israeli prisons
 Title: Oscar Pistorius to be freed on parole in South Africa after killing girlfriend Reeva Steenkamp
-Title: Machine repairs prolong ordeal for trapped Indian tunnel workers
-Title: Wilders Dutch vote: Centre-right VVD rules out role in cabinet
-Title: Korean true crime fan murdered stranger 'out of curiosity'
-Title: North Korea: Kim Jong Un celebrates 'space power' after spy satellite launch
+Title: Rainbow Bridge: Police identify couple killed in US-Canada border crash
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Who is Oscar Pistorius and why is he being released from jail?
 Title: Oscar Pistorius granted parole and will be released from prison in January
 Title: Weather tracker: Ethiopia hit by severe drought amid east Africa floods
+Title: Shell to face human rights claims in UK over chronic oil pollution in Niger delta
 Title: Cheap over-the-counter nail drug found to work on crippling flesh-eating disease
-Title: Madagascan heatwave ‘virtually impossible’ without human-caused global heating
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-818264
+818371
 $ date -u +%s
-1700837033
+1700892543
