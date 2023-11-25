@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 25 Nov 2023 06:08:51 +0000
+Sat, 25 Nov 2023 06:25:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Tour of Hell: In Gaza with the Israeli Army
@@ -77,4 +77,4 @@ Title: Cheap over-the-counter nail drug found to work on crippling flesh-eating 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 818371
 $ date -u +%s
-1700892543
+1700893531

@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvw8E6ApLcSs8T6LUxNIau2DpoT+3HfgGPwDaZkWAofr5xTo7StC39J0guxWji5hiB3BmhbTdr2Vs5zYrGDdjQI=
+RWQ6KRormNEETrChSB3vs+lK71UwtBJkyp8I0JZYsayWtarFCA0UROOok+5iAv8S+BbJWIx8gLd4c7WFfrQ7dvaweRdSjBymmwc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 25 Nov 2023 06:08:51 +0000
+Sat, 25 Nov 2023 06:25:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Tour of Hell: In Gaza with the Israeli Army
@@ -79,4 +79,4 @@ Title: Cheap over-the-counter nail drug found to work on crippling flesh-eating 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 818371
 $ date -u +%s
-1700892543
+1700893531
