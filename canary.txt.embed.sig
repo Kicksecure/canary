@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrChSB3vs+lK71UwtBJkyp8I0JZYsayWtarFCA0UROOok+5iAv8S+BbJWIx8gLd4c7WFfrQ7dvaweRdSjBymmwc=
+RWQ6KRormNEETpyRNtiwBxbBUNafadlI9/3nmEcgUjH1MwL+uz7HPA1XOd1dDqMRSPMGWjK0wDl1mu9Y3pUQJg5bUax6GF8Jug8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 25 Nov 2023 06:25:19 +0000
+Tue, 28 Nov 2023 04:31:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Tour of Hell: In Gaza with the Israeli Army
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel-Gaza: Families' relief as hostages released
-Title: Israel hostages: Freed women and child helped out of ambulance
-Title: Israel releases 39 Palestinian prisoners from Israeli prisons
-Title: Oscar Pistorius to be freed on parole in South Africa after killing girlfriend Reeva Steenkamp
-Title: Rainbow Bridge: Police identify couple killed in US-Canada border crash
+Title: Toxic gas putting millions at risk in Middle East, BBC finds
+Title: Vaping: Australia to ban disposable vape imports from January
+Title: 'Granny, I've been shot,' said Palestinian student targeted in Vermont
+Title: Russia and Ukraine storm leaves two million without power
+Title: Ghana Cardinal Peter Turkson: It's time to understand homosexuality
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Revealed: Saudi Arabia’s grand plan to ‘hook’ poor countries on oil
+Title: Australian Christian group fights claim it was linked to leader of Kenya starvation massacre doomsday cult
+Title: Sierra Leone imposes nationwide curfew after armed clashes in capital
+Title: Madagascar’s Andry Rajoelina re-elected after boycotted presidential poll
 Title: Who is Oscar Pistorius and why is he being released from jail?
-Title: Oscar Pistorius granted parole and will be released from prison in January
-Title: Weather tracker: Ethiopia hit by severe drought amid east Africa floods
-Title: Shell to face human rights claims in UK over chronic oil pollution in Niger delta
-Title: Cheap over-the-counter nail drug found to work on crippling flesh-eating disease
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-818371
+818798
 $ date -u +%s
-1700893531
+1701145893
