@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqjNz9UVG9nlB4BasafAGx5Y2WT12fzHZDe5eWZZ0U93nsqidyU3+PQ0QM5DUudDqqoqKDQ15vaXRmz4ivu0wgg=
+RWQ6KRormNEETnjFDI0C0vAxJB6P8/J3CueGP0FmMcjYywtTVr1ritRvUKEAOzaTpXSDYe6gFQLZVfFwkRR62E7r6WNqT2/6TwE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 30 Nov 2023 18:03:24 +0000
+Fri, 01 Dec 2023 04:59:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Tour of Hell: In Gaza with the Israeli Army
@@ -63,11 +63,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Watch: Henry Kissinger’s life and legacy in his own words
-Title: Swedish murder: Five teenagers found guilty over taxi driver's killing
-Title: COP28: Poor countries win 30-year fight for climate cash
-Title: Russian court bans 'LGBT movement'
-Title: Inactive Google accounts to be deleted from Friday
+Title: Released Palestinians allege abuse in Israeli jails
+Title: Blinken steps up call for Israel to spare civilians in strongest remarks yet
+Title: What US agents knew before a Canadian Sikh activist was killed
+Title: Elliott Erwitt: Legendary photographer dies aged 95
+Title: Filmmakers discover 128-year-old shipwreck
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Climate crisis a ‘substantial risk’ to fight against malaria, says WHO
@@ -77,6 +77,6 @@ Title: Rwandan courts will not protect refugees’ rights, say daughters of geno
 Title: New push for debt relief to help developing world fund climate action
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-819152
+819220
 $ date -u +%s
-1701367415
+1701406791
