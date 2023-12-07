@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETsZVKoesxfN0pm5w49Q40/345GA/bnUkHfOtQ8h3qyVk3ZMKYQgN3oIrW5w4OtlcM7phzJ2xGROKAju9l5nrCg8=
+RWQ6KRormNEETgQNbOMeCsjbY3BLroJhcPYoW/UvNAuxA20ztU3SyJhA2v3pfDjudrRu3BGAdmqS7zT0bh4R6fltcTjvdQS6hw8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 02 Dec 2023 06:01:23 +0000
+Thu, 07 Dec 2023 14:40:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Former Qatari Premier on the Gaza Conflict: "The Worst Thing Would Be a Ceasefire without a Plan"
+Title: The Fizzled Counteroffensive: Fears Grow of a Stalemate on the Front in Ukraine
+Title: Refugees on the Balkan Route: Europe's Nameless Dead
 Title: Interview with Bundesbank President Nagel: "We Are not the Sick Man of Europe"
 Title: A Tour of Hell: In Gaza with the Israeli Army
-Title: Cake and Casualties: Uzhhorod Is Ukraine's Most Peaceful City
-Title: A Taste of an Approaching Dystopia: The Death of the Amazon River Dolphin
-Title: Anti-Semitism in France: French Jews Concerned about the Future
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Bowen: US sets clearer red lines for Israel as ceasefire ends
-Title: Fear and anger in Gaza as fighting erupts again
-Title: COP28: Huge rise in oil production expected from hosts UAE
-Title: Paris Olympics 2024: Locals ask if they're worth the trouble
-Title: George Santos expelled from Congress in historic vote
+Title: Russia hacking: 'FSB in years-long cyber attacks on UK', says government
+Title: Bringing broken survivors of the Israel Nova festival attack back from darkness
+Title: Senate Republicans block Ukraine aid bill
+Title: Watch: Video shows moment of huge explosion in Seychelles
+Title: UNLV shooting: Former college professor kills three on Las Vegas campus
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Countries that criminalise gay sex are impeding fight against Aids, UN warns
-Title: Rishi Sunak ‘won’t allow foreign court to block’ Rwanda plan
-Title: Spanish police investigate deaths of four migrants forced off speedboat
-Title: Climate crisis a ‘substantial risk’ to fight against malaria, says WHO
-Title: Back from the brink: sand-swimming golden mole, feared extinct, rediscovered after 86 years
+Title: EU must face legacy of colonialism and support reparations, say MEPs
+Title: Rishi Sunak accused of giving Rwanda millions ‘for nothing in return’
+Title: Climate funding must be faster and easier, says deputy PM of flood-hit Somalia
+Title: Wednesday briefing: Inside the Home Office’s new Rwanda plan – and why it might not work
+Title: UK taxpayers to bear extra cost over Rwanda treaty
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-819381
+820146
 $ date -u +%s
-1701496889
+1701960036
