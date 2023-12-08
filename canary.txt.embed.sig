@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgQNbOMeCsjbY3BLroJhcPYoW/UvNAuxA20ztU3SyJhA2v3pfDjudrRu3BGAdmqS7zT0bh4R6fltcTjvdQS6hw8=
+RWQ6KRormNEETu/7vMm+5eTPXFGIndEwHuk1CTimVQETTwDYIuUC7qMDZ0U0f1gAqYnj+hdNzHWrQ8WachcxYHGW9HTS323ziwg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 07 Dec 2023 14:40:25 +0000
+Fri, 08 Dec 2023 11:56:20 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Former Qatari Premier on the Gaza Conflict: "The Worst Thing Would Be a Ceasefire without a Plan"
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Russia hacking: 'FSB in years-long cyber attacks on UK', says government
-Title: Bringing broken survivors of the Israel Nova festival attack back from darkness
-Title: Senate Republicans block Ukraine aid bill
-Title: Watch: Video shows moment of huge explosion in Seychelles
-Title: UNLV shooting: Former college professor kills three on Las Vegas campus
+Title: Video shows stripped Palestinian men detained in Gaza
+Title: Hunter Biden faces second federal indictment, this time on tax evasion
+Title: Hunter Biden's tax indictment: Drugs, escorts and girlfriends
+Title: Israel Gaza war: UPenn loses $100m donation after House antisemitism testimony
+Title: Two arrested in France over alleged bedbug scam
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: ‘Cloak and dagger tactics’: Tories paid Rwanda an extra £100m for asylum deal
+Title: Rishi Sunak claims new Rwanda asylum bill will prevent legal challenges
+Title: HIV vaccine trial in Africa halted after disappointing initial results
 Title: EU must face legacy of colonialism and support reparations, say MEPs
 Title: Rishi Sunak accused of giving Rwanda millions ‘for nothing in return’
-Title: Climate funding must be faster and easier, says deputy PM of flood-hit Somalia
-Title: Wednesday briefing: Inside the Home Office’s new Rwanda plan – and why it might not work
-Title: UK taxpayers to bear extra cost over Rwanda treaty
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-820146
+820253
 $ date -u +%s
-1701960036
+1702036585
