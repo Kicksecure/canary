@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETu/7vMm+5eTPXFGIndEwHuk1CTimVQETTwDYIuUC7qMDZ0U0f1gAqYnj+hdNzHWrQ8WachcxYHGW9HTS323ziwg=
+RWQ6KRormNEETutxKM8CYj8/5/b2CCfodzVZ0ngi0wpQDGmN6iEkvyscbChUDiiXd481WVViZ/MTY+cyzFlE2pdCQW3KSye64Q4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 08 Dec 2023 11:56:20 +0000
+Fri, 15 Dec 2023 20:50:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Former Qatari Premier on the Gaza Conflict: "The Worst Thing Would Be a Ceasefire without a Plan"
-Title: The Fizzled Counteroffensive: Fears Grow of a Stalemate on the Front in Ukraine
-Title: Refugees on the Balkan Route: Europe's Nameless Dead
-Title: Interview with Bundesbank President Nagel: "We Are not the Sick Man of Europe"
-Title: A Tour of Hell: In Gaza with the Israeli Army
+Title: Hamas in Germany: Arrests Suggest Terrorist Organization Is Operating in Europe
+Title: Keeping Migrants at Bay: How a Brutal Militia Became Europe's New Henchmen
+Title: Russia: The Discontent of Soldiers' Wives Is Growing
+Title: "We Will Even Miss the 2-Degree Goal If Energy Policy Doesn't Change Fundamentally"
+Title: Black Gold Rush in Guyana: Is the World Really Ready to Abandon Fossil Fuels?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Video shows stripped Palestinian men detained in Gaza
-Title: Hunter Biden faces second federal indictment, this time on tax evasion
-Title: Hunter Biden's tax indictment: Drugs, escorts and girlfriends
-Title: Israel Gaza war: UPenn loses $100m donation after House antisemitism testimony
-Title: Two arrested in France over alleged bedbug scam
+Title: Shipping firms pause Red Sea journeys over attacks
+Title: Yemen Houthi rebels claim attacks on two Red Sea cargo ships
+Title: What has Hungary's Orban got against Ukraine?
+Title: Ukraine grenade incident: Councillor tosses explosives into meeting
+Title: Beijing subway crash leaves 102 with broken bones
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘Cloak and dagger tactics’: Tories paid Rwanda an extra £100m for asylum deal
-Title: Rishi Sunak claims new Rwanda asylum bill will prevent legal challenges
-Title: HIV vaccine trial in Africa halted after disappointing initial results
-Title: EU must face legacy of colonialism and support reparations, say MEPs
-Title: Rishi Sunak accused of giving Rwanda millions ‘for nothing in return’
+Title: Police officer stoned to death after rescuing FGM survivors in Kenya
+Title: Rwandan politician who criticised Sunak’s bill fears for her safety
+Title: Soldiers accused of widespread looting from homes near Sudanese capital
+Title: Africa sees sharp rise in road traffic deaths as motorbike taxis boom
+Title: Zahara, platinum-selling South African singer-songwriter, dies aged 35
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-820253
+821361
 $ date -u +%s
-1702036585
+1702673466
