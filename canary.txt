@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 15 Dec 2023 20:50:55 +0000
+Sat, 16 Dec 2023 19:19:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Hamas in Germany: Arrests Suggest Terrorist Organization Is Operating in Europe
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Shipping firms pause Red Sea journeys over attacks
-Title: Yemen Houthi rebels claim attacks on two Red Sea cargo ships
-Title: What has Hungary's Orban got against Ukraine?
-Title: Ukraine grenade incident: Councillor tosses explosives into meeting
-Title: Beijing subway crash leaves 102 with broken bones
+Title: Hostage shooting incident 'against rules of engagement', IDF says
+Title: Cardinal Becciu: Vatican court convicts former Pope adviser of financial crimes
+Title: More big shipping firms stop Red Sea routes after attacks
+Title: Former South Africa president Jacob Zuma 'won't vote for ANC'
+Title: Samer Abudaqa: Al Jazeera cameraman killed in Gaza drone strike
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Three killed while repairing ancient wall at Unesco world heritage site in Tunisia
+Title: Thousands flee Wad Madani, Sudan’s second city, to escape fighting
+Title: Jacob Zuma withdraws support for ANC in run-up to 2024 South African election
 Title: Police officer stoned to death after rescuing FGM survivors in Kenya
 Title: Rwandan politician who criticised Sunak’s bill fears for her safety
-Title: Soldiers accused of widespread looting from homes near Sudanese capital
-Title: Africa sees sharp rise in road traffic deaths as motorbike taxis boom
-Title: Zahara, platinum-selling South African singer-songwriter, dies aged 35
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-821361
+821502
 $ date -u +%s
-1702673466
+1702754376
