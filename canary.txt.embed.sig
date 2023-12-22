@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETiX0d4Ren7AXZXrO+JoOsk8i88jm/5BGXJsshmu0gp5WnWJ+4hFmAy+k4BmVpi7pGEH8qixhoBeIxHWHSkVmMgY=
+RWQ6KRormNEETi2h5qvS+S1FkWgeH5R2H5jF5H3mZcLCyJZvt0ZQqtePurFKX1Z/zkuhzXYv7MVPPioHTki06vA42GEOT/unDgA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 16 Dec 2023 19:19:25 +0000
+Fri, 22 Dec 2023 16:47:29 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Gaza Conundrum: The Story Behind the Rise of Hamas
+Title: Espionage from the East: "Russia Is a Storm, China Is Climate Change"
 Title: Hamas in Germany: Arrests Suggest Terrorist Organization Is Operating in Europe
 Title: Keeping Migrants at Bay: How a Brutal Militia Became Europe's New Henchmen
 Title: Russia: The Discontent of Soldiers' Wives Is Growing
-Title: "We Will Even Miss the 2-Degree Goal If Energy Policy Doesn't Change Fundamentally"
-Title: Black Gold Rush in Guyana: Is the World Really Ready to Abandon Fossil Fuels?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hostage shooting incident 'against rules of engagement', IDF says
-Title: Cardinal Becciu: Vatican court convicts former Pope adviser of financial crimes
-Title: More big shipping firms stop Red Sea routes after attacks
-Title: Former South Africa president Jacob Zuma 'won't vote for ANC'
-Title: Samer Abudaqa: Al Jazeera cameraman killed in Gaza drone strike
+Title: Prague gunman killed himself on roof as police approached
+Title: Stunned Prague students mourn and no-one mentions killer
+Title: Plane grounded in France over human trafficking fears
+Title: China: Outrage over doctor punching patient during surgery
+Title: Sudan war: General Burhan blames fall of Wad Madani on 'negligence'
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Three killed while repairing ancient wall at Unesco world heritage site in Tunisia
-Title: Thousands flee Wad Madani, Sudan’s second city, to escape fighting
-Title: Jacob Zuma withdraws support for ANC in run-up to 2024 South African election
-Title: Police officer stoned to death after rescuing FGM survivors in Kenya
-Title: Rwandan politician who criticised Sunak’s bill fears for her safety
+Title: Questions over DRC election remain as voting is extended into second day
+Title: Two Guinean children abandoned in Bogotá airport as migrant routes shift
+Title: Calls grow for Liberia prison reform after more than 200 inmates protest
+Title: Isabel dos Santos has £580m of assets frozen by UK high court
+Title: Presidential candidates call for rerun of election in Democratic Republic of Congo
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-821502
+822418
 $ date -u +%s
-1702754376
+1703263659
