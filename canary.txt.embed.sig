@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETi2h5qvS+S1FkWgeH5R2H5jF5H3mZcLCyJZvt0ZQqtePurFKX1Z/zkuhzXYv7MVPPioHTki06vA42GEOT/unDgA=
+RWQ6KRormNEETt1qhTJrHvH16loeWunr4WMycSKtCCZIk2mpvmY4UBV+/GogO+pR/cI1TjF1D6xZPEXeKJKOxV+1jozos5ffYAQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 22 Dec 2023 16:47:29 +0000
+Mon, 25 Dec 2023 20:39:27 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Gaza Conundrum: The Story Behind the Rise of Hamas
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Prague gunman killed himself on roof as police approached
-Title: Stunned Prague students mourn and no-one mentions killer
-Title: Plane grounded in France over human trafficking fears
-Title: China: Outrage over doctor punching patient during surgery
-Title: Sudan war: General Burhan blames fall of Wad Madani on 'negligence'
+Title: Israel-Gaza war: Netanyahu vows to intensify campaign
+Title: Israeli strike in Syria kills Iranian commander, Iran says
+Title: Pope: Free Israeli hostages and end the Gaza war
+Title: Plane held over trafficking fears leaves France
+Title: Ukraine war: The frontline city Russia could seize again
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Attack by rebels in western Burundi leaves 20 dead
+Title: US and Somali forces kill al-Shabaab commander with $10m bounty on head
 Title: Questions over DRC election remain as voting is extended into second day
 Title: Two Guinean children abandoned in Bogotá airport as migrant routes shift
 Title: Calls grow for Liberia prison reform after more than 200 inmates protest
-Title: Isabel dos Santos has £580m of assets frozen by UK high court
-Title: Presidential candidates call for rerun of election in Democratic Republic of Congo
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-822418
+822927
 $ date -u +%s
-1703263659
+1703536780
