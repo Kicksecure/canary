@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETt1qhTJrHvH16loeWunr4WMycSKtCCZIk2mpvmY4UBV+/GogO+pR/cI1TjF1D6xZPEXeKJKOxV+1jozos5ffYAQ=
+RWQ6KRormNEETnBtUv56QWSj2A9Ym7LQshFhUyxW2HEaUfkjyt8G4iBkxF6BfSk/4aLChh6j9oybk9jKjIaXfJY/AppmCi1wngk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 25 Dec 2023 20:39:27 +0000
+Tue, 26 Dec 2023 23:11:51 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: A Gaza Conundrum: The Story Behind the Rise of Hamas
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel-Gaza war: Netanyahu vows to intensify campaign
-Title: Israeli strike in Syria kills Iranian commander, Iran says
-Title: Pope: Free Israeli hostages and end the Gaza war
-Title: Plane held over trafficking fears leaves France
-Title: Ukraine war: The frontline city Russia could seize again
+Title: Russia confirms damage to warship in Black Sea
+Title: Alexei Navalny: 'Don't worry about me!' Putin critic says from Arctic prison
+Title: Israel-Gaza war will continue for months, IDF chief warns
+Title: 'Godfather' of avocado toast chef Bill Granger dies, aged 54
+Title: US hits Iran-backed militias in Iraq after attack
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: At least 160 dead and 300 wounded after attacks by armed gangs in Nigeria
 Title: Attack by rebels in western Burundi leaves 20 dead
 Title: US and Somali forces kill al-Shabaab commander with $10m bounty on head
 Title: Questions over DRC election remain as voting is extended into second day
 Title: Two Guinean children abandoned in Bogotá airport as migrant routes shift
-Title: Calls grow for Liberia prison reform after more than 200 inmates protest
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-822927
+823071
 $ date -u +%s
-1703536780
+1703632345
