@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnBtUv56QWSj2A9Ym7LQshFhUyxW2HEaUfkjyt8G4iBkxF6BfSk/4aLChh6j9oybk9jKjIaXfJY/AppmCi1wngk=
+RWQ6KRormNEETpCq3gzWxoBCq1t0D8LAs1K3gakJiIhNXnB4PmUtgAN/V191u7jFsX2L7FkVS2Fu7EHvBnTGZ2EycS8ZZagu9go=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 26 Dec 2023 23:11:51 +0000
+Thu, 11 Jan 2024 09:45:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A Gaza Conundrum: The Story Behind the Rise of Hamas
-Title: Espionage from the East: "Russia Is a Storm, China Is Climate Change"
-Title: Hamas in Germany: Arrests Suggest Terrorist Organization Is Operating in Europe
-Title: Keeping Migrants at Bay: How a Brutal Militia Became Europe's New Henchmen
-Title: Russia: The Discontent of Soldiers' Wives Is Growing
+Title: Açaí Berry Harvest: The Child Laborers behind the Trendy Superfood
+Title: Germany's Role in the Middle East: Foreign Minister Baerbock Sees an Opening for Mediation
+Title: Assaults, Harassment and Beatings: Does the EU Share Blame for Police Violence in Tunisia?
+Title: Interview with Weight Loss Drugs Inventor Lotte Bjerre Knudsen
+Title: A Model Ignored: Uncertain Future for Successful Austrian Employment Program
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Russia confirms damage to warship in Black Sea
-Title: Alexei Navalny: 'Don't worry about me!' Putin critic says from Arctic prison
-Title: Israel-Gaza war will continue for months, IDF chief warns
-Title: 'Godfather' of avocado toast chef Bill Granger dies, aged 54
-Title: US hits Iran-backed militias in Iraq after attack
+Title: UN court hears South Africa genocide case against Israel
+Title: Haley and DeSantis trade insults at heated Iowa debate
+Title: Chris Christie exits 2024 White House race with parting shot at Trump
+Title: Former England boss Sven-Goran Eriksson diagnosed with terminal cancer
+Title: US and UK hint at military action after largest Houthi attack in Red Sea
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: At least 160 dead and 300 wounded after attacks by armed gangs in Nigeria
-Title: Attack by rebels in western Burundi leaves 20 dead
-Title: US and Somali forces kill al-Shabaab commander with $10m bounty on head
-Title: Questions over DRC election remain as voting is extended into second day
-Title: Two Guinean children abandoned in Bogotá airport as migrant routes shift
+Title: Hearings to begin at The Hague in case claiming Israel’s Gaza war is genocide
+Title: Somalian rebels kill one and abduct five after UN helicopter’s emergency landing
+Title: Police on alert for potential violence at Eritrean festival in Melbourne
+Title: Labour to table vote calling for release of Rwanda deportation plan documents
+Title: Fashion firms agree to compensate garment workers in Mauritius
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-823071
+825278
 $ date -u +%s
-1703632345
+1704966329
