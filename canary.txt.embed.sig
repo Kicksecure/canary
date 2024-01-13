@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETpCq3gzWxoBCq1t0D8LAs1K3gakJiIhNXnB4PmUtgAN/V191u7jFsX2L7FkVS2Fu7EHvBnTGZ2EycS8ZZagu9go=
+RWQ6KRormNEETuLjrLxU9g6617cEpucxvqRu4jwzHjoF84ci6hwQhV56fh9xi3N00GoQ8M0b3ncQyXcMK+Yg+z2TupScZEoPKAs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 11 Jan 2024 09:45:18 +0000
+Sat, 13 Jan 2024 04:48:13 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Esther Horvath: Photos of Women Researchers at the Edge of the Earth
 Title: Açaí Berry Harvest: The Child Laborers behind the Trendy Superfood
 Title: Germany's Role in the Middle East: Foreign Minister Baerbock Sees an Opening for Mediation
 Title: Assaults, Harassment and Beatings: Does the EU Share Blame for Police Violence in Tunisia?
 Title: Interview with Weight Loss Drugs Inventor Lotte Bjerre Knudsen
-Title: A Model Ignored: Uncertain Future for Successful Austrian Employment Program
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: UN court hears South Africa genocide case against Israel
-Title: Haley and DeSantis trade insults at heated Iowa debate
-Title: Chris Christie exits 2024 White House race with parting shot at Trump
-Title: Former England boss Sven-Goran Eriksson diagnosed with terminal cancer
-Title: US and UK hint at military action after largest Houthi attack in Red Sea
+Title: Strikes on Houthi targets in Yemen show war in Gaza has already spread
+Title: What we know about strikes on Houthis and strategy behind them
+Title: South Africa's genocide case against Israel: Both sides play heavy on emotion in ICJ hearing
+Title: Ecuador violence affects whole world, president tells BBC
+Title: Gabriel Attal: Youngest French PM hopes to revive Macron's government
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Hearings to begin at The Hague in case claiming Israel’s Gaza war is genocide
-Title: Somalian rebels kill one and abduct five after UN helicopter’s emergency landing
-Title: Police on alert for potential violence at Eritrean festival in Melbourne
-Title: Labour to table vote calling for release of Rwanda deportation plan documents
-Title: Fashion firms agree to compensate garment workers in Mauritius
+Title: Cholera cases soar globally amid shortage of vaccines
+Title: Israel accuses South Africa of ‘profound distortion’ at ICJ genocide hearing
+Title: Cape Verde becomes fourth African country to eliminate malaria
+Title: UK government admits Rwanda has ‘issues with its human rights record’
+Title: Human rights in decline globally as leaders fail to uphold laws, report warns
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-825278
+825575
 $ date -u +%s
-1704966329
+1705121298
