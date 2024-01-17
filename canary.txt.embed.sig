@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuLjrLxU9g6617cEpucxvqRu4jwzHjoF84ci6hwQhV56fh9xi3N00GoQ8M0b3ncQyXcMK+Yg+z2TupScZEoPKAs=
+RWQ6KRormNEETjUdwaPlAv93SaJSdImv2TQ8r1YRib47qkSYP9AGyvj9J+d70qXA1Wgz9robK9GulVPuxywTfJAX7fmxixrAugw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 13 Jan 2024 04:48:13 +0000
+Wed, 17 Jan 2024 06:16:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: South Tyrol A Model for Europe? The Rise of Post-Fascists in Northern Italy
 Title: Esther Horvath: Photos of Women Researchers at the Edge of the Earth
 Title: Açaí Berry Harvest: The Child Laborers behind the Trendy Superfood
 Title: Germany's Role in the Middle East: Foreign Minister Baerbock Sees an Opening for Mediation
 Title: Assaults, Harassment and Beatings: Does the EU Share Blame for Police Violence in Tunisia?
-Title: Interview with Weight Loss Drugs Inventor Lotte Bjerre Knudsen
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Strikes on Houthi targets in Yemen show war in Gaza has already spread
-Title: What we know about strikes on Houthis and strategy behind them
-Title: South Africa's genocide case against Israel: Both sides play heavy on emotion in ICJ hearing
-Title: Ecuador violence affects whole world, president tells BBC
-Title: Gabriel Attal: Youngest French PM hopes to revive Macron's government
+Title: FBI investigate after ex-Abercrombie boss sex claims
+Title: E Jean Carroll faces off with Trump as $10m defamation trial begins
+Title: Diddy and drinks giant Diageo settle dispute over tequila
+Title: Australia floods: Deadly fire ants form 'flood rafts' to spread
+Title: Karim Benzema files defamation suit against French interior minister
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Cholera cases soar globally amid shortage of vaccines
-Title: Israel accuses South Africa of ‘profound distortion’ at ICJ genocide hearing
-Title: Cape Verde becomes fourth African country to eliminate malaria
-Title: UK government admits Rwanda has ‘issues with its human rights record’
-Title: Human rights in decline globally as leaders fail to uphold laws, report warns
+Title: Suspected Kenyan cult leader to be charged with terrorism after 400 deaths
+Title: Boris Johnson backs Tory rebels over Rwanda bill
+Title: Major human rights violations at Del Monte farm in Kenya, report finds
+Title: ‘No gree for anybody’ slang could be message of rebellion, Nigerian police claim
+Title: Up to 70 Tory rebels could abstain or back amendments to Rwanda bill
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-825575
+826098
 $ date -u +%s
-1705121298
+1705472226
