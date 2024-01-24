@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETjUdwaPlAv93SaJSdImv2TQ8r1YRib47qkSYP9AGyvj9J+d70qXA1Wgz9robK9GulVPuxywTfJAX7fmxixrAugw=
+RWQ6KRormNEETnMMFs872D/pX93Wrkj2zqVzEfKlHLY3PAKSIWQpIpYSX3SCdreA0mxAL12mp2ludy33zpaws9naz/aSeCipsAk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 17 Jan 2024 06:16:56 +0000
+Wed, 24 Jan 2024 11:40:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Former Israeli Prime Minister Ehud Olmert: "What Caused the Terrorist Attacks Was Arrogance"
+Title: Spiral of Vengeance: The Gathering Storm Clouds in the Middle East
+Title: Hamas Attack on the Nova Festival: Trance Party Survivors Seek to Overcome the Trauma
+Title: Mine Clearing in Ukraine: "Dead Soldiers Lay Everywhere in the Fields, Ours and Russian"
 Title: South Tyrol A Model for Europe? The Rise of Post-Fascists in Northern Italy
-Title: Esther Horvath: Photos of Women Researchers at the Edge of the Earth
-Title: Açaí Berry Harvest: The Child Laborers behind the Trendy Superfood
-Title: Germany's Role in the Middle East: Foreign Minister Baerbock Sees an Opening for Mediation
-Title: Assaults, Harassment and Beatings: Does the EU Share Blame for Police Violence in Tunisia?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: FBI investigate after ex-Abercrombie boss sex claims
-Title: E Jean Carroll faces off with Trump as $10m defamation trial begins
-Title: Diddy and drinks giant Diageo settle dispute over tequila
-Title: Australia floods: Deadly fire ants form 'flood rafts' to spread
-Title: Karim Benzema files defamation suit against French interior minister
+Title: Russian jet crashes carrying Ukrainian PoWs - Moscow
+Title: New Hampshire primary: Nikki Haley vows to fight on after second loss to Trump
+Title: New Hampshire primary: How did Joe Biden win despite not being on the ballot?
+Title: US strikes Iran-backed militia in Iraq
+Title: Turkey parliament backs Sweden's Nato membership
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Suspected Kenyan cult leader to be charged with terrorism after 400 deaths
-Title: Boris Johnson backs Tory rebels over Rwanda bill
-Title: Major human rights violations at Del Monte farm in Kenya, report finds
-Title: ‘No gree for anybody’ slang could be message of rebellion, Nigerian police claim
-Title: Up to 70 Tory rebels could abstain or back amendments to Rwanda bill
+Title: Just two northern white rhinos remain. The species’ first IVF pregnancy could save them from extinction
+Title: South African man confesses starting fire which killed 76 to conceal murder
+Title: Kenya death cult leader charged after hundreds found dead in forest
+Title: Liberia’s president ‘OK’ after heat curtails inauguration ceremony
+Title: World first: malaria vaccine rollout begins in Cameroon
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-826098
+827132
 $ date -u +%s
-1705472226
+1706096453
