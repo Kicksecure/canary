@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 24 Jan 2024 11:40:38 +0000
+Fri, 02 Feb 2024 13:33:54 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Haunted House on the Thames: Behind the Scenes in the House of Lords
+Title: Can the German People Stop the AfD's Far-Right Rise?
+Title: "Reason of State": The True Story Behind Merkel's Promise to Israel
 Title: Former Israeli Prime Minister Ehud Olmert: "What Caused the Terrorist Attacks Was Arrogance"
 Title: Spiral of Vengeance: The Gathering Storm Clouds in the Middle East
-Title: Hamas Attack on the Nova Festival: Trance Party Survivors Seek to Overcome the Trauma
-Title: Mine Clearing in Ukraine: "Dead Soldiers Lay Everywhere in the Fields, Ours and Russian"
-Title: South Tyrol A Model for Europe? The Rise of Post-Fascists in Northern Italy
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Russian jet crashes carrying Ukrainian PoWs - Moscow
-Title: New Hampshire primary: Nikki Haley vows to fight on after second loss to Trump
-Title: New Hampshire primary: How did Joe Biden win despite not being on the ballot?
-Title: US strikes Iran-backed militia in Iraq
-Title: Turkey parliament backs Sweden's Nato membership
+Title: Nairobi fire: Gas blast in Kenyan capital kills three and injures nearly 300
+Title: Western officials in protest over Israel Gaza policy
+Title: Joshua Schulte: Former CIA hacker sentenced to 40 years in prison
+Title: Bao Fan: Missing China billionaire banker resigns from all roles
+Title: Malaysia halves ex-PM Najib Razak's jail term over 1MDB scandal
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Just two northern white rhinos remain. The species’ first IVF pregnancy could save them from extinction
-Title: South African man confesses starting fire which killed 76 to conceal murder
-Title: Kenya death cult leader charged after hundreds found dead in forest
-Title: Liberia’s president ‘OK’ after heat curtails inauguration ceremony
-Title: World first: malaria vaccine rollout begins in Cameroon
+Title: Kenya gas explosion kills at least three and injures hundreds
+Title: Three girls die after FGM rituals in Sierra Leone
+Title: UK manufacturers hit by Red Sea disruption and rising shipping costs
+Title: Number of people arriving by boat in Canaries from west Africa jumps 1,000%
+Title: Refugee files complaint to UN against Spain over 2014 border deaths
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-827132
+828562
 $ date -u +%s
-1706096453
+1706880879
