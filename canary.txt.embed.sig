@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnIzQavhwvq1s9GMmBlyjeKo8Kg9h4DDnGx5bujd0gA35vSP2X4zjG4C3kvm837WREwbTi58T4WbBmQ+LNbJiAc=
+RWQ6KRormNEETrFJTV8ddHm9aLhAx8ONUjThy95QZhzWcTeP5U7d4wnbGk/s+XlV/Cs6tjhC0DGQFw7Ep7BwBqIQof1UbmNIsQE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 02 Feb 2024 13:33:54 +0000
+Sun, 04 Feb 2024 18:36:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Haunted House on the Thames: Behind the Scenes in the House of Lords
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Nairobi fire: Gas blast in Kenyan capital kills three and injures nearly 300
-Title: Western officials in protest over Israel Gaza policy
-Title: Joshua Schulte: Former CIA hacker sentenced to 40 years in prison
-Title: Bao Fan: Missing China billionaire banker resigns from all roles
-Title: Malaysia halves ex-PM Najib Razak's jail term over 1MDB scandal
+Title: Iran says Syria and Iraq strikes are 'strategic mistake'
+Title: Chile forest fires: At least 64 dead in Valparaíso region
+Title: Iceland volcano: Grindavik's people may never return after volcano spills lava into town
+Title: US elections: Biden wins South Carolina Democratic primary
+Title: Ukraine war: No more easy deals for Russian convicts freed to fight
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Hage Geingob, Namibia’s president, dies aged 82 after cancer treatment
+Title: Senegal president postpones election hours before official campaign start
 Title: Kenya gas explosion kills at least three and injures hundreds
-Title: Three girls die after FGM rituals in Sierra Leone
-Title: UK manufacturers hit by Red Sea disruption and rising shipping costs
-Title: Number of people arriving by boat in Canaries from west Africa jumps 1,000%
-Title: Refugee files complaint to UN against Spain over 2014 border deaths
+Title: Nigerian traditional monarch shot dead and wife kidnapped from palace
+Title: DRC’s worst floods in decades leave tens of thousands in temporary shelter
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-828562
+828924
 $ date -u +%s
-1706880879
+1707071785
