@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrFJTV8ddHm9aLhAx8ONUjThy95QZhzWcTeP5U7d4wnbGk/s+XlV/Cs6tjhC0DGQFw7Ep7BwBqIQof1UbmNIsQE=
+RWQ6KRormNEETiX0sNCXkejnx1fSb+iFeMp9JhM+jv+aIJVTKYXYcplSLSiNkUoLbEbqddE3xI3aomFsCx3LXzCjd9iED7XTgA8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 04 Feb 2024 18:36:16 +0000
+Fri, 16 Feb 2024 14:03:33 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Haunted House on the Thames: Behind the Scenes in the House of Lords
-Title: Can the German People Stop the AfD's Far-Right Rise?
-Title: "Reason of State": The True Story Behind Merkel's Promise to Israel
-Title: Former Israeli Prime Minister Ehud Olmert: "What Caused the Terrorist Attacks Was Arrogance"
-Title: Spiral of Vengeance: The Gathering Storm Clouds in the Middle East
+Title: Does Russian Billionaire Arkady Volozh Really Belong on the EU Sanctions List?
+Title: Right-Wing Extremism: German Identitarians Are Trying to Make a Comeback
+Title: A Paradigm Shift in Social Policy: How Finland Conquered Homelessness
+Title: Ammunition Shortages: German Chancellor Pledges To Boost Production for Ukraine
+Title: Hamas Hostage Chen Goldstein-Almog on Her Time in Gaza: "Crying Was Forbidden"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iran says Syria and Iraq strikes are 'strategic mistake'
-Title: Chile forest fires: At least 64 dead in Valparaíso region
-Title: Iceland volcano: Grindavik's people may never return after volcano spills lava into town
-Title: US elections: Biden wins South Carolina Democratic primary
-Title: Ukraine war: No more easy deals for Russian convicts freed to fight
+Title: Jailed Russian opposition politician Alexei Navalny dead, says prison service
+Title: Alexei Navalny jokes in January video from penal colony
+Title: Hero rescuer abused North Korea teenagers he saved
+Title: US warns key Ukrainian town could fall to Russia
+Title: Greece legalises same-sex marriage
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Hage Geingob, Namibia’s president, dies aged 82 after cancer treatment
-Title: Senegal president postpones election hours before official campaign start
-Title: Kenya gas explosion kills at least three and injures hundreds
-Title: Nigerian traditional monarch shot dead and wife kidnapped from palace
-Title: DRC’s worst floods in decades leave tens of thousands in temporary shelter
+Title: Houthi attacks in Red Sea having a ‘catastrophic’ effect on aid to Sudan
+Title: Death toll rises to seven in Malawi elephant relocation project linked to Prince Harry NGO
+Title: Ill-judged tree planting in Africa threatens ecosystems, scientists warn
+Title: NHS nurses being investigated for ‘industrial-scale’ qualifications fraud
+Title: Sculpture of colonial officer’s ‘angry spirit’ returns to DRC as Dutch urge reckoning
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-828924
+830722
 $ date -u +%s
-1707071785
+1708092223
