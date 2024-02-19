@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 16 Feb 2024 14:03:33 +0000
+Mon, 19 Feb 2024 17:27:12 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: MLS: Is Lionel Messi the Turning Point for American Soccer?
+Title: Trump's Threat: How Prepared Is the German Defense Industry
+Title: Good Morning Europe!: Trump's NATO Comments Trigger Defense Debate in Europe
 Title: Does Russian Billionaire Arkady Volozh Really Belong on the EU Sanctions List?
 Title: Right-Wing Extremism: German Identitarians Are Trying to Make a Comeback
-Title: A Paradigm Shift in Social Policy: How Finland Conquered Homelessness
-Title: Ammunition Shortages: German Chancellor Pledges To Boost Production for Ukraine
-Title: Hamas Hostage Chen Goldstein-Almog on Her Time in Gaza: "Crying Was Forbidden"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jailed Russian opposition politician Alexei Navalny dead, says prison service
-Title: Alexei Navalny jokes in January video from penal colony
-Title: Hero rescuer abused North Korea teenagers he saved
-Title: US warns key Ukrainian town could fall to Russia
-Title: Greece legalises same-sex marriage
+Title: Alexei Navalny's widow vows to continue his work in fight for 'free Russia'
+Title: Navalny's 'principled and fearless' widow
+Title: Israel's Rafah deadline raises stakes as Ramadan approaches
+Title: Israel indicates deadline for offensive in Rafah
+Title: ‘Without painkillers, we leave patients to scream for hours’
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Houthi attacks in Red Sea having a ‘catastrophic’ effect on aid to Sudan
-Title: Death toll rises to seven in Malawi elephant relocation project linked to Prince Harry NGO
-Title: Ill-judged tree planting in Africa threatens ecosystems, scientists warn
-Title: NHS nurses being investigated for ‘industrial-scale’ qualifications fraud
-Title: Sculpture of colonial officer’s ‘angry spirit’ returns to DRC as Dutch urge reckoning
+Title: Westminster Abbey agrees ‘in principle’ to return sacred tablet to Ethiopia
+Title: Anglo American’s platinum arm to cut 3,700 jobs as metal’s price dives
+Title: France should return much more looted African art, film-maker says
+Title: Desperate Egypt sells off historic hotels as it dives deeper into debt
+Title: Sudan armed forces advance in Omdurman for first time since start of war
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-830722
+831149
 $ date -u +%s
-1708092223
+1708363645
