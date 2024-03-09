@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETjUKLrXz+wubXw5wLTokufeRz6kSRdFCh8PQjNBsY/hLw3NaJTLLSwEzck3NN+VrEiSgd29mOMiHJAAlom8aagc=
+RWQ6KRormNEETja+QwAZTuPUNTWGC+R2t99di1vpCH95e+QmBU31XS6uYg0NhRi5L6f7/U6PzEe2Jttp5DAiCbhgtKBHoM67KwY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 09 Mar 2024 11:17:33 +0000
+Sat, 09 Mar 2024 14:15:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Jan Marsalek an Agent for Russia? The Double Life of the former Wirecard Executive
@@ -63,11 +63,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: Sweden and Canada resume aid to UN Gaza agency
+Title: At least 28 Nigerian schoolchildren escape captors
 Title: Gaza aid ship expected to set sail from Cyprus
 Title: US lawmakers vote to avert government shutdown
 Title: The sisters defying the Taliban by singing
-Title: I was cyberbullied while pregnant, says Meghan
-Title: Tear gas and surveillance on the coast as Channel migrant deaths rise
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Nigeria sends troops to rescue more than 250 kidnapped schoolchildren
@@ -77,6 +77,6 @@ Title: US denies visa to Ugandan MP who called for homosexual castration
 Title: Gaza ceasefire talks appear to stall days before Ramadan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-833887
+833910
 $ date -u +%s
-1709983064
+1709993757
