@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgAtbFekadwuSxhQWknj2hBljkl+yo6TrL+SMISNSQ/c0exikaIi29BR9+hzq+1TJpWB3W92ze/rIcX7a7/pFwQ=
+RWQ6KRormNEETjUKLrXz+wubXw5wLTokufeRz6kSRdFCh8PQjNBsY/hLw3NaJTLLSwEzck3NN+VrEiSgd29mOMiHJAAlom8aagc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 06 Mar 2024 13:45:56 +0000
+Sat, 09 Mar 2024 11:17:33 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Jan Marsalek an Agent for Russia? The Double Life of the former Wirecard Executive
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Haley to drop out of presidential race, setting up Biden-Trump rematch
-Title: Haiti gangs threaten 'civil war' as unrest spreads
-Title: Navalny's widow urges Russians to protest on election day
-Title: 'My son Ali has already died': Father's plea for Gaza's starving children
-Title: Cameron to warn Israel minister over Gaza aid
+Title: Gaza aid ship expected to set sail from Cyprus
+Title: US lawmakers vote to avert government shutdown
+Title: The sisters defying the Taliban by singing
+Title: I was cyberbullied while pregnant, says Meghan
+Title: Tear gas and surveillance on the coast as Channel migrant deaths rise
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Nigeria sends troops to rescue more than 250 kidnapped schoolchildren
+Title: Dramatic rise in women and girls being cut, new FGM data reveals
+Title: At least 287 Nigerian children abducted from school by gunmen, say authorities
 Title: US denies visa to Ugandan MP who called for homosexual castration
 Title: Gaza ceasefire talks appear to stall days before Ramadan
-Title: Lords pass five amendments to Rwanda bill in heavy defeat for Rishi Sunak
-Title: Scientists unearth mysteries of giant, moving Moroccan star dune
-Title: About 170 people ‘executed’ in Burkina Faso village attacks, official says
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-833409
+833887
 $ date -u +%s
-1709732770
+1709983064
