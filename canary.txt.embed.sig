@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETja+QwAZTuPUNTWGC+R2t99di1vpCH95e+QmBU31XS6uYg0NhRi5L6f7/U6PzEe2Jttp5DAiCbhgtKBHoM67KwY=
+RWQ6KRormNEETkEYT4N7+qVG5Ye9B+fNJKC8UNP9Gy4jBeNiymQSrMqUDleKVApq9M1698iJX58h5VLC8wONKr72wuYOzSwzXQ4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 09 Mar 2024 14:15:47 +0000
+Tue, 12 Mar 2024 15:12:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Jan Marsalek an Agent for Russia? The Double Life of the former Wirecard Executive
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Sweden and Canada resume aid to UN Gaza agency
-Title: At least 28 Nigerian schoolchildren escape captors
-Title: Gaza aid ship expected to set sail from Cyprus
-Title: US lawmakers vote to avert government shutdown
-Title: The sisters defying the Taliban by singing
+Title: Gaza medics tell BBC that Israeli troops beat and humiliated them
+Title: Ukraine-based groups claim raids into Russia
+Title: Andrew Tate arrested in Romania on UK warrant
+Title: Robert Hur facing questions over Biden classified files report
+Title: The rise and fall of Haiti's Ariel Henry
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Search continues for hundreds of kidnapped Nigerian schoolchildren
+Title: Eight children and an adult die in Zanzibar after eating sea turtle meat
+Title: Nigeria: 15 children kidnapped in another school raid
 Title: Nigeria sends troops to rescue more than 250 kidnapped schoolchildren
 Title: Dramatic rise in women and girls being cut, new FGM data reveals
-Title: At least 287 Nigerian children abducted from school by gunmen, say authorities
-Title: US denies visa to Ugandan MP who called for homosexual castration
-Title: Gaza ceasefire talks appear to stall days before Ramadan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-833910
+834373
 $ date -u +%s
-1709993757
+1710256368
