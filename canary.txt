@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 12 Mar 2024 15:12:37 +0000
+Mon, 18 Mar 2024 15:31:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Election Farce in Russia: Putin's Elaborate Effort To Make His Re-Election Look Legitimate
+Title: Language Tests and Deportations: Latvia Tightens the Screws on Its Russian Minority
+Title: Enemy and Helper: Is Hamas Exploiting the UN's Palestinian Relief Organization?
+Title: Filling the Gap: Germany Seeks to Ramp Up Skilled Labor Migration from Kenya
 Title: Jan Marsalek an Agent for Russia? The Double Life of the former Wirecard Executive
-Title: The Russian Invasion - A Visit to the Ukrainian Troops in the Trenches on the Front
-Title: The Marseille Experiment: Macron Attempts to Save a City Rocked by Drug Violence
-Title: How Vladimir Putin Controls the Russians: Everyday Repression and Resignation
-Title: A Visit to the Swamp: The Town Made Famous by Neo-Nazi Students
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gaza medics tell BBC that Israeli troops beat and humiliated them
-Title: Ukraine-based groups claim raids into Russia
-Title: Andrew Tate arrested in Romania on UK warrant
-Title: Robert Hur facing questions over Biden classified files report
-Title: The rise and fall of Haiti's Ariel Henry
+Title: West condemns Russian election but China and India back Putin's win
+Title: Predicting Putin's landslide was easy, but what comes next?
+Title: Israel takes control of Gaza hospital as UN warns of famine
+Title: Foreign students attacked in India over Ramadan prayers
+Title: Teens detained in China over classmate's death
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Search continues for hundreds of kidnapped Nigerian schoolchildren
-Title: Eight children and an adult die in Zanzibar after eating sea turtle meat
-Title: Nigeria: 15 children kidnapped in another school raid
-Title: Nigeria sends troops to rescue more than 250 kidnapped schoolchildren
-Title: Dramatic rise in women and girls being cut, new FGM data reveals
+Title: Libya coastguard accused of hampering attempt to save more than 170 people
+Title: Idris Elba reveals ‘dream’ of building eco city on island off Sierra Leone
+Title: Weather tracker: cyclone warning in Australia while Finland freezes in -16C lows
+Title: South Sudan closes schools in preparation for 45C heatwave
+Title: EU seals €7.4bn deal with Egypt in effort to avert another migration crisis
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-834373
+835244
 $ date -u +%s
-1710256368
+1710775887
