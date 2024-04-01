@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkvMpMeat1T09Ww3aXS8iTmvbbSKlb/LdZQjeEXpXxNxz9EGE+G+00T8z0kPyyTzFNzdOhz/ymOFYdmcUAw9OgQ=
+RWQ6KRormNEETnaB8UAWTvd0riZze/yaXYnPCX1vgA/YbpoBJGrctMjTQUwyQSEtFhzvTIUZnDKj4zOui0jCXb3hO9yp2BcjNAE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 20 Mar 2024 16:22:48 +0000
+Mon, 01 Apr 2024 06:43:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Electric Shock: An Existential Crisis in the German Auto Industry
+Title: Iraqi Marshlands Under Threat: The Garden of Eden Dries Up
 Title: Sri Lanka: Dhanush, Udeni and the State Bankruptcy
 Title: Israel Six Months Later: The Wrenching Decision to Return to the Site of Horror
 Title: The Election Farce in Russia: Putin's Elaborate Effort To Make His Re-Election Look Legitimate
-Title: Language Tests and Deportations: Latvia Tightens the Screws on Its Russian Minority
-Title: Enemy and Helper: Is Hamas Exploiting the UN's Palestinian Relief Organization?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Famine looms in Sudan as civil war survivors tell of killings and rapes
-Title: US court blocks strict new immigration law in Texas
-Title: HK security law is final nail in coffin, say critics
-Title: MacKenzie Scott donates $640m to US non-profits
-Title: Eight dead as tanker capsizes off Japan coast
+Title: Anti-Netanyahu protesters bring political splits back on show
+Title: Israeli troops pull out of Gaza hospital - witnesses
+Title: Turkish opposition stuns Erdogan with local elections win
+Title: Barrage of Russian attacks aims to cut Ukraine's lights
+Title: Is my family still alive? The daily question for Haitians
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Move to overturn FGM ban in the Gambia postponed
-Title: Libya coastguard accused of hampering attempt to save more than 170 people
-Title: Idris Elba reveals ‘dream’ of building eco city on island off Sierra Leone
-Title: Weather tracker: cyclone warning in Australia while Finland freezes in -16C lows
-Title: South Sudan closes schools in preparation for 45C heatwave
+Title: British Museum investigated over Ethiopian artefacts hidden from view for 150 years
+Title: Easter egg prices soar as cocoa crops are hit by climate crisis and exploitation
+Title: Extortionate Easter eggs and shrinking sweets: fears grow of a ‘chocolate meltdown’
+Title: 45 dead as bus plunges from bridge into ravine in South Africa
+Title: ‘Staggering’ rise in women with reproductive health issues near DRC cobalt mines – study
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-835550
+837203
 $ date -u +%s
-1710951777
+1711953815
