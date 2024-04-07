@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 01 Apr 2024 06:43:26 +0000
+Sun, 07 Apr 2024 06:42:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany's Dilemma: Berlin's Support for Israel Is Damaging Its International Standing
+Title: Interview with Former Russian Central Bank Advisor: "It's Time To Slowly Bleed Russia's Economy Dry"
+Title: Cash's Last Stand: Germans Finally Warm to Digital Payments
 Title: Electric Shock: An Existential Crisis in the German Auto Industry
 Title: Iraqi Marshlands Under Threat: The Garden of Eden Dries Up
-Title: Sri Lanka: Dhanush, Udeni and the State Bankruptcy
-Title: Israel Six Months Later: The Wrenching Decision to Return to the Site of Horror
-Title: The Election Farce in Russia: Putin's Elaborate Effort To Make His Re-Election Look Legitimate
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Anti-Netanyahu protesters bring political splits back on show
-Title: Israeli troops pull out of Gaza hospital - witnesses
-Title: Turkish opposition stuns Erdogan with local elections win
-Title: Barrage of Russian attacks aims to cut Ukraine's lights
-Title: Is my family still alive? The daily question for Haitians
+Title: Bowen: Obstacles to peace seem larger than ever
+Title: Thousands of Israelis rally to demand hostage deal
+Title: West faces 'authoritarian' alliance, says Nato head
+Title: Russia-friendly populist elected Slovak president
+Title: Danish hippy commune fights back against drug gangs
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: British Museum investigated over Ethiopian artefacts hidden from view for 150 years
-Title: Easter egg prices soar as cocoa crops are hit by climate crisis and exploitation
-Title: Extortionate Easter eggs and shrinking sweets: fears grow of a ‘chocolate meltdown’
-Title: 45 dead as bus plunges from bridge into ravine in South Africa
-Title: ‘Staggering’ rise in women with reproductive health issues near DRC cobalt mines – study
+Title: Fears of violence grow as Somalia scraps power-sharing system
+Title: Macron to say France and allies could have stopped Rwanda genocide in 1994
+Title: US tourist killed after bull elephant toppled safari vehicle in Zambia
+Title: Elite cyclist to lead London race while living in asylum hotel
+Title: Ex-speaker of South African parliament charged with money laundering and corruption
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-837203
+838086
 $ date -u +%s
-1711953815
+1712472168
