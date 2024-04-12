@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 07 Apr 2024 06:42:37 +0000
+Fri, 12 Apr 2024 07:19:13 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Resurrection of Fire-Ravaged Cathedral Brings France Together in Unexpected Ways
 Title: Germany's Dilemma: Berlin's Support for Israel Is Damaging Its International Standing
 Title: Interview with Former Russian Central Bank Advisor: "It's Time To Slowly Bleed Russia's Economy Dry"
 Title: Cash's Last Stand: Germans Finally Warm to Digital Payments
 Title: Electric Shock: An Existential Crisis in the German Auto Industry
-Title: Iraqi Marshlands Under Threat: The Garden of Eden Dries Up
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Bowen: Obstacles to peace seem larger than ever
-Title: Thousands of Israelis rally to demand hostage deal
-Title: West faces 'authoritarian' alliance, says Nato head
-Title: Russia-friendly populist elected Slovak president
-Title: Danish hippy commune fights back against drug gangs
+Title: US restricts travel for diplomats in Israel
+Title: OJ Simpson: His life and the trial that defined it
+Title: Four-minute showers - a parched Bogota rations water
+Title: Ohtani interpreter charged with stealing over $16m
+Title: Baldur's Gate 3 wins big at Bafta Games Awards
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Fears of violence grow as Somalia scraps power-sharing system
-Title: Macron to say France and allies could have stopped Rwanda genocide in 1994
-Title: US tourist killed after bull elephant toppled safari vehicle in Zambia
-Title: Elite cyclist to lead London race while living in asylum hotel
-Title: Ex-speaker of South African parliament charged with money laundering and corruption
+Title: Malawian journalist arrested over article accusing businessman of corruption
+Title: ‘Right to freedom from torture’: UN experts urge the Gambia not to decriminalise FGM
+Title: Sunak welcomes Kagame to No 10 as Rwanda scheme hits fresh snags
+Title: ‘Hardest Geezer’ Russ Cook enjoys a day off running after epic Africa journey
+Title: Disinformation on cholera led to Mozambique ferry disaster, officials say
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-838086
+838838
 $ date -u +%s
-1712472168
+1712906367
