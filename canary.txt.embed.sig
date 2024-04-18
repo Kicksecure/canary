@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkwwedu3pY95vNaD1sc85H5lCwVvOZH1ct7VgUteszdtAmNKL6kWJN2+74noSO9Hfgbgdma0cjNR4NXQg6vYcA4=
+RWQ6KRormNEETh8FW2dsyvZZiB31wZiPeRm5pHp+Ta9mgSFOxpOeii87mrT3CvrPS9a3eFS6skS6vqp3KxSYtQlZFA29W/OL2AU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 18 Apr 2024 13:38:19 +0000
+Thu, 18 Apr 2024 16:57:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Germany's Chancellor Faces Balancing Act on China Trip
@@ -63,11 +63,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: Dubai airport delays persist after UAE storm
+Title: Second juror excused from Trump trial days after being sworn in
+Title: US and UK extend sanctions against Iran
 Title: Ukraine warns of WW3 ahead of stalled US aid vote
-Title: The West says China makes too much. Its workers disagree
-Title: Germany holds two in suspected Russian attacks plot
-Title: Dubai airport slowly re-opens as rainfall persists
-Title: Deadly Africa heat caused by human-induced warming
+Title: EU proposes UK free movement deal for young people
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: War, grief and hope: the stories behind the World Press Photo award-winners
@@ -77,6 +77,6 @@ Title: Rwandan leader went to Arsenal game as country marked 30 years since geno
 Title: Sunak considering exemptions to Rwanda bill for some Afghans
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-839780
+839808
 $ date -u +%s
-1713447512
+1713459454
