@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 12 Apr 2024 07:19:13 +0000
+Thu, 18 Apr 2024 13:38:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany's Chancellor Faces Balancing Act on China Trip
 Title: The Resurrection of Fire-Ravaged Cathedral Brings France Together in Unexpected Ways
 Title: Germany's Dilemma: Berlin's Support for Israel Is Damaging Its International Standing
 Title: Interview with Former Russian Central Bank Advisor: "It's Time To Slowly Bleed Russia's Economy Dry"
 Title: Cash's Last Stand: Germans Finally Warm to Digital Payments
-Title: Electric Shock: An Existential Crisis in the German Auto Industry
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US restricts travel for diplomats in Israel
-Title: OJ Simpson: His life and the trial that defined it
-Title: Four-minute showers - a parched Bogota rations water
-Title: Ohtani interpreter charged with stealing over $16m
-Title: Baldur's Gate 3 wins big at Bafta Games Awards
+Title: Ukraine warns of WW3 ahead of stalled US aid vote
+Title: The West says China makes too much. Its workers disagree
+Title: Germany holds two in suspected Russian attacks plot
+Title: Dubai airport slowly re-opens as rainfall persists
+Title: Deadly Africa heat caused by human-induced warming
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Malawian journalist arrested over article accusing businessman of corruption
-Title: ‘Right to freedom from torture’: UN experts urge the Gambia not to decriminalise FGM
-Title: Sunak welcomes Kagame to No 10 as Rwanda scheme hits fresh snags
-Title: ‘Hardest Geezer’ Russ Cook enjoys a day off running after epic Africa journey
-Title: Disinformation on cholera led to Mozambique ferry disaster, officials say
+Title: War, grief and hope: the stories behind the World Press Photo award-winners
+Title: New types of mosquito bed nets could cut malaria risk by up to half, trial finds
+Title: Lethal heatwave in Sahel worsened by fossil fuel burning, study finds
+Title: Rwandan leader went to Arsenal game as country marked 30 years since genocide
+Title: Sunak considering exemptions to Rwanda bill for some Afghans
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-838838
+839780
 $ date -u +%s
-1712906367
+1713447512
