@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETh8FW2dsyvZZiB31wZiPeRm5pHp+Ta9mgSFOxpOeii87mrT3CvrPS9a3eFS6skS6vqp3KxSYtQlZFA29W/OL2AU=
+RWQ6KRormNEETjQciQFK4hBumVwtzkt8ClAkcLR0n/HQjEYbT+hjFWnhNC4m4LgD3LJWpxTuLGyCpn+7OmxURU8X6C4BSpQtkQc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 18 Apr 2024 16:57:25 +0000
+Wed, 24 Apr 2024 21:50:58 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The 2024 Social Design Award: Everyone Can Pitch In!
+Title: Social Design Award 2024: Do It Yourself!
+Title: Iran's Conflict with Israel: A Dangerous Spiral of Violence in the Middle East
+Title: Is Germany Complicit in War Against Gaza?
 Title: Germany's Chancellor Faces Balancing Act on China Trip
-Title: The Resurrection of Fire-Ravaged Cathedral Brings France Together in Unexpected Ways
-Title: Germany's Dilemma: Berlin's Support for Israel Is Damaging Its International Standing
-Title: Interview with Former Russian Central Bank Advisor: "It's Time To Slowly Bleed Russia's Economy Dry"
-Title: Cash's Last Stand: Germans Finally Warm to Digital Payments
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Dubai airport delays persist after UAE storm
-Title: Second juror excused from Trump trial days after being sworn in
-Title: US and UK extend sanctions against Iran
-Title: Ukraine warns of WW3 ahead of stalled US aid vote
-Title: EU proposes UK free movement deal for young people
+Title: US to send new Ukraine aid right away, Biden says
+Title: Searching for missing loved ones in Gaza’s mass graves
+Title: Spain's PM halts public duties as wife faces inquiry
+Title: US Speaker calls on Columbia president to resign
+Title: Iranian rapper sentenced to death, says lawyer 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: War, grief and hope: the stories behind the World Press Photo award-winners
-Title: New types of mosquito bed nets could cut malaria risk by up to half, trial finds
-Title: Lethal heatwave in Sahel worsened by fossil fuel burning, study finds
-Title: Rwandan leader went to Arsenal game as country marked 30 years since genocide
-Title: Sunak considering exemptions to Rwanda bill for some Afghans
+Title: Barbados leader halts £3m payout to UK MP for Drax Hall plantation
+Title: UK accused by Amnesty of ‘deliberately destabilising’ human rights globally
+Title: Sudan had largest number of people facing extreme food shortages in 2023, UN report shows
+Title: At least 21 migrants dead after boat capsizes off coast of Djibouti
+Title: Council of Europe human rights watchdog condemns UK’s Rwanda bill
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-839808
+840726
 $ date -u +%s
-1713459454
+1713995462
