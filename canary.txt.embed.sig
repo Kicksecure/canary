@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETjQciQFK4hBumVwtzkt8ClAkcLR0n/HQjEYbT+hjFWnhNC4m4LgD3LJWpxTuLGyCpn+7OmxURU8X6C4BSpQtkQc=
+RWQ6KRormNEEThXdLPuvvIlU3fasf+w6wXGHC1whzSL2Ptn8o/uvzxmAgpWqI38wcdT7dgQaIuUpV+Uj+Qn0Dmx988J8i6MvEQY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 24 Apr 2024 21:50:58 +0000
+Thu, 25 Apr 2024 13:58:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The 2024 Social Design Award: Everyone Can Pitch In!
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US to send new Ukraine aid right away, Biden says
-Title: Searching for missing loved ones in Gaza’s mass graves
-Title: Spain's PM halts public duties as wife faces inquiry
-Title: US Speaker calls on Columbia president to resign
-Title: Iranian rapper sentenced to death, says lawyer 
+Title: Harvey Weinstein's 2020 rape conviction overturned
+Title: Hundreds more arrested across US in Gaza campus protests
+Title: Ukraine uses longer-range US missiles for first time
+Title: 'Stay strong,' parents tell Gaza hostage after video
+Title: Paris's Moulin Rouge loses windmill sails overnight
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Process raw materials in Africa, urges top environmentalist
+Title: Burkina Faso soldiers massacred 223 civilians in one day, finds rights group
+Title: Rwanda flights will deport asylum seekers ‘indefinitely’, says Cleverly
 Title: Barbados leader halts £3m payout to UK MP for Drax Hall plantation
 Title: UK accused by Amnesty of ‘deliberately destabilising’ human rights globally
-Title: Sudan had largest number of people facing extreme food shortages in 2023, UN report shows
-Title: At least 21 migrants dead after boat capsizes off coast of Djibouti
-Title: Council of Europe human rights watchdog condemns UK’s Rwanda bill
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-840726
+840825
 $ date -u +%s
-1713995462
+1714053507
