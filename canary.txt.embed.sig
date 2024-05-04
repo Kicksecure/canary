@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETt8sW2ZxOzszBWIo5EkbLEPSiGfHcYJo5bKaQKYH42wexld5GWsxFuZIzlInLDcXf1WT3Bl2o45HDwlnDYWbyAw=
+RWQ6KRormNEETig0usOqftL/XdpdG51xKTnIktioe6MOpDqxbdkDex/JTdUvGFvmk+72YHyFhsac3uFXAs8z0ORlRqLMluWuogc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 02 May 2024 12:55:33 +0000
+Sat, 04 May 2024 14:06:30 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Alternative for Germany (AfD): How the far-right party became the Long Arm of Russia and China
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Police rip down barricades as they break down Gaza protest in LA
-Title: Israel accused of possible war crime over killing of West Bank boy
-Title: Georgia rocked by clashes over 'Russian-inspired' bill
-Title: Russia using choking agents in Ukraine, US says
-Title: Iran charges journalists after BBC report on teen protester's death
+Title: Gaza ceasefire talks intensify in Cairo
+Title: Palestinian doctor dies in Israeli prison
+Title: Three arrested over Sikh activist's killing in Canada
+Title: Queensland MP says she was drugged and assaulted
+Title: Sweden prepares for Eurovision with heightened security
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Essential supplies running out as RSF paramilitary encircles Darfur’s largest city
-Title: Chagos Islanders fear loss of identity as birth certificates altered to remove disputed homeland
-Title: Kenya floods: tourists evacuated from Maasai Mara after river bursts banks
-Title: Lone children at risk of deportation to Rwanda after being classified as adults, says charity
-Title: Dorset auction house withdraws Egyptian human skulls from sale
+Title: Bomb attacks in Congo kill at least 12 people including children
+Title: Detained asylum seekers given Home Office booklet saying Rwanda is ‘generally safe’
+Title: US confirms Russian forces deployed to same Niger airbase as American troops
+Title: Experts condemn US tobacco firm’s sponsorship of doctor training as ‘grotesque’
+Title: Russian troops enter airbase in Niger where US soldiers are stationed
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-841786
+842063
 $ date -u +%s
-1714654546
+1714831601
