@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETig0usOqftL/XdpdG51xKTnIktioe6MOpDqxbdkDex/JTdUvGFvmk+72YHyFhsac3uFXAs8z0ORlRqLMluWuogc=
+RWQ6KRormNEETh8FbNytaF0sfRVJIcyGdP+mqgxygY0Wl0HB6mArDaMAC67hTJQRkdsk8Lys3gIe0W2FBbEjX4mzkV5Y1bpXXAc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 04 May 2024 14:06:30 +0000
+Fri, 17 May 2024 16:41:55 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: New Hatred for Politicians: Why Are Attacks and Incitement on the Rise in Germany?
+Title: Fish Farming in Iceland: Invasion of the Zombie Salmon
+Title: The Landgrab in Ukraine: Russia Moves to Expropriate Homes in Occupied Regions
 Title: Alternative for Germany (AfD): How the far-right party became the Long Arm of Russia and China
 Title: Still Just a Lightweight: Germany Fails to Gain Traction with Foreign Policy
-Title: The 2024 Social Design Award: Everyone Can Pitch In!
-Title: Social Design Award 2024: Do It Yourself!
-Title: Iran's Conflict with Israel: A Dangerous Spiral of Violence in the Middle East
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gaza ceasefire talks intensify in Cairo
-Title: Palestinian doctor dies in Israeli prison
-Title: Three arrested over Sikh activist's killing in Canada
-Title: Queensland MP says she was drugged and assaulted
-Title: Sweden prepares for Eurovision with heightened security
+Title: Israel's army says three hostages' bodies recovered
+Title: US confirms first aid trucks arrive via Gaza pier
+Title: Golf world No1 charged with assaulting police officer
+Title: Israel accuses South Africa of false claims at ICJ
+Title: Man shot dead after French synagogue set on fire
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Bomb attacks in Congo kill at least 12 people including children
-Title: Detained asylum seekers given Home Office booklet saying Rwanda is ‘generally safe’
-Title: US confirms Russian forces deployed to same Niger airbase as American troops
-Title: Experts condemn US tobacco firm’s sponsorship of doctor training as ‘grotesque’
-Title: Russian troops enter airbase in Niger where US soldiers are stationed
+Title: Binance executive denied bail in Nigeria over money laundering charges
+Title: ‘Bullet wounds are common’: crime rife in DRC’s rebel-besieged city of Goma
+Title: South Africa calls on ICJ to order Israel to end Rafah offensive
+Title: ‘Realities of apartheid’: South African artist wins Deutsche Börse photography prize
+Title: Nigerian activists condemn mass ‘forced marriages’ of 100 girls and young women
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-842063
+843886
 $ date -u +%s
-1714831601
+1715964123
