@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 17 May 2024 16:41:55 +0000
+Thu, 23 May 2024 17:19:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: New Hatred for Politicians: Why Are Attacks and Incitement on the Rise in Germany?
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel's army says three hostages' bodies recovered
-Title: US confirms first aid trucks arrive via Gaza pier
-Title: Golf world No1 charged with assaulting police officer
-Title: Israel accuses South Africa of false claims at ICJ
-Title: Man shot dead after French synagogue set on fire
+Title: China holds military drills around Taiwan as 'strong punishment'
+Title: Rosenberg: Putin's military purge echoes Prigozhin's call to act
+Title: Child among at least nine dead at Mexico election rally
+Title: Toddler among 40 in hospital after turbulence flight
+Title: Unprecedented insurrection in New Caledonia - Macron
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Binance executive denied bail in Nigeria over money laundering charges
-Title: ‘Bullet wounds are common’: crime rife in DRC’s rebel-besieged city of Goma
-Title: South Africa calls on ICJ to order Israel to end Rafah offensive
-Title: ‘Realities of apartheid’: South African artist wins Deutsche Börse photography prize
-Title: Nigerian activists condemn mass ‘forced marriages’ of 100 girls and young women
+Title: Attacks on health workers in conflict zones at highest level ever – report
+Title: Kenyan special forces police to arrive in Haiti to help combat gang violence
+Title: Charges dropped against nine Egyptians over 2023 migrant shipwreck off Greece
+Title: Mediterranean migrant boat disaster: men on trial are ‘scapegoats’, say lawyers
+Title: Jacob Zuma not eligible to run for South African parliament, court rules
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-843886
+844772
 $ date -u +%s
-1715964123
+1716484760
