@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETiesurHFBwhWG1MrVy0ObU9n8cJSv2kQE34lolHP29zBSyWnPreLs9CnfrPb1Olvk1aOvhcXqmsZI0z82+EQxAw=
+RWQ6KRormNEETiZm1h3GW2GTyjHO1orPtxzPzfSIKxblSetEK/+3y3ZySCi+kXu0/MRowrmwbf/NXG8M1K+FocBYhHzzPP8VQwQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 23 May 2024 17:19:06 +0000
+Tue, 28 May 2024 12:44:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: New Hatred for Politicians: Why Are Attacks and Incitement on the Rise in Germany?
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: China holds military drills around Taiwan as 'strong punishment'
-Title: Rosenberg: Putin's military purge echoes Prigozhin's call to act
-Title: Child among at least nine dead at Mexico election rally
-Title: Toddler among 40 in hospital after turbulence flight
-Title: Unprecedented insurrection in New Caledonia - Macron
+Title: Jeremy Bowen: Ukraine faces its worst crisis since the war began
+Title: Israeli tanks in the heart of Rafah amid intense shelling of city
+Title: Luxury perfumes linked to child labour, BBC finds
+Title: Deadly landslide threatens thousands more as hopes for survivors fade
+Title: Pope allegedly used derogatory term for gay people
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: ‘Crippling’ drought in Zambia threatens hunger for millions, says minister
+Title: ANC at a crossroads as South Africa goes to the polls
+Title: Tens of thousands flee camp in Sudan after attacks by RSF paramilitaries
+Title: Greek police detain nine Egyptians despite dismissal of shipwreck charges
 Title: Attacks on health workers in conflict zones at highest level ever – report
-Title: Kenyan special forces police to arrive in Haiti to help combat gang violence
-Title: Charges dropped against nine Egyptians over 2023 migrant shipwreck off Greece
-Title: Mediterranean migrant boat disaster: men on trial are ‘scapegoats’, say lawyers
-Title: Jacob Zuma not eligible to run for South African parliament, court rules
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-844772
+845510
 $ date -u +%s
-1716484760
+1716900262
