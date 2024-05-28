@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 28 May 2024 12:44:09 +0000
+Tue, 28 May 2024 13:35:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: New Hatred for Politicians: Why Are Attacks and Incitement on the Rise in Germany?
@@ -61,11 +61,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jeremy Bowen: Ukraine faces its worst crisis since the war began
 Title: Israeli tanks in the heart of Rafah amid intense shelling of city
+Title: Jeremy Bowen: Ukraine faces its worst crisis since the war began
 Title: Luxury perfumes linked to child labour, BBC finds
-Title: Deadly landslide threatens thousands more as hopes for survivors fade
-Title: Pope allegedly used derogatory term for gay people
+Title: Spain, Norway and Ireland recognise Palestinian state
+Title: Closing arguments to begin in Trump hush-money trial
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: ‘Crippling’ drought in Zambia threatens hunger for millions, says minister
@@ -77,4 +77,4 @@ Title: Attacks on health workers in conflict zones at highest level ever – rep
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 845510
 $ date -u +%s
-1716900262
+1716903354
