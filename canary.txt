@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 28 May 2024 13:35:46 +0000
+Sat, 01 Jun 2024 18:20:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Rwanda Classified: Europe's Deals with an Autocrat
 Title: New Hatred for Politicians: Why Are Attacks and Incitement on the Rise in Germany?
 Title: Fish Farming in Iceland: Invasion of the Zombie Salmon
 Title: The Landgrab in Ukraine: Russia Moves to Expropriate Homes in Occupied Regions
 Title: Alternative for Germany (AfD): How the far-right party became the Long Arm of Russia and China
-Title: Still Just a Lightweight: Germany Fails to Gain Traction with Foreign Policy
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israeli tanks in the heart of Rafah amid intense shelling of city
-Title: Jeremy Bowen: Ukraine faces its worst crisis since the war began
-Title: Luxury perfumes linked to child labour, BBC finds
-Title: Spain, Norway and Ireland recognise Palestinian state
-Title: Closing arguments to begin in Trump hush-money trial
+Title: South Africa's ANC has to share power after election blow
+Title: India's Modi could win third term, polls predict
+Title: No Gaza ceasefire until Israel war aims achieved, Netanyahu says
+Title: We have no Plan B if Ukraine falls, says Estonia
+Title: China spacecraft to try to land on Moon's far side
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘Crippling’ drought in Zambia threatens hunger for millions, says minister
-Title: ANC at a crossroads as South Africa goes to the polls
-Title: Tens of thousands flee camp in Sudan after attacks by RSF paramilitaries
-Title: Greek police detain nine Egyptians despite dismissal of shipwreck charges
-Title: Attacks on health workers in conflict zones at highest level ever – report
+Title: South Africa to embark on new political path after ANC loses majority
+Title: Rishi Sunak’s Rwanda admission sparks legal action from detained asylum seekers
+Title: Which parties could South Africa’s ANC go into coalition with?
+Title: South Africa: Zuma’s new party upends election as ANC reels from vote collapse
+Title: Nigeria takes up case of its Teesside University students ordered out of UK
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-845510
+846091
 $ date -u +%s
-1716903354
+1717266025
