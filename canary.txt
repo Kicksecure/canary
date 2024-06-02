@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 01 Jun 2024 18:20:16 +0000
+Sun, 02 Jun 2024 14:59:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Rwanda Classified: Europe's Deals with an Autocrat
@@ -61,11 +61,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
+Title: Mexicans vote in election likely to see first woman president
+Title: Israeli ministers threaten to quit over ceasefire plan
 Title: South Africa's ANC has to share power after election blow
-Title: India's Modi could win third term, polls predict
-Title: No Gaza ceasefire until Israel war aims achieved, Netanyahu says
-Title: We have no Plan B if Ukraine falls, says Estonia
-Title: China spacecraft to try to land on Moon's far side
+Title: Zelensky accuses Russia and China of undermining summit
+Title: China says its spacecraft lands on Moon's far side
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: South Africa to embark on new political path after ANC loses majority
@@ -75,6 +75,6 @@ Title: South Africa: Zuma’s new party upends election as ANC reels from vote c
 Title: Nigeria takes up case of its Teesside University students ordered out of UK
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-846091
+846210
 $ date -u +%s
-1717266025
+1717340357
