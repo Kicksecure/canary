@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETma4MWHEP8H6nOaxYRZdxKJeZOFlxcCOvqeNzAj+LFdevmdCnTFVYIPOjsWd/l4HE7hv8etv8P/gUPyY/t9wPAQ=
+RWQ6KRormNEETvBGJ+zbSoCgFGhfZ7GtWipk45g5dLk07eCdWND45k1C0LUfo8Ho3OeiER9CWz27ZwtjSAmEyderl5g7sqzl4AA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 02 Jun 2024 14:59:06 +0000
+Fri, 07 Jun 2024 18:51:19 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Fortress Europe: Migrants Abandoned on the Edge of the Sahara
+Title: Israel-Gaza-War: Why the Founder of Human Rights Watch Accuses Israel of Genocide
+Title: Populist Push: Europe's Right Wing Eyes a Post-Election Alliance
 Title: Rwanda Classified: Europe's Deals with an Autocrat
 Title: New Hatred for Politicians: Why Are Attacks and Incitement on the Rise in Germany?
-Title: Fish Farming in Iceland: Invasion of the Zombie Salmon
-Title: The Landgrab in Ukraine: Russia Moves to Expropriate Homes in Occupied Regions
-Title: Alternative for Germany (AfD): How the far-right party became the Long Arm of Russia and China
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Mexicans vote in election likely to see first woman president
-Title: Israeli ministers threaten to quit over ceasefire plan
-Title: South Africa's ANC has to share power after election blow
-Title: Zelensky accuses Russia and China of undermining summit
-Title: China says its spacecraft lands on Moon's far side
+Title: Biden apologises for delay in Ukraine military aid
+Title: Refugees sent to Rwanda from remote UK island speak to BBC
+Title: Kagame critic barred from Rwanda's presidential race
+Title: US jobs surge casts doubt over interest rate cuts
+Title: EU elections start with tight Dutch race - exit poll
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: South Africa to embark on new political path after ANC loses majority
-Title: Rishi Sunak’s Rwanda admission sparks legal action from detained asylum seekers
-Title: Which parties could South Africa’s ANC go into coalition with?
-Title: South Africa: Zuma’s new party upends election as ANC reels from vote collapse
-Title: Nigeria takes up case of its Teesside University students ordered out of UK
+Title: US citizens face charges ‘punishable by death’ in alleged coup attempt in Congo
+Title: Rwanda opposition leader barred from standing against president
+Title: BAT subsidiary lobbies Pakistan to allow export of cigarettes to Sudan
+Title: Cyril Ramaphosa open to forming South African unity government with rivals
+Title: At least 100 killed after RSF paramilitary group attacks village in Sudan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-846210
+846924
 $ date -u +%s
-1717340357
+1717786287
