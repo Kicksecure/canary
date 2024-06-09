@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvBGJ+zbSoCgFGhfZ7GtWipk45g5dLk07eCdWND45k1C0LUfo8Ho3OeiER9CWz27ZwtjSAmEyderl5g7sqzl4AA=
+RWQ6KRormNEETl8jG+B+WRsGtpCcZ1jOmdo/ykpyxeC2YdAvbV1+B425GsutQ0v2FxEucFqATcvxfc+0+enur2cZxMx4pb0zuw4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 07 Jun 2024 18:51:19 +0000
+Sun, 09 Jun 2024 13:52:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Fortress Europe: Migrants Abandoned on the Edge of the Sahara
@@ -63,11 +63,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Biden apologises for delay in Ukraine military aid
-Title: Refugees sent to Rwanda from remote UK island speak to BBC
-Title: Kagame critic barred from Rwanda's presidential race
-Title: US jobs surge casts doubt over interest rate cuts
-Title: EU elections start with tight Dutch race - exit poll
+Title: Gaza health ministry says Israeli hostage rescue killed 274 Palestinians
+Title: Wife of Michael Mosley pays tribute to kind husband
+Title: Millions of Europeans vote in EU elections
+Title: Dead in 6 hours: How Nigerian sextortion scammers targeted my son
+Title: Danish PM ‘shaken but fine’ after street attack
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: US citizens face charges ‘punishable by death’ in alleged coup attempt in Congo
@@ -77,6 +77,6 @@ Title: Cyril Ramaphosa open to forming South African unity government with rival
 Title: At least 100 killed after RSF paramilitary group attacks village in Sudan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-846924
+847192
 $ date -u +%s
-1717786287
+1717941129
