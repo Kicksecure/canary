@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETl8jG+B+WRsGtpCcZ1jOmdo/ykpyxeC2YdAvbV1+B425GsutQ0v2FxEucFqATcvxfc+0+enur2cZxMx4pb0zuw4=
+RWQ6KRormNEETtLaHjkdQxcswDn9pGjmNYRsMM9LYryQcVAnO+DuPwaLiF0E5BFgMl1gAcwbvLL2egFPLObaHrCH9eUu8lCsQwg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 09 Jun 2024 13:52:01 +0000
+Sat, 15 Jun 2024 13:26:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: My Jewish Family History: The Optimists Ended Up in Auschwitz
 Title: Fortress Europe: Migrants Abandoned on the Edge of the Sahara
 Title: Israel-Gaza-War: Why the Founder of Human Rights Watch Accuses Israel of Genocide
 Title: Populist Push: Europe's Right Wing Eyes a Post-Election Alliance
 Title: Rwanda Classified: Europe's Deals with an Autocrat
-Title: New Hatred for Politicians: Why Are Attacks and Incitement on the Rise in Germany?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gaza health ministry says Israeli hostage rescue killed 274 Palestinians
-Title: Wife of Michael Mosley pays tribute to kind husband
-Title: Millions of Europeans vote in EU elections
-Title: Dead in 6 hours: How Nigerian sextortion scammers targeted my son
-Title: Danish PM ‘shaken but fine’ after street attack
+Title: Zelensky seeks show of support at giant Ukraine peace summit
+Title: Cyril Ramaphosa re-elected South African president
+Title: Drones reveal Antarctic whale 'acrobatics'
+Title: Millions in daily struggle to find food as Sudan war rages
+Title: Museum removes Monet and Van Gogh paintings over Nazi looting fears
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: US citizens face charges ‘punishable by death’ in alleged coup attempt in Congo
-Title: Rwanda opposition leader barred from standing against president
-Title: BAT subsidiary lobbies Pakistan to allow export of cigarettes to Sudan
-Title: Cyril Ramaphosa open to forming South African unity government with rivals
-Title: At least 100 killed after RSF paramilitary group attacks village in Sudan
+Title: Children trapped in war zones because of UK refusal to ease refugee visa rules
+Title: Cyril Ramaphosa re-elected as South Africa’s president
+Title: South Africa’s ANC strikes coalition deal with free-market DA
+Title: Conflicts drive number of forcibly displaced people to record high
+Title: Ugandan oil pipeline protester allegedly beaten as part of ‘alarming crackdown’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-847192
+848032
 $ date -u +%s
-1717941129
+1718458007
