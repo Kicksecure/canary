@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtLaHjkdQxcswDn9pGjmNYRsMM9LYryQcVAnO+DuPwaLiF0E5BFgMl1gAcwbvLL2egFPLObaHrCH9eUu8lCsQwg=
+RWQ6KRormNEETv/c0LdV6pQZTWPgUsk0SXegeZEHtt3tORwJ1h2K73CZtDwsC9X3KVGFQX/UZzY8xCK5UQXFFE40AelgqBYrLgM=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 15 Jun 2024 13:26:31 +0000
+Tue, 18 Jun 2024 15:13:45 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Italy: An Abandoned Italian Village Gets New Life
+Title: England Captain Harry Kane: "People Have Always Thought I Wasn't Good Enough"
+Title: Putin's Invasion of Ukraine: Are Airbus Satellite Images Helping Russia Wage War?
 Title: My Jewish Family History: The Optimists Ended Up in Auschwitz
 Title: Fortress Europe: Migrants Abandoned on the Edge of the Sahara
-Title: Israel-Gaza-War: Why the Founder of Human Rights Watch Accuses Israel of Genocide
-Title: Populist Push: Europe's Right Wing Eyes a Post-Election Alliance
-Title: Rwanda Classified: Europe's Deals with an Autocrat
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Zelensky seeks show of support at giant Ukraine peace summit
-Title: Cyril Ramaphosa re-elected South African president
-Title: Drones reveal Antarctic whale 'acrobatics'
-Title: Millions in daily struggle to find food as Sudan war rages
-Title: Museum removes Monet and Van Gogh paintings over Nazi looting fears
+Title: Biden to give legal status to 500,000 undocumented spouses 
+Title: War and weapons on agenda as Putin heads to North Korea
+Title: NK soldiers cross border prompting warning shots
+Title: India's Priyanka Gandhi to finally make electoral debut
+Title: Bacon ice cream and nugget overload sees misfiring McDonald's AI withdrawn
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Tuesday briefing: How millions are living through Sudan’s ‘harrowing’ humanitarian crisis
+Title: ‘We need the world to wake up’: Sudan facing world’s deadliest famine in 40 years
 Title: Children trapped in war zones because of UK refusal to ease refugee visa rules
 Title: Cyril Ramaphosa re-elected as South Africa’s president
 Title: South Africa’s ANC strikes coalition deal with free-market DA
-Title: Conflicts drive number of forcibly displaced people to record high
-Title: Ugandan oil pipeline protester allegedly beaten as part of ‘alarming crackdown’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-848032
+848492
 $ date -u +%s
-1718458007
+1718723641
