@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 18 Jun 2024 15:13:45 +0000
+Sat, 29 Jun 2024 12:53:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A Prisoner of War Describes Captivity in Russia: "At Night, I Prayed I Wouldn't Survive to the Next Day"
 Title: Italy: An Abandoned Italian Village Gets New Life
 Title: England Captain Harry Kane: "People Have Always Thought I Wasn't Good Enough"
 Title: Putin's Invasion of Ukraine: Are Airbus Satellite Images Helping Russia Wage War?
 Title: My Jewish Family History: The Optimists Ended Up in Auschwitz
-Title: Fortress Europe: Migrants Abandoned on the Edge of the Sahara
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Biden to give legal status to 500,000 undocumented spouses 
-Title: War and weapons on agenda as Putin heads to North Korea
-Title: NK soldiers cross border prompting warning shots
-Title: India's Priyanka Gandhi to finally make electoral debut
-Title: Bacon ice cream and nugget overload sees misfiring McDonald's AI withdrawn
+Title: Dying together: Why a happily married couple decided to stop living
+Title: Biden vows to fight on in first speech after Trump debate
+Title: French PM in final appeal to stop far-right victory
+Title: First Liberal MP calls on Justin Trudeau to step down
+Title: Iran's presidential election moves to run-off after low turnout
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Tuesday briefing: How millions are living through Sudan’s ‘harrowing’ humanitarian crisis
-Title: ‘We need the world to wake up’: Sudan facing world’s deadliest famine in 40 years
-Title: Children trapped in war zones because of UK refusal to ease refugee visa rules
-Title: Cyril Ramaphosa re-elected as South Africa’s president
-Title: South Africa’s ANC strikes coalition deal with free-market DA
+Title: ‘Nowhere to go’: people trapped in eastern DRC as rebel militia seize key town
+Title: Voters in Mauritania’s fledgling democracy head to the polls
+Title: Kenya’s youth-driven protest movement at crossroads as it considers future
+Title: Egyptian scribes suffered work-related injuries, study says
+Title: Londoner continues epic trans-Africa run after release from South Sudan jail
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-848492
+849957
 $ date -u +%s
-1718723641
+1719665620
