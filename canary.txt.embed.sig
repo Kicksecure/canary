@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqNSsZuZfutsh+K5y868gpiipGDHwP67d+PT81BsaSm6iSScPeIJW3o4gsaSs2NEEbuXL60x3wVs2Zsot5S3ggg=
+RWQ6KRormNEETrvelrNHK1C4oa4fGS+jtbpY6LJkxcAdp40EXhLIqstFPdeoK4NrJtmUBu0jQTirV9WrkRj2Vb/C8idVCXELkQA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 29 Jun 2024 12:53:25 +0000
+Wed, 03 Jul 2024 17:34:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Gaza City: Possible War Crime - Why Did Israel Bomb This Residential Building?
+Title: A Holocaust Survivor Speaks of Her Anger: "It's Difficult to Put Up with These Old Germans"
 Title: A Prisoner of War Describes Captivity in Russia: "At Night, I Prayed I Wouldn't Survive to the Next Day"
 Title: Italy: An Abandoned Italian Village Gets New Life
 Title: England Captain Harry Kane: "People Have Always Thought I Wasn't Good Enough"
-Title: Putin's Invasion of Ukraine: Are Airbus Satellite Images Helping Russia Wage War?
-Title: My Jewish Family History: The Optimists Ended Up in Auschwitz
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Dying together: Why a happily married couple decided to stop living
-Title: Biden vows to fight on in first speech after Trump debate
-Title: French PM in final appeal to stop far-right victory
-Title: First Liberal MP calls on Justin Trudeau to step down
-Title: Iran's presidential election moves to run-off after low turnout
+Title: 'Almost whole island homeless' in Hurricane Beryl's wake
+Title: Only far right can win majority, warns French PM
+Title: Biden campaign works to calm Democrat nerves as pressure mounts 
+Title: Israeli strike kills senior Hezbollah commander in Lebanon
+Title: Five killed by Russian strike in central Ukraine
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘Nowhere to go’: people trapped in eastern DRC as rebel militia seize key town
-Title: Voters in Mauritania’s fledgling democracy head to the polls
-Title: Kenya’s youth-driven protest movement at crossroads as it considers future
-Title: Egyptian scribes suffered work-related injuries, study says
-Title: Londoner continues epic trans-Africa run after release from South Sudan jail
+Title: Fangs and toilet seat-shaped head: giant salamander-like fossil found in Namibia
+Title: Three people die after arrests at election protests in Mauritania
+Title: From conflict to the climate – what are the UK parties’ international plans?
+Title: At least 39 killed in Kenya’s anti-tax protests, says rights watchdog
+Title: Child malnutrition crisis in Nigeria amid rural violence and soaring food inflation
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-849957
+850560
 $ date -u +%s
-1719665620
+1720028086
