@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrvelrNHK1C4oa4fGS+jtbpY6LJkxcAdp40EXhLIqstFPdeoK4NrJtmUBu0jQTirV9WrkRj2Vb/C8idVCXELkQA=
+RWQ6KRormNEETjAwJFT5o4JsezmGycFihNESDEqMufA/2PaAjfZmPlbkIoZuaVq1BKSeLdQ1pSB7TYjbyIQS/QY3KqnsKTJjlAE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 03 Jul 2024 17:34:23 +0000
+Wed, 03 Jul 2024 18:16:03 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Gaza City: Possible War Crime - Why Did Israel Bomb This Residential Building?
@@ -65,18 +65,18 @@ Title: Silicon Valley Bank collapse renews calls to address disparities impactin
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: 'Almost whole island homeless' in Hurricane Beryl's wake
 Title: Only far right can win majority, warns French PM
-Title: Biden campaign works to calm Democrat nerves as pressure mounts 
 Title: Israeli strike kills senior Hezbollah commander in Lebanon
 Title: Five killed by Russian strike in central Ukraine
+Title: Brazil blocks Meta from using social media posts to train AI
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Germany’s first African-born MP to stand down after racist abuse
 Title: Fangs and toilet seat-shaped head: giant salamander-like fossil found in Namibia
 Title: Three people die after arrests at election protests in Mauritania
 Title: From conflict to the climate – what are the UK parties’ international plans?
 Title: At least 39 killed in Kenya’s anti-tax protests, says rights watchdog
-Title: Child malnutrition crisis in Nigeria amid rural violence and soaring food inflation
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-850560
+850562
 $ date -u +%s
-1720028086
+1720030593
