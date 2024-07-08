@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETjAwJFT5o4JsezmGycFihNESDEqMufA/2PaAjfZmPlbkIoZuaVq1BKSeLdQ1pSB7TYjbyIQS/QY3KqnsKTJjlAE=
+RWQ6KRormNEETvecQpZypaL2appEZkhy/lhiTdNbzrvvThOKhn/HrItg6F4UIBoQ3WZwrgZ6otKMPYb8iH8z3q53BKwwcxPf/QQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 03 Jul 2024 18:16:03 +0000
+Mon, 08 Jul 2024 00:38:54 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Gaza City: Possible War Crime - Why Did Israel Bomb This Residential Building?
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'Almost whole island homeless' in Hurricane Beryl's wake
-Title: Only far right can win majority, warns French PM
-Title: Israeli strike kills senior Hezbollah commander in Lebanon
-Title: Five killed by Russian strike in central Ukraine
-Title: Brazil blocks Meta from using social media posts to train AI
+Title: French people reject the far right  - again
+Title: Democrats weigh risks and rewards of losing Biden
+Title: Senior Hamas official killed as Israel orders fresh evacuation
+Title: After Covid and Olympics, Tokyo’s first female governor set for third term
+Title: Mass tourism protesters squirt water at Barcelona tourists
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: At least 89 migrants dead after boat capsizes off Mauritania, state news agency says
 Title: Germany’s first African-born MP to stand down after racist abuse
 Title: Fangs and toilet seat-shaped head: giant salamander-like fossil found in Namibia
 Title: Three people die after arrests at election protests in Mauritania
 Title: From conflict to the climate – what are the UK parties’ international plans?
-Title: At least 39 killed in Kenya’s anti-tax protests, says rights watchdog
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-850562
+851166
 $ date -u +%s
-1720030593
+1720399160
