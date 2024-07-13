@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETndgKkOSOMKojNMqixcUYIL46V21OMqNtX2neQ8OPZPa8ie64VG8y9Kn5VXod7PDQhxkfCWdwPdyXi7MrAO4nQg=
+RWQ6KRormNEETsQQ9NH3hPDGqg5W/inEMds/9Xb8NxHYOnMD6EFolXaMhJGHukfaw+adhkYael5ABlfn6xf4gBhifVq8rLzDfAY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 13 Jul 2024 18:29:41 +0000
+Sat, 13 Jul 2024 21:10:28 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The Supreme Court's Immunity Ruling: "No One Can Guarantee that Trump Is the Last Maniacal Sociopath Who Will Want Power in America"
@@ -77,6 +77,6 @@ Title: Armed men jump onboard small boat during rescue near Libya
 Title: Syrian asylum seeker in UK says he ‘lost everything’ after Rwanda roundup
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-852011
+852036
 $ date -u +%s
-1720895397
+1720905048
