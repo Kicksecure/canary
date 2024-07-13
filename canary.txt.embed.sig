@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvecQpZypaL2appEZkhy/lhiTdNbzrvvThOKhn/HrItg6F4UIBoQ3WZwrgZ6otKMPYb8iH8z3q53BKwwcxPf/QQ=
+RWQ6KRormNEETndgKkOSOMKojNMqixcUYIL46V21OMqNtX2neQ8OPZPa8ie64VG8y9Kn5VXod7PDQhxkfCWdwPdyXi7MrAO4nQg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 08 Jul 2024 00:38:54 +0000
+Sat, 13 Jul 2024 18:29:41 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Supreme Court's Immunity Ruling: "No One Can Guarantee that Trump Is the Last Maniacal Sociopath Who Will Want Power in America"
+Title: Former Saudi Intelligence Chief: "We Have Nothing to Apologize For"
+Title: The Fight for the White House: Sliding Toward a Trump Dictatorship?
 Title: Gaza City: Possible War Crime - Why Did Israel Bomb This Residential Building?
 Title: A Holocaust Survivor Speaks of Her Anger: "It's Difficult to Put Up with These Old Germans"
-Title: A Prisoner of War Describes Captivity in Russia: "At Night, I Prayed I Wouldn't Survive to the Next Day"
-Title: Italy: An Abandoned Italian Village Gets New Life
-Title: England Captain Harry Kane: "People Have Always Thought I Wasn't Good Enough"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: French people reject the far right  - again
-Title: Democrats weigh risks and rewards of losing Biden
-Title: Senior Hamas official killed as Israel orders fresh evacuation
-Title: After Covid and Olympics, Tokyo’s first female governor set for third term
-Title: Mass tourism protesters squirt water at Barcelona tourists
+Title: Hamas-run health ministry says 90 killed in Israeli strike targeting military chief
+Title: Celebrity sex therapist Dr Ruth Westheimer dies at 96
+Title: Alec Baldwin's Rust trial dismissed over hidden evidence
+Title: Celebrations continue for star-studded Ambani wedding
+Title: Five jailed for Ecuador presidential candidate's murder
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: At least 89 migrants dead after boat capsizes off Mauritania, state news agency says
-Title: Germany’s first African-born MP to stand down after racist abuse
-Title: Fangs and toilet seat-shaped head: giant salamander-like fossil found in Namibia
-Title: Three people die after arrests at election protests in Mauritania
-Title: From conflict to the climate – what are the UK parties’ international plans?
+Title: Twenty-two students dead after school in Nigeria collapses during classes
+Title: Kenyan president sacks cabinet after weeks of deadly protests
+Title: ‘Africa’s most resilient lion’ and his brother filmed making 1.5km swim across dangerous African river
+Title: Armed men jump onboard small boat during rescue near Libya
+Title: Syrian asylum seeker in UK says he ‘lost everything’ after Rwanda roundup
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-851166
+852011
 $ date -u +%s
-1720399160
+1720895397
