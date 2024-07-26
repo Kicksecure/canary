@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETsQQ9NH3hPDGqg5W/inEMds/9Xb8NxHYOnMD6EFolXaMhJGHukfaw+adhkYael5ABlfn6xf4gBhifVq8rLzDfAY=
+RWQ6KRormNEETvbBrdBDE9udKeNOgIeEBt7NAOE7Bn+Npr43jpUjGtgUwWcgD/aluxzWSlLI5BpS1K8Lr/NnciLoOwqTA9h7kQ4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 13 Jul 2024 21:10:28 +0000
+Fri, 26 Jul 2024 17:19:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Supreme Court's Immunity Ruling: "No One Can Guarantee that Trump Is the Last Maniacal Sociopath Who Will Want Power in America"
-Title: Former Saudi Intelligence Chief: "We Have Nothing to Apologize For"
-Title: The Fight for the White House: Sliding Toward a Trump Dictatorship?
-Title: Gaza City: Possible War Crime - Why Did Israel Bomb This Residential Building?
-Title: A Holocaust Survivor Speaks of Her Anger: "It's Difficult to Put Up with These Old Germans"
+Title: Keeping the Peace on Camelback: Mauritania's Secret to Stability
+Title: Trump Almighty: The Republican Party Deifies The Donald
+Title: Russian Tech Billionaire Arkady Volozh: "Europe Should Be Smart Enough to Use These People Who Fled Russia"
+Title: Edmundo González: The Retiree Who Could Take Down Venezuela's Dictator
+Title: Star Economist Acemoglu Discusses Trump: "It's Likely To Be Much Worse Now Than Eight Years Ago"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hamas-run health ministry says 90 killed in Israeli strike targeting military chief
-Title: Celebrity sex therapist Dr Ruth Westheimer dies at 96
-Title: Alec Baldwin's Rust trial dismissed over hidden evidence
-Title: Celebrations continue for star-studded Ambani wedding
-Title: Five jailed for Ecuador presidential candidate's murder
+Title: French rail sabotage plays havoc with Paris Olympics opening
+Title: Leader of Mexico's Sinaloa drug cartel arrested in Texas
+Title: SA mass killer dies as victims still demand justice
+Title: Obamas endorse Kamala Harris for president
+Title: Dublin wax museum removes Sinead O'Connor figure
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Twenty-two students dead after school in Nigeria collapses during classes
-Title: Kenyan president sacks cabinet after weeks of deadly protests
-Title: ‘Africa’s most resilient lion’ and his brother filmed making 1.5km swim across dangerous African river
-Title: Armed men jump onboard small boat during rescue near Libya
-Title: Syrian asylum seeker in UK says he ‘lost everything’ after Rwanda roundup
+Title: Green economy could generate 3.3m jobs across Africa by 2030 – report
+Title: Doctor behind trial of HIV prevention drug recounts breakthrough moment
+Title: Death toll from Ethiopia landslides could reach 500, UN agency says
+Title: ‘Smoking gun’ evidence points to UAE involvement in Sudan civil war
+Title: At least 150 people missing after boat capsizes off coast of Mauritania
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-852036
+854060
 $ date -u +%s
-1720905048
+1722014371
