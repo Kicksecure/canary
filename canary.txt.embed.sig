@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvbBrdBDE9udKeNOgIeEBt7NAOE7Bn+Npr43jpUjGtgUwWcgD/aluxzWSlLI5BpS1K8Lr/NnciLoOwqTA9h7kQ4=
+RWQ6KRormNEETsD4W2bMp8pn/4hTcKRgXmnzRcx+Pl4jLFS9uChn4zlJMHqmT26uzfd/3mTOJ14BcKhse7+f+92mJhT+dyyxkQo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 26 Jul 2024 17:19:01 +0000
+Sun, 28 Jul 2024 21:04:15 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Keeping the Peace on Camelback: Mauritania's Secret to Stability
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: French rail sabotage plays havoc with Paris Olympics opening
-Title: Leader of Mexico's Sinaloa drug cartel arrested in Texas
-Title: SA mass killer dies as victims still demand justice
-Title: Obamas endorse Kamala Harris for president
-Title: Dublin wax museum removes Sinead O'Connor figure
+Title: 'A dangerous moment' - Israelis face spectre of another war
+Title: Thousands mourn children killed in Golan Heights strike 
+Title: Lebanon fears dangerous new phase in Hezbollah-Israel fighting
+Title: Parisians’ Olympic spirit not dampened – but grumbles remain
+Title: Neighbours star Janet Andrewartha dies 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: ‘She is one of our heroines’: reviled, now revered, Winnie Mandela wins over young South Africa
 Title: Green economy could generate 3.3m jobs across Africa by 2030 – report
 Title: Doctor behind trial of HIV prevention drug recounts breakthrough moment
 Title: Death toll from Ethiopia landslides could reach 500, UN agency says
 Title: ‘Smoking gun’ evidence points to UAE involvement in Sudan civil war
-Title: At least 150 people missing after boat capsizes off coast of Mauritania
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-854060
+854385
 $ date -u +%s
-1722014371
+1722200667
