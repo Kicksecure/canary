@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETsD4W2bMp8pn/4hTcKRgXmnzRcx+Pl4jLFS9uChn4zlJMHqmT26uzfd/3mTOJ14BcKhse7+f+92mJhT+dyyxkQo=
+RWQ6KRormNEETtSc+pMwyXoF8+gnd46Ks1ZNiVLFosPZ6m14i1opwU45qC6zvayFr62lJb59XaC/txlXTLq4wOVr/QzGsDjGaAo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 28 Jul 2024 21:04:15 +0000
+Wed, 31 Jul 2024 13:06:23 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Campaign in the U.S.: Don’t Write Off America!
 Title: Keeping the Peace on Camelback: Mauritania's Secret to Stability
 Title: Trump Almighty: The Republican Party Deifies The Donald
 Title: Russian Tech Billionaire Arkady Volozh: "Europe Should Be Smart Enough to Use These People Who Fled Russia"
 Title: Edmundo González: The Retiree Who Could Take Down Venezuela's Dictator
-Title: Star Economist Acemoglu Discusses Trump: "It's Likely To Be Much Worse Now Than Eight Years Ago"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'A dangerous moment' - Israelis face spectre of another war
-Title: Thousands mourn children killed in Golan Heights strike 
-Title: Lebanon fears dangerous new phase in Hezbollah-Israel fighting
-Title: Parisians’ Olympic spirit not dampened – but grumbles remain
-Title: Neighbours star Janet Andrewartha dies 
+Title: Hamas political leader Ismail Haniyeh killed in Iran
+Title: What does Haniyeh's killing mean for Gaza ceasefire?
+Title: Israel claims it killed senior Hezbollah commander in strike on Beirut
+Title: Five things we learned from Secret Service boss about Trump shooting 
+Title: Fresh protests in Venezuela as anger grows at disputed election result
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘She is one of our heroines’: reviled, now revered, Winnie Mandela wins over young South Africa
-Title: Green economy could generate 3.3m jobs across Africa by 2030 – report
-Title: Doctor behind trial of HIV prevention drug recounts breakthrough moment
-Title: Death toll from Ethiopia landslides could reach 500, UN agency says
-Title: ‘Smoking gun’ evidence points to UAE involvement in Sudan civil war
+Title: Somalia arrests another journalist as press clampdown intensifies
+Title: Ukraine military intelligence claims role in deadly Wagner ambush in Mali
+Title: Demonstrators in Nigeria gather days early for anti-government protests
+Title: South Africa’s ANC expels ex-president Zuma for leading rival party in election
+Title: Girls as young as nine gang-raped by paramilitaries in Sudan – report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-854385
+854809
 $ date -u +%s
-1722200667
+1722431203
