@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqMvQMJ6t0YESaELaYeWZbjVmkPLepGhrg7z0kPFyzgAFRoO7l5DjPBRm2gdhJ6V0PXt5AyaW2TjquTC/TtsfgQ=
+RWQ6KRormNEETnOQMYO+We2kWG6k0wFD3A9jv7E8y4GY2SOnZZzUmkIHnXFfw1f+DPXzG6mpjndZ4ZweqF6FoDy0oMRvfXtY2g8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 04 Aug 2024 19:31:39 +0000
+Wed, 07 Aug 2024 10:03:13 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Can She Defeat Trump?: The Democrats Take a Chance on Kamala Harris
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Bangladesh anti-government protests kill 80
-Title: Ukraine receives first F-16 fighter jets - Zelensky
-Title: Calls for foreigners to leave Lebanon as war fears grow
-Title: Casualties after third Israeli strike on school in a week
-Title: Kamala Harris interviewing top vice-presidential contenders
+Title: Vibes and jibes - why Harris picked Walz as running mate
+Title: Last missing Israeli victim of Hamas attack declared dead
+Title: Israel’s underground hospital prepares for attack
+Title: At least two people killed in German hotel collapse
+Title: Hamas names Yahya Sinwar as new overall leader
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Oilfield slowdown exposes political volatility in Libya and beyond
+Title: Tunisia court jails potential presidential candidates and bars them from upcoming election
 Title: Fifth of medicines in Africa may be sub-par or fake, research finds
 Title: Bullets and teargas reportedly fired at journalists covering protests in Nigeria
 Title: At least 37 killed in terrorist attack on popular Mogadishu beach
-Title: Why are Nigerians protesting? Young people were roused by events in Kenya
-Title: Egyptian mummy with screaming expression ‘may have died in agony’, say researchers
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-855383
+855752
 $ date -u +%s
-1722799914
+1723025009
