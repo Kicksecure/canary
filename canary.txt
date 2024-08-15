@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 07 Aug 2024 10:03:13 +0000
+Thu, 15 Aug 2024 18:07:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Iran's Lebanon-Based Militia: Hezbollah Prepares for Possible War
+Title: How the Prisoner Exchange Came About: Success for the West, Triumph for Putin
 Title: Can She Defeat Trump?: The Democrats Take a Chance on Kamala Harris
 Title: The Campaign in the U.S.: Don’t Write Off America!
 Title: Keeping the Peace on Camelback: Mauritania's Secret to Stability
-Title: Trump Almighty: The Republican Party Deifies The Donald
-Title: Russian Tech Billionaire Arkady Volozh: "Europe Should Be Smart Enough to Use These People Who Fled Russia"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Vibes and jibes - why Harris picked Walz as running mate
-Title: Last missing Israeli victim of Hamas attack declared dead
-Title: Israel’s underground hospital prepares for attack
-Title: At least two people killed in German hotel collapse
-Title: Hamas names Yahya Sinwar as new overall leader
+Title: Ukraine sets up military office inside Russia
+Title: First case of more dangerous mpox found outside Africa
+Title: More than 40,000 killed in Gaza, Hamas-run health ministry says
+Title: US-Russian woman jailed for 12 years for $51 charity gift
+Title: Kim Dotcom to be extradited to the US
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Oilfield slowdown exposes political volatility in Libya and beyond
-Title: Tunisia court jails potential presidential candidates and bars them from upcoming election
-Title: Fifth of medicines in Africa may be sub-par or fake, research finds
-Title: Bullets and teargas reportedly fired at journalists covering protests in Nigeria
-Title: At least 37 killed in terrorist attack on popular Mogadishu beach
+Title: Mpox: Sweden confirms first case of ‘more grave’ variant outside Africa
+Title: ‘A violation’: Kenyan town removes athlete statues after uproar about unrecognisable features
+Title: ‘Enforced disappearances’ send a chill through Kenya’s protests
+Title: Mpox outbreak in Africa is public health emergency, declares WHO
+Title: At least 68 people killed in flooding as rains worsen Sudan’s plight
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-855752
+856928
 $ date -u +%s
-1723025009
+1723745259
