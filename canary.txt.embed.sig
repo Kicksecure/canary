@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETowcNnSGLL1d/EQ96QXmqjveWDhtp611ZNhZOpd2+a6KVB9qx3oEQSmbTk88DvDDP21c9S54p93l5QhwUbiFVAc=
+RWQ6KRormNEETtR08OW2pBBVCV9eqK3yAJdxZk245guBmYRVLC1HXGQG/h+Pq0lJ+UV6KiB3VAgBBhhxKH4RkQE1LADoKXqSMQw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 02 Sep 2024 21:27:47 +0000
+Mon, 02 Sep 2024 21:56:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
@@ -77,6 +77,6 @@ Title: US and UN call for talks in Libyan dispute over control of central bank
 Title: Flood surge in Sudan bursts dam, destroying villages and killing dozens
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-859594
+859598
 $ date -u +%s
-1725312483
+1725314225
