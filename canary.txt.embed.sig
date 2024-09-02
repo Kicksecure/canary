@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETibsv+XTAG5i0JSH42Ou3yRNjRCRQbib+MrsTgN3Vrd9fgnY2US2cuOi9Ir5gIxUWvTmnafa7IeXzH76rzQuhw0=
+RWQ6KRormNEETowcNnSGLL1d/EQ96QXmqjveWDhtp611ZNhZOpd2+a6KVB9qx3oEQSmbTk88DvDDP21c9S54p93l5QhwUbiFVAc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 15 Aug 2024 18:07:18 +0000
+Mon, 02 Sep 2024 21:27:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Iran's Lebanon-Based Militia: Hezbollah Prepares for Possible War
-Title: How the Prisoner Exchange Came About: Success for the West, Triumph for Putin
-Title: Can She Defeat Trump?: The Democrats Take a Chance on Kamala Harris
-Title: The Campaign in the U.S.: Don’t Write Off America!
-Title: Keeping the Peace on Camelback: Mauritania's Secret to Stability
+Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
+Title: Interview with German Chancellor Olaf Scholz: "Pithy Sayings Are Not Part of My Approach to Politics"
+Title: War in Sudan: Soup Kitchens Fight against Looming Famine
+Title: Warsaw's Palace of Culture: From a Symbol of Oppression to a Symbol of Subversion
+Title: Finding the Secret Hitler: How Fascism Begins
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine sets up military office inside Russia
-Title: First case of more dangerous mpox found outside Africa
-Title: More than 40,000 killed in Gaza, Hamas-run health ministry says
-Title: US-Russian woman jailed for 12 years for $51 charity gift
-Title: Kim Dotcom to be extradited to the US
+Title: Netanyahu not doing enough to free Gaza hostages, says Biden
+Title: US seizes Venezuelan President Maduro's plane
+Title: Scholz urges firewall against far right after election win
+Title: Video shows Titanic missing large section of railing
+Title: Man accused of recruiting dozens of strangers to rape his wife
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Mpox: Sweden confirms first case of ‘more grave’ variant outside Africa
-Title: ‘A violation’: Kenyan town removes athlete statues after uproar about unrecognisable features
-Title: ‘Enforced disappearances’ send a chill through Kenya’s protests
-Title: Mpox outbreak in Africa is public health emergency, declares WHO
-Title: At least 68 people killed in flooding as rains worsen Sudan’s plight
+Title: Weather tracker: extreme heat hits Brazil, fuelling risk of wildfires
+Title: South African beauty queen crowned Miss Nigeria after nationality row
+Title: African nations hit by mpox still waiting for vaccines – despite promises by the west
+Title: US and UN call for talks in Libyan dispute over control of central bank
+Title: Flood surge in Sudan bursts dam, destroying villages and killing dozens
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-856928
+859594
 $ date -u +%s
-1723745259
+1725312483
