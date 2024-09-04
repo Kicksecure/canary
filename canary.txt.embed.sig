@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlmgAo24P41U4gdmr7/YJtedDFkgX1KCY0ChyMCuwM2riJvHtOYB3E5c0yQAfJ8CIjd7uaTifiUg6HahifzffQ8=
+RWQ6KRormNEETu3RjXp89ez67oVrU+J6jC07EpRxc8oejgs6dbfwbRqixAwC2cyKIZygO3RtvNDBEVxPKY6mUlpmfW0GIwOaiwk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 04 Sep 2024 17:10:28 +0000
+Wed, 04 Sep 2024 17:15:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
@@ -79,4 +79,4 @@ Title: South African beauty queen crowned Miss Nigeria after nationality row
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 859860
 $ date -u +%s
-1725469839
+1725470130
