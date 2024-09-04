@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtR08OW2pBBVCV9eqK3yAJdxZk245guBmYRVLC1HXGQG/h+Pq0lJ+UV6KiB3VAgBBhhxKH4RkQE1LADoKXqSMQw=
+RWQ6KRormNEETpoH/cU0bIjoKHwgmYzXL+HqB72ICF+ZLDDIZvsd/RVPwLuUJyosqspahlWy+r65Os4Lx6Jfgy/qcuyEoAY5Tg8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 02 Sep 2024 21:56:49 +0000
+Wed, 04 Sep 2024 15:23:28 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Netanyahu not doing enough to free Gaza hostages, says Biden
-Title: US seizes Venezuelan President Maduro's plane
-Title: Scholz urges firewall against far right after election win
-Title: Video shows Titanic missing large section of railing
-Title: Man accused of recruiting dozens of strangers to rape his wife
+Title: Mother and daughters killed in new wave of strikes on Ukraine
+Title: US charges Hamas leaders over 7 October attack on Israel
+Title: France sees Channel migrant deaths as a problem of Britain's making
+Title: Controversial Mexican judicial reform passes key hurdle
+Title: Nvidia plunges almost 10% as global markets fall
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Ugandan opposition leader shot in leg after police confrontation
+Title: More than 100 killed in attempt to escape DRC’s largest prison
+Title: Daughter of South Africa’s ex-president Zuma to be Eswatini king’s 16th wife
 Title: Weather tracker: extreme heat hits Brazil, fuelling risk of wildfires
 Title: South African beauty queen crowned Miss Nigeria after nationality row
-Title: African nations hit by mpox still waiting for vaccines – despite promises by the west
-Title: US and UN call for talks in Libyan dispute over control of central bank
-Title: Flood surge in Sudan bursts dam, destroying villages and killing dozens
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-859598
+859850
 $ date -u +%s
-1725314225
+1725463421
