@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETpoH/cU0bIjoKHwgmYzXL+HqB72ICF+ZLDDIZvsd/RVPwLuUJyosqspahlWy+r65Os4Lx6Jfgy/qcuyEoAY5Tg8=
+RWQ6KRormNEETlmgAo24P41U4gdmr7/YJtedDFkgX1KCY0ChyMCuwM2riJvHtOYB3E5c0yQAfJ8CIjd7uaTifiUg6HahifzffQ8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 04 Sep 2024 15:23:28 +0000
+Wed, 04 Sep 2024 17:10:28 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
@@ -64,10 +64,10 @@ Title: Silicon Valley Bank collapse renews calls to address disparities impactin
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Mother and daughters killed in new wave of strikes on Ukraine
-Title: US charges Hamas leaders over 7 October attack on Israel
-Title: France sees Channel migrant deaths as a problem of Britain's making
-Title: Controversial Mexican judicial reform passes key hurdle
-Title: Nvidia plunges almost 10% as global markets fall
+Title: US to accuse Russia of 2024 election interference
+Title: Casualties reported after Georgia high school shooting
+Title: Russian 'spy whale' was shot, animal groups say
+Title: US mother accused of killing her children attends UK extradition hearing
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Ugandan opposition leader shot in leg after police confrontation
@@ -77,6 +77,6 @@ Title: Weather tracker: extreme heat hits Brazil, fuelling risk of wildfires
 Title: South African beauty queen crowned Miss Nigeria after nationality row
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-859850
+859860
 $ date -u +%s
-1725463421
+1725469839
