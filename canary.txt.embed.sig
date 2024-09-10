@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETu3RjXp89ez67oVrU+J6jC07EpRxc8oejgs6dbfwbRqixAwC2cyKIZygO3RtvNDBEVxPKY6mUlpmfW0GIwOaiwk=
+RWQ6KRormNEETnZyoTNVqZwTJJKqMuZG9X+ZPvaRtv+nxaxeO3HdlTNNqGMvZZAKpiisXExNI6GmhuSrhE9NuDeeBl4ex3o48Qo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 04 Sep 2024 17:15:16 +0000
+Tue, 10 Sep 2024 14:41:54 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Rmaych: A Christian Town Trapped between Hezbollah and Israel
 Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
 Title: Interview with German Chancellor Olaf Scholz: "Pithy Sayings Are Not Part of My Approach to Politics"
 Title: War in Sudan: Soup Kitchens Fight against Looming Famine
 Title: Warsaw's Palace of Culture: From a Symbol of Oppression to a Symbol of Subversion
-Title: Finding the Secret Hitler: How Fascism Begins
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Mother and daughters killed in new wave of strikes on Ukraine
-Title: US to accuse Russia of 2024 election interference
-Title: Casualties reported after Georgia high school shooting
-Title: Russian 'spy whale' was shot, animal groups say
-Title: US mother accused of killing her children attends UK extradition hearing
+Title: Israeli strike in Gaza humanitarian zone kills 19, Hamas-run health ministry says
+Title: Harris and Trump to debate in pivotal campaign test
+Title: Ex-partner who killed Ugandan athlete dies from burns
+Title: French village torn apart by horror of mass rape trial
+Title: SpaceX's Polaris Dawn mission blasts off
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Ugandan opposition leader shot in leg after police confrontation
-Title: More than 100 killed in attempt to escape DRC’s largest prison
-Title: Daughter of South Africa’s ex-president Zuma to be Eswatini king’s 16th wife
-Title: Weather tracker: extreme heat hits Brazil, fuelling risk of wildfires
-Title: South African beauty queen crowned Miss Nigeria after nationality row
+Title: Egypt and Turkey’s nascent alliance tested by new crisis in Libya
+Title: Former partner accused of killing Rebecca Cheptegei dies in hospital from burns
+Title: Tens of thousands of artefacts looted from Sudan museum, says official
+Title: Senegal’s leaders face harsh reality check after promises of radical reform
+Title: At least 48 dead in Nigeria explosion after fuel tanker collides with truck
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-859860
+860762
 $ date -u +%s
-1725470130
+1725979330
