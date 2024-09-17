@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETraNQMmiPzxtPODM5siiiUDtpwHhC3048usCw2r62ADZ4EyAJ4a84GBjE9ZyMdlo9YpR2sQmq0OXRMMWpCwyLwA=
+RWQ6KRormNEEThVj4gVjDRyN6jy9glTM8lU50q5m6hrbbg3CPBneF60svF10mqjukRHRmXHaGMIUEgiP/gqG7AsaqvatVop2aAI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 17 Sep 2024 09:24:34 +0000
+Tue, 17 Sep 2024 10:40:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: German Foreign Minister Annalena Baerbock: "You Cannot Fight Terrorism in Panic Mode"
@@ -63,8 +63,8 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gunman lurked for hours before Trump's last-minute game of golf
 Title: 'I am a rapist', admits husband in French mass rape trial
+Title: Gunman lurked for hours before Trump's last-minute game of golf
 Title: Israel sets new war goal of returning residents to the north
 Title: Starvation in war-hit Sudan 'almost everywhere' - WHO
 Title: Armed men strike military school in Mali capital
@@ -77,6 +77,6 @@ Title: South Africa school language law stirs Afrikaans learning debate
 Title: At least three dead as two passenger trains collide in Egypt’s Nile delta
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-861676
+861684
 $ date -u +%s
-1726565085
+1726569641
