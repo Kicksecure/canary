@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 10 Sep 2024 14:41:54 +0000
+Tue, 17 Sep 2024 09:24:34 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: German Foreign Minister Annalena Baerbock: "You Cannot Fight Terrorism in Panic Mode"
 Title: Rmaych: A Christian Town Trapped between Hezbollah and Israel
 Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
 Title: Interview with German Chancellor Olaf Scholz: "Pithy Sayings Are Not Part of My Approach to Politics"
 Title: War in Sudan: Soup Kitchens Fight against Looming Famine
-Title: Warsaw's Palace of Culture: From a Symbol of Oppression to a Symbol of Subversion
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israeli strike in Gaza humanitarian zone kills 19, Hamas-run health ministry says
-Title: Harris and Trump to debate in pivotal campaign test
-Title: Ex-partner who killed Ugandan athlete dies from burns
-Title: French village torn apart by horror of mass rape trial
-Title: SpaceX's Polaris Dawn mission blasts off
+Title: Gunman lurked for hours before Trump's last-minute game of golf
+Title: 'I am a rapist', admits husband in French mass rape trial
+Title: Israel sets new war goal of returning residents to the north
+Title: Starvation in war-hit Sudan 'almost everywhere' - WHO
+Title: Armed men strike military school in Mali capital
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Egypt and Turkey’s nascent alliance tested by new crisis in Libya
-Title: Former partner accused of killing Rebecca Cheptegei dies in hospital from burns
-Title: Tens of thousands of artefacts looted from Sudan museum, says official
-Title: Senegal’s leaders face harsh reality check after promises of radical reform
-Title: At least 48 dead in Nigeria explosion after fuel tanker collides with truck
+Title: More than 200 inmates escape Nigerian prison in aftermath of flooding
+Title: Amnesty calls for release of peaceful protesters in Angola
+Title: Climate scientists troubled by damage from floods ravaging central Europe
+Title: South Africa school language law stirs Afrikaans learning debate
+Title: At least three dead as two passenger trains collide in Egypt’s Nile delta
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-860762
+861676
 $ date -u +%s
-1725979330
+1726565085
