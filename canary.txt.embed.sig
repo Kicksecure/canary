@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThVj4gVjDRyN6jy9glTM8lU50q5m6hrbbg3CPBneF60svF10mqjukRHRmXHaGMIUEgiP/gqG7AsaqvatVop2aAI=
+RWQ6KRormNEETh089oN5QJHBESDBhdQMXhbrr7RU5cJFQFs0EUJs+0UwPnVn/v3IcukG/RXKZp/F8ZovKU4qRIDrEb35kswnmwY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 17 Sep 2024 10:40:24 +0000
+Fri, 27 Sep 2024 03:27:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Elections in Austria: A Right-Wing Populist Reaches for Power in Vienna
+Title: A Questionable Audit in Xinjiang: Volkswagen's Human Rights Bluff
+Title: A Blind Eye?: Albanian Leader Rama a Darling of Europe Despite Corruption Back Home
+Title: A Place of Chaos: Berlin's Overcrowded Refugee Camp in Tegel
 Title: German Foreign Minister Annalena Baerbock: "You Cannot Fight Terrorism in Panic Mode"
-Title: Rmaych: A Christian Town Trapped between Hezbollah and Israel
-Title: DER SPIEGEL's Coverage of Donald Trump: We Have Failed to Tame the Media Monster
-Title: Interview with German Chancellor Olaf Scholz: "Pithy Sayings Are Not Part of My Approach to Politics"
-Title: War in Sudan: Soup Kitchens Fight against Looming Famine
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'I am a rapist', admits husband in French mass rape trial
-Title: Gunman lurked for hours before Trump's last-minute game of golf
-Title: Israel sets new war goal of returning residents to the north
-Title: Starvation in war-hit Sudan 'almost everywhere' - WHO
-Title: Armed men strike military school in Mali capital
+Title: Israel striking Hezbollah with ‘full force’ despite ceasefire calls
+Title: Can diplomacy bring Middle East ceasefire? Early signs don't bode well 
+Title: 'Rape me, not my daughters' - Sudan's horrific war
+Title: NYC mayor charged with taking bribes and illegal campaign funds
+Title: Republican anger clouds Zelensky-Biden 'victory plan' meeting
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: More than 200 inmates escape Nigerian prison in aftermath of flooding
-Title: Amnesty calls for release of peaceful protesters in Angola
-Title: Climate scientists troubled by damage from floods ravaging central Europe
-Title: South Africa school language law stirs Afrikaans learning debate
-Title: At least three dead as two passenger trains collide in Egypt’s Nile delta
+Title: Sudan’s army launches push to retake ground in capital
+Title: Eswatini opposition leader in critical condition after alleged poisoning
+Title: Race to combat mpox misinformation as vaccine rollout in DRC begins
+Title: ‘Thrown like a rag doll’: British tourist narrowly survives hippo attack in Zambia
+Title: Rwandan forces and M23 rebels shelled refugee camps in DRC, report claims
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-861684
+863023
 $ date -u +%s
-1726569641
+1727407682
