@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 27 Sep 2024 03:27:47 +0000
+Thu, 03 Oct 2024 07:24:22 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Elections in Austria: A Right-Wing Populist Reaches for Power in Vienna
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel striking Hezbollah with ‘full force’ despite ceasefire calls
-Title: Can diplomacy bring Middle East ceasefire? Early signs don't bode well 
-Title: 'Rape me, not my daughters' - Sudan's horrific war
-Title: NYC mayor charged with taking bribes and illegal campaign funds
-Title: Republican anger clouds Zelensky-Biden 'victory plan' meeting
+Title: Five killed in Israeli air strike on central Beirut
+Title: Gaza school strike which killed 22 targeted one Hamas figure, BBC told
+Title: UN chief condemns Iran attack after Israel ban
+Title: Trump 'resorted to crimes' to overturn 2020 election, prosecutors say
+Title: Inside a hospital on the front line of Sudan’s hunger crisis
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Dikembe Mutombo, NBA Hall of Famer and humanitarian, dies at 58
+Title: Seventeen killed in two mass shootings in South African town
+Title: British army to investigate conduct of troops in Kenya amid rape and murder claims
+Title: Libya central bank deal could resolve ‘all political issues’, says head of state
 Title: Sudan’s army launches push to retake ground in capital
-Title: Eswatini opposition leader in critical condition after alleged poisoning
-Title: Race to combat mpox misinformation as vaccine rollout in DRC begins
-Title: ‘Thrown like a rag doll’: British tourist narrowly survives hippo attack in Zambia
-Title: Rwandan forces and M23 rebels shelled refugee camps in DRC, report claims
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-863023
+863921
 $ date -u +%s
-1727407682
+1727940277
