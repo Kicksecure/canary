@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 03 Oct 2024 07:24:22 +0000
+Sat, 05 Oct 2024 07:06:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Children of the War in Gaza: A Visit with Ahmed and Nisma, Recovering in Qatar
 Title: Elections in Austria: A Right-Wing Populist Reaches for Power in Vienna
 Title: A Questionable Audit in Xinjiang: Volkswagen's Human Rights Bluff
 Title: A Blind Eye?: Albanian Leader Rama a Darling of Europe Despite Corruption Back Home
 Title: A Place of Chaos: Berlin's Overcrowded Refugee Camp in Tegel
-Title: German Foreign Minister Annalena Baerbock: "You Cannot Fight Terrorism in Panic Mode"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Five killed in Israeli air strike on central Beirut
-Title: Gaza school strike which killed 22 targeted one Hamas figure, BBC told
-Title: UN chief condemns Iran attack after Israel ban
-Title: Trump 'resorted to crimes' to overturn 2020 election, prosecutors say
-Title: Inside a hospital on the front line of Sudan’s hunger crisis
+Title: US warships and planes strike Houthi targets in Yemen
+Title: Biden: 'I don't know' if Netanyahu is trying to sway US election
+Title: Floods and landslides leave 19 dead in Bosnia
+Title: Children among 70 killed in Haiti gang 'massacre'
+Title: Keeping lawns neat in front of burned homes - a year on at kibbutz where Hamas killed 101
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Dikembe Mutombo, NBA Hall of Famer and humanitarian, dies at 58
-Title: Seventeen killed in two mass shootings in South African town
-Title: British army to investigate conduct of troops in Kenya amid rape and murder claims
-Title: Libya central bank deal could resolve ‘all political issues’, says head of state
-Title: Sudan’s army launches push to retake ground in capital
+Title: Starmer defends UK ceding control of Chagos Islands amid Tory criticism
+Title: More than 100 people missing after being forced off boats in Djibouti
+Title: At least 78 dead and dozens missing after ferry disaster in DR Congo
+Title: Britain to return Chagos Islands to Mauritius ending years of dispute
+Title: Tanzania suspends news websites over ad referencing killings of dissidents
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-863921
+864248
 $ date -u +%s
-1727940277
+1728112023
