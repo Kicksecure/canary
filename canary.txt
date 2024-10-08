@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 05 Oct 2024 07:06:49 +0000
+Tue, 08 Oct 2024 11:36:32 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The Children of the War in Gaza: A Visit with Ahmed and Nisma, Recovering in Qatar
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US warships and planes strike Houthi targets in Yemen
-Title: Biden: 'I don't know' if Netanyahu is trying to sway US election
-Title: Floods and landslides leave 19 dead in Bosnia
-Title: Children among 70 killed in Haiti gang 'massacre'
-Title: Keeping lawns neat in front of burned homes - a year on at kibbutz where Hamas killed 101
+Title: Israel marks year since Hamas attack as fighting rages on multiple fronts
+Title: Madeleine McCann suspect cleared of rape charges in separate trial
+Title: Lebanon abandoned by international community - ex PM
+Title: Interpol asks public to help crack murdered women cold cases
+Title: Does China now have a permanent military base in Cambodia?
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Starmer defends UK ceding control of Chagos Islands amid Tory criticism
-Title: More than 100 people missing after being forced off boats in Djibouti
-Title: At least 78 dead and dozens missing after ferry disaster in DR Congo
-Title: Britain to return Chagos Islands to Mauritius ending years of dispute
-Title: Tanzania suspends news websites over ad referencing killings of dissidents
+Title: Tunisia’s president wins landslide second term after cracking down on opponents
+Title: Suddenly, all MPs know where the Chagos Islands are and what’s best for them | John Crace
+Title: Lammy defends Chagos deal, saying it saves important UK-US military base
+Title: Biden to visit Angola as global powers vie for African influence
+Title: Democracy campaigners criticise President Saied as polls close in Tunisia
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-864248
+864744
 $ date -u +%s
-1728112023
+1728387408
