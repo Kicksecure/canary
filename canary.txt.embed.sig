@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETi/Nqezmm5w6RivjgxmVR4AMCrohXQUPtaBKrP4/P2cAVVDCrVrIwXX4w6yvQ0DZh0ZlBJ9KLSW7FYUVwKFGrAw=
+RWQ6KRormNEETs7uECCM9rM7nizj/RCUxNLHqS//nfL8HRmUu+6vKg5u5x1lGyqrFje2Iddidkp99gAThPlcpdzV6wSWUAMZkgU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 08 Oct 2024 11:36:32 +0000
+Sat, 19 Oct 2024 08:32:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: The Children of the War in Gaza: A Visit with Ahmed and Nisma, Recovering in Qatar
-Title: Elections in Austria: A Right-Wing Populist Reaches for Power in Vienna
-Title: A Questionable Audit in Xinjiang: Volkswagen's Human Rights Bluff
-Title: A Blind Eye?: Albanian Leader Rama a Darling of Europe Despite Corruption Back Home
-Title: A Place of Chaos: Berlin's Overcrowded Refugee Camp in Tegel
+Title: Ex-NATO Secretary General Stoltenberg: "Lack of Military Support Made It Easier for Russia to Invade"
+Title: Species Protection Worries: Environmental Activists Cast Doubts on German Hydrogen Project in Namibia
+Title: Surrounded by War: The Christians of Lebanon Refuse to Evacuate
+Title: Creditors Left High and Dry: The Search for the Vanished Billions of the Benko Empire
+Title: "Mama, Pray for Me": The Women Soldiers Who Warned Israel of the Approaching Attack
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel marks year since Hamas attack as fighting rages on multiple fronts
-Title: Madeleine McCann suspect cleared of rape charges in separate trial
-Title: Lebanon abandoned by international community - ex PM
-Title: Interpol asks public to help crack murdered women cold cases
-Title: Does China now have a permanent military base in Cambodia?
+Title: Drone 'launched towards' Israeli PM Netanyahu's home
+Title: 'Merchants of death' trial steps up fight against Channel smugglers
+Title: Liam Payne's father reads tributes outside hotel where son died
+Title: Cuba suffers nationwide blackout after main power plant fails
+Title: Meet the Tiktokers buying up Japan’s empty homes
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Tunisia’s president wins landslide second term after cracking down on opponents
-Title: Suddenly, all MPs know where the Chagos Islands are and what’s best for them | John Crace
-Title: Lammy defends Chagos deal, saying it saves important UK-US military base
-Title: Biden to visit Angola as global powers vie for African influence
-Title: Democracy campaigners criticise President Saied as polls close in Tunisia
+Title: Somali security agents arrest journalist in night-time raid
+Title: ‘My dream has been shattered,’ says Nigerian nurse accused of cheating after arriving in UK
+Title: Kenyan political drama as deputy president impeached while in hospital
+Title: Netherlands mulls sending rejected African asylum seekers to Uganda
+Title: Negative stereotypes in international media cost Africa £3.2bn a year – report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-864744
+866324
 $ date -u +%s
-1728387408
+1729326776
