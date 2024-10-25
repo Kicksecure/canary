@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 19 Oct 2024 08:32:31 +0000
+Fri, 25 Oct 2024 16:02:18 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "It Already Is War!": A Vast Wave of Drugs and Violence Is Catching Germany Off Guard
+Title: Fighting the Military Junta: How a Poet Became a Militia Leader in Myanmar
 Title: Ex-NATO Secretary General Stoltenberg: "Lack of Military Support Made It Easier for Russia to Invade"
 Title: Species Protection Worries: Environmental Activists Cast Doubts on German Hydrogen Project in Namibia
 Title: Surrounded by War: The Christians of Lebanon Refuse to Evacuate
-Title: Creditors Left High and Dry: The Search for the Vanished Billions of the Benko Empire
-Title: "Mama, Pray for Me": The Women Soldiers Who Warned Israel of the Approaching Attack
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Drone 'launched towards' Israeli PM Netanyahu's home
-Title: 'Merchants of death' trial steps up fight against Channel smugglers
-Title: Liam Payne's father reads tributes outside hotel where son died
-Title: Cuba suffers nationwide blackout after main power plant fails
-Title: Meet the Tiktokers buying up Japan’s empty homes
+Title: ‘Death trap’ Channel boats traded by smugglers in German city - BBC undercover
+Title: Kurdish militant group behind attack on Turkish aerospace firm
+Title: Obama and celebrities rally to shore up Harris in Georgia
+Title: Online killer McCartney 'robbed us of granddaughter'
+Title: Menendez brothers should be freed on parole, says top prosecutor
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Somali security agents arrest journalist in night-time raid
-Title: ‘My dream has been shattered,’ says Nigerian nurse accused of cheating after arriving in UK
-Title: Kenyan political drama as deputy president impeached while in hospital
-Title: Netherlands mulls sending rejected African asylum seekers to Uganda
-Title: Negative stereotypes in international media cost Africa £3.2bn a year – report
+Title: Mozambique ruling party declared winner of election marred by killings
+Title: Biodiversity declining even faster in ‘protected’ areas, scientists warn Cop16
+Title: Four in 10 deaths in war zones last year were women, UN report finds
+Title: EU refuses to publish findings of Tunisia human rights inquiry
+Title: Breakdown in global order causing progress to stall in Africa – report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-866324
+867317
 $ date -u +%s
-1729326776
+1729872149
