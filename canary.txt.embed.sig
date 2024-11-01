@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETp73hXJXbN31cV4JJSnURkNBNUlF3eLM7MlXZIzX+oXXyWbZy7lwJ/guHJCDHd7joi6+9rHg0jjB++34k83ahgY=
+RWQ6KRormNEETvX1vly36LYxqP8/UOtn/Jjv6fwVNQrTuWomhitN1q1Hz1B/GAXshyIDZK3JuCVlVAPBn9IZ3aNPkmVPjda7Rws=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 25 Oct 2024 16:02:18 +0000
+Fri, 01 Nov 2024 16:21:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Bad Business in the U.S.: Volkswagen Facing Yet Another Crisis
+Title: An Israeli-Palestinian Friendship: "I Feel So Guilty. I Don't Know If It Will Ever Go Away"
 Title: "It Already Is War!": A Vast Wave of Drugs and Violence Is Catching Germany Off Guard
 Title: Fighting the Military Junta: How a Poet Became a Militia Leader in Myanmar
 Title: Ex-NATO Secretary General Stoltenberg: "Lack of Military Support Made It Easier for Russia to Invade"
-Title: Species Protection Worries: Environmental Activists Cast Doubts on German Hydrogen Project in Namibia
-Title: Surrounded by War: The Christians of Lebanon Refuse to Evacuate
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: ‘Death trap’ Channel boats traded by smugglers in German city - BBC undercover
-Title: Kurdish militant group behind attack on Turkish aerospace firm
-Title: Obama and celebrities rally to shore up Harris in Georgia
-Title: Online killer McCartney 'robbed us of granddaughter'
-Title: Menendez brothers should be freed on parole, says top prosecutor
+Title: Trapped in cars and garages: Why Valencia floods proved so deadly
+Title: What happened to the young girl captured in a photograph of Gaza detainees
+Title: Eight dead in Serbia railway station canopy collapse
+Title: Georgian vote result makes no statistical sense - Western pollsters
+Title: Instagram-famous squirrel seized by US authorities 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Mozambique ruling party declared winner of election marred by killings
-Title: Biodiversity declining even faster in ‘protected’ areas, scientists warn Cop16
-Title: Four in 10 deaths in war zones last year were women, UN report finds
-Title: EU refuses to publish findings of Tunisia human rights inquiry
-Title: Breakdown in global order causing progress to stall in Africa – report
+Title: Botswana president concedes defeat in election after party’s six-decade rule
+Title: Weather tracker: More rain forecast in Spain as storms push in
+Title: Not one government has paid into fund for victims of Uganda warlord, says ICC
+Title: Almost two dozen countries at high risk of acute hunger, UN report reveals
+Title: Sudan militia accused of mass killings and sexual violence as attacks escalate
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-867317
+868429
 $ date -u +%s
-1729872149
+1730478129
