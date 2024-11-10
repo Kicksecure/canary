@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 06 Nov 2024 17:06:49 +0000
+Sun, 10 Nov 2024 12:14:30 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Donald Trump and the New World Order: The End of the West
 Title: The End of Globalization?: Germany's Successful Economic Model Could Be Finished
 Title: ICC Chief Prosecutor Karim Khan: "Should I Wait Until Everybody’s Dead?"
 Title: Bad Business in the U.S.: Volkswagen Facing Yet Another Crisis
 Title: An Israeli-Palestinian Friendship: "I Feel So Guilty. I Don't Know If It Will Ever Go Away"
-Title: "It Already Is War!": A Vast Wave of Drugs and Violence Is Catching Germany Off Guard
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: How Trump pulled off an incredible comeback
-Title: Netanyahu and Starmer lead congratulations to Trump
-Title: What Trump's win means for Ukraine, Middle East and China
-Title: What Musk could gain from a Trump presidency
-Title: Six states expand abortion protections as Florida ballot fails
+Title: Russia suffers worst month for casualties, says UK defence chief
+Title: Israeli strike on Gaza house kills many, medics and rescuers say
+Title: Irish man suspected of killing US nurse arrested in Hungary
+Title: Emergency official ordered storm crews not to help Trump voters
+Title: Massive sex tape leak could be a ploy for power in Equatorial Guinea
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Burkina Faso wants to reinstate death penalty, government source says
+Title: ‘Africa in a glass’: Abidjan cocktail week mixes local flavours for global palates
 Title: US cancels $1.1bn of Somalia’s debt in ‘historic’ financial agreement
 Title: Death toll rises as protesters rage against Mozambique election result
 Title: Botswana president concedes defeat in election after party’s six-decade rule
-Title: Weather tracker: More rain forecast in Spain as storms push in
-Title: Not one government has paid into fund for victims of Uganda warlord, says ICC
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-869153
+869702
 $ date -u +%s
-1730912819
+1731240885
