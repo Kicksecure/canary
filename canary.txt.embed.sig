@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuPE3/xYd7zsup/RxJ8ZmmOtu7qld0Xh7nDIb+b6TxYWrh6TQe8QEF1cXSf4Ow+pQ6unm9OR/KOijwLtMsLZ0w8=
+RWQ6KRormNEETq4Xvt4WZf2LloTfHkBNH4C7AX7SloK7hK/huzHBGRGR3HTYXoHlJSsml7EN/zkhd8+ucUv+pNrrkijexAKFcQQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 10 Nov 2024 12:14:30 +0000
+Fri, 15 Nov 2024 11:29:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Brutality in the Desert: A Notorious Human Trafficker on Trial in the Netherlands
+Title: Whither the Global Economy?: "Many of the People Around Trump Subscribe to Crazy Ideas"
+Title: Domestic Violence in Romania and Moldova: Killing Because She Wants to Live
+Title: The End of the German Government: How Chancellor Olaf Scholz Brought His Coalition to an End
 Title: Donald Trump and the New World Order: The End of the West
-Title: The End of Globalization?: Germany's Successful Economic Model Could Be Finished
-Title: ICC Chief Prosecutor Karim Khan: "Should I Wait Until Everybody’s Dead?"
-Title: Bad Business in the U.S.: Volkswagen Facing Yet Another Crisis
-Title: An Israeli-Palestinian Friendship: "I Feel So Guilty. I Don't Know If It Will Ever Go Away"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Russia suffers worst month for casualties, says UK defence chief
-Title: Israeli strike on Gaza house kills many, medics and rescuers say
-Title: Irish man suspected of killing US nurse arrested in Hungary
-Title: Emergency official ordered storm crews not to help Trump voters
-Title: Massive sex tape leak could be a ploy for power in Equatorial Guinea
+Title: UN climate talks 'no longer fit for purpose' say key experts
+Title: US hacker sentenced over Bitcoin heist worth billions
+Title: Sri Lanka: Left-leaning leader's coalition claims victory
+Title: Ten dead in fire at Spanish care home
+Title: The missing puzzle piece in India’s child stunting crisis
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Burkina Faso wants to reinstate death penalty, government source says
-Title: ‘Africa in a glass’: Abidjan cocktail week mixes local flavours for global palates
-Title: US cancels $1.1bn of Somalia’s debt in ‘historic’ financial agreement
-Title: Death toll rises as protesters rage against Mozambique election result
-Title: Botswana president concedes defeat in election after party’s six-decade rule
+Title: UK court sides with Icelandic firm over artist’s spoof corruption apology
+Title: French military systems in Sudan may break UN arms embargo, says Amnesty
+Title: Fears for spread of malaria in Africa as study finds resistance to frontline drug
+Title: ‘I have lost everything’: southern Africa battles hunger amid historic drought
+Title: South African tiger farms illegally smuggling body parts, says charity
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-869702
+870400
 $ date -u +%s
-1731240885
+1731670203
