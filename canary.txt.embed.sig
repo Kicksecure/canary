@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETq4Xvt4WZf2LloTfHkBNH4C7AX7SloK7hK/huzHBGRGR3HTYXoHlJSsml7EN/zkhd8+ucUv+pNrrkijexAKFcQQ=
+RWQ6KRormNEETozOK7f8Z2YW/s58PRZEcUaTu9BFqmKlAMCsYUmLV4bX6ByTAOcgzh1UMZAlHrrS8KyF31C5ZuCKFboAAzXV3wI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 15 Nov 2024 11:29:48 +0000
+Mon, 25 Nov 2024 23:29:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Angela Merkel's Memoirs: An Interview with the Former Chancellor about Her Tenure
+Title: Germany's New Elections: What Would a Chancellor Merz Do Differently?
 Title: Brutality in the Desert: A Notorious Human Trafficker on Trial in the Netherlands
 Title: Whither the Global Economy?: "Many of the People Around Trump Subscribe to Crazy Ideas"
 Title: Domestic Violence in Romania and Moldova: Killing Because She Wants to Live
-Title: The End of the German Government: How Chancellor Olaf Scholz Brought His Coalition to an End
-Title: Donald Trump and the New World Order: The End of the West
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: UN climate talks 'no longer fit for purpose' say key experts
-Title: US hacker sentenced over Bitcoin heist worth billions
-Title: Sri Lanka: Left-leaning leader's coalition claims victory
-Title: Ten dead in fire at Spanish care home
-Title: The missing puzzle piece in India’s child stunting crisis
+Title: Israel and Hezbollah close to Lebanon ceasefire deal
+Title: Sixteen missing after Red Sea tourist boat sinks
+Title: Judge dismisses special counsel's election case against Trump
+Title: Angela Merkel defends ties with Russia and blocking Ukraine from Nato
+Title: Prosecutors demand 20-year jail sentence for husband in mass rape trial
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: UK court sides with Icelandic firm over artist’s spoof corruption apology
-Title: French military systems in Sudan may break UN arms embargo, says Amnesty
-Title: Fears for spread of malaria in Africa as study finds resistance to frontline drug
-Title: ‘I have lost everything’: southern Africa battles hunger amid historic drought
-Title: South African tiger farms illegally smuggling body parts, says charity
+Title: Two Britons among 16 missing after tourist boat capsizes in Red Sea
+Title: Weather tracker: Swaths of Canada braced for heavy snow
+Title: Islamic State is primed to be thorn in the side of incoming Trump administration
+Title: As Band Aid marks 40th anniversary critics take aim at Africa stereotypes
+Title: Hungary invites Netanyahu to visit as world leaders split over ICC arrest warrant
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-870400
+871987
 $ date -u +%s
-1731670203
+1732577365
