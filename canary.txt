@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 27 Nov 2024 14:17:36 +0000
+Thu, 28 Nov 2024 19:08:31 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Angela Merkel's Memoirs: An Interview with the Former Chancellor about Her Tenure
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel-Hezbollah ceasefire begins after year of conflict
-Title: Diver describes 'complex operation' to find Egypt boat survivors
-Title: ICC prosecutor seeks arrest warrant for Myanmar leader 
-Title: Officer who Tasered 95-year-old guilty of manslaughter
-Title: 'It's going to be hard': US firms race to get ahead of Trump tariffs
+Title: Putin threatens Kyiv decision-makers after striking energy grid
+Title: Israel building new military dividing line across Gaza, satellite images suggest
+Title: Australian Senate approves social media ban on under-16s
+Title: Zimbabwe parliament hit by power cut during budget speech
+Title: At least 113 people missing after Uganda landslide - police
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Military vehicle mows down woman as post-election protests roil Mozambique
 Title: British mother of Egyptian political prisoner to press Lammy to take action
 Title: Namibia goes to polls amid anger at high unemployment rate
 Title: Catholic priest accused of sexual assault fathered children of victims, court hears
 Title: Four bodies recovered from Red Sea day after tourist boat capsizes
-Title: Thirty-five million Africans driven from homes by war and climate disasters – report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-872204
+872370
 $ date -u +%s
-1732717071
+1732820926
