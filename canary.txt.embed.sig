@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETk/kc1PPxdRzLW/jmWN6op2rns7WTFOIxscQJnwHY9LwmMUTCfCJ4U3Op7K0DjDACrM7Ui7jk+jQ9+kSWdCu9Ak=
+RWQ6KRormNEEThwJKMCWlLrNFwlwNnEdN0rZjf4abBn3iPTuZhHHZ2uRR3JbpRM43ZpaJAhlt+aiacd7ZykkAQ5lqG0y8lErrQs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 19 Dec 2024 07:07:28 +0000
+Tue, 24 Dec 2024 06:05:32 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Israeli Settlement Plans: "Within a Year, We Will Be Living in Gaza"
 Title: France's New Feminist Hero: Protocol of Gisèle Pelicot's Quest for Justice in Avignon
 Title: A Visit to Sednaya Prison: The Cold Heart of Syria's Machinery of Murder
 Title: Examining DER SPIEGEL's Climate Change Coverage: Knowing Ignorance
 Title: Daughter of Iranian Activist Jamshid Sharmahd: "It Is a Terrorist Regime, Not a State"
-Title: What Role Will the U.S. Play in the World?: "Trump Has Never Been an Isolationist"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Syria not a threat to world, rebel leader Ahmed al-Sharaa tells BBC
-Title: Rare accounts of life for women inside notorious Iranian prison
-Title: At least 100 North Koreans dead in Ukraine war, says South
-Title: Man admits running secret Chinese 'police station' in NYC
-Title: Russia detains Uzbek man over general's killing in Moscow
+Title: Trump ally Gaetz paid 'tens of thousands' for sex and drugs, ethics report says
+Title: Biden commutes most federal death sentences
+Title: Justin Baldoni women's solidarity award rescinded amid allegations
+Title: On patrol with Kenyan forces inside Haiti's gang warzone
+Title: Spacecraft attempts closest ever approach to Sun
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Cyclone Chido deaths rise in south-east Africa as Mayotte toll remains unclear
-Title: More than 140 Kenya Facebook moderators diagnosed with severe PTSD
-Title: ‘The work damaged me’: ex-Facebook moderators describe effect of horrific content
-Title: UK government denies rift with Mauritian PM over Chagos Islands deal
-Title: Cyclone Chido: many missing in Mayotte as death toll rises in south-east Africa
+Title: UAE becomes Africa’s biggest investor amid rights concerns
+Title: Mozambique’s top court confirms election result after months of protest
+Title: Ethiopian resistance hero’s family tries to reclaim medal taken by Italian troops
+Title: Mozambique on edge before ruling on disputed election results
+Title: Ferry capsizes in Congo killing 38 and leaving 100 more missing
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-875407
+876124
 $ date -u +%s
-1734592062
+1735020344
