@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 24 Dec 2024 06:05:32 +0000
+Sun, 29 Dec 2024 13:13:30 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Israeli Settlement Plans: "Within a Year, We Will Be Living in Gaza"
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump ally Gaetz paid 'tens of thousands' for sex and drugs, ethics report says
-Title: Biden commutes most federal death sentences
-Title: Justin Baldoni women's solidarity award rescinded amid allegations
-Title: On patrol with Kenyan forces inside Haiti's gang warzone
-Title: Spacecraft attempts closest ever approach to Sun
+Title: Georgia's outgoing president refuses to quit as successor sworn in
+Title: As Putin reaches 25 years in power, has he 'taken care of Russia'?
+Title: Inside a Syrian 'reconciliation centre' where Assad's soldiers give up their weapons
+Title: Putin apologises over Azerbaijan plane crash, without saying Russia at fault
+Title: School chaplain killed in shark attack on Australia's Great Barrier Reef
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: UAE becomes Africa’s biggest investor amid rights concerns
-Title: Mozambique’s top court confirms election result after months of protest
-Title: Ethiopian resistance hero’s family tries to reclaim medal taken by Italian troops
-Title: Mozambique on edge before ruling on disputed election results
-Title: Ferry capsizes in Congo killing 38 and leaving 100 more missing
+Title: Beaches, beer and a rare suspended lake … why can’t Nigeria attract more tourists?
+Title: UN authorises new mission against al-Shabaab in Somalia
+Title: ‘We have to change our attitude’: wildlife expert says rhino horn trade must be legalised
+Title: Almost one in five children live in conflict zones, says Unicef
+Title: Sudan: first aid convoy reaches besieged Khartoum area since start of civil war
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-876124
+876906
 $ date -u +%s
-1735020344
+1735478028
