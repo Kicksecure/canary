@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 29 Dec 2024 13:13:30 +0000
+Fri, 10 Jan 2025 15:50:52 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Israeli Settlement Plans: "Within a Year, We Will Be Living in Gaza"
-Title: France's New Feminist Hero: Protocol of Gisèle Pelicot's Quest for Justice in Avignon
-Title: A Visit to Sednaya Prison: The Cold Heart of Syria's Machinery of Murder
-Title: Examining DER SPIEGEL's Climate Change Coverage: Knowing Ignorance
-Title: Daughter of Iranian Activist Jamshid Sharmahd: "It Is a Terrorist Regime, Not a State"
+Title: A Miracle? Pope Francis Helps Transsexual Prostitutes in Rome
+Title: Boost for the Right Wing: Why Did a German Newspaper Help Elon Musk Interfere in German Politics?
+Title: We Know Where You Parked: Massive Data Breach at VW Raises Questions about Vehicle Privacy
+Title: Artificial Intelligence and Deepfakes: The Growing Problem of Fake Porn Images
+Title: One of the Most Dangerous Routes in the World: The Darién Gap Migrant Highway, Courtesy of the Mafia
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Georgia's outgoing president refuses to quit as successor sworn in
-Title: As Putin reaches 25 years in power, has he 'taken care of Russia'?
-Title: Inside a Syrian 'reconciliation centre' where Assad's soldiers give up their weapons
-Title: Putin apologises over Azerbaijan plane crash, without saying Russia at fault
-Title: School chaplain killed in shark attack on Australia's Great Barrier Reef
+Title: Anger after fire evacuation alert sent in error to millions in LA
+Title: Mel Gibson says his home burned down in LA fires
+Title: 2024 first year to pass 1.5C global warming limit
+Title: Danes struggle with response to Trump Greenland threat
+Title: Bride's fury after Instagram stunt wedding turns out to be real
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Beaches, beer and a rare suspended lake … why can’t Nigeria attract more tourists?
-Title: UN authorises new mission against al-Shabaab in Somalia
-Title: ‘We have to change our attitude’: wildlife expert says rhino horn trade must be legalised
-Title: Almost one in five children live in conflict zones, says Unicef
-Title: Sudan: first aid convoy reaches besieged Khartoum area since start of civil war
+Title: South Africa police find 26 naked Ethiopians held by suspected traffickers
+Title: Kenya court rules that criminalising attempted suicide is unconstitutional
+Title: Libya expels 600 Nigeriens in ‘dangerous and traumatising’ desert journey
+Title: Mozambique opposition leader returns after post-election violence
+Title: Malawi sees influx of refugees from post-election violence in Mozambique
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-876906
+878650
 $ date -u +%s
-1735478028
+1736524266
