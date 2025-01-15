@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 10 Jan 2025 15:50:52 +0000
+Wed, 15 Jan 2025 15:05:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Chancellor Kickl?: The Right-Wing FPÖ Reaches for Power in Austria
 Title: A Miracle? Pope Francis Helps Transsexual Prostitutes in Rome
 Title: Boost for the Right Wing: Why Did a German Newspaper Help Elon Musk Interfere in German Politics?
 Title: We Know Where You Parked: Massive Data Breach at VW Raises Questions about Vehicle Privacy
 Title: Artificial Intelligence and Deepfakes: The Growing Problem of Fake Porn Images
-Title: One of the Most Dangerous Routes in the World: The Darién Gap Migrant Highway, Courtesy of the Mafia
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Anger after fire evacuation alert sent in error to millions in LA
-Title: Mel Gibson says his home burned down in LA fires
-Title: 2024 first year to pass 1.5C global warming limit
-Title: Danes struggle with response to Trump Greenland threat
-Title: Bride's fury after Instagram stunt wedding turns out to be real
+Title: S Korea impeached president arrested after investigators scale walls
+Title: 'My country is in crisis': A divided South Korea grapples with Yoon's arrest
+Title: Israel and Hamas make final push for Gaza ceasefire deal
+Title: LA faces 'extreme fire danger' as high winds forecast
+Title: Pope drama and Spanish-language musical lead Bafta race
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: South Africa police find 26 naked Ethiopians held by suspected traffickers
-Title: Kenya court rules that criminalising attempted suicide is unconstitutional
-Title: Libya expels 600 Nigeriens in ‘dangerous and traumatising’ desert journey
-Title: Mozambique opposition leader returns after post-election violence
-Title: Malawi sees influx of refugees from post-election violence in Mozambique
+Title: Suspected outbreak of deadly Marburg virus disease kills eight in Tanzania
+Title: Halt illegal imports of conflict minerals from DRC, campaigners urge EU
+Title: Bodies recovered from illegal goldmine in South Africa where many feared dead
+Title: South Africa launches operation at illegal gold mine amid fears many dead
+Title: Cyclone Dikeledi kills three in Madagascar, and Mayotte is hit again
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-878650
+879373
 $ date -u +%s
-1736524266
+1736953563
