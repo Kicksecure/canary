@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETr8lx2iGZBiWHGzzsWDpKdXu+/NnEh9uOpmjgrN09trX/mIemm8jZhuJA1vKb/RU7LD8ta05XE7COvWex5GoWAI=
+RWQ6KRormNEETn0edIaOdmCQe4UYIXyt7csQxaFfbN9hNokNsK/pg3iL7AAbYP+hclcoEb4BccZlanhYkoFerI1gEd9oMWmZuQw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 15 Jan 2025 15:05:53 +0000
+Wed, 15 Jan 2025 15:38:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Chancellor Kickl?: The Right-Wing FPÖ Reaches for Power in Austria
@@ -70,13 +70,13 @@ Title: LA faces 'extreme fire danger' as high winds forecast
 Title: Pope drama and Spanish-language musical lead Bafta race
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: UK stalls Chagos Islands deal until Trump administration can ‘consider detail’
 Title: Suspected outbreak of deadly Marburg virus disease kills eight in Tanzania
 Title: Halt illegal imports of conflict minerals from DRC, campaigners urge EU
 Title: Bodies recovered from illegal goldmine in South Africa where many feared dead
 Title: South Africa launches operation at illegal gold mine amid fears many dead
-Title: Cyclone Dikeledi kills three in Madagascar, and Mayotte is hit again
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-879373
+879374
 $ date -u +%s
-1736953563
+1736955533
