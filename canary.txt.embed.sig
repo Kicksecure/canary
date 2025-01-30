@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETn0edIaOdmCQe4UYIXyt7csQxaFfbN9hNokNsK/pg3iL7AAbYP+hclcoEb4BccZlanhYkoFerI1gEd9oMWmZuQw=
+RWQ6KRormNEETpisnth5cQwdAPb3DxWeLlcsD+0auEZUojm0Z0HIzrxVdjKmyvMVO/QMTyJdCcwmm6fUd9gT3DTwtCaABTBXGww=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 15 Jan 2025 15:38:44 +0000
+Thu, 30 Jan 2025 14:36:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Chancellor Kickl?: The Right-Wing FPÖ Reaches for Power in Austria
-Title: A Miracle? Pope Francis Helps Transsexual Prostitutes in Rome
-Title: Boost for the Right Wing: Why Did a German Newspaper Help Elon Musk Interfere in German Politics?
-Title: We Know Where You Parked: Massive Data Breach at VW Raises Questions about Vehicle Privacy
-Title: Artificial Intelligence and Deepfakes: The Growing Problem of Fake Porn Images
+Title: Manipulation from Abroad: German Election Campaign Flooded with Fake News and Videos
+Title: Ukraine Is Running Out of People - A Demographic Catastrophe
+Title: Finland Confronts Its WWII History: "If You Only Knew How Many Jews I Have Shot"
+Title: Interview with Pelicot Daughter Caroline Darian: "My Father No Longer Exists for Me"
+Title: Katya, Ira and Zhenya Take on Putin: The Difficulties of Protesting the War in Russia
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: S Korea impeached president arrested after investigators scale walls
-Title: 'My country is in crisis': A divided South Korea grapples with Yoon's arrest
-Title: Israel and Hamas make final push for Gaza ceasefire deal
-Title: LA faces 'extreme fire danger' as high winds forecast
-Title: Pope drama and Spanish-language musical lead Bafta race
+Title: What we know so far about Washington DC plane crash
+Title: Trump says US will send some migrants to Guantanamo Bay
+Title: Zuma's daughter faces terrorism charges over South Africa riots
+Title: Man who burned Quran 'shot dead in Sweden'
+Title: Five skiers killed in French Alps avalanches 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: UK stalls Chagos Islands deal until Trump administration can ‘consider detail’
-Title: Suspected outbreak of deadly Marburg virus disease kills eight in Tanzania
-Title: Halt illegal imports of conflict minerals from DRC, campaigners urge EU
-Title: Bodies recovered from illegal goldmine in South Africa where many feared dead
-Title: South Africa launches operation at illegal gold mine amid fears many dead
+Title: Jailed British-Egyptian dissident may give up both citizenships over failure to be released
+Title: Lammy tells Rwanda it is putting $1bn in aid ‘under threat’ in DRC invasion
+Title: Fighting between DRC army and M23 rebels rages in eastern city of Goma
+Title: Giorgia Meloni says she is under investigation for repatriation of Libyan warlord
+Title: Italy sends 49 refugees to Albania in bid to resume disputed scheme
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-879374
+881504
 $ date -u +%s
-1736955533
+1738247800
