@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 30 Jan 2025 14:36:17 +0000
+Sun, 02 Feb 2025 15:35:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Manipulation from Abroad: German Election Campaign Flooded with Fake News and Videos
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: What we know so far about Washington DC plane crash
-Title: Trump says US will send some migrants to Guantanamo Bay
-Title: Zuma's daughter faces terrorism charges over South Africa riots
-Title: Man who burned Quran 'shot dead in Sweden'
-Title: Five skiers killed in French Alps avalanches 
+Title: 'Is it for a day or four years?' Tariff uncertainty spooks small businesses
+Title: Shelling at busy Sudanese market 'fills mortuary with bodies'
+Title: Four dead in Russian strike on Kursk school, Ukraine says
+Title: Thousands flee homes as floods hit Australia
+Title: Santorini to shut schools as tremors rattle island
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Jailed British-Egyptian dissident may give up both citizenships over failure to be released
-Title: Lammy tells Rwanda it is putting $1bn in aid ‘under threat’ in DRC invasion
-Title: Fighting between DRC army and M23 rebels rages in eastern city of Goma
-Title: Giorgia Meloni says she is under investigation for repatriation of Libyan warlord
-Title: Italy sends 49 refugees to Albania in bid to resume disputed scheme
+Title: Pressure grows on EU to freeze minerals deal with Rwanda over DRC fighting
+Title: Trump aid spending freeze halts leading malaria vaccine programme
+Title: At least 770 killed in Goma, east DRC, in fighting with Rwanda-backed M23
+Title: Trump airstrikes target ‘senior IS attack planner’ in Somalia
+Title: Dozens killed as opposition RSF forces attack open market in Sudan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-881504
+881996
 $ date -u +%s
-1738247800
+1738510526
