@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 02 Feb 2025 15:35:14 +0000
+Tue, 04 Feb 2025 11:04:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Manipulation from Abroad: German Election Campaign Flooded with Fake News and Videos
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'Is it for a day or four years?' Tariff uncertainty spooks small businesses
-Title: Shelling at busy Sudanese market 'fills mortuary with bodies'
-Title: Four dead in Russian strike on Kursk school, Ukraine says
-Title: Thousands flee homes as floods hit Australia
-Title: Santorini to shut schools as tremors rattle island
+Title: Trump sows uncertainty - and Xi Jinping sees an opportunity
+Title: Trump's trade war with neighbours is delayed - what did they all get out of it?
+Title: El Salvador offers to lock up US criminals in its mega-jail
+Title: Second woman confirmed dead in Australia's floods
+Title: Rebels declare ceasefire in DR Congo for 'humanitarian reasons'
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Rwandan-backed rebel group M23 declares unilateral ceasefire in DRC
+Title: Trump says he will cut off funding to South Africa over land ‘confiscations’
+Title: Tiny Nigerian museum marking a forgotten British invasion pushes for recognition
 Title: Pressure grows on EU to freeze minerals deal with Rwanda over DRC fighting
 Title: Trump aid spending freeze halts leading malaria vaccine programme
-Title: At least 770 killed in Goma, east DRC, in fighting with Rwanda-backed M23
-Title: Trump airstrikes target ‘senior IS attack planner’ in Somalia
-Title: Dozens killed as opposition RSF forces attack open market in Sudan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-881996
+882262
 $ date -u +%s
-1738510526
+1738667078
