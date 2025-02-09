@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgXkR/xOgUV+vbBFAQKvhdOh/Nd666ENpcGkHqWWKCB0ldoqPcAi2YpaEGCsYjC8GmI1WqCwPo8U8gjphh4VSQA=
+RWQ6KRormNEETpxnZtXQmvicycKl7EKRu5Y1MRfBJ07rRnFRRExazOQcLkgt4vSNHhE5Qc1l+JDkc8CLfR6qcp30ZlN8703DOwY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 04 Feb 2025 11:04:24 +0000
+Sun, 09 Feb 2025 13:08:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Putting Nuuk on the Map: Trump's Interest in Greenland Fuels Urge for Independence
 Title: Manipulation from Abroad: German Election Campaign Flooded with Fake News and Videos
 Title: Ukraine Is Running Out of People - A Demographic Catastrophe
 Title: Finland Confronts Its WWII History: "If You Only Knew How Many Jews I Have Shot"
 Title: Interview with Pelicot Daughter Caroline Darian: "My Father No Longer Exists for Me"
-Title: Katya, Ira and Zhenya Take on Putin: The Difficulties of Protesting the War in Russia
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump sows uncertainty - and Xi Jinping sees an opportunity
-Title: Trump's trade war with neighbours is delayed - what did they all get out of it?
-Title: El Salvador offers to lock up US criminals in its mega-jail
-Title: Second woman confirmed dead in Australia's floods
-Title: Rebels declare ceasefire in DR Congo for 'humanitarian reasons'
+Title: Israel troops withdraw from corridor that split Gaza in two
+Title: Germany's front-runner Merz: Risk-taker who flirted with far right
+Title: Trump administration to cut billions from overheads in biomedical research 
+Title: Sri Lanka hit by nationwide power cut
+Title: Sam Nujoma, first president of Namibia, dies aged 95
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Rwandan-backed rebel group M23 declares unilateral ceasefire in DRC
-Title: Trump says he will cut off funding to South Africa over land ‘confiscations’
-Title: Tiny Nigerian museum marking a forgotten British invasion pushes for recognition
-Title: Pressure grows on EU to freeze minerals deal with Rwanda over DRC fighting
-Title: Trump aid spending freeze halts leading malaria vaccine programme
+Title: Sam Nujoma, Namibia’s first president, dies aged 95
+Title: Rwandan and Congolese leaders join summit on eastern DRC conflict
+Title: Sudanese military reports sweeping gains in battle for capital
+Title: ‘Worst nightmare’: Egypt and Jordan put in impossible bind by Trump Gaza plan
+Title: Authoritarian regimes around the world cheer on dismantling of USAid
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-882262
+883030
 $ date -u +%s
-1738667078
+1739106533
