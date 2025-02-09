@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETpxnZtXQmvicycKl7EKRu5Y1MRfBJ07rRnFRRExazOQcLkgt4vSNHhE5Qc1l+JDkc8CLfR6qcp30ZlN8703DOwY=
+RWQ6KRormNEETlNwgfJB7fnOjPo5RUox9AkLAAlV2TxvYeOmtcDcgFBTXcD97UFrP1tbphd6aQmZF9wf2iagjhqZHcxiX0wOeQ0=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 09 Feb 2025 13:08:38 +0000
+Sun, 09 Feb 2025 21:14:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Putting Nuuk on the Map: Trump's Interest in Greenland Fuels Urge for Independence
@@ -64,10 +64,10 @@ Title: Silicon Valley Bank collapse renews calls to address disparities impactin
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Israel troops withdraw from corridor that split Gaza in two
+Title: Baltic states unplug from Russia and join EU power grid
+Title: Bodies of migrants found in Libya mass grave, authorities say
+Title: Kosovo PM's party leading but short of majority, exit poll shows
 Title: Germany's front-runner Merz: Risk-taker who flirted with far right
-Title: Trump administration to cut billions from overheads in biomedical research 
-Title: Sri Lanka hit by nationwide power cut
-Title: Sam Nujoma, first president of Namibia, dies aged 95
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Sam Nujoma, Namibia’s first president, dies aged 95
@@ -77,6 +77,6 @@ Title: ‘Worst nightmare’: Egypt and Jordan put in impossible bind by Trump G
 Title: Authoritarian regimes around the world cheer on dismantling of USAid
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-883030
+883084
 $ date -u +%s
-1739106533
+1739135698
