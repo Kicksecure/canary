@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlNwgfJB7fnOjPo5RUox9AkLAAlV2TxvYeOmtcDcgFBTXcD97UFrP1tbphd6aQmZF9wf2iagjhqZHcxiX0wOeQ0=
+RWQ6KRormNEETm5zomu+5fs4lMJI+CZEQ7R1/9ee4CSD/9HKTefsm9cT5ZkJ1ELC7TTuAtsyoCQalMbJMNfs+6IIKfzHGWFtAQA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 09 Feb 2025 21:14:44 +0000
+Fri, 14 Feb 2025 03:25:52 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Phantom Terrorists: Searching for Islamic State in Syria
+Title: Life after Hamas Captivity: "The First Time in 484 Days that I Woke Up without Fear"
 Title: Putting Nuuk on the Map: Trump's Interest in Greenland Fuels Urge for Independence
 Title: Manipulation from Abroad: German Election Campaign Flooded with Fake News and Videos
 Title: Ukraine Is Running Out of People - A Demographic Catastrophe
-Title: Finland Confronts Its WWII History: "If You Only Knew How Many Jews I Have Shot"
-Title: Interview with Pelicot Daughter Caroline Darian: "My Father No Longer Exists for Me"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel troops withdraw from corridor that split Gaza in two
-Title: Baltic states unplug from Russia and join EU power grid
-Title: Bodies of migrants found in Libya mass grave, authorities say
-Title: Kosovo PM's party leading but short of majority, exit poll shows
-Title: Germany's front-runner Merz: Risk-taker who flirted with far right
+Title: Zelensky says no peace deal without Ukraine involvement
+Title: TikTok returns to Apple and Google app stores in the US
+Title: Trump announces India energy deal after Modi talks
+Title: Watch moment man is swallowed by humpback whale
+Title: Starved, threatened and abused: Parents of freed Hamas hostages give details of ordeal
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Sam Nujoma, Namibia’s first president, dies aged 95
-Title: Rwandan and Congolese leaders join summit on eastern DRC conflict
-Title: Sudanese military reports sweeping gains in battle for capital
-Title: ‘Worst nightmare’: Egypt and Jordan put in impossible bind by Trump Gaza plan
-Title: Authoritarian regimes around the world cheer on dismantling of USAid
+Title: Sudan says plan for first Russian naval base in Africa will go ahead
+Title: Climate crisis contributing to chocolate market meltdown, research finds
+Title: What Trump’s assault on USAid means for the world – podcast
+Title: Campaigner for migrants in Libya targeted in spyware attack
+Title: ‘Each of us is afraid’: Guinea’s junta leader tightens grip as opposition lies low
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-883084
+883670
 $ date -u +%s
-1739135698
+1739503565
