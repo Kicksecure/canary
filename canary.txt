@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 24 Feb 2025 07:52:43 +0000
+Mon, 24 Feb 2025 12:13:50 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Dolgopolov at the Front in Ukraine: "Tennis Prepared Me for War"
@@ -61,11 +61,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Germany's conservatives celebrate, but far right enjoy record result
-Title: Germany's Friedrich Merz: The risk-taker who flirted with far right
+Title: Friedrich Merz: Risk-taker who flirted with far right
 Title: Three years on, Ukraine's extinction nightmare has returned
-Title: Love, loss and duty: Ukraine's photojournalists share stories of war
 Title: NZ minister resigns after he 'placed hand' on staff's arm
+Title: The unseen map that promised to bring peace to the Middle East
+Title: Gaza ceasefire once again in doubt as first phase nears end
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: ‘You dream about such things’: Brit who discovered missing pharaoh’s tomb may have unearthed another
@@ -75,6 +75,6 @@ Title: Archaeologists discover 3,500 year-old tomb of ‘missing pharaoh’ in E
 Title: Nigeria sues crypto giant Binance for $81.5bn in economic losses and back tax
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-885084
+885108
 $ date -u +%s
-1740383576
+1740399246
