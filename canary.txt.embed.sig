@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETm5zomu+5fs4lMJI+CZEQ7R1/9ee4CSD/9HKTefsm9cT5ZkJ1ELC7TTuAtsyoCQalMbJMNfs+6IIKfzHGWFtAQA=
+RWQ6KRormNEETpXszM9XoPhiwypMcvuAfMHpLtV80uIJJac4hwbT1sHFf3OCgwGAYfocQaDW4W+MZezmByUKVnnVtlG4atNimA4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 14 Feb 2025 03:25:52 +0000
+Mon, 24 Feb 2025 07:52:43 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Dolgopolov at the Front in Ukraine: "Tennis Prepared Me for War"
+Title: Battlefield Disruption: German Military Seeks to Adapt as AI Changes Warfare
+Title: Chip Challenges: The Munich Contribution to Apple's New iPhone 16
+Title: "Let Us Die Together": A Reporter in Gaza Who Lost His Family
 Title: The Phantom Terrorists: Searching for Islamic State in Syria
-Title: Life after Hamas Captivity: "The First Time in 484 Days that I Woke Up without Fear"
-Title: Putting Nuuk on the Map: Trump's Interest in Greenland Fuels Urge for Independence
-Title: Manipulation from Abroad: German Election Campaign Flooded with Fake News and Videos
-Title: Ukraine Is Running Out of People - A Demographic Catastrophe
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Zelensky says no peace deal without Ukraine involvement
-Title: TikTok returns to Apple and Google app stores in the US
-Title: Trump announces India energy deal after Modi talks
-Title: Watch moment man is swallowed by humpback whale
-Title: Starved, threatened and abused: Parents of freed Hamas hostages give details of ordeal
+Title: Germany's conservatives celebrate, but far right enjoy record result
+Title: Germany's Friedrich Merz: The risk-taker who flirted with far right
+Title: Three years on, Ukraine's extinction nightmare has returned
+Title: Love, loss and duty: Ukraine's photojournalists share stories of war
+Title: NZ minister resigns after he 'placed hand' on staff's arm
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Sudan says plan for first Russian naval base in Africa will go ahead
-Title: Climate crisis contributing to chocolate market meltdown, research finds
-Title: What Trump’s assault on USAid means for the world – podcast
-Title: Campaigner for migrants in Libya targeted in spyware attack
-Title: ‘Each of us is afraid’: Guinea’s junta leader tightens grip as opposition lies low
+Title: ‘You dream about such things’: Brit who discovered missing pharaoh’s tomb may have unearthed another
+Title: Anglo American writes down value of diamond firm De Beers by $2.9bn
+Title: Trump’s dismantling of USAid raises risk of mpox global emergency, experts warn
+Title: Archaeologists discover 3,500 year-old tomb of ‘missing pharaoh’ in Egypt
+Title: Nigeria sues crypto giant Binance for $81.5bn in economic losses and back tax
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-883670
+885084
 $ date -u +%s
-1739503565
+1740383576
