@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnj5QshlpbrQnxL/xrkXeCyr99UYPo2wn4usd77tjLZ56MSfOghAxf18HFRef18JYV2+HO4P0QSv02bA7cJRWQ8=
+RWQ6KRormNEETq/7fpw17+j6EaRL2amzJVYS6azX2OhdYifsnZ1PFknlFZZghbCHZeNV16mKGHmbr8FHwdgCFZ8ollw6AFeLBgQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 03 Mar 2025 11:01:51 +0000
+Thu, 06 Mar 2025 01:59:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: A "Little Coalition" for Germany: Friedrich Merz Faces an Uphill Battle as negotiations in Berlin Heat Up
 Title: Three Years after the Invasion: The Churchill of Ukraine Seeks a New Role
 Title: Pankaj Mishra on the War in Gaza: Germany's Reputation Has Been Badly Tainted by its One-Sided Support for the Israeli Government"
 Title: Dolgopolov at the Front in Ukraine: "Tennis Prepared Me for War"
 Title: Battlefield Disruption: German Military Seeks to Adapt as AI Changes Warfare
-Title: Chip Challenges: The Munich Contribution to Apple's New iPhone 16
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Arab states and UN condemn Gaza aid blockade by Israel
-Title: Mother on trial over abduction of six-year-old daughter in South Africa
-Title: Australian whose blood saved 2.4 million babies dies
-Title: DR Congo defies pressure over talks with rebel M23
-Title: Crypto prices rally after Trump backs five coins for 'crypto reserve'
+Title: Europe 'at turning point in history', French president warns
+Title: US pauses intelligence sharing with Ukraine
+Title: Trump issues 'last warning' to Hamas as US confirms direct hostage talks
+Title: Bangladesh interim leader says he's 'dazzled' by task ahead
+Title: Gaza food prices spike after Israel halts aid deliveries
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Refugees in Kenya’s Kakuma camp clash with police after food supplies cut
+Title: Former Gabon youth coach banned for life by Fifa over sexual abuse of players
+Title: Campaigners celebrate court ruling to ‘decolonise’ Kampala
+Title: World Food Programme to close office in southern Africa after Trump aid cuts
 Title: Bukavu hospital patients tell of being shot in chaos of Congolese withdrawal
-Title: Macron says French-Algerian author under ‘arbitrary detention’ in Algeria
-Title: US shutdown of HIV/Aids funding ‘could lead to 500,000 deaths in South Africa’
-Title: Weather tracker: six cyclones swirl simultaneously in southern hemisphere
-Title: Trump administration ends funding for UN program fighting HIV/Aids
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-886129
+886496
 $ date -u +%s
-1740999724
+1741226408
