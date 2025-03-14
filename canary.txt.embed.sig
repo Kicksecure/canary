@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETq/7fpw17+j6EaRL2amzJVYS6azX2OhdYifsnZ1PFknlFZZghbCHZeNV16mKGHmbr8FHwdgCFZ8ollw6AFeLBgQ=
+RWQ6KRormNEETrdJD2LyECAGeUB2cmQ211v8UVAUbQ5GJ0S8DKmGegHin2PWS0Bc67enxaAytuQfahjIaW3l0crmXyswO57g1Ac=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 06 Mar 2025 01:59:48 +0000
+Fri, 14 Mar 2025 09:51:02 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: A "Little Coalition" for Germany: Friedrich Merz Faces an Uphill Battle as negotiations in Berlin Heat Up
-Title: Three Years after the Invasion: The Churchill of Ukraine Seeks a New Role
-Title: Pankaj Mishra on the War in Gaza: Germany's Reputation Has Been Badly Tainted by its One-Sided Support for the Israeli Government"
-Title: Dolgopolov at the Front in Ukraine: "Tennis Prepared Me for War"
-Title: Battlefield Disruption: German Military Seeks to Adapt as AI Changes Warfare
+Title: Code Name Caesar: The Man Who Photographed Assad's Torture Victims
+Title: Exploiting the Arctic?: "What Trump Wants to Do with Greenland Is a Mystery to Me"
+Title: Bye Bye U.S.: Europe Scrambles to Find Strategy in Trump's World
+Title: Trump vs. Europe: America Is Now an Adversary
+Title: Europe: Donald Trump Steers America Away from Allies and Towards Autocracies
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Europe 'at turning point in history', French president warns
-Title: US pauses intelligence sharing with Ukraine
-Title: Trump issues 'last warning' to Hamas as US confirms direct hostage talks
-Title: Bangladesh interim leader says he's 'dazzled' by task ahead
-Title: Gaza food prices spike after Israel halts aid deliveries
+Title: Putin sets out conditions for Ukraine ceasefire
+Title: Passengers evacuate on to wing of burning American Airlines jet
+Title: British man killed by president's convoy in Kenya hit-and-run
+Title: Syria leader signs temporary constitution for five-year transition
+Title: US influencer who snatched baby wombat has left Australia
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Refugees in Kenya’s Kakuma camp clash with police after food supplies cut
-Title: Former Gabon youth coach banned for life by Fifa over sexual abuse of players
-Title: Campaigners celebrate court ruling to ‘decolonise’ Kampala
-Title: World Food Programme to close office in southern Africa after Trump aid cuts
-Title: Bukavu hospital patients tell of being shot in chaos of Congolese withdrawal
+Title: Trump’s ‘drill, baby, drill’ agenda could keep the world hooked on oil and gas
+Title: Biased laws and poverty driving huge rise in female prisoners – report
+Title: Sierra Leone’s immigration chief fired after footage showed him with fugitive drug lord
+Title: Mother of teenage bride in South Sudan comes out of hiding to be with pregnant daughter
+Title: Drone attacks killing hundreds of civilians across Africa, says report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-886496
+887758
 $ date -u +%s
-1741226408
+1741945876
