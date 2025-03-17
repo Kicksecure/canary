@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 14 Mar 2025 09:51:02 +0000
+Mon, 17 Mar 2025 11:37:53 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Code Name Caesar: The Man Who Photographed Assad's Torture Victims
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Putin sets out conditions for Ukraine ceasefire
-Title: Passengers evacuate on to wing of burning American Airlines jet
-Title: British man killed by president's convoy in Kenya hit-and-run
-Title: Syria leader signs temporary constitution for five-year transition
-Title: US influencer who snatched baby wombat has left Australia
+Title: 'Everything is finished': Ukrainian troops relive retreat from Kursk
+Title: Peace deal must bar Ukraine from Nato, Russian official says
+Title: 'I had one child and I lost him' - North Macedonia mourns nightclub disaster
+Title: Fresh US strikes in Yemen with 53 now dead, Houthis say
+Title: US deports hundreds of Venezuelans despite court order
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Trump’s ‘drill, baby, drill’ agenda could keep the world hooked on oil and gas
-Title: Biased laws and poverty driving huge rise in female prisoners – report
-Title: Sierra Leone’s immigration chief fired after footage showed him with fugitive drug lord
-Title: Mother of teenage bride in South Sudan comes out of hiding to be with pregnant daughter
-Title: Drone attacks killing hundreds of civilians across Africa, says report
+Title: US evangelical groups urge Trump to spare HIV/Aids program from aid cuts
+Title: ‘We are all Natasha’: senator’s sexual harassment claims roil Nigeria
+Title: Marco Rubio says South Africa’s ambassador to US is ‘no longer welcome’
+Title: Sudan rejects US request to discuss taking in Palestinians under Trump’s Gaza plan
+Title: Weather tracker: Cyclone Jude causes chaos in Mozambique
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-887758
+888179
 $ date -u +%s
-1741945876
+1742211488
