@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlCyioEgzDCy0Y3pPtB0bewVYaiczbkEEHBwjuH7AfcSAZ5CdBawbhfbyGWFksDBI5KXiyQ9vuHl2FemQy3YTgA=
+RWQ6KRormNEEThbKNF+qTr2gki6YXh5rTK60A4ETApOumDTgztKCvEsgSGQPiIwvGPlC0nDOjM9cfZ4awJ3SBR6Fu9CEp5XfIQA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 17 Mar 2025 11:37:53 +0000
+Sat, 22 Mar 2025 13:10:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Revisiting the Wuhan of the West: The Scars of Bergamo Five Years after COVID
 Title: Code Name Caesar: The Man Who Photographed Assad's Torture Victims
 Title: Exploiting the Arctic?: "What Trump Wants to Do with Greenland Is a Mystery to Me"
 Title: Bye Bye U.S.: Europe Scrambles to Find Strategy in Trump's World
 Title: Trump vs. Europe: America Is Now an Adversary
-Title: Europe: Donald Trump Steers America Away from Allies and Towards Autocracies
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'Everything is finished': Ukrainian troops relive retreat from Kursk
-Title: Peace deal must bar Ukraine from Nato, Russian official says
-Title: 'I had one child and I lost him' - North Macedonia mourns nightclub disaster
-Title: Fresh US strikes in Yemen with 53 now dead, Houthis say
-Title: US deports hundreds of Venezuelans despite court order
+Title: Israel strikes Lebanon after first rocket attack since ceasefire
+Title: Trump revokes security clearance for Harris, Clinton and others
+Title: Hundreds arrested in third night of Turkey protests
+Title: Heavyweight boxing legend George Foreman dies aged 76
+Title: George Foreman's life in pictures
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: US evangelical groups urge Trump to spare HIV/Aids program from aid cuts
-Title: ‘We are all Natasha’: senator’s sexual harassment claims roil Nigeria
-Title: Marco Rubio says South Africa’s ambassador to US is ‘no longer welcome’
-Title: Sudan rejects US request to discuss taking in Palestinians under Trump’s Gaza plan
-Title: Weather tracker: Cyclone Jude causes chaos in Mozambique
+Title: Sudan’s army recaptures presidential palace in major battlefield gain
+Title: Power struggle leads to coup in Tigray as war looms between Ethiopia and Eritrea
+Title: Kirsty Coventry elected first female president of IOC as Coe routed in vote
+Title: M23 rebels capture strategic mining hub of Walikale in eastern DRC
+Title: Women in business held back by mobile data’s cost in developing world – report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-888179
+888911
 $ date -u +%s
-1742211488
+1742649062
