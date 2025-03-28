@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETozx8U5SKw+GgmYgd6cbf2DxtlREijkXTDT/ZxdBoFnzv1wg7eKfPtnEpD1iXj828R44FBbWByuEgQhPOsSFEAA=
+RWQ6KRormNEETi+8l+Xw8bKt+lhmrQg+dsTy6M0LspIyaXVATDb6TTek5OGUoNHd2mxgcKQ1LWY3j0ItiHIWdswFUyxl6Y0auAs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 25 Mar 2025 13:56:25 +0000
+Fri, 28 Mar 2025 17:27:41 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Yemeni President Rashad Al-Alimi: "Yemen Has Become a Tool for Iran's Axis of Evil"
+Title: Muhammad Yunus on the Future of Bangladesh: "Politics Is Not My Cup of Tea"
+Title: Pete Hegseth, Mike Waltz, Tulsi Gabbard: Private Data and Passwords of Senior U.S. Security Officials Found Online
 Title: Harvard Professor Steven Levitsky: "Right Now, the U.S. Is Ceasing to Be a Democracy"
 Title: Revisiting the Wuhan of the West: The Scars of Bergamo Five Years after COVID
-Title: Code Name Caesar: The Man Who Photographed Assad's Torture Victims
-Title: Exploiting the Arctic?: "What Trump Wants to Do with Greenland Is a Mystery to Me"
-Title: Bye Bye U.S.: Europe Scrambles to Find Strategy in Trump's World
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Five takeaways from leaked US top military chat group
-Title: Sixth night of protests in Turkey as Erdogan hits out at unrest
-Title: Grandparents arrested on suspicion of toddler's murder in French Alps
-Title: Rwanda planning to attack Burundi, president tells BBC
-Title: Palestinian Oscar winner attacked by Israeli settlers then detained, activists say
+Title: Trump and Carney hold first call amid ongoing trade war
+Title: Over 140 dead in Myanmar and Thailand after huge earthquake
+Title: Moment Bangkok high-rise under construction collapses
+Title: Israel conducts first strike on Beirut since Hezbollah ceasefire
+Title: 'Then, the phone rang': BBC's Mark Lowen on being deported from Turkey
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Most Britons do not know scale of UK’s involvement in slavery, survey finds
-Title: South African ambassador expelled from US welcomed home by supporters
-Title: Sudan’s army recaptures presidential palace in major battlefield gain
-Title: Power struggle leads to coup in Tigray as war looms between Ethiopia and Eritrea
-Title: Kirsty Coventry elected first female president of IOC as Coe routed in vote
+Title: Six Russian tourists dead after submarine sinks in Red Sea, Egyptian officials say – as it happened
+Title: Six Russian tourists die after submarine sinks off Egypt coast
+Title: Fears intensify of return to civil war as South Sudan vice-president arrested
+Title: Trump names pro-Israel media activist as US ambassador to South Africa
+Title: Charity faces legal action after relocated elephants in Malawi allegedly kill 10 people
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-889374
+889860
 $ date -u +%s
-1742910999
+1743182878
