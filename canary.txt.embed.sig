@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETi+8l+Xw8bKt+lhmrQg+dsTy6M0LspIyaXVATDb6TTek5OGUoNHd2mxgcKQ1LWY3j0ItiHIWdswFUyxl6Y0auAs=
+RWQ6KRormNEETqFiXheUDts71ivZ/z8/Rw3QJTIf5wdmICJaNXhhzjBW/6QdEk8vR+iNfEn+2V0wAAnLL5tKZ4wGjC6WBMjz9gQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 28 Mar 2025 17:27:41 +0000
+Mon, 31 Mar 2025 16:16:22 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Artificial Intelligence: A Deadly Love Affair with a Chatbot
 Title: Yemeni President Rashad Al-Alimi: "Yemen Has Become a Tool for Iran's Axis of Evil"
 Title: Muhammad Yunus on the Future of Bangladesh: "Politics Is Not My Cup of Tea"
 Title: Pete Hegseth, Mike Waltz, Tulsi Gabbard: Private Data and Passwords of Senior U.S. Security Officials Found Online
 Title: Harvard Professor Steven Levitsky: "Right Now, the U.S. Is Ceasing to Be a Democracy"
-Title: Revisiting the Wuhan of the West: The Scars of Bergamo Five Years after COVID
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump and Carney hold first call amid ongoing trade war
-Title: Over 140 dead in Myanmar and Thailand after huge earthquake
-Title: Moment Bangkok high-rise under construction collapses
-Title: Israel conducts first strike on Beirut since Hezbollah ceasefire
-Title: 'Then, the phone rang': BBC's Mark Lowen on being deported from Turkey
+Title: Russia still 'working with US' after Trump says he is 'angry' with Putin
+Title: 'I feel guilty for not being in Myanmar  - our people need us the most now'
+Title: 'Nothing is left' - Myanmar's capital reels from earthquake
+Title: Red Cross outraged over killing of medics by Israeli forces in Gaza
+Title: At least five killed in explosion at Spanish mine
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: New images reveal extent of looting at Sudan’s national museum as rooms stripped of treasures
+Title: Donors quit Prince Harry’s charity when he left UK, says Sentebale chair
+Title: Prince Harry accused of bullying ‘at scale’ by chair of charity he founded
+Title: Kenyan man who spent decade on death row sues London police for role in wrongful conviction
 Title: Six Russian tourists dead after submarine sinks in Red Sea, Egyptian officials say – as it happened
-Title: Six Russian tourists die after submarine sinks off Egypt coast
-Title: Fears intensify of return to civil war as South Sudan vice-president arrested
-Title: Trump names pro-Israel media activist as US ambassador to South Africa
-Title: Charity faces legal action after relocated elephants in Malawi allegedly kill 10 people
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-889860
+890270
 $ date -u +%s
-1743182878
+1743437799
