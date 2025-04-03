@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 31 Mar 2025 16:16:22 +0000
+Thu, 03 Apr 2025 16:22:27 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Trump's America: A Family Rent Asunder
 Title: Artificial Intelligence: A Deadly Love Affair with a Chatbot
 Title: Yemeni President Rashad Al-Alimi: "Yemen Has Become a Tool for Iran's Axis of Evil"
 Title: Muhammad Yunus on the Future of Bangladesh: "Politics Is Not My Cup of Tea"
 Title: Pete Hegseth, Mike Waltz, Tulsi Gabbard: Private Data and Passwords of Senior U.S. Security Officials Found Online
-Title: Harvard Professor Steven Levitsky: "Right Now, the U.S. Is Ceasing to Be a Democracy"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Russia still 'working with US' after Trump says he is 'angry' with Putin
-Title: 'I feel guilty for not being in Myanmar  - our people need us the most now'
-Title: 'Nothing is left' - Myanmar's capital reels from earthquake
-Title: Red Cross outraged over killing of medics by Israeli forces in Gaza
-Title: At least five killed in explosion at Spanish mine
+Title: World leaders criticise Trump tariffs as 'major blow'
+Title: Hungary withdraws from International Criminal Court during Netanyahu visit
+Title: Myanmar leader heads to Bangkok as quake deaths climb to 3,000
+Title: Is South Africa's coalition government about to fall apart?
+Title: Marine Le Pen's ban outraged France's far right - and they may well take revenge
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: New images reveal extent of looting at Sudan’s national museum as rooms stripped of treasures
-Title: Donors quit Prince Harry’s charity when he left UK, says Sentebale chair
-Title: Prince Harry accused of bullying ‘at scale’ by chair of charity he founded
-Title: Kenyan man who spent decade on death row sues London police for role in wrongful conviction
-Title: Six Russian tourists dead after submarine sinks in Red Sea, Egyptian officials say – as it happened
+Title: World Bank announces multimillion-dollar redress fund after killings and abuse claims at Tanzanian project
+Title: Asian countries riven by war and disaster face some of steepest Trump tariffs
+Title: Donald Trump signs off UK’s handover of Chagos Islands to Mauritius
+Title: People displaced by Uganda oil pipeline ‘received inadequate compensation’
+Title: Niger’s junta withdraws from Lake Chad anti-Islamist force
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-890270
+890729
 $ date -u +%s
-1743437799
+1743697358
