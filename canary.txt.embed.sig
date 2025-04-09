@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmKxIZSpDcGFqn+xn0Gcc6JtxomGr2teqscTd8X35waDCOtkrpUgjKwuyUaN8KABduSzqXsD6hvQPcSOUPUGkQM=
+RWQ6KRormNEETtvwwqqy/1o8perTsrpDA6sO+JM06yk5GFFSu1tLEeDXrzcZEJV3/2bk7G8j5QaOiIdBOFsyAoYleJE00vqOWQQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 03 Apr 2025 16:22:27 +0000
+Wed, 09 Apr 2025 16:59:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Trump's America: A Family Rent Asunder
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: World leaders criticise Trump tariffs as 'major blow'
-Title: Hungary withdraws from International Criminal Court during Netanyahu visit
-Title: Myanmar leader heads to Bangkok as quake deaths climb to 3,000
-Title: Is South Africa's coalition government about to fall apart?
-Title: Marine Le Pen's ban outraged France's far right - and they may well take revenge
+Title: Trump tariffs spark US government debt sell-off
+Title: China retaliates against Trump's 'trade tyranny' with 84% tariffs
+Title: Despair as death toll from Dominican Republic nightclub collapse rises
+Title: Israeli strike on Gaza residential building kills 29, medics say
+Title: Germany's Merz seals government deal bringing end to months of stalemate
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: World Bank announces multimillion-dollar redress fund after killings and abuse claims at Tanzanian project
-Title: Asian countries riven by war and disaster face some of steepest Trump tariffs
-Title: Donald Trump signs off UK’s handover of Chagos Islands to Mauritius
-Title: People displaced by Uganda oil pipeline ‘received inadequate compensation’
-Title: Niger’s junta withdraws from Lake Chad anti-Islamist force
+Title: UK to co-host global conference with aim of resolving Sudan’s civil war
+Title: Revealed: Big tech’s new datacentres will take water from the world’s driest areas
+Title: Defence secretary meets family of Kenyan woman allegedly killed by British soldiers
+Title: Trump administration revokes all South Sudanese visas in repatriation row
+Title: ‘Shame’ on world leaders for neglect of displaced civilians in DRC, says aid chief
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-890729
+891662
 $ date -u +%s
-1743697358
+1744217992
