@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtvwwqqy/1o8perTsrpDA6sO+JM06yk5GFFSu1tLEeDXrzcZEJV3/2bk7G8j5QaOiIdBOFsyAoYleJE00vqOWQQ=
+RWQ6KRormNEETmZbaO9hfTkKnMkY2PktgEG2CwJEpYiL9iyodS3GGErvwRNewhD1oNu+DimmZRtj8pMkrCNGaVwPIQmnAVpj3gU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 09 Apr 2025 16:59:38 +0000
+Mon, 14 Apr 2025 01:01:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Right Wing Report: How Germany's AfD Intends to Boost Its Influence
 Title: Trump's America: A Family Rent Asunder
 Title: Artificial Intelligence: A Deadly Love Affair with a Chatbot
 Title: Yemeni President Rashad Al-Alimi: "Yemen Has Become a Tool for Iran's Axis of Evil"
 Title: Muhammad Yunus on the Future of Bangladesh: "Politics Is Not My Cup of Tea"
-Title: Pete Hegseth, Mike Waltz, Tulsi Gabbard: Private Data and Passwords of Senior U.S. Security Officials Found Online
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump tariffs spark US government debt sell-off
-Title: China retaliates against Trump's 'trade tyranny' with 84% tariffs
-Title: Despair as death toll from Dominican Republic nightclub collapse rises
-Title: Israeli strike on Gaza residential building kills 29, medics say
-Title: Germany's Merz seals government deal bringing end to months of stalemate
+Title: At least 34 people killed in Russian ballistic missile attack on Sumy 
+Title: Israeli air strike destroys part of last fully functional hospital in Gaza City
+Title: Stars mingle in Coachella audience as Lady Gaga wows festivalgoers
+Title: Teen killed parents as part of Trump assassination plot, says FBI
+Title: Severe floods hit Lanzarote after torrential rain
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: UK to co-host global conference with aim of resolving Sudan’s civil war
-Title: Revealed: Big tech’s new datacentres will take water from the world’s driest areas
-Title: Defence secretary meets family of Kenyan woman allegedly killed by British soldiers
-Title: Trump administration revokes all South Sudanese visas in repatriation row
-Title: ‘Shame’ on world leaders for neglect of displaced civilians in DRC, says aid chief
+Title: More than 200 civilians killed as Sudan’s RSF attacks Darfur displacement camps
+Title: Coup leader favourite in presidential race as Gabon goes to the polls
+Title: Zimbabwe starts compensating white farmers 25 years after land seizures
+Title: Weather tracker: early heatwave sweeps northern India
+Title: Bobi Wine to run for president in Uganda’s 2026 election ‘if I am still alive and not in jail’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-891662
+892318
 $ date -u +%s
-1744217992
+1744592491
