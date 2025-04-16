@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmZbaO9hfTkKnMkY2PktgEG2CwJEpYiL9iyodS3GGErvwRNewhD1oNu+DimmZRtj8pMkrCNGaVwPIQmnAVpj3gU=
+RWQ6KRormNEETkxrWroM8v5a1UFe2YzXXe6omK0stTYHdxkzZksMFfGdPyJz8Dhd7XXAQNct87vpnAp5LPcjujZhMVF022MUDAI=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 14 Apr 2025 01:01:16 +0000
+Wed, 16 Apr 2025 23:11:49 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Executive-Ordered Out of Existence: How Trump's Transphobia Is Affecting My Family from Afar
+Title: The American War: U.S. War Veterans Search for Personal Peace in Vietnam
+Title: Organ Trafficking: How Germans Buy New Kidneys in Kenya
 Title: Right Wing Report: How Germany's AfD Intends to Boost Its Influence
 Title: Trump's America: A Family Rent Asunder
-Title: Artificial Intelligence: A Deadly Love Affair with a Chatbot
-Title: Yemeni President Rashad Al-Alimi: "Yemen Has Become a Tool for Iran's Axis of Evil"
-Title: Muhammad Yunus on the Future of Bangladesh: "Politics Is Not My Cup of Tea"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: At least 34 people killed in Russian ballistic missile attack on Sumy 
-Title: Israeli air strike destroys part of last fully functional hospital in Gaza City
-Title: Stars mingle in Coachella audience as Lady Gaga wows festivalgoers
-Title: Teen killed parents as part of Trump assassination plot, says FBI
-Title: Severe floods hit Lanzarote after torrential rain
+Title: US judge says Trump administration could be in contempt over deportation flights
+Title: Israeli troops will remain in Gaza 'security zones' after war, minister says
+Title: US actress Michelle Trachtenberg died from diabetes complications
+Title: Watch: Michigan town forms human chain to move 9,100 books for shop
+Title: EU names seven countries as safe in plan to fast-track migrant returns
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: More than 200 civilians killed as Sudan’s RSF attacks Darfur displacement camps
-Title: Coup leader favourite in presidential race as Gabon goes to the polls
-Title: Zimbabwe starts compensating white farmers 25 years after land seizures
-Title: Weather tracker: early heatwave sweeps northern India
-Title: Bobi Wine to run for president in Uganda’s 2026 election ‘if I am still alive and not in jail’
+Title: US pastor kidnapped during sermon in South Africa rescued after shootout
+Title: UK conference on Sudan fails to set up contact group for ceasefire talks
+Title: France expels 12 Algerian officials as row over alleged kidnapping escalates
+Title: Sudan in ‘world’s largest humanitarian crisis’ after two years of civil war
+Title: Leaked UN experts report raises fresh concerns over UAE’s role in Sudan war
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-892318
+892743
 $ date -u +%s
-1744592491
+1744845126
