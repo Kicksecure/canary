@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkxrWroM8v5a1UFe2YzXXe6omK0stTYHdxkzZksMFfGdPyJz8Dhd7XXAQNct87vpnAp5LPcjujZhMVF022MUDAI=
+RWQ6KRormNEETnO/RokDJnU02N7rled8ScKYDEq31Ohf7nxOLJMyTD58FLVUAiG+hriTJc03DlCKe08+BaIGrBLggZ/Gdj4vVgo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 16 Apr 2025 23:11:49 +0000
+Fri, 18 Apr 2025 21:36:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Grandmaster Magnus Carlsen: The Freestylist
 Title: Executive-Ordered Out of Existence: How Trump's Transphobia Is Affecting My Family from Afar
 Title: The American War: U.S. War Veterans Search for Personal Peace in Vietnam
 Title: Organ Trafficking: How Germans Buy New Kidneys in Kenya
 Title: Right Wing Report: How Germany's AfD Intends to Boost Its Influence
-Title: Trump's America: A Family Rent Asunder
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US judge says Trump administration could be in contempt over deportation flights
-Title: Israeli troops will remain in Gaza 'security zones' after war, minister says
-Title: US actress Michelle Trachtenberg died from diabetes complications
-Title: Watch: Michigan town forms human chain to move 9,100 books for shop
-Title: EU names seven countries as safe in plan to fast-track migrant returns
+Title: Trump says US will 'pass' on Ukraine peace talks if no progress soon
+Title: US senator meets man mistakenly deported to El Salvador 
+Title: US strikes on Yemen oil terminal kill at least 74, Houthis say
+Title: Trial of nearly 200 people opens after Turkey protests
+Title: Five takeaways from Canada party leaders' big TV debate
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: ICJ hears Sudan case accusing UAE of ‘complicity in genocide’
+Title: Move over, Med diet – plantains and cassava can be as healthy as tomatoes and olive oil, say researchers
 Title: US pastor kidnapped during sermon in South Africa rescued after shootout
 Title: UK conference on Sudan fails to set up contact group for ceasefire talks
 Title: France expels 12 Algerian officials as row over alleged kidnapping escalates
-Title: Sudan in ‘world’s largest humanitarian crisis’ after two years of civil war
-Title: Leaked UN experts report raises fresh concerns over UAE’s role in Sudan war
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-892743
+893028
 $ date -u +%s
-1744845126
+1745012213
