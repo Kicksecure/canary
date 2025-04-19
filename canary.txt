@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 18 Apr 2025 21:36:42 +0000
+Sat, 19 Apr 2025 17:58:33 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Grandmaster Magnus Carlsen: The Freestylist
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump says US will 'pass' on Ukraine peace talks if no progress soon
-Title: US senator meets man mistakenly deported to El Salvador 
-Title: US strikes on Yemen oil terminal kill at least 74, Houthis say
-Title: Trial of nearly 200 people opens after Turkey protests
-Title: Five takeaways from Canada party leaders' big TV debate
+Title: Putin declares 'Easter truce', as Ukraine says he 'cannot be trusted'
+Title: Pakistan expels tens of thousands of Afghans
+Title: The forgotten Indian explorer who uncovered an ancient civilisation
+Title: Hopes for Iran nuclear talks tempered by threats and mixed messages
+Title: Myanmar's capital Nay Pyi Taw to be redrawn following earthquake
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: ‘I love my country but nobody is safe’: the plight of Cameroon’s exiles, trapped in Nigeria
+Title: Congo boat disaster death toll rises to 148, with more than 100 still missing
 Title: ICJ hears Sudan case accusing UAE of ‘complicity in genocide’
 Title: Move over, Med diet – plantains and cassava can be as healthy as tomatoes and olive oil, say researchers
 Title: US pastor kidnapped during sermon in South Africa rescued after shootout
-Title: UK conference on Sudan fails to set up contact group for ceasefire talks
-Title: France expels 12 Algerian officials as row over alleged kidnapping escalates
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-893028
+893142
 $ date -u +%s
-1745012213
+1745085524
