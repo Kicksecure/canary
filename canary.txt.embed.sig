@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETm+wzxeOh/Eq5yG7e2a/ur9E01DcDExKVV8m9EOoA7IMH2hZeyUbgtC6pEgq6QkwqwlnJDqR6Yo6nbnSic2wiws=
+RWQ6KRormNEETlYMwo07LKz+SjVrkkp1A0fj9HFrycrhb42zl1+ooDhH+qxtDYdzrGNZeZmOLNyPx/HKOvedmwWmaSkVQXo2qw8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 19 Apr 2025 17:58:33 +0000
+Fri, 25 Apr 2025 09:16:03 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "Good Hunting": Right Wing Extremist Chats Flourishing on Telegram
 Title: Grandmaster Magnus Carlsen: The Freestylist
 Title: Executive-Ordered Out of Existence: How Trump's Transphobia Is Affecting My Family from Afar
 Title: The American War: U.S. War Veterans Search for Personal Peace in Vietnam
 Title: Organ Trafficking: How Germans Buy New Kidneys in Kenya
-Title: Right Wing Report: How Germany's AfD Intends to Boost Its Influence
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Putin declares 'Easter truce', as Ukraine says he 'cannot be trusted'
-Title: Pakistan expels tens of thousands of Afghans
-Title: The forgotten Indian explorer who uncovered an ancient civilisation
-Title: Hopes for Iran nuclear talks tempered by threats and mixed messages
-Title: Myanmar's capital Nay Pyi Taw to be redrawn following earthquake
+Title: Ukraine may have to give up land for peace - Kyiv Mayor Klitschko
+Title: Can India really stop river flowing into Pakistan?
+Title: TikTok astrologer arrested for predicting new Myanmar quake
+Title: Company bosses warn over tariffs impact
+Title: Israeli military admits its troops killed UN worker in Gaza Strip
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘I love my country but nobody is safe’: the plight of Cameroon’s exiles, trapped in Nigeria
-Title: Congo boat disaster death toll rises to 148, with more than 100 still missing
-Title: ICJ hears Sudan case accusing UAE of ‘complicity in genocide’
-Title: Move over, Med diet – plantains and cassava can be as healthy as tomatoes and olive oil, say researchers
-Title: US pastor kidnapped during sermon in South Africa rescued after shootout
+Title: Weather tracker: thunderstorms lash Italy in aftermath of Storm Hans
+Title: Lifesize herd of puppet animals begins climate action journey from Africa to Arctic Circle
+Title: Tanzania opposition officials arrested as Tundu Lissu refuses to appear in court
+Title: DRC government and M23 agree to halt fighting and work towards truce
+Title: ‘The devil wants this pattern of mass death repeated’: Actors Guild of Nigeria calls for better regulation after two actors die
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-893142
+893892
 $ date -u +%s
-1745085524
+1745572579
