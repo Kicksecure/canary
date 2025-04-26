@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlYMwo07LKz+SjVrkkp1A0fj9HFrycrhb42zl1+ooDhH+qxtDYdzrGNZeZmOLNyPx/HKOvedmwWmaSkVQXo2qw8=
+RWQ6KRormNEETs76BlgSiWkim6PvTSKSFzbaufLB1e3UFIcI55InX+8lHvD67mMlmGZWhF8nZghdxU2hkMPm2nNdhuV7bdUfoAw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 25 Apr 2025 09:16:03 +0000
+Sat, 26 Apr 2025 05:34:21 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: "Good Hunting": Right Wing Extremist Chats Flourishing on Telegram
@@ -63,11 +63,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine may have to give up land for peace - Kyiv Mayor Klitschko
-Title: Can India really stop river flowing into Pakistan?
-Title: TikTok astrologer arrested for predicting new Myanmar quake
-Title: Company bosses warn over tariffs impact
-Title: Israeli military admits its troops killed UN worker in Gaza Strip
+Title: Virginia Giuffre, Prince Andrew and Jeffrey Epstein accuser, dies
+Title: Russia and Ukraine 'very close to a deal', says Trump
+Title: Senior Russian general killed by car bomb in Moscow
+Title: DR Congo and Rwanda vow to agree peace plan within days
+Title: Pope wanted to work until the end, archbishop tells BBC
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Weather tracker: thunderstorms lash Italy in aftermath of Storm Hans
@@ -77,6 +77,6 @@ Title: DRC government and M23 agree to halt fighting and work towards truce
 Title: ‘The devil wants this pattern of mass death repeated’: Actors Guild of Nigeria calls for better regulation after two actors die
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-893892
+894023
 $ date -u +%s
-1745572579
+1745645678
