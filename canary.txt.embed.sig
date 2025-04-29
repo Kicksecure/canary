@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETs76BlgSiWkim6PvTSKSFzbaufLB1e3UFIcI55InX+8lHvD67mMlmGZWhF8nZghdxU2hkMPm2nNdhuV7bdUfoAw=
+RWQ6KRormNEEThqnWOwAK8pcNtRXnTsy5tZ5mjJJJpa+KzH7CVpBqn6Wt6351bUamUUAj8r+c40ss2dvagYgnmdrfsxHt7pgNg8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 26 Apr 2025 05:34:21 +0000
+Tue, 29 Apr 2025 09:40:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Recruited for the War in Ukraine: Meet the Chinese Soldiers Fighting in Russia's Army
 Title: "Good Hunting": Right Wing Extremist Chats Flourishing on Telegram
 Title: Grandmaster Magnus Carlsen: The Freestylist
 Title: Executive-Ordered Out of Existence: How Trump's Transphobia Is Affecting My Family from Afar
 Title: The American War: U.S. War Veterans Search for Personal Peace in Vietnam
-Title: Organ Trafficking: How Germans Buy New Kidneys in Kenya
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Virginia Giuffre, Prince Andrew and Jeffrey Epstein accuser, dies
-Title: Russia and Ukraine 'very close to a deal', says Trump
-Title: Senior Russian general killed by car bomb in Moscow
-Title: DR Congo and Rwanda vow to agree peace plan within days
-Title: Pope wanted to work until the end, archbishop tells BBC
+Title: Iran blames 'negligence' for port blast as death toll rises to 70
+Title: 'Everything went off': How Spain and Portugal's massive power cut unfolded
+Title: Trump made Carney's turnaround victory possible
+Title: Hope and fear as tourists trickle back to Kashmir town after attack
+Title: Iran blames 'negligence' for port blast as death toll rises to 70
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Trump’s first 100 days supercharged a global ‘freefall of rights’, says Amnesty
+Title: African diplomats urge UK government to back bill to speed up debt restructurings
+Title: Fears of Boko Haram comeback stir in Nigerian birthplace of Maiduguri
+Title: Meta faces Ghana lawsuits over impact of extreme content on moderators
 Title: Weather tracker: thunderstorms lash Italy in aftermath of Storm Hans
-Title: Lifesize herd of puppet animals begins climate action journey from Africa to Arctic Circle
-Title: Tanzania opposition officials arrested as Tundu Lissu refuses to appear in court
-Title: DRC government and M23 agree to halt fighting and work towards truce
-Title: ‘The devil wants this pattern of mass death repeated’: Actors Guild of Nigeria calls for better regulation after two actors die
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-894023
+894447
 $ date -u +%s
-1745645678
+1745919655
