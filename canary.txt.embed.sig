@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETo2Dys+oRq67xkgptMBIHMPUFpKAajM8ywA3eIykSs2543rk40FXz96sDL96HiO2sGemr+ueqEWVBY74xSZPEwM=
+RWQ6KRormNEETl6AafoSmY12pzR9zuzM2XHpGarFC5SlDKwodAhg3zRZlz+/rMg4P1kKo8rwRBmFkpSWgYOLuJxSU0kWOPD1WQk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 07 May 2025 16:42:36 +0000
+Wed, 07 May 2025 16:53:14 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Breaking the Silence: Looking Back at World War II Family Histories
@@ -79,4 +79,4 @@ Title: Drone strikes hit Port Sudan airport and army base in third day of attack
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 895681
 $ date -u +%s
-1746636172
+1746636810
