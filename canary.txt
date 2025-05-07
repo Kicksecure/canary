@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 29 Apr 2025 09:40:39 +0000
+Wed, 07 May 2025 16:42:36 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Breaking the Silence: Looking Back at World War II Family Histories
+Title: Trump's Trump Card: The Dangerous Ideology of U.S. Vice President JD Vance
 Title: Recruited for the War in Ukraine: Meet the Chinese Soldiers Fighting in Russia's Army
 Title: "Good Hunting": Right Wing Extremist Chats Flourishing on Telegram
 Title: Grandmaster Magnus Carlsen: The Freestylist
-Title: Executive-Ordered Out of Existence: How Trump's Transphobia Is Affecting My Family from Afar
-Title: The American War: U.S. War Veterans Search for Personal Peace in Vietnam
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iran blames 'negligence' for port blast as death toll rises to 70
-Title: 'Everything went off': How Spain and Portugal's massive power cut unfolded
-Title: Trump made Carney's turnaround victory possible
-Title: Hope and fear as tourists trickle back to Kashmir town after attack
-Title: Iran blames 'negligence' for port blast as death toll rises to 70
+Title: Indian air strikes - how will Pakistan respond? Four key questions
+Title: Trump appeasing Putin with pressure on Ukraine, Biden tells BBC
+Title: 'Why would we play Putin's game?': Ukrainians see Russian lull as sideshow
+Title: Carney tells Trump that Canada 'won't be for sale, ever'
+Title: Smokey Robinson accused of sexual assault by four women
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Trump’s first 100 days supercharged a global ‘freefall of rights’, says Amnesty
-Title: African diplomats urge UK government to back bill to speed up debt restructurings
-Title: Fears of Boko Haram comeback stir in Nigerian birthplace of Maiduguri
-Title: Meta faces Ghana lawsuits over impact of extreme content on moderators
-Title: Weather tracker: thunderstorms lash Italy in aftermath of Storm Hans
+Title: US planning to deport migrants to Libya despite ‘hellish’ conditions – reports
+Title: Sudan to cut ties with United Arab Emirates over alleged RSF support
+Title: Rwandan talks with US over deported migrants are chance to expand its influence
+Title: Nigerians, Pakistanis and Sri Lankans face UK student visa crackdown
+Title: Drone strikes hit Port Sudan airport and army base in third day of attacks
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-894447
+895681
 $ date -u +%s
-1745919655
+1746636172
