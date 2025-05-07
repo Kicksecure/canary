@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmz7RmInw9xU4zbArUX5nFpYt/uZ5NH9k6s4gdCG9MBHo2JzDIxE3IfCoBoaQm9Yvd6IMZUVKSZx8CmrThGsuQ0=
+RWQ6KRormNEETj1BSlD1to6DBKzcRpjUESW0A5LqoyA8Mgg6AwCxlCABGocij4W+xoRPICS5lE1UcJP7jROfktAdXLhuU/cEAQE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 07 May 2025 16:56:51 +0000
+Wed, 07 May 2025 17:50:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Breaking the Silence: Looking Back at World War II Family Histories
@@ -77,6 +77,6 @@ Title: Nigerians, Pakistanis and Sri Lankans face UK student visa crackdown
 Title: Drone strikes hit Port Sudan airport and army base in third day of attacks
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-895681
+895685
 $ date -u +%s
-1746637027
+1746640255
