@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 07 May 2025 17:50:40 +0000
+Thu, 08 May 2025 07:23:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Breaking the Silence: Looking Back at World War II Family Histories
@@ -62,19 +62,19 @@ Title: Silicon Valley Bank collapse renews calls to address disparities impactin
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: Indian air strikes - how will Pakistan respond? Four key questions
-Title: Trump appeasing Putin with pressure on Ukraine, Biden tells BBC
-Title: 'Why would we play Putin's game?': Ukrainians see Russian lull as sideshow
-Title: Carney tells Trump that Canada 'won't be for sale, ever'
-Title: Smokey Robinson accused of sexual assault by four women
+Title: Watch: The first day of the conclave in a minute
+Title: 'This will be the work of years': The medics identifying remains from Syria's mass graves
+Title: Woman killed in axe attack at Warsaw university
+Title: Pope Francis backed him when he took on a president. Now he's voting in the conclave 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: US planning to deport migrants to Libya despite ‘hellish’ conditions – reports
+Title: Trump’s aid cuts blamed as food rations stopped for a million refugees in Uganda
+Title: US reportedly planning to deport migrants to Libya despite ‘clear’ violation of court order
 Title: Sudan to cut ties with United Arab Emirates over alleged RSF support
 Title: Rwandan talks with US over deported migrants are chance to expand its influence
 Title: Nigerians, Pakistanis and Sri Lankans face UK student visa crackdown
-Title: Drone strikes hit Port Sudan airport and army base in third day of attacks
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-895685
+895772
 $ date -u +%s
-1746640255
+1746689030
