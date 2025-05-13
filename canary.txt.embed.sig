@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETse4ezDq6p4wHZ7eQx6ytrBGIZsRsMCqucXBRuLi5hhNfzlBAW/0X91APoPI1VoHLsB4nf7Lp8LQO/FRWPfzxQo=
+RWQ6KRormNEETm1PLLH2BmLn2wfYf9/PKGNoelvbmvu8t7a6R8zIQaKds7jTdt3C/tn0gkvdAuT2DvXYkfg9VP6ExjXZsoL8tAw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 10 May 2025 17:36:36 +0000
+Tue, 13 May 2025 14:20:02 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: USA: Scientists Looking to Leave the U.S. for More Welcoming Environments
 Title: Resistance in Ukraine: The Show Must Go On (Underground) in the Kharkiv Opera House
 Title: Breaking the Silence: Looking Back at World War II Family Histories
 Title: Trump's Trump Card: The Dangerous Ideology of U.S. Vice President JD Vance
 Title: Recruited for the War in Ukraine: Meet the Chinese Soldiers Fighting in Russia's Army
-Title: "Good Hunting": Right Wing Extremist Chats Flourishing on Telegram
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: European leaders pressure Russia over 30-day Ukraine ceasefire
-Title: Trump administration considers suspending habeas corpus
-Title: Maga says Pope Leo may be American, but he's not 'America first'
-Title: Taylor Swift criticises Lively-Baldoni court summons
-Title: How will Pope Leo lead? His first days may yield clues
+Title: Israel denying food to Gaza is 'weapon of war', UN Palestinian refugee agency head tells BBC
+Title: US-Israeli hostage reunites with family after being freed by Hamas
+Title: Gérard Depardieu found guilty in sexual assault trial
+Title: Germany arrests self-declared 'king' and bans his extremist group
+Title: Zambia warns diplomats after US reveals 'systematic' aid theft
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Six killed in Tripoli clashes after killing of militia leader
+Title: Episcopal church says it won’t help resettle white South Africans granted refugee status
+Title: First white South Africans arrive in US after Trump grants them refugee status
+Title: Koyo Kouoh, art curator due to lead 2026 Venice Biennale, dies at 57
 Title: Are we heading for another world war – or has it already started?
-Title: Simon Mann, mercenary behind failed ‘wonga coup’, dies aged 72
-Title: Immigrants set for Libya deportation sat on tarmac for hours, attorney says
-Title: Trump’s aid cuts blamed as food rations stopped for a million refugees in Uganda
-Title: US reportedly planning to deport migrants to Libya despite ‘clear’ violation of court order
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-896146
+896557
 $ date -u +%s
-1746898610
+1747146017
