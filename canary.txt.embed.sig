@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETm1PLLH2BmLn2wfYf9/PKGNoelvbmvu8t7a6R8zIQaKds7jTdt3C/tn0gkvdAuT2DvXYkfg9VP6ExjXZsoL8tAw=
+RWQ6KRormNEETvFl9s/w4BJHg6h0a59TEwOWz+65BwFv2btLFlc/plzo6RP4vwl4+IBpYIZahMPirAGLWPrUXOX/0uH1//DZJwQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 13 May 2025 14:20:02 +0000
+Sun, 25 May 2025 00:22:24 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Compendium of Extremism: A Look inside the Report Documenting the AfD's Right-Wing Radicalism
 Title: USA: Scientists Looking to Leave the U.S. for More Welcoming Environments
 Title: Resistance in Ukraine: The Show Must Go On (Underground) in the Kharkiv Opera House
 Title: Breaking the Silence: Looking Back at World War II Family Histories
 Title: Trump's Trump Card: The Dangerous Ideology of U.S. Vice President JD Vance
-Title: Recruited for the War in Ukraine: Meet the Chinese Soldiers Fighting in Russia's Army
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel denying food to Gaza is 'weapon of war', UN Palestinian refugee agency head tells BBC
-Title: US-Israeli hostage reunites with family after being freed by Hamas
-Title: Gérard Depardieu found guilty in sexual assault trial
-Title: Germany arrests self-declared 'king' and bans his extremist group
-Title: Zambia warns diplomats after US reveals 'systematic' aid theft
+Title: Israeli strike kills nine of Gaza doctor's children, hospital says
+Title: North Korea detains three over warship accident, state media says
+Title: Murdered on the school run: The controversial Ukrainian gunned down in Madrid
+Title: Tensions rise as superpowers scrap for a piece of the Arctic
+Title: Young US men are joining Russian churches promising 'absurd levels of manliness'
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Six killed in Tripoli clashes after killing of militia leader
-Title: Episcopal church says it won’t help resettle white South Africans granted refugee status
-Title: First white South Africans arrive in US after Trump grants them refugee status
-Title: Koyo Kouoh, art curator due to lead 2026 Venice Biennale, dies at 57
-Title: Are we heading for another world war – or has it already started?
+Title: Court halts Trump administration’s effort to send eight men to South Sudan
+Title: Trump’s ‘white genocide’ claims ignore the reality of life and crime in South Africa
+Title: Judge rules White House violated order by deporting migrants to South Sudan
+Title: US deportations cast spotlight on South Sudan’s deepening political crisis
+Title: South Africa’s Ramaphosa expected to take golf stars to Trump meeting
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-896557
+898214
 $ date -u +%s
-1747146017
+1748132557
