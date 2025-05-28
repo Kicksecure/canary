@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvFl9s/w4BJHg6h0a59TEwOWz+65BwFv2btLFlc/plzo6RP4vwl4+IBpYIZahMPirAGLWPrUXOX/0uH1//DZJwQ=
+RWQ6KRormNEETiTYL4lZ0h1qfS/3ZRtcdcks92f+LRQAI/X+rIHKfgJk3ogT5k1xdhuSaZ4/brZsxXxo090T2p/t0NcVeUNEggw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 25 May 2025 00:22:24 +0000
+Wed, 28 May 2025 15:05:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Death Zone Drama on K2: "Brother, It's Just Me and You"
+Title: Ruqqia Fights for Survival: Children in Gaza Facing Malnourishment as Humanitarian Situation Worsens
 Title: Compendium of Extremism: A Look inside the Report Documenting the AfD's Right-Wing Radicalism
 Title: USA: Scientists Looking to Leave the U.S. for More Welcoming Environments
 Title: Resistance in Ukraine: The Show Must Go On (Underground) in the Kharkiv Opera House
-Title: Breaking the Silence: Looking Back at World War II Family Histories
-Title: Trump's Trump Card: The Dangerous Ideology of U.S. Vice President JD Vance
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israeli strike kills nine of Gaza doctor's children, hospital says
-Title: North Korea detains three over warship accident, state media says
-Title: Murdered on the school run: The controversial Ukrainian gunned down in Madrid
-Title: Tensions rise as superpowers scrap for a piece of the Arctic
-Title: Young US men are joining Russian churches promising 'absurd levels of manliness'
+Title: EU says Israeli strikes in Gaza 'go beyond what is necessary' to fight Hamas
+Title: Israel PM says Hamas's Gaza chief Mohammed Sinwar has been killed
+Title: Musk 'disappointed' by Trump's tax and spending bill
+Title: US halts student visa appointments and plans expanded social media vetting
+Title: French paedophile surgeon who abused hundreds sentenced to 20 years in jail
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Court halts Trump administration’s effort to send eight men to South Sudan
-Title: Trump’s ‘white genocide’ claims ignore the reality of life and crime in South Africa
-Title: Judge rules White House violated order by deporting migrants to South Sudan
-Title: US deportations cast spotlight on South Sudan’s deepening political crisis
-Title: South Africa’s Ramaphosa expected to take golf stars to Trump meeting
+Title: Mohammed Lakhdar-Hamina, first Arab and African director to win Cannes Palme d’Or, dies aged 95
+Title: Presley Chweneyagae, star of Oscar-winning drama Tsotsi, dies aged 40
+Title: Forty-two people killed in central Nigeria in attacks blamed on herders
+Title: Uganda accused of ‘state bigotry’ and attacks on LGBTQ+ people
+Title: Poorest 750 nations face ‘tidal wave’ of debt repayments to China in 2025, study warns
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-898214
+898754
 $ date -u +%s
-1748132557
+1748444721
