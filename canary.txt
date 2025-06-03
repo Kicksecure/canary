@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 28 May 2025 15:05:08 +0000
+Tue, 03 Jun 2025 13:17:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Interview with Danish Prime Minister Frederiksen: "If Trump Wants a Trade War, We Will Respond"
+Title: A Difficult Relationship: How the Gaza War Is Changing Germany's View of Israel
+Title: The German Chancellor's Diplomacy Offensive: Can Friedrich Merz Help Keep Trump from Abandoning Europe?
 Title: Death Zone Drama on K2: "Brother, It's Just Me and You"
 Title: Ruqqia Fights for Survival: Children in Gaza Facing Malnourishment as Humanitarian Situation Worsens
-Title: Compendium of Extremism: A Look inside the Report Documenting the AfD's Right-Wing Radicalism
-Title: USA: Scientists Looking to Leave the U.S. for More Welcoming Environments
-Title: Resistance in Ukraine: The Show Must Go On (Underground) in the Kharkiv Opera House
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: EU says Israeli strikes in Gaza 'go beyond what is necessary' to fight Hamas
-Title: Israel PM says Hamas's Gaza chief Mohammed Sinwar has been killed
-Title: Musk 'disappointed' by Trump's tax and spending bill
-Title: US halts student visa appointments and plans expanded social media vetting
-Title: French paedophile surgeon who abused hundreds sentenced to 20 years in jail
+Title: At least 27 Palestinians killed by Israeli fire near aid centre, Gaza authorities say
+Title: Growing risks for pregnancy and childbirth in Gaza under Israeli blockade and bombardment
+Title: India anger over 10-year-old rape victim's death after alleged treatment delay
+Title: Toxic mushroom cook tells murder trial wild fungi have 'more flavour'
+Title: More than 200 inmates escape Pakistan jail after earthquake
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Mohammed Lakhdar-Hamina, first Arab and African director to win Cannes Palme d’Or, dies aged 95
-Title: Presley Chweneyagae, star of Oscar-winning drama Tsotsi, dies aged 40
-Title: Forty-two people killed in central Nigeria in attacks blamed on herders
-Title: Uganda accused of ‘state bigotry’ and attacks on LGBTQ+ people
-Title: Poorest 750 nations face ‘tidal wave’ of debt repayments to China in 2025, study warns
+Title: ‘Multiple casualties’ reported after attack on UN aid convoy in Darfur
+Title: High-rise, high expectations: is Casablanca’s finance hub a model for African development?
+Title: Al-Qaida affiliate attacks Mali army bases as junta struggles to contain jihadist threat
+Title: Inquest into notorious apartheid-era killings opens in South Africa
+Title: UK should impose sanctions on Egypt over jailed activist, says Helena Kennedy
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-898754
+899649
 $ date -u +%s
-1748444721
+1748956672
