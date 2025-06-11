@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkpjClnMK6iHkLGZxQwqSR4gTuOkMfOCpL8YRTYL9XYUage5AAcYYgsWNZrFp3aHBHjsWxg0hUnjCwTn7UlV2gQ=
+RWQ6KRormNEETkpuKPNUmP0+CzoPKlnKtD+QKsMiE3/BjtZYbRiM2JSQqRZXwyWPWreRyq3plyOk0DvF7v8OEEhih2J3ZOJ6swo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 03 Jun 2025 13:17:44 +0000
+Wed, 11 Jun 2025 19:21:13 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Trump versus the Universities: "America Cannot Afford for Harvard to Fall"
+Title: Friedrich Merz's Visit to Trump Succeeded Because It Didn't Fail
+Title: Germany's New Chancellor: Merz's Spontaneity Could Get Him in Trouble on the International Stage
 Title: Interview with Danish Prime Minister Frederiksen: "If Trump Wants a Trade War, We Will Respond"
 Title: A Difficult Relationship: How the Gaza War Is Changing Germany's View of Israel
-Title: The German Chancellor's Diplomacy Offensive: Can Friedrich Merz Help Keep Trump from Abandoning Europe?
-Title: Death Zone Drama on K2: "Brother, It's Just Me and You"
-Title: Ruqqia Fights for Survival: Children in Gaza Facing Malnourishment as Humanitarian Situation Worsens
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: At least 27 Palestinians killed by Israeli fire near aid centre, Gaza authorities say
-Title: Growing risks for pregnancy and childbirth in Gaza under Israeli blockade and bombardment
-Title: India anger over 10-year-old rape victim's death after alleged treatment delay
-Title: Toxic mushroom cook tells murder trial wild fungi have 'more flavour'
-Title: More than 200 inmates escape Pakistan jail after earthquake
+Title: Hundreds arrested as calm returns to Los Angeles
+Title: Harvey Weinstein guilty of sexual assault after New York retrial
+Title: Brian Wilson, co-​creator of iconic 1960s band The Beach Boys, dies aged 82
+Title: Bomb attack plans found at Austria school shooting gunman's home
+Title: Syria government says women must wear burkinis at public beaches
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘Multiple casualties’ reported after attack on UN aid convoy in Darfur
-Title: High-rise, high expectations: is Casablanca’s finance hub a model for African development?
-Title: Al-Qaida affiliate attacks Mali army bases as junta struggles to contain jihadist threat
-Title: Inquest into notorious apartheid-era killings opens in South Africa
-Title: UK should impose sanctions on Egypt over jailed activist, says Helena Kennedy
+Title: 250 days on hunger strike: Can Laila Soueif secure her son’s freedom? – podcast
+Title: Weather tracker: Storms make way for summer heat in Europe
+Title: Kenya tells tea factories to cut ties with Rainforest Alliance due to costs
+Title: ‘The US was our El Dorado’: Africans on Trump’s travel bans and taxes
+Title: Group stranded with Ice in Djibouti shipping container after removal from US
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-899649
+900822
 $ date -u +%s
-1748956672
+1749669680
