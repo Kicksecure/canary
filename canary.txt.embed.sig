@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuSSu2J16rEnjNLllbXKFAcaqTUuIpjzMAaumenCujB99x0jAQk2v3vX415SHYO8BdoLUiOFEb5p7g/Y6L+/RAs=
+RWQ6KRormNEETn5gQhAqwXisDVanKH3i/SehFCC7svq2Cfb11HRmS/FABvYOKPv7kf7wsD/ZZAQ6V+iOjLvLKE1azNRNM528zAA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 27 Jun 2025 13:09:28 +0000
+Fri, 04 Jul 2025 09:09:45 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Using AI to Humiliate Women: The Men Behind Deepfake Pornography
+Title: Free iPhones, Fake Dating Sites and Porn Chats: The Dirty Tricks of Online Scammers
 Title: Payone: Suspicions Swirl around a German Financial Service Provider
 Title: A Vital Summit for NATO: Can Donald Trump Be Convinced to Remain Engaged in Europe?
 Title: John Bolton on What Trump Might Do in Iran: "For Trump, It's Now a Matter of Saving Face"
-Title: Trump's Homemade Tourism Crisis: International Travelers Are Growing Skeptical of the U.S.
-Title: WhatsApp Head Will Cathcart Talks about the Introduction of Ads to the Messenger Service
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Tehran is coming back to life, but its residents are deeply shaken 
-Title: Iranian foreign minister admits serious damage to nuclear sites 
-Title: Anna Wintour stepping back as US Vogue's editor-in-chief
-Title: Syrian charged over plot to attack Taylor Swift Vienna concert 
-Title: Two men jailed for life for murder of Aboriginal boy
+Title: Kyiv hit by barrage of drone strikes as Putin rejects Trump's truce bid
+Title: Gaza aid contractor tells BBC he saw colleagues fire on hungry Palestinians
+Title: Russia becomes first state to recognise Afghanistan's Taliban government
+Title: Sport agent Jonathan Barnett accused of rape in US lawsuit
+Title: Trump gets major win now - but it comes with risks down the road
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Questions over terms as Rwanda and DRC prepare to sign peace deal in US
-Title: At least 16 people killed and 400 injured in Kenyan protests
-Title: Kenya: two protesters die from gunshot wounds and several injured during protests – as it happened
-Title: Mourners left waiting as court orders halt to former Zambian president’s funeral
-Title: Fears of unrest as Kenyans mark first anniversary of storming of parliament
+Title: UNAids chief ‘shaken and disgusted’ by US cuts that will mean millions more deaths
+Title: US supreme court clears way for deportations of eight men to South Sudan
+Title: Two tourists from UK and New Zealand killed by elephant, Zambian police say
+Title: Skeleton found in pot is first ancient Egyptian to undergo whole genome analysis
+Title: Lesotho activist arrested after video on unemployment rates angers prime minister
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-902938
+903944
 $ date -u +%s
-1751029783
+1751620200
