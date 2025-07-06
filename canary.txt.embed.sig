@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETn5gQhAqwXisDVanKH3i/SehFCC7svq2Cfb11HRmS/FABvYOKPv7kf7wsD/ZZAQ6V+iOjLvLKE1azNRNM528zAA=
+RWQ6KRormNEETgwTMXXZB3qdkpnD7g+PxiKMdEx9dG5MWBHxzDsbTVZ5lMjTmiqe00xdkMHBN6wi1dVboIMQ/AOhbwxN2haD+AY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 04 Jul 2025 09:09:45 +0000
+Sun, 06 Jul 2025 16:18:12 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Using AI to Humiliate Women: The Men Behind Deepfake Pornography
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Kyiv hit by barrage of drone strikes as Putin rejects Trump's truce bid
-Title: Gaza aid contractor tells BBC he saw colleagues fire on hungry Palestinians
-Title: Russia becomes first state to recognise Afghanistan's Taliban government
-Title: Sport agent Jonathan Barnett accused of rape in US lawsuit
-Title: Trump gets major win now - but it comes with risks down the road
+Title: Texas flood victims: Girl 'having time of her life' and 'heart and soul' of camp
+Title: Elon Musk says he is launching new political party
+Title: Israel sends negotiators to Gaza talks despite 'unacceptable' Hamas demands, PM says
+Title: Archaeologists unveil 3,500-year-old city in Peru
+Title: Uganda's 80-year-old president in bid to extend 40-year rule
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: ‘We want closure’: family searches for answers over Kenyan police officer missing in Haiti
+Title: US judge clears path for eight immigrants to be deported to South Sudan
 Title: UNAids chief ‘shaken and disgusted’ by US cuts that will mean millions more deaths
 Title: US supreme court clears way for deportations of eight men to South Sudan
 Title: Two tourists from UK and New Zealand killed by elephant, Zambian police say
-Title: Skeleton found in pot is first ancient Egyptian to undergo whole genome analysis
-Title: Lesotho activist arrested after video on unemployment rates angers prime minister
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-903944
+904317
 $ date -u +%s
-1751620200
+1751818708
