@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgwTMXXZB3qdkpnD7g+PxiKMdEx9dG5MWBHxzDsbTVZ5lMjTmiqe00xdkMHBN6wi1dVboIMQ/AOhbwxN2haD+AY=
+RWQ6KRormNEETuE9oE9sKFFGfIx3n/lK434S74GKeyFM1FPFh+PGOj0WDnlmRk2Hky6SX3OyTc48lpRXLS/dOXVbMpPol6M8Ggk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 06 Jul 2025 16:18:12 +0000
+Fri, 11 Jul 2025 15:21:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Skeletons Emerging from the Closet: Deutsche Bank CEO Sewing Facing Questions as Lawsuits Loom
+Title: NATO's Eastern Flank: Germany's Rising Concerns about Russia
+Title: Germans Growing Increasingly Uneasy as Peace in Europe Looks More Fragile
+Title: "For Me, There's No Going Back": A Daring Escape from China to the U.S. via the Darién Gap
 Title: Using AI to Humiliate Women: The Men Behind Deepfake Pornography
-Title: Free iPhones, Fake Dating Sites and Porn Chats: The Dirty Tricks of Online Scammers
-Title: Payone: Suspicions Swirl around a German Financial Service Provider
-Title: A Vital Summit for NATO: Can Donald Trump Be Convinced to Remain Engaged in Europe?
-Title: John Bolton on What Trump Might Do in Iran: "For Trump, It's Now a Matter of Saving Face"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Texas flood victims: Girl 'having time of her life' and 'heart and soul' of camp
-Title: Elon Musk says he is launching new political party
-Title: Israel sends negotiators to Gaza talks despite 'unacceptable' Hamas demands, PM says
-Title: Archaeologists unveil 3,500-year-old city in Peru
-Title: Uganda's 80-year-old president in bid to extend 40-year rule
+Title: Ukraine to receive US air defence systems, says Trump
+Title: Gaza's largest functioning hospital facing disaster, medics warn, as Israel widens offensive
+Title: Iran could recover some enriched uranium after US strikes, Israeli official says
+Title: Trump threatens 35% tariffs on Canadian goods
+Title: War crimes being committed in Sudan, ICC believes
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ‘We want closure’: family searches for answers over Kenyan police officer missing in Haiti
-Title: US judge clears path for eight immigrants to be deported to South Sudan
-Title: UNAids chief ‘shaken and disgusted’ by US cuts that will mean millions more deaths
-Title: US supreme court clears way for deportations of eight men to South Sudan
-Title: Two tourists from UK and New Zealand killed by elephant, Zambian police say
+Title: US border czar says he doesn’t know fate of eight men deported to South Sudan
+Title: Caster Semenya calls for athletes’ rights to be put first as court rules in her favour
+Title: High-risk HIV groups facing record levels of criminalisation as countries bring in draconian laws
+Title: Lobbyists linked to Donald Trump paid millions by world’s poorest countries
+Title: ‘One too many’: rapper’s arrest sparks protests against Togo’s ruling dynasty
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-904317
+905091
 $ date -u +%s
-1751818708
+1752247318
