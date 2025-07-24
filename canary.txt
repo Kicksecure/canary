@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 24 Jul 2025 06:55:03 +0000
+Thu, 24 Jul 2025 10:32:44 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Florian Wirtz: Father on the Transfer to FC Liverpool - "Florian Wanted to Take a New Step"
@@ -61,11 +61,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: White House hits back at reports Trump named in Epstein files
+Title: Twelve killed in Thailand-Cambodia military clashes on disputed border
+Title: BBC and news agencies warn journalists in Gaza at risk of starvation
 Title: Gazans 'wasting away' as mass starvation spreads, humanitarian groups warn
-Title: Thai and Cambodian troops clash at disputed border
-Title: In a Haitian city ruled by gangs, young rape survivor raises baby she was told to abort
-Title: Top UN court says countries can sue each other over climate change
+Title: White House pushes back after reports Trump is named in Epstein files
+Title: Twelve killed in Thailand-Cambodia military clashes on disputed border
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: Eswatini opposition attacks US deal as ‘human trafficking disguised as deportation’
@@ -75,6 +75,6 @@ Title: Arrested Kenyan activist Boniface Mwangi faces terror charges
 Title: Malaria ‘back with a vengeance’ in Zimbabwe as number of deaths from the disease triple
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-906931
+906948
 $ date -u +%s
-1753340118
+1753353180
