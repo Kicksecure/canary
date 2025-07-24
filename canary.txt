@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 18 Jul 2025 15:20:39 +0000
+Thu, 24 Jul 2025 06:55:03 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Nobel Laureate on America's Crisis in Academia: "The Goal of the Trump Administration Is to Destroy the Elite"
+Title: Florian Wirtz: Father on the Transfer to FC Liverpool - "Florian Wanted to Take a New Step"
+Title: Thomas Südhof on America's Crisis in Academia: "The Goal of the Trump Administration Is to Destroy the Elite"
 Title: The Case Before the ICJ: Is Israel Committing Genocide in the Gaza Strip?
 Title: Skeletons Emerging from the Closet: Deutsche Bank CEO Sewing Facing Questions as Lawsuits Loom
 Title: NATO's Eastern Flank: Germany's Rising Concerns about Russia
-Title: Germans Growing Increasingly Uneasy as Peace in Europe Looks More Fragile
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'There were bodies everywhere': Druze residents describe 'bloodbath' in Syrian city Suweida
-Title: North Korea bans foreigners from seaside resort weeks after opening
-Title: Germany's Merz tells BBC Europe was free-riding on US
-Title: 'Reserved in the womb' and sold for £500: Police bust baby trafficking ring
-Title: Colbert says The Late Show will end after 33 years
+Title: White House hits back at reports Trump named in Epstein files
+Title: Gazans 'wasting away' as mass starvation spreads, humanitarian groups warn
+Title: Thai and Cambodian troops clash at disputed border
+Title: In a Haitian city ruled by gangs, young rape survivor raises baby she was told to abort
+Title: Top UN court says countries can sue each other over climate change
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Sudan’s children face growing threat of deadly infectious diseases as vaccination rates halve
-Title: Sudanese paramilitary RSF accused of killing almost 300 people in village raids
-Title: France signals willingness to discuss reparations for colonial massacres in Niger
-Title: Former Nigerian president Muhammadu Buhari dies aged 82 in London
-Title: US border czar says he doesn’t know fate of eight men deported to South Sudan
+Title: Eswatini opposition attacks US deal as ‘human trafficking disguised as deportation’
+Title: UK’s aid cuts ‘will hit children’s education and raise risk of death’
+Title: Man rescued trying to reach Spain from Morocco in rubber ring and flippers
+Title: Arrested Kenyan activist Boniface Mwangi faces terror charges
+Title: Malaria ‘back with a vengeance’ in Zimbabwe as number of deaths from the disease triple
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-906099
+906931
 $ date -u +%s
-1752852053
+1753340118
