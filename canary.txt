@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 24 Jul 2025 10:32:44 +0000
+Sat, 02 Aug 2025 13:00:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: DER SPIEGEL Journalist in Gaza: Don't Allow Ghada to Die!
+Title: Circumventing U.S. Sanctions: Turkish State-Owned Bank Suspected of Transferring $1.5 Billion to Tehran
 Title: Florian Wirtz: Father on the Transfer to FC Liverpool - "Florian Wanted to Take a New Step"
 Title: Thomas Südhof on America's Crisis in Academia: "The Goal of the Trump Administration Is to Destroy the Elite"
 Title: The Case Before the ICJ: Is Israel Committing Genocide in the Gaza Strip?
-Title: Skeletons Emerging from the Closet: Deutsche Bank CEO Sewing Facing Questions as Lawsuits Loom
-Title: NATO's Eastern Flank: Germany's Rising Concerns about Russia
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Twelve killed in Thailand-Cambodia military clashes on disputed border
-Title: BBC and news agencies warn journalists in Gaza at risk of starvation
-Title: Gazans 'wasting away' as mass starvation spreads, humanitarian groups warn
-Title: White House pushes back after reports Trump is named in Epstein files
-Title: Twelve killed in Thailand-Cambodia military clashes on disputed border
+Title: Trump moves nuclear submarines after Russian ex-president's comments
+Title: Steve Rosenberg: Russia is staying quiet on Trump's nuclear move
+Title: Twelve years house arrest for Colombian ex-leader Álvaro Uribe
+Title: Mali charges ex-PM with undermining the state over post on X
+Title: Confusion and anger in Switzerland - hit by highest tariffs in Europe
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Eswatini opposition attacks US deal as ‘human trafficking disguised as deportation’
-Title: UK’s aid cuts ‘will hit children’s education and raise risk of death’
-Title: Man rescued trying to reach Spain from Morocco in rubber ring and flippers
-Title: Arrested Kenyan activist Boniface Mwangi faces terror charges
-Title: Malaria ‘back with a vengeance’ in Zimbabwe as number of deaths from the disease triple
+Title: Kemi Badenoch says she no longer sees herself as Nigerian despite upbringing
+Title: Rhino horns made radioactive to foil traffickers in South African project
+Title: France under pressure to stop $9.7m of USAID contraceptives being destroyed
+Title: Mass rape, forced pregnancy and sexual torture in Tigray amount to crimes against humanity – report
+Title: Gorilla habitats and pristine forest at risk as DRC opens half of country to oil and gas drilling bids
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-906948
+908244
 $ date -u +%s
-1753353180
+1754139615
