@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 02 Aug 2025 13:00:00 +0000
+Tue, 05 Aug 2025 07:35:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: DER SPIEGEL Journalist in Gaza: Don't Allow Ghada to Die!
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump moves nuclear submarines after Russian ex-president's comments
-Title: Steve Rosenberg: Russia is staying quiet on Trump's nuclear move
-Title: Twelve years house arrest for Colombian ex-leader Álvaro Uribe
-Title: Mali charges ex-PM with undermining the state over post on X
-Title: Confusion and anger in Switzerland - hit by highest tariffs in Europe
+Title: Hundreds of Israeli ex-officials appeal to Trump to help end Gaza war
+Title: US condemns house arrest of Brazil's ex-president Jair Bolsonaro 
+Title: 'I'm upset, angry and disgusted,' Epstein accuser tells BBC
+Title: India calls Trump's tariff threat over Russian oil 'unjustified'
+Title: Danish zoo asks for unwanted pets to feed its predators
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Scores dead as boat carrying more than 150 people capsizes off Yemen
+Title: Gunmen kidnap more than 50 people in north-west Nigeria
+Title: Family of Kenyan woman allegedly murdered by UK soldiers criticise defence secretary
 Title: Kemi Badenoch says she no longer sees herself as Nigerian despite upbringing
 Title: Rhino horns made radioactive to foil traffickers in South African project
-Title: France under pressure to stop $9.7m of USAID contraceptives being destroyed
-Title: Mass rape, forced pregnancy and sexual torture in Tigray amount to crimes against humanity – report
-Title: Gorilla habitats and pristine forest at risk as DRC opens half of country to oil and gas drilling bids
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-908244
+908692
 $ date -u +%s
-1754139615
+1754379339
