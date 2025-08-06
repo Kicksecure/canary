@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlxyWinMRa+hT+BMuKlZVOCYoTCan4hz7emddF1f8gN/nPZ1VnQWZXiwjWvp7kC+YDKjlBJBHpuNsp1IZMWo0Aw=
+RWQ6KRormNEETqnEH4wicMJUrnuzNLU28FVXMZKksP+ouYRoQXKktceMswHNw9lVybx0ZFTNwT+cTBC2oB6/0v/VnXNNoZttyAc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 05 Aug 2025 07:35:25 +0000
+Wed, 06 Aug 2025 11:10:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Standing Up to Putin's Regime: The Russian Lawyer Who Refuses to Back Down
 Title: DER SPIEGEL Journalist in Gaza: Don't Allow Ghada to Die!
 Title: Circumventing U.S. Sanctions: Turkish State-Owned Bank Suspected of Transferring $1.5 Billion to Tehran
 Title: Florian Wirtz: Father on the Transfer to FC Liverpool - "Florian Wanted to Take a New Step"
 Title: Thomas Südhof on America's Crisis in Academia: "The Goal of the Trump Administration Is to Destroy the Elite"
-Title: The Case Before the ICJ: Is Israel Committing Genocide in the Gaza Strip?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Hundreds of Israeli ex-officials appeal to Trump to help end Gaza war
-Title: US condemns house arrest of Brazil's ex-president Jair Bolsonaro 
-Title: 'I'm upset, angry and disgusted,' Epstein accuser tells BBC
-Title: India calls Trump's tariff threat over Russian oil 'unjustified'
-Title: Danish zoo asks for unwanted pets to feed its predators
+Title: UN official says Israel expanding Gaza operations would risk 'catastrophic consequences'
+Title: Russian attacks on Ukraine double since Trump inauguration
+Title: Oceangate's Titan whistleblower: 'People were sold a lie'
+Title: RFK Jr cancels $500m in funding for mRNA vaccines for diseases like Covid
+Title: Hiroshima marks 80 years since atomic bombing
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Prince Harry among those criticised in report on dispute at Sentebale charity
+Title: Rwanda agrees to take up to 250 migrants from the US
 Title: Scores dead as boat carrying more than 150 people capsizes off Yemen
 Title: Gunmen kidnap more than 50 people in north-west Nigeria
 Title: Family of Kenyan woman allegedly murdered by UK soldiers criticise defence secretary
-Title: Kemi Badenoch says she no longer sees herself as Nigerian despite upbringing
-Title: Rhino horns made radioactive to foil traffickers in South African project
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-908692
+908860
 $ date -u +%s
-1754379339
+1754478622
