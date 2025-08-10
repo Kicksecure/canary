@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqnEH4wicMJUrnuzNLU28FVXMZKksP+ouYRoQXKktceMswHNw9lVybx0ZFTNwT+cTBC2oB6/0v/VnXNNoZttyAc=
+RWQ6KRormNEETnafdzc6W9FKhq+HmCh9htV5drD7idMFkMdhORuKr7eWPLIU34MAon8wTI+gmeMsGVv8MOy6A1/we+xSIf7m5gw=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 06 Aug 2025 11:10:08 +0000
+Sun, 10 Aug 2025 06:38:22 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Standing Up to Putin's Regime: The Russian Lawyer Who Refuses to Back Down
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: UN official says Israel expanding Gaza operations would risk 'catastrophic consequences'
-Title: Russian attacks on Ukraine double since Trump inauguration
-Title: Oceangate's Titan whistleblower: 'People were sold a lie'
-Title: RFK Jr cancels $500m in funding for mRNA vaccines for diseases like Covid
-Title: Hiroshima marks 80 years since atomic bombing
+Title: Ukraine's European allies say peace talks must include Kyiv
+Title: Vance and Lammy host Ukraine talks ahead of US-Russia summit
+Title: Eleven more die from malnutrition in Gaza, Hamas-run health ministry says
+Title: Thousands protest in Israel over Gaza City occupation plan
+Title: Standing ovation as first female umpire for Major League Baseball takes to the pitch
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Assault on Sudan’s Zamzam refugee camp may have killed more than 1,500 civilians
+Title: US destruction of contraceptives denies 1.4m African women and girls lifesaving care, NGO says
+Title: US hunter reportedly killed by buffalo during expedition in South Africa
 Title: Prince Harry among those criticised in report on dispute at Sentebale charity
 Title: Rwanda agrees to take up to 250 migrants from the US
-Title: Scores dead as boat carrying more than 150 people capsizes off Yemen
-Title: Gunmen kidnap more than 50 people in north-west Nigeria
-Title: Family of Kenyan woman allegedly murdered by UK soldiers criticise defence secretary
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-908860
+909385
 $ date -u +%s
-1754478622
+1754807914
