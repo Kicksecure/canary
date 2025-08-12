@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnafdzc6W9FKhq+HmCh9htV5drD7idMFkMdhORuKr7eWPLIU34MAon8wTI+gmeMsGVv8MOy6A1/we+xSIf7m5gw=
+RWQ6KRormNEETg9joXa5MZ8SxdJ/LDWmApE1a0JUKGBWUWirqyz9S+kxDC7JqrHdgIprMnb5NTE3XAvfKIWK4rjYgzr4e0JkkwU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 10 Aug 2025 06:38:22 +0000
+Tue, 12 Aug 2025 11:19:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Know-How and Expertise: European Companies Hoping to Take the Global Lead in Industrial AI
 Title: Standing Up to Putin's Regime: The Russian Lawyer Who Refuses to Back Down
 Title: DER SPIEGEL Journalist in Gaza: Don't Allow Ghada to Die!
 Title: Circumventing U.S. Sanctions: Turkish State-Owned Bank Suspected of Transferring $1.5 Billion to Tehran
 Title: Florian Wirtz: Father on the Transfer to FC Liverpool - "Florian Wanted to Take a New Step"
-Title: Thomas Südhof on America's Crisis in Academia: "The Goal of the Trump Administration Is to Destroy the Elite"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine's European allies say peace talks must include Kyiv
-Title: Vance and Lammy host Ukraine talks ahead of US-Russia summit
-Title: Eleven more die from malnutrition in Gaza, Hamas-run health ministry says
-Title: Thousands protest in Israel over Gaza City occupation plan
-Title: Standing ovation as first female umpire for Major League Baseball takes to the pitch
+Title: Ukraine's borders must not be changed by force, EU leaders say
+Title: North Koreans tell BBC they are being sent to work 'like slaves' in Russia
+Title: US and China extend trade truce to avoid tariffs hike
+Title: Italian athlete dies after collapse at World Games
+Title: Flames near Madrid as wildfires burn across Spain and Portugal
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Migrants swim from Morocco to Ceuta as officials say enclave ‘overwhelmed’
+Title: Growing pains: can rice production in Africa keep up with demand?
+Title: Prince Harry considers founding new charity after Sentebale dispute
 Title: Assault on Sudan’s Zamzam refugee camp may have killed more than 1,500 civilians
 Title: US destruction of contraceptives denies 1.4m African women and girls lifesaving care, NGO says
-Title: US hunter reportedly killed by buffalo during expedition in South Africa
-Title: Prince Harry among those criticised in report on dispute at Sentebale charity
-Title: Rwanda agrees to take up to 250 migrants from the US
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-909385
+909691
 $ date -u +%s
-1754807914
+1754997611
