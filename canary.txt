@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 12 Aug 2025 11:19:56 +0000
+Wed, 27 Aug 2025 07:50:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "Have We Done It?": How Is Germany Doing 10 Years after the Refugee Crisis?
+Title: Merz Under Fire: German Conservatives Roiled by Chancellor's Decision on Arms for Israel
+Title: Donald Trump's Attacks on the Fed Could Signal a MAGA Takeover
 Title: Know-How and Expertise: European Companies Hoping to Take the Global Lead in Industrial AI
 Title: Standing Up to Putin's Regime: The Russian Lawyer Who Refuses to Back Down
-Title: DER SPIEGEL Journalist in Gaza: Don't Allow Ghada to Die!
-Title: Circumventing U.S. Sanctions: Turkish State-Owned Bank Suspected of Transferring $1.5 Billion to Tehran
-Title: Florian Wirtz: Father on the Transfer to FC Liverpool - "Florian Wanted to Take a New Step"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine's borders must not be changed by force, EU leaders say
-Title: North Koreans tell BBC they are being sent to work 'like slaves' in Russia
-Title: US and China extend trade truce to avoid tariffs hike
-Title: Italian athlete dies after collapse at World Games
-Title: Flames near Madrid as wildfires burn across Spain and Portugal
+Title: Ukraine admits Russia has entered key region of Dnipropetrovsk
+Title: Trump's 50% tariff on India kicks in as Modi urges self-reliance
+Title: 'I thought it was the end of my life': Inside Israel's attack on Iran's Evin Prison
+Title: Police killed in Australia shooting named as manhunt continues
+Title: Tayvis are engaged - what we learned, and how fans reacted
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Migrants swim from Morocco to Ceuta as officials say enclave ‘overwhelmed’
-Title: Growing pains: can rice production in Africa keep up with demand?
-Title: Prince Harry considers founding new charity after Sentebale dispute
-Title: Assault on Sudan’s Zamzam refugee camp may have killed more than 1,500 civilians
-Title: US destruction of contraceptives denies 1.4m African women and girls lifesaving care, NGO says
+Title: Attempt to partner African countries with Japanese cities triggers xenophobic backlash
+Title: Botswana’s president declares health emergency over supply shortages
+Title: Eswatini government faces court challenge over men deported by US
+Title: Uganda reaches agreement with US to take in some failed asylum seekers
+Title: Pressure grows on Tanzania to free victim of domestic violence who has been on death row for 13 years
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-909691
+911906
 $ date -u +%s
-1754997611
+1756281053
