@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrwRqtJCcCmP02vY9TrCjizU8KtkSsMR0dkVcFQ7z7wwlnEo6+32FXLkk7L8A/fKTygTuhukIujk13oXyNiAjgY=
+RWQ6KRormNEETv8bv5aFnnYFvbOqmbrjT6fKfthnKtU4Sj+YZ+qWLefpVBFTUGccQALrtgrMbZmdsVz/xBwh6qExVuaCPLkyFgY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 12 Sep 2025 12:17:21 +0000
+Fri, 12 Sep 2025 12:21:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Trump's Prisoners in El Salvador: Returning Home from Hell
@@ -77,6 +77,6 @@ Title: Six shot dead in two days as Cape Town reels from gang violence
 Title: Junk food leads to more children being obese than underweight for first time
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-914362
+914363
 $ date -u +%s
-1757679465
+1757679710
