@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 27 Aug 2025 07:50:38 +0000
+Fri, 12 Sep 2025 12:17:21 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: "Have We Done It?": How Is Germany Doing 10 Years after the Refugee Crisis?
-Title: Merz Under Fire: German Conservatives Roiled by Chancellor's Decision on Arms for Israel
-Title: Donald Trump's Attacks on the Fed Could Signal a MAGA Takeover
-Title: Know-How and Expertise: European Companies Hoping to Take the Global Lead in Industrial AI
-Title: Standing Up to Putin's Regime: The Russian Lawyer Who Refuses to Back Down
+Title: Trump's Prisoners in El Salvador: Returning Home from Hell
+Title: Killings of Civilians in Gaza: How DER SPIEGEL Reported on a Suspected War Crime
+Title: Targeted Killings: Israeli soldier from Munich allegedly shot unarmed men in Gaza
+Title: Müllermilch Boss with Fringe Friends: A German Dairy Billionaire's Links to the Far Right
+Title: A Giant Leap: Could BMW Save the German Automobile Industry?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Ukraine admits Russia has entered key region of Dnipropetrovsk
-Title: Trump's 50% tariff on India kicks in as Modi urges self-reliance
-Title: 'I thought it was the end of my life': Inside Israel's attack on Iran's Evin Prison
-Title: Police killed in Australia shooting named as manhunt continues
-Title: Tayvis are engaged - what we learned, and how fans reacted
+Title: Young fans and critics debate Charlie Kirk's political legacy
+Title: Bolsonaro sentenced to 27 years in prison for plotting Brazil coup
+Title: Ukraine launches 221 drones on Russia, Moscow says
+Title: North Korea executing more people for watching foreign films and TV, UN finds
+Title: Man accused of Trump assassination attempt cut off by judge as trial begins
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Attempt to partner African countries with Japanese cities triggers xenophobic backlash
-Title: Botswana’s president declares health emergency over supply shortages
-Title: Eswatini government faces court challenge over men deported by US
-Title: Uganda reaches agreement with US to take in some failed asylum seekers
-Title: Pressure grows on Tanzania to free victim of domestic violence who has been on death row for 13 years
+Title: Politicians in at least 51 countries used anti-LGBTQ+ rhetoric during elections, NGO finds
+Title: Global press freedom suffers sharpest fall in 50 years, report finds
+Title: South Africa to reopen Steve Biko inquest 48 years after death in police custody
+Title: Six shot dead in two days as Cape Town reels from gang violence
+Title: Junk food leads to more children being obese than underweight for first time
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-911906
+914362
 $ date -u +%s
-1756281053
+1757679465
