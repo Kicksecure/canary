@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETv8bv5aFnnYFvbOqmbrjT6fKfthnKtU4Sj+YZ+qWLefpVBFTUGccQALrtgrMbZmdsVz/xBwh6qExVuaCPLkyFgY=
+RWQ6KRormNEETt4T1b+OUdI7xmD7g/Rsu+IgtnOfbvcVEfJsYLWfe7n/fyzVWhiq8Zn/11ExLjnKzreb9/19rmlHhPOoNdNpGAg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 12 Sep 2025 12:21:39 +0000
+Tue, 16 Sep 2025 12:19:28 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Trump's Prisoners in El Salvador: Returning Home from Hell
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Young fans and critics debate Charlie Kirk's political legacy
-Title: Bolsonaro sentenced to 27 years in prison for plotting Brazil coup
-Title: Ukraine launches 221 drones on Russia, Moscow says
-Title: North Korea executing more people for watching foreign films and TV, UN finds
-Title: Man accused of Trump assassination attempt cut off by judge as trial begins
+Title: 'The bombing has been insane': Gaza City Palestinians scramble to flee Israeli assault
+Title: Israel has committed genocide in Gaza, UN commission of inquiry says
+Title: Kirk shooting suspect appeared to confess on Discord
+Title: Kenya issues arrest warrant for British national over young mother's murder
+Title: Federal court blocks Trump from sacking Lisa Cook
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Kenya seeks arrest of former British soldier over alleged murder of Agnes Wanjiru
+Title: Two men found guilty of witchcraft plot to kill Zambia’s president
 Title: Politicians in at least 51 countries used anti-LGBTQ+ rhetoric during elections, NGO finds
 Title: Global press freedom suffers sharpest fall in 50 years, report finds
 Title: South Africa to reopen Steve Biko inquest 48 years after death in police custody
-Title: Six shot dead in two days as Cape Town reels from gang violence
-Title: Junk food leads to more children being obese than underweight for first time
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-914363
+914949
 $ date -u +%s
-1757679710
+1758025184
