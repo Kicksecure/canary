@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 16 Sep 2025 12:19:28 +0000
+Mon, 22 Sep 2025 17:34:41 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Drones over Poland: NATO and the EU Seek a Convincing Response to Russian Aggression
+Title: Expedition to the North Pole: Polar Researchers Fear an Ecological Collapse in the Arctic
+Title: Critiquing DER SPIEGEL: The Four Dilemmas Facing Quality Journalism
 Title: Trump's Prisoners in El Salvador: Returning Home from Hell
 Title: Killings of Civilians in Gaza: How DER SPIEGEL Reported on a Suspected War Crime
-Title: Targeted Killings: Israeli soldier from Munich allegedly shot unarmed men in Gaza
-Title: Müllermilch Boss with Fringe Friends: A German Dairy Billionaire's Links to the Far Right
-Title: A Giant Leap: Could BMW Save the German Automobile Industry?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'The bombing has been insane': Gaza City Palestinians scramble to flee Israeli assault
-Title: Israel has committed genocide in Gaza, UN commission of inquiry says
-Title: Kirk shooting suspect appeared to confess on Discord
-Title: Kenya issues arrest warrant for British national over young mother's murder
-Title: Federal court blocks Trump from sacking Lisa Cook
+Title: Clashes break out as Italians strike demanding action over Gaza
+Title: Trump hails Charlie Kirk as martyr to thousands at memorial service
+Title: Sarah Ferguson dropped from multiple charities over Epstein email
+Title: Trump will reportedly link pain reliever Tylenol to autism - but many experts are sceptical
+Title: Super typhoon hits Philippines as thousands evacuate
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Kenya seeks arrest of former British soldier over alleged murder of Agnes Wanjiru
-Title: Two men found guilty of witchcraft plot to kill Zambia’s president
-Title: Politicians in at least 51 countries used anti-LGBTQ+ rhetoric during elections, NGO finds
-Title: Global press freedom suffers sharpest fall in 50 years, report finds
-Title: South Africa to reopen Steve Biko inquest 48 years after death in police custody
+Title: Disabled Nigerian man living in UK for 38 years wins appeal against deportation
+Title: Mass grave reveals scale of unlawful killings by Egyptian army in Sinai, say campaigners
+Title: Kenya’s arrest warrant is milestone in Agnes Wanjiru case but lengthy UK process awaits
+Title: Scores killed by RSF drone strike on mosque in besieged Sudanese city
+Title: Kenya’s Turkana people genetically adapted to live in harsh environment, study suggests
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-914949
+915915
 $ date -u +%s
-1758025184
+1758562497
