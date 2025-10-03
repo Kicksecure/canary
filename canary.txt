@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 22 Sep 2025 17:34:41 +0000
+Fri, 03 Oct 2025 15:44:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Trump's Crusaders: Christian Nationalists Are Gaining a Solid Foothold in Washington
+Title: In and Out at the FSB: A Window into the Moscow Life of Wirecard's Jan Marsalek
 Title: Drones over Poland: NATO and the EU Seek a Convincing Response to Russian Aggression
 Title: Expedition to the North Pole: Polar Researchers Fear an Ecological Collapse in the Arctic
 Title: Critiquing DER SPIEGEL: The Four Dilemmas Facing Quality Journalism
-Title: Trump's Prisoners in El Salvador: Returning Home from Hell
-Title: Killings of Civilians in Gaza: How DER SPIEGEL Reported on a Suspected War Crime
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Clashes break out as Italians strike demanding action over Gaza
-Title: Trump hails Charlie Kirk as martyr to thousands at memorial service
-Title: Sarah Ferguson dropped from multiple charities over Epstein email
-Title: Trump will reportedly link pain reliever Tylenol to autism - but many experts are sceptical
-Title: Super typhoon hits Philippines as thousands evacuate
+Title: Trump gives Hamas Sunday deadline to accept Gaza peace plan 
+Title: 'It was very tough but I love life' - ex-hostage whose family were killed on 7 October
+Title: Four Gaza flotilla activists deported by Israel
+Title: Trump wields axe over 'Democrat Agencies' as shutdown blame game rages
+Title: Blackout in Spain and Portugal 'first of its kind', report finds
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Disabled Nigerian man living in UK for 38 years wins appeal against deportation
-Title: Mass grave reveals scale of unlawful killings by Egyptian army in Sinai, say campaigners
-Title: Kenya’s arrest warrant is milestone in Agnes Wanjiru case but lengthy UK process awaits
-Title: Scores killed by RSF drone strike on mosque in besieged Sudanese city
-Title: Kenya’s Turkana people genetically adapted to live in harsh environment, study suggests
+Title: Kenyan activists abducted after joining opposition rally in Uganda
+Title: Organisers call for sixth night of protest as Morocco death toll rises to three
+Title: ‘We are the last hope’: Gen Z Madagascar vows to fight on until president resigns
+Title: Violence breaks out in Morocco as anti-government protests rage for fourth day
+Title: Former DRC president Joseph Kabila sentenced to death in absentia
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-915915
+917519
 $ date -u +%s
-1758562497
+1759506305
