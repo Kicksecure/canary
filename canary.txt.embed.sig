@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlVquw/8PGYcW1tbpR+LahPumRtgEZendHd14bI/iegbgu5PXbQafaNLpyZuP4Lu6+GY2ZJwMeMQqSB9v4ttWgA=
+RWQ6KRormNEETgm1ShqHrhEHIe+vkuGzVXgC9lISR1vPf7fjPS8NVbGk/jJ9NkWlQ4VNvwntW/1YuSahqvxA4Mu/z8cZ/rHHGgg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 03 Oct 2025 15:44:46 +0000
+Mon, 06 Oct 2025 09:34:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Trump's Crusaders: Christian Nationalists Are Gaining a Solid Foothold in Washington
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump gives Hamas Sunday deadline to accept Gaza peace plan 
-Title: 'It was very tough but I love life' - ex-hostage whose family were killed on 7 October
-Title: Four Gaza flotilla activists deported by Israel
-Title: Trump wields axe over 'Democrat Agencies' as shutdown blame game rages
-Title: Blackout in Spain and Portugal 'first of its kind', report finds
+Title: French Prime Minister Sébastien Lecornu resigns after less than a month
+Title: Trump urges mediators to 'move fast' as key Gaza peace talks set to begin
+Title: Death toll from Indonesia school collapse rises to 54
+Title: Judge blocks Trump from sending troops from California to Portland 
+Title: NZ compensates Samoa over crashed naval ship
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: ‘The fear was immense’: al-Shabaab exploits fragmented politics to reclaim land in Somalia
 Title: Kenyan activists abducted after joining opposition rally in Uganda
 Title: Organisers call for sixth night of protest as Morocco death toll rises to three
 Title: ‘We are the last hope’: Gen Z Madagascar vows to fight on until president resigns
 Title: Violence breaks out in Morocco as anti-government protests rage for fourth day
-Title: Former DRC president Joseph Kabila sentenced to death in absentia
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-917519
+917888
 $ date -u +%s
-1759506305
+1759743274
