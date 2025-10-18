@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 10 Oct 2025 08:55:00 +0000
+Sat, 18 Oct 2025 10:01:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Winners and Losers of the AI Revolution: Artificial Intelligence Is Radically Changing the Employment Landscape
+Title: China's Mongolian Minority Facing Increased Pressure to Assimilate
 Title: Operation Porcupine: Ukraine Develops New Tactics for the Never-Ending War
 Title: Growing Anti-Semitism: How Jews in Germany Are Dealing with a Changed Reality
 Title: America's Teetering Democracy: Trump's Thought Police Hit Their Stride
-Title: Trump's Crusaders: Christian Nationalists Are Gaining a Solid Foothold in Washington
-Title: In and Out at the FSB: A Window into the Moscow Life of Wirecard's Jan Marsalek
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: How Trump secured a Gaza breakthrough which eluded Biden
-Title: New York Attorney General Letitia James criminally indicted
-Title: Peru's president removed from office amid soaring crime
-Title: Major Russian strikes cut power across Kyiv
-Title: Tech billionaires seem to be doom prepping. Should we all be worried?
+Title: Zelensky fails to secure Tomahawk missiles at talks with Trump
+Title: Israel confirms latest body returned from Gaza is dead hostage
+Title: Exciting results from blood test for 50 cancers 
+Title: 'Have a great life!' Trump orders prison release of disgraced ex-lawmaker Santos
+Title: Chinese Nobel laureate and physicist Chen Ning Yang dies aged 103 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: ICC convicts former Sudan militia leader for war crimes in Darfur
-Title: Eswatini confirms arrival of 10 more people as part of US deportation deal
-Title: ‘The fear was immense’: al-Shabaab exploits fragmented politics to reclaim land in Somalia
-Title: Kenyan activists abducted after joining opposition rally in Uganda
-Title: Organisers call for sixth night of protest as Morocco death toll rises to three
+Title: Four dead as Kenyan security forces fire on crowds mourning Raila Odinga
+Title: Agnes Wanjiru’s niece urges Labour to extradite ex-soldier while still in power
+Title: African Union suspends Madagascar as military leader set to be sworn in as president
+Title: Raila Odinga, towering Kenyan opposition figure, dies aged 80
+Title: Thousands trapped in El Fasher siege on ‘edge of survival’, says report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-918424
+919627
 $ date -u +%s
-1760086516
+1760781712
