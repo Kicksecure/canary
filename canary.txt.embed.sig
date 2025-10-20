@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETthUfsdlaCQ/5CgzQyIwo8MVYGTN48SJ5oVHjSFCMhTMd8AJoGVE9y0tSFSuJPrP3SO4EDPUs7q7cbt1g1Y2jww=
+RWQ6KRormNEETqRZY7XM9iuVtdDxPvBSKlubcPk+7Af7ORTcPWBwiBD+xVgggj1Pxb4PPE2K4AD+leCoW/Ah/5VNE6vbz/N8OwA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 18 Oct 2025 10:01:40 +0000
+Mon, 20 Oct 2025 16:53:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Winners and Losers of the AI Revolution: Artificial Intelligence Is Radically Changing the Employment Landscape
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Zelensky fails to secure Tomahawk missiles at talks with Trump
-Title: Israel confirms latest body returned from Gaza is dead hostage
-Title: Exciting results from blood test for 50 cancers 
-Title: 'Have a great life!' Trump orders prison release of disgraced ex-lawmaker Santos
-Title: Chinese Nobel laureate and physicist Chen Ning Yang dies aged 103 
+Title: Deadly Gaza flare-up tests Israel-Hamas ceasefire
+Title: Zelensky ready to join Trump-Putin talks after 'frank' White House meeting
+Title: 'We have failed' says minister as France reels from Louvre heist
+Title: Two dead after cargo plane skids off Hong Kong runway into sea
+Title: Driver dies after Italian basketball fans' bus attacked with stones
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Tensions mount as Alassane Ouattara seeks fourth term in Ivory Coast vote
 Title: Four dead as Kenyan security forces fire on crowds mourning Raila Odinga
 Title: Agnes Wanjiru’s niece urges Labour to extradite ex-soldier while still in power
 Title: African Union suspends Madagascar as military leader set to be sworn in as president
 Title: Raila Odinga, towering Kenyan opposition figure, dies aged 80
-Title: Thousands trapped in El Fasher siege on ‘edge of survival’, says report
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-919627
+919966
 $ date -u +%s
-1760781712
+1760979202
