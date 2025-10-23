@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETqRZY7XM9iuVtdDxPvBSKlubcPk+7Af7ORTcPWBwiBD+xVgggj1Pxb4PPE2K4AD+leCoW/Ah/5VNE6vbz/N8OwA=
+RWQ6KRormNEETuISC6Elgj+veAVJRed/A0Zijs5QSHB5rXdrO7ZMVbMWztgnowU4NwvYyIWPWYeca9FLYiYWISycOTvcYd0HQg0=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 20 Oct 2025 16:53:09 +0000
+Thu, 23 Oct 2025 08:42:25 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Winners and Losers of the AI Revolution: Artificial Intelligence Is Radically Changing the Employment Landscape
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Deadly Gaza flare-up tests Israel-Hamas ceasefire
-Title: Zelensky ready to join Trump-Putin talks after 'frank' White House meeting
-Title: 'We have failed' says minister as France reels from Louvre heist
-Title: Two dead after cargo plane skids off Hong Kong runway into sea
-Title: Driver dies after Italian basketball fans' bus attacked with stones
+Title: Trump says Putin talks 'don't go anywhere' as he imposes new sanctions 
+Title: Blackouts hit Russia's Belgorod as Ukrainian drone attacks surge
+Title: Ten dead in blast at Russian munitions plant in Urals - reports
+Title: France backing away from pledge to intercept migrant boats, sources tell BBC
+Title: No camera covered Louvre wall where jewel thieves broke in, director says
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Cuban man deported from US to Eswatini goes on hunger strike in prison
+Title: Anti-malaria funding cuts could lead to ‘deadliest resurgence ever’, study warns
 Title: Tensions mount as Alassane Ouattara seeks fourth term in Ivory Coast vote
 Title: Four dead as Kenyan security forces fire on crowds mourning Raila Odinga
 Title: Agnes Wanjiru’s niece urges Labour to extradite ex-soldier while still in power
-Title: African Union suspends Madagascar as military leader set to be sworn in as president
-Title: Raila Odinga, towering Kenyan opposition figure, dies aged 80
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-919966
+920372
 $ date -u +%s
-1760979202
+1761208953
