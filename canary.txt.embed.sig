@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuISC6Elgj+veAVJRed/A0Zijs5QSHB5rXdrO7ZMVbMWztgnowU4NwvYyIWPWYeca9FLYiYWISycOTvcYd0HQg0=
+RWQ6KRormNEETu6k9rZeRUt6RfvNtoY7pG1ICmkZOPkkqQmLZc90/+nstPWdHe62nVcH/7XnlNm5XZh1T0FSNtGmskO/2EiFEQo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 23 Oct 2025 08:42:25 +0000
+Sun, 26 Oct 2025 10:33:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Austria: The Rising Power of Right-Wing Fraternities
 Title: Winners and Losers of the AI Revolution: Artificial Intelligence Is Radically Changing the Employment Landscape
 Title: China's Mongolian Minority Facing Increased Pressure to Assimilate
 Title: Operation Porcupine: Ukraine Develops New Tactics for the Never-Ending War
 Title: Growing Anti-Semitism: How Jews in Germany Are Dealing with a Changed Reality
-Title: America's Teetering Democracy: Trump's Thought Police Hit Their Stride
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump says Putin talks 'don't go anywhere' as he imposes new sanctions 
-Title: Blackouts hit Russia's Belgorod as Ukrainian drone attacks surge
-Title: Ten dead in blast at Russian munitions plant in Urals - reports
-Title: France backing away from pledge to intercept migrant boats, sources tell BBC
-Title: No camera covered Louvre wall where jewel thieves broke in, director says
+Title: Suspects arrested over theft of jewels at Louvre museum in Paris
+Title: Trump presides over Thai-Cambodia 'peace deal' - but what does it mean?
+Title: Trump's week in Asia: BBC correspondents on the wins and potential losses
+Title: Harris 'concerned' she did not ask Biden to quit race
+Title: 'Brothers in the forest' - the fight to protect an isolated Amazon tribe
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Turkey likely to be excluded from Gaza stabilisation force after Israeli objection
+Title: Two dead and dozens arrested amid Cameroon election crackdown
+Title: UK’s biggest weapons firm BAE grounds ‘lifeline’ aircraft delivering food aid
 Title: Cuban man deported from US to Eswatini goes on hunger strike in prison
 Title: Anti-malaria funding cuts could lead to ‘deadliest resurgence ever’, study warns
-Title: Tensions mount as Alassane Ouattara seeks fourth term in Ivory Coast vote
-Title: Four dead as Kenyan security forces fire on crowds mourning Raila Odinga
-Title: Agnes Wanjiru’s niece urges Labour to extradite ex-soldier while still in power
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-920372
+920862
 $ date -u +%s
-1761208953
+1761474829
