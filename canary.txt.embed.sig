@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETu6k9rZeRUt6RfvNtoY7pG1ICmkZOPkkqQmLZc90/+nstPWdHe62nVcH/7XnlNm5XZh1T0FSNtGmskO/2EiFEQo=
+RWQ6KRormNEEThHLXVJHuTuMKMKlPWZIZeMVoeYMU6Ty+EZGcM1NUbv9zikHia68RiQsRa5khIooxqBe1K2QMyLJyH4AcRO/6g0=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 26 Oct 2025 10:33:39 +0000
+Wed, 29 Oct 2025 12:33:09 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Billions for the Military: Germany's Economy Pins Its Hopes on the Defense Industry
 Title: Austria: The Rising Power of Right-Wing Fraternities
 Title: Winners and Losers of the AI Revolution: Artificial Intelligence Is Radically Changing the Employment Landscape
 Title: China's Mongolian Minority Facing Increased Pressure to Assimilate
 Title: Operation Porcupine: Ukraine Develops New Tactics for the Never-Ending War
-Title: Growing Anti-Semitism: How Jews in Germany Are Dealing with a Changed Reality
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Suspects arrested over theft of jewels at Louvre museum in Paris
-Title: Trump presides over Thai-Cambodia 'peace deal' - but what does it mean?
-Title: Trump's week in Asia: BBC correspondents on the wins and potential losses
-Title: Harris 'concerned' she did not ask Biden to quit race
-Title: 'Brothers in the forest' - the fight to protect an isolated Amazon tribe
+Title: Jamaicans wake to devastation as hurricane causes floods, power cuts and splits city in two
+Title: US will reduce its troops on Nato's eastern flank, Romania says
+Title: Tight race in Dutch election as anti-Islam populist Wilders' hope of power declines
+Title: Investigation after woman left behind by cruise ship dies on island
+Title: Israeli strikes in Gaza kill 104, health ministry says, after Hamas accused of killing soldier
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Turkey likely to be excluded from Gaza stabilisation force after Israeli objection
-Title: Two dead and dozens arrested amid Cameroon election crackdown
-Title: UK’s biggest weapons firm BAE grounds ‘lifeline’ aircraft delivering food aid
-Title: Cuban man deported from US to Eswatini goes on hunger strike in prison
-Title: Anti-malaria funding cuts could lead to ‘deadliest resurgence ever’, study warns
+Title: Tanzanian president poised to retain power as rivals barred from election
+Title: Wole Soyinka, Nigerian Nobel laureate and Trump critic, says US visa revoked
+Title: Mass killings reported in Sudanese city seized by paramilitary group
+Title: UK military equipment used by militia accused of genocide found in Sudan, UN told
+Title: Alassane Ouattara wins landslide fourth term as Ivory Coast’s president
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-920862
+921321
 $ date -u +%s
-1761474829
+1761741202
