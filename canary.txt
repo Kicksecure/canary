@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 29 Oct 2025 12:33:09 +0000
+Sat, 01 Nov 2025 13:10:07 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Donald Trump's Achilles Heel: The Epstein Curse Continues to Loom Large
 Title: Billions for the Military: Germany's Economy Pins Its Hopes on the Defense Industry
 Title: Austria: The Rising Power of Right-Wing Fraternities
 Title: Winners and Losers of the AI Revolution: Artificial Intelligence Is Radically Changing the Employment Landscape
 Title: China's Mongolian Minority Facing Increased Pressure to Assimilate
-Title: Operation Porcupine: Ukraine Develops New Tactics for the Never-Ending War
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jamaicans wake to devastation as hurricane causes floods, power cuts and splits city in two
-Title: US will reduce its troops on Nato's eastern flank, Romania says
-Title: Tight race in Dutch election as anti-Islam populist Wilders' hope of power declines
-Title: Investigation after woman left behind by cruise ship dies on island
-Title: Israeli strikes in Gaza kill 104, health ministry says, after Hamas accused of killing soldier
+Title: 'We need food, we have no food' - desperation takes hold in Jamaica after hurricane
+Title: Defence of Donbas town a priority, Zelensky says, as special forces deployed
+Title: Tanzania president wins election as hundreds feared dead in unrest
+Title: China to loosen chip export ban to Europe after Netherlands row
+Title: Police seize €1.3bn from Campari owner over alleged tax evasion
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Tanzanian president poised to retain power as rivals barred from election
-Title: Wole Soyinka, Nigerian Nobel laureate and Trump critic, says US visa revoked
-Title: Mass killings reported in Sudanese city seized by paramilitary group
-Title: UK military equipment used by militia accused of genocide found in Sudan, UN told
-Title: Alassane Ouattara wins landslide fourth term as Ivory Coast’s president
+Title: UN expert urged to investigate Lebanon over alleged torture of Egyptian-Turkish poet
+Title: Tanzania’s Hassan declared landslide winner in election that triggered violent protests
+Title: UN approves resolution supporting Morocco’s claim to Western Sahara
+Title: Sudan’s RSF accused of ‘PR stunt’ after arresting fighters behind civilian killings
+Title: Bonus episode: Searching for the spirit of Pan-Africanism – podcast
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-921321
+921756
 $ date -u +%s
-1761741202
+1762002622
