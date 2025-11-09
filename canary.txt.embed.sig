@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETms+Syrk5PgskbtXGWOalrmCMZDzpkrOoMrFMLjCGCDRdCDvZ5ooQWx1AcifUAng8W4CRWYQjcgGzfnfins3dgk=
+RWQ6KRormNEEThrm85RfbbG7hpresMSjwH6SNHbU7F6s6B/tqMA997Vm14y1bm2dX2jE1BKIR1r6IHMY9sweRxjCvdqEGGUsSg4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 01 Nov 2025 13:10:07 +0000
+Sun, 09 Nov 2025 05:55:04 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Donald Trump's Achilles Heel: The Epstein Curse Continues to Loom Large
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'We need food, we have no food' - desperation takes hold in Jamaica after hurricane
-Title: Defence of Donbas town a priority, Zelensky says, as special forces deployed
-Title: Tanzania president wins election as hundreds feared dead in unrest
-Title: China to loosen chip export ban to Europe after Netherlands row
-Title: Police seize €1.3bn from Campari owner over alleged tax evasion
+Title: Syria's Sharaa arrives in US for Trump talks after sanctions lifted
+Title: Six dead as Russia hits energy and residential sites in Ukraine
+Title: The ex-president's daughter who faces terror-related charges
+Title: What Hungary's Orban did - and didn't - get from Trump
+Title: More than 1,400 flights cancelled as US air traffic cuts enter second day
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: UN expert urged to investigate Lebanon over alleged torture of Egyptian-Turkish poet
-Title: Tanzania’s Hassan declared landslide winner in election that triggered violent protests
-Title: UN approves resolution supporting Morocco’s claim to Western Sahara
-Title: Sudan’s RSF accused of ‘PR stunt’ after arresting fighters behind civilian killings
-Title: Bonus episode: Searching for the spirit of Pan-Africanism – podcast
+Title: Tanzania police arrest opposition party official after deadly election protests
+Title: Trump says US will boycott G20 summit in South Africa, citing treatment of white farmers
+Title: Civil rescue groups in Mediterranean cut ties with Libyan coastguard
+Title: UK rejected atrocity prevention plans for Sudan despite warning of possible genocide
+Title: Sudanese militia group accused of war crimes agrees to a ceasefire
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-921756
+922828
 $ date -u +%s
-1762002622
+1762667715
