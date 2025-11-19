@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 09 Nov 2025 05:55:04 +0000
+Wed, 19 Nov 2025 07:30:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Germany's Queen Mum: Nostalgia for the Merkel Era Alive and Well
+Title: Director Nadav Lapid on Israel after Gaza: It Was Our Duty to Scream
+Title: "You've Had Her Long Enough": Egypt Says It's Time for Nefertiti to Come Home
 Title: Donald Trump's Achilles Heel: The Epstein Curse Continues to Loom Large
 Title: Billions for the Military: Germany's Economy Pins Its Hopes on the Defense Industry
-Title: Austria: The Rising Power of Right-Wing Fraternities
-Title: Winners and Losers of the AI Revolution: Artificial Intelligence Is Radically Changing the Employment Landscape
-Title: China's Mongolian Minority Facing Increased Pressure to Assimilate
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Syria's Sharaa arrives in US for Trump talks after sanctions lifted
-Title: Six dead as Russia hits energy and residential sites in Ukraine
-Title: The ex-president's daughter who faces terror-related charges
-Title: What Hungary's Orban did - and didn't - get from Trump
-Title: More than 1,400 flights cancelled as US air traffic cuts enter second day
+Title: 'Things happen' - Trump defends Saudi crown prince over Khashoggi killing
+Title: Cristiano Ronaldo attends White House dinner alongside Saudi crown prince
+Title: Congress approves bill to release Epstein files that will head to Trump's desk
+Title: The only 'no' vote on releasing Epstein files
+Title: 'It would have been better if they'd killed me': A forgotten war destroying women's lives
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Tanzania police arrest opposition party official after deadly election protests
-Title: Trump says US will boycott G20 summit in South Africa, citing treatment of white farmers
-Title: Civil rescue groups in Mediterranean cut ties with Libyan coastguard
-Title: UK rejected atrocity prevention plans for Sudan despite warning of possible genocide
-Title: Sudanese militia group accused of war crimes agrees to a ceasefire
+Title: The rainforest the world forgot: the Congo basin is the second largest on Earth, so why is it being neglected?
+Title: Nestlé accused of ’risking health of babies for profit’ over added sugar in cereals sold in African countries
+Title: Nicki Minaj to spotlight plight of Nigerian Christians in UN speech arranged by White House
+Title: Eswatini confirms receiving over $5m from US to accept deportees
+Title: ‘His role is to recruit’: the Sheffield-based propagandist for Sudan’s RSF militia
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-922828
+924256
 $ date -u +%s
-1762667715
+1763537447
