@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 19 Nov 2025 07:30:35 +0000
+Thu, 27 Nov 2025 07:29:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Remnants of the War: Syrians from Germany Helping with Reconstruction - But Remain Wary of Moving Back
 Title: Germany's Queen Mum: Nostalgia for the Merkel Era Alive and Well
 Title: Director Nadav Lapid on Israel after Gaza: It Was Our Duty to Scream
 Title: "You've Had Her Long Enough": Egypt Says It's Time for Nefertiti to Come Home
 Title: Donald Trump's Achilles Heel: The Epstein Curse Continues to Loom Large
-Title: Billions for the Military: Germany's Economy Pins Its Hopes on the Defense Industry
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'Things happen' - Trump defends Saudi crown prince over Khashoggi killing
-Title: Cristiano Ronaldo attends White House dinner alongside Saudi crown prince
-Title: Congress approves bill to release Epstein files that will head to Trump's desk
-Title: The only 'no' vote on releasing Epstein files
-Title: 'It would have been better if they'd killed me': A forgotten war destroying women's lives
+Title: 'I am devastated': Hong Kong residents in disbelief after fire destroys blocks of flats
+Title: BBC on the scene of the Hong Kong apartment block blaze
+Title: US suspends immigration requests for Afghans after National Guard shooting
+Title: 'This is no life': Security and long-held views shattered in south Lebanon amid Israeli strikes
+Title: Pope Leo XIV to visit Turkey and Lebanon in first foreign trip of his papacy
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: The rainforest the world forgot: the Congo basin is the second largest on Earth, so why is it being neglected?
-Title: Nestlé accused of ’risking health of babies for profit’ over added sugar in cereals sold in African countries
-Title: Nicki Minaj to spotlight plight of Nigerian Christians in UN speech arranged by White House
-Title: Eswatini confirms receiving over $5m from US to accept deportees
-Title: ‘His role is to recruit’: the Sheffield-based propagandist for Sudan’s RSF militia
+Title: Guinea-Bissau military takes ‘total control’ amid election chaos
+Title: Nigerian schoolgirls rescued after mass abduction in Kebbi
+Title: Jacob Zuma’s daughter accused of tricking men into fighting for Russia in Ukraine
+Title: UK rejects Nigerian request to deport former politican jailed for organ trafficking
+Title: Ethiopian volcano erupts for first time in 12,000 years
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-924256
+925381
 $ date -u +%s
-1763537447
+1764228564
