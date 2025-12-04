@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThRCKlCjKo0wOn7Ql1KPZUEWFP/4aRoQQ0olcnC+mHmHlIICC8BkpcmvqwDlv602p0YKfr1T4zZtGa40EuctpQQ=
+RWQ6KRormNEETuJ+fRNTHIFvAwTMutv0jIycMJOKM4hIM9TNfpS+ENyYfbdghyoU6aWqQkbRVyuRO8yxZ//jmioZ+2nOe3K1hwg=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 27 Nov 2025 07:29:11 +0000
+Thu, 04 Dec 2025 13:27:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Confidential Conference on Ukraine Peace: "We Must Not Leave Ukraine and Volodymyr Alone with These Guys"
+Title: Project 2025 Author: "We Won't Let Anyone Stop US from Using Our Oil and Gas"
 Title: Remnants of the War: Syrians from Germany Helping with Reconstruction - But Remain Wary of Moving Back
 Title: Germany's Queen Mum: Nostalgia for the Merkel Era Alive and Well
 Title: Director Nadav Lapid on Israel after Gaza: It Was Our Duty to Scream
-Title: "You've Had Her Long Enough": Egypt Says It's Time for Nefertiti to Come Home
-Title: Donald Trump's Achilles Heel: The Epstein Curse Continues to Loom Large
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'I am devastated': Hong Kong residents in disbelief after fire destroys blocks of flats
-Title: BBC on the scene of the Hong Kong apartment block blaze
-Title: US suspends immigration requests for Afghans after National Guard shooting
-Title: 'This is no life': Security and long-held views shattered in south Lebanon amid Israeli strikes
-Title: Pope Leo XIV to visit Turkey and Lebanon in first foreign trip of his papacy
+Title: Oil, defence and geopolitics: Why Putin is visiting Modi in Delhi
+Title: Ukraine and US negotiators to meet in Florida after Moscow talks, White House says
+Title: Previously unseen images of Epstein's island released 
+Title: South Korea developing app that shows real-time location of stalkers
+Title: Israel says Palestinian groups returned body of Thai hostage held in Gaza
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Guinea-Bissau military takes ‘total control’ amid election chaos
-Title: Nigerian schoolgirls rescued after mass abduction in Kebbi
-Title: Jacob Zuma’s daughter accused of tricking men into fighting for Russia in Ukraine
-Title: UK rejects Nigerian request to deport former politican jailed for organ trafficking
-Title: Ethiopian volcano erupts for first time in 12,000 years
+Title: US and EU critical minerals project could displace thousands in DR Congo – report
+Title: Uganda stops granting refugee status for Eritreans, Somalis and Ethiopians
+Title: Ghana’s Ibrahim Mahama first African to top annual art power list
+Title: British troops accused of human rights violations and sexual abuse in Kenya
+Title: Whistleblower accuses Foreign Office of ‘censoring’ warning of Sudan genocide
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-925381
+926405
 $ date -u +%s
-1764228564
+1764854877
