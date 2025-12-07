@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuJ+fRNTHIFvAwTMutv0jIycMJOKM4hIM9TNfpS+ENyYfbdghyoU6aWqQkbRVyuRO8yxZ//jmioZ+2nOe3K1hwg=
+RWQ6KRormNEETgtg5NvftcKo7+ZAYl8BJJWrWV7WIjrEXl6AhO33Wb6HoDThYa9FWirxn9Q8pSL6biXqeJfSJUqOwj4MYLMDPQY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 04 Dec 2025 13:27:42 +0000
+Sun, 07 Dec 2025 07:54:00 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Confidential Conference on Ukraine Peace: "We Must Not Leave Ukraine and Volodymyr Alone with These Guys"
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Oil, defence and geopolitics: Why Putin is visiting Modi in Delhi
-Title: Ukraine and US negotiators to meet in Florida after Moscow talks, White House says
-Title: Previously unseen images of Epstein's island released 
-Title: South Korea developing app that shows real-time location of stalkers
-Title: Israel says Palestinian groups returned body of Thai hostage held in Gaza
+Title: Staff and tourists among 25 killed in Goa nightclub fire
+Title: Ukrainian city hit by 'massive' strike as peace talks in US conclude
+Title: Death toll from devastating Indonesia floods passes 900
+Title: Hong Kong votes in election as city mourns deadly fire
+Title: Deadly attack on kindergarten reported in Sudan 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: US and EU critical minerals project could displace thousands in DR Congo – report
-Title: Uganda stops granting refugee status for Eritreans, Somalis and Ethiopians
-Title: Ghana’s Ibrahim Mahama first African to top annual art power list
-Title: British troops accused of human rights violations and sexual abuse in Kenya
-Title: Whistleblower accuses Foreign Office of ‘censoring’ warning of Sudan genocide
+Title: Gunmen kill at least 12 people including three-year-old in hostel in South Africa
+Title: People flee DR Congo fighting one day after peace deal signed in Washington
+Title: RSF massacres left Sudanese city ‘a slaughterhouse’, satellite images show
+Title: 60,000 African penguins starved to death after sardine numbers collapsed – study
+Title: US considers wider sanctions on Sudanese army and RSF as ceasefire efforts falter
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-926405
+926793
 $ date -u +%s
-1764854877
+1765094051
