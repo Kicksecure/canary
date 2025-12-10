@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETgtg5NvftcKo7+ZAYl8BJJWrWV7WIjrEXl6AhO33Wb6HoDThYa9FWirxn9Q8pSL6biXqeJfSJUqOwj4MYLMDPQY=
+RWQ6KRormNEETkyKDA9KJ1C8nBmRr1TX0HZxulO5aCfjCftutyZsRpbdJV6Rs8CXfDBvcTtT/zJ9Wptfpf5ENJX9R89lqGdLhgM=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 07 Dec 2025 07:54:00 +0000
+Wed, 10 Dec 2025 19:15:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Egypt's Foreign Minister Badr Abdelatty: "It Is Shameful to Just Stand By and Watch"
 Title: Confidential Conference on Ukraine Peace: "We Must Not Leave Ukraine and Volodymyr Alone with These Guys"
 Title: Project 2025 Author: "We Won't Let Anyone Stop US from Using Our Oil and Gas"
 Title: Remnants of the War: Syrians from Germany Helping with Reconstruction - But Remain Wary of Moving Back
 Title: Germany's Queen Mum: Nostalgia for the Merkel Era Alive and Well
-Title: Director Nadav Lapid on Israel after Gaza: It Was Our Duty to Scream
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Staff and tourists among 25 killed in Goa nightclub fire
-Title: Ukrainian city hit by 'massive' strike as peace talks in US conclude
-Title: Death toll from devastating Indonesia floods passes 900
-Title: Hong Kong votes in election as city mourns deadly fire
-Title: Deadly attack on kindergarten reported in Sudan 
+Title: US could ask foreign tourists for five-year social media history before entry
+Title: Ukraine at critical moment, European leaders say after Trump call
+Title: Iceland becomes fifth country to boycott Eurovision
+Title: Judge rules Epstein grand jury records from 2019 case can be released
+Title: Nobel Peace Prize winner's daughter accepts award on her behalf
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Gunmen kill at least 12 people including three-year-old in hostel in South Africa
-Title: People flee DR Congo fighting one day after peace deal signed in Washington
-Title: RSF massacres left Sudanese city ‘a slaughterhouse’, satellite images show
-Title: 60,000 African penguins starved to death after sardine numbers collapsed – study
-Title: US considers wider sanctions on Sudanese army and RSF as ceasefire efforts falter
+Title: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
+Title: DRC fighting forces 200,000 to flee just days after Washington peace deal
+Title: US puts sanctions on network said to funnel Colombian mercenaries to Sudan
+Title: Nigerian troops held in Burkina Faso after ‘unfriendly’ emergency landing
+Title: False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-926793
+927307
 $ date -u +%s
-1765094051
+1765394137
