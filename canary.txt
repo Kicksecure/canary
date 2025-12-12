@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 10 Dec 2025 19:15:26 +0000
+Fri, 12 Dec 2025 15:05:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Finance Fraud by App: Online Scammers Fueled by Forced Labor in Myanmar
+Title: The "White Tiger" Case: How an Online Search for Friends Ended in Coerced Suicide
 Title: Egypt's Foreign Minister Badr Abdelatty: "It Is Shameful to Just Stand By and Watch"
 Title: Confidential Conference on Ukraine Peace: "We Must Not Leave Ukraine and Volodymyr Alone with These Guys"
 Title: Project 2025 Author: "We Won't Let Anyone Stop US from Using Our Oil and Gas"
-Title: Remnants of the War: Syrians from Germany Helping with Reconstruction - But Remain Wary of Moving Back
-Title: Germany's Queen Mum: Nostalgia for the Merkel Era Alive and Well
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US could ask foreign tourists for five-year social media history before entry
-Title: Ukraine at critical moment, European leaders say after Trump call
-Title: Iceland becomes fifth country to boycott Eurovision
-Title: Judge rules Epstein grand jury records from 2019 case can be released
-Title: Nobel Peace Prize winner's daughter accepts award on her behalf
+Title: Germany accuses Russia of 2024 cyber-attack and disinformation
+Title: Russia hits back at Europe's big plan to loan Moscow's frozen cash to Ukraine
+Title: Trump's Gaza peace plan struggles to progress as Israel and Hamas face tough choices
+Title: Clair Obscur sweeps The Game Awards with nine wins
+Title: Taylor Swift shown breaking down in tears after she met UK attack families
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: UK imposes sanctions on four RSF officers for ‘heinous’ mass killings in Sudan
+Title: Fate of 11 Nigerian troops unclear after ‘unauthorised’ plane landing in Burkina Faso
 Title: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
 Title: DRC fighting forces 200,000 to flee just days after Washington peace deal
 Title: US puts sanctions on network said to funnel Colombian mercenaries to Sudan
-Title: Nigerian troops held in Burkina Faso after ‘unfriendly’ emergency landing
-Title: False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-927307
+927587
 $ date -u +%s
-1765394137
+1765551950
