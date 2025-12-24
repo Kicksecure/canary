@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETp+1ME+fYOmwxfWXI00J+u/hm5H+YXRKO+DQ/Dolc9aTYkftfOGlHc56sRq1WXFF92qXWm15lSX/PVp0L2WcDwA=
+RWQ6KRormNEETsAWZMAyjqtM/IIXod4njiwDrXa7LL9XfTnK5t8gwJeAe2+YGtNNKojadvaDesZEGwr6h43DcViEPNSc0kCMUww=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 12 Dec 2025 15:05:38 +0000
+Wed, 24 Dec 2025 11:45:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Israel's Guantanamo: Israeli Treatment of Palestinian Prisons in the Spotlight
 Title: Finance Fraud by App: Online Scammers Fueled by Forced Labor in Myanmar
 Title: The "White Tiger" Case: How an Online Search for Friends Ended in Coerced Suicide
 Title: Egypt's Foreign Minister Badr Abdelatty: "It Is Shameful to Just Stand By and Watch"
 Title: Confidential Conference on Ukraine Peace: "We Must Not Leave Ukraine and Volodymyr Alone with These Guys"
-Title: Project 2025 Author: "We Won't Let Anyone Stop US from Using Our Oil and Gas"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Germany accuses Russia of 2024 cyber-attack and disinformation
-Title: Russia hits back at Europe's big plan to loan Moscow's frozen cash to Ukraine
-Title: Trump's Gaza peace plan struggles to progress as Israel and Hamas face tough choices
-Title: Clair Obscur sweeps The Game Awards with nine wins
-Title: Taylor Swift shown breaking down in tears after she met UK attack families
+Title: Zelensky moves towards demilitarised zones in latest peace plan for Ukraine
+Title: Venezuela accuses US of 'extortion' over seizure of oil tankers
+Title: Email by 'A' from 'Balmoral' asked Ghislaine Maxwell for 'inappropriate friends', Epstein files show
+Title: Trump trips, a fake video and 10 possible co-conspirators: Takeaways from new Epstein files
+Title: Australia to deport British man charged with displaying Nazi symbols
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: UK imposes sanctions on four RSF officers for ‘heinous’ mass killings in Sudan
-Title: Fate of 11 Nigerian troops unclear after ‘unauthorised’ plane landing in Burkina Faso
-Title: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
-Title: DRC fighting forces 200,000 to flee just days after Washington peace deal
-Title: US puts sanctions on network said to funnel Colombian mercenaries to Sudan
+Title: Libya’s army chief dies in plane crash in Turkey
+Title: Freed Nigerian schoolchildren to be reunited with families
+Title: Another 130 kidnapped schoolchildren released in Nigeria
+Title: Manchester Museum seeks help to uncover hidden histories of African collection
+Title: Sweden and Germany slash aid budgets to focus on Ukraine and defence spending
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-927587
+929269
 $ date -u +%s
-1765551950
+1766576747
