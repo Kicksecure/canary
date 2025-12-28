@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETtrHO59EWiWcWtTvWARC/hXvO7Gp7Mp3sj8JHXr0b+x0nU3apKM2GH23eWmGihrrUKWV6/8kJesajeUKvgK+dQE=
+RWQ6KRormNEEThFLHrE0q6kEu+88dHJe65xByXwpWUF8UhnOdGLLJFxcEX9htBb0e/tmeilqasbLbo4FPOHUPsHC9gT9SWxsEws=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 28 Dec 2025 07:13:58 +0000
+Sun, 28 Dec 2025 07:28:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Israel's Guantanamo: Israeli Treatment of Palestinian Prisons in the Spotlight
@@ -77,6 +77,6 @@ Title: British-Egyptian activist Alaa Abd el-Fattah arrives in UK after travel b
 Title: Trump supporters hail US strikes in Nigeria as ‘amazing Christmas present’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-929831
+929832
 $ date -u +%s
-1766906051
+1766906935
