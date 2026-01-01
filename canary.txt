@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 28 Dec 2025 07:28:42 +0000
+Thu, 01 Jan 2026 17:32:04 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Israel's Guantanamo: Israeli Treatment of Palestinian Prisons in the Spotlight
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: War-torn Myanmar voting in widely criticised 'sham' election
-Title: BBC visits Myanmar polling station as civil war rages on
-Title: Zelensky says Russia 'doesn't want peace', ahead of Florida meeting with Trump
-Title: Snow-capped Mount Etna erupts as skiers glide down slopes
-Title: Cruise ship hits reef on first trip since leaving passenger on island
+Title: Around 40 dead in Swiss ski resort bar fire
+Title: BBC reports from the scene of Swiss resort bar fire
+Title: Netherlands police face 'unprecedented' New Year's  violence
+Title: Zelensky says peace deal is 90% ready in New Year address 
+Title: US military says five killed in latest strike on alleged drug boats
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Central African Republic goes to polls as president seeks third term
-Title: Opposition anger as Guinea’s junta leader is frontrunner to be elected president
-Title: Israel becomes first country to recognise Somaliland as sovereign state
-Title: British-Egyptian activist Alaa Abd el-Fattah arrives in UK after travel ban lifted
-Title: Trump supporters hail US strikes in Nigeria as ‘amazing Christmas present’
+Title: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts
+Title: Guinea’s junta chief elected president after opposition boycott
+Title: Tensions between Saudis and Emiratis over future of Yemen reach boiling point
+Title: Anthony Joshua’s camp confirm two of his close friends died in Nigeria car crash
+Title: More than 3,000 migrants died trying to reach Spain in 2025
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-929832
+930453
 $ date -u +%s
-1766906935
+1767288741
