@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETpmtlwdBx2HJKyVRYRVStH/QzbjTqt6PT5hPxV23sl7aPZe4iJdPPuVbUNrVU+ic3SwyPEWjapIG579cRizpKgM=
+RWQ6KRormNEETmLUIxWVc7wsAHWXulqVyogJSANw2BCZ2zpzp8Rdwv6XVpL4B6wsLVhtsoizVXk9mz2NyPMupPsU4ds7717wvAk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 01 Jan 2026 17:32:04 +0000
+Tue, 06 Jan 2026 13:47:15 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Never Out of Date: How Hannah Arendt Helps Us Understand Our World
+Title: Syria One Year After the Overthrow: The Enigma of Damascus
+Title: Taking On Ice: A Lone Louisiana Lawyer's Fight against Trump's Deportations
+Title: Neil Leifer: "I Thought: Shit, What Will They Think in the Lab?"
 Title: Israel's Guantanamo: Israeli Treatment of Palestinian Prisons in the Spotlight
-Title: Finance Fraud by App: Online Scammers Fueled by Forced Labor in Myanmar
-Title: The "White Tiger" Case: How an Online Search for Friends Ended in Coerced Suicide
-Title: Egypt's Foreign Minister Badr Abdelatty: "It Is Shameful to Just Stand By and Watch"
-Title: Confidential Conference on Ukraine Peace: "We Must Not Leave Ukraine and Volodymyr Alone with These Guys"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Around 40 dead in Swiss ski resort bar fire
-Title: BBC reports from the scene of Swiss resort bar fire
-Title: Netherlands police face 'unprecedented' New Year's  violence
-Title: Zelensky says peace deal is 90% ready in New Year address 
-Title: US military says five killed in latest strike on alleged drug boats
+Title: Trump claims US oil firms could be 'up and running' in Venezuela within 18 months
+Title: Macron hosts Ukraine and allies to try to cement security guarantees
+Title: European allies back Denmark over Trump's threat to annex Greenland
+Title: Swiss ski bar not inspected for five years before deadly fire, mayor says
+Title: Self-proclaimed hypnotherapist on trial in France for drugging and raping women
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
+Title: Cremation pyre in Africa thought to be world’s oldest containing adult remains
 Title: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts
 Title: Guinea’s junta chief elected president after opposition boycott
 Title: Tensions between Saudis and Emiratis over future of Yemen reach boiling point
-Title: Anthony Joshua’s camp confirm two of his close friends died in Nigeria car crash
-Title: More than 3,000 migrants died trying to reach Spain in 2025
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-930453
+931137
 $ date -u +%s
-1767288741
+1767707244
