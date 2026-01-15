@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 06 Jan 2026 13:47:15 +0000
+Thu, 15 Jan 2026 10:50:54 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Public Uprising: Bernhard Poerksen's Critique of DER SPIEGEL's Debate Culture
 Title: Never Out of Date: How Hannah Arendt Helps Us Understand Our World
 Title: Syria One Year After the Overthrow: The Enigma of Damascus
 Title: Taking On Ice: A Lone Louisiana Lawyer's Fight against Trump's Deportations
 Title: Neil Leifer: "I Thought: Shit, What Will They Think in the Lab?"
-Title: Israel's Guantanamo: Israeli Treatment of Palestinian Prisons in the Spotlight
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump claims US oil firms could be 'up and running' in Venezuela within 18 months
-Title: Macron hosts Ukraine and allies to try to cement security guarantees
-Title: European allies back Denmark over Trump's threat to annex Greenland
-Title: Swiss ski bar not inspected for five years before deadly fire, mayor says
-Title: Self-proclaimed hypnotherapist on trial in France for drugging and raping women
+Title: Trump told 'killing has stopped' in Iran after violent protest crackdown
+Title: Rift at top of the Taliban: BBC reveals clash of wills behind internet shutdown
+Title: Denmark warns of 'fundamental disagreement' after White House talks on Greenland
+Title: From behind bars, Aung San Suu Kyi casts a long shadow over Myanmar
+Title: 'It was terrifying': Residents describe carnage after Thai train crash kills 32
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Title: Cremation pyre in Africa thought to be world’s oldest containing adult remains
-Title: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts
-Title: Guinea’s junta chief elected president after opposition boycott
-Title: Tensions between Saudis and Emiratis over future of Yemen reach boiling point
+Title: Ugandans to vote in election expected to extend Museveni’s four-decade rule
+Title: Trump administration ends temporary protected status for Somalis in US
+Title: Quarter of developing countries poorer than in 2019, World Bank finds
+Title: Author Chimamanda Ngozi Adichie accuses Lagos hospital of negligence after son’s death
+Title: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-931137
+932367
 $ date -u +%s
-1767707244
+1768474261
