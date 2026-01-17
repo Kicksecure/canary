@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 15 Jan 2026 10:50:54 +0000
+Sat, 17 Jan 2026 09:57:17 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The Public Uprising: Bernhard Poerksen's Critique of DER SPIEGEL's Debate Culture
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump told 'killing has stopped' in Iran after violent protest crackdown
-Title: Rift at top of the Taliban: BBC reveals clash of wills behind internet shutdown
-Title: Denmark warns of 'fundamental disagreement' after White House talks on Greenland
-Title: From behind bars, Aung San Suu Kyi casts a long shadow over Myanmar
-Title: 'It was terrifying': Residents describe carnage after Thai train crash kills 32
+Title: Blair and Rubio among names on Gaza 'Board of Peace'
+Title: Exiled crown prince urges world to help protesters topple Iran's government
+Title: US justice department investigating Minnesota Democrats over alleged obstruction of ICE
+Title: Japanese mayor apologises after calling staff 'human scum'
+Title: Paracetamol is safe in pregnancy, says study refuting Trump autism claims
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Ugandans to vote in election expected to extend Museveni’s four-decade rule
-Title: Trump administration ends temporary protected status for Somalis in US
-Title: Quarter of developing countries poorer than in 2019, World Bank finds
-Title: Author Chimamanda Ngozi Adichie accuses Lagos hospital of negligence after son’s death
-Title: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
+Title: Rare twins born in DRC raise cautious hope for endangered mountain gorillas
+Title: Uganda’s opposition leader ‘taken by army’ as Museveni nears re-election
+Title: Controversial US study on hepatitis B vaccines in Africa is cancelled
+Title: Extreme rainfall inundates South Africa and Mozambique
+Title: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-932367
+932629
 $ date -u +%s
-1768474261
+1768643848
