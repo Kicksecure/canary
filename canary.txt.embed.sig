@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETmoHZ5D/GNRW//bM8Pa1GM0mkSmQZ/dK2Me2tkz+se13+ak6Mv9cngFrj8yGS3GOl6SF+XVlI8+AVDkygJnyEw8=
+RWQ6KRormNEETgf3Sg+oKbkL/dwrCQQBOJJCpDlB0sG7w5DaFD+yBbfgyPqwKru9c8C41UfsQ5B66uTuWwORDqcWoNk0a81Q8wQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 17 Jan 2026 09:57:17 +0000
+Thu, 22 Jan 2026 11:32:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Injections, Makeup, Stress: The New Religion of Beauty
+Title: Former U.S. Security Adviser John Bolton: "We Have Passed Peak Trump"
+Title: Former Austrian Chancellor Sebastian Kurz: An Alliance of the Illiberal Right with Tech?
+Title: Fast Fashion Exploitation: How the Clothes-Hanger Wars Escalated in Italy
 Title: The Public Uprising: Bernhard Poerksen's Critique of DER SPIEGEL's Debate Culture
-Title: Never Out of Date: How Hannah Arendt Helps Us Understand Our World
-Title: Syria One Year After the Overthrow: The Enigma of Damascus
-Title: Taking On Ice: A Lone Louisiana Lawyer's Fight against Trump's Deportations
-Title: Neil Leifer: "I Thought: Shit, What Will They Think in the Lab?"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Blair and Rubio among names on Gaza 'Board of Peace'
-Title: Exiled crown prince urges world to help protesters topple Iran's government
-Title: US justice department investigating Minnesota Democrats over alleged obstruction of ICE
-Title: Japanese mayor apologises after calling staff 'human scum'
-Title: Paracetamol is safe in pregnancy, says study refuting Trump autism claims
+Title: Two dead and several missing in New Zealand landslides
+Title: Trump ratcheted up the Greenland rhetoric - but has he been talked down?
+Title: UK holds off joining Trump's Board of Peace over Putin concerns
+Title: Zelensky and Trump to meet as US envoy says ending war with Russia down to one issue
+Title: EU suspends approval of US trade deal  
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Rare twins born in DRC raise cautious hope for endangered mountain gorillas
-Title: Uganda’s opposition leader ‘taken by army’ as Museveni nears re-election
-Title: Controversial US study on hepatitis B vaccines in Africa is cancelled
-Title: Extreme rainfall inundates South Africa and Mozambique
-Title: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
+Title: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
+Title: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+Title: ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
+Title: Uganda’s president calls opponents 'terrorists' in victory speech
+Title: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-932629
+933362
 $ date -u +%s
-1768643848
+1769081568
