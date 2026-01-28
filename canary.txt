@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 22 Jan 2026 11:32:38 +0000
+Wed, 28 Jan 2026 15:01:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Injections, Makeup, Stress: The New Religion of Beauty
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Two dead and several missing in New Zealand landslides
-Title: Trump ratcheted up the Greenland rhetoric - but has he been talked down?
-Title: UK holds off joining Trump's Board of Peace over Putin concerns
-Title: Zelensky and Trump to meet as US envoy says ending war with Russia down to one issue
-Title: EU suspends approval of US trade deal  
+Title: Trump warns Iran 'time is running out' as US military builds up in Gulf
+Title: 'I don't let bullies win,' says US congresswoman Omar after substance thrown at her
+Title: Amazon confirms 16,000 job cuts after accidental email
+Title: Ecuador says ICE agent attempted to enter its Minneapolis consulate
+Title: South Korea's ex-first lady jailed for 20 months for bribery
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Hundreds feared dead in attempt to cross Mediterranean during cyclone
+Title: Crocodile warnings as floods devastate southern Africa
+Title: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
 Title: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
 Title: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Title: ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
-Title: Uganda’s president calls opponents 'terrorists' in victory speech
-Title: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-933362
+934093
 $ date -u +%s
-1769081568
+1769612507
