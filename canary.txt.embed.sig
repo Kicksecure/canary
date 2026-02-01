@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETvYEPWcGm3GhMpInpVOzupHDPNGLZxioiIqvE6glHVHOx2iGchSqqe4vregMtn+UiQkBVPMYrR93gnJpp607Gwo=
+RWQ6KRormNEETg2YfuDcRIzCxO+2S7YwVC6VHhiYiRMpylY3JTQtnJw6/62igkhcHUbV6CwCOmBjiJyqAclkbXyzmYl5ObzN8Qs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 28 Jan 2026 15:01:40 +0000
+Sun, 01 Feb 2026 15:08:48 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Injections, Makeup, Stress: The New Religion of Beauty
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump warns Iran 'time is running out' as US military builds up in Gulf
-Title: 'I don't let bullies win,' says US congresswoman Omar after substance thrown at her
-Title: Amazon confirms 16,000 job cuts after accidental email
-Title: Ecuador says ICE agent attempted to enter its Minneapolis consulate
-Title: South Korea's ex-first lady jailed for 20 months for bribery
+Title: Epstein sent $75,000 to accounts linked to Mandelson, files suggest
+Title: Iran's supreme leader warns of regional war if US attacks
+Title: Israel to ban MSF from working in Gaza over refusal to provide staff list
+Title: Teenager dies from Swiss bar fire injuries, bringing death toll to 41
+Title: French tech giant Capgemini to sell US subsidiary working for ICE
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: More than 200 killed in coltan mine collapse in eastern DRC, officials say
+Title: Islamic State claims attack on international airport and airbase in Niger
+Title: South Africa expels top Israeli diplomat over ‘insulting attacks’ on president
+Title: Niger’s military ruler vows retaliation after gunfire and explosions heard in capital
 Title: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Title: Crocodile warnings as floods devastate southern Africa
-Title: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Title: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
-Title: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-934093
+934601
 $ date -u +%s
-1769612507
+1769958545
