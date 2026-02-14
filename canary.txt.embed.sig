@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuy5u845CEUxb14toV/8TjlR+yHCzuzdxqCdQ7q216UFWy9YWeZEEHbL8NJNRqaCps7LSDW5OVLTBlhLlSAcjgI=
+RWQ6KRormNEETsPrgBpYU5LL3Ugb8oNduZS/E/agWxfejvFtQQefRZg6eox4O8aMHAHWPnO1zi1PjtfSnzzacpogf6FWQRRHBwc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 12 Feb 2026 10:00:31 +0000
+Sat, 14 Feb 2026 10:12:43 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Ongoing Interactions with Sailing Vessels: The Mysterious Behavior of the Orcas of Gibraltar
@@ -63,11 +63,11 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Police identify 18-year-old as suspect in Tumbler Ridge shooting 
-Title: 'It was terrifying': Tumbler Ridge's tight-knit community in shock after shooting
-Title: Lyse Doucet: In Tehran, rallies for Iran's revolution overshadowed by discontent and defiance
-Title: China's Xi Jinping makes rare reference to recent military purge
-Title: Russia moves to block WhatsApp in messaging app crackdown
+Title: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
+Title: Police activity under way near Nancy Guthrie's home
+Title: Can Bangladesh's new leader bring change after election landslide?
+Title: US homeland security shutdown could mean airport delays, travel groups say
+Title: 'Canadians are with you,' says PM at Tumbler Ridge vigil
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: 53 people dead or missing after migrant boat capsizes in Mediterranean
@@ -77,6 +77,6 @@ Title: RSF drone attack kills 24 people fleeing fighting in central Sudan, says 
 Title: Thousands of Malawi businesses close in protest over tax changes
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-936205
+936531
 $ date -u +%s
-1770890442
+1771063975
