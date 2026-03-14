@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 14 Feb 2026 10:12:43 +0000
+Sat, 14 Mar 2026 09:46:59 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Ongoing Interactions with Sailing Vessels: The Mysterious Behavior of the Orcas of Gibraltar
-Title: Veering to the Right in Silicon Valley: The Two Faces of Mark Zuckerberg
-Title: Injections, Makeup, Stress: The New Religion of Beauty
-Title: Former U.S. Security Adviser John Bolton: "We Have Passed Peak Trump"
-Title: Former Austrian Chancellor Sebastian Kurz: An Alliance of the Illiberal Right with Tech?
+Title: Donald Trump's U.S. Abandons Role as Global Leader
+Title: Insta, TikTok and Co.: Is Australia's Social Media Ban for Children Actually Working?
+Title: "Reckless, Suicidal Race": The Deadly Threat Posed by Artificial Intelligence
+Title: Portrait of a City after Four Years of War: The Courage of Kyiv
+Title: U.S. Historian Robert Kagan: "We Are Watching a Country Fall Under Dictatorship Almost Without Resistance"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
-Title: Police activity under way near Nancy Guthrie's home
-Title: Can Bangladesh's new leader bring change after election landslide?
-Title: US homeland security shutdown could mean airport delays, travel groups say
-Title: 'Canadians are with you,' says PM at Tumbler Ridge vigil
+Title: More US Marines and warships to be moved to Middle East, reports say
+Title: Rescuers blame weather and 'underprepared skiers' for rise in Alps avalanche deaths
+Title: Under drone fire, exiled Kurds wait to confront Iranian regime
+Title: Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor
+Title: Los Angeles asks for investigation into LA28 Olympics chief over Epstein ties
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Title: Ebo Taylor, Ghanaian highlife pioneer and guitarist, dies age 90
-Title: Weather tracker: Spain and Portugal hit by third deadly storm in two weeks
-Title: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Title: Thousands of Malawi businesses close in protest over tax changes
+Title: France returns sacred talking drum looted from Côte d’Ivoire over 100 years ago
+Title: Eswatini says it received more ‘third country’ deportees as part of deal with Trump administration
+Title: UK government axes flagship global health project
+Title: ‘Invasive’ AI-led mass surveillance in Africa violating freedoms, warn experts
+Title: At least 17 killed after drone strikes school in Sudan
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-936531
+940617
 $ date -u +%s
-1771063975
+1773481634
