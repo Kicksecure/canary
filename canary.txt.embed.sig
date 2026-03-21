@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETj8ey/EQ5FEwFovgwogc2dUguGFfz+6fr7tQZT81EefXJivsgMiORoAfbkNjwm2vEJTk10u61fr7vqiiWYzAqw0=
+RWQ6KRormNEETiVLDwXZ2iW5h1Oaqi6XawtOaV02SDpeHGULTlIbcG+VJcbUWEamywCMLBa1Pz3zP/s/oG8+zjaCzRvZP3V8Vgs=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 14 Mar 2026 09:46:59 +0000
+Sat, 21 Mar 2026 12:15:42 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: U.S. Military Expert on Oil Tanker Convoys in the Strait of Hormuz: "Iran Must Only Succeed Once to Trigger a Catastrophe"
+Title: Indigenous Activist Nick Tilsen: "Trump Wants to Hear Nothing about the Genocide against Indigenous Nations"
 Title: Donald Trump's U.S. Abandons Role as Global Leader
 Title: Insta, TikTok and Co.: Is Australia's Social Media Ban for Children Actually Working?
 Title: "Reckless, Suicidal Race": The Deadly Threat Posed by Artificial Intelligence
-Title: Portrait of a City after Four Years of War: The Courage of Kyiv
-Title: U.S. Historian Robert Kagan: "We Are Watching a Country Fall Under Dictatorship Almost Without Resistance"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: More US Marines and warships to be moved to Middle East, reports say
-Title: Rescuers blame weather and 'underprepared skiers' for rise in Alps avalanche deaths
-Title: Under drone fire, exiled Kurds wait to confront Iranian regime
-Title: Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor
-Title: Los Angeles asks for investigation into LA28 Olympics chief over Epstein ties
+Title: Iranian strikes on bases used by US caused $800m in damage, new analysis shows
+Title: Fans elated as BTS play first gig together in nearly four years
+Title: Russian drone attack kills two in Ukraine ahead of talks in US, officials say
+Title: Elon Musk misled Twitter investors, jury finds
+Title: Socialists battle to hold Paris in key mayoral elections across France
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: France returns sacred talking drum looted from Côte d’Ivoire over 100 years ago
-Title: Eswatini says it received more ‘third country’ deportees as part of deal with Trump administration
-Title: UK government axes flagship global health project
-Title: ‘Invasive’ AI-led mass surveillance in Africa violating freedoms, warn experts
-Title: At least 17 killed after drone strikes school in Sudan
+Title: Madagascar’s military ruler decrees that ministers must pass lie detector tests
+Title: Some of the world’s poorest countries to lose UK aid due to 56% budget cut
+Title: Woman has sentence quashed by Tanzania court after over a decade on death row
+Title: Jihadist violence in Nigeria and DRC rose sharply last year even as global deaths from terror fell
+Title: Belgian court sends ex-diplomat, 93, to trial over 1961 murder of Congo leader
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-940617
+941569
 $ date -u +%s
-1773481634
+1774095357
