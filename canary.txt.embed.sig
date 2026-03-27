@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETiVLDwXZ2iW5h1Oaqi6XawtOaV02SDpeHGULTlIbcG+VJcbUWEamywCMLBa1Pz3zP/s/oG8+zjaCzRvZP3V8Vgs=
+RWQ6KRormNEETrFi76vdhm6SCgbw1lM1qKyHBgJ+eubTfEGKs+RbNkAANatd2n/wpBFkUL5hCuc9p25W7CL5wvFA30DZ5x0bugY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 21 Mar 2026 12:15:42 +0000
+Fri, 27 Mar 2026 09:00:20 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: U.S. Military Expert on Oil Tanker Convoys in the Strait of Hormuz: "Iran Must Only Succeed Once to Trigger a Catastrophe"
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iranian strikes on bases used by US caused $800m in damage, new analysis shows
-Title: Fans elated as BTS play first gig together in nearly four years
-Title: Russian drone attack kills two in Ukraine ahead of talks in US, officials say
-Title: Elon Musk misled Twitter investors, jury finds
-Title: Socialists battle to hold Paris in key mayoral elections across France
+Title: Panic buying prompts PM to reassure Australians over fuel supply
+Title: Belarus leader gifts rifle to North Korea's Kim as they sign friendship treaty
+Title: Trump's signature to appear on US dollars in first for sitting president
+Title: Nepal swears in ex-rapper as new prime minister
+Title: Oscars moving to a new home outside Hollywood
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Madagascar’s military ruler decrees that ministers must pass lie detector tests
-Title: Some of the world’s poorest countries to lose UK aid due to 56% budget cut
-Title: Woman has sentence quashed by Tanzania court after over a decade on death row
-Title: Jihadist violence in Nigeria and DRC rose sharply last year even as global deaths from terror fell
-Title: Belgian court sends ex-diplomat, 93, to trial over 1961 murder of Congo leader
+Title: ‘The violence of racist tyranny’: African Guernica goes on display alongside Picasso masterpiece
+Title: Nigeria takes its place on world stage in quest to become regional superpower
+Title: Two drone strikes on civilian targets kill 28 people in Sudan
+Title: Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas
+Title: UN votes to describe slave trade as ‘gravest crime against humanity’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-941569
+942451
 $ date -u +%s
-1774095357
+1774602033
