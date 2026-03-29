@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETrFi76vdhm6SCgbw1lM1qKyHBgJ+eubTfEGKs+RbNkAANatd2n/wpBFkUL5hCuc9p25W7CL5wvFA30DZ5x0bugY=
+RWQ6KRormNEETqywq2KN/gLXqIN95fZqZzre40Q7dDR5B8Trce8rzv2w7aGf0oOByl/BCR/1lx1kikRIb6NIq05AJpAPYk3mbgQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 27 Mar 2026 09:00:20 +0000
+Sun, 29 Mar 2026 11:52:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Donald Trump Has Run Out of Options in Iran
+Title: Ukrainians Soldiers Who Have Abandoned the Fight: All Quiet on the Eastern Front
 Title: U.S. Military Expert on Oil Tanker Convoys in the Strait of Hormuz: "Iran Must Only Succeed Once to Trigger a Catastrophe"
 Title: Indigenous Activist Nick Tilsen: "Trump Wants to Hear Nothing about the Genocide against Indigenous Nations"
 Title: Donald Trump's U.S. Abandons Role as Global Leader
-Title: Insta, TikTok and Co.: Is Australia's Social Media Ban for Children Actually Working?
-Title: "Reckless, Suicidal Race": The Deadly Threat Posed by Artificial Intelligence
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Panic buying prompts PM to reassure Australians over fuel supply
-Title: Belarus leader gifts rifle to North Korea's Kim as they sign friendship treaty
-Title: Trump's signature to appear on US dollars in first for sitting president
-Title: Nepal swears in ex-rapper as new prime minister
-Title: Oscars moving to a new home outside Hollywood
+Title: Jeremy Bowen: Trump is waging war based on instinct and it isn't working
+Title: Three Lebanese journalists killed in Israeli strike, say broadcasters
+Title: One ant for $220: The new frontier of wildlife trafficking
+Title: How deepfake porn scandal surrounding TV star rocked Germany
+Title: No Kings protesters across the US rally against Donald Trump 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
+Title: UN’s landmark slavery ruling energises African Union’s fight for reparations
 Title: ‘The violence of racist tyranny’: African Guernica goes on display alongside Picasso masterpiece
 Title: Nigeria takes its place on world stage in quest to become regional superpower
 Title: Two drone strikes on civilian targets kill 28 people in Sudan
-Title: Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas
-Title: UN votes to describe slave trade as ‘gravest crime against humanity’
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-942451
+942793
 $ date -u +%s
-1774602033
+1774785142
