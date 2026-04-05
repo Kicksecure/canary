@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 29 Mar 2026 11:52:10 +0000
+Sun, 05 Apr 2026 12:40:01 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Donald Trump Has Run Out of Options in Iran
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Jeremy Bowen: Trump is waging war based on instinct and it isn't working
-Title: Three Lebanese journalists killed in Israeli strike, say broadcasters
-Title: One ant for $220: The new frontier of wildlife trafficking
-Title: How deepfake porn scandal surrounding TV star rocked Germany
-Title: No Kings protesters across the US rally against Donald Trump 
+Title: What we know so far about rescue of US airman in Iran
+Title: Man charged over fatal shooting of baby in pram in New York
+Title: US says it has arrested relatives of late Iranian ​general Qasem ​Soleimani
+Title: German males under 45 may need military approval for long stays abroad 
+Title: AI videos fuel rhetoric as Orbán bids for four more years in Hungary
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
-Title: UN’s landmark slavery ruling energises African Union’s fight for reparations
-Title: ‘The violence of racist tyranny’: African Guernica goes on display alongside Picasso masterpiece
-Title: Nigeria takes its place on world stage in quest to become regional superpower
-Title: Two drone strikes on civilian targets kill 28 people in Sudan
+Title: People of Burkina Faso should forget about democracy, says military ruler
+Title: Uganda receives first US deportation flight under third-country agreement
+Title: News outlets falsely report Somaliland called for extradition of Ilhan Omar
+Title: Interpol arrest warrant requested in Congo-Brazzaville for Jean-Guy Blaise Mayolas
+Title: Weather tracker: Thunderstorms drench UAE and Saudi Arabia
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-942793
+943764
 $ date -u +%s
-1774785142
+1775392812
