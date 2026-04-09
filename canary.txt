@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 08 Apr 2026 13:47:07 +0000
+Thu, 09 Apr 2026 11:48:43 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Donald Trump Has Run Out of Options in Iran
@@ -61,20 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iran ceasefire deal gives Trump a way out of war - but at a high cost
-Title: What we know about the two-week ceasefire between the US and Iran 
-Title: Israel carries out large wave of air strikes across Lebanon
-Title: Trump-backed Republican Clay Fuller wins election to replace Marjorie Taylor Greene
-Title: Oil prices plunge and shares jump on US-Iran ceasefire plan
+Title: Trump criticises Nato as alliance chief describes meeting as 'very frank' 
+Title: At least 182 killed across Lebanon in large wave of Israeli strikes
+Title: Artemis crew returning to Earth with 'all the good stuff' from Moon discoveries
+Title: Trapped miner rescued from flooded Mexican tunnel after 14 days
+Title: He's Australia's most decorated soldier. Now he's at the centre of a historic war crimes case
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: A day in the life of a 19-year-old in ICE detention: ‘I feel that this nightmare is not going to end’
 Title: US seeks to deport Kilmar Ábrego García to Liberia despite new Costa Rica deal
 Title: ‘We still deserve due process,’ says Cambodian man deported by US to Eswatini
 Title: People of Burkina Faso should forget about democracy, says military ruler
 Title: Uganda receives first US deportation flight under third-country agreement
-Title: News outlets falsely report Somaliland called for extradition of Ilhan Omar
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-944194
+944336
 $ date -u +%s
-1775656040
+1775735335
