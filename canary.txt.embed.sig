@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETv51wXHdKrkYKDQTzydEzCJA0ABDGuCRmBK8V5WSwwYj7p14KwtstiFvka/jmha4suGCLfjtfDlLCmFciYAy+ws=
+RWQ6KRormNEETlLJBXWn5T94sMshrYQMhAtIbZxFOCv4z9w78GruaLAoUpCwwuCm7voMCYYV0lM9CUAixP6nWbQvWcBJYRTC7Q4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 26 Apr 2026 10:58:15 +0000
+Sat, 02 May 2026 11:00:38 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: German Chancellor Friedrich Merz: "I Am Dissatisfied with the Prevailing Atmosphere in Germany"
+Title: Ten Years after the End of the One-Child Policy: A Visit to Ground Zero of China's Aging Population
 Title: Terror Records in German Hands: ISIS and the Bureaucracy of Evil
 Title: The War in Ukraine: As Russian Losses Mount, Signing Bonuses for Recruits Are Skyrocketing
 Title: Defense in Orbit: Germany Goes Big in the Military Space Race
-Title: Trump's Blockade: The Lights Are Going Out in Cuba
-Title: Donald Trump Has Run Out of Options in Iran
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,19 +63,16 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: What it was like in the room as shots rang out at correspondents' dinner
-Title: Trump cancels US envoys' trip to Pakistan for talks on Iran war
-Title: Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon
-Title: Armed groups launch coordinated attacks across Mali
-Title: Mexico says US agents killed in crash weren't permitted to operate there
+Title: US to cut troop levels in Germany by 5,000 amid Trump spat with Merz
+Title: Trump tells Congress ceasefire means he does not need their approval for Iran war
+Title: Thirteen killed in Israeli strikes on southern Lebanon, health ministry says 
+Title: Spirit Airlines shutting down after rescue talks collapse
+Title: 'If we sleep, they bite': Rats and weasels infest camps for displaced Gazans
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Militants and separatists launch coordinated attacks across Mali
-Title: US millionaire big-game hunter dies after being crushed by elephants
-Title: British woman died in Ghana trying to recoup money from scammers, inquest told
-Title: Heatwaves, floods and wildfires pose rising threat to democracy, report finds
+Title: Uganda copying Russia and China with new bill designed to crush dissent, say critics
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-946722
+947566
 $ date -u +%s
-1777201108
+1777719652
