@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlLJBXWn5T94sMshrYQMhAtIbZxFOCv4z9w78GruaLAoUpCwwuCm7voMCYYV0lM9CUAixP6nWbQvWcBJYRTC7Q4=
+RWQ6KRormNEETkSpl3Vg5mea9TX227k4fT23dCxaieEjvsGui2l53T5bUyMuc5okYuATaBOYJGrsdBKmcedU49Yc6aaIFNj9EQ8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 02 May 2026 11:00:38 +0000
+Sat, 02 May 2026 11:08:27 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: German Chancellor Friedrich Merz: "I Am Dissatisfied with the Prevailing Atmosphere in Germany"
@@ -75,4 +75,4 @@ Title: Uganda copying Russia and China with new bill designed to crush dissent, 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 947566
 $ date -u +%s
-1777719652
+1777720118
