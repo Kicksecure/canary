@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkSpl3Vg5mea9TX227k4fT23dCxaieEjvsGui2l53T5bUyMuc5okYuATaBOYJGrsdBKmcedU49Yc6aaIFNj9EQ8=
+RWQ6KRormNEETuDJOnxfDYBP2T8uQzzejy0YjtT11isSWiLUgzTWMmpHmmbbJYMEBulTGLekWRsNyR2UyPMnPy17bCyJ6+PRcAo=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 02 May 2026 11:08:27 +0000
+Thu, 21 May 2026 22:11:37 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: An Interview with Maduro's Son: "We Should Have Done More to Protect My Father"
+Title: Forced Mercenaries: How Russia Dupes Kenyans into Fighting in Ukraine
 Title: German Chancellor Friedrich Merz: "I Am Dissatisfied with the Prevailing Atmosphere in Germany"
 Title: Ten Years after the End of the One-Child Policy: A Visit to Ground Zero of China's Aging Population
 Title: Terror Records in German Hands: ISIS and the Bureaucracy of Evil
-Title: The War in Ukraine: As Russian Losses Mount, Signing Bonuses for Recruits Are Skyrocketing
-Title: Defense in Orbit: Germany Goes Big in the Military Space Race
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,16 +63,17 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US to cut troop levels in Germany by 5,000 amid Trump spat with Merz
-Title: Trump tells Congress ceasefire means he does not need their approval for Iran war
-Title: Thirteen killed in Israeli strikes on southern Lebanon, health ministry says 
-Title: Spirit Airlines shutting down after rescue talks collapse
-Title: 'If we sleep, they bite': Rats and weasels infest camps for displaced Gazans
+Title: Rubio says Cuba is threat to US as Havana accuses him of 'lies'
+Title: Angry crowd sets Ebola hospital tents on fire in DR Congo
+Title: Iran steps up claim to control Strait of Hormuz
+Title: Gaza flotilla activists deported from Israel as backlash over treatment grows 
+Title: Pair arrested after boys abandoned by road in Portugal
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Uganda copying Russia and China with new bill designed to crush dissent, say critics
+Title: Macron says France must address issue of reparations for its role in slave trade
+Title: US doctor who contracted Ebola in DRC flown to Germany for treatment
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-947566
+950419
 $ date -u +%s
-1777720118
+1779401507
