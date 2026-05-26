@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETuDJOnxfDYBP2T8uQzzejy0YjtT11isSWiLUgzTWMmpHmmbbJYMEBulTGLekWRsNyR2UyPMnPy17bCyJ6+PRcAo=
+RWQ6KRormNEETlzNxr+KjjxaPn0aprHIBmCNnE/YswqdCeCdu66ZetNVq6Cy9BsJJ6pxORtYra5ROfQ5qX3VWMH43lDxE7rIDQ4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 21 May 2026 22:11:37 +0000
+Tue, 26 May 2026 16:18:35 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Human Rights in the US: Meet the Transgender Americans Forced to Flee GOP Persecution
 Title: An Interview with Maduro's Son: "We Should Have Done More to Protect My Father"
 Title: Forced Mercenaries: How Russia Dupes Kenyans into Fighting in Ukraine
 Title: German Chancellor Friedrich Merz: "I Am Dissatisfied with the Prevailing Atmosphere in Germany"
 Title: Ten Years after the End of the One-Child Policy: A Visit to Ground Zero of China's Aging Population
-Title: Terror Records in German Hands: ISIS and the Bureaucracy of Evil
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,17 +63,17 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Rubio says Cuba is threat to US as Havana accuses him of 'lies'
-Title: Angry crowd sets Ebola hospital tents on fire in DR Congo
-Title: Iran steps up claim to control Strait of Hormuz
-Title: Gaza flotilla activists deported from Israel as backlash over treatment grows 
-Title: Pair arrested after boys abandoned by road in Portugal
+Title: Iran condemns US strikes as 'gross violation' of ceasefire
+Title: Four killed as school minibus collides with train in Belgium
+Title: Eleven killed in Lebanon village as Israel intensifies strikes
+Title: Ebola needs swift response to prevent catastrophe, says DR Congo governor
+Title: Netanyahu says Israel will intensify strikes against Hezbollah
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Macron says France must address issue of reparations for its role in slave trade
-Title: US doctor who contracted Ebola in DRC flown to Germany for treatment
+Title: Suspected Ebola cases in DRC pass 900 as health workers face attacks and shortages
+Title: White House pauses removal of detainees to DRC as Ebola outbreak widens
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-950419
+951144
 $ date -u +%s
-1779401507
+1779812329
