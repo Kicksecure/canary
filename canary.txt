@@ -44,13 +44,12 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 07 Jun 2026 18:31:13 +0000
+Thu, 18 Jun 2026 12:53:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Mystery of Michele: A Missing Woman from Germany Reappears in the Epstein Files
+Title: Our Warming Climate: A Pilot Project in Norway Raises Doubts about CCS Sustainability
 Title: NSDAP archive: How DER SPIEGEL processed the data from the Nazi card file
-Title: Human Rights in the US: Meet the Transgender Americans Forced to Flee GOP Persecution
-Title: An Interview with Maduro's Son: "We Should Have Done More to Protect My Father"
-Title: Forced Mercenaries: How Russia Dupes Kenyans into Fighting in Ukraine
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -60,19 +59,18 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Israel strikes Beirut suburb days after US-brokered truce
-Title: Zelensky arrives in UK for Downing Street talks with European leaders
-Title: Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg
-Title: Armenia votes as Russia piles pressure on pro-West government
-Title: Huge crowds throng Madrid streets for Pope's open-air Mass
+Title: Moscow hit by largest Ukrainian attack since start of Russia's full-scale war
+Title: First Russian shadow fleet vessel enters Channel since Smyrtos boarding
+Title: Suspected gang leader shot dead in flower bouquet ambush at airport
+Title: Gunfire and explosions heard at Niger capital's airport
+Title: British man dies in paragliding accident in Spain
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
-Title: Experts criticise plan for American-only Ebola quarantine centre in Kenya
-Title: Civilians flee as Somali troops and opposition-allied militias trade fire in Mogadishu
-Title: Rebel attacks in eastern DRC kill 30 people and hamper Ebola response
+Title: Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk
+Title: Ghana to advance reparatory justice at first major gathering since landmark UN resolution
+Title: South African jazz pianist Abdullah Ibrahim dies aged 91
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-952750
+954240
 $ date -u +%s
-1780857086
+1781787245
