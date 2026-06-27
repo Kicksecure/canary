@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETiLiHCexMlFdw/DTvzq+lOuxvqULTx4ND1hJpSy+8iq8Az0FxxAUmxv12CePH/RH72TQ5keDHPHznpKAjgDxqQU=
+RWQ6KRormNEETvitkGXODqv4m+EFJs0g/CCyrjXlkMfmD2FmJIc2QUAcqhxqZZN2xHY2lRzd5RGgrcwSJyEESOjTj78zhYyDjAY=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,9 +46,10 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 24 Jun 2026 19:18:21 +0000
+Sat, 27 Jun 2026 08:06:32 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Climate Change in Oceania: Tuvalu Is Tired of the Prophets of Doom
 Title: The Mystery of Michele: A Missing Woman from Germany Reappears in the Epstein Files
 Title: Our Warming Climate: A Pilot Project in Norway Raises Doubts about CCS Sustainability
 Title: NSDAP archive: How DER SPIEGEL processed the data from the Nazi card file
@@ -61,18 +62,18 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Power outages hit France as it records hottest day since measurements began
-Title: Air conditioning creates political divide after France records hottest day
-Title: UN nuclear chief says inspectors will visit Iran sites as part of war deal
-Title: Clean sweep for Mamdani-backed candidates in New York's Democratic primary 
-Title: Biggest city in Crimea without power after Ukraine strikes
+Title: US strikes Iran after attack on cargo ship
+Title: Venezuela earthquakes kill 920 people as international rescue teams arrive
+Title: Mother dies saving daughter in Venezuela earthquakes
+Title: Meloni and Trump: A very public fall-out that is proving very hard to fix
+Title: Europe's deadly heatwave breaks German record and halts public events
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Whereabouts of nearly 300 people with Ebola unknown in DR Congo
+Title: Outrage as woman jailed for three years after criticising Somali government online
 Title: France confirms first Ebola case in doctor who had worked in DRC
-Title: Kenyan minister orders halt to construction of US Ebola facility
-Title: UK prioritised ties with UAE over averting mass atrocities in Sudan, MPs to be told
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-955211
+955628
 $ date -u +%s
-1782328710
+1782547602
