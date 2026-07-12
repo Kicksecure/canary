@@ -44,13 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 27 Jun 2026 08:06:32 +0000
+Sun, 12 Jul 2026 17:50:32 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Climate Change in Oceania: Tuvalu Is Tired of the Prophets of Doom
-Title: The Mystery of Michele: A Missing Woman from Germany Reappears in the Epstein Files
-Title: Our Warming Climate: A Pilot Project in Norway Raises Doubts about CCS Sustainability
-Title: NSDAP archive: How DER SPIEGEL processed the data from the Nazi card file
+Title: The New Axis of Evil: DER SPIEGEL Investigation Reveals Deep Military Cooperation between Russia and China
+Title: New Information in the Nazi Database: What You Need to Know About the SS
+Title: 250 Years: American Democracy Has Survived 250 Years, But Can It Survive Trump?
+Title: In Trump's Colony: Does the US Really Hold the Reins in Venezuela?
+Title: The Minab Attack: Did the United States Commit a War Crime in Iran?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -60,18 +61,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US strikes Iran after attack on cargo ship
-Title: Venezuela earthquakes kill 920 people as international rescue teams arrive
-Title: Mother dies saving daughter in Venezuela earthquakes
-Title: Meloni and Trump: A very public fall-out that is proving very hard to fix
-Title: Europe's deadly heatwave breaks German record and halts public events
+Title: US insists Strait of Hormuz is open as it exchanges strikes with Iran
+Title: US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'
+Title: Badly burned British couple rescued from ravine during Spain wildfires, reports say 
+Title: China evacuates nearly two million people as powerful typhoon makes landfall
+Title: Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Whereabouts of nearly 300 people with Ebola unknown in DR Congo
-Title: Outrage as woman jailed for three years after criticising Somali government online
-Title: France confirms first Ebola case in doctor who had worked in DRC
+Title: First patients enrolled in record-breaking Ebola treatment trial in DRC
+Title: Nigeria says army has killed 300 bandits in north-western state of Zamfara
+Title: Developing countries spend more repaying foreign debt than on education, UN reveals
+Title: Furore in Nigeria over fake federal agency set up in government HQ
+Title: LGBTQ+ cruise ship refused entry to Egypt days after Turkey turned it away
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-955628
+957735
 $ date -u +%s
-1782547602
+1783878644
