@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETouUdFNnvfSvWFIgk4QkrjIO2ftu9NWZuV+6ocM2MlGRTVYgriqZT7IyrgGB5qHAzNcEoRqAI0xtGOhYN4w11gM=
+RWQ6KRormNEETqmqxTa2vCV+LGZZ+EsxftUVJwUNTs+xsQtEbRah6BOI7YS5Bp6wJP85Wa1/eHuLgrS3hyG80hB9dJOnaq5Cyg4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 12 Jul 2026 17:50:32 +0000
+Sun, 12 Jul 2026 18:45:46 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The New Axis of Evil: DER SPIEGEL Investigation Reveals Deep Military Cooperation between Russia and China
@@ -77,6 +77,6 @@ Title: Furore in Nigeria over fake federal agency set up in government HQ
 Title: LGBTQ+ cruise ship refused entry to Egypt days after Turkey turned it away
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-957735
+957741
 $ date -u +%s
-1783878644
+1783881953
