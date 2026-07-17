@@ -44,7 +44,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 12 Jul 2026 18:45:46 +0000
+Fri, 17 Jul 2026 08:31:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: The New Axis of Evil: DER SPIEGEL Investigation Reveals Deep Military Cooperation between Russia and China
@@ -61,20 +61,19 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US insists Strait of Hormuz is open as it exchanges strikes with Iran
-Title: US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'
-Title: Badly burned British couple rescued from ravine during Spain wildfires, reports say 
-Title: China evacuates nearly two million people as powerful typhoon makes landfall
-Title: Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74
+Title: US launches new strikes as Iran says civilian infrastructure hit
+Title: Trump alleges 'shocking vulnerabilities' in US election security ahead of midterms
+Title: More than 500 Rohingya vanished at sea - what happened?
+Title: Japan relaxes royal succession rules - but ban on female emperors remains
+Title: Philippines condemns monkey video on Chinese media as racist
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Title: Nigeria says army has killed 300 bandits in north-western state of Zamfara
-Title: Developing countries spend more repaying foreign debt than on education, UN reveals
-Title: Furore in Nigeria over fake federal agency set up in government HQ
-Title: LGBTQ+ cruise ship refused entry to Egypt days after Turkey turned it away
+Title: Uganda calls for travel restrictions to be lifted after last Ebola patient discharged
+Title: Moroccan intelligence insider reveals widespread use of Pegasus hacking software
+Title: How global heating supercharged floods in West Africa, displacing thousands
+Title: New US Ebola patient arrives in Germany for treatment
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-957741
+958384
 $ date -u +%s
-1783881953
+1784277095
