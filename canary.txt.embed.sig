@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETr7WxuzXV6dMCfS37WkDHfdqXCxSegbvXHDvSrSs/cwQJkC8kHg5SATTaHs3X5WidPl/fG+GBpJZy4c6n5UO1AU=
+RWQ6KRormNEETr5ZSFwxM3Vud6+9raNwAAiNkPbG3a79qETRX63txH9BLC83NvAW0MeI1lo/gQC09Fb/4Ea6kpXUxasJka761Qc=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 17 Aug 2026 15:06:26 +0000
+Sun, 30 Aug 2026 14:30:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Amodei vs. Altman: How the Race for AI Dominance Is Increasing the Risks
+Title: Boats from Eastern Libya: How Europe Is Bowing to a Libyan Warlord on Migration
 Title: Moaning for the Mainland: How Taiwan Satisfies China's Lust for Pornography
 Title: The New Axis of Evil: DER SPIEGEL Investigation Reveals Deep Military Cooperation between Russia and China
 Title: New Information in the Nazi Database: What You Need to Know About the SS
-Title: 250 Years: American Democracy Has Survived 250 Years, But Can It Survive Trump?
-Title: In Trump's Colony: Does the US Really Hold the Reins in Venezuela?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,16 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Trump threatens to bomb Oman if it 'gets in the way' over Iran issue
-Title: Trump says US to reduce military drills with South Korea after it stayed out of Iran war
-Title: Russia and Ukraine trade more deadly strikes
-Title: Aid shortages and fears of starvation as Indonesia reels from deadly earthquake
-Title: US hiker dies after being struck by lightning on Mount Etna
+Title: Iceland votes against restarting talks on joining EU
+Title: Manhunt after shooting at Swiss rave kills woman, 22, and injures five
+Title: Canada installs large Lake Ontario sign in latest jab at US
+Title: WhatsApp chat used to send cash for crime and extremism
+Title: At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Title: Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
-Title: Moroccan police arrest more than 100 people attempting to enter Ceuta
-Title: American missionary kidnapped in Niger freed after nine months
-Title: DRC’s fast-growing Ebola outbreak spreads to sixth province
+Title: South African police arrest two Thai men for allegedly smuggling parrot eggs
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-962903
+964738
 $ date -u +%s
-1786979194
+1788100255
