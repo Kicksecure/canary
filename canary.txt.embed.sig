@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETr5ZSFwxM3Vud6+9raNwAAiNkPbG3a79qETRX63txH9BLC83NvAW0MeI1lo/gQC09Fb/4Ea6kpXUxasJka761Qc=
+RWQ6KRormNEETnereu5A4UclnNaoGehDXbXrU+Z9Hg5ucar2MtmgIxYdB5Pw46XuHsVJFa8t+BHpnD4lG57RJ06Cwwvl1SoWrgk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,12 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 30 Aug 2026 14:30:47 +0000
+Sun, 06 Sep 2026 17:26:06 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Amodei vs. Altman: How the Race for AI Dominance Is Increasing the Risks
 Title: Boats from Eastern Libya: How Europe Is Bowing to a Libyan Warlord on Migration
 Title: Moaning for the Mainland: How Taiwan Satisfies China's Lust for Pornography
-Title: The New Axis of Evil: DER SPIEGEL Investigation Reveals Deep Military Cooperation between Russia and China
-Title: New Information in the Nazi Database: What You Need to Know About the SS
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,16 +61,17 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Iceland votes against restarting talks on joining EU
-Title: Manhunt after shooting at Swiss rave kills woman, 22, and injures five
-Title: Canada installs large Lake Ontario sign in latest jab at US
-Title: WhatsApp chat used to send cash for crime and extremism
-Title: At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
+Title: US envoys hold talks with Zelensky in Kyiv after meeting Putin
+Title: German far-right set for big win in eastern state - projections
+Title: Volcano eruption leaves 170,000 passengers stranded in Indonesia
+Title: Dozens feared trapped in collapsed building in Delhi
+Title: TV presenter among 12 sentenced to death in Egypt drugs case
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: South African police arrest two Thai men for allegedly smuggling parrot eggs
+Title: Egyptian TV presenter among 12 sentenced to death for drug crime
+Title: New constitution in Guinea-Bissau will undermine democracy, opponents say
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-964738
+965811
 $ date -u +%s
-1788100255
+1788715574
