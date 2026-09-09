@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETnereu5A4UclnNaoGehDXbXrU+Z9Hg5ucar2MtmgIxYdB5Pw46XuHsVJFa8t+BHpnD4lG57RJ06Cwwvl1SoWrgk=
+RWQ6KRormNEEToqoRzUo1FaWxK/nvwPGPHchY20ZOikGGnvIxPCblb2AeAMdtFKMf025tPNUIm1rFfvSZ3CoWJVY114bKxwBfQ4=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sun, 06 Sep 2026 17:26:06 +0000
+Wed, 09 Sep 2026 10:08:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Amodei vs. Altman: How the Race for AI Dominance Is Increasing the Risks
@@ -61,17 +61,19 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US envoys hold talks with Zelensky in Kyiv after meeting Putin
-Title: German far-right set for big win in eastern state - projections
-Title: Volcano eruption leaves 170,000 passengers stranded in Indonesia
-Title: Dozens feared trapped in collapsed building in Delhi
-Title: TV presenter among 12 sentenced to death in Egypt drugs case
+Title: Oil hits $100 a barrel for first time since July after US and Houthi strikes
+Title: US to ban imports of some Canadian alcohol, dairy goods and motorbikes
+Title: Tycoon to pay ex-wife $1.87bn in record South Korea divorce settlement
+Title: Meta continues to run ads promoting child sexual abuse material in India - report
+Title: Baby orangutans found in Indian forest spark trafficking inquiry
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Babies born to anaemic mothers have smaller brains, study finds
+Title: Hijacking pirates exploit regional chaos to return to seas off Somalia
+Title: Weather tracker: Typhoon Saudel causes mass evacuations in south-east China
 Title: Egyptian TV presenter among 12 sentenced to death for drug crime
-Title: New constitution in Guinea-Bissau will undermine democracy, opponents say
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-965811
+966189
 $ date -u +%s
-1788715574
+1788948521
