@@ -44,12 +44,12 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 09 Sep 2026 10:08:11 +0000
+Tue, 29 Sep 2026 11:51:05 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
-Title: Amodei vs. Altman: How the Race for AI Dominance Is Increasing the Risks
-Title: Boats from Eastern Libya: How Europe Is Bowing to a Libyan Warlord on Migration
-Title: Moaning for the Mainland: How Taiwan Satisfies China's Lust for Pornography
+Title: Putin's War of Aggression: A Journey Along the Dnipro in Wartime Ukraine
+Title: Online Scams: The Shady World of Fraudulent Investment Sites
+Title: The Future of Europe: Canada in the EU Sounds Crazy. Is It?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -59,19 +59,18 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Oil hits $100 a barrel for first time since July after US and Houthi strikes
-Title: US to ban imports of some Canadian alcohol, dairy goods and motorbikes
-Title: Tycoon to pay ex-wife $1.87bn in record South Korea divorce settlement
-Title: Meta continues to run ads promoting child sexual abuse material in India - report
-Title: Baby orangutans found in Indian forest spark trafficking inquiry
+Title: OpenAI scraps rollout of new model over safety concerns
+Title: Evicted Spanish pensioner can move back home, lawyer says 
+Title: Argentina threatens legal action against UK over Falkland Islands oil exploration 
+Title: New York Times executive fatally shot by elderly in-laws, police say
+Title: US ban on Canadian alcohol and dairy comes into effect as trade war drags on
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Babies born to anaemic mothers have smaller brains, study finds
-Title: Hijacking pirates exploit regional chaos to return to seas off Somalia
-Title: Weather tracker: Typhoon Saudel causes mass evacuations in south-east China
-Title: Egyptian TV presenter among 12 sentenced to death for drug crime
+Title: DRC politician beaten to death after radio appearance about Ebola outbreak
+Title: At least 27 dead after two mass shootings in South Africa, police say
+Title: Rebel offensive against Ethiopian army stokes fears of return to civil war
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-966189
+969149
 $ date -u +%s
-1788948521
+1790682672
