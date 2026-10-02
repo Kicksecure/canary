@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETj7V5Isp/+leGEcdGioApJwacIYnd+oPVn0VZtta84Hg2kieHQU2MwW21S3N64uNYh4dJY/jaB5Uq3RY3l51IQE=
+RWQ6KRormNEETkZjduA6G7euOY9MoGyfCioz6Ys8XcQl04skrUAf5DRJ12kffkMsH5QFBvA/tH7abfpfj5hfNDCQcCXE6L9k7QE=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 29 Sep 2026 11:51:05 +0000
+Fri, 02 Oct 2026 13:16:40 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Putin's War of Aggression: A Journey Along the Dnipro in Wartime Ukraine
@@ -61,18 +61,19 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: OpenAI scraps rollout of new model over safety concerns
-Title: Evicted Spanish pensioner can move back home, lawyer says 
-Title: Argentina threatens legal action against UK over Falkland Islands oil exploration 
-Title: New York Times executive fatally shot by elderly in-laws, police say
-Title: US ban on Canadian alcohol and dairy comes into effect as trade war drags on
+Title: 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot
+Title: Christa Pike in critical condition after surviving two lethal injections, lawyer says
+Title: 'Ashamed': Cornell students gather to voice anger over alleged gang rape
+Title: Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row
+Title: Japan's first mayor to take maternity leave lands on TIME100 Next list
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
+Title: Trump administration diverts human rights funds to push far-right agenda abroad
+Title: South African leader urges men to speak up on gender-based violence after series of killings
 Title: DRC politician beaten to death after radio appearance about Ebola outbreak
-Title: At least 27 dead after two mass shootings in South Africa, police say
-Title: Rebel offensive against Ethiopian army stokes fears of return to civil war
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-969149
+969594
 $ date -u +%s
-1790682672
+1790947007
