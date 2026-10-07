@@ -44,9 +44,10 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 02 Oct 2026 13:16:40 +0000
+Wed, 07 Oct 2026 19:07:10 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Abuse in France: "Is Anyone Thinking of the Children?"
 Title: Putin's War of Aggression: A Journey Along the Dnipro in Wartime Ukraine
 Title: Online Scams: The Shady World of Fraudulent Investment Sites
 Title: The Future of Europe: Canada in the EU Sounds Crazy. Is It?
@@ -59,19 +60,17 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot
-Title: Christa Pike in critical condition after surviving two lethal injections, lawyer says
-Title: 'Ashamed': Cornell students gather to voice anger over alleged gang rape
-Title: Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row
-Title: Japan's first mayor to take maternity leave lands on TIME100 Next list
+Title: France halts use of stun grenades after boy's hand blown off in student protests
+Title: Israelis demand accountability over 7 October failures three years after attacks
+Title: Canada suspends plans to expand assisted dying to people with mental illness 
+Title: Trump to speak to Putin about plague lab worker's death in Russia
+Title: Children killed while they slept as Russian missile kills 19 in block of flats
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
-Title: Trump administration diverts human rights funds to push far-right agenda abroad
-Title: South African leader urges men to speak up on gender-based violence after series of killings
-Title: DRC politician beaten to death after radio appearance about Ebola outbreak
+Title: Guardian readers fund life-changing surgery for Somali boy injured in US airstrike
+Title: Egyptian journalist faces terrorism charges after entire newsroom detained
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-969594
+970380
 $ date -u +%s
-1790947007
+1791400037
