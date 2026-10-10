@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETkiNUdbuOg3x9soxNSg269RU7uDx9MVKUW+A7cmG9F3XpCS0y6FuiOwh28QKpxarXdQq06jogFjOPS2130rrbQ8=
+RWQ6KRormNEETu/TVAUm6NafZUonQMutuJl//zyQV1YfGh/Ea/JY2L/ZG7Je+VtoGW+ev/zE3h+P2r45opPWdm7w4oazS27+iwA=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,9 +46,10 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 07 Oct 2026 19:07:10 +0000
+Sat, 10 Oct 2026 23:41:08 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: "Exploited State Secrets for Profit": German Intelligence Rocked by Espionage Arrest of Former Chief
 Title: Abuse in France: "Is Anyone Thinking of the Children?"
 Title: Putin's War of Aggression: A Journey Along the Dnipro in Wartime Ukraine
 Title: Online Scams: The Shady World of Fraudulent Investment Sites
@@ -62,17 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: France halts use of stun grenades after boy's hand blown off in student protests
-Title: Israelis demand accountability over 7 October failures three years after attacks
-Title: Canada suspends plans to expand assisted dying to people with mental illness 
-Title: Trump to speak to Putin about plague lab worker's death in Russia
-Title: Children killed while they slept as Russian missile kills 19 in block of flats
+Title: 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal
+Title: Russian glide bomb attack on Zaporizhzhia kills at least 20 people
+Title: Twelve killed in attack on airport in Saudi capital Riyadh
+Title: US murderer Christa Pike discharged from hospital 10 days after failed execution
+Title: Four dead and thousands without power after Hurricane Isaias lashes US
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Guardian readers fund life-changing surgery for Somali boy injured in US airstrike
-Title: Egyptian journalist faces terrorism charges after entire newsroom detained
+Title: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
+Title: ICJ judge Navi Pillay wins Nobel peace prize for promoting international law
+Title: Isaias strengthens to become first Atlantic hurricane of 2026 season
+Title: Egyptian journalists plan weekend protest over detention of six colleagues
+Title: Scientists discover 180,000 giant tortoises on one Seychelles island
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-970380
+970845
 $ date -u +%s
-1791400037
+1791675675
