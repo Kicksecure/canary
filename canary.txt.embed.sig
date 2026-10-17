@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETu/TVAUm6NafZUonQMutuJl//zyQV1YfGh/Ea/JY2L/ZG7Je+VtoGW+ev/zE3h+P2r45opPWdm7w4oazS27+iwA=
+RWQ6KRormNEETqsNpSfbQxzZLGFbkc8n6QRb5DgM7RDrrsmgLyj+7EFGCdJyqki3I+zFBsWDPTiNFzkmokxxNPbJl+ADF3uZDgU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Sat, 10 Oct 2026 23:41:08 +0000
+Sat, 17 Oct 2026 07:01:29 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Leaving the US: The Erosion of My American Dream
+Title: Three Years of the Gaza War through the Eyes of Soldiers: "The Rule Was: 'Shoot Everyone You See'"
 Title: "Exploited State Secrets for Profit": German Intelligence Rocked by Espionage Arrest of Former Chief
 Title: Abuse in France: "Is Anyone Thinking of the Children?"
 Title: Putin's War of Aggression: A Journey Along the Dnipro in Wartime Ukraine
-Title: Online Scams: The Shady World of Fraudulent Investment Sites
-Title: The Future of Europe: Canada in the EU Sounds Crazy. Is It?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,20 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal
-Title: Russian glide bomb attack on Zaporizhzhia kills at least 20 people
-Title: Twelve killed in attack on airport in Saudi capital Riyadh
-Title: US murderer Christa Pike discharged from hospital 10 days after failed execution
-Title: Four dead and thousands without power after Hurricane Isaias lashes US
+Title: Brazil sees record fall in Amazon deforestation as key election looms
+Title: Trump waives several Russia sanctions as row with Zelensky intensifies
+Title: Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'
+Title: Three men jailed for 158 years each for murdering Australian and US surfers in Mexico
+Title: Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
+Title: Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story
+Title: Guinea-Bissau denies it has approved controversial vaccine trial in newborns
 Title: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
 Title: ICJ judge Navi Pillay wins Nobel peace prize for promoting international law
-Title: Isaias strengthens to become first Atlantic hurricane of 2026 season
-Title: Egyptian journalists plan weekend protest over detention of six colleagues
-Title: Scientists discover 180,000 giant tortoises on one Seychelles island
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-970845
+971825
 $ date -u +%s
-1791675675
+1792220497
