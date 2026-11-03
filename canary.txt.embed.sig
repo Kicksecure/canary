@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETv8UUWZchfSDwKQpDwKypQQP9bwZYAUa4iIHw2yz/mQ3U+SvQr2bdBqPiYm+exXZdtNzL6T32Inzfxhy3PPOtw0=
+RWQ6KRormNEEThVHuHdZvoXYHW/A2cT15Kr5ckuBaiFduqJimuyRX8nAXu7dhT1l1emVPPNimH1kXUjtdvSzPCOk5am7SA/Rrg8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 03 Nov 2026 09:59:47 +0000
+Tue, 03 Nov 2026 10:02:39 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Minority Rights in the Midterms: A Democratic Recoil from Transgender Rights
@@ -77,4 +77,4 @@ Title: Egypt fines prominent editor Lina Attalah and shuts independent news outl
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
 974379
 $ date -u +%s
-1793699995
+1793700168
