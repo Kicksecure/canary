@@ -44,14 +44,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Mon, 19 Oct 2026 04:50:35 +0000
+Tue, 03 Nov 2026 09:59:47 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Minority Rights in the Midterms: A Democratic Recoil from Transgender Rights
+Title: Crisis in Yemen: "Imperative that World Powers Resolutely Defend International Maritime Law"
 Title: Leaving the US: The Erosion of My American Dream
 Title: Three Years of the Gaza War through the Eyes of Soldiers: "The Rule Was: 'Shoot Everyone You See'"
 Title: "Exploited State Secrets for Profit": German Intelligence Rocked by Espionage Arrest of Former Chief
-Title: Abuse in France: "Is Anyone Thinking of the Children?"
-Title: Putin's War of Aggression: A Journey Along the Dnipro in Wartime Ukraine
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -61,18 +61,18 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Macron calls for 'calm and order' after riots across France
-Title: France's government under pressure after weekend of widespread violence
-Title: Major fire at Canada military base leaves four dead, dozens injured 
-Title: Inside the shadowy world of anti-Putin sabotage from within Russia
-Title: Trump says suspension of Russia sanctions is to keep peace negotiations going
+Title: Americans head to the polls for elections that could define Trump's closing chapter
+Title: US strikes Iranian island ahead of midterm elections
+Title: Supreme Court rejects Trump's request to stop California counting disputed votes
+Title: Russian bombing kills 29 people at Ukraine aid centre, Kyiv says
+Title: Tenerife striker De Miguel dies after on-field collision 
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
-Title: Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story
-Title: Guinea-Bissau denies it has approved controversial vaccine trial in newborns
+Title: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
+Title: Sudanese diaspora and human rights groups denounce UAE nominee for UN top job
+Title: Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-972106
+974379
 $ date -u +%s
-1792385443
+1793699995
