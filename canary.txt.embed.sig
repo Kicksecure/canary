@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEEThVHuHdZvoXYHW/A2cT15Kr5ckuBaiFduqJimuyRX8nAXu7dhT1l1emVPPNimH1kXUjtdvSzPCOk5am7SA/Rrg8=
+RWQ6KRormNEETlk5VxOg3A0NW+Gi1wi+FGIi5s4wU4afb81RpWh/KGwBOyjB+YAdLhv7YbY4urVIFGGubYR9T2bZtCfhyb7+Rg8=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Tue, 03 Nov 2026 10:02:39 +0000
+Wed, 11 Nov 2026 19:36:11 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Minority Rights in the Midterms: A Democratic Recoil from Transgender Rights
@@ -63,18 +63,19 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Americans head to the polls for elections that could define Trump's closing chapter
-Title: US strikes Iranian island ahead of midterm elections
-Title: Supreme Court rejects Trump's request to stop California counting disputed votes
-Title: Russian bombing kills 29 people at Ukraine aid centre, Kyiv says
-Title: Tenerife striker De Miguel dies after on-field collision 
+Title: Spain sees widespread disruption in first general strike for 14 years
+Title: Russia-Ukraine talks turn to post-war security but end without breakthrough
+Title: US Treasury Secretary Scott Bessent relocated after alleged Iranian threats
+Title: Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax
+Title: Indonesia's vice president resigns amid signs ruling alliance is fraying
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
-Title: Sudanese diaspora and human rights groups denounce UAE nominee for UN top job
-Title: Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr
+Title: Collision of two trains in Egypt kills at least seven
+Title: How African philosophies inspired a new approach to staging film festivals in Manchester
+Title: Kenyan doomsday sect leader jailed for 200 years for murder of 190 children
+Title: ANC faces bruising defeat in South African local elections with 80% of ballots counted
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-974379
+975467
 $ date -u +%s
-1793700168
+1794425778
