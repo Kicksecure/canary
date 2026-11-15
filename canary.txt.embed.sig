@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETlk5VxOg3A0NW+Gi1wi+FGIi5s4wU4afb81RpWh/KGwBOyjB+YAdLhv7YbY4urVIFGGubYR9T2bZtCfhyb7+Rg8=
+RWQ6KRormNEETmYE48vG1bmI2zUoH8lhiO/Sr0vSTDwh1R6Bn4xTFAbwo8lhjjo+Yy9YSP798lBgWOKHgYKQl7lQgJxajnSc9wk=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Wed, 11 Nov 2026 19:36:11 +0000
+Sun, 15 Nov 2026 07:45:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Minority Rights in the Midterms: A Democratic Recoil from Transgender Rights
@@ -63,19 +63,18 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: Spain sees widespread disruption in first general strike for 14 years
-Title: Russia-Ukraine talks turn to post-war security but end without breakthrough
-Title: US Treasury Secretary Scott Bessent relocated after alleged Iranian threats
-Title: Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax
-Title: Indonesia's vice president resigns amid signs ruling alliance is fraying
+Title: US has floated Ukraine ceding Donbas for Nato membership, Zelensky says
+Title: Copper wire upgrade behind US flight suspension, transport secretary says
+Title: Pope Leo speaks of community 'suffering' on visit to remote Andes town
+Title: Judge temporarily blocks Trump from closing Washington DC golf course for renovation
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
+Title: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
 Title: Collision of two trains in Egypt kills at least seven
 Title: How African philosophies inspired a new approach to staging film festivals in Manchester
 Title: Kenyan doomsday sect leader jailed for 200 years for murder of 190 children
-Title: ANC faces bruising defeat in South African local elections with 80% of ballots counted
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-975467
+975923
 $ date -u +%s
-1794425778
+1794728763
