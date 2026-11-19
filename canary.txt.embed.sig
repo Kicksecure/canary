@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETg+VCYbBuMwnFgeKpEsGclEOhCwjhM3EFUP5CbkpQa1sC5FkIo3HE49Y8w3VeaeuPO0173Vd5GujTyP5t9u8UA4=
+RWQ6KRormNEETh/yU8i/QzCuWu9ObLr3MHSxsimZg7IXh3+xdBBX1igpv6Dkk8cxlRoD/Pl0PHp8edUpZReV9/nU8eB6PzeFTgQ=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,7 +46,7 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 19 Nov 2026 08:43:18 +0000
+Thu, 19 Nov 2026 09:57:56 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
 Title: Internal Documents: How Donald Trump Became a Toxic Client for Deutsche Bank
@@ -63,10 +63,10 @@ Title: Silicon Valley Bank collapse renews calls to address disparities impactin
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
 Title: This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls
-Title: Inside the old gas pipeline where Ukraine is fighting an underground war with Russia
-Title: Myanmar faces historic genocide verdict at UN court over Rohingya massacres
+Title: Dozens missing after boat carrying 100 migrants sinks off Senegal's coast
 Title: Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut
 Title: Van Gogh painting sells for record $190.4m after row over its Nazi history
+Title: Crimean Bridge attacked again, Russia says
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
 Title: One in four women globally unable to refuse sex within marriage, says UN
@@ -75,6 +75,6 @@ Title: European Commission accused of sugarcoating figures to release funds to E
 Title: US basketball player arrested with 75lb of marijuana at Nigerian airport, say authorities
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-976560
+976565
 $ date -u +%s
-1795077805
+1795082284
