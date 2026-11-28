@@ -44,13 +44,12 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Thu, 19 Nov 2026 09:57:56 +0000
+Sat, 28 Nov 2026 15:07:16 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: The Summit in Shenzhen: Kevin Rudd Warns against War in Taiwan
 Title: Internal Documents: How Donald Trump Became a Toxic Client for Deutsche Bank
 Title: The Bank and the Oligarchs: How Deutsche Bank Continued Expanding in Russia Despite the Warning Signs
-Title: Minority Rights in the Midterms: A Democratic Recoil from Transgender Rights
-Title: Crisis in Yemen: "Imperative that World Powers Resolutely Defend International Maritime Law"
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -60,19 +59,19 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls
-Title: Dozens missing after boat carrying 100 migrants sinks off Senegal's coast
-Title: Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut
-Title: Van Gogh painting sells for record $190.4m after row over its Nazi history
-Title: Crimean Bridge attacked again, Russia says
+Title: Argentina's bid to stop Falklands oil drilling rejected
+Title: Two staff killed in Israeli strike on Gaza medical clinic, MSF says
+Title: Afghanistan explosion kills 10 students and injures more than 100, official says
+Title: Spanish PM and rivals rally supporters in final pitch for votes
+Title: OpenAI counter-sues Apple over alleged theft of trade secrets
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: One in four women globally unable to refuse sex within marriage, says UN
-Title: Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling
-Title: European Commission accused of sugarcoating figures to release funds to Egypt
-Title: US basketball player arrested with 75lb of marijuana at Nigerian airport, say authorities
+Title: Mad about mara: the DIY dance movement helping young Nigerians escape the daily grind
+Title: At least 31 killed as fuel tanker crash ignites large fire on Cairo highway
+Title: Swiss tourist killed and British and Americans injured by elephants in Cameroon
+Title: Sri Lankan asylum seeker killed himself after being sent by UK to Eswatini
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-976565
+977949
 $ date -u +%s
-1795082284
+1795878445
